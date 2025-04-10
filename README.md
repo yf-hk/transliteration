@@ -1,11 +1,11 @@
 <p align="center"><img src="https://yf-hk.github.io/transliteration/transliteration.png" alt="Transliteration"></p>
 
-[![Build Status](https://img.shields.io/circleci/project/github/yf-hk/transliteration/master.svg)](https://circleci.com/gh/yf-hk/transliteration)
-[![Coverage Status](https://coveralls.io/repos/github/yf-hk/transliteration/badge.svg?branch=master)](https://coveralls.io/github/yf-hk/transliteration?branch=master)
+[![Build Status](https://github.com/yf-hk/transliteration/actions/workflows/build.yml/badge.svg)](https://github.com/yf-hk/transliteration/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/yf-hk/transliteration/badge.svg?branch=main)](https://coveralls.io/github/yf-hk/transliteration?branch=main)
 [![NPM Version](https://img.shields.io/npm/v/transliteration.svg)](https://www.npmjs.com/package/transliteration)
 [![NPM Download](https://img.shields.io/npm/dm/transliteration.svg)](https://www.npmjs.com/package/transliteration)
 [![JSDelivr Download](https://data.jsdelivr.com/v1/package/npm/transliteration/badge)](https://www.jsdelivr.com/package/npm/transliteration)
-[![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/yf-hk/transliteration/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/yf-hk/transliteration/blob/main/LICENSE.txt)
 
 # Transliteration
 
