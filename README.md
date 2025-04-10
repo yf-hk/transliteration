@@ -7,15 +7,44 @@
 [![JSDelivr Download](https://data.jsdelivr.com/v1/package/npm/transliteration/badge)](https://www.jsdelivr.com/package/npm/transliteration)
 [![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/dzcpy/transliteration/blob/master/LICENSE.txt)
 
+# Transliteration
+
 Universal Unicode to Latin transliteration + slugify module. Works on all platforms and with all major languages.
 
-## Demo
+**[Try it out online →](http://dzcpy.github.io/transliteration)**
 
-[Try it out](http://dzcpy.github.io/transliteration)
+## Table of Contents
 
-## Compatibility / Browser support
+- [Features](#features)
+- [Compatibility](#compatibility)
+- [Installation](#installation)
+  - [Node.js / React Native](#nodejs--react-native)
+  - [Browser (CDN)](#browser-cdn)
+  - [CLI](#cli)
+- [Usage](#usage)
+  - [Transliterate Function](#transliteratestr-options)
+  - [Global Configuration](#transliterateconfigoptionsobj-reset--false)
+  - [Slugify Function](#slugifystr-options)
+  - [Slugify Configuration](#slugifyconfigoptionsobj-reset--false)
+  - [CLI Usage](#cli-usage)
+- [Known Issues](#known-issues)
+- [License](#license)
 
-IE 9+ and all modern browsers, Node.js, Web Worker, React Native and CLI
+## Features
+
+- Convert Unicode characters to their Latin equivalents
+- Create URL-friendly slugs from any Unicode string
+- Customizable transliteration options
+- Works in Node.js, browsers, and command-line
+- TypeScript support
+- Lightweight and dependency-free
+
+## Compatibility
+
+- Browsers: IE 9+ and all modern browsers
+- Server: Node.js (all versions)
+- Mobile: React Native
+- Environments: Web Workers, CLI
 
 ## Installation
 
@@ -25,295 +54,239 @@ IE 9+ and all modern browsers, Node.js, Web Worker, React Native and CLI
 npm install transliteration --save
 ```
 
-If you are using Typescript, please do not install `@types/transliteration`. Since in verson `2.x`, type definition files are built-in within this project.
+> **Note for TypeScript users:** Type definition files are built into this project since version `2.x`. Do not install `@types/transliteration`.
+
+Basic usage example:
 
 ```javascript
 import { transliterate as tr, slugify } from 'transliteration';
 
-tr('你好, world!');
-// Ni Hao , world!
-slugify('你好, world!');
-// ni-hao-world
+// Transliteration
+tr('你好, world!');  // => 'Ni Hao , world!'
+
+// Slugify
+slugify('你好, world!');  // => 'ni-hao-world'
 ```
 
-### Browser (CDN):
+### Browser (CDN)
+
+#### UMD Build (Global Variables)
 
 ```html
-<!-- UMD build -->
-<script
-  async
-  defer
-  src="https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.umd.min.js"
-></script>
+<script src="https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.umd.min.js"></script>
 <script>
-  console.log(transliterate('你好'));
+  // Available as global variables
+  transliterate('你好, World');  // => 'Ni Hao , World'
+  slugify('Hello, 世界');       // => 'hello-shi-jie'
+  
+  // Legacy method (will be removed in next major version)
+  transl('Hola, mundo');       // => 'hola-mundo'
 </script>
 ```
 
+#### ES Module
+
 ```html
-<!-- ESM build -->
 <script type="module">
   import { transliterate } from 'https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.esm.min.js';
-  console.log(transliterate('你好'));
+  console.log(transliterate('你好'));  // => 'Ni Hao'
 </script>
-```
-
-`transliteration` can be loaded as an AMD / CommonJS module, or as global variables (UMD).
-
-When you use it in the browser, by default it creates three global variables under `window` object:
-
-```javascript
-transliterate('你好, World');
-// window.transliterate
-slugify('Hello, 世界');
-// window.slugify
-transl('Hola, mundo'); // For backward compatibility only, will be removed in next major version
-// window.transl
 ```
 
 ### CLI
 
 ```bash
+# Global installation
 npm install transliteration -g
 
-transliterate 你好 # Ni Hao
-slugify 你好 # ni-hao
-echo 你好 | slugify -S # ni-hao
+# Basic usage
+transliterate 你好                # => Ni Hao
+slugify 你好                      # => ni-hao
+
+# Using stdin
+echo 你好 | slugify -S           # => ni-hao
 ```
 
 ## Usage
 
 ### transliterate(str, [options])
 
-Transliterate the string `str` and return the result. Characters which this module can't handle will default to the placeholder character(s) given in the `unknown` option. If it's not provided, they will be removed.
+Transliterates the string `str` and returns the result. Characters that this module cannot handle will default to the placeholder character(s) specified in the `unknown` option. If no placeholder is provided, these characters will be removed.
 
-**Options:** (optional)
+#### Options
+
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `ignore` | `string[]` | `[]` | List of strings to ignore (keep unchanged) |
+| `replace` | `object` or `array` | `{}` | Custom replacements before transliteration |
+| `replaceAfter` | `object` or `array` | `{}` | Custom replacements after transliteration |
+| `trim` | `boolean` | `false` | Whether to trim the result string |
+| `unknown` | `string` | `''` | Placeholder for unknown characters |
+| `fixChineseSpacing` | `boolean` | `true` | Add spaces between transliterated Chinese characters |
+
+#### Example
 
 ```javascript
-{
-  /**
-   * Ignore a list of strings untouched
-   * @example tr('你好，世界', { ignore: ['你'] }) // 你 Hao , Shi Jie
-   */
-  ignore?: string[];
-  /**
-   * Replace a list of string / regex in the source string with the provided target string before transliteration
-   * The option can either be an array or an object
-   * @example tr('你好，世界', { replace: {你: 'You'} }) // You Hao , Shi Jie
-   * @example tr('你好，世界', { replace: [['你', 'You']] }) // You Hao , Shi Jie
-   * @example tr('你好，世界', { replace: [[/你/g, 'You']] }) // You Hao , Shi Jie
-   */
-  replace?: OptionReplaceCombined;
-  /**
-   * Same as `replace` but after transliteration
-   */
-  replaceAfter?: OptionReplaceCombined;
-  /**
-   * Decides whether or not to trim the result string after transliteration
-   * @default false
-   */
-  trim?: boolean;
-  /**
-   * Any characters not known by this library will be replaced by a specific string `unknown`
-   * @default ''
-   */
-  unknown?: string;
-  /**
-   * Fix Chinese spacing. For example, `你好` is transliterated to `Ni Hao` instead of `NiHao`. If you don't need to transliterate Chinese characters, set it to false to false to improve performance.
-   * @default true
-   */
-  fixChineseSpacing?: boolean;
-}
+import { transliterate as tr } from 'transliteration';
+
+// Basic usage
+tr('你好，世界');                  // => 'Ni Hao , Shi Jie'
+tr('Γεια σας, τον κόσμο');        // => 'Geia sas, ton kosmo'
+tr('안녕하세요, 세계');             // => 'annyeonghaseyo, segye'
+
+// With options
+tr('你好，世界', { 
+  replace: { 你: 'You' }, 
+  ignore: ['好'] 
+});                              // => 'You 好, Shi Jie'
+
+// Array form of replace option
+tr('你好，世界', { 
+  replace: [['你', 'You']], 
+  ignore: ['好'] 
+});                              // => 'You 好, Shi Jie'
 ```
 
 ### transliterate.config([optionsObj], [reset = false])
 
-Bind option object globally so any following calls will use `optionsObj` by default. If `optionsObj` is not given, it will return current default option object.
+Binds option object globally so all subsequent calls will use `optionsObj` by default. If `optionsObj` is not provided, it will return the current default option object.
 
 ```javascript
-import { transliterate as tr } from 'transliteration';
-tr('你好，世界');
-// Ni Hao , Shi Jie
-tr('Γεια σας, τον κόσμο');
-// Geia sas, ton kosmo
-tr('안녕하세요, 세계');
-// annyeonghaseyo, segye
-tr('你好，世界', { replace: { 你: 'You' }, ignore: ['好'] });
-// You 好,Shi Jie
-tr('你好，世界', { replace: [['你', 'You']], ignore: ['好'] });
-// You 好,Shi Jie (option in array form)
+// Set global configuration
 tr.config({ replace: [['你', 'You']], ignore: ['好'] });
-tr('你好，世界'); // You 好,Shi Jie
-console.log(tr.config());
-// { replace: [['你', 'You']], ignore: ['好'] }
+
+// All calls will use this configuration
+tr('你好，世界');                  // => 'You 好, Shi Jie'
+
+// View current configuration
+console.log(tr.config());        // => { replace: [['你', 'You']], ignore: ['好'] }
+
+// Reset to defaults
 tr.config(undefined, true);
-console.log(tr.config());
-// {}
+console.log(tr.config());        // => {}
 ```
 
 ### slugify(str, [options])
 
-Convert Unicode `str` into a slug string, making sure it is safe to be used in an URL or in a file name.
+Converts Unicode `str` into a slug string, ensuring it is safe to use in a URL or filename.
 
-**Options:** (optional)
+#### Options
 
-```javascript
-  /**
-   * Ignore a list of strings untouched
-   * @example tr('你好，世界', { ignore: ['你'] }) // 你 Hao , Shi Jie
-   */
-  ignore?: string[];
-  /**
-   * Replace a list of string / regex in the source string with the provided target string before transliteration
-   * The option can either be an array or an object
-   * @example tr('你好，世界', { replace: {你: 'You'} }) // You Hao , Shi Jie
-   * @example tr('你好，世界', { replace: [['你', 'You']] }) // You Hao , Shi Jie
-   * @example tr('你好，世界', { replace: [[/你/g, 'You']] }) // You Hao , Shi Jie
-   */
-  replace?: OptionReplaceCombined;
-  /**
-   * Same as `replace` but after transliteration
-   */
-  replaceAfter?: OptionReplaceCombined;
-  /**
-   * Decides whether or not to trim the result string after transliteration
-   * @default false
-   */
-  trim?: boolean;
-  /**
-   * Any characters not known by this library will be replaced by a specific string `unknown`
-   * @default ''
-   */
-  unknown?: string;
-  /**
-   * Whether the result need to be converted into lowercase
-   * @default true
-   */
-  lowercase?: boolean;
-  /**
-   * Whether the result need to be converted into uppercase
-   * @default false
-   */
-  uppercase?: boolean;
-  /**
-   * Custom separator string
-   * @default '-'
-   */
-  separator?: string;
-  /**
-   * Allowed characters.
-   * When `allowedChars` is set to `'abc'`, only characters which match `/[abc]/g` will be preserved.
-   * Other characters will all be converted to `separator`
-   * @default 'a-zA-Z0-9-_.~''
-   */
-  allowedChars?: string;
-  /**
-   * Fix Chinese spacing. For example, `你好` is transliterated to `Ni Hao` instead of `NiHao`. If you don't need to transliterate Chinese characters, set it to false to false to improve performance.
-   */
-  fixChineseSpacing?: boolean;
-```
+| Option | Type | Default | Description |
+|--------|------|---------|-------------|
+| `ignore` | `string[]` | `[]` | List of strings to ignore (keep unchanged) |
+| `replace` | `object` or `array` | `{}` | Custom replacements before transliteration |
+| `replaceAfter` | `object` or `array` | `{}` | Custom replacements after transliteration |
+| `trim` | `boolean` | `false` | Whether to trim the result string |
+| `unknown` | `string` | `''` | Placeholder for unknown characters |
+| `lowercase` | `boolean` | `true` | Convert result to lowercase |
+| `uppercase` | `boolean` | `false` | Convert result to uppercase |
+| `separator` | `string` | `-` | Character used between words |
+| `allowedChars` | `string` | `a-zA-Z0-9-_.~'` | Regex pattern of allowed characters |
+| `fixChineseSpacing` | `boolean` | `true` | Add spaces between transliterated Chinese characters |
+
+#### Example
 
 ```javascript
-slugify('你好，世界');
-// ni-hao-shi-jie
-slugify('你好，世界', { lowercase: false, separator: '_' });
-// Ni_Hao_Shi_Jie
+// Basic usage
+slugify('你好，世界');                // => 'ni-hao-shi-jie'
+
+// With options
+slugify('你好，世界', { 
+  lowercase: false, 
+  separator: '_' 
+});                                // => 'Ni_Hao_Shi_Jie'
+
+// Using replace option
 slugify('你好，世界', {
-  replace: { 你好: 'Hello', 世界: 'world' },
-  separator: '_',
-});
-// hello_world
-slugify('你好，世界', {
-  replace: [
-    ['你好', 'Hello'],
-    ['世界', 'world'],
-  ],
-  separator: '_',
-}); // replace option in array form)
-// hello_world
-slugify('你好，世界', { ignore: ['你好'] });
-// 你好shi-jie
+  replace: { 
+    你好: 'Hello', 
+    世界: 'world' 
+  },
+  separator: '_'
+});                                // => 'hello_world'
+
+// Using ignore option
+slugify('你好，世界', { 
+  ignore: ['你好'] 
+});                                // => '你好shi-jie'
 ```
 
 ### slugify.config([optionsObj], [reset = false])
 
-Bind option object globally so any following calls will use `optionsObj` by default. If `optionsObj` is not given, it will return current default option object.
+Binds option object globally so all subsequent calls will use `optionsObj` by default. If `optionsObj` is not provided, it will return the current default option object.
 
 ```javascript
+// Set global configuration
 slugify.config({ lowercase: false, separator: '_' });
-slugify('你好，世界');
-// Ni_Hao_Shi_Jie
-console.log(slugify.config());
-// { lowercase: false, separator: "_" }
-slugify.config({ replace: [['你好', 'Hello']] });
-slugify('你好, world!');
-// This equals slugify('你好, world!', { replace: [['你好', 'Hello']] });
-console.log(slugify.config());
-// { replace: [['你好', 'Hello']] }
+
+// All calls will use this configuration
+slugify('你好，世界');              // => 'Ni_Hao_Shi_Jie'
+
+// View current configuration
+console.log(slugify.config());    // => { lowercase: false, separator: "_" }
+
+// Reset to defaults
 slugify.config(undefined, true);
-console.log(slugify.config());
-// {}
+console.log(slugify.config());    // => {}
 ```
 
 ### CLI Usage
 
+#### Transliterate Command
+
 ```
-➜  ~ transliterate --help
-Usage: transliterate <unicode> [options]
+transliterate <unicode> [options]
 
 Options:
-  --version      Show version number                                                       [boolean]
-  -u, --unknown  Placeholder for unknown characters                           [string] [default: ""]
-  -r, --replace  Custom string replacement                                     [array] [default: []]
-  -i, --ignore   String list to ignore                                         [array] [default: []]
-  -S, --stdin    Use stdin as input                                       [boolean] [default: false]
-  -h, --help                                                                               [boolean]
+  --version      Show version number                                   [boolean]
+  -u, --unknown  Placeholder for unknown characters       [string] [default: ""]
+  -r, --replace  Custom string replacement                 [array] [default: []]
+  -i, --ignore   String list to ignore                     [array] [default: []]
+  -S, --stdin    Use stdin as input                   [boolean] [default: false]
+  -h, --help     Show help information                             [boolean]
 
 Examples:
-  transliterate "你好, world!" -r 好=good -r          Replace `,` with `!`, `world` with `shijie`.
-  "world=Shi Jie"                                     Result: Ni good, Shi Jie!
-  transliterate "你好，世界!" -i 你好 -i ，           Ignore `你好` and `，`.
-                                                      Result: 你好，Shi Jie !
+  transliterate "你好, world!" -r 好=good -r "world=Shi Jie"
+  transliterate "你好，世界!" -i 你好 -i ，
 ```
 
+#### Slugify Command
+
 ```
-➜  ~ slugify --help
-Usage: slugify <unicode> [options]
+slugify <unicode> [options]
 
 Options:
-  --version        Show version number                                                     [boolean]
-  -U, --unknown    Placeholder for unknown characters                         [string] [default: ""]
-  -l, --lowercase  Returns result in lowercase                             [boolean] [default: true]
-  -u, --uppercase  Returns result in uppercase                            [boolean] [default: false]
-  -s, --separator  Separator of the slug                                     [string] [default: "-"]
-  -r, --replace    Custom string replacement                                   [array] [default: []]
-  -i, --ignore     String list to ignore                                       [array] [default: []]
-  -S, --stdin      Use stdin as input                                     [boolean] [default: false]
-  -h, --help                                                                               [boolean]
+  --version        Show version number                                 [boolean]
+  -U, --unknown    Placeholder for unknown characters     [string] [default: ""]
+  -l, --lowercase  Returns result in lowercase         [boolean] [default: true]
+  -u, --uppercase  Returns result in uppercase        [boolean] [default: false]
+  -s, --separator  Separator of the slug                 [string] [default: "-"]
+  -r, --replace    Custom string replacement               [array] [default: []]
+  -i, --ignore     String list to ignore                   [array] [default: []]
+  -S, --stdin      Use stdin as input                 [boolean] [default: false]
+  -h, --help       Show help information                           [boolean]
 
 Examples:
-  slugify "你好, world!" -r 好=good -r "world=Shi     Replace `,` with `!` and `world` with
-  Jie"                                                `shijie`.
-                                                      Result: ni-good-shi-jie
-  slugify "你好，世界!" -i 你好 -i ，                 Ignore `你好` and `，`.
-                                                      Result: 你好，shi-jie
-
+  slugify "你好, world!" -r 好=good -r "world=Shi Jie"
+  slugify "你好，世界!" -i 你好 -i ，
 ```
 
-## Caveats
+## Known Issues
 
-Currently, `transliteration` only supports 1 to 1 code map (from Unicode to Latin). It is the simplest way to implement, but there are some limitations when dealing with polyphonic characters. It does not work well with all languages, please test all possible situations before using it. Some known issues are:
+Currently, `transliteration` only supports 1-to-1 code mapping (from Unicode to Latin). This is the simplest implementation approach, but it has limitations with polyphonic characters. Please test thoroughly with your specific languages before using in production.
 
-- **Chinese:** Polyphonic characters are not always transliterated correctly. Alternative: `pinyin`.
+Known language-specific issues:
 
-- **Japanese:** Most Japanese Kanji characters are transliterated into Chinese Pinyin because of the overlapped code map in Unicode. Also there are many polyphonic characters in Japanese which makes it impossible to transliterate Japanese Kanji correctly without tokenizing the sentence. Consider using `kuroshiro` for a better Kanji -> Romaji conversion.
+| Language | Issue | Alternative |
+|----------|-------|-------------|
+| **Chinese** | Polyphonic characters may not transliterate correctly | [`pinyin`](https://www.npmjs.com/package/pinyin) |
+| **Japanese** | Kanji characters often convert to Chinese Pinyin due to Unicode overlap | [`kuroshiro`](https://www.npmjs.com/package/kuroshiro) |
+| **Thai** | Not working properly | [Issue #67](https://github.com/dzcpy/transliteration/issues/67) |
+| **Cyrillic** | May be inaccurate for specific languages like Bulgarian | - |
 
-- **Thai:** Currently it is not working. If you know how to fix it, please comment on [this](https://github.com/dzcpy/transliteration/issues/67) issue.
+If you find any other issues, please [raise a ticket](https://github.com/dzcpy/transliteration/issues).
 
-- **Cyrillic:** Cyrillic characters are overlapped between a few languages. The result might be inaccurate in some specific languages, for example Bulgarian.
-
-If you find any other issues, please raise a ticket.
-
-### License
+## License
 
 MIT
