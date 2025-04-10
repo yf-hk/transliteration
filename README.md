@@ -1,4 +1,4 @@
-<p align="center"><img src="http://dzcpy.github.io/transliteration/transliteration.png" alt="Transliteration"></p>
+<p align="center"><img src="https://yf-hk.github.io/transliteration/transliteration.png" alt="Transliteration"></p>
 
 [![Build Status](https://img.shields.io/circleci/project/github/dzcpy/transliteration/master.svg)](https://circleci.com/gh/dzcpy/transliteration)
 [![Coverage Status](https://coveralls.io/repos/github/dzcpy/transliteration/badge.svg?branch=master)](https://coveralls.io/github/dzcpy/transliteration?branch=master)
@@ -11,24 +11,34 @@
 
 Universal Unicode to Latin transliteration + slugify module. Works on all platforms and with all major languages.
 
-**[Try it out online →](http://dzcpy.github.io/transliteration)**
+**[Try it out online →](https://yf-hk.github.io/transliteration)**
 
 ## Table of Contents
 
-- [Features](#features)
-- [Compatibility](#compatibility)
-- [Installation](#installation)
-  - [Node.js / React Native](#nodejs--react-native)
-  - [Browser (CDN)](#browser-cdn)
-  - [CLI](#cli)
-- [Usage](#usage)
-  - [Transliterate Function](#transliteratestr-options)
-  - [Global Configuration](#transliterateconfigoptionsobj-reset--false)
-  - [Slugify Function](#slugifystr-options)
-  - [Slugify Configuration](#slugifyconfigoptionsobj-reset--false)
-  - [CLI Usage](#cli-usage)
-- [Known Issues](#known-issues)
-- [License](#license)
+- [Transliteration](#transliteration)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Compatibility](#compatibility)
+  - [Installation](#installation)
+    - [Node.js / React Native](#nodejs--react-native)
+    - [Browser (CDN)](#browser-cdn)
+      - [UMD Build (Global Variables)](#umd-build-global-variables)
+      - [ES Module](#es-module)
+    - [CLI](#cli)
+  - [Usage](#usage)
+    - [transliterate(str, \[options\])](#transliteratestr-options)
+      - [Options](#options)
+      - [Example](#example)
+    - [transliterate.config(\[optionsObj\], \[reset = false\])](#transliterateconfigoptionsobj-reset--false)
+    - [slugify(str, \[options\])](#slugifystr-options)
+      - [Options](#options-1)
+      - [Example](#example-1)
+    - [slugify.config(\[optionsObj\], \[reset = false\])](#slugifyconfigoptionsobj-reset--false)
+    - [CLI Usage](#cli-usage)
+      - [Transliterate Command](#transliterate-command)
+      - [Slugify Command](#slugify-command)
+  - [Known Issues](#known-issues)
+  - [License](#license)
 
 ## Features
 
