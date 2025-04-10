@@ -1,0 +1,31 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 10
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build
+      run: npm run build
+      
+    - name: Test and upload coverage to Coveralls
+      run: npm run coveralls
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }} 
