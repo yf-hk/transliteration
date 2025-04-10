@@ -1,11 +1,11 @@
 <p align="center"><img src="https://yf-hk.github.io/transliteration/transliteration.png" alt="Transliteration"></p>
 
-[![Build Status](https://img.shields.io/circleci/project/github/dzcpy/transliteration/master.svg)](https://circleci.com/gh/dzcpy/transliteration)
-[![Coverage Status](https://coveralls.io/repos/github/dzcpy/transliteration/badge.svg?branch=master)](https://coveralls.io/github/dzcpy/transliteration?branch=master)
+[![Build Status](https://img.shields.io/circleci/project/github/yf-hk/transliteration/master.svg)](https://circleci.com/gh/yf-hk/transliteration)
+[![Coverage Status](https://coveralls.io/repos/github/yf-hk/transliteration/badge.svg?branch=master)](https://coveralls.io/github/yf-hk/transliteration?branch=master)
 [![NPM Version](https://img.shields.io/npm/v/transliteration.svg)](https://www.npmjs.com/package/transliteration)
 [![NPM Download](https://img.shields.io/npm/dm/transliteration.svg)](https://www.npmjs.com/package/transliteration)
 [![JSDelivr Download](https://data.jsdelivr.com/v1/package/npm/transliteration/badge)](https://www.jsdelivr.com/package/npm/transliteration)
-[![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/dzcpy/transliteration/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/yf-hk/transliteration/blob/master/LICENSE.txt)
 
 # Transliteration
 
@@ -20,7 +20,23 @@ Universal Unicode to Latin transliteration + slugify module. Works on all platfo
   - [Features](#features)
   - [Compatibility](#compatibility)
   - [Installation](#installation)
+    - [Node.js / React Native](#nodejs--react-native)
+    - [Browser (CDN)](#browser-cdn)
+      - [UMD Build (Global Variables)](#umd-build-global-variables)
+      - [ES Module](#es-module)
+    - [CLI](#cli)
   - [Usage](#usage)
+    - [transliterate(str, \[options\])](#transliteratestr-options)
+      - [Options](#options)
+      - [Example](#example)
+    - [transliterate.config(\[optionsObj\], \[reset = false\])](#transliterateconfigoptionsobj-reset--false)
+    - [slugify(str, \[options\])](#slugifystr-options)
+      - [Options](#options-1)
+      - [Example](#example-1)
+    - [slugify.config(\[optionsObj\], \[reset = false\])](#slugifyconfigoptionsobj-reset--false)
+    - [CLI Usage](#cli-usage)
+      - [Transliterate Command](#transliterate-command)
+      - [Slugify Command](#slugify-command)
   - [Known Issues](#known-issues)
   - [License](#license)
 
@@ -276,10 +292,10 @@ Known language-specific issues:
 |----------|-------|-------------|
 | **Chinese** | Polyphonic characters may not transliterate correctly | [`pinyin`](https://www.npmjs.com/package/pinyin) |
 | **Japanese** | Kanji characters often convert to Chinese Pinyin due to Unicode overlap | [`kuroshiro`](https://www.npmjs.com/package/kuroshiro) |
-| **Thai** | Not working properly | [Issue #67](https://github.com/dzcpy/transliteration/issues/67) |
+| **Thai** | Not working properly | [Issue #67](https://github.com/yf-hk/transliteration/issues/67) |
 | **Cyrillic** | May be inaccurate for specific languages like Bulgarian | - |
 
-If you find any other issues, please [raise a ticket](https://github.com/dzcpy/transliteration/issues).
+If you find any other issues, please [raise a ticket](https://github.com/yf-hk/transliteration/issues).
 
 ## License
 
