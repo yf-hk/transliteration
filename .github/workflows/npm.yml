@@ -1,0 +1,38 @@
+name: NPM Publish
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+jobs:
+  publish:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set version variable
+        id: vars
+        run: |
+          APP_VERSION=${GITHUB_REF#refs/tags/}
+          echo "version: [$APP_VERSION]"
+          echo "{version}={$APP_VERSION}" >> $GITHUB_OUTPUT
+
+      - name: Set version in package.json
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+          registry-url: "https://registry.npmjs.org"
+      - run: yarn version --new-version $APP_VERSION --no-git-tag-version
+        env:
+          APP_VERSION: ${{ steps.vars.outputs.version }}
+
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+# vim:ft=yaml:et:ts=2:sw=2

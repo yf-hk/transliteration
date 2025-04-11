@@ -1,6 +1,5 @@
 {
   "name": "transliteration",
-  "version": "2.3.5",
   "description": "Unicode to ACSII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
   "main": "dist/node/src/node/index.js",
   "module": "dist/browser/bundle.esm.min.js",
@@ -23,7 +22,7 @@
     "postbuild": "(ver && (echo export * from '../types';>> dist/node/src/node/index.d.ts)) || (echo \"export * from '../types';\">> dist/node/src/node/index.d.ts)",
     "coverage": "nyc npm test",
     "coveralls": "nyc npm test && nyc report -r=text-lcov | coveralls",
-    "prepublish": "npm run lint && npm test && npm run build"
+    "prepublishOnly": "yarn install && npm run lint && npm test && npm run build"
   },
   "nyc": {
     "extension": [
