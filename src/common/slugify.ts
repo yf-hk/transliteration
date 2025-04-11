@@ -55,7 +55,7 @@ export class Slugify extends Transliterate {
       opt.ignore!,
     );
     if (sep) {
-      slug = slug.replace(RegExp(`^${sep}+|${sep}$`, 'g'), '');
+      slug = slug.replace(RegExp(`${sep}+|${sep}$`, 'g'), '');
     }
 
     if (opt.lowercase) {
