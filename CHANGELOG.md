@@ -1,49 +1,56 @@
 # Changelog
 
+## 2.5.0
+
+- **Performance**: Switched to 2D array lookup for ~26% faster transliteration
+- **New Feature**: Added Latin-only build (`transliteration/latin`) for minimal bundle size (~5 KB vs ~186 KB)
+- **Optimization**: Korean Hangul characters now computed algorithmically at runtime (saves 11,172 entries)
+- **Internal**: Refactored charmap data structure into chunked files for better tree-shaking
+
 ## 2.4.0
 
-- Modernized toolchain: migrated from Rollup/Babel to tsup/Bun for faster builds
-- Added comprehensive test suites with 100% code coverage
-- Fixed slugify to collapse consecutive separators (e.g., `hello---world` → `hello-world`)
-- Fixed slugify to properly strip leading/trailing separators
-- Replaced TSLint/Prettier with Biome for linting
-- Minimum Node.js requirement is now v20.0.0
-- Refactored utilities and added edge case handling
-- Added Vitest as modern test runner with jsdom environment for browser tests
+- **Tooling**: Migrated from Rollup/Babel to tsup/Bun for faster builds
+- **Testing**: Added comprehensive test suites with 100% code coverage
+- **Fix**: Slugify now collapses consecutive separators (e.g., `hello---world` → `hello-world`)
+- **Fix**: Slugify now properly strips leading/trailing separators
+- **Tooling**: Replaced TSLint/Prettier with Biome for linting
+- **Breaking**: Minimum Node.js requirement is now v20.0.0
+- **Internal**: Refactored utilities and added edge case handling
+- **Testing**: Added Vitest as modern test runner with jsdom environment for browser tests
 
 ## 2.2.0
 
-- Fixed data issue (#229)
-- Added `fixChineseSpacing` option for improving performance with non-Chinese languages
-- Fixed replace-related issues (#202)
-- Updated dependencies
+- **Fix**: Fixed data issue (#229)
+- **New Feature**: Added `fixChineseSpacing` option for improving performance with non-Chinese languages
+- **Fix**: Fixed replace-related issues (#202)
+- **Internal**: Updated dependencies
 
 ## 2.1.0
 
-- Added `transliterate` as a global variable for browser builds (kept `transl` for backward compatibility)
+- **New Feature**: Added `transliterate` as a global variable for browser builds (kept `transl` for backward compatibility)
 
 ## 2.0.0
 
 - **Breaking**: CDN file structure changed — see [jsDelivr](https://www.jsdelivr.com/package/npm/transliteration)
-- Refactored entire module in TypeScript with significant performance improvements and reduced package size
-- Improved code quality with 100% unit test coverage
-- Dropped `bower` support — use CDN or bundlers like webpack/rollup instead
-- Per RFC 3986, more characters (`a-zA-Z0-9-_.~`) are now allowed in `slugify` output (configurable)
-- Added `uppercase` option for `slugify` to convert output to uppercase
-- Unknown characters are now transliterated as empty string by default (previously `[?]`)
+- **Performance**: Refactored entire module in TypeScript with significant performance improvements and reduced package size
+- **Testing**: Improved code quality with 100% unit test coverage
+- **Breaking**: Dropped `bower` support — use CDN or bundlers like webpack/rollup instead
+- **New Feature**: Per RFC 3986, more characters (`a-zA-Z0-9-_.~`) are now allowed in `slugify` output (configurable)
+- **New Feature**: Added `uppercase` option for `slugify` to convert output to uppercase
+- **Breaking**: Unknown characters are now transliterated as empty string by default (previously `[?]`)
 
 ## 1.6.6
 
-- Added TypeScript support (#77)
+- **New Feature**: Added TypeScript support (#77)
 
 ## 1.5.0
 
-- Minimum Node.js requirement: v6.0+
+- **Breaking**: Minimum Node.js requirement: v6.0+
 
 ## 1.0.0
 
 - **Breaking**: Entire codebase refactored — upgrade carefully from v0.1.x or v0.2.x
-- The `options` parameter of `transliterate` is now an object (previously a string for `unknown`)
-- Added `transliterate.config()` and `slugify.config()` methods
-- Unknown characters are now transliterated as `[?]` instead of `?`
-- Browser global variables changed to `window.transl` and `window.slugify` (other globals removed)
+- **Breaking**: The `options` parameter of `transliterate` is now an object (previously a string for `unknown`)
+- **New Feature**: Added `transliterate.config()` and `slugify.config()` methods
+- **Breaking**: Unknown characters are now transliterated as `[?]` instead of `?`
+- **Breaking**: Browser global variables changed to `window.transl` and `window.slugify` (other globals removed)

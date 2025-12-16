@@ -1,6 +1,6 @@
 {
   "name": "transliteration",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
