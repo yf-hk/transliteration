@@ -10,14 +10,11 @@
   },
   "dependencies": {
     "preact": "^10.28.0",
-    "transliteration": "^2.3.5"
+    "transliteration": "^2.4.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.2",
     "rolldown-vite": "^7.2.11",
     "typescript": "^5.9.3"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@^7.2.11"
   }
 }
