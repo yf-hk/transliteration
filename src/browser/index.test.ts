@@ -10,7 +10,9 @@ describe('browser/transliterate()', () => {
   });
 
   it('should handle options', () => {
-    expect(transliterate('你好，世界！', { ignore: ['！'] })).toBe('Ni Hao,Shi Jie！');
+    expect(transliterate('你好，世界！', { ignore: ['！'] })).toBe(
+      'Ni Hao,Shi Jie！'
+    );
   });
 });
 

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { defaultOptions } from './slugify';
 import { slugify } from '../node';
 import type { OptionsSlugify } from '../types';
+import { defaultOptions } from './slugify';
 
 describe('slugify()', () => {
   it('should generate slugs correctly', () => {
@@ -114,7 +114,9 @@ describe('slugify() edge cases', () => {
   });
 
   it('should handle mixed case with uppercase option', () => {
-    expect(slugify('Hello World', { uppercase: true, lowercase: false })).toBe('HELLO-WORLD');
+    expect(slugify('Hello World', { uppercase: true, lowercase: false })).toBe(
+      'HELLO-WORLD'
+    );
   });
 
   it('should handle very long strings', () => {
@@ -130,8 +132,12 @@ describe('slugify() edge cases', () => {
   });
 
   it('should handle URL-safe characters in allowedChars', () => {
-    expect(slugify('hello~world', { allowedChars: 'a-zA-Z0-9~' })).toBe('hello~world');
-    expect(slugify('hello.world', { allowedChars: 'a-zA-Z0-9.' })).toBe('hello.world');
+    expect(slugify('hello~world', { allowedChars: 'a-zA-Z0-9~' })).toBe(
+      'hello~world'
+    );
+    expect(slugify('hello.world', { allowedChars: 'a-zA-Z0-9.' })).toBe(
+      'hello.world'
+    );
   });
 
   it('should handle custom separator with special regex characters', () => {
@@ -175,22 +181,36 @@ describe('slugify() with different scripts', () => {
 
 describe('slugify() real-world use cases', () => {
   it('should create URL-friendly slugs for blog titles', () => {
-    expect(slugify('How to Learn JavaScript in 2024!')).toBe('how-to-learn-javascript-in-2024');
-    expect(slugify('10 Tips & Tricks for Better Code')).toBe('10-tips-tricks-for-better-code');
+    expect(slugify('How to Learn JavaScript in 2024!')).toBe(
+      'how-to-learn-javascript-in-2024'
+    );
+    expect(slugify('10 Tips & Tricks for Better Code')).toBe(
+      '10-tips-tricks-for-better-code'
+    );
   });
 
   it('should create slugs for product names', () => {
-    expect(slugify('iPhone 15 Pro Max (256GB)')).toBe('iphone-15-pro-max-256gb');
-    expect(slugify('Nike Air Max 90 Black White')).toBe('nike-air-max-90-black-white');
+    expect(slugify('iPhone 15 Pro Max (256GB)')).toBe(
+      'iphone-15-pro-max-256gb'
+    );
+    expect(slugify('Nike Air Max 90 Black White')).toBe(
+      'nike-air-max-90-black-white'
+    );
   });
 
   it('should create slugs for file names', () => {
-    expect(slugify('My Document (Final Version).pdf', { separator: '_' })).toBe('my_document_final_version_.pdf');
+    expect(slugify('My Document (Final Version).pdf', { separator: '_' })).toBe(
+      'my_document_final_version_.pdf'
+    );
   });
 
   it('should create slugs for internationalized content', () => {
-    expect(slugify('北京烤鸭 Beijing Roast Duck')).toBe('bei-jing-kao-ya-beijing-roast-duck');
-    expect(slugify('寿司 Sushi ラーメン Ramen')).toBe('shou-si-sushi-ramen-ramen');
+    expect(slugify('北京烤鸭 Beijing Roast Duck')).toBe(
+      'bei-jing-kao-ya-beijing-roast-duck'
+    );
+    expect(slugify('寿司 Sushi ラーメン Ramen')).toBe(
+      'shou-si-sushi-ramen-ramen'
+    );
   });
 
   it('should handle edge cases in user-generated content', () => {

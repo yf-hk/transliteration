@@ -5,13 +5,13 @@
  */
 import { describe, expect, it } from 'vitest';
 import { charmap } from '../../data/charmap';
-import { defaultOptions, Transliterate } from './transliterate';
 import { transliterate as tr } from '../node';
 import type {
   OptionReplaceArray,
   OptionReplaceCombined,
   OptionReplaceObject,
 } from '../types';
+import { defaultOptions, Transliterate } from './transliterate';
 
 const DIGITS_REGEX = /\d+/;
 const DIGIT_GLOBAL_REGEX = /\d/g;
@@ -241,20 +241,22 @@ describe('transliterate()', () => {
 
   describe('Replace with regex', () => {
     it('should handle regex patterns in replace option', () => {
-      expect(
-        tr('test123test', { replace: [[DIGITS_REGEX, 'NUM']] })
-      ).toBe('testNUMtest');
+      expect(tr('test123test', { replace: [[DIGITS_REGEX, 'NUM']] })).toBe(
+        'testNUMtest'
+      );
     });
 
     it('should handle global regex patterns', () => {
-      expect(
-        tr('a1b2c3', { replace: [[DIGIT_GLOBAL_REGEX, 'X']] })
-      ).toBe('aXbXcX');
+      expect(tr('a1b2c3', { replace: [[DIGIT_GLOBAL_REGEX, 'X']] })).toBe(
+        'aXbXcX'
+      );
     });
 
     it('should handle regex with flags', () => {
       expect(
-        tr('Hello WORLD', { replace: [[WORLD_CASE_INSENSITIVE_REGEX, 'Earth']] })
+        tr('Hello WORLD', {
+          replace: [[WORLD_CASE_INSENSITIVE_REGEX, 'Earth']],
+        })
       ).toBe('Hello Earth');
     });
   });
