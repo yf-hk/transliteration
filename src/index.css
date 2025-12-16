@@ -88,6 +88,31 @@ body {
   letter-spacing: 2px;
 }
 
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: var(--text);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-md);
+}
+
+.github-link:hover {
+  background: #0f172a;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.github-link svg {
+  flex-shrink: 0;
+}
+
 .main {
   max-width: 1400px;
   margin: 0 auto;
