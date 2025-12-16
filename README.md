@@ -16,13 +16,13 @@ A universal Unicode to Latin transliteration and slug generation library. Design
 ## Table of Contents
 
 - [Features](#features)
+- [Latin-Only Mode](#latin-only-mode)
 - [Compatibility](#compatibility)
 - [Installation](#installation)
 - [Usage](#usage)
   - [transliterate()](#transliteratestr-options)
   - [slugify()](#slugifystr-options)
   - [CLI](#cli-usage)
-- [Latin-Only Mode](#latin-only-mode)
 - [Known Issues](#known-issues)
 - [License](#license)
 
@@ -34,6 +34,27 @@ A universal Unicode to Latin transliteration and slug generation library. Design
 - **Cross-Platform** — Runs seamlessly in Node.js, browsers, and command-line environments
 - **TypeScript Ready** — Full type definitions included out of the box
 - **Zero Dependencies** — Lightweight with no external runtime dependencies
+
+## Latin-Only Mode
+
+For applications that only need to transliterate Latin-based scripts (Western European languages), you can use the lightweight Latin-only build for significantly smaller bundle size:
+
+```javascript
+// Full build: ~186 KB (all scripts including CJK, Korean, etc.)
+import { transliterate, slugify } from 'transliteration';
+
+// Latin-only build: ~5 KB (Basic Latin + Latin Extended only)
+import { transliterate, slugify } from 'transliteration/latin';
+```
+
+The Latin-only build supports:
+
+- Basic ASCII (U+0000-U+007F)
+- Latin-1 Supplement (U+0080-U+00FF)
+- Latin Extended-A (U+0100-U+017F)
+- Latin Extended-B (U+0180-U+024F)
+
+This is ideal for applications that only handle Western European languages and want to minimize bundle size.
 
 ## Compatibility
 
@@ -267,27 +288,6 @@ Examples:
   slugify "你好, world!" -r 好=good -r "world=Shi Jie"
   slugify "你好，世界!" -i 你好 -i ，
 ```
-
-## Latin-Only Mode
-
-For applications that only need to transliterate Latin-based scripts (Western European languages), you can use the lightweight Latin-only build for significantly smaller bundle size:
-
-```javascript
-// Full build: ~186 KB (all scripts including CJK, Korean, etc.)
-import { transliterate, slugify } from 'transliteration';
-
-// Latin-only build: ~5 KB (Basic Latin + Latin Extended only)
-import { transliterate, slugify } from 'transliteration/latin';
-```
-
-The Latin-only build supports:
-
-- Basic ASCII (U+0000-U+007F)
-- Latin-1 Supplement (U+0080-U+00FF)
-- Latin Extended-A (U+0100-U+017F)
-- Latin Extended-B (U+0180-U+024F)
-
-This is ideal for applications that only handle Western European languages and want to minimize bundle size.
 
 ## Known Issues
 
