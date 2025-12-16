@@ -1,72 +1,57 @@
 <p align="center"><img src="https://yf-hk.github.io/transliteration/transliteration.png" alt="Transliteration"></p>
 
-[![Build Status](https://github.com/yf-hk/transliteration/actions/workflows/build.yml/badge.svg)](https://github.com/yf-hk/transliteration/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/yf-hk/transliteration/badge.svg?branch=main)](https://coveralls.io/github/yf-hk/transliteration?branch=main)
+[![Build and Test](https://img.shields.io/github/actions/workflow/status/yf-hk/transliteration/build.yml?branch=main)](https://github.com/yf-hk/transliteration/actions/workflows/build.yml)
+[![Coverage](https://codecov.io/gh/yf-hk/transliteration/graph/badge.svg)](https://codecov.io/gh/yf-hk/transliteration)
 [![NPM Version](https://img.shields.io/npm/v/transliteration.svg)](https://www.npmjs.com/package/transliteration)
-[![NPM Download](https://img.shields.io/npm/dm/transliteration.svg)](https://www.npmjs.com/package/transliteration)
-[![JSDelivr Download](https://data.jsdelivr.com/v1/package/npm/transliteration/badge)](https://www.jsdelivr.com/package/npm/transliteration)
+[![NPM Downloads](https://img.shields.io/npm/dm/transliteration.svg)](https://www.npmjs.com/package/transliteration)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/npm/transliteration/badge)](https://www.jsdelivr.com/package/npm/transliteration)
 [![License](https://img.shields.io/npm/l/transliteration.svg)](https://github.com/yf-hk/transliteration/blob/main/LICENSE.txt)
 
 # Transliteration
 
-Universal Unicode to Latin transliteration + slugify module. Works on all platforms and with all major languages.
+A universal Unicode to Latin transliteration and slug generation library. Designed for cross-platform compatibility with comprehensive language support.
 
-**[Try it out online →](https://yf-hk.github.io/transliteration)**
+**[Live Demo →](https://yf-hk.github.io/transliteration)**
 
 ## Table of Contents
 
-- [Transliteration](#transliteration)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Compatibility](#compatibility)
-  - [Installation](#installation)
-    - [Node.js / React Native](#nodejs--react-native)
-    - [Browser (CDN)](#browser-cdn)
-      - [UMD Build (Global Variables)](#umd-build-global-variables)
-      - [ES Module](#es-module)
-    - [CLI](#cli)
-  - [Usage](#usage)
-    - [transliterate(str, \[options\])](#transliteratestr-options)
-      - [Options](#options)
-      - [Example](#example)
-    - [transliterate.config(\[optionsObj\], \[reset = false\])](#transliterateconfigoptionsobj-reset--false)
-    - [slugify(str, \[options\])](#slugifystr-options)
-      - [Options](#options-1)
-      - [Example](#example-1)
-    - [slugify.config(\[optionsObj\], \[reset = false\])](#slugifyconfigoptionsobj-reset--false)
-    - [CLI Usage](#cli-usage)
-      - [Transliterate Command](#transliterate-command)
-      - [Slugify Command](#slugify-command)
-  - [Known Issues](#known-issues)
-  - [License](#license)
+- [Features](#features)
+- [Compatibility](#compatibility)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [transliterate()](#transliteratestr-options)
+  - [slugify()](#slugifystr-options)
+  - [CLI](#cli-usage)
+- [Known Issues](#known-issues)
+- [License](#license)
 
 ## Features
 
-- Convert Unicode characters to their Latin equivalents
-- Create URL-friendly slugs from any Unicode string
-- Customizable transliteration options
-- Works in Node.js, browsers, and command-line
-- TypeScript support
-- Lightweight and dependency-free
+- **Unicode Transliteration** — Convert characters from any writing system to Latin equivalents
+- **Slug Generation** — Create URL-safe and filename-safe strings from Unicode text
+- **Highly Configurable** — Extensive options for custom replacements, ignored characters, and output formatting
+- **Cross-Platform** — Runs seamlessly in Node.js, browsers, and command-line environments
+- **TypeScript Ready** — Full type definitions included out of the box
+- **Zero Dependencies** — Lightweight with no external runtime dependencies
 
 ## Compatibility
 
-- Browsers: IE 9+ and all modern browsers
-- Server: Node.js (all versions)
-- Mobile: React Native
-- Environments: Web Workers, CLI
+- **Node.js**: v20.0.0 or higher
+- **Browsers**: All modern browsers (Chrome, Firefox, Safari, Edge)
+- **Mobile**: React Native
+- **Other**: Web Workers, CLI
 
 ## Installation
 
 ### Node.js / React Native
 
 ```bash
-npm install transliteration --save
+npm install transliteration
 ```
 
-> **Note for TypeScript users:** Type definition files are built into this project since version `2.x`. Do not install `@types/transliteration`.
+> **TypeScript:** Type definitions are bundled with this package. Do not install `@types/transliteration`.
 
-Basic usage example:
+**Quick Start:**
 
 ```javascript
 import { transliterate as tr, slugify } from 'transliteration';
@@ -83,7 +68,7 @@ slugify('你好, world!');  // => 'ni-hao-world'
 #### UMD Build (Global Variables)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.umd.min.js"></script>
 <script>
   // Available as global variables
   transliterate('你好, World');  // => 'Ni Hao , World'
@@ -98,7 +83,7 @@ slugify('你好, world!');  // => 'ni-hao-world'
 
 ```html
 <script type="module">
-  import { transliterate } from 'https://cdn.jsdelivr.net/npm/transliteration@2.1.8/dist/browser/bundle.esm.min.js';
+  import { transliterate } from 'https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.esm.min.js';
   console.log(transliterate('你好'));  // => 'Ni Hao'
 </script>
 ```
@@ -121,18 +106,18 @@ echo 你好 | slugify -S           # => ni-hao
 
 ### transliterate(str, [options])
 
-Transliterates the string `str` and returns the result. Characters that this module cannot handle will default to the placeholder character(s) specified in the `unknown` option. If no placeholder is provided, these characters will be removed.
+Converts Unicode characters in the input string to their Latin equivalents. Unrecognized characters are replaced with the `unknown` placeholder or removed if no placeholder is specified.
 
 #### Options
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `ignore` | `string[]` | `[]` | List of strings to ignore (keep unchanged) |
-| `replace` | `object` or `array` | `{}` | Custom replacements before transliteration |
-| `replaceAfter` | `object` or `array` | `{}` | Custom replacements after transliteration |
-| `trim` | `boolean` | `false` | Whether to trim the result string |
-| `unknown` | `string` | `''` | Placeholder for unknown characters |
-| `fixChineseSpacing` | `boolean` | `true` | Add spaces between transliterated Chinese characters |
+| `ignore` | `string[]` | `[]` | Strings to preserve without transliteration |
+| `replace` | `object` or `array` | `{}` | Custom replacements applied before transliteration |
+| `replaceAfter` | `object` or `array` | `{}` | Custom replacements applied after transliteration |
+| `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |
+| `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |
+| `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
 
 #### Example
 
@@ -159,7 +144,7 @@ tr('你好，世界', {
 
 ### transliterate.config([optionsObj], [reset = false])
 
-Binds option object globally so all subsequent calls will use `optionsObj` by default. If `optionsObj` is not provided, it will return the current default option object.
+Sets global default options for all subsequent `transliterate()` calls. When called without arguments, returns the current configuration. Pass `reset = true` to restore factory defaults.
 
 ```javascript
 // Set global configuration
@@ -178,22 +163,22 @@ console.log(tr.config());        // => {}
 
 ### slugify(str, [options])
 
-Converts Unicode `str` into a slug string, ensuring it is safe to use in a URL or filename.
+Transforms Unicode text into a URL-safe and filename-safe slug string.
 
 #### Options
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `ignore` | `string[]` | `[]` | List of strings to ignore (keep unchanged) |
-| `replace` | `object` or `array` | `{}` | Custom replacements before transliteration |
-| `replaceAfter` | `object` or `array` | `{}` | Custom replacements after transliteration |
-| `trim` | `boolean` | `false` | Whether to trim the result string |
-| `unknown` | `string` | `''` | Placeholder for unknown characters |
-| `lowercase` | `boolean` | `true` | Convert result to lowercase |
-| `uppercase` | `boolean` | `false` | Convert result to uppercase |
-| `separator` | `string` | `-` | Character used between words |
-| `allowedChars` | `string` | `a-zA-Z0-9-_.~'` | Regex pattern of allowed characters |
-| `fixChineseSpacing` | `boolean` | `true` | Add spaces between transliterated Chinese characters |
+| `ignore` | `string[]` | `[]` | Strings to preserve without transliteration |
+| `replace` | `object` or `array` | `{}` | Custom replacements applied before transliteration |
+| `replaceAfter` | `object` or `array` | `{}` | Custom replacements applied after transliteration |
+| `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |
+| `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |
+| `lowercase` | `boolean` | `true` | Convert output to lowercase |
+| `uppercase` | `boolean` | `false` | Convert output to uppercase |
+| `separator` | `string` | `-` | Word separator character |
+| `allowedChars` | `string` | `a-zA-Z0-9-_.~'` | Regex character class for permitted characters |
+| `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
 
 #### Example
 
@@ -224,7 +209,7 @@ slugify('你好，世界', {
 
 ### slugify.config([optionsObj], [reset = false])
 
-Binds option object globally so all subsequent calls will use `optionsObj` by default. If `optionsObj` is not provided, it will return the current default option object.
+Sets global default options for all subsequent `slugify()` calls. When called without arguments, returns the current configuration. Pass `reset = true` to restore factory defaults.
 
 ```javascript
 // Set global configuration
@@ -284,9 +269,9 @@ Examples:
 
 ## Known Issues
 
-Currently, `transliteration` only supports 1-to-1 code mapping (from Unicode to Latin). This is the simplest implementation approach, but it has limitations with polyphonic characters. Please test thoroughly with your specific languages before using in production.
+This library uses 1-to-1 Unicode code point mapping, which provides broad language coverage but has inherent limitations with context-dependent characters (e.g., polyphonic characters where pronunciation varies by context). Thorough testing with your target languages is recommended before production use.
 
-Known language-specific issues:
+**Language-Specific Limitations:**
 
 | Language | Issue | Alternative |
 |----------|-------|-------------|
@@ -295,7 +280,7 @@ Known language-specific issues:
 | **Thai** | Not working properly | [Issue #67](https://github.com/yf-hk/transliteration/issues/67) |
 | **Cyrillic** | May be inaccurate for specific languages like Bulgarian | - |
 
-If you find any other issues, please [raise a ticket](https://github.com/yf-hk/transliteration/issues).
+For other issues or feature requests, please [open an issue](https://github.com/yf-hk/transliteration/issues).
 
 ## License
 

@@ -1,8 +1,38 @@
+# Dependencies
 node_modules/
-coverage/
+
+# Build output
 dist/
 lib/
-.vscode
-.nyc_output
-.rpt2_cache
+
+# Generated data
+data/charmap.ts
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.nyc_output/
+.rpt2_cache/
+*.tsbuildinfo
+
+# Lock files (use bun.lockb)
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
+*.temp

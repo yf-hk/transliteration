@@ -2,26 +2,26 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
-    "declarationDir": "dist/node",
-    "emitDecoratorMetadata": false,
-    "experimentalDecorators": false,
     "esModuleInterop": true,
-    "importHelpers": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "lib": ["ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist/node",
+    "outDir": "dist",
     "pretty": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
     "stripInternal": true,
-    "target": "es2015"
+    "target": "ES2020",
+    "types": ["node", "vitest/globals"]
   },
-  "include": ["src", "data"],
-  "exclude": ["node_modules", "dist", "src/cli", "src/browser", "test"]
+  "include": ["src", "data", "test", "scripts"],
+  "exclude": ["node_modules", "dist"]
 }

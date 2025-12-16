@@ -1,0 +1,29 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.3.9/schema.json",
+  "extends": ["ultracite/core"],
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "includes": ["!**/node_modules", "!**/dist", "!**/data", "!**/coverage"]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "off",
+        "noBitwiseOperators": "off"
+      }
+    }
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single"
+    }
+  }
+}

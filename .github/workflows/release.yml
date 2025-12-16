@@ -1,0 +1,89 @@
+name: Release
+
+on:
+  workflow_run:
+    workflows: ["Build and Test"]
+    types: [completed]
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get package version
+        id: package
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - name: Check if tag exists
+        id: tag_check
+        run: |
+          if git rev-parse "v${{ steps.package.outputs.version }}" >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check if version exists on npm
+        id: npm_check
+        run: |
+          if npm view transliteration@${{ steps.package.outputs.version }} version >/dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Bun
+        if: steps.npm_check.outputs.exists == 'false'
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Setup Node.js for npm publish
+        if: steps.npm_check.outputs.exists == 'false'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Update npm for OIDC support
+        if: steps.npm_check.outputs.exists == 'false'
+        run: npm install -g npm@latest
+
+      - name: Install dependencies
+        if: steps.npm_check.outputs.exists == 'false'
+        run: bun install
+
+      - name: Build
+        if: steps.npm_check.outputs.exists == 'false'
+        run: bun run build
+
+      - name: Publish to npm
+        if: steps.npm_check.outputs.exists == 'false'
+        run: npm publish
+
+      - name: Create and push tag
+        if: steps.tag_check.outputs.exists == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag -a "v${{ steps.package.outputs.version }}" -m "Release v${{ steps.package.outputs.version }}"
+          git push origin "v${{ steps.package.outputs.version }}"
+
+      - name: Create GitHub Release
+        if: steps.tag_check.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.package.outputs.version }}
+          name: v${{ steps.package.outputs.version }}
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

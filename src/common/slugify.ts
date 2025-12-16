@@ -1,4 +1,4 @@
-import { OptionsSlugify } from '../types';
+import type { OptionsSlugify } from '../types';
 import {
   defaultOptions as defaultOptionsTransliterate,
   Transliterate,
@@ -24,7 +24,7 @@ export class Slugify extends Transliterate {
    * Set default config
    * @param options
    */
-  public config(options?: OptionsSlugify, reset = false): OptionsSlugify {
+  config(options?: OptionsSlugify, reset = false): OptionsSlugify {
     if (reset) {
       this.confOptions = {};
     }
@@ -39,9 +39,9 @@ export class Slugify extends Transliterate {
    * @param str
    * @param options
    */
-  public slugify(str: string, options?: OptionsSlugify): string {
-    options = typeof options === 'object' ? options : {};
-    const opt: OptionsSlugify = deepClone({ ...this.options, ...options });
+  slugify(str: string, options?: OptionsSlugify): string {
+    const opts = typeof options === 'object' ? options : {};
+    const opt: OptionsSlugify = deepClone({ ...this.options, ...opts });
 
     // remove leading and trailing separators
     const sep: string = opt.separator ? escapeRegExp(opt.separator) : '';
@@ -50,12 +50,15 @@ export class Slugify extends Transliterate {
 
     slug = regexpReplaceCustom(
       slug,
-      RegExp(`[^${opt.allowedChars}]+`, 'g'),
-      opt.separator!,
-      opt.ignore!,
+      new RegExp(`[^${opt.allowedChars}]+`, 'g'),
+      opt.separator ?? '-',
+      opt.ignore ?? []
     );
     if (sep) {
-      slug = slug.replace(RegExp(`^${sep}+|${sep}$`, 'g'), '');
+      // Collapse consecutive separators into one
+      slug = slug.replace(new RegExp(`${sep}+`, 'g'), opt.separator as string);
+      // Remove leading and trailing separators
+      slug = slug.replace(new RegExp(`^${sep}+|${sep}+$`, 'g'), '');
     }
 
     if (opt.lowercase) {

@@ -1,108 +1,42 @@
 #!/usr/bin/env node
 
-import { basename } from 'path';
-import yargs from 'yargs';
-import { defaultOptions } from '../common/slugify';
-import { deepClone } from '../common/utils';
 import { slugify } from '../node';
-import { OptionReplaceArray, OptionsSlugify } from '../types';
-import { parseReplaceOption } from './common';
+import type { OptionsSlugify } from '../types';
+import { HELP_SLUGIFY, parseArgs, parseReplaceOption, toArray } from './common';
 
-const STDIN_ENCODING = 'utf-8';
-const options: OptionsSlugify = deepClone(defaultOptions);
+const VERSION = '2.4.0';
 
-type ArgvType = {
-  U?: string;
-  unknown?: string;
-  l?: boolean;
-  lowercase?: boolean;
-  u?: boolean;
-  uppercase?: boolean;
-  s?: string;
-  separator?: string;
-  r?: OptionReplaceArray;
-  replace?: OptionReplaceArray;
-  i?: string[];
-  ignore?: string[];
-  S: boolean;
-  stdin: boolean;
-  h: unknown;
-  help: unknown;
-  _: (string | number)[];
-  $0: string;
+const argv = parseArgs(process.argv.slice(2));
+
+if (argv.h || argv.help) {
+  console.log(HELP_SLUGIFY);
+  process.exit(0);
+}
+
+if (argv.v || argv.version) {
+  console.log(VERSION);
+  process.exit(0);
+}
+
+const replaceArg = argv.r ?? argv.replace;
+const ignoreArg = argv.i ?? argv.ignore;
+
+const options: OptionsSlugify = {
+  unknown: String(argv.U || argv.unknown || ''),
+  lowercase:
+    argv.l !== undefined || argv.lowercase !== undefined
+      ? !!(argv.l || argv.lowercase)
+      : true,
+  uppercase: !!(argv.u || argv.uppercase),
+  separator: String(argv.s ?? argv.separator ?? '-'),
+  replace: parseReplaceOption(
+    toArray(typeof replaceArg === 'boolean' ? undefined : replaceArg)
+  ),
+  ignore: toArray(typeof ignoreArg === 'boolean' ? undefined : ignoreArg),
 };
 
-const result = yargs
-  .version()
-  .usage('Usage: $0 <unicode> [options]')
-  .option('U', {
-    alias: 'unknown',
-    default: options.unknown,
-    describe: 'Placeholder for unknown characters',
-    type: 'string',
-  })
-  .option('l', {
-    alias: 'lowercase',
-    default: options.lowercase,
-    describe: 'Returns result in lowercase',
-    type: 'boolean',
-  })
-  .option('u', {
-    alias: 'uppercase',
-    default: options.uppercase,
-    describe: 'Returns result in uppercase',
-    type: 'boolean',
-  })
-  .options('s', {
-    alias: 'separator',
-    default: '-',
-    describe: 'Separator of the slug',
-    type: 'string',
-  })
-  .option('r', {
-    alias: 'replace',
-    default: options.replace,
-    describe: 'Custom string replacement',
-    type: 'array',
-  })
-  .option('i', {
-    alias: 'ignore',
-    default: options.ignore,
-    describe: 'String list to ignore',
-    type: 'array',
-  })
-  .option('S', {
-    alias: 'stdin',
-    default: false,
-    describe: 'Use stdin as input',
-    type: 'boolean',
-  })
-  .help('h')
-  .option('h', {
-    alias: 'help',
-  })
-  .example(
-    '$0 "你好, world!" -r 好=good -r "world=Shi Jie"',
-    'Replace `,` into `!` and `world` into `shijie`.\nResult: ni-good-shi-jie',
-  )
-  .example(
-    '$0 "你好，世界!" -i 你好 -i ，',
-    'Ignore `你好` and `，`.\nResult: 你好，shi-jie',
-  )
-  .wrap(100);
-
-const argv: ArgvType = result.argv as any;
-
-options.lowercase = !!argv.l;
-options.uppercase = !!argv.u;
-options.separator = argv.separator as string;
-options.replace = parseReplaceOption(
-  (argv.replace ?? []) as unknown as string[],
-);
-options.ignore = argv.ignore as string[];
-
-if (argv.stdin) {
-  process.stdin.setEncoding(STDIN_ENCODING);
+if (argv.S || argv.stdin) {
+  process.stdin.setEncoding('utf-8');
   process.stdin.on('readable', () => {
     const chunk = process.stdin.read() as string;
     if (chunk !== null) {
@@ -110,12 +44,9 @@ if (argv.stdin) {
     }
   });
   process.stdin.on('end', () => console.log(''));
+} else if (argv._.length !== 1) {
+  console.error("Invalid argument. Please type 'slugify --help' for help.");
+  process.exit(1);
 } else {
-  if (argv._.length !== 1) {
-    console.error(
-      `Invalid argument. Please type '${basename(argv.$0)} --help' for help.`,
-    );
-  } else {
-    console.log(slugify(String(argv._[0] ?? ''), options));
-  }
+  console.log(slugify(String(argv._[0] ?? ''), options));
 }

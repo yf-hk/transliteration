@@ -1,34 +1,49 @@
 {
   "name": "transliteration",
-  "version": "2.3.5",
-  "description": "Unicode to ACSII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
-  "main": "dist/node/src/node/index.js",
-  "module": "dist/browser/bundle.esm.min.js",
-  "jsnext": "dist/browser/bundle.esm.min.js",
-  "browser": "dist/browser/bundle.umd.min.js",
+  "version": "2.4.0",
+  "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./browser": {
+      "import": {
+        "types": "./dist/browser.d.ts",
+        "default": "./dist/browser.js"
+      },
+      "require": {
+        "types": "./dist/browser.d.cts",
+        "default": "./dist/browser.cjs"
+      }
+    }
+  },
   "bin": {
-    "transliterate": "dist/bin/transliterate",
-    "slugify": "dist/bin/slugify"
+    "transliterate": "./dist/cli/transliterate.cjs",
+    "slugify": "./dist/cli/slugify.cjs"
   },
-  "types": "dist/node/src/node/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "generate:data": "node scripts/generate_data.js",
-    "lint": "tslint -c tslint.json src/**/*.ts test/**/*.ts",
-    "pretest": "npm run lint",
-    "test": "npm run test:node && npm run test:cli",
-    "test:node": "ts-node node_modules/tape/bin/tape test/common/*.ts | tap-spec",
-    "test:cli": "ts-node node_modules/tape/bin/tape test/cli/*.ts | tap-spec",
-    "prebuild": "npm run generate:data && rimraf dist",
-    "build": "rollup -c rollup.config.js && rimraf .rpt2_cache && tsc",
-    "postbuild": "(ver && (echo export * from '../types';>> dist/node/src/node/index.d.ts)) || (echo \"export * from '../types';\">> dist/node/src/node/index.d.ts)",
-    "coverage": "nyc npm test",
-    "coveralls": "nyc npm test && nyc report -r=text-lcov | coveralls",
-    "prepublish": "npm run lint && npm test && npm run build"
-  },
-  "nyc": {
-    "extension": [
-      ".ts"
-    ]
+    "generate:data": "bun scripts/generate-data.ts",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prebuild": "del-cli dist && bun run generate:data",
+    "build": "tsup",
+    "prepublishOnly": "bun run lint && bun run test && bun run build"
   },
   "repository": {
     "type": "git",
@@ -50,41 +65,20 @@
     "url": "https://github.com/yf-hk/transliteration/issues"
   },
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=20.0.0"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.18.6",
-    "@babel/plugin-proposal-class-properties": "7.18.6",
-    "@babel/plugin-proposal-object-rest-spread": "7.18.6",
-    "@babel/preset-env": "7.18.6",
-    "@babel/preset-typescript": "7.18.6",
-    "@types/tape": "4.13.2",
-    "@types/yargs": "17.0.10",
-    "codecov": "3.8.3",
-    "core-js": "3.23.3",
-    "coveralls": "3.1.1",
-    "eslint-config-prettier": "^8.5.0",
-    "json5": "2.2.1",
-    "nyc": "15.1.0",
-    "prettier": "^2.7.1",
-    "rimraf": "3.0.2",
-    "rollup": "2.75.7",
-    "rollup-plugin-babel": "5.0.0-alpha.2",
-    "rollup-plugin-commonjs": "10.1.0",
-    "rollup-plugin-hashbang": "3.0.0",
-    "rollup-plugin-sourcemaps": "0.6.3",
-    "rollup-plugin-terser": "7.0.2",
-    "rollup-plugin-typescript2": "0.32.1",
-    "rollup-plugin-uglify": "6.0.4",
-    "tap-spec": "5.0.0",
-    "tape": "5.5.3",
-    "ts-loader": "9.3.1",
-    "ts-node": "10.8.2",
-    "tslint": "6.1.3",
-    "tslint-config-prettier": "1.18.0",
-    "typescript": "4.7.4"
+    "@biomejs/biome": "2.3.9",
+    "@types/bun": "^1.3.4",
+    "@vitest/coverage-v8": "^4.0.15",
+    "del-cli": "^7.0.0",
+    "happy-dom": "^20.0.11",
+    "json5": "^2.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "ultracite": "^6.4.1",
+    "vitest": "^4.0.15"
   },
-  "dependencies": {
-    "yargs": "^17.5.1"
-  }
+  "packageManager": "bun@1.3.4"
 }

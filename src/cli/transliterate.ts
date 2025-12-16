@@ -1,97 +1,53 @@
 #!/usr/bin/env node
 
-import { basename } from 'path';
-import yargs from 'yargs';
-import { defaultOptions } from '../common/transliterate';
-import { deepClone } from '../common/utils';
 import { transliterate as tr } from '../node/index';
-import { OptionReplaceArray, OptionsTransliterate } from '../types';
-import { parseReplaceOption } from './common';
+import type { OptionsTransliterate } from '../types';
+import {
+  HELP_TRANSLITERATE,
+  parseArgs,
+  parseReplaceOption,
+  toArray,
+} from './common';
 
-const STDIN_ENCODING = 'utf-8';
-const options: OptionsTransliterate = deepClone(defaultOptions);
+const VERSION = '2.4.0';
 
-type ArgvType = {
-  u?: string;
-  unknown?: string;
-  s?: string;
-  separator?: string;
-  r?: OptionReplaceArray;
-  replace?: OptionReplaceArray;
-  i?: string[];
-  ignore?: string[];
-  S: boolean;
-  stdin: boolean;
-  h: unknown;
-  help: unknown;
-  _: (string | number)[];
-  $0: string;
+const argv = parseArgs(process.argv.slice(2));
+
+if (argv.h || argv.help) {
+  console.log(HELP_TRANSLITERATE);
+  process.exit(0);
+}
+
+if (argv.v || argv.version) {
+  console.log(VERSION);
+  process.exit(0);
+}
+
+const replaceArg = argv.r ?? argv.replace;
+const ignoreArg = argv.i ?? argv.ignore;
+
+const options: OptionsTransliterate = {
+  unknown: String(argv.u || argv.unknown || ''),
+  replace: parseReplaceOption(
+    toArray(typeof replaceArg === 'boolean' ? undefined : replaceArg)
+  ),
+  ignore: toArray(typeof ignoreArg === 'boolean' ? undefined : ignoreArg),
 };
 
-const result = yargs
-  .version()
-  .usage('Usage: $0 <unicode> [options]')
-  .option('u', {
-    alias: 'unknown',
-    default: options.unknown,
-    describe: 'Placeholder for unknown characters',
-    type: 'string',
-  })
-  .option('r', {
-    alias: 'replace',
-    default: options.replace,
-    describe: 'Custom string replacement',
-    type: 'array',
-  })
-  .option('i', {
-    alias: 'ignore',
-    default: options.ignore,
-    describe: 'String list to ignore',
-    type: 'array',
-  })
-  .option('S', {
-    alias: 'stdin',
-    default: false,
-    describe: 'Use stdin as input',
-    type: 'boolean',
-  })
-  .help('h')
-  .option('h', {
-    alias: 'help',
-  })
-  .example(
-    '$0 "你好, world!" -r 好=good -r "world=Shi Jie"',
-    'Replace `,` into `!`, `world` into `shijie`.\nResult: Ni good, Shi Jie!',
-  )
-  .example(
-    '$0 "你好，世界!" -i 你好 -i ，',
-    'Ignore `你好` and `，`.\nResult: 你好，Shi Jie !',
-  )
-  .wrap(100);
-
-const argv: ArgvType = result.argv as any;
-
-options.unknown = argv.unknown as string;
-options.replace = parseReplaceOption(
-  (argv.replace ?? []) as unknown as string[],
-);
-options.ignore = argv.ignore as string[];
-
-if (argv.stdin) {
-  process.stdin.setEncoding(STDIN_ENCODING);
+if (argv.S || argv.stdin) {
+  process.stdin.setEncoding('utf-8');
   process.stdin.on('readable', () => {
-    const chunk: string = process.stdin.read() as string;
+    const chunk = process.stdin.read() as string;
     if (chunk !== null) {
       process.stdout.write(tr(chunk, options));
     }
   });
   process.stdin.on('end', () => console.log(''));
+} else if (argv._.length !== 1) {
+  console.error(
+    "Invalid argument. Please type 'transliterate --help' for help."
+  );
+  process.exit(1);
 } else {
-  if (argv._.length !== 1) {
-    console.error(
-      `Invalid argument. Please type '${basename(argv.$0)} --help' for help.`,
-    );
-  } else {
-    console.log(tr(String(argv._[0] ?? ''), options));
-  }
+  console.log(tr(String(argv._[0] ?? ''), options));
 }

@@ -1,8 +1,30 @@
-.*
-data/
+# Source files
 src/
+data/
 scripts/
 test/
-ts*.json
-rollup.config.js
-renovate.json
+
+# Config files
+*.json
+*.ts
+!package.json
+biome.json
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+
+# Dot files
+.*
+!.npmignore
+
+# Documentation (keep README)
+CHANGELOG.md
+
+# Lock files
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Coverage
+.nyc_output/
+coverage/

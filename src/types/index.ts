@@ -1,13 +1,13 @@
-import { Charmap } from '../../data/charmap';
+import type { Charmap } from '../../data/charmap';
 
 export type OptionReplaceArrayItem = [string | RegExp, string];
 export type OptionReplaceArray = OptionReplaceArrayItem[];
-export interface OptionReplaceObject {
+export type OptionReplaceObject = {
   [from: string]: string;
-}
+};
 export type OptionReplaceCombined = OptionReplaceArray | OptionReplaceObject;
 
-export interface OptionsTransliterate {
+export type OptionsTransliterate = {
   /**
    * Ignore a list of strings untouched
    * @example tr('你好，世界', { ignore: ['你'] }) // 你 Hao , Shi Jie
@@ -40,9 +40,9 @@ export interface OptionsTransliterate {
    * @default true
    */
   fixChineseSpacing?: boolean;
-}
+};
 
-export interface OptionsSlugify extends OptionsTransliterate {
+export type OptionsSlugify = OptionsTransliterate & {
   /**
    * Whether the result need to be converted into lowercase
    * @default true
@@ -69,13 +69,13 @@ export interface OptionsSlugify extends OptionsTransliterate {
    * Fix Chinese spacing. For example, `你好` is transliterated to `Ni Hao` instead of `NiHao`. If you don't need to transliterate Chinese characters, set it to false to false to improve performance.
    */
   fixChineseSpacing?: boolean;
-}
+};
 
 export type Options = OptionsTransliterate | OptionsSlugify;
 
 export type IntervalArray = [number, number][];
 
-interface TransliterationFunction<T> {
+type TransliterationFunction<T> = {
   (source: string, options?: T): string;
   /**
    * Set default config
@@ -94,16 +94,15 @@ interface TransliterationFunction<T> {
    * Used by browser
    */
   noConflict?: () => TransliterationFunction<T>;
-}
+};
 
-export type TransliterateFunction = TransliterationFunction<
-  OptionsTransliterate
->;
+export type TransliterateFunction =
+  TransliterationFunction<OptionsTransliterate>;
 
 export type SlugifyFunction = TransliterationFunction<OptionsSlugify>;
 
-export interface BrowserGlobalObject {
+export type BrowserGlobalObject = {
   transl: TransliterateFunction;
   transliterate: TransliterateFunction;
   slugify: SlugifyFunction;
-}
+};
