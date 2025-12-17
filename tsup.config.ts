@@ -51,4 +51,9 @@ export const cliConfig: Options = {
   ...common,
 };
 
-export default defineConfig([nodeConfig, browserEsmConfig, browserUmdConfig, cliConfig]);
+export default defineConfig([
+  nodeConfig,
+  browserEsmConfig,
+  browserUmdConfig,
+  cliConfig,
+]);
