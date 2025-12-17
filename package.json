@@ -1,35 +1,15 @@
 {
   "name": "transliteration",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
-    },
-    "./browser": {
-      "import": {
-        "types": "./dist/browser.d.ts",
-        "default": "./dist/browser.js"
-      },
-      "require": {
-        "types": "./dist/browser.d.cts",
-        "default": "./dist/browser.cjs"
-      }
-    }
-  },
+  "main": "dist/node/src/node/index.js",
+  "module": "dist/browser/bundle.esm.min.js",
+  "jsnext": "dist/browser/bundle.esm.min.js",
+  "browser": "dist/browser/bundle.umd.min.js",
+  "types": "dist/node/src/node/index.d.ts",
   "bin": {
-    "transliterate": "./dist/cli/transliterate.cjs",
-    "slugify": "./dist/cli/slugify.cjs"
+    "transliterate": "dist/bin/transliterate",
+    "slugify": "dist/bin/slugify"
   },
   "files": [
     "dist"
@@ -42,7 +22,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "prebuild": "del-cli dist && bun run generate:data",
-    "build": "tsup",
+    "build": "tsup && bun scripts/postbuild.ts",
     "prepublishOnly": "bun run lint && bun run test && bun run build"
   },
   "repository": {

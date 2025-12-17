@@ -1,11 +1,20 @@
 # Changelog
 
+## 2.6.0
+
+- **Fix**: Restored v2.3.5 compatible dist file structure for backward compatibility
+  - `dist/node/src/node/index.js` (main, CJS)
+  - `dist/browser/bundle.esm.min.js` (module, ESM)
+  - `dist/browser/bundle.umd.min.js` (browser, UMD/IIFE)
+  - `dist/bin/transliterate` and `dist/bin/slugify` (CLI)
+
 ## 2.5.0
 
 - **Performance**: Switched to 2D array lookup for ~26% faster transliteration
 - **New Feature**: Added Latin-only build (`transliteration/latin`) for minimal bundle size (~5 KB vs ~186 KB)
 - **Optimization**: Korean Hangul characters now computed algorithmically at runtime (saves 11,172 entries)
 - **Internal**: Refactored charmap data structure into chunked files for better tree-shaking
+- **Caveat**: Dist file structure changed from v2.3.5 — upgrade to v2.6.0 for compatibility
 
 ## 2.4.0
 
@@ -17,6 +26,7 @@
 - **Breaking**: Minimum Node.js requirement is now v20.0.0
 - **Internal**: Refactored utilities and added edge case handling
 - **Testing**: Added Vitest as modern test runner with jsdom environment for browser tests
+- **Caveat**: Dist file structure changed from v2.3.5 — upgrade to v2.6.0 for compatibility
 
 ## 2.2.0
 
