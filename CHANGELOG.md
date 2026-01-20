@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.6.1
+
+- **Fix**: Added `transliteration/latin` entrypoint with proper `exports` mapping
+- **Fix**: Preserved access to `dist/*` and `package.json` for tooling/CDN usage
+- **Fix**: Latin-only build now resets to Latin data on `setData(..., true)`
+
 ## 2.6.0
 
 - **Fix**: Restored v2.3.5 compatible dist file structure for backward compatibility

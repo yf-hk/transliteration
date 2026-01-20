@@ -6,7 +6,10 @@ const common = {
 } as const;
 
 export const nodeConfig: Options = {
-  entry: { 'node/src/node/index': 'src/node/index.ts' },
+  entry: {
+    'node/src/node/index': 'src/node/index.ts',
+    'node/src/node/latin': 'src/node/latin.ts',
+  },
   format: ['cjs'],
   dts: true,
   sourcemap: true,
@@ -16,7 +19,10 @@ export const nodeConfig: Options = {
 };
 
 export const browserEsmConfig: Options = {
-  entry: { 'browser/bundle.esm.min': 'src/browser/index.ts' },
+  entry: {
+    'browser/bundle.esm.min': 'src/browser/index.ts',
+    'browser/latin.esm.min': 'src/browser/latin.ts',
+  },
   format: ['esm'],
   dts: false,
   sourcemap: true,
@@ -27,7 +33,10 @@ export const browserEsmConfig: Options = {
 };
 
 export const browserUmdConfig: Options = {
-  entry: { 'browser/bundle.umd.min': 'src/browser/index.ts' },
+  entry: {
+    'browser/bundle.umd.min': 'src/browser/index.ts',
+    'browser/latin.umd.min': 'src/browser/latin.ts',
+  },
   format: ['iife'],
   dts: false,
   sourcemap: true,

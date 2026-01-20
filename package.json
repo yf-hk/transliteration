@@ -1,12 +1,30 @@
 {
   "name": "transliteration",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
   "main": "dist/node/src/node/index.js",
   "module": "dist/browser/bundle.esm.min.js",
   "jsnext": "dist/browser/bundle.esm.min.js",
   "browser": "dist/browser/bundle.umd.min.js",
   "types": "dist/node/src/node/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/node/src/node/index.d.ts",
+      "browser": "./dist/browser/bundle.esm.min.js",
+      "require": "./dist/node/src/node/index.js",
+      "import": "./dist/node/src/node/index.js",
+      "default": "./dist/node/src/node/index.js"
+    },
+    "./latin": {
+      "types": "./dist/node/src/node/latin.d.ts",
+      "browser": "./dist/browser/latin.esm.min.js",
+      "require": "./dist/node/src/node/latin.js",
+      "import": "./dist/node/src/node/latin.js",
+      "default": "./dist/node/src/node/latin.js"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
   "bin": {
     "transliterate": "dist/bin/transliterate",
     "slugify": "dist/bin/slugify"

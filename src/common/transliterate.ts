@@ -36,6 +36,7 @@ export class Transliterate {
   }
 
   protected confOptions: OptionsTransliterate;
+  protected defaultMap: Charmap;
   protected map: Charmap;
 
   constructor(
@@ -43,6 +44,7 @@ export class Transliterate {
     map: Charmap = charmap
   ) {
     this.confOptions = confOptions;
+    this.defaultMap = map;
     this.map = map;
   }
 
@@ -180,7 +182,7 @@ export class Transliterate {
    */
   setData(data?: Charmap, reset = false): Charmap {
     if (reset) {
-      this.map = deepClone(charmap);
+      this.map = deepClone(this.defaultMap);
     }
     if (data && typeof data === 'object' && Object.keys(data).length) {
       this.map = deepClone(this.map);

@@ -23,23 +23,25 @@ export function lookup(char: string): string {
 
   const chunk = _[high];
   if (chunk) {
-    return chunk[low] ?? '';
+    const v = chunk[low];
+    if (v) {
+      return v;
+    }
   }
   return '';
 }
 
-// Backwards-compatible charmap object
-export const charmap: Charmap = new Proxy({} as Charmap, {
-  get(_, prop: string) {
-    if (typeof prop === 'string' && prop.length > 0) {
-      return lookup(prop) || undefined;
+// Build plain charmap object for compatibility with setData/deepClone
+export const charmap: Charmap = {};
+
+// Populate from 2D array
+for (let high = 0; high < _.length; high++) {
+  const chunk = _[high];
+  if (!chunk) continue;
+  for (let low = 0; low < chunk.length; low++) {
+    const v = chunk[low];
+    if (v) {
+      charmap[String.fromCharCode((high << 8) + low)] = v;
     }
-    return undefined;
-  },
-  has(_, prop: string) {
-    if (typeof prop === 'string' && prop.length > 0) {
-      return lookup(prop) !== '';
-    }
-    return false;
   }
-});
+}
