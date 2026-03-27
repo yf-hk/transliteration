@@ -93,11 +93,11 @@ slugify('你好, world!');  // => 'ni-hao-world'
 <script src="https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.umd.min.js"></script>
 <script>
   // Available as global variables
-  transliterate('你好, World');  // => 'Ni Hao , World'
-  slugify('Hello, 世界');       // => 'hello-shi-jie'
+  transliteration.transliterate('你好, World');  // => 'Ni Hao , World'
+  transliteration.slugify('Hello, 世界');       // => 'hello-shi-jie'
   
   // Legacy method (will be removed in next major version)
-  transl('Hola, mundo');       // => 'hola-mundo'
+  transliteration.transl('Hola, mundo');       // => 'hola-mundo'
 </script>
 ```
 
