@@ -273,7 +273,7 @@ describe('transliterate()', () => {
 
 describe('replaceStr()', () => {
   it('should replace strings correctly', () => {
-    const transliterate = new Transliterate();
+    const transliterate = new Transliterate({}, charmap);
     const replaceString = transliterate.replaceString.bind(transliterate);
     const tests: [string, [string | RegExp, string][], string][] = [
       [
@@ -327,7 +327,7 @@ describe('transliterate.setData()', () => {
 
 describe('formatReplaceOption', () => {
   it('should format replace options correctly', () => {
-    const transliterate = new Transliterate();
+    const transliterate = new Transliterate({}, charmap);
     const formatReplaceOption =
       transliterate.formatReplaceOption.bind(transliterate);
     const optObj: OptionReplaceObject = { a: 'b', c: 'd' };
@@ -341,7 +341,7 @@ describe('formatReplaceOption', () => {
   });
 
   it('should only include own properties', () => {
-    const transliterate = new Transliterate();
+    const transliterate = new Transliterate({}, charmap);
     const formatReplaceOption =
       transliterate.formatReplaceOption.bind(transliterate);
     // Create object with inherited property
