@@ -140,6 +140,18 @@ Converts Unicode characters in the input string to their Latin equivalents. Unre
 | `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |
 | `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |
 | `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
+| `language` | `'bg'` | - | Apply language-specific rules on top of the default charmap (see [Bulgarian](#bulgarian)) |
+
+#### Bulgarian
+
+Cyrillic is mapped as Russian by default. Pass `language: 'bg'` to follow the official Bulgarian Streamlined System (`ц` → `ts`, `щ` → `sht`, `ъ` → `a`, `ь` → `y`, word-final `ия` → `ia`). Also available in `slugify`.
+
+```js
+transliterate('Щастие Хляб Ъгъл Кольо', { language: 'bg' });
+// Shtastie Hlyab Agal Kolyo
+transliterate('България', { language: 'bg' });
+// Balgaria
+```
 
 #### Example
 
@@ -300,7 +312,7 @@ This library uses 1-to-1 Unicode code point mapping, which provides broad langua
 | **Chinese** | Polyphonic characters may not transliterate correctly | [`pinyin`](https://www.npmjs.com/package/pinyin) |
 | **Japanese** | Kanji characters often convert to Chinese Pinyin due to Unicode overlap | [`kuroshiro`](https://www.npmjs.com/package/kuroshiro) |
 | **Thai** | Not working properly | [Issue #67](https://github.com/yf-hk/transliteration/issues/67) |
-| **Cyrillic** | May be inaccurate for specific languages like Bulgarian | - |
+| **Cyrillic** | Mapped as Russian by default; use `language: 'bg'` for Bulgarian | - |
 
 For other issues or feature requests, please [open an issue](https://github.com/yf-hk/transliteration/issues).
 

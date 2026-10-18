@@ -7,6 +7,7 @@ import type {
   OptionsTransliterate,
 } from '../types';
 
+import { bulgarianWordFinalYa, getLanguageMap } from './languages';
 import {
   deepClone,
   escapeRegExp,
@@ -77,6 +78,7 @@ export class Transliterate {
     let index = 0;
     let result = '';
     const strContainsChinese = opt.fixChineseSpacing && hasChinese(str);
+    const languageMap = getLanguageMap(opt.language);
     let lastCharHasChinese = false;
     for (let i = 0; i < str.length; i++) {
       // Get current character, taking surrogates in consideration
@@ -101,7 +103,12 @@ export class Transliterate {
           ignoreFixingChinese = true;
         }
       } else {
-        s = this.map[char] || opt.unknown || '';
+        s =
+          (opt.language === 'bg' && bulgarianWordFinalYa(str, i)) ||
+          languageMap?.[char] ||
+          this.map[char] ||
+          opt.unknown ||
+          '';
       }
       // fix Chinese spacing issue
       if (strContainsChinese) {
