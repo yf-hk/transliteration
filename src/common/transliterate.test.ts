@@ -210,6 +210,10 @@ describe('transliterate()', () => {
       expect(tr('Москва')).toBe('Moskva');
     });
 
+    it('should not apply Bulgarian rules by default', () => {
+      expect(tr('Щастие')).toBe('Shchastie');
+    });
+
     it('should handle Greek characters', () => {
       expect(tr('Αθήνα')).toBe('Athina');
     });
@@ -349,5 +353,29 @@ describe('formatReplaceOption', () => {
     const optObj = Object.create(proto) as OptionReplaceObject;
     optObj.own = 'ownValue';
     expect(formatReplaceOption(optObj)).toEqual([['own', 'ownValue']]);
+  });
+});
+
+describe('transliterate language: bg', () => {
+  const bg = (str: string, opts = {}) => tr(str, { language: 'bg', ...opts });
+
+  it('should follow the official Bulgarian transliteration', () => {
+    expect(bg('Щастие Хляб Ъгъл Кольо')).toBe('Shtastie Hlyab Agal Kolyo');
+    expect(bg('Цар Ъгъл Шумен')).toBe('Tsar Agal Shumen');
+  });
+
+  it('should transliterate word-final ия as ia', () => {
+    expect(bg('България')).toBe('Balgaria');
+    expect(bg('Мария, Ия.')).toBe('Maria, Ia.');
+    expect(bg('БЪЛГАРИЯ')).toBe('BALGARIA');
+  });
+
+  it('should keep я after и inside a word', () => {
+    expect(bg('Диярбакър')).toBe('Diyarbakar');
+    expect(bg('Бияч')).toBe('Biyach');
+  });
+
+  it('should respect ignore', () => {
+    expect(bg('Ъгъл Щастие', { ignore: ['Ъгъл'] })).toBe('Ъгъл Shtastie');
   });
 });

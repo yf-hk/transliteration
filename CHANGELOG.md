@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- **New Feature**: Added `language` option for language-specific rules (`bg` supported)
+
 ## 2.6.1
 
 - **Fix**: Added `transliteration/latin` entrypoint with proper `exports` mapping

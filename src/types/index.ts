@@ -1,4 +1,5 @@
 import type { Charmap } from '../../data/charmap';
+import type { Language } from '../common/languages';
 
 export type OptionReplaceArrayItem = [string | RegExp, string];
 export type OptionReplaceArray = OptionReplaceArrayItem[];
@@ -40,6 +41,11 @@ export type OptionsTransliterate = {
    * @default true
    */
   fixChineseSpacing?: boolean;
+  /**
+   * Apply the official transliteration rules of a language on top of the default charmap
+   * @example tr('Кольо е голям щастливец', { language: 'bg' }) // Kolyo e golyam shtastlivets
+   */
+  language?: Language;
 };
 
 export type OptionsSlugify = OptionsTransliterate & {
