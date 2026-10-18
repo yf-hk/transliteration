@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- **New Feature**: Added `language: 'bg'` option for the official Bulgarian transliteration (`Щастие Хляб Ъгъл Кольо` → `Shtastie Hlyab Agal Kolyo`)
+- **New Feature**: Added `language` option for language-specific rules (`bg` supported)
 
 ## 2.6.1
 

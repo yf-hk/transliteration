@@ -140,18 +140,7 @@ Converts Unicode characters in the input string to their Latin equivalents. Unre
 | `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |
 | `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |
 | `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
-| `language` | `'bg'` | - | Apply language-specific rules on top of the default charmap (see [Bulgarian](#bulgarian)) |
-
-#### Bulgarian
-
-Cyrillic is mapped as Russian by default. Pass `language: 'bg'` to follow the official Bulgarian Streamlined System (`ц` → `ts`, `щ` → `sht`, `ъ` → `a`, `ь` → `y`, word-final `ия` → `ia`). Also available in `slugify`.
-
-```js
-transliterate('Щастие Хляб Ъгъл Кольо', { language: 'bg' });
-// Shtastie Hlyab Agal Kolyo
-transliterate('България', { language: 'bg' });
-// Balgaria
-```
+| `language` | `'bg'` | - | Apply language-specific transliteration rules |
 
 #### Example
 
