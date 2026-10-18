@@ -43,7 +43,7 @@ export type OptionsTransliterate = {
   fixChineseSpacing?: boolean;
   /**
    * Apply the official transliteration rules of a language on top of the default charmap
-   * @example tr('Щастие Кольо', { language: 'bg' }) // Shtastie Kolyo
+   * @example tr('Кольо е голям щастливец', { language: 'bg' }) // Kolyo e golyam shtastlivets
    */
   language?: Language;
 };
