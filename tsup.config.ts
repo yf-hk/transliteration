@@ -24,6 +24,7 @@ export const browserEsmConfig: Options = {
     'browser/latin.esm.min': 'src/browser/latin.ts',
   },
   format: ['esm'],
+  splitting: false,
   dts: false,
   sourcemap: true,
   platform: 'browser',
@@ -44,6 +45,9 @@ export const browserUmdConfig: Options = {
   outDir: 'dist',
   outExtension: () => ({ js: '.js' }),
   globalName: 'transliteration',
+  footer: {
+    js: "if(typeof module==='object'&&module.exports){module.exports=transliteration;}else if(typeof define==='function'&&define.amd){define(function(){return transliteration;});}else{Object.assign(globalThis,transliteration);}",
+  },
   ...common,
 };
 
@@ -54,7 +58,6 @@ export const cliConfig: Options = {
   },
   format: ['cjs'],
   sourcemap: false,
-  banner: { js: '#!/usr/bin/env node' },
   outDir: 'dist',
   outExtension: () => ({ js: '.js' }),
   ...common,

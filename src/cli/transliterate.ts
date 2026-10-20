@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import { readFileSync } from 'node:fs';
+import { version } from '../../package.json';
 import { transliterate as tr } from '../node/index';
 import type { OptionsTransliterate } from '../types';
 import {
@@ -9,40 +11,31 @@ import {
   toArray,
 } from './common';
 
-const VERSION = '2.4.0';
+const argv = parseArgs(process.argv.slice(2), 'transliterate');
 
-const argv = parseArgs(process.argv.slice(2));
-
-if (argv.h || argv.help) {
+if (argv.help) {
   console.log(HELP_TRANSLITERATE);
   process.exit(0);
 }
 
-if (argv.v || argv.version) {
-  console.log(VERSION);
+if (argv.version) {
+  console.log(version);
   process.exit(0);
 }
 
-const replaceArg = argv.r ?? argv.replace;
-const ignoreArg = argv.i ?? argv.ignore;
+const replaceArg = argv.replace;
+const ignoreArg = argv.ignore;
 
 const options: OptionsTransliterate = {
-  unknown: String(argv.u || argv.unknown || ''),
+  unknown: String(argv.unknown ?? ''),
   replace: parseReplaceOption(
     toArray(typeof replaceArg === 'boolean' ? undefined : replaceArg)
   ),
   ignore: toArray(typeof ignoreArg === 'boolean' ? undefined : ignoreArg),
 };
 
-if (argv.S || argv.stdin) {
-  process.stdin.setEncoding('utf-8');
-  process.stdin.on('readable', () => {
-    const chunk = process.stdin.read() as string;
-    if (chunk !== null) {
-      process.stdout.write(tr(chunk, options));
-    }
-  });
-  process.stdin.on('end', () => console.log(''));
+if (argv.stdin) {
+  console.log(tr(readFileSync(0, 'utf8'), options));
 } else if (argv._.length !== 1) {
   console.error(
     "Invalid argument. Please type 'transliterate --help' for help."

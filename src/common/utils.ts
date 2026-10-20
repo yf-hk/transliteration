@@ -77,6 +77,9 @@ export function findStrOccurrences(
 ): IntervalArray {
   let result: IntervalArray = [];
   for (const str of searches) {
+    if (str.length === 0) {
+      continue;
+    }
     let index = source.indexOf(str);
     while (index > -1) {
       result.push([index, index + str.length - 1]);
@@ -152,49 +155,48 @@ export function inRange(num: number, rangeArr: IntervalArray): boolean {
  * @param source Source string
  * @param regexp Used to search through the source string
  * @param replacement Replace matched RegExp with replacement value
- * @param ignored Ignore certain string values within the matched strings
+ * @param ignored Preserve these strings wherever they occur in the source
  */
-// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: Complex regex replacement algorithm with ignore handling
 export function regexpReplaceCustom(
   source: string,
   regexp: RegExp,
   replacement: string,
   ignored: string[] = []
-) {
-  // RegExp version of ignored
-  const ignoredRegexp = ignored.length
-    ? new RegExp(ignored.map(escapeRegExp).join('|'), 'g')
-    : null;
-  // clones regex and with g flag
+): string {
+  const ignoreRanges = findStrOccurrences(source, ignored);
   const rule = new RegExp(regexp.source, `${regexp.flags.replace('g', '')}g`);
-  // final result
   let result = '';
-  // used to count where
   let lastIndex = 0;
-  while (true) {
-    const matchMain = rule.exec(source);
-    let ignoreResult = '';
-    let ignoreLastIndex = 0;
-    if (matchMain) {
-      while (true) {
-        const matchIgnore = ignoredRegexp?.exec(matchMain[0]);
-        if (matchIgnore && ignoredRegexp) {
-          ignoreResult +=
-            matchIgnore.index > ignoreLastIndex ? replacement : '';
-          ignoreResult += matchIgnore[0];
-          ignoreLastIndex = ignoredRegexp.lastIndex;
-        } else {
-          ignoreResult +=
-            matchMain[0].length > ignoreLastIndex ? replacement : '';
-          break;
-        }
-      }
-      result += source.substring(lastIndex, matchMain.index) + ignoreResult;
-      lastIndex = rule.lastIndex;
-    } else {
-      result += source.substring(lastIndex, source.length);
-      break;
+  let ignoreIndex = 0;
+  for (const match of source.matchAll(rule)) {
+    const start = match.index;
+    const end = start + match[0].length;
+    result += source.slice(lastIndex, start);
+    while (
+      ignoreIndex < ignoreRanges.length &&
+      ignoreRanges[ignoreIndex][1] < start
+    ) {
+      ignoreIndex += 1;
     }
+    let cursor = start;
+    for (
+      let i = ignoreIndex;
+      i < ignoreRanges.length && ignoreRanges[i][0] < end;
+      i += 1
+    ) {
+      const [ignoredStart, ignoredEnd] = ignoreRanges[i];
+      const preservedStart = Math.max(start, ignoredStart);
+      const preservedEnd = Math.min(end, ignoredEnd + 1);
+      if (cursor < preservedStart) {
+        result += replacement;
+      }
+      result += source.slice(preservedStart, preservedEnd);
+      cursor = preservedEnd;
+    }
+    if (cursor < end || (start === end && !inRange(start, ignoreRanges))) {
+      result += replacement;
+    }
+    lastIndex = end;
   }
-  return result;
+  return result + source.slice(lastIndex);
 }

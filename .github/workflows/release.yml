@@ -56,15 +56,11 @@ jobs:
 
       - name: Update npm for OIDC support
         if: steps.npm_check.outputs.exists == 'false'
-        run: npm install -g npm@latest
+        run: npm install -g npm@11.17.0
 
       - name: Install dependencies
         if: steps.npm_check.outputs.exists == 'false'
         run: bun install
-
-      - name: Build
-        if: steps.npm_check.outputs.exists == 'false'
-        run: bun run build
 
       - name: Publish to npm
         if: steps.npm_check.outputs.exists == 'false'

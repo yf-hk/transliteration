@@ -56,9 +56,12 @@ export class Slugify extends Transliterate {
     );
     if (sep) {
       // Collapse consecutive separators into one
-      slug = slug.replace(new RegExp(`${sep}+`, 'g'), opt.separator as string);
+      slug = slug.replace(
+        new RegExp(`(?:${sep})+`, 'g'),
+        () => opt.separator ?? '-'
+      );
       // Remove leading and trailing separators
-      slug = slug.replace(new RegExp(`^${sep}+|${sep}+$`, 'g'), '');
+      slug = slug.replace(new RegExp(`^(?:${sep})+|(?:${sep})+$`, 'g'), '');
     }
 
     if (opt.lowercase) {

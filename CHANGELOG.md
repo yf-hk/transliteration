@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.6.2
+
+- Fix built CLI executables, boolean options, stdin chunk boundaries, and version reporting.
+- Restore browser globals and AMD/CommonJS support in browser script builds.
+- Handle zero-width replacement regexes and empty ignore entries without hanging.
+- Preserve ignored strings across replacement and slug sanitization matches.
+- Fix custom upper-BMP character mappings and multi-character slug separators.
+- Remove full character data from Latin builds and keep browser ES modules standalone.
+- Pin a Node 20 compatible npm version for trusted publishing.
+- Test built package artifacts alongside the source test suite.
+
 ## 2.6.1
 
 - **Fix**: Added `transliteration/latin` entrypoint with proper `exports` mapping

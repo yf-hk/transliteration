@@ -1,4 +1,4 @@
-import { type Charmap, charmap } from '../../data/charmap';
+import type { Charmap } from '../../data/charmap';
 import type {
   IntervalArray,
   OptionReplaceArray,
@@ -39,10 +39,7 @@ export class Transliterate {
   protected defaultMap: Charmap;
   protected map: Charmap;
 
-  constructor(
-    confOptions: OptionsTransliterate = deepClone(defaultOptions),
-    map: Charmap = charmap
-  ) {
+  constructor(confOptions: OptionsTransliterate, map: Charmap) {
     this.confOptions = confOptions;
     this.defaultMap = map;
     this.map = map;
@@ -186,13 +183,9 @@ export class Transliterate {
     }
     if (data && typeof data === 'object' && Object.keys(data).length) {
       this.map = deepClone(this.map);
-      for (const from in data) {
-        /* v8 ignore next 5 */
-        if (
-          Object.hasOwn(data, from) &&
-          from.length < 3 &&
-          from <= '\udbff\udfff'
-        ) {
+      for (const from of Object.keys(data)) {
+        const code = from.codePointAt(0);
+        if (code !== undefined && from.length === (code > 0xff_ff ? 2 : 1)) {
           this.map[from] = data[from];
         }
       }

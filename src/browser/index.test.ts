@@ -4,7 +4,7 @@ import { slugify, transliterate } from './index';
 
 describe('browser/transliterate()', () => {
   it('should transliterate in browser environment', () => {
-    expect(typeof window).not.toBe('undefined');
+    expect('window' in globalThis).toBe(true);
     expect(transliterate('你好')).toBe('Ni Hao');
     expect(transliterate('北亰')).toBe('Bei Jing');
   });
@@ -18,7 +18,7 @@ describe('browser/transliterate()', () => {
 
 describe('browser/slugify()', () => {
   it('should slugify in browser environment', () => {
-    expect(typeof window).not.toBe('undefined');
+    expect('window' in globalThis).toBe(true);
     expect(slugify('你好, 世界!')).toBe('ni-hao-shi-jie');
   });
 

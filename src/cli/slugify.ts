@@ -1,49 +1,39 @@
 #!/usr/bin/env node
 
+import { readFileSync } from 'node:fs';
+import { version } from '../../package.json';
 import { slugify } from '../node';
 import type { OptionsSlugify } from '../types';
 import { HELP_SLUGIFY, parseArgs, parseReplaceOption, toArray } from './common';
 
-const VERSION = '2.4.0';
+const argv = parseArgs(process.argv.slice(2), 'slugify');
 
-const argv = parseArgs(process.argv.slice(2));
-
-if (argv.h || argv.help) {
+if (argv.help) {
   console.log(HELP_SLUGIFY);
   process.exit(0);
 }
 
-if (argv.v || argv.version) {
-  console.log(VERSION);
+if (argv.version) {
+  console.log(version);
   process.exit(0);
 }
 
-const replaceArg = argv.r ?? argv.replace;
-const ignoreArg = argv.i ?? argv.ignore;
+const replaceArg = argv.replace;
+const ignoreArg = argv.ignore;
 
 const options: OptionsSlugify = {
-  unknown: String(argv.U || argv.unknown || ''),
-  lowercase:
-    argv.l !== undefined || argv.lowercase !== undefined
-      ? !!(argv.l || argv.lowercase)
-      : true,
-  uppercase: !!(argv.u || argv.uppercase),
-  separator: String(argv.s ?? argv.separator ?? '-'),
+  unknown: String(argv.unknown ?? ''),
+  lowercase: argv.lowercase === undefined ? true : argv.lowercase === true,
+  uppercase: argv.uppercase === true,
+  separator: String(argv.separator ?? '-'),
   replace: parseReplaceOption(
     toArray(typeof replaceArg === 'boolean' ? undefined : replaceArg)
   ),
   ignore: toArray(typeof ignoreArg === 'boolean' ? undefined : ignoreArg),
 };
 
-if (argv.S || argv.stdin) {
-  process.stdin.setEncoding('utf-8');
-  process.stdin.on('readable', () => {
-    const chunk = process.stdin.read() as string;
-    if (chunk !== null) {
-      process.stdout.write(slugify(chunk, options));
-    }
-  });
-  process.stdin.on('end', () => console.log(''));
+if (argv.stdin) {
+  console.log(slugify(readFileSync(0, 'utf8'), options));
 } else if (argv._.length !== 1) {
   console.error("Invalid argument. Please type 'slugify --help' for help.");
   process.exit(1);

@@ -13,6 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Setup Node.js for package tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
         with:
@@ -24,9 +29,6 @@ jobs:
       - name: Lint
         run: bun run lint
 
-      - name: Build
-        run: bun run build
-
       - name: Test with coverage
         run: bun run test:coverage
 
@@ -36,4 +38,4 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage/coverage-final.json
           fail_ci_if_error: false
-          verbose: true 
+          verbose: true

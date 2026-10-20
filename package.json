@@ -1,6 +1,6 @@
 {
   "name": "transliteration",
-  "version": "2.6.1",
+  "version": "2.6.2",
   "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
   "main": "dist/node/src/node/index.js",
   "module": "dist/browser/bundle.esm.min.js",
@@ -36,12 +36,13 @@
     "generate:data": "bun scripts/generate-data.ts",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
-    "test": "vitest run",
+    "test": "vitest run && bun run test:package",
+    "test:package": "bun run build && node --test test/package.test.mjs",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
+    "test:coverage": "vitest run --coverage && bun run test:package",
     "prebuild": "del-cli dist && bun run generate:data",
     "build": "tsup && bun scripts/postbuild.ts",
-    "prepublishOnly": "bun run lint && bun run test && bun run build"
+    "prepublishOnly": "bun run lint && bun run test"
   },
   "repository": {
     "type": "git",

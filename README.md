@@ -40,10 +40,10 @@ A universal Unicode to Latin transliteration and slug generation library. Design
 For applications that only need to transliterate Latin-based scripts (Western European languages), you can use the lightweight Latin-only build for significantly smaller bundle size:
 
 ```javascript
-// Full build: ~186 KB (all scripts including CJK, Korean, etc.)
+// Full build: ~190 KB minified, uncompressed (all scripts including CJK, Korean, etc.)
 import { transliterate, slugify } from 'transliteration';
 
-// Latin-only build: ~5 KB (Basic Latin + Latin Extended only)
+// Latin-only build: ~10 KB minified, uncompressed (Basic Latin + Latin Extended only)
 import { transliterate, slugify } from 'transliteration/latin';
 ```
 
@@ -93,11 +93,11 @@ slugify('你好, world!');  // => 'ni-hao-world'
 <script src="https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.umd.min.js"></script>
 <script>
   // Available as global variables
-  transliterate('你好, World');  // => 'Ni Hao , World'
+  transliterate('你好, World');  // => 'Ni Hao, World'
   slugify('Hello, 世界');       // => 'hello-shi-jie'
   
   // Legacy method (will be removed in next major version)
-  transl('Hola, mundo');       // => 'hola-mundo'
+  transl('Hola, mundo');       // => 'Hola, mundo'
 </script>
 ```
 
@@ -123,6 +123,8 @@ slugify 你好                      # => ni-hao
 # Using stdin
 echo 你好 | slugify -S           # => ni-hao
 ```
+
+Stdin is buffered until EOF so replacements, ignored strings, and word boundaries behave the same as a direct API call.
 
 ## Usage
 
@@ -228,6 +230,8 @@ slugify('你好，世界', {
   ignore: ['你好'] 
 });                                // => '你好shi-jie'
 ```
+
+`ignore` also applies when cleaning up transliterated text, so ignored strings can include generated Latin text. Case conversion still follows the `lowercase` and `uppercase` options.
 
 ### slugify.config([optionsObj], [reset = false])
 
