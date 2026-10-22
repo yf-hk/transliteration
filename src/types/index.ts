@@ -40,6 +40,14 @@ export type OptionsTransliterate = {
    * @default true
    */
   fixChineseSpacing?: boolean;
+  /**
+   * Transliterate Thai script using the Royal Thai General System (RTGS),
+   * which is syllable-based. For example, `สวัสดี` becomes `sawatdi`. Thai has
+   * no per-character charmap entries, so disabling this leaves Thai unmapped
+   * (treated as `unknown`, like any unsupported script).
+   * @default true
+   */
+  thai?: boolean;
 };
 
 export type OptionsSlugify = OptionsTransliterate & {

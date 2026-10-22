@@ -214,8 +214,20 @@ describe('transliterate()', () => {
       expect(tr('Αθήνα')).toBe('Athina');
     });
 
-    it('should handle Thai characters', () => {
-      expect(tr('สวัสดี')).toBe('swasdii');
+    it('should handle Thai characters (RTGS by default)', () => {
+      expect(tr('สวัสดี')).toBe('sawatdi');
+      expect(tr('เชียงใหม่')).toBe('chiangmai');
+    });
+
+    it('should treat Thai as unknown when the thai option is disabled', () => {
+      // Per-character Thai charmap entries were dropped in favor of RTGS, so
+      // disabling RTGS leaves Thai unmapped like any unsupported script.
+      expect(tr('สวัสดี', { thai: false })).toBe('');
+      expect(tr('สวัสดี', { thai: false, unknown: '?' })).toBe('??????');
+    });
+
+    it('should not transliterate Thai substrings listed in ignore', () => {
+      expect(tr('สวัสดี ไทย', { ignore: ['ไทย'] })).toBe('sawatdi ไทย');
     });
 
     it('should handle Hebrew characters', () => {

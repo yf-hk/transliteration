@@ -16,6 +16,12 @@ const isChinese = (high: number): boolean =>
 
 const isKorean = (high: number): boolean => high >= 0xac && high <= 0xd7;
 
+// Thai occupies U+0E00-U+0E7F (high 0x0e, low 0x00-0x7f). It is romanized by
+// the RTGS syllable engine (src/common/thai.ts), not per character, so its
+// charmap entries are dropped. Lao shares high 0x0e at low 0x80+ and stays.
+const isThai = (high: number, low: number): boolean =>
+  high === 0x0e && low <= 0x7f;
+
 // Latin range: 0x00-0x02 (Basic Latin + Latin Extended)
 const LATIN_MAX = 0x02;
 
@@ -34,7 +40,7 @@ for (let high = 0; high <= 255; high++) {
   const chunk: (string | null)[] = [];
   for (let low = 0; low < json[high].length; low++) {
     let v = json[high][low];
-    if (v === undefined || v === null || v === '') {
+    if (v === undefined || v === null || v === '' || isThai(high, low)) {
       chunk.push(null);
     } else {
       if (isChinese(high) && typeof v === 'string') {

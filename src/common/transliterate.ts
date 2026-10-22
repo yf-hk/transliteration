@@ -7,6 +7,7 @@ import type {
   OptionsTransliterate,
 } from '../types';
 
+import { transliterateThai } from './thai';
 import {
   deepClone,
   escapeRegExp,
@@ -20,6 +21,7 @@ import {
 const SURROGATE_HIGH_REGEX = /[\uD800-\uDBFF]/;
 const SURROGATE_LOW_REGEX = /[\uDC00-\uDFFF]/;
 const REDOS_SAFE_REGEX = /[^\s\S]/;
+const THAI_REGEX = /[฀-๿]/;
 
 export const defaultOptions: OptionsTransliterate = {
   ignore: [],
@@ -28,6 +30,7 @@ export const defaultOptions: OptionsTransliterate = {
   trim: false,
   unknown: '',
   fixChineseSpacing: true,
+  thai: true,
 };
 
 export class Transliterate {
@@ -172,6 +175,38 @@ export class Transliterate {
   }
 
   /**
+   * Transliterate Thai runs in `str` using RTGS, leaving ignored substrings
+   * and all non-Thai text untouched.
+   * @param str
+   * @param ignore
+   */
+  thaiReplace(str: string, ignore: string[] = []): string {
+    if (!THAI_REGEX.test(str)) {
+      return str;
+    }
+    const ranges: IntervalArray = ignore.length
+      ? findStrOccurrences(str, ignore)
+      : [];
+    if (ranges.length === 0) {
+      return transliterateThai(str);
+    }
+    // Convert only the spans that fall outside the ignored ranges.
+    let result = '';
+    let cursor = 0;
+    for (const [start, end] of ranges) {
+      if (start > cursor) {
+        result += transliterateThai(str.slice(cursor, start));
+      }
+      result += str.slice(start, end + 1);
+      cursor = end + 1;
+    }
+    if (cursor < str.length) {
+      result += transliterateThai(str.slice(cursor));
+    }
+    return result;
+  }
+
+  /**
    * Set charmap data
    * @param {Charmap} [data]
    * @param {boolean} [reset=false]
@@ -213,6 +248,11 @@ export class Transliterate {
     );
     if (replaceOption.length) {
       str = this.replaceString(str, replaceOption, opt.ignore);
+    }
+
+    // RTGS Thai transliteration (syllable-based) before the per-character map
+    if (opt.thai !== false) {
+      str = this.thaiReplace(str, opt.ignore);
     }
 
     // ignore
