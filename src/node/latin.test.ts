@@ -14,6 +14,15 @@ describe('latin build', () => {
     expect(latinTransliterate('S\u00e3o Paulo')).toBe('Sao Paulo');
   });
 
+  it('retains corrected Latin and compatibility mappings in both Latin exports', () => {
+    for (const convert of [latinTransliterate, browserLatinTransliterate]) {
+      expect(convert('ýÝ ẞ ᴀ ₐ ①')).toBe('yY SS A a 1');
+    }
+    for (const convert of [latinSlugify, browserLatinSlugify]) {
+      expect(convert('STRAẞE ýÝ ᴀ ₐ ①')).toBe('strasse-yy-a-a-1');
+    }
+  });
+
   it('omits non-Latin characters', () => {
     expect(latinTransliterate('\u4f60\u597d')).toBe('');
   });

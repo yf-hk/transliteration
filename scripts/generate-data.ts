@@ -18,10 +18,14 @@ const isKorean = (high: number): boolean => high >= 0xac && high <= 0xd7;
 
 // Latin range: 0x00-0x02 (Basic Latin + Latin Extended)
 const LATIN_MAX = 0x02;
+const LATIN_REGEX = /^\p{Script_Extensions=Latin}$/u;
+const NUMBER_REGEX = /^\p{Number}$/u;
+const ASCII_DIGITS_REGEX = /^\d+$/;
 
 // Build 2D array chunks, skipping Korean (computed at runtime)
 const chunks: Record<number, (string | null)[]> = {};
 const latinChunks: Record<number, (string | null)[]> = {};
+const extraLatinMappings: Record<string, string> = {};
 
 for (let high = 0; high <= 255; high++) {
   if (!Array.isArray(json[high]) || json[high].length === 0) {
@@ -34,13 +38,23 @@ for (let high = 0; high <= 255; high++) {
   const chunk: (string | null)[] = [];
   for (let low = 0; low < json[high].length; low++) {
     let v = json[high][low];
-    if (v === undefined || v === null || v === '') {
+    if (v === undefined || v === null) {
       chunk.push(null);
     } else {
       if (isChinese(high) && typeof v === 'string') {
         v = v.trimEnd();
       }
       chunk.push(v);
+      if (high > LATIN_MAX) {
+        const char = String.fromCharCode((high << 8) + low);
+        if (
+          LATIN_REGEX.test(char) ||
+          (NUMBER_REGEX.test(char) &&
+            ASCII_DIGITS_REGEX.test(char.normalize('NFKD')))
+        ) {
+          extraLatinMappings[char] = v;
+        }
+      }
     }
   }
 
@@ -129,7 +143,7 @@ export function lookup(char: string): string {
   const chunk = _[high];
   if (chunk) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       return v;
     }
   }
@@ -153,7 +167,7 @@ for (let high = 0; high < _.length; high++) {
   if (!chunk) continue;
   for (let low = 0; low < chunk.length; low++) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       charmap[String.fromCharCode((high << 8) + low)] = v;
     }
   }
@@ -172,7 +186,7 @@ writeFileSync(join(__dirname, '../data/charmap.ts'), mainCode, {
 
 // Latin-only charmap - minimal overhead for Latin scripts only
 const latinCode = `// Latin-only charmap - minimal bundle for Latin scripts
-// Only includes 0x00-0x02 (Basic Latin + Latin Extended)
+// Basic Latin chunks plus mapped Latin characters and ASCII-compatible numbers
 
 ${latinChunkImports}
 
@@ -184,6 +198,8 @@ export interface Charmap {
 const _: (string | null)[][] = [];
 ${latinChunkAssignments}
 
+const extraLatinMappings: Charmap = ${JSON.stringify(extraLatinMappings)};
+
 // Fast lookup function - Latin only
 export function lookup(char: string): string {
   const code = char.charCodeAt(0);
@@ -193,15 +209,15 @@ export function lookup(char: string): string {
   const chunk = _[high];
   if (chunk) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       return v;
     }
   }
-  return '';
+  return extraLatinMappings[char] ?? '';
 }
 
 // Build plain charmap object for compatibility with setData/deepClone
-export const charmap: Charmap = {};
+export const charmap: Charmap = { ...extraLatinMappings };
 
 // Populate from 2D array
 for (let high = 0; high < _.length; high++) {
@@ -209,7 +225,7 @@ for (let high = 0; high < _.length; high++) {
   if (!chunk) continue;
   for (let low = 0; low < chunk.length; low++) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       charmap[String.fromCharCode((high << 8) + low)] = v;
     }
   }
@@ -224,4 +240,7 @@ console.log('Generated data/charmap.ts (full)');
 console.log('Generated data/charmap-latin.ts (Latin only)');
 console.log(`  Chunks: ${Object.keys(chunks).length}`);
 console.log(`  Latin chunks: ${Object.keys(latinChunks).length}`);
+console.log(
+  `  Additional Latin mappings: ${Object.keys(extraLatinMappings).length}`
+);
 console.log('  Korean: computed at runtime');

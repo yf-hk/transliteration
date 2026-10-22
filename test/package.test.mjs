@@ -70,6 +70,23 @@ test('browser script builds expose the documented globals', () => {
     );
     assert.equal(context.transliterate('São Paulo'), 'Sao Paulo');
     assert.equal(context.slugify('São Paulo'), 'sao-paulo');
+    assert.equal(context.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
+    assert.equal(context.slugify('STRAẞE'), 'strasse');
+    assert.equal(
+      context.slugify('Hello World', { allowedChars: undefined }),
+      'hello-world'
+    );
+    context.transliterate.setData({ x: '' });
+    assert.equal(context.transliterate('axb', { unknown: '?' }), 'ab');
+    context.transliterate.setData(undefined, true);
+    assert.equal(context.transliterate('ẞ'), 'SS');
+    if (name === 'bundle') {
+      assert.equal(context.transliterate('ъ🚀', { unknown: '?' }), '?');
+      assert.equal(
+        context.slugify('2022年中文01英文nihao02'),
+        '2022-nian-zhong-wen-01-ying-wen-nihao-02'
+      );
+    }
     assert.equal(context.transl, context.transliterate);
   }
 });
@@ -104,10 +121,46 @@ test('browser ES modules load without sibling assets', async () => {
       );
       const api = await import(pathToFileURL(file).href);
       assert.equal(api.transliterate('São'), 'Sao');
+      assert.equal(api.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
+      assert.equal(
+        api.slugify('Hello World', { allowedChars: undefined }),
+        'hello-world'
+      );
       assert.equal(api.transliterate('你好'), name === 'latin' ? '' : 'Ni Hao');
     }
   } finally {
     rmSync(dir, { recursive: true, force: true });
+  }
+});
+
+test('built Node exports retain the issue fixes after data reset', () => {
+  for (const name of ['index', 'latin']) {
+    const api = require(`../dist/node/src/node/${name}.js`);
+    assert.equal(api.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
+    assert.equal(api.slugify('STRAẞE'), 'strasse');
+    assert.equal(
+      api.slugify('Hello World', { allowedChars: undefined }),
+      'hello-world'
+    );
+    assert.equal(
+      api.slugify('Hello World', { allowedChars: null }),
+      'hello-world'
+    );
+    try {
+      api.transliterate.setData({ x: '' });
+      assert.equal(api.transliterate('axb🚀', { unknown: '?' }), 'ab?');
+    } finally {
+      api.transliterate.setData(undefined, true);
+    }
+    assert.equal(api.transliterate('ẞ'), 'SS');
+    if (name === 'index') {
+      assert.equal(api.transliterate('ъ🚀', { unknown: '?' }), '?');
+      assert.equal(api.slugify('hello世界'), 'hello-shi-jie');
+      assert.equal(
+        api.slugify('2022年中文01英文nihao02'),
+        '2022-nian-zhong-wen-01-ying-wen-nihao-02'
+      );
+    }
   }
 });
 

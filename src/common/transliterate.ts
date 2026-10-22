@@ -20,6 +20,8 @@ import {
 const SURROGATE_HIGH_REGEX = /[\uD800-\uDBFF]/;
 const SURROGATE_LOW_REGEX = /[\uDC00-\uDFFF]/;
 const REDOS_SAFE_REGEX = /[^\s\S]/;
+const LATIN_REGEX = /^\p{Script_Extensions=Latin}$/u;
+const NUMBER_REGEX = /^\p{Number}$/u;
 
 export const defaultOptions: OptionsTransliterate = {
   ignore: [],
@@ -75,6 +77,8 @@ export class Transliterate {
     let result = '';
     const strContainsChinese = opt.fixChineseSpacing && hasChinese(str);
     let lastCharHasChinese = false;
+    let lastCharIsLatin = false;
+    let lastCharIsNumber = false;
     for (let i = 0; i < str.length; i++) {
       // Get current character, taking surrogates in consideration
       const char =
@@ -98,18 +102,29 @@ export class Transliterate {
           ignoreFixingChinese = true;
         }
       } else {
-        s = this.map[char] || opt.unknown || '';
+        s = this.map[char] ?? opt.unknown ?? '';
       }
       // fix Chinese spacing issue
-      if (strContainsChinese) {
+      if (strContainsChinese && s) {
+        const charHasChinese = hasChinese(char);
+        const charIsNumber = NUMBER_REGEX.test(char);
+        const charIsLatin = LATIN_REGEX.test(char);
         if (
-          lastCharHasChinese &&
-          !ignoreFixingChinese &&
-          !hasPunctuationOrSpace(s)
+          !(
+            ignoreFixingChinese ||
+            hasPunctuationOrSpace(s) ||
+            hasPunctuationOrSpace(result.slice(-1))
+          ) &&
+          (lastCharHasChinese ||
+            (charHasChinese && (lastCharIsLatin || lastCharIsNumber)) ||
+            (charIsNumber && lastCharIsLatin) ||
+            (charIsLatin && lastCharIsNumber))
         ) {
           s = ` ${s}`;
         }
-        lastCharHasChinese = !!s && hasChinese(char);
+        lastCharHasChinese = charHasChinese;
+        lastCharIsLatin = charIsLatin;
+        lastCharIsNumber = charIsNumber;
       }
       result += s;
       index += char.length;

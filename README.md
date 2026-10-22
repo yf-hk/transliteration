@@ -40,10 +40,10 @@ A universal Unicode to Latin transliteration and slug generation library. Design
 For applications that only need to transliterate Latin-based scripts (Western European languages), you can use the lightweight Latin-only build for significantly smaller bundle size:
 
 ```javascript
-// Full build: ~190 KB minified, uncompressed (all scripts including CJK, Korean, etc.)
+// Full build: ~195 KB minified, uncompressed (all scripts including CJK, Korean, etc.)
 import { transliterate, slugify } from 'transliteration';
 
-// Latin-only build: ~10 KB minified, uncompressed (Basic Latin + Latin Extended only)
+// Latin-only build: ~18 KB minified, uncompressed
 import { transliterate, slugify } from 'transliteration/latin';
 ```
 
@@ -53,6 +53,8 @@ The Latin-only build supports:
 - Latin-1 Supplement (U+0080-U+00FF)
 - Latin Extended-A (U+0100-U+017F)
 - Latin Extended-B (U+0180-U+024F)
+- Mapped Latin characters in other blocks, including `ẞ`, `ᴀ` and `ₐ`
+- Compatibility numbers that normalize to ASCII digits, such as `①`
 
 This is ideal for applications that only handle Western European languages and want to minimize bundle size.
 
@@ -130,7 +132,7 @@ Stdin is buffered until EOF so replacements, ignored strings, and word boundarie
 
 ### transliterate(str, [options])
 
-Converts Unicode characters in the input string to their Latin equivalents. Unrecognized characters are replaced with the `unknown` placeholder or removed if no placeholder is specified.
+Converts Unicode characters in the input string to their Latin equivalents. Unrecognized characters are replaced with the `unknown` placeholder or removed if no placeholder is specified. Characters with an explicit empty mapping, including Cyrillic hard and soft signs, remain silent even when `unknown` is set. Empty mappings supplied through `setData()` also remove the character.
 
 #### Options
 
@@ -141,7 +143,7 @@ Converts Unicode characters in the input string to their Latin equivalents. Unre
 | `replaceAfter` | `object` or `array` | `{}` | Custom replacements applied after transliteration |
 | `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |
 | `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |
-| `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
+| `fixChineseSpacing` | `boolean` | `true` | In text containing Chinese, separate Chinese characters and Latin/number runs |
 
 #### Example
 
@@ -149,7 +151,7 @@ Converts Unicode characters in the input string to their Latin equivalents. Unre
 import { transliterate as tr } from 'transliteration';
 
 // Basic usage
-tr('你好，世界');                  // => 'Ni Hao , Shi Jie'
+tr('你好，世界');                  // => 'Ni Hao,Shi Jie'
 tr('Γεια σας, τον κόσμο');        // => 'Geia sas, ton kosmo'
 tr('안녕하세요, 세계');             // => 'annyeonghaseyo, segye'
 
@@ -202,7 +204,7 @@ Transforms Unicode text into a URL-safe and filename-safe slug string.
 | `uppercase` | `boolean` | `false` | Convert output to uppercase |
 | `separator` | `string` | `-` | Word separator character |
 | `allowedChars` | `string` | `a-zA-Z0-9-_.~'` | Regex character class for permitted characters |
-| `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |
+| `fixChineseSpacing` | `boolean` | `true` | In text containing Chinese, separate Chinese characters and Latin/number runs |
 
 #### Example
 
@@ -232,6 +234,18 @@ slugify('你好，世界', {
 ```
 
 `ignore` also applies when cleaning up transliterated text, so ignored strings can include generated Latin text. Case conversion still follows the `lowercase` and `uppercase` options.
+
+With `fixChineseSpacing: true`, mixed Chinese, Latin and numeric runs form separate words:
+
+```javascript
+slugify('2022年中文01英文nihao02');
+// => '2022-nian-zhong-wen-01-ying-wen-nihao-02'
+slugify('hello世界'); // => 'hello-shi-jie'
+slugify('hello世界', { fixChineseSpacing: false }); // => 'helloshijie'
+slugify('iPhone15'); // => 'iphone15' (no Chinese in the input)
+```
+
+Omitting `allowedChars`, or passing `undefined`, uses the default character class. An explicit empty string still removes every non-ignored character.
 
 ### slugify.config([optionsObj], [reset = false])
 
