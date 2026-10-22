@@ -175,6 +175,20 @@ describe('slugify() edge cases', () => {
     );
   });
 
+  it('should fall back to the default allowedChars when it is undefined or null', () => {
+    // Passing `allowedChars: undefined` (e.g. from a spread of optional config)
+    // must use the default, not coerce `undefined` into the character class.
+    expect(slugify('Hello World', { allowedChars: undefined })).toBe(
+      'hello-world'
+    );
+    expect(
+      slugify('Hello World', { allowedChars: null as unknown as string })
+    ).toBe('hello-world');
+    expect(
+      slugify('Hello World', { uppercase: true, allowedChars: undefined })
+    ).toBe('HELLO-WORLD');
+  });
+
   it('should handle custom separator with special regex characters', () => {
     expect(slugify('hello world', { separator: '.' })).toBe('hello.world');
     expect(slugify('hello world', { separator: '+' })).toBe('hello+world');
