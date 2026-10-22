@@ -1,5 +1,14 @@
 # Changelog
 
+## Unreleased
+
+- Fix `Ý` mapping to `Y` instead of `U` (#107).
+- Preserve explicit empty mappings in generated data and `setData()`, including when `unknown` is set (#246).
+- Add mappings for `ẞ`, `ᴀ`, `ₐ` and `①` in full and Latin builds (#256).
+- Include mapped Latin characters outside the original Latin blocks and ASCII-compatible numbers in the Latin build; its minified, uncompressed size is now approximately 18 KB.
+- Use the default `allowedChars` when its runtime value is `undefined` or `null`, while preserving explicit empty strings (#252).
+- Make Chinese/Latin/number boundaries symmetric when `fixChineseSpacing` is enabled (#239). Mixed-script slugs can change; use `fixChineseSpacing: false` to disable inserted boundaries.
+
 ## 2.6.2
 
 - Fix built CLI executables, boolean options, stdin chunk boundaries, and version reporting.

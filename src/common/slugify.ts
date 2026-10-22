@@ -50,7 +50,7 @@ export class Slugify extends Transliterate {
 
     slug = regexpReplaceCustom(
       slug,
-      new RegExp(`[^${opt.allowedChars}]+`, 'g'),
+      new RegExp(`[^${opt.allowedChars ?? defaultOptions.allowedChars}]+`, 'g'),
       opt.separator ?? '-',
       opt.ignore ?? []
     );

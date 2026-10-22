@@ -151,6 +151,23 @@ describe('transliterate()', () => {
     it('should use placeholder for unknown characters', () => {
       expect(tr('🚀', { unknown: '?' })).toBe('?');
     });
+
+    it('should preserve known silent mappings with an unknown placeholder', () => {
+      expect(tr('ЪъЬь', { unknown: '?' })).toBe('');
+      expect(tr('e\u0301🚀', { unknown: '?' })).toBe('e?');
+      expect(tr.setData()).toHaveProperty('ъ', '');
+    });
+
+    it('should preserve explicit empty custom mappings and restore them on reset', () => {
+      try {
+        tr.setData({ x: '', ъ: 'X' });
+        expect(tr('axb🚀', { unknown: '?' })).toBe('ab?');
+        expect(tr('ъ', { unknown: '?' })).toBe('X');
+      } finally {
+        tr.setData(undefined, true);
+      }
+      expect(tr('ъ🚀', { unknown: '?' })).toBe('?');
+    });
   });
 
   describe('Edge cases', () => {
@@ -183,8 +200,8 @@ describe('transliterate()', () => {
     });
 
     it('should handle strings with numbers', () => {
-      expect(tr('你好123世界')).toBe('Ni Hao 123Shi Jie');
-      expect(tr('2024年')).toBe('2024Nian');
+      expect(tr('你好123世界')).toBe('Ni Hao 123 Shi Jie');
+      expect(tr('2024年')).toBe('2024 Nian');
     });
 
     it('should handle strings with special ASCII characters', () => {
@@ -224,6 +241,26 @@ describe('transliterate()', () => {
   });
 
   describe('Chinese spacing behavior', () => {
+    it('should separate Chinese, Latin and number runs symmetrically', () => {
+      expect(tr('hello世界')).toBe('hello Shi Jie');
+      expect(tr('你好world')).toBe('Ni Hao world');
+      expect(tr('2022年中文01英文nihao02')).toBe(
+        '2022 Nian Zhong Wen 01 Ying Wen nihao 02'
+      );
+      expect(tr('é中')).toBe('e Zhong');
+      expect(tr('げんまい茶')).toBe('genmaiCha');
+      expect(tr('iPhone15')).toBe('iPhone15');
+    });
+
+    it('should not add spaces for empty mappings or inside ignored strings', () => {
+      expect(tr('你ъ', { unknown: '?' })).toBe('Ni');
+      expect(tr('你ъ好', { unknown: '?' })).toBe('Ni Hao');
+      expect(tr('a\u0301中', { unknown: '?' })).toBe('a Zhong');
+      expect(tr('hello世界', { ignore: ['hello世界'] })).toBe('hello世界');
+      expect(tr('你好SKU12', { ignore: ['SKU12'] })).toBe('Ni Hao SKU12');
+      expect(tr('hello世界', { fixChineseSpacing: false })).toBe('helloShiJie');
+    });
+
     it('should add spaces between Chinese characters by default', () => {
       expect(tr('你好')).toBe('Ni Hao');
       expect(tr('北京市')).toBe('Bei Jing Shi');
@@ -233,9 +270,31 @@ describe('transliterate()', () => {
       expect(tr('你好，世界')).toBe('Ni Hao,Shi Jie');
     });
 
+    it('should respect trailing spaces and punctuation in custom mappings', () => {
+      try {
+        tr.setData({ x: 'x ', y: 'y,' });
+        expect(tr('x你')).toBe('x Ni');
+        expect(tr('y你')).toBe('y,Ni');
+      } finally {
+        tr.setData(undefined, true);
+      }
+    });
+
     it('should handle fixChineseSpacing option', () => {
       expect(tr('你好', { fixChineseSpacing: false })).toBe('NiHao');
       expect(tr('你好', { fixChineseSpacing: true })).toBe('Ni Hao');
+    });
+  });
+
+  describe('Reported Latin and compatibility mappings', () => {
+    it('should preserve acute Y and capital sharp S', () => {
+      expect(tr('ýÝ')).toBe('yY');
+      expect(tr('STRAẞE')).toBe('STRASSE');
+      expect(tr('ßẞ')).toBe('ssSS');
+    });
+
+    it('should map the compatibility characters reported with capital sharp S', () => {
+      expect(tr('ᴀ ₐ ①')).toBe('A a 1');
     });
   });
 

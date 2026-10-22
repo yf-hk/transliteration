@@ -25,11 +25,15 @@ import x15 from './chunks/x15';
 import x16 from './chunks/x16';
 import x17 from './chunks/x17';
 import x18 from './chunks/x18';
+import x1d from './chunks/x1d';
 import x1e from './chunks/x1e';
 import x1f from './chunks/x1f';
 import x20 from './chunks/x20';
 import x21 from './chunks/x21';
+import x24 from './chunks/x24';
 import x25 from './chunks/x25';
+import x26 from './chunks/x26';
+import x27 from './chunks/x27';
 import x28 from './chunks/x28';
 import x30 from './chunks/x30';
 import x31 from './chunks/x31';
@@ -126,6 +130,8 @@ import xa7 from './chunks/xa7';
 import xf9 from './chunks/xf9';
 import xfa from './chunks/xfa';
 import xfb from './chunks/xfb';
+import xfc from './chunks/xfc';
+import xfd from './chunks/xfd';
 import xfe from './chunks/xfe';
 import xff from './chunks/xff';
 
@@ -164,11 +170,15 @@ _[0x15] = x15;
 _[0x16] = x16;
 _[0x17] = x17;
 _[0x18] = x18;
+_[0x1d] = x1d;
 _[0x1e] = x1e;
 _[0x1f] = x1f;
 _[0x20] = x20;
 _[0x21] = x21;
+_[0x24] = x24;
 _[0x25] = x25;
+_[0x26] = x26;
+_[0x27] = x27;
 _[0x28] = x28;
 _[0x30] = x30;
 _[0x31] = x31;
@@ -265,6 +275,8 @@ _[0xa7] = xa7;
 _[0xf9] = xf9;
 _[0xfa] = xfa;
 _[0xfb] = xfb;
+_[0xfc] = xfc;
+_[0xfd] = xfd;
 _[0xfe] = xfe;
 _[0xff] = xff;
 
@@ -278,7 +290,7 @@ export function lookup(char: string): string {
   const chunk = _[high];
   if (chunk) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       return v;
     }
   }
@@ -302,7 +314,7 @@ for (let high = 0; high < _.length; high++) {
   if (!chunk) continue;
   for (let low = 0; low < chunk.length; low++) {
     const v = chunk[low];
-    if (v) {
+    if (typeof v === 'string') {
       charmap[String.fromCharCode((high << 8) + low)] = v;
     }
   }

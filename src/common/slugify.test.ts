@@ -94,6 +94,41 @@ describe('slugify.config()', () => {
 });
 
 describe('slugify() edge cases', () => {
+  it('should use default allowedChars for undefined and null options', () => {
+    expect(slugify('Hello World', { allowedChars: undefined })).toBe(
+      'hello-world'
+    );
+    expect(
+      Reflect.apply(slugify, undefined, ['Hello World', { allowedChars: null }])
+    ).toBe('hello-world');
+    expect(
+      slugify('Hello World', { allowedChars: undefined, uppercase: true })
+    ).toBe('HELLO-WORLD');
+    expect(slugify('Hello World', { allowedChars: '' })).toBe('');
+    try {
+      slugify.config({ allowedChars: undefined });
+      expect(slugify('Hello World')).toBe('hello-world');
+    } finally {
+      slugify.config(undefined, true);
+    }
+  });
+
+  it('should separate mixed Chinese, Latin and number runs', () => {
+    expect(slugify('hello世界')).toBe('hello-shi-jie');
+    expect(slugify('你好world')).toBe('ni-hao-world');
+    expect(slugify('2022年中文01英文nihao02')).toBe(
+      '2022-nian-zhong-wen-01-ying-wen-nihao-02'
+    );
+    expect(slugify('SKU12你好', { ignore: ['SKU12'] })).toBe('sku12-ni-hao');
+    expect(slugify('hello世界', { fixChineseSpacing: false })).toBe(
+      'helloshijie'
+    );
+  });
+
+  it('should retain corrected Latin characters in slugs', () => {
+    expect(slugify('STRAẞE ýÝ ᴀ ₐ ①')).toBe('strasse-yy-a-a-1');
+  });
+
   it('should handle empty strings', () => {
     expect(slugify('')).toBe('');
   });

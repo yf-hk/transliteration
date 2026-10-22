@@ -31,12 +31,14 @@ export type OptionsTransliterate = {
    */
   trim?: boolean;
   /**
-   * Any characters not known by this library will be replaced by a specific string `unknown`
+   * Characters without a mapping are replaced by `unknown`; explicit empty mappings stay silent.
    * @default ''
    */
   unknown?: string;
   /**
-   * Fix Chinese spacing. For example, `你好` is transliterated to `Ni Hao` instead of `NiHao`. If you don't need to transliterate Chinese characters, set it to false to false to improve performance.
+   * In Chinese-containing text, separate Chinese characters and Latin/number runs.
+   * For example, `hello世界02` becomes `hello Shi Jie 02`.
+   * Set to false to preserve compact output and skip Chinese spacing processing.
    * @default true
    */
   fixChineseSpacing?: boolean;
@@ -66,7 +68,7 @@ export type OptionsSlugify = OptionsTransliterate & {
    */
   allowedChars?: string;
   /**
-   * Fix Chinese spacing. For example, `你好` is transliterated to `Ni Hao` instead of `NiHao`. If you don't need to transliterate Chinese characters, set it to false to false to improve performance.
+   * Separate Chinese characters and Latin/number runs in Chinese-containing text.
    */
   fixChineseSpacing?: boolean;
 };
