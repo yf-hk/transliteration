@@ -32,10 +32,6 @@ export type NodeAdapter = AdapterBase &
         style: 'default' | 'slugify' | 'slug' | 'pinyin';
       }
   );
-export type NativeAdapter = AdapterBase & {
-  kind: 'native';
-  runtime: 'python' | 'rust' | 'icu';
-};
 export type Metadata = {
   id: string;
   name: string;
@@ -77,7 +73,7 @@ export type Sample = {
   expectedChecksum: number;
   outputUnits: number;
   expectedOutputUnits: number;
-  unit: 'utf16' | 'utf8' | 'codepoints';
+  unit: 'utf16';
   cpuMs: number | null;
   cpuToWallRatio: number | null;
   errors: number;
@@ -159,7 +155,7 @@ export type RunResult = {
   startup: Startup[];
   memory: WarmMemory[];
   artifacts: Artifact[];
-  phases: { javascript: Phase; cross: Phase | null };
+  phases: { javascript: Phase };
   failures: { phase: string; adapter: string; message: string }[];
 };
 export type WorkerJob =

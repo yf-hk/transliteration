@@ -1,13 +1,11 @@
-import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readdirSync, writeFileSync } from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { parseArgs } from 'node:util';
-import { nativeAdapters, nodeAdapters } from './adapters.js';
+import { nodeAdapters } from './adapters.js';
 import { measureBrowserArtifacts } from './artifacts.js';
 import { fixtures } from './fixtures.js';
 import { array } from './json.js';
-import { buildNative, measureNative } from './native.js';
 import { directory, repository } from './paths.js';
 import { startWorker } from './process.js';
 import { audit, sample, warmMemory } from './protocol.js';
@@ -19,12 +17,9 @@ const { values } = parseArgs({
   options: {
     full: { type: 'boolean' },
     quick: { type: 'boolean' },
-    'javascript-only': { type: 'boolean' },
     before: { type: 'string' },
     snapshot: { type: 'string' },
     archive: { type: 'string' },
-    python: { type: 'string' },
-    'icu-prefix': { type: 'string' },
     adapters: { type: 'string' },
     fixtures: { type: 'string' },
     output: { type: 'string' },
@@ -36,17 +31,14 @@ const { values } = parseArgs({
 });
 if (values.help) {
   process.stdout.write(
-    'Compile with bun run --cwd benchmark build, then node benchmark/.build/run.js --full --before PACKAGE_DIRECTORY --archive TESTED_TARBALL --update-readme. See benchmark/README.md for all options and native prerequisites.\n'
+    'Compile with bun run --cwd benchmark build, then node benchmark/.build/run.js --full --before PACKAGE_DIRECTORY --archive TESTED_TARBALL --update-readme. See benchmark/README.md for all options.\n'
   );
   process.exit(0);
 }
 if (values.quick && values.full) throw new Error('Choose --quick or --full');
 if (
   values['update-readme'] &&
-  (!values.full ||
-    values['javascript-only'] ||
-    values.adapters ||
-    values.fixtures)
+  (!values.full || values.adapters || values.fixtures)
 )
   throw new Error('README refresh requires a complete full run');
 const before = path.resolve(
@@ -66,7 +58,7 @@ const allNode = nodeAdapters(
   values.snapshot ? path.resolve(repository, values.snapshot) : undefined
 );
 if (values.list) {
-  for (const adapter of [...allNode, ...nativeAdapters])
+  for (const adapter of allNode)
     process.stdout.write(
       `${adapter.id}\t${adapter.name}\t${adapter.modes.join(', ')}\n`
     );
@@ -87,12 +79,7 @@ function select<T extends { id: string }>(
   });
 }
 const selectedIds = values.adapters?.split(',');
-if (
-  selectedIds?.some(
-    (id) =>
-      ![...allNode, ...nativeAdapters].some((adapter) => adapter.id === id)
-  )
-)
+if (selectedIds?.some((id) => !allNode.some((adapter) => adapter.id === id)))
   throw new Error('Unknown adapter; use --list');
 const selectedNode = selectedIds
   ? allNode.filter((adapter) => selectedIds.includes(adapter.id))
@@ -101,12 +88,6 @@ if (!selectedNode.some((adapter) => adapter.id === 'ours-full'))
   throw new Error(
     'The full current reference is required for output comparisons'
   );
-const selectedNative =
-  values.full && !values['javascript-only']
-    ? nativeAdapters.filter(
-        (adapter) => !selectedIds || selectedIds.includes(adapter.id)
-      )
-    : [];
 const selectedFixtures = select(
   fixtures,
   values.fixtures ??
@@ -129,28 +110,9 @@ const output = path.resolve(
 mkdirSync(output, { recursive: true });
 if (readdirSync(output).length)
   throw new Error('Output directory must be empty');
-const python =
-  (values.python ? path.resolve(repository, values.python) : undefined) ??
-  process.env.BENCHMARK_PYTHON ??
-  (existsSync(path.join(directory, '.venv/bin/python'))
-    ? path.join(directory, '.venv/bin/python')
-    : 'python3');
-const versions = selectedNative.length
-  ? {
-      ...buildNative(
-        values['icu-prefix'] ??
-          process.env.ICU_PREFIX ??
-          execFileSync('pkg-config', ['--variable=prefix', 'icu-i18n'], {
-            encoding: 'utf8',
-          }).trim()
-      ),
-      python: execFileSync(python, ['--version'], { encoding: 'utf8' }).trim(),
-    }
-  : {};
 const provenance = capture(
   before,
-  values.archive ? path.resolve(repository, values.archive) : undefined,
-  versions
+  values.archive ? path.resolve(repository, values.archive) : undefined
 );
 writeFileSync(
   path.join(output, 'preflight.json'),
@@ -164,7 +126,7 @@ const phase = {
   loadEnd: os.loadavg(),
 };
 const result: RunResult = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   startedAt,
   endedAt: startedAt,
   protocol,
@@ -184,7 +146,7 @@ const result: RunResult = {
   startup: [],
   memory: [],
   artifacts: [],
-  phases: { javascript: phase, cross: null },
+  phases: { javascript: phase },
   failures: [],
 };
 const rotate = <T>(items: T[], offset: number): T[] => [
@@ -193,7 +155,6 @@ const rotate = <T>(items: T[], offset: number): T[] => [
 ];
 const workers = new Map<string, Awaited<ReturnType<typeof startWorker>>>();
 let activeAdapter = 'initialization';
-let activePhase = 'javascript';
 try {
   for (const adapter of selectedNode) {
     activeAdapter = adapter.id;
@@ -212,7 +173,7 @@ try {
     );
   }
   process.stdout.write(
-    `TypeScript benchmark: ${selectedNode.length} Node adapters, ${selectedNative.length} native adapters, ${selectedFixtures.length} tests, ${protocol.rounds} rounds\n`
+    `TypeScript benchmark: ${selectedNode.length} Node adapters, ${selectedFixtures.length} tests, ${protocol.rounds} rounds\n`
   );
   for (let round = 0; round < protocol.rounds; round++) {
     for (const fixture of rotate(selectedFixtures, round)) {
@@ -260,22 +221,10 @@ try {
   workers.clear();
   phase.endedAt = new Date().toISOString();
   phase.loadEnd = os.loadavg();
-  if (selectedNative.length) {
-    activePhase = 'cross-runtime';
-    const crossStart = new Date().toISOString();
-    const loadStart = os.loadavg();
-    await measureNative(result, selectedNative, python, selectedFixtures);
-    result.phases.cross = {
-      startedAt: crossStart,
-      endedAt: new Date().toISOString(),
-      loadStart,
-      loadEnd: os.loadavg(),
-    };
-  }
   if (!values['no-sizes']) result.artifacts = measureBrowserArtifacts();
 } catch (error) {
   result.failures.push({
-    phase: activePhase,
+    phase: 'javascript',
     adapter: activeAdapter,
     message: error instanceof Error ? error.message : String(error),
   });

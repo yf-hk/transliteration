@@ -92,7 +92,7 @@ slugify('你好, world!');  // => 'ni-hao-world'
 #### UMD Build (Global Variables)
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/transliteration@2.7.0/dist/browser/bundle.umd.min.js"></script>
 <script>
   // Available as global variables
   transliterate('你好, World');  // => 'Ni Hao, World'
@@ -107,7 +107,7 @@ slugify('你好, world!');  // => 'ni-hao-world'
 
 ```html
 <script type="module">
-  import { transliterate } from 'https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.esm.min.js';
+  import { transliterate } from 'https://cdn.jsdelivr.net/npm/transliteration@2.7.0/dist/browser/bundle.esm.min.js';
   console.log(transliterate('你好'));  // => 'Ni Hao'
 </script>
 ```
@@ -331,46 +331,46 @@ package compatibility checks. Reproducible library comparisons are documented in
 <!-- benchmark-results:start -->
 ## Performance
 
-Before is the published **2.6.2** release. After is **next (unreleased)**; the working manifest is still 2.6.2. All JavaScript columns were rotated together. Python/Rust/ICU are separately timestamped synchronous resident-process string throughput; startup, IPC, bridge and network costs are excluded. Different runtimes include different string/result-consumption overhead.
+Before is the published **2.6.2** release. After Full and After Latin are **2.7.0**, loaded from this checkout's built exports. All libraries are JavaScript and were rotated together on the same Node.js version. Process startup and IPC are excluded from throughput.
 
 The ASCII/Latin before/after fixtures have identical complete outputs (8/8 each). Observed gains:
 
-| API / test | Before 2.6.2 k/s | After next k/s | Median gain |
+| API / test | Before 2.6.2 k/s | After 2.7.0 k/s | Median gain |
 | --- | ---: | ---: | ---: |
-| transliterate / ascii | 237.6 (216.9–270.5) | 4,129.2 (3,621.9–4,345.6) | **17.38×** |
-| transliterate / latin | 309.4 (256.9–345.0) | 962.4 (888.6–1,203.0) | **3.11×** |
-| slugify / ascii | 78.8 (58.7–97.7) | 630.7 (495.0–749.4) | **8.00×** |
-| slugify / latin | 77.8 (69.2–88.9) | 554.1 (372.8–641.4) | **7.13×** |
+| transliterate / ascii | 286.0 (251.1–319.1) | 4,206.3 (3,929.8–5,244.4) | **14.71×** |
+| transliterate / latin | 326.0 (310.5–379.2) | 1,212.7 (1,087.5–1,413.3) | **3.72×** |
+| slugify / ascii | 85.3 (83.3–93.6) | 744.0 (710.7–945.8) | **8.72×** |
+| slugify / latin | 103.2 (85.9–138.2) | 625.5 (548.9–718.4) | **6.06×** |
 
 Thousands of complete strings/second; 5 rotated samples. **🏆** = highest eligible observed median; **≈** = overlapping ranges, so superiority is inconclusive. **†** = ineligible reading (dropped/retained/fallback text or failed reading probe). **‡** = limited reading probe passed, but complete outputs differ from After Full. A probe does not validate every pronunciation. No winner is awarded when every library fails a reading probe.
 
 ### Transliteration
 
-| Test | Before Full 2.6.2 | After Full next (unreleased) | After Latin next (unreleased) | AnyAscii JS 0.3.3 | Unidecode JS 1.1.0 | Sindre transliterate 2.3.1 | pinyin-pro 3.29.5 | Unidecode Py 1.4.0 | text-unidecode Py 1.3 | AnyAscii Py 0.3.3 | deunicode Rust 1.6.2 | AnyAscii Rust 0.3.3 | ICU C++ 78.3 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ascii | 237.6 | 4,129.2 | 4,082.6 | 834.6 | 2,366.6 | 517.8 | 72.5 | 1,757.6 | 216.2 | 2,039.9 | **🏆 8,261.2** | 2,131.0 | 51.6 |
-| latin | 309.4 | 962.4 | 869.9 | 1,245.9 | 929.4 | 417.1‡ | 106.9† | 140.6 | 304.4 | 284.6 | 2,424.3 | **🏆 2,827.3** | 70.0 |
-| cyrillic | 164.0 | 519.8 | 183.7† | 781.9‡ | 223.7‡ | 150.8† | 93.1† | 72.1‡ | 160.7‡ | 98.5‡ | **🏆 2,108.2‡** | 1,493.2‡ | 38.0‡ |
-| chinese | 202.9‡ | 430.6 | 393.5† | 1,753.7‡ | 555.2‡ | 637.3† | 39.0‡ | 157.4‡ | 381.6‡ | 265.2‡ | **🏆 2,238.5‡**≈ | 1,535.8‡ | 3.9‡ |
-| japanese | 244.2† | 466.6† | 433.4† | 2,085.2† | 621.6† | 675.3† | 100.0† | 185.3† | 442.5† | 305.5† | 3,805.9† | 2,301.2† | 9.6† |
-| korean | 279.4 | 823.1 | 379.2† | 1,572.1‡ | 418.0 | 275.6† | 133.6† | 135.6 | 294.5 | 219.6‡ | **🏆 3,219.2** | 1,756.6‡ | 30.1‡ |
-| mixed | 182.5† | 278.1† | 240.9† | 1,021.1† | 376.6† | 267.1† | 77.6† | 99.5† | 206.0† | 176.1† | 2,635.0† | 2,141.1† | 15.6† |
-| long | 4.2† | 5.2† | 4.5† | 13.9† | 7.0† | 9.5† | 1.4† | 1.7† | 4.0† | 3.2† | 54.0† | 78.4† | 0.3† |
+| Test | Before Full 2.6.2 | After Full 2.7.0 | After Latin 2.7.0 | AnyAscii JS 0.3.3 | Unidecode JS 1.1.0 | Sindre transliterate 2.3.1 | pinyin-pro 3.29.5 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ascii | 286.0 | **🏆 4,206.3**≈ | 4,174.6 | 971.6 | 2,432.6 | 514.2 | 95.2 |
+| latin | 326.0 | **🏆 1,212.7**≈ | 1,001.1 | 1,178.7 | 964.3 | 384.5‡ | 114.9† |
+| cyrillic | 175.1 | 537.2 | 159.2† | **🏆 784.7‡** | 252.3‡ | 138.6† | 75.8† |
+| chinese | 211.0‡ | 451.5 | 386.5† | **🏆 1,728.4‡** | 542.8‡ | 658.9† | 48.7‡ |
+| japanese | 272.5† | 423.0† | 368.9† | 2,003.2† | 660.3† | 643.1† | 90.8† |
+| korean | 245.4 | 737.5 | 289.5† | **🏆 1,313.0‡** | 425.4 | 259.8† | 146.7† |
+| mixed | 185.4† | 321.7† | 245.9† | 931.9† | 400.6† | 249.1† | 89.1† |
+| long | 4.3† | 5.6† | 4.2† | 14.5† | 8.2† | 9.3† | 1.4† |
 
 ### Slugify
 
-| Test | Before Full 2.6.2 | After Full next (unreleased) | After Latin next (unreleased) | slugify JS 1.6.9 | slug 12.0.1 | speakingurl 14.0.1 | Sindre slugify 3.0.1 | limax 4.2.3 | python-slugify 9.1.3 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ascii | 78.8 | 630.7 | **🏆 716.2**≈ | 119.5 | 38.3 | 38.4 | 115.4 | 30.7 | 80.9 |
-| latin | 77.8 | 554.1 | **🏆 615.5**≈ | 157.0 | 55.5 | 57.7‡ | 110.7‡ | 42.6‡ | 48.3 |
-| cyrillic | 74.3 | **🏆 352.0** | 158.9† | 147.7‡ | 49.9‡ | 50.5‡ | 72.5‡ | 34.4‡ | 33.9‡ |
-| chinese | 68.0‡ | **🏆 269.5** | 313.4† | 286.6† | 28.8† | 92.2† | 135.7† | 8.0‡ | 40.4‡ |
-| japanese | 97.5† | 341.6† | 433.3† | 362.8† | 37.5† | 130.0† | 141.5† | 80.1† | 54.3† |
-| korean | 79.7 | **🏆 516.5** | 290.9† | 234.9† | 19.5† | 77.0† | 102.7† | 53.5† | 33.0 |
-| mixed | 85.4† | 249.0† | 209.7† | 146.8† | 26.4† | 45.2† | 91.0† | 20.2† | 31.8† |
-| long | 2.8† | 4.9† | 3.2† | 2.9† | 0.6† | 1.0† | 7.0† | 0.6† | 1.1† |
+| Test | Before Full 2.6.2 | After Full 2.7.0 | After Latin 2.7.0 | slugify JS 1.6.9 | slug 12.0.1 | speakingurl 14.0.1 | Sindre slugify 3.0.1 | limax 4.2.3 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ascii | 85.3 | **🏆 744.0**≈ | 708.7 | 111.7 | 42.9 | 40.5 | 111.0 | 30.2 |
+| latin | 103.2 | **🏆 625.5**≈ | 581.2 | 185.1 | 63.0 | 55.0‡ | 97.6‡ | 38.6‡ |
+| cyrillic | 76.1 | **🏆 368.7** | 155.5† | 128.6‡ | 49.2‡ | 45.3‡ | 59.1‡ | 32.8‡ |
+| chinese | 71.3‡ | **🏆 279.8** | 356.3† | 296.0† | 31.4† | 90.7† | 122.6† | 6.6‡ |
+| japanese | 82.2† | 350.2† | 396.5† | 341.3† | 37.7† | 118.5† | 129.5† | 53.0† |
+| korean | 82.6 | **🏆 508.8** | 292.1† | 255.9† | 19.7† | 71.0† | 84.8† | 48.2† |
+| mixed | 73.3† | 247.9† | 203.4† | 128.2† | 27.9† | 48.7† | 78.3† | 20.7† |
+| long | 2.9† | 5.3† | 4.0† | 2.9† | 0.6† | 0.8† | 6.5† | 0.4† |
 
-Measured 2026-10-23T12:57:47.129Z, v26.5.0, Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz. [Method and commands](benchmark/README.md) · [Retained results and ranges](benchmark/RESULTS.md).
+Measured 2026-10-23T13:29:38.862Z, v26.5.0, Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz. [Method and commands](benchmark/README.md) · [Retained results and ranges](benchmark/RESULTS.md).
 
 <!-- benchmark-results:end -->
 

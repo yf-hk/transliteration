@@ -1,54 +1,54 @@
 # Benchmark results
 
-Before is the published **2.6.2** release. After is **next (unreleased)**; the working manifest is still 2.6.2. All JavaScript columns were rotated together. Python/Rust/ICU are separately timestamped synchronous resident-process string throughput; startup, IPC, bridge and network costs are excluded. Different runtimes include different string/result-consumption overhead.
+Before is the published **2.6.2** release. After Full and After Latin are **2.7.0**, loaded from this checkout's built exports. All libraries are JavaScript and were rotated together on the same Node.js version. Process startup and IPC are excluded from throughput.
 
-| API / test | Before 2.6.2 k/s | After next k/s | Median gain |
+| API / test | Before 2.6.2 k/s | After 2.7.0 k/s | Median gain |
 | --- | ---: | ---: | ---: |
-| transliterate / ascii | 237.6 (216.9–270.5) | 4,129.2 (3,621.9–4,345.6) | **17.38×** |
-| transliterate / latin | 309.4 (256.9–345.0) | 962.4 (888.6–1,203.0) | **3.11×** |
-| slugify / ascii | 78.8 (58.7–97.7) | 630.7 (495.0–749.4) | **8.00×** |
-| slugify / latin | 77.8 (69.2–88.9) | 554.1 (372.8–641.4) | **7.13×** |
+| transliterate / ascii | 286.0 (251.1–319.1) | 4,206.3 (3,929.8–5,244.4) | **14.71×** |
+| transliterate / latin | 326.0 (310.5–379.2) | 1,212.7 (1,087.5–1,413.3) | **3.72×** |
+| slugify / ascii | 85.3 (83.3–93.6) | 744.0 (710.7–945.8) | **8.72×** |
+| slugify / latin | 103.2 (85.9–138.2) | 625.5 (548.9–718.4) | **6.06×** |
 
 Thousands of complete strings/second; 5 rotated samples. **🏆** = highest eligible observed median; **≈** = overlapping ranges, so superiority is inconclusive. **†** = ineligible reading (dropped/retained/fallback text or failed reading probe). **‡** = limited reading probe passed, but complete outputs differ from After Full. A probe does not validate every pronunciation. No winner is awarded when every library fails a reading probe.
 
 ### Transliteration
 
-| Test | Before Full 2.6.2 | After Full next (unreleased) | After Latin next (unreleased) | AnyAscii JS 0.3.3 | Unidecode JS 1.1.0 | Sindre transliterate 2.3.1 | pinyin-pro 3.29.5 | Unidecode Py 1.4.0 | text-unidecode Py 1.3 | AnyAscii Py 0.3.3 | deunicode Rust 1.6.2 | AnyAscii Rust 0.3.3 | ICU C++ 78.3 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ascii | 237.6 | 4,129.2 | 4,082.6 | 834.6 | 2,366.6 | 517.8 | 72.5 | 1,757.6 | 216.2 | 2,039.9 | **🏆 8,261.2** | 2,131.0 | 51.6 |
-| latin | 309.4 | 962.4 | 869.9 | 1,245.9 | 929.4 | 417.1‡ | 106.9† | 140.6 | 304.4 | 284.6 | 2,424.3 | **🏆 2,827.3** | 70.0 |
-| cyrillic | 164.0 | 519.8 | 183.7† | 781.9‡ | 223.7‡ | 150.8† | 93.1† | 72.1‡ | 160.7‡ | 98.5‡ | **🏆 2,108.2‡** | 1,493.2‡ | 38.0‡ |
-| chinese | 202.9‡ | 430.6 | 393.5† | 1,753.7‡ | 555.2‡ | 637.3† | 39.0‡ | 157.4‡ | 381.6‡ | 265.2‡ | **🏆 2,238.5‡**≈ | 1,535.8‡ | 3.9‡ |
-| japanese | 244.2† | 466.6† | 433.4† | 2,085.2† | 621.6† | 675.3† | 100.0† | 185.3† | 442.5† | 305.5† | 3,805.9† | 2,301.2† | 9.6† |
-| korean | 279.4 | 823.1 | 379.2† | 1,572.1‡ | 418.0 | 275.6† | 133.6† | 135.6 | 294.5 | 219.6‡ | **🏆 3,219.2** | 1,756.6‡ | 30.1‡ |
-| mixed | 182.5† | 278.1† | 240.9† | 1,021.1† | 376.6† | 267.1† | 77.6† | 99.5† | 206.0† | 176.1† | 2,635.0† | 2,141.1† | 15.6† |
-| long | 4.2† | 5.2† | 4.5† | 13.9† | 7.0† | 9.5† | 1.4† | 1.7† | 4.0† | 3.2† | 54.0† | 78.4† | 0.3† |
+| Test | Before Full 2.6.2 | After Full 2.7.0 | After Latin 2.7.0 | AnyAscii JS 0.3.3 | Unidecode JS 1.1.0 | Sindre transliterate 2.3.1 | pinyin-pro 3.29.5 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ascii | 286.0 | **🏆 4,206.3**≈ | 4,174.6 | 971.6 | 2,432.6 | 514.2 | 95.2 |
+| latin | 326.0 | **🏆 1,212.7**≈ | 1,001.1 | 1,178.7 | 964.3 | 384.5‡ | 114.9† |
+| cyrillic | 175.1 | 537.2 | 159.2† | **🏆 784.7‡** | 252.3‡ | 138.6† | 75.8† |
+| chinese | 211.0‡ | 451.5 | 386.5† | **🏆 1,728.4‡** | 542.8‡ | 658.9† | 48.7‡ |
+| japanese | 272.5† | 423.0† | 368.9† | 2,003.2† | 660.3† | 643.1† | 90.8† |
+| korean | 245.4 | 737.5 | 289.5† | **🏆 1,313.0‡** | 425.4 | 259.8† | 146.7† |
+| mixed | 185.4† | 321.7† | 245.9† | 931.9† | 400.6† | 249.1† | 89.1† |
+| long | 4.3† | 5.6† | 4.2† | 14.5† | 8.2† | 9.3† | 1.4† |
 
 ### Slugify
 
-| Test | Before Full 2.6.2 | After Full next (unreleased) | After Latin next (unreleased) | slugify JS 1.6.9 | slug 12.0.1 | speakingurl 14.0.1 | Sindre slugify 3.0.1 | limax 4.2.3 | python-slugify 9.1.3 |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| ascii | 78.8 | 630.7 | **🏆 716.2**≈ | 119.5 | 38.3 | 38.4 | 115.4 | 30.7 | 80.9 |
-| latin | 77.8 | 554.1 | **🏆 615.5**≈ | 157.0 | 55.5 | 57.7‡ | 110.7‡ | 42.6‡ | 48.3 |
-| cyrillic | 74.3 | **🏆 352.0** | 158.9† | 147.7‡ | 49.9‡ | 50.5‡ | 72.5‡ | 34.4‡ | 33.9‡ |
-| chinese | 68.0‡ | **🏆 269.5** | 313.4† | 286.6† | 28.8† | 92.2† | 135.7† | 8.0‡ | 40.4‡ |
-| japanese | 97.5† | 341.6† | 433.3† | 362.8† | 37.5† | 130.0† | 141.5† | 80.1† | 54.3† |
-| korean | 79.7 | **🏆 516.5** | 290.9† | 234.9† | 19.5† | 77.0† | 102.7† | 53.5† | 33.0 |
-| mixed | 85.4† | 249.0† | 209.7† | 146.8† | 26.4† | 45.2† | 91.0† | 20.2† | 31.8† |
-| long | 2.8† | 4.9† | 3.2† | 2.9† | 0.6† | 1.0† | 7.0† | 0.6† | 1.1† |
+| Test | Before Full 2.6.2 | After Full 2.7.0 | After Latin 2.7.0 | slugify JS 1.6.9 | slug 12.0.1 | speakingurl 14.0.1 | Sindre slugify 3.0.1 | limax 4.2.3 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| ascii | 85.3 | **🏆 744.0**≈ | 708.7 | 111.7 | 42.9 | 40.5 | 111.0 | 30.2 |
+| latin | 103.2 | **🏆 625.5**≈ | 581.2 | 185.1 | 63.0 | 55.0‡ | 97.6‡ | 38.6‡ |
+| cyrillic | 76.1 | **🏆 368.7** | 155.5† | 128.6‡ | 49.2‡ | 45.3‡ | 59.1‡ | 32.8‡ |
+| chinese | 71.3‡ | **🏆 279.8** | 356.3† | 296.0† | 31.4† | 90.7† | 122.6† | 6.6‡ |
+| japanese | 82.2† | 350.2† | 396.5† | 341.3† | 37.7† | 118.5† | 129.5† | 53.0† |
+| korean | 82.6 | **🏆 508.8** | 292.1† | 255.9† | 19.7† | 71.0† | 84.8† | 48.2† |
+| mixed | 73.3† | 247.9† | 203.4† | 128.2† | 27.9† | 48.7† | 78.3† | 20.7† |
+| long | 2.9† | 5.3† | 4.0† | 2.9† | 0.6† | 0.8† | 6.5† | 0.4† |
 
 ## Protocol and validity
 
-21 configurations, 1040 samples, 137,149,400 completed calls, zero errors/failures. 5 rotated rounds, 250 ms target, 12 ms warmup/calibration; one worker timed at a time. Every sample checks completed calls, consumed output units/checksum and stable complete outputs. These are public string API measurements, not an end-to-end application or universal fastest claim.
+12 configurations, 600 samples, 54,166,600 completed calls, zero errors/failures. 5 rotated rounds, 250 ms target, 12 ms warmup/calibration; one worker timed at a time. Every sample checks completed calls, consumed output units/checksum and stable complete outputs. These are public string API measurements, not an end-to-end application or universal fastest claim.
 
-Host: Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz, 64 logical CPUs, darwin/x64; Node v26.5.0. JavaScript phase 2026-10-23T12:52:29.744Z–2026-10-23T12:56:22.301Z, load [8.65234375,8.3203125,8.71435546875]→[9.67724609375,9.1328125,9.0078125]. Cross phase 2026-10-23T12:56:22.301Z–2026-10-23T12:57:46.768Z. Background desktop/database work remained active; no samples were discarded. All ranges and coefficients of variation remain in summary.csv.
+Host: Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz, 64 logical CPUs, darwin/x64; Node v26.5.0. JavaScript phase 2026-10-23T13:26:35.690Z–2026-10-23T13:29:38.566Z, load [14.59716796875,14.01513671875,12.59814453125]→[10.193359375,12.7099609375,12.35009765625]. Background desktop/database work remained active; no samples were discarded. All ranges and coefficients of variation remain in summary.csv.
 
-Rust uses a locked offline release build with opt3/LTO/one codegen unit and black_box on inputs/results. ICU uses a persistent native C++ converter, Any-Latin; Latin-ASCII, including UTF-8/UTF-16 conversion. Native compilation precedes timing. Python uses pinned packages and its default slugify legacy/auto backend. Dictionary/page/locale-pattern caches are warm; installed slug has no whole-input result cache. No language winner is inferred from deletion, fallback encoding, retained Unicode or a failed reading probe. Japanese Kanji readings fail the probe across these configurations; mixed/long inherit that restriction.
+Dictionary/page/locale-pattern caches are warm; installed slug has no whole-input result cache. No language winner is inferred from deletion, fallback encoding, retained Unicode or a failed reading probe. Japanese Kanji readings fail the probe across these configurations; mixed/long inherit that restriction.
 
 | Configuration | Actual package version | Runtime / options |
 | --- | --- | --- |
-| After Full next (unreleased) | 2.6.2 | Node v26.5.0; Defaults, full character map |
-| After Latin next (unreleased) | 2.6.2 | Node v26.5.0; Defaults, Latin character map |
+| After Full 2.7.0 | 2.7.0 | Node v26.5.0; Defaults, full character map |
+| After Latin 2.7.0 | 2.7.0 | Node v26.5.0; Defaults, Latin character map |
 | Before Full 2.6.2 | 2.6.2 | Node v26.5.0; Published registry release, defaults |
 | AnyAscii JS 0.3.3 | 0.3.3 | Node v26.5.0; Defaults |
 | Unidecode JS 1.1.0 | 1.1.0 | Node v26.5.0; Defaults |
@@ -59,36 +59,25 @@ Rust uses a locked offline release build with opt3/LTO/one codegen unit and blac
 | speakingurl 14.0.1 | 14.0.1 | Node v26.5.0; Defaults |
 | Sindre slugify 3.0.1 | 3.0.1 | Node v26.5.0; Defaults, including decamelization |
 | limax 4.2.3 | 4.2.3 | Node v26.5.0; Defaults, language detection and Pinyin tone numbers |
-| Pre-optimization full 2.6.2 | 2.6.2 | Node v26.5.0; Immediate pre-optimization frozen distribution, defaults |
-| Pre-optimization latin 2.6.2 | 2.6.2 | Node v26.5.0; Immediate pre-optimization frozen distribution, defaults |
-| Unidecode Py 1.4.0 | 1.4.0 | Python 3.13.14; Defaults |
-| text-unidecode Py 1.3 | 1.3 | Python 3.13.14; Defaults |
-| AnyAscii Py 0.3.3 | 0.3.3 | Python 3.13.14; Defaults |
-| python-slugify 9.1.3 | 9.1.3 | Python 3.13.14; Default legacy algorithm, auto backend selects installed Unidecode |
-| deunicode Rust 1.6.2 | 1.6.2 | rustc 1.97.0 (2d8144b78 2026-07-07) (Homebrew); Release opt3, LTO, codegen-units1 |
-| AnyAscii Rust 0.3.3 | 0.3.3 | rustc 1.97.0 (2d8144b78 2026-07-07) (Homebrew); Release opt3, LTO, codegen-units1 |
-| ICU C++ 78.3 | 78.3 | ICU C++ 78.3; Any-Latin; Latin-ASCII, persistent native converter, UTF conversion included |
 
 ## Startup and memory
 
-Single import/first-call observations exclude process startup and use uncontrolled OS caches. Post-GC warm deltas include saved outputs/JIT/library caches and are not exact library allocations. Cross-runtime startup/memory are unmeasured.
+Single import/first-call observations exclude process startup and use uncontrolled OS caches. Post-GC warm deltas include saved outputs/JIT/library caches and are not exact library allocations.
 
 | Configuration | Import ms | First mixed call ms | Warm heap delta MiB | Warm RSS delta MiB |
 | --- | ---: | ---: | ---: | ---: |
-| After Full next (unreleased) | 76.04 | 2.707 | 4.033 | 33.785 |
-| After Latin next (unreleased) | 9.47 | 1.771 | 0.625 | 20.027 |
-| Before Full 2.6.2 | 65.43 | 1.587 | 3.806 | 25.734 |
-| AnyAscii JS 0.3.3 | 10.34 | 7.386 | 1.892 | 12.254 |
-| Unidecode JS 1.1.0 | 3.27 | 13.349 | 1.270 | 20.609 |
-| Sindre transliterate 2.3.1 | 30.95 | 2.732 | 1.099 | 12.066 |
-| pinyin-pro 3.29.5 | 135.04 | 34.234 | 8.960 | 51.293 |
-| slugify JS 1.6.9 | 4.39 | 0.807 | 0.386 | 16.527 |
-| slug 12.0.1 | 4.44 | 0.961 | 0.405 | 19.070 |
-| speakingurl 14.0.1 | 7.85 | 1.504 | 0.458 | 10.379 |
-| Sindre slugify 3.0.1 | 35.13 | 3.964 | 1.176 | 11.199 |
-| limax 4.2.3 | 131.49 | 47.301 | 9.513 | 41.000 |
-| Pre-optimization full 2.6.2 | 76.17 | 2.037 | 3.858 | 31.863 |
-| Pre-optimization latin 2.6.2 | 17.41 | 2.335 | 0.591 | 19.320 |
+| After Full 2.7.0 | 58.55 | 2.161 | 4.034 | 34.891 |
+| After Latin 2.7.0 | 8.59 | 2.482 | 0.630 | 20.660 |
+| Before Full 2.6.2 | 44.76 | 0.801 | 3.804 | 29.574 |
+| AnyAscii JS 0.3.3 | 7.42 | 4.632 | 1.891 | 11.246 |
+| Unidecode JS 1.1.0 | 2.69 | 10.357 | 1.251 | 19.555 |
+| Sindre transliterate 2.3.1 | 28.02 | 1.996 | 1.102 | 10.758 |
+| pinyin-pro 3.29.5 | 83.95 | 30.539 | 8.959 | 51.840 |
+| slugify JS 1.6.9 | 2.91 | 0.885 | 0.379 | 16.746 |
+| slug 12.0.1 | 3.63 | 0.941 | 0.405 | 17.559 |
+| speakingurl 14.0.1 | 8.05 | 2.363 | 0.456 | 12.832 |
+| Sindre slugify 3.0.1 | 41.08 | 5.204 | 1.174 | 13.781 |
+| limax 4.2.3 | 93.82 | 46.650 | 9.546 | 73.434 |
 
 ## Browser artifacts
 
@@ -100,6 +89,6 @@ Single import/first-call observations exclude process startup and use uncontroll
 
 ## Artifact provenance
 
-Previously tested archive: 574965 bytes, SHA256 `6fff5c8a8017c45948255a04478f53bb333933c946a91c7e8502634bdba5e1e4`. Its 16 distribution payload files match the measured code. README generation happens after that archive was packed; this is not a byte-identical archive of the newly edited documentation.
+Previously tested archive: 575250 bytes, SHA256 `4b9f12a64898343b5698e86383e4ae0de3a471b5726ac4ea28f08ee02b098daa`. Its 16 distribution payload files match the measured code. README generation happens after that archive was packed; this is not a byte-identical archive of the newly edited documentation.
 
 Library source/dist hashes, loaded entries, actual package/runtime/compiler versions and every output/probe/sample are retained in the raw results.json. The compact committed snapshot is RESULTS.md, summary.csv, RESULTS.html and result-summary.json. Detailed timestamped runs remain under ignored results/. Reproduce with the documented TypeScript build/run commands in README.md; before-after.csv in a detailed run includes all paired ranges/output counts, including optional pre-optimization attribution.

@@ -90,10 +90,8 @@ export function sample(
     inputMiBPerSecond: number(record.inputMiBPerSecond),
     checksum: number(record.checksum),
     expectedChecksum: number(record.expectedChecksum),
-    outputUnits: number(record.outputUnits ?? record.outputBytes),
-    expectedOutputUnits: number(
-      record.expectedOutputUnits ?? record.expectedOutputBytes
-    ),
+    outputUnits: number(record.outputUnits),
+    expectedOutputUnits: number(record.expectedOutputUnits),
     cpuMs: optionalNumber(record.cpuMs),
     cpuToWallRatio: optionalNumber(record.cpuToWallRatio),
     errors: number(record.errors),

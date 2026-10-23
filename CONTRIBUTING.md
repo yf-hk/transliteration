@@ -74,7 +74,7 @@ that same archive on Node.js 20.0.0, 22, 24 and 26.
 To test an existing archive without rebuilding or installing development tools:
 
 ```sh
-TRANSLITERATION_TARBALL=/path/to/transliteration-2.6.2.tgz \
+TRANSLITERATION_TARBALL=/path/to/transliteration-2.7.0.tgz \
   node --test test/package.test.mjs
 ```
 

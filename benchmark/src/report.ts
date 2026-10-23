@@ -64,8 +64,7 @@ export function writeReports(
   const comparisons = compare(result, rows);
   const losses = observedLosses(comparisons);
   const lossContent = renderLosses(losses);
-  let improvement =
-    '| API / test | Before 2.6.2 k/s | After next k/s | Median gain |\n| --- | ---: | ---: | ---: |\n';
+  let improvement = `| API / test | Before ${result.provenance.baseline.version} k/s | After ${result.provenance.packageVersion} k/s | Median gain |\n| --- | ---: | ---: | ---: |\n`;
   for (const row of comparisons.filter(
     (item) =>
       item.baseline === 'published-full' &&
@@ -75,21 +74,20 @@ export function writeReports(
     improvement += `| ${row.api} / ${row.test} | ${k(row.beforeMedian)} (${k(row.beforeMinimum)}–${k(row.beforeMaximum)}) | ${k(row.afterMedian)} (${k(row.afterMinimum)}–${k(row.afterMaximum)}) | **${row.ratio.toFixed(2)}×**${row.interpretation.startsWith('Overlapping') ? '≈' : ''} |\n`;
   }
   const legend = `Thousands of complete strings/second; ${result.protocol.rounds} rotated samples. **🏆** = highest eligible observed median; **≈** = overlapping ranges, so superiority is inconclusive. **†** = ineligible reading (dropped/retained/fallback text or failed reading probe). **‡** = limited reading probe passed, but complete outputs differ from After Full. A probe does not validate every pronunciation. No winner is awarded when every library fails a reading probe.`;
-  const scope =
-    'Before is the published **2.6.2** release. After is **next (unreleased)**; the working manifest is still 2.6.2. All JavaScript columns were rotated together. Python/Rust/ICU are separately timestamped synchronous resident-process string throughput; startup, IPC, bridge and network costs are excluded. Different runtimes include different string/result-consumption overhead.';
+  const scope = `Before is the published **${result.provenance.baseline.version}** release. After Full and After Latin are **${result.provenance.packageVersion}**, loaded from this checkout's built exports. All libraries are JavaScript and were rotated together on the same Node.js version. Process startup and IPC are excluded from throughput.`;
   const matrices = `### Transliteration\n\n${matrix('transliterate')}\n### Slugify\n\n${matrix('slugify')}`;
   const compact = `## Performance\n\n${scope}\n\nThe ASCII/Latin before/after fixtures have identical complete outputs (8/8 each). Observed gains:\n\n${improvement}\n${lossContent.markdown}${legend}\n\n${matrices}\nMeasured ${result.endedAt}, ${result.environment.node}, ${result.environment.cpuModel}. [Method and commands](benchmark/README.md) · [Retained results and ranges](benchmark/RESULTS.md).\n`;
   let report = `# Benchmark results\n\n${scope}\n\n${improvement}\n${lossContent.markdown}${legend}\n\n${matrices}\n## Protocol and validity\n\n`;
   report += `${result.adapters.length} configurations, ${result.samples.length} samples, ${result.samples.reduce((sum, sample) => sum + sample.completedCalls, 0).toLocaleString('en-US')} completed calls, zero errors/failures. ${result.protocol.rounds} rotated rounds, ${result.protocol.targetMs} ms target, ${result.protocol.warmupMs} ms warmup/calibration; one worker timed at a time. Every sample checks completed calls, consumed output units/checksum and stable complete outputs. These are public string API measurements, not an end-to-end application or universal fastest claim.\n\n`;
-  report += `Host: ${result.environment.cpuModel}, ${result.environment.logicalCpus} logical CPUs, ${result.environment.platform}/${result.environment.arch}; Node ${result.environment.node}. JavaScript phase ${result.phases.javascript.startedAt}–${result.phases.javascript.endedAt}, load ${JSON.stringify(result.phases.javascript.loadStart)}→${JSON.stringify(result.phases.javascript.loadEnd)}. Cross phase ${result.phases.cross?.startedAt ?? 'unmeasured'}–${result.phases.cross?.endedAt ?? 'unmeasured'}. Background desktop/database work remained active; no samples were discarded. All ranges and coefficients of variation remain in summary.csv.\n\n`;
+  report += `Host: ${result.environment.cpuModel}, ${result.environment.logicalCpus} logical CPUs, ${result.environment.platform}/${result.environment.arch}; Node ${result.environment.node}. JavaScript phase ${result.phases.javascript.startedAt}–${result.phases.javascript.endedAt}, load ${JSON.stringify(result.phases.javascript.loadStart)}→${JSON.stringify(result.phases.javascript.loadEnd)}. Background desktop/database work remained active; no samples were discarded. All ranges and coefficients of variation remain in summary.csv.\n\n`;
   report +=
-    'Rust uses a locked offline release build with opt3/LTO/one codegen unit and black_box on inputs/results. ICU uses a persistent native C++ converter, Any-Latin; Latin-ASCII, including UTF-8/UTF-16 conversion. Native compilation precedes timing. Python uses pinned packages and its default slugify legacy/auto backend. Dictionary/page/locale-pattern caches are warm; installed slug has no whole-input result cache. No language winner is inferred from deletion, fallback encoding, retained Unicode or a failed reading probe. Japanese Kanji readings fail the probe across these configurations; mixed/long inherit that restriction.\n\n';
+    'Dictionary/page/locale-pattern caches are warm; installed slug has no whole-input result cache. No language winner is inferred from deletion, fallback encoding, retained Unicode or a failed reading probe. Japanese Kanji readings fail the probe across these configurations; mixed/long inherit that restriction.\n\n';
   report +=
     '| Configuration | Actual package version | Runtime / options |\n| --- | --- | --- |\n';
   for (const adapter of result.adapters)
     report += `| ${adapter.name} ${adapter.displayVersion} | ${adapter.version} | ${adapter.runtime}; ${adapter.options} |\n`;
   report +=
-    '\n## Startup and memory\n\nSingle import/first-call observations exclude process startup and use uncontrolled OS caches. Post-GC warm deltas include saved outputs/JIT/library caches and are not exact library allocations. Cross-runtime startup/memory are unmeasured.\n\n| Configuration | Import ms | First mixed call ms | Warm heap delta MiB | Warm RSS delta MiB |\n| --- | ---: | ---: | ---: | ---: |\n';
+    '\n## Startup and memory\n\nSingle import/first-call observations exclude process startup and use uncontrolled OS caches. Post-GC warm deltas include saved outputs/JIT/library caches and are not exact library allocations.\n\n| Configuration | Import ms | First mixed call ms | Warm heap delta MiB | Warm RSS delta MiB |\n| --- | ---: | ---: | ---: | ---: |\n';
   for (const startup of result.startup) {
     const retained = result.memory.find(
       (item) => item.adapter === startup.adapter

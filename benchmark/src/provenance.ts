@@ -24,8 +24,7 @@ export function tree(base: string): Record<string, string> {
 }
 export function capture(
   before: string,
-  archive: string | undefined,
-  versions: Record<string, string>
+  archive: string | undefined
 ): Provenance {
   const packageMetadata = object(
     parse(readFileSync(path.join(repository, 'package.json'), 'utf8'))
@@ -88,11 +87,6 @@ export function capture(
         )
       ),
       ...Object.fromEntries(
-        Object.entries(tree(path.join(directory, 'native'))).map(
-          ([name, digest]) => [`native/${name}`, digest]
-        )
-      ),
-      ...Object.fromEntries(
         readdirSync(path.join(directory, '.build'))
           .filter((name) => name.endsWith('.js'))
           .map((name) => [
@@ -114,7 +108,7 @@ export function capture(
       ),
     },
     archive: proof,
-    versions: { node: process.version, ...toolVersions, ...versions },
+    versions: { node: process.version, ...toolVersions },
     hostProcesses: execFileSync('ps', ['-Ao', 'pid,pcpu,comm', '-r'], {
       encoding: 'utf8',
     })

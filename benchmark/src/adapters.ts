@@ -4,7 +4,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { object, parse, text } from './json.js';
 import { directory, repository } from './paths.js';
-import type { Api, Metadata, NativeAdapter, NodeAdapter } from './types.js';
+import type { Api, Metadata, NodeAdapter } from './types.js';
 
 const require = createRequire(path.join(directory, 'package.json'));
 type Callable = (...arguments_: unknown[]) => unknown;
@@ -144,66 +144,6 @@ export function nodeAdapters(before: string, snapshot?: string): NodeAdapter[] {
   }
   return result;
 }
-export const nativeAdapters: NativeAdapter[] = [
-  {
-    id: 'python-unidecode',
-    name: 'Unidecode Py',
-    kind: 'native',
-    runtime: 'python',
-    modes: ['transliterate'],
-    options: 'Defaults',
-  },
-  {
-    id: 'python-text-unidecode',
-    name: 'text-unidecode Py',
-    kind: 'native',
-    runtime: 'python',
-    modes: ['transliterate'],
-    options: 'Defaults',
-  },
-  {
-    id: 'python-anyascii',
-    name: 'AnyAscii Py',
-    kind: 'native',
-    runtime: 'python',
-    modes: ['transliterate'],
-    options: 'Defaults',
-  },
-  {
-    id: 'python-slugify',
-    name: 'python-slugify',
-    kind: 'native',
-    runtime: 'python',
-    modes: ['slugify'],
-    options:
-      'Default legacy algorithm, auto backend selects installed Unidecode',
-  },
-  {
-    id: 'rust-deunicode',
-    name: 'deunicode Rust',
-    kind: 'native',
-    runtime: 'rust',
-    modes: ['transliterate'],
-    options: 'Release opt3, LTO, codegen-units1',
-  },
-  {
-    id: 'rust-anyascii',
-    name: 'AnyAscii Rust',
-    kind: 'native',
-    runtime: 'rust',
-    modes: ['transliterate'],
-    options: 'Release opt3, LTO, codegen-units1',
-  },
-  {
-    id: 'icu',
-    name: 'ICU C++',
-    kind: 'native',
-    runtime: 'icu',
-    modes: ['transliterate'],
-    options:
-      'Any-Latin; Latin-ASCII, persistent native converter, UTF conversion included',
-  },
-];
 function nodeTarget(value: unknown): string | undefined {
   if (typeof value === 'string') return value;
   if (value === null || typeof value !== 'object') return undefined;
@@ -334,10 +274,7 @@ export function metadata(
     name: adapter.name,
     package: resolved.package,
     version: resolved.version,
-    displayVersion:
-      adapter.kind === 'local' && adapter.role === 'after'
-        ? 'next (unreleased)'
-        : resolved.version,
+    displayVersion: resolved.version,
     runtime: `Node ${process.version}`,
     options: adapter.options,
     entry: path.relative(repository, resolved.entry),

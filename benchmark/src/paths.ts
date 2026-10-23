@@ -6,5 +6,3 @@ export const directory = path.resolve(
   '..'
 );
 export const repository = path.dirname(directory);
-export const nativeDirectory = path.join(directory, 'native');
-export const nativeBuildDirectory = path.join(directory, '.build', 'native');
