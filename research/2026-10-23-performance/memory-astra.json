@@ -1,0 +1,3660 @@
+{
+  "owner": "GPT-6 Astra, max effort",
+  "runtime": "v22.23.2",
+  "startedAt": "2026-10-22T17:26:15.972Z",
+  "rounds": 5,
+  "loadStart": [
+    15.21484375,
+    18.2255859375,
+    20.837890625
+  ],
+  "method": "Fresh process per sample; import timed before first API call; two explicit GCs before each memory snapshot; 200 mixed-workload passes for warm state. OS file cache is not flushed.",
+  "results": [
+    {
+      "id": "current-full",
+      "importMs": 118.974681,
+      "firstCallMs": 3.6824209999999766,
+      "before": {
+        "rss": 43192320,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 60268544,
+        "heapTotal": 17293312,
+        "heapUsed": 8245720,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 61112320,
+        "heapTotal": 17555456,
+        "heapUsed": 8272896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 73715712,
+        "heapTotal": 17555456,
+        "heapUsed": 8353152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 17076224,
+        "heapTotal": 10108928,
+        "heapUsed": 3786288,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 17920000,
+        "heapTotal": 10371072,
+        "heapUsed": 3813464,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 30523392,
+        "heapTotal": 10371072,
+        "heapUsed": 3893720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "current-latin",
+      "importMs": 30.111489000000006,
+      "firstCallMs": 2.759003000000007,
+      "before": {
+        "rss": 42893312,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 49459200,
+        "heapTotal": 7446528,
+        "heapUsed": 4822224,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 50049024,
+        "heapTotal": 7708672,
+        "heapUsed": 4840672,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 61792256,
+        "heapTotal": 7708672,
+        "heapUsed": 4924936,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6565888,
+        "heapTotal": 262144,
+        "heapUsed": 362792,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7155712,
+        "heapTotal": 524288,
+        "heapUsed": 381240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 18898944,
+        "heapTotal": 524288,
+        "heapUsed": 465504,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 45007,
+      "round": 0
+    },
+    {
+      "id": "any-ascii",
+      "importMs": 12.314420000000013,
+      "firstCallMs": 7.926119,
+      "before": {
+        "rss": 42479616,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47169536,
+        "heapTotal": 7999488,
+        "heapUsed": 5092976,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 49258496,
+        "heapTotal": 8523776,
+        "heapUsed": 5721672,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52731904,
+        "heapTotal": 10883072,
+        "heapUsed": 5862344,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 4689920,
+        "heapTotal": 815104,
+        "heapUsed": 633816,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 6778880,
+        "heapTotal": 1339392,
+        "heapUsed": 1262512,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10252288,
+        "heapTotal": 3698688,
+        "heapUsed": 1403184,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 54428,
+      "round": 0
+    },
+    {
+      "id": "sindre-transliterate",
+      "importMs": 34.48928799999999,
+      "firstCallMs": 2.371670999999992,
+      "before": {
+        "rss": 42827776,
+        "heapTotal": 7184384,
+        "heapUsed": 4459280,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52244480,
+        "heapTotal": 10330112,
+        "heapUsed": 5361832,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 52785152,
+        "heapTotal": 10592256,
+        "heapUsed": 5371920,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 53100544,
+        "heapTotal": 10592256,
+        "heapUsed": 5404184,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 9416704,
+        "heapTotal": 3145728,
+        "heapUsed": 902552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 9957376,
+        "heapTotal": 3407872,
+        "heapUsed": 912640,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10272768,
+        "heapTotal": 3407872,
+        "heapUsed": 944904,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 46014,
+      "round": 0
+    },
+    {
+      "id": "unidecode",
+      "importMs": 9.705449000000002,
+      "firstCallMs": 8.339293999999995,
+      "before": {
+        "rss": 42651648,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47669248,
+        "heapTotal": 7446528,
+        "heapUsed": 4621176,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49590272,
+        "heapTotal": 7708672,
+        "heapUsed": 4823152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 56852480,
+        "heapTotal": 7970816,
+        "heapUsed": 5044792,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 5017600,
+        "heapTotal": 262144,
+        "heapUsed": 162016,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6938624,
+        "heapTotal": 524288,
+        "heapUsed": 363992,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 14200832,
+        "heapTotal": 786432,
+        "heapUsed": 585632,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 55030,
+      "round": 0
+    },
+    {
+      "id": "simov-slugify",
+      "importMs": 10.748344000000003,
+      "firstCallMs": 0.49438199999998744,
+      "before": {
+        "rss": 42590208,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48738304,
+        "heapTotal": 7446528,
+        "heapUsed": 4762880,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49127424,
+        "heapTotal": 7708672,
+        "heapUsed": 4768072,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51204096,
+        "heapTotal": 7708672,
+        "heapUsed": 4798112,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6148096,
+        "heapTotal": 262144,
+        "heapUsed": 303720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6537216,
+        "heapTotal": 524288,
+        "heapUsed": 308912,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8613888,
+        "heapTotal": 524288,
+        "heapUsed": 338952,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 29005,
+      "round": 0
+    },
+    {
+      "id": "slug",
+      "importMs": 5.278119000000004,
+      "firstCallMs": 1.0426980000000015,
+      "before": {
+        "rss": 42762240,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 46620672,
+        "heapTotal": 7446528,
+        "heapUsed": 4591408,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 46927872,
+        "heapTotal": 7708672,
+        "heapUsed": 4604656,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51118080,
+        "heapTotal": 7708672,
+        "heapUsed": 4661664,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 3858432,
+        "heapTotal": 262144,
+        "heapUsed": 132296,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 4165632,
+        "heapTotal": 524288,
+        "heapUsed": 145544,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8355840,
+        "heapTotal": 524288,
+        "heapUsed": 202552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 69605,
+      "round": 0
+    },
+    {
+      "id": "limax",
+      "importMs": 67.61608099999998,
+      "firstCallMs": 48.12715699999998,
+      "before": {
+        "rss": 42618880,
+        "heapTotal": 7184384,
+        "heapUsed": 4459184,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 62435328,
+        "heapTotal": 17809408,
+        "heapUsed": 8675984,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 75956224,
+        "heapTotal": 31678464,
+        "heapUsed": 13338424,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 91152384,
+        "heapTotal": 32202752,
+        "heapUsed": 13577896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 19816448,
+        "heapTotal": 10625024,
+        "heapUsed": 4216800,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 33337344,
+        "heapTotal": 24494080,
+        "heapUsed": 8879240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 48533504,
+        "heapTotal": 25018368,
+        "heapUsed": 9118712,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 32815,
+      "round": 0
+    },
+    {
+      "id": "prototype-pages",
+      "importMs": 34.97408699999998,
+      "firstCallMs": 2.3177579999999978,
+      "before": {
+        "rss": 42569728,
+        "heapTotal": 7184384,
+        "heapUsed": 4459480,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 55365632,
+        "heapTotal": 7909376,
+        "heapUsed": 5224912,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 55652352,
+        "heapTotal": 8171520,
+        "heapUsed": 5255528,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 62078976,
+        "heapTotal": 8171520,
+        "heapUsed": 5343688,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 12795904,
+        "heapTotal": 724992,
+        "heapUsed": 765432,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 13082624,
+        "heapTotal": 987136,
+        "heapUsed": 796048,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 19509248,
+        "heapTotal": 987136,
+        "heapUsed": 884208,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "importMs": 25.231133999999997,
+      "firstCallMs": 2.23147800000001,
+      "before": {
+        "rss": 42577920,
+        "heapTotal": 7184384,
+        "heapUsed": 4459512,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 50393088,
+        "heapTotal": 7708672,
+        "heapUsed": 4917464,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 52023296,
+        "heapTotal": 7970816,
+        "heapUsed": 4946592,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 61788160,
+        "heapTotal": 7970816,
+        "heapUsed": 5039960,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 7815168,
+        "heapTotal": 524288,
+        "heapUsed": 457952,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 9445376,
+        "heapTotal": 786432,
+        "heapUsed": 487080,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 19210240,
+        "heapTotal": 786432,
+        "heapUsed": 580448,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "importMs": 25.858029000000016,
+      "firstCallMs": 3.3643849999999986,
+      "before": {
+        "rss": 42991616,
+        "heapTotal": 7184384,
+        "heapUsed": 4459544,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51298304,
+        "heapTotal": 7708672,
+        "heapUsed": 4946952,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 53194752,
+        "heapTotal": 7970816,
+        "heapUsed": 4976200,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 62709760,
+        "heapTotal": 7970816,
+        "heapUsed": 5072048,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8306688,
+        "heapTotal": 524288,
+        "heapUsed": 487408,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10203136,
+        "heapTotal": 786432,
+        "heapUsed": 516656,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 19718144,
+        "heapTotal": 786432,
+        "heapUsed": 612504,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "prototype-packed12-values",
+      "importMs": 24.67833999999999,
+      "firstCallMs": 3.4482109999999864,
+      "before": {
+        "rss": 42876928,
+        "heapTotal": 7184384,
+        "heapUsed": 4459528,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52948992,
+        "heapTotal": 7970816,
+        "heapUsed": 4987928,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 56246272,
+        "heapTotal": 7970816,
+        "heapUsed": 5016920,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 63303680,
+        "heapTotal": 7970816,
+        "heapUsed": 5109264,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 10072064,
+        "heapTotal": 786432,
+        "heapUsed": 528400,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 13369344,
+        "heapTotal": 786432,
+        "heapUsed": 557392,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 20426752,
+        "heapTotal": 786432,
+        "heapUsed": 649736,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "importMs": 26.413620999999992,
+      "firstCallMs": 1.8752230000000054,
+      "before": {
+        "rss": 43266048,
+        "heapTotal": 7184384,
+        "heapUsed": 4459560,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52985856,
+        "heapTotal": 7970816,
+        "heapUsed": 4989968,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 54042624,
+        "heapTotal": 7970816,
+        "heapUsed": 5020880,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62103552,
+        "heapTotal": 7970816,
+        "heapUsed": 5104424,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 9719808,
+        "heapTotal": 786432,
+        "heapUsed": 530408,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 10776576,
+        "heapTotal": 786432,
+        "heapUsed": 561320,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 18837504,
+        "heapTotal": 786432,
+        "heapUsed": 644864,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 0
+    },
+    {
+      "id": "current-latin",
+      "importMs": 14.296328000000003,
+      "firstCallMs": 1.4491680000000144,
+      "before": {
+        "rss": 42471424,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48775168,
+        "heapTotal": 7446528,
+        "heapUsed": 4822296,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49020928,
+        "heapTotal": 7708672,
+        "heapUsed": 4840744,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 60194816,
+        "heapTotal": 7708672,
+        "heapUsed": 4930208,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6303744,
+        "heapTotal": 262144,
+        "heapUsed": 362864,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6549504,
+        "heapTotal": 524288,
+        "heapUsed": 381312,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 17723392,
+        "heapTotal": 524288,
+        "heapUsed": 470776,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 45007,
+      "round": 1
+    },
+    {
+      "id": "any-ascii",
+      "importMs": 9.38962500000001,
+      "firstCallMs": 6.074729999999988,
+      "before": {
+        "rss": 42496000,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47312896,
+        "heapTotal": 7999488,
+        "heapUsed": 5092976,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 49205248,
+        "heapTotal": 8523776,
+        "heapUsed": 5721672,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52391936,
+        "heapTotal": 10883072,
+        "heapUsed": 5862344,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 4816896,
+        "heapTotal": 815104,
+        "heapUsed": 633816,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 6709248,
+        "heapTotal": 1339392,
+        "heapUsed": 1262512,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 9895936,
+        "heapTotal": 3698688,
+        "heapUsed": 1403184,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 54428,
+      "round": 1
+    },
+    {
+      "id": "sindre-transliterate",
+      "importMs": 33.28707100000001,
+      "firstCallMs": 1.9130790000000104,
+      "before": {
+        "rss": 43175936,
+        "heapTotal": 7184384,
+        "heapUsed": 4459280,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52391936,
+        "heapTotal": 10330112,
+        "heapUsed": 5361832,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 52838400,
+        "heapTotal": 10592256,
+        "heapUsed": 5371920,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 53374976,
+        "heapTotal": 10592256,
+        "heapUsed": 5404184,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 9216000,
+        "heapTotal": 3145728,
+        "heapUsed": 902552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 9662464,
+        "heapTotal": 3407872,
+        "heapUsed": 912640,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10199040,
+        "heapTotal": 3407872,
+        "heapUsed": 944904,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 46014,
+      "round": 1
+    },
+    {
+      "id": "unidecode",
+      "importMs": 9.804480999999996,
+      "firstCallMs": 7.873497000000015,
+      "before": {
+        "rss": 42692608,
+        "heapTotal": 7184384,
+        "heapUsed": 4459232,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48144384,
+        "heapTotal": 7446528,
+        "heapUsed": 4621248,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 50438144,
+        "heapTotal": 7708672,
+        "heapUsed": 4823224,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 59129856,
+        "heapTotal": 7970816,
+        "heapUsed": 5049344,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 5451776,
+        "heapTotal": 262144,
+        "heapUsed": 162016,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7745536,
+        "heapTotal": 524288,
+        "heapUsed": 363992,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 16437248,
+        "heapTotal": 786432,
+        "heapUsed": 590112,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 55030,
+      "round": 1
+    },
+    {
+      "id": "simov-slugify",
+      "importMs": 13.023330000000001,
+      "firstCallMs": 0.8803060000000187,
+      "before": {
+        "rss": 42467328,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48918528,
+        "heapTotal": 7446528,
+        "heapUsed": 4762880,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49209344,
+        "heapTotal": 7708672,
+        "heapUsed": 4768072,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51126272,
+        "heapTotal": 7708672,
+        "heapUsed": 4798112,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6451200,
+        "heapTotal": 262144,
+        "heapUsed": 303720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6742016,
+        "heapTotal": 524288,
+        "heapUsed": 308912,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8658944,
+        "heapTotal": 524288,
+        "heapUsed": 338952,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 29005,
+      "round": 1
+    },
+    {
+      "id": "slug",
+      "importMs": 5.055901000000006,
+      "firstCallMs": 1.4734410000000082,
+      "before": {
+        "rss": 42602496,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 46358528,
+        "heapTotal": 7446528,
+        "heapUsed": 4591408,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 46481408,
+        "heapTotal": 7708672,
+        "heapUsed": 4604656,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51179520,
+        "heapTotal": 7708672,
+        "heapUsed": 4661664,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 3756032,
+        "heapTotal": 262144,
+        "heapUsed": 132296,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 3878912,
+        "heapTotal": 524288,
+        "heapUsed": 145544,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8577024,
+        "heapTotal": 524288,
+        "heapUsed": 202552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 69605,
+      "round": 1
+    },
+    {
+      "id": "limax",
+      "importMs": 84.838382,
+      "firstCallMs": 44.434112999999996,
+      "before": {
+        "rss": 42713088,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 62398464,
+        "heapTotal": 17547264,
+        "heapUsed": 8675912,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 76169216,
+        "heapTotal": 31416320,
+        "heapUsed": 13338352,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 91283456,
+        "heapTotal": 31940608,
+        "heapUsed": 13577800,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 19685376,
+        "heapTotal": 10362880,
+        "heapUsed": 4216800,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 33456128,
+        "heapTotal": 24231936,
+        "heapUsed": 8879240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 48570368,
+        "heapTotal": 24756224,
+        "heapUsed": 9118688,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 32815,
+      "round": 1
+    },
+    {
+      "id": "prototype-pages",
+      "importMs": 34.194132999999994,
+      "firstCallMs": 2.553658000000013,
+      "before": {
+        "rss": 42692608,
+        "heapTotal": 7184384,
+        "heapUsed": 4459480,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 54636544,
+        "heapTotal": 7909376,
+        "heapUsed": 5224912,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 55103488,
+        "heapTotal": 8171520,
+        "heapUsed": 5255528,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 62451712,
+        "heapTotal": 8171520,
+        "heapUsed": 5348336,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 11943936,
+        "heapTotal": 724992,
+        "heapUsed": 765432,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 12410880,
+        "heapTotal": 987136,
+        "heapUsed": 796048,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 19759104,
+        "heapTotal": 987136,
+        "heapUsed": 888856,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "importMs": 22.65339200000001,
+      "firstCallMs": 1.8926480000000083,
+      "before": {
+        "rss": 42782720,
+        "heapTotal": 7184384,
+        "heapUsed": 4459512,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51437568,
+        "heapTotal": 7708672,
+        "heapUsed": 4917464,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 53018624,
+        "heapTotal": 7970816,
+        "heapUsed": 4946592,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 61095936,
+        "heapTotal": 7970816,
+        "heapUsed": 5039960,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8654848,
+        "heapTotal": 524288,
+        "heapUsed": 457952,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10235904,
+        "heapTotal": 786432,
+        "heapUsed": 487080,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 18313216,
+        "heapTotal": 786432,
+        "heapUsed": 580448,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "importMs": 21.76083700000001,
+      "firstCallMs": 2.3083770000000072,
+      "before": {
+        "rss": 42594304,
+        "heapTotal": 7184384,
+        "heapUsed": 4459544,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51101696,
+        "heapTotal": 7708672,
+        "heapUsed": 4946952,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 53026816,
+        "heapTotal": 7970816,
+        "heapUsed": 4976200,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 61468672,
+        "heapTotal": 7970816,
+        "heapUsed": 5071936,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8507392,
+        "heapTotal": 524288,
+        "heapUsed": 487408,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10432512,
+        "heapTotal": 786432,
+        "heapUsed": 516656,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 18874368,
+        "heapTotal": 786432,
+        "heapUsed": 612392,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "prototype-packed12-values",
+      "importMs": 24.279669000000013,
+      "firstCallMs": 1.9918710000000033,
+      "before": {
+        "rss": 43016192,
+        "heapTotal": 7184384,
+        "heapUsed": 4459528,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 54759424,
+        "heapTotal": 7970816,
+        "heapUsed": 4987928,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 56098816,
+        "heapTotal": 7970816,
+        "heapUsed": 5050728,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 60735488,
+        "heapTotal": 7970816,
+        "heapUsed": 5109216,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 11743232,
+        "heapTotal": 786432,
+        "heapUsed": 528400,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 13082624,
+        "heapTotal": 786432,
+        "heapUsed": 591200,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 17719296,
+        "heapTotal": 786432,
+        "heapUsed": 649688,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "importMs": 27.856420000000014,
+      "firstCallMs": 2.5197829999999897,
+      "before": {
+        "rss": 42729472,
+        "heapTotal": 7184384,
+        "heapUsed": 4459560,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 53022720,
+        "heapTotal": 7970816,
+        "heapUsed": 4989968,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 55242752,
+        "heapTotal": 7970816,
+        "heapUsed": 5020880,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 58454016,
+        "heapTotal": 7970816,
+        "heapUsed": 5104424,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 10293248,
+        "heapTotal": 786432,
+        "heapUsed": 530408,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 12513280,
+        "heapTotal": 786432,
+        "heapUsed": 561320,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 15724544,
+        "heapTotal": 786432,
+        "heapUsed": 644864,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "current-full",
+      "importMs": 68.39563399999999,
+      "firstCallMs": 2.078821000000005,
+      "before": {
+        "rss": 42643456,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 59613184,
+        "heapTotal": 17293312,
+        "heapUsed": 8245720,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 60321792,
+        "heapTotal": 17555456,
+        "heapUsed": 8272896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 72568832,
+        "heapTotal": 17555456,
+        "heapUsed": 8352848,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 16969728,
+        "heapTotal": 10108928,
+        "heapUsed": 3786288,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 17678336,
+        "heapTotal": 10371072,
+        "heapUsed": 3813464,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 29925376,
+        "heapTotal": 10371072,
+        "heapUsed": 3893416,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 1
+    },
+    {
+      "id": "any-ascii",
+      "importMs": 8.698571999999999,
+      "firstCallMs": 6.545780000000008,
+      "before": {
+        "rss": 43442176,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48128000,
+        "heapTotal": 7999488,
+        "heapUsed": 5092976,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 50065408,
+        "heapTotal": 8523776,
+        "heapUsed": 5721672,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 53825536,
+        "heapTotal": 10883072,
+        "heapUsed": 5862344,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 4685824,
+        "heapTotal": 815104,
+        "heapUsed": 633816,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 6623232,
+        "heapTotal": 1339392,
+        "heapUsed": 1262512,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10383360,
+        "heapTotal": 3698688,
+        "heapUsed": 1403184,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 54428,
+      "round": 2
+    },
+    {
+      "id": "sindre-transliterate",
+      "importMs": 39.23593100000002,
+      "firstCallMs": 2.0552629999999965,
+      "before": {
+        "rss": 42901504,
+        "heapTotal": 7184384,
+        "heapUsed": 4459280,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52269056,
+        "heapTotal": 10330112,
+        "heapUsed": 5361832,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 52641792,
+        "heapTotal": 10592256,
+        "heapUsed": 5371920,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 53116928,
+        "heapTotal": 10592256,
+        "heapUsed": 5404184,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 9367552,
+        "heapTotal": 3145728,
+        "heapUsed": 902552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 9740288,
+        "heapTotal": 3407872,
+        "heapUsed": 912640,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10215424,
+        "heapTotal": 3407872,
+        "heapUsed": 944904,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 46014,
+      "round": 2
+    },
+    {
+      "id": "unidecode",
+      "importMs": 8.911227999999994,
+      "firstCallMs": 6.428681000000012,
+      "before": {
+        "rss": 42635264,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47804416,
+        "heapTotal": 7446528,
+        "heapUsed": 4621176,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49840128,
+        "heapTotal": 7708672,
+        "heapUsed": 4823152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 56930304,
+        "heapTotal": 7970816,
+        "heapUsed": 5008608,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 5169152,
+        "heapTotal": 262144,
+        "heapUsed": 162016,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7204864,
+        "heapTotal": 524288,
+        "heapUsed": 363992,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 14295040,
+        "heapTotal": 786432,
+        "heapUsed": 549448,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 55030,
+      "round": 2
+    },
+    {
+      "id": "simov-slugify",
+      "importMs": 13.69703100000001,
+      "firstCallMs": 0.8628010000000188,
+      "before": {
+        "rss": 42708992,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48939008,
+        "heapTotal": 7446528,
+        "heapUsed": 4762880,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49188864,
+        "heapTotal": 7708672,
+        "heapUsed": 4768072,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 50991104,
+        "heapTotal": 7708672,
+        "heapUsed": 4798112,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6230016,
+        "heapTotal": 262144,
+        "heapUsed": 303720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6479872,
+        "heapTotal": 524288,
+        "heapUsed": 308912,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8282112,
+        "heapTotal": 524288,
+        "heapUsed": 338952,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 29005,
+      "round": 2
+    },
+    {
+      "id": "slug",
+      "importMs": 6.016263000000009,
+      "firstCallMs": 1.2906509999999969,
+      "before": {
+        "rss": 42934272,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 46555136,
+        "heapTotal": 7446528,
+        "heapUsed": 4591408,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 46841856,
+        "heapTotal": 7708672,
+        "heapUsed": 4604656,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51326976,
+        "heapTotal": 7708672,
+        "heapUsed": 4661664,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 3620864,
+        "heapTotal": 262144,
+        "heapUsed": 132296,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 3907584,
+        "heapTotal": 524288,
+        "heapUsed": 145544,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8392704,
+        "heapTotal": 524288,
+        "heapUsed": 202552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 69605,
+      "round": 2
+    },
+    {
+      "id": "limax",
+      "importMs": 87.40260900000001,
+      "firstCallMs": 50.761041000000006,
+      "before": {
+        "rss": 42668032,
+        "heapTotal": 7184384,
+        "heapUsed": 4459184,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 62783488,
+        "heapTotal": 17809408,
+        "heapUsed": 8675984,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 75816960,
+        "heapTotal": 31416320,
+        "heapUsed": 13343296,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 91484160,
+        "heapTotal": 31940608,
+        "heapUsed": 13577872,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 20115456,
+        "heapTotal": 10625024,
+        "heapUsed": 4216800,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 33148928,
+        "heapTotal": 24231936,
+        "heapUsed": 8884112,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 48816128,
+        "heapTotal": 24756224,
+        "heapUsed": 9118688,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 32815,
+      "round": 2
+    },
+    {
+      "id": "prototype-pages",
+      "importMs": 31.585623999999996,
+      "firstCallMs": 2.0192139999999767,
+      "before": {
+        "rss": 42762240,
+        "heapTotal": 7184384,
+        "heapUsed": 4459480,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 54403072,
+        "heapTotal": 7909376,
+        "heapUsed": 5224912,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 54726656,
+        "heapTotal": 8171520,
+        "heapUsed": 5255528,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 61026304,
+        "heapTotal": 8171520,
+        "heapUsed": 5341608,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 11640832,
+        "heapTotal": 724992,
+        "heapUsed": 765432,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 11964416,
+        "heapTotal": 987136,
+        "heapUsed": 796048,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 18264064,
+        "heapTotal": 987136,
+        "heapUsed": 882128,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "importMs": 24.638777000000005,
+      "firstCallMs": 2.667978000000005,
+      "before": {
+        "rss": 43180032,
+        "heapTotal": 7184384,
+        "heapUsed": 4459512,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51265536,
+        "heapTotal": 7708672,
+        "heapUsed": 4917464,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 52973568,
+        "heapTotal": 7970816,
+        "heapUsed": 4946592,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 60764160,
+        "heapTotal": 7970816,
+        "heapUsed": 5035072,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8085504,
+        "heapTotal": 524288,
+        "heapUsed": 457952,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 9793536,
+        "heapTotal": 786432,
+        "heapUsed": 487080,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 17584128,
+        "heapTotal": 786432,
+        "heapUsed": 575560,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "importMs": 23.535901999999993,
+      "firstCallMs": 2.9935270000000003,
+      "before": {
+        "rss": 42921984,
+        "heapTotal": 7184384,
+        "heapUsed": 4459544,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51343360,
+        "heapTotal": 7708672,
+        "heapUsed": 4946952,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 53207040,
+        "heapTotal": 7970816,
+        "heapUsed": 4976200,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 63234048,
+        "heapTotal": 7970816,
+        "heapUsed": 5071984,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8421376,
+        "heapTotal": 524288,
+        "heapUsed": 487408,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10285056,
+        "heapTotal": 786432,
+        "heapUsed": 516656,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 20312064,
+        "heapTotal": 786432,
+        "heapUsed": 612440,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "prototype-packed12-values",
+      "importMs": 33.452235,
+      "firstCallMs": 4.0938779999999895,
+      "before": {
+        "rss": 42557440,
+        "heapTotal": 7184384,
+        "heapUsed": 4459528,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52547584,
+        "heapTotal": 7970816,
+        "heapUsed": 4987928,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 55263232,
+        "heapTotal": 7970816,
+        "heapUsed": 5016920,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62464000,
+        "heapTotal": 7970816,
+        "heapUsed": 5109176,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 9990144,
+        "heapTotal": 786432,
+        "heapUsed": 528400,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 12705792,
+        "heapTotal": 786432,
+        "heapUsed": 557392,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 19906560,
+        "heapTotal": 786432,
+        "heapUsed": 649648,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "importMs": 28.914938000000006,
+      "firstCallMs": 2.5178390000000093,
+      "before": {
+        "rss": 42684416,
+        "heapTotal": 7184384,
+        "heapUsed": 4459560,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 53403648,
+        "heapTotal": 7970816,
+        "heapUsed": 4989968,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 56766464,
+        "heapTotal": 7970816,
+        "heapUsed": 5020880,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62812160,
+        "heapTotal": 7970816,
+        "heapUsed": 5104424,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 10719232,
+        "heapTotal": 786432,
+        "heapUsed": 530408,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 14082048,
+        "heapTotal": 786432,
+        "heapUsed": 561320,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 20127744,
+        "heapTotal": 786432,
+        "heapUsed": 644864,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "current-full",
+      "importMs": 64.901111,
+      "firstCallMs": 1.534089999999992,
+      "before": {
+        "rss": 42790912,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 58740736,
+        "heapTotal": 17293312,
+        "heapUsed": 8245720,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 59359232,
+        "heapTotal": 17555456,
+        "heapUsed": 8272896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 70639616,
+        "heapTotal": 17555456,
+        "heapUsed": 8353064,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 15949824,
+        "heapTotal": 10108928,
+        "heapUsed": 3786288,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 16568320,
+        "heapTotal": 10371072,
+        "heapUsed": 3813464,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 27848704,
+        "heapTotal": 10371072,
+        "heapUsed": 3893632,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 2
+    },
+    {
+      "id": "current-latin",
+      "importMs": 16.449146999999996,
+      "firstCallMs": 1.877127999999999,
+      "before": {
+        "rss": 43048960,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 49147904,
+        "heapTotal": 7446528,
+        "heapUsed": 4822224,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49926144,
+        "heapTotal": 7708672,
+        "heapUsed": 4840672,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 60121088,
+        "heapTotal": 7708672,
+        "heapUsed": 4929968,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6098944,
+        "heapTotal": 262144,
+        "heapUsed": 362792,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6877184,
+        "heapTotal": 524288,
+        "heapUsed": 381240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 17072128,
+        "heapTotal": 524288,
+        "heapUsed": 470536,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 45007,
+      "round": 2
+    },
+    {
+      "id": "sindre-transliterate",
+      "importMs": 38.61291800000001,
+      "firstCallMs": 2.204812000000004,
+      "before": {
+        "rss": 42647552,
+        "heapTotal": 7184384,
+        "heapUsed": 4459280,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51843072,
+        "heapTotal": 10330112,
+        "heapUsed": 5361832,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 52322304,
+        "heapTotal": 10592256,
+        "heapUsed": 5371920,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52649984,
+        "heapTotal": 10592256,
+        "heapUsed": 5404184,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 9195520,
+        "heapTotal": 3145728,
+        "heapUsed": 902552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 9674752,
+        "heapTotal": 3407872,
+        "heapUsed": 912640,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10002432,
+        "heapTotal": 3407872,
+        "heapUsed": 944904,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 46014,
+      "round": 3
+    },
+    {
+      "id": "unidecode",
+      "importMs": 11.080119999999994,
+      "firstCallMs": 7.558278000000001,
+      "before": {
+        "rss": 42975232,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48181248,
+        "heapTotal": 7446528,
+        "heapUsed": 4621176,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 50200576,
+        "heapTotal": 7708672,
+        "heapUsed": 4823152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 57683968,
+        "heapTotal": 7970816,
+        "heapUsed": 5049272,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 5206016,
+        "heapTotal": 262144,
+        "heapUsed": 162016,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7225344,
+        "heapTotal": 524288,
+        "heapUsed": 363992,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 14708736,
+        "heapTotal": 786432,
+        "heapUsed": 590112,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 55030,
+      "round": 3
+    },
+    {
+      "id": "simov-slugify",
+      "importMs": 12.28320500000001,
+      "firstCallMs": 1.0584990000000118,
+      "before": {
+        "rss": 42778624,
+        "heapTotal": 7184384,
+        "heapUsed": 4459232,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 49041408,
+        "heapTotal": 7446528,
+        "heapUsed": 4762952,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49577984,
+        "heapTotal": 7708672,
+        "heapUsed": 4768144,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51691520,
+        "heapTotal": 7708672,
+        "heapUsed": 4798184,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6262784,
+        "heapTotal": 262144,
+        "heapUsed": 303720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6799360,
+        "heapTotal": 524288,
+        "heapUsed": 308912,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8912896,
+        "heapTotal": 524288,
+        "heapUsed": 338952,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 29005,
+      "round": 3
+    },
+    {
+      "id": "slug",
+      "importMs": 5.596606000000008,
+      "firstCallMs": 1.1437620000000095,
+      "before": {
+        "rss": 42651648,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 46346240,
+        "heapTotal": 7446528,
+        "heapUsed": 4591480,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 46837760,
+        "heapTotal": 7708672,
+        "heapUsed": 4604728,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51691520,
+        "heapTotal": 7708672,
+        "heapUsed": 4661736,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 3694592,
+        "heapTotal": 262144,
+        "heapUsed": 132368,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 4186112,
+        "heapTotal": 524288,
+        "heapUsed": 145616,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 9039872,
+        "heapTotal": 524288,
+        "heapUsed": 202624,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 69605,
+      "round": 3
+    },
+    {
+      "id": "limax",
+      "importMs": 104.00804499999998,
+      "firstCallMs": 53.92285100000004,
+      "before": {
+        "rss": 42995712,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 63184896,
+        "heapTotal": 17809408,
+        "heapUsed": 8675912,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 77144064,
+        "heapTotal": 31416320,
+        "heapUsed": 13338352,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 93544448,
+        "heapTotal": 31940608,
+        "heapUsed": 13577824,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 20189184,
+        "heapTotal": 10625024,
+        "heapUsed": 4216800,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 34148352,
+        "heapTotal": 24231936,
+        "heapUsed": 8879240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 50548736,
+        "heapTotal": 24756224,
+        "heapUsed": 9118712,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 32815,
+      "round": 3
+    },
+    {
+      "id": "prototype-pages",
+      "importMs": 47.703652000000005,
+      "firstCallMs": 2.629255999999998,
+      "before": {
+        "rss": 42921984,
+        "heapTotal": 7184384,
+        "heapUsed": 4459552,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 56205312,
+        "heapTotal": 7909376,
+        "heapUsed": 5224984,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 56659968,
+        "heapTotal": 8171520,
+        "heapUsed": 5255600,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 63389696,
+        "heapTotal": 8171520,
+        "heapUsed": 5343760,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 13283328,
+        "heapTotal": 724992,
+        "heapUsed": 765432,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 13737984,
+        "heapTotal": 987136,
+        "heapUsed": 796048,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 20467712,
+        "heapTotal": 987136,
+        "heapUsed": 884208,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "importMs": 27.05159599999999,
+      "firstCallMs": 3.4794669999999996,
+      "before": {
+        "rss": 42864640,
+        "heapTotal": 7184384,
+        "heapUsed": 4459512,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51802112,
+        "heapTotal": 7708672,
+        "heapUsed": 4917464,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 53764096,
+        "heapTotal": 7970816,
+        "heapUsed": 4946592,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 63197184,
+        "heapTotal": 7970816,
+        "heapUsed": 5039960,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8937472,
+        "heapTotal": 524288,
+        "heapUsed": 457952,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10899456,
+        "heapTotal": 786432,
+        "heapUsed": 487080,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 20332544,
+        "heapTotal": 786432,
+        "heapUsed": 580448,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "importMs": 33.424295,
+      "firstCallMs": 3.7927799999999934,
+      "before": {
+        "rss": 42729472,
+        "heapTotal": 7184384,
+        "heapUsed": 4459544,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 50978816,
+        "heapTotal": 7708672,
+        "heapUsed": 4946952,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 52768768,
+        "heapTotal": 7970816,
+        "heapUsed": 4976200,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 62861312,
+        "heapTotal": 7970816,
+        "heapUsed": 5071984,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8249344,
+        "heapTotal": 524288,
+        "heapUsed": 487408,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10039296,
+        "heapTotal": 786432,
+        "heapUsed": 516656,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 20131840,
+        "heapTotal": 786432,
+        "heapUsed": 612440,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "prototype-packed12-values",
+      "importMs": 28.57441399999999,
+      "firstCallMs": 2.3684530000000166,
+      "before": {
+        "rss": 42991616,
+        "heapTotal": 7184384,
+        "heapUsed": 4459528,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 55009280,
+        "heapTotal": 7970816,
+        "heapUsed": 4987928,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 55504896,
+        "heapTotal": 7970816,
+        "heapUsed": 5017160,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 63066112,
+        "heapTotal": 7970816,
+        "heapUsed": 5104472,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 12017664,
+        "heapTotal": 786432,
+        "heapUsed": 528400,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 12513280,
+        "heapTotal": 786432,
+        "heapUsed": 557632,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 20074496,
+        "heapTotal": 786432,
+        "heapUsed": 644944,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "importMs": 28.658414000000008,
+      "firstCallMs": 2.902768999999978,
+      "before": {
+        "rss": 42741760,
+        "heapTotal": 7184384,
+        "heapUsed": 4459632,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52912128,
+        "heapTotal": 7970816,
+        "heapUsed": 4990040,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 55291904,
+        "heapTotal": 7970816,
+        "heapUsed": 5020952,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62627840,
+        "heapTotal": 7970816,
+        "heapUsed": 5104496,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 10170368,
+        "heapTotal": 786432,
+        "heapUsed": 530408,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 12550144,
+        "heapTotal": 786432,
+        "heapUsed": 561320,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 19886080,
+        "heapTotal": 786432,
+        "heapUsed": 644864,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "current-full",
+      "importMs": 101.207687,
+      "firstCallMs": 3.2995460000000207,
+      "before": {
+        "rss": 42725376,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 60899328,
+        "heapTotal": 17293312,
+        "heapUsed": 8245720,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 61521920,
+        "heapTotal": 17555456,
+        "heapUsed": 8272896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 73957376,
+        "heapTotal": 17555456,
+        "heapUsed": 8353152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 18173952,
+        "heapTotal": 10108928,
+        "heapUsed": 3786288,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 18796544,
+        "heapTotal": 10371072,
+        "heapUsed": 3813464,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 31232000,
+        "heapTotal": 10371072,
+        "heapUsed": 3893720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 3
+    },
+    {
+      "id": "current-latin",
+      "importMs": 23.893020000000007,
+      "firstCallMs": 2.849911999999989,
+      "before": {
+        "rss": 42913792,
+        "heapTotal": 7184384,
+        "heapUsed": 4459504,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 49360896,
+        "heapTotal": 7446528,
+        "heapUsed": 4822296,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 50290688,
+        "heapTotal": 7708672,
+        "heapUsed": 4840744,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 62529536,
+        "heapTotal": 7708672,
+        "heapUsed": 4925272,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6447104,
+        "heapTotal": 262144,
+        "heapUsed": 362792,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7376896,
+        "heapTotal": 524288,
+        "heapUsed": 381240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 19615744,
+        "heapTotal": 524288,
+        "heapUsed": 465768,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 45007,
+      "round": 3
+    },
+    {
+      "id": "any-ascii",
+      "importMs": 12.86439900000002,
+      "firstCallMs": 8.403444999999977,
+      "before": {
+        "rss": 42782720,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47493120,
+        "heapTotal": 7999488,
+        "heapUsed": 5092976,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 49590272,
+        "heapTotal": 8523776,
+        "heapUsed": 5721672,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52539392,
+        "heapTotal": 10883072,
+        "heapUsed": 5862344,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 4710400,
+        "heapTotal": 815104,
+        "heapUsed": 633816,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 6807552,
+        "heapTotal": 1339392,
+        "heapUsed": 1262512,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 9756672,
+        "heapTotal": 3698688,
+        "heapUsed": 1403184,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 54428,
+      "round": 3
+    },
+    {
+      "id": "unidecode",
+      "importMs": 10.284864000000013,
+      "firstCallMs": 7.761217999999985,
+      "before": {
+        "rss": 42655744,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48119808,
+        "heapTotal": 7446528,
+        "heapUsed": 4618024,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 50274304,
+        "heapTotal": 7708672,
+        "heapUsed": 4823152,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 57843712,
+        "heapTotal": 7708672,
+        "heapUsed": 5008344,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 5464064,
+        "heapTotal": 262144,
+        "heapUsed": 158864,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 7618560,
+        "heapTotal": 524288,
+        "heapUsed": 363992,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 15187968,
+        "heapTotal": 524288,
+        "heapUsed": 549184,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 55030,
+      "round": 4
+    },
+    {
+      "id": "simov-slugify",
+      "importMs": 12.265520999999993,
+      "firstCallMs": 0.9119919999999979,
+      "before": {
+        "rss": 42696704,
+        "heapTotal": 7184384,
+        "heapUsed": 4459232,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48926720,
+        "heapTotal": 7446528,
+        "heapUsed": 4762952,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49328128,
+        "heapTotal": 7708672,
+        "heapUsed": 4768144,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51404800,
+        "heapTotal": 7708672,
+        "heapUsed": 4798184,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6230016,
+        "heapTotal": 262144,
+        "heapUsed": 303720,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6631424,
+        "heapTotal": 524288,
+        "heapUsed": 308912,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8708096,
+        "heapTotal": 524288,
+        "heapUsed": 338952,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 29005,
+      "round": 4
+    },
+    {
+      "id": "slug",
+      "importMs": 4.657938999999999,
+      "firstCallMs": 1.209512000000018,
+      "before": {
+        "rss": 42631168,
+        "heapTotal": 7184384,
+        "heapUsed": 4459112,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 46538752,
+        "heapTotal": 7446528,
+        "heapUsed": 4591408,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 46870528,
+        "heapTotal": 7708672,
+        "heapUsed": 4604656,
+        "external": 1959040,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 51515392,
+        "heapTotal": 7708672,
+        "heapUsed": 4661664,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 3907584,
+        "heapTotal": 262144,
+        "heapUsed": 132296,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 4239360,
+        "heapTotal": 524288,
+        "heapUsed": 145544,
+        "external": 40,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 8884224,
+        "heapTotal": 524288,
+        "heapUsed": 202552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 69605,
+      "round": 4
+    },
+    {
+      "id": "limax",
+      "importMs": 72.45881899999999,
+      "firstCallMs": 36.791641999999996,
+      "before": {
+        "rss": 43216896,
+        "heapTotal": 7184384,
+        "heapUsed": 4459184,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 62418944,
+        "heapTotal": 17809408,
+        "heapUsed": 8675984,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 75530240,
+        "heapTotal": 31416320,
+        "heapUsed": 13343296,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 92680192,
+        "heapTotal": 31940608,
+        "heapUsed": 13577896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 19202048,
+        "heapTotal": 10625024,
+        "heapUsed": 4216800,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 32313344,
+        "heapTotal": 24231936,
+        "heapUsed": 8884112,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 49463296,
+        "heapTotal": 24756224,
+        "heapUsed": 9118712,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 32815,
+      "round": 4
+    },
+    {
+      "id": "prototype-pages",
+      "importMs": 37.03266199999999,
+      "firstCallMs": 3.1867490000000203,
+      "before": {
+        "rss": 42401792,
+        "heapTotal": 7184384,
+        "heapUsed": 4459480,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 54657024,
+        "heapTotal": 7909376,
+        "heapUsed": 5258408,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 55160832,
+        "heapTotal": 8171520,
+        "heapUsed": 5255528,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 62910464,
+        "heapTotal": 8171520,
+        "heapUsed": 5346208,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 12255232,
+        "heapTotal": 724992,
+        "heapUsed": 798928,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 12759040,
+        "heapTotal": 987136,
+        "heapUsed": 796048,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 20508672,
+        "heapTotal": 987136,
+        "heapUsed": 886728,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "importMs": 22.881038000000018,
+      "firstCallMs": 2.0834619999999973,
+      "before": {
+        "rss": 42827776,
+        "heapTotal": 7184384,
+        "heapUsed": 4459512,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 50982912,
+        "heapTotal": 7708672,
+        "heapUsed": 4917464,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 52719616,
+        "heapTotal": 7970816,
+        "heapUsed": 4946592,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 61829120,
+        "heapTotal": 7970816,
+        "heapUsed": 5039872,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8155136,
+        "heapTotal": 524288,
+        "heapUsed": 457952,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 9891840,
+        "heapTotal": 786432,
+        "heapUsed": 487080,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 19001344,
+        "heapTotal": 786432,
+        "heapUsed": 580360,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "importMs": 25.053189999999987,
+      "firstCallMs": 2.1339010000000087,
+      "before": {
+        "rss": 42680320,
+        "heapTotal": 7184384,
+        "heapUsed": 4459544,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51372032,
+        "heapTotal": 7708672,
+        "heapUsed": 4946952,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterFirst": {
+        "rss": 52998144,
+        "heapTotal": 7970816,
+        "heapUsed": 4976200,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "afterWarm": {
+        "rss": 62058496,
+        "heapTotal": 7970816,
+        "heapUsed": 5071984,
+        "external": 2092402,
+        "arrayBuffers": 86751
+      },
+      "importDelta": {
+        "rss": 8691712,
+        "heapTotal": 524288,
+        "heapUsed": 487408,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "firstDelta": {
+        "rss": 10317824,
+        "heapTotal": 786432,
+        "heapUsed": 516656,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "warmDelta": {
+        "rss": 19378176,
+        "heapTotal": 786432,
+        "heapUsed": 612440,
+        "external": 133402,
+        "arrayBuffers": 76276
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "prototype-packed12-values",
+      "importMs": 28.733910999999978,
+      "firstCallMs": 2.4912120000000186,
+      "before": {
+        "rss": 42704896,
+        "heapTotal": 7184384,
+        "heapUsed": 4459528,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 53518336,
+        "heapTotal": 7970816,
+        "heapUsed": 4987928,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 56844288,
+        "heapTotal": 7970816,
+        "heapUsed": 5016920,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62676992,
+        "heapTotal": 7970816,
+        "heapUsed": 5104136,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 10813440,
+        "heapTotal": 786432,
+        "heapUsed": 528400,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 14139392,
+        "heapTotal": 786432,
+        "heapUsed": 557392,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 19972096,
+        "heapTotal": 786432,
+        "heapUsed": 644608,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "importMs": 27.973573999999985,
+      "firstCallMs": 2.6324829999999793,
+      "before": {
+        "rss": 42663936,
+        "heapTotal": 7184384,
+        "heapUsed": 4459560,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 51249152,
+        "heapTotal": 7970816,
+        "heapUsed": 4989968,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterFirst": {
+        "rss": 53325824,
+        "heapTotal": 7970816,
+        "heapUsed": 5020880,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "afterWarm": {
+        "rss": 62267392,
+        "heapTotal": 7970816,
+        "heapUsed": 5104376,
+        "external": 2085246,
+        "arrayBuffers": 79595
+      },
+      "importDelta": {
+        "rss": 8585216,
+        "heapTotal": 786432,
+        "heapUsed": 530408,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "firstDelta": {
+        "rss": 10661888,
+        "heapTotal": 786432,
+        "heapUsed": 561320,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "warmDelta": {
+        "rss": 19603456,
+        "heapTotal": 786432,
+        "heapUsed": 644816,
+        "external": 126246,
+        "arrayBuffers": 69120
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "current-full",
+      "importMs": 67.80201799999999,
+      "firstCallMs": 1.6107039999999984,
+      "before": {
+        "rss": 42774528,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 59031552,
+        "heapTotal": 17293312,
+        "heapUsed": 8245720,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 59498496,
+        "heapTotal": 17555456,
+        "heapUsed": 8272896,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 70709248,
+        "heapTotal": 17555456,
+        "heapUsed": 8353160,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 16257024,
+        "heapTotal": 10108928,
+        "heapUsed": 3786288,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 16723968,
+        "heapTotal": 10371072,
+        "heapUsed": 3813464,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 27934720,
+        "heapTotal": 10371072,
+        "heapUsed": 3893728,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 108829,
+      "round": 4
+    },
+    {
+      "id": "current-latin",
+      "importMs": 14.272395000000003,
+      "firstCallMs": 1.527185000000003,
+      "before": {
+        "rss": 42655744,
+        "heapTotal": 7184384,
+        "heapUsed": 4459432,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 48799744,
+        "heapTotal": 7446528,
+        "heapUsed": 4822224,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterFirst": {
+        "rss": 49119232,
+        "heapTotal": 7708672,
+        "heapUsed": 4840672,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "afterWarm": {
+        "rss": 60657664,
+        "heapTotal": 7708672,
+        "heapUsed": 4924936,
+        "external": 2016126,
+        "arrayBuffers": 10475
+      },
+      "importDelta": {
+        "rss": 6144000,
+        "heapTotal": 262144,
+        "heapUsed": 362792,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "firstDelta": {
+        "rss": 6463488,
+        "heapTotal": 524288,
+        "heapUsed": 381240,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "warmDelta": {
+        "rss": 18001920,
+        "heapTotal": 524288,
+        "heapUsed": 465504,
+        "external": 57126,
+        "arrayBuffers": 0
+      },
+      "checksum": 45007,
+      "round": 4
+    },
+    {
+      "id": "any-ascii",
+      "importMs": 8.616821999999999,
+      "firstCallMs": 6.162817999999987,
+      "before": {
+        "rss": 42950656,
+        "heapTotal": 7184384,
+        "heapUsed": 4459160,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 47251456,
+        "heapTotal": 7999488,
+        "heapUsed": 5092976,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 48799744,
+        "heapTotal": 8523776,
+        "heapUsed": 5721672,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52146176,
+        "heapTotal": 10883072,
+        "heapUsed": 5862344,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 4300800,
+        "heapTotal": 815104,
+        "heapUsed": 633816,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 5849088,
+        "heapTotal": 1339392,
+        "heapUsed": 1262512,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 9195520,
+        "heapTotal": 3698688,
+        "heapUsed": 1403184,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 54428,
+      "round": 4
+    },
+    {
+      "id": "sindre-transliterate",
+      "importMs": 30.42777600000001,
+      "firstCallMs": 1.8399260000000197,
+      "before": {
+        "rss": 42631168,
+        "heapTotal": 7184384,
+        "heapUsed": 4459280,
+        "external": 1959000,
+        "arrayBuffers": 10475
+      },
+      "afterImport": {
+        "rss": 52150272,
+        "heapTotal": 10330112,
+        "heapUsed": 5361832,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterFirst": {
+        "rss": 52711424,
+        "heapTotal": 10592256,
+        "heapUsed": 5371920,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "afterWarm": {
+        "rss": 52981760,
+        "heapTotal": 10592256,
+        "heapUsed": 5404184,
+        "external": 1967232,
+        "arrayBuffers": 18667
+      },
+      "importDelta": {
+        "rss": 9519104,
+        "heapTotal": 3145728,
+        "heapUsed": 902552,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "firstDelta": {
+        "rss": 10080256,
+        "heapTotal": 3407872,
+        "heapUsed": 912640,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "warmDelta": {
+        "rss": 10350592,
+        "heapTotal": 3407872,
+        "heapUsed": 944904,
+        "external": 8232,
+        "arrayBuffers": 8192
+      },
+      "checksum": 46014,
+      "round": 4
+    }
+  ],
+  "endedAt": "2026-10-22T17:26:44.184Z",
+  "loadEnd": [
+    14.53955078125,
+    17.77294921875,
+    20.58203125
+  ]
+}

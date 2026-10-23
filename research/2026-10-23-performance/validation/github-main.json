@@ -1,0 +1,104 @@
+{
+  "name": "main",
+  "commit": {
+    "sha": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+    "node_id": "C_kwDOAWTFRdoAKGQxYmUxZjM1ZTQ4OTExYjAwMzc3ZGNmNWVmZDI5OWFhNzRkNTAwMDA",
+    "commit": {
+      "author": {
+        "name": "yf-hk",
+        "email": "huyifan83@gmail.com",
+        "date": "2026-10-22T15:25:57Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2026-10-22T15:25:57Z"
+      },
+      "message": "Merge pull request #258 from yf-hk/fix/github-correctness-20261022\n\nfix: resolve reported mapping, slug and mixed-script spacing bugs",
+      "tree": {
+        "sha": "921a520a6fc58ec233bc1f87e3cca9e72fe9bde5",
+        "url": "https://api.github.com/repos/yf-hk/transliteration/git/trees/921a520a6fc58ec233bc1f87e3cca9e72fe9bde5"
+      },
+      "url": "https://api.github.com/repos/yf-hk/transliteration/git/commits/d1be1f35e48911b00377dcf5efd299aa74d50000",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq2isFCRC1aQ7uu5UhlAAAd9wQADtaDaVBAkcYnwdsHbPPbC3C\nSOLW5XYcSC9Eid5kQi5nYBAWHOcZhwLSv3AqVF6x7ZZoXj2TtzVmmujwLq4kRYg/\nBWrmOF3AFSI3NcbNV/039BX4b80rO5M6Qvk2zE5pRVv75jcL4LJ9KR7CmVROu/Su\nXv4Xwt9AkQAxxalYhUrTz4ZTeYd/D5CQjL+qvZqzvI9nqAHYR9aNu4qbNbUOz1Ph\nL5pERg7dcYGmMOvzWweaSiXMOh4bI2KpwqbQG4qU5Ne1OH4+UAGtZSZDr4Rg3c6v\nAguTfl9d82LgbYBjD1YOBZam91ujLLkDlgCHhjAhXQIup+k+yoVjk8Ujc5GqwhvA\nvj8Zcqw+LPQCEm3QKevwCBQ+nctbJV7oLp+aO5jTXJDw79MAYc9oC7j0B3wFoL46\nZlIe0nxMdWUlT/afJjt081yHhFp0rpGyBTV0/duAUKfHvZFmc6CwJvk3HojG6WlR\nA/bsQy50O2DL/ySi86iiywaZTJjq9Lj9uM3p0ISBRjlwQNz77ZeF84xHHlSDwrbq\nWJtWXs+0MxyECayCBBfTgi8RJbQ/Nqjb86gec6a9naK/MnDxmTObIWgX9oDSfrF/\nBCvE1hqjZchRadYU07RNllz9nubdo7FygQv8zXFTg3oyBFXYglOdTDvFW/RrcqAJ\nnefDYvtwJiyT/XvbFHUL\n=4q5x\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree 921a520a6fc58ec233bc1f87e3cca9e72fe9bde5\nparent e69bb1bba461c8e5cab0937f97e0ff602a931885\nparent cef24a918159166ed1371faffe069e0a519d705e\nauthor yf-hk <huyifan83@gmail.com> 1792682757 +0800\ncommitter GitHub <noreply@github.com> 1792682757 +0800\n\nMerge pull request #258 from yf-hk/fix/github-correctness-20261022\n\nfix: resolve reported mapping, slug and mixed-script spacing bugs",
+        "verified_at": "2026-10-22T15:25:58Z"
+      }
+    },
+    "url": "https://api.github.com/repos/yf-hk/transliteration/commits/d1be1f35e48911b00377dcf5efd299aa74d50000",
+    "html_url": "https://github.com/yf-hk/transliteration/commit/d1be1f35e48911b00377dcf5efd299aa74d50000",
+    "comments_url": "https://api.github.com/repos/yf-hk/transliteration/commits/d1be1f35e48911b00377dcf5efd299aa74d50000/comments",
+    "author": {
+      "login": "yf-hk",
+      "id": 203980,
+      "node_id": "MDQ6VXNlcjIwMzk4MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203980?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yf-hk",
+      "html_url": "https://github.com/yf-hk",
+      "followers_url": "https://api.github.com/users/yf-hk/followers",
+      "following_url": "https://api.github.com/users/yf-hk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yf-hk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yf-hk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yf-hk/subscriptions",
+      "organizations_url": "https://api.github.com/users/yf-hk/orgs",
+      "repos_url": "https://api.github.com/users/yf-hk/repos",
+      "events_url": "https://api.github.com/users/yf-hk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yf-hk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e69bb1bba461c8e5cab0937f97e0ff602a931885",
+        "url": "https://api.github.com/repos/yf-hk/transliteration/commits/e69bb1bba461c8e5cab0937f97e0ff602a931885",
+        "html_url": "https://github.com/yf-hk/transliteration/commit/e69bb1bba461c8e5cab0937f97e0ff602a931885"
+      },
+      {
+        "sha": "cef24a918159166ed1371faffe069e0a519d705e",
+        "url": "https://api.github.com/repos/yf-hk/transliteration/commits/cef24a918159166ed1371faffe069e0a519d705e",
+        "html_url": "https://github.com/yf-hk/transliteration/commit/cef24a918159166ed1371faffe069e0a519d705e"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/yf-hk/transliteration/branches/main",
+    "html": "https://github.com/yf-hk/transliteration/tree/main"
+  },
+  "protected": false,
+  "protection": {
+    "enabled": false,
+    "required_status_checks": {
+      "enforcement_level": "off",
+      "contexts": [],
+      "checks": []
+    }
+  },
+  "protection_url": "https://api.github.com/repos/yf-hk/transliteration/branches/main/protection"
+}

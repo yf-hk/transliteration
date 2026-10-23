@@ -1,0 +1,2 @@
+npm warn publish This command requires you to be logged in to http://127.0.0.1:9/ (dry-run)
+npm notice Publishing to http://127.0.0.1:9/ with tag latest and default access (dry-run)

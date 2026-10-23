@@ -1,0 +1,55 @@
+{
+  "generatedBy": "Astra, requested max effort",
+  "sourceCommit": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "dataSha256": "5f73d742afe15b135b27a9c537d302d1eaa124fe4e393c8d239b77fbcf7373bd",
+  "staticMappings": 30834,
+  "algorithmicHangulMappings": 11172,
+  "totalMappings": 42006,
+  "explicitEmpty": 1744,
+  "uniqueStaticValues": 3576,
+  "uniquePoolAsciiBytes": 12776,
+  "pageCount": 133,
+  "maxValueLength": 12,
+  "variants": [
+    "eager-object",
+    "pages",
+    "pooled-offsets",
+    "pooled-values",
+    "pooled-blocks",
+    "packed12-values"
+  ],
+  "blockCandidates": [
+    {
+      "shift": 4,
+      "blockCount": 1901,
+      "bytes": 69024,
+      "base64GzipBytes": 49198
+    },
+    {
+      "shift": 5,
+      "blockCount": 983,
+      "bytes": 67008,
+      "base64GzipBytes": 48081
+    },
+    {
+      "shift": 6,
+      "blockCount": 510,
+      "bytes": 67328,
+      "base64GzipBytes": 47438
+    },
+    {
+      "shift": 7,
+      "blockCount": 262,
+      "bytes": 68096,
+      "base64GzipBytes": 47151
+    },
+    {
+      "shift": 8,
+      "blockCount": 134,
+      "bytes": 69120,
+      "base64GzipBytes": 46967
+    }
+  ],
+  "selectedBlockShift": 5,
+  "gzipOptimalBlockShift": 8
+}

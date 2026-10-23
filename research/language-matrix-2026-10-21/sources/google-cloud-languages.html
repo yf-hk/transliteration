@@ -1,0 +1,7287 @@
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html 
+      lang="en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com"><meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/devprofiles.full_control.firstparty"><meta property="og:site_name" content="Google Cloud Documentation">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#1a73e8"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/clouddocs/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined&display=block"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/css/app.css">
+      
+        <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/css/dark-theme.css" disabled>
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/favicons/onecloud/favicon.ico">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/favicons/onecloud/super_cloud.png"><link rel="canonical" href="https://docs.cloud.google.com/translate/docs/languages"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google Cloud Documentation" href="https://docs.cloud.google.com/s/opensearch.xml">
+      <link rel="alternate" hreflang="en"
+          href="https://docs.cloud.google.com/translate/docs/languages" /><link rel="alternate" hreflang="x-default" href="https://docs.cloud.google.com/translate/docs/languages" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=zh-tw" /><link rel="alternate" hreflang="fr"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=he" /><link rel="alternate" hreflang="id"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=ko" /><link rel="alternate" hreflang="pt-BR"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=pt-br" /><link rel="alternate" hreflang="pt"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=pt" /><link rel="alternate" hreflang="es"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=es" /><link rel="alternate" hreflang="es-419"
+          href="https://docs.cloud.google.com/translate/docs/languages?hl=es-419" /><link rel="alternate" hreflang="en-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages" /><link rel="alternate" hreflang="x-default" href="https://docs.cloud.google.cn/translate/docs/languages" /><link rel="alternate" hreflang="zh-Hans-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=zh-tw" /><link rel="alternate" hreflang="fr-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=fr" /><link rel="alternate" hreflang="de-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=de" /><link rel="alternate" hreflang="he-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=he" /><link rel="alternate" hreflang="id-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=id" /><link rel="alternate" hreflang="it-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=it" /><link rel="alternate" hreflang="ja-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=ja" /><link rel="alternate" hreflang="ko-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=ko" /><link rel="alternate" hreflang="pt-BR-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=pt-br" /><link rel="alternate" hreflang="pt-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=pt" /><link rel="alternate" hreflang="es-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=es" /><link rel="alternate" hreflang="es-419-cn"
+          href="https://docs.cloud.google.cn/translate/docs/languages?hl=es-419" /><title>Language support &nbsp;|&nbsp; Cloud Translation &nbsp;|&nbsp; Google Cloud Documentation</title>
+
+<meta property="og:title" content="Language support &nbsp;|&nbsp; Cloud Translation &nbsp;|&nbsp; Google Cloud Documentation"><meta property="og:url" content="https://docs.cloud.google.com/translate/docs/languages"><meta property="og:image" content="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630"><meta property="og:locale" content="en"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": "Language support"
+  }
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Cloud Translation",
+      "item": "https://docs.cloud.google.com/translate/docs"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Language support",
+      "item": "https://docs.cloud.google.com/translate/docs/languages"
+    }]
+  }
+  </script>
+  
+
+  
+
+  
+
+
+    </head>
+  <body class="color-scheme--light"
+        template="page"
+        theme="clouddocs-theme"
+        type="article"
+        
+        appearance
+        
+        layout="docs"
+        
+        
+        free-trial
+        
+        
+        display-toc
+        pending>
+  
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+  
+    <a href="#main-content" class="skip-link button">
+      
+      Skip to main content
+    </a>
+    <section class="devsite-wrapper">
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+        <cloudx-track userCountry="US"></cloudx-track>
+
+<devsite-header role="banner" keep-tabs-visible>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner" data-nosnippet>
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Open menu">
+        </button>
+        
+<div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleCloudDocumentation" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup_dark_theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup_full_color.svg" class="devsite-site-logo" alt="Google Cloud Documentation">
+  </picture>
+  
+</a>
+
+
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+              
+              
+  <devsite-tabs class="upper-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Upper tabs">
+      
+        
+          <tab class="devsite-dropdown
+    devsite-dropdown-full
+    devsite-active
+    devsite-clickable
+    ">
+  
+    <a href="https://docs.cloud.google.com/docs"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/docs"
+    
+       track-type="nav"
+       track-metadata-position="nav - docs-home"
+       track-metadata-module="primary nav"
+       aria-label="Documentation, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Documentation"
+         
+           track-name="docs-home"
+         
+           track-link-column-type="single-column"
+         
+       >
+    Documentation
+  
+    </a>
+    
+      <button
+         aria-haspopup="menu"
+         aria-expanded="false"
+         aria-label="Dropdown menu for Documentation"
+         track-type="nav"
+         track-metadata-eventdetail="https://docs.cloud.google.com/docs"
+         track-metadata-position="nav - docs-home"
+         track-metadata-module="primary nav"
+         
+          
+            data-category="Site-Wide Custom Events"
+          
+            data-label="Tab: Documentation"
+          
+            track-name="docs-home"
+          
+            track-link-column-type="single-column"
+          
+        
+         class="devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down"></button>
+    
+  
+  <div class="devsite-tabs-dropdown" role="menu" aria-label="submenu" hidden>
+    <div class="devsite-tabs-dropdown-content">
+      
+        <button class="devsite-tabs-close-button material-icons button-flat gc-analytics-event"
+                data-category="Site-Wide Custom Events"
+                data-label="Close dropdown menu"
+                aria-label="Close dropdown menu"
+                track-type="nav"
+                track-name="close"
+                track-metadata-eventdetail="#"
+                track-metadata-position="nav - docs-home"
+                track-metadata-module="tertiary nav">close</button>
+      
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Get Started</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/get-started"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/get-started"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Get Started with Google Cloud
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/product-list"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/product-list"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Product List
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/support/docs"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/support/docs"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="get started"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Customer Care
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Featured Products</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/products/gemini-enterprise-agent-platform"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/products/gemini-enterprise-agent-platform"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Agent Platform
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/apigee"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/apigee"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Apigee API Management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/bigquery"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/bigquery"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      BigQuery
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/products/compute"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/products/compute"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Compute Engine
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/cdn"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/cdn"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud CDN
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/run"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/run"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Run
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/storage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/storage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud Storage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/sql"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/sql"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Cloud SQL
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/gemini/enterprise/docs"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/gemini/enterprise/docs"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Gemini Enterprise
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/kubernetes-engine"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/kubernetes-engine"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Google Kubernetes Engine
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/looker"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/looker"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="featured products"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Looker
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Cross-product Tools</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/access-resources"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/access-resources"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Access and resources management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/costs-usage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/costs-usage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Costs and usage management
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/iac"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/iac"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Infrastructure as code
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/devtools"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/devtools"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="cross-product tools"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      SDK, languages, frameworks, and tools
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+        <div class="devsite-tabs-dropdown-column
+                    ">
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+                <li class="devsite-nav-title" role="heading" tooltip>Technology Areas</li>
+              
+              
+              
+            </ul>
+          
+            <ul class="devsite-tabs-dropdown-section
+                       ">
+              
+              
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/ai-ml"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/ai-ml"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      AI and ML
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/application-development"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/application-development"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Application development
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/application-hosting"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/application-hosting"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Application hosting
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/compute-area"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/compute-area"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Compute
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/data"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/data"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Data analytics and pipelines
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/databases"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/databases"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Databases
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/dhm-cloud"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/dhm-cloud"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Distributed, hybrid, and multicloud
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/industry"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/industry"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Industry solutions
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/migration"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/migration"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Migration
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/networking"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/networking"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Networking
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/observability"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/observability"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Observability and monitoring
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/security"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/security"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Security
+                    </div>
+                    
+                  </a>
+                </li>
+              
+                <li class="devsite-nav-item">
+                  <a href="https://docs.cloud.google.com/docs/storage"
+                    
+                     track-type="nav"
+                     track-metadata-eventdetail="https://docs.cloud.google.com/docs/storage"
+                     track-metadata-position="nav - docs-home"
+                     track-metadata-module="tertiary nav"
+                     
+                       track-metadata-module_headline="technology areas"
+                     
+                     tooltip
+                  >
+                    
+                    <div class="devsite-nav-item-title">
+                      Storage
+                    </div>
+                    
+                  </a>
+                </li>
+              
+            </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+</tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      
+    
+    enable-search-summaries
+    project-name="Cloud Translation"
+    tenant-name="Google Cloud Documentation"
+    project-scope="/translate/docs"
+    url-scoped="https://docs.cloud.google.com/s/results/translate/docs"
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://docs.cloud.google.com/s/results" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Open search"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Search"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Search"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+              <svg class="devsite-search-ai-image" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6641_386)">
+                    <path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z" fill="#5F6368"/>
+                  </g>
+                <defs>
+                <clipPath id="clip0_6641_386">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            
+          </div>
+          <div class="devsite-search-shortcut-icon-container" aria-hidden="true">
+            <kbd class="devsite-search-shortcut-icon">/</kbd>
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Close search"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+  
+
+  
+    <a class="devsite-header-link devsite-top-button button gc-analytics-event button-with-icon"
+    href="//console.cloud.google.com/"
+    data-category="Site-Wide Custom Events"
+    data-label="Site header link: Console"
+    
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+        track-metadata-position="nav"
+      
+        track-type="globalNav"
+      
+        track-metadata-eventDetail="nav"
+      
+        track-name="console"
+      
+    >
+  Console
+</a>
+  
+
+  
+
+  <devsite-appearance-selector></devsite-appearance-selector>
+
+  
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+
+
+        
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                          fp-auth
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Sign in</span>
+            
+          </devsite-user>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    ">
+    <div class="devsite-header-background">
+      
+        
+          <div class="devsite-product-id-row"
+           >
+            <div class="devsite-product-description-row">
+              
+                
+                <div class="devsite-product-id">
+                  
+                    
+  
+  <a href="https://docs.cloud.google.com/translate/docs">
+    
+  <div class="devsite-product-logo-container"
+       
+       
+       
+    size="medium"
+  >
+  
+    <picture>
+      
+      <source class="devsite-dark-theme"
+              media="(prefers-color-scheme: dark)"
+              srcset=" /_static/clouddocs/images/icons/categories/ai-and-machine-learning-white.svg"
+              sizes="64px">
+      
+      <img class="devsite-product-logo"
+           alt=""
+           src="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+           srcset=" /_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+           sizes="64px"
+           loading="lazy"
+           >
+    </picture>
+  
+  </div>
+  
+  </a>
+  
+
+                  
+                  
+                  
+                    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/translate/docs"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Lower Header"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Cloud Translation"
+      
+    >
+    
+          Cloud Translation
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+                </div>
+                
+              
+              
+            </div>
+            
+              <div class="devsite-product-button-row">
+  
+
+  
+  <a href="//console.cloud.google.com/freetrial"
+  
+    class="cloud-free-trial-button button button-primary
+      "
+    
+    
+      
+        track-metadata-position="nav"
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+        track-name="gcpCta"
+      
+        track-metadata-eventDetail="nav"
+      
+        track-type="freeTrial"
+      
+    
+    >Start free</a>
+
+</div>
+            
+          </div>
+          
+        
+      
+      
+        <div class="devsite-doc-set-nav-row">
+          
+          
+            
+            
+  <devsite-tabs class="lower-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Lower tabs">
+      
+        
+          <tab  >
+            
+    <a href="https://docs.cloud.google.com/translate/docs"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/translate/docs"
+    
+       track-type="nav"
+       track-metadata-position="nav - overview"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Overview"
+         
+           track-name="overview"
+         
+       >
+    Overview
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://docs.cloud.google.com/translate/docs/overview"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/translate/docs/overview"
+    
+       track-type="nav"
+       track-metadata-position="nav - guides"
+       track-metadata-module="primary nav"
+       aria-label="Guides, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Guides"
+         
+           track-name="guides"
+         
+       >
+    Guides
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://docs.cloud.google.com/translate/docs/reference/api-overview"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/translate/docs/reference/api-overview"
+    
+       track-type="nav"
+       track-metadata-position="nav - api and references"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: API and references"
+         
+           track-name="api and references"
+         
+       >
+    API and references
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://docs.cloud.google.com/translate/docs/samples"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/translate/docs/samples"
+    
+       track-type="nav"
+       track-metadata-position="nav - samples"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Samples"
+         
+           track-name="samples"
+         
+       >
+    Samples
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://docs.cloud.google.com/translate/docs/resources"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://docs.cloud.google.com/translate/docs/resources"
+    
+       track-type="nav"
+       track-metadata-position="nav - resources"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Resources"
+         
+           track-name="resources"
+         
+       >
+    Resources
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+          
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+        <devsite-book-nav scrollbars >
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     >
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Filter"
+         
+         aria-label="Type to filter"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Clear filter"
+        aria-label="Clear filter"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent" data-nosnippet
+     aria-label="Side menu">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Close navigation">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="googleCloudDocumentation" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup_dark_theme.svg"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup_full_color.svg" class="devsite-site-logo" alt="Google Cloud Documentation">
+  </picture>
+  
+</a>
+
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Documentation"
+      
+        track-name="docs-home"
+      
+        track-link-column-type="single-column"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Documentation"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Documentation
+   </span>
+    
+  
+  </a>
+  
+
+  
+    <ul class="devsite-nav-responsive-tabs devsite-nav-has-menu
+               ">
+      
+<li class="devsite-nav-item">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Documentation"
+      
+        track-name="docs-home"
+      
+        track-link-column-type="single-column"
+      
+    >
+  
+    <span class="devsite-nav-text" tooltip menu="Documentation">
+      More
+   </span>
+    
+    <span class="devsite-nav-icon material-icons" data-icon="forward"
+          menu="Documentation">
+    </span>
+    
+  
+  </span>
+  
+
+</li>
+
+    </ul>
+  
+              
+                <ul class="devsite-nav-responsive-tabs">
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/translate/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Overview"
+      
+        track-name="overview"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Overview"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Overview
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/translate/docs/overview"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Guides"
+      
+        track-name="guides"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Guides"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip menu="_book">
+      Guides
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/translate/docs/reference/api-overview"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: API and references"
+      
+        track-name="api and references"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: API and references"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      API and references
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/translate/docs/samples"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Samples"
+      
+        track-name="samples"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Samples"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Samples
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/translate/docs/resources"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Resources"
+      
+        track-name="resources"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Resources"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Resources
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+          
+    
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="//console.cloud.google.com/"
+    
+       class="devsite-nav-title gc-analytics-event button-with-icon"
+    
+
+    
+      
+        referrerpolicy="no-referrer-when-downgrade"
+      
+        track-metadata-position="nav"
+      
+        track-type="globalNav"
+      
+        track-metadata-eventDetail="nav"
+      
+        track-name="console"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Console"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Console
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Cloud Translation</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Translation options</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/api-overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>API overview</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/nmt-model"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Neural Machine Translation model</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/translation-llm"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Translation LLM (TLLM) model</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/compare-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Compare models</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/languages"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Supported languages</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/supported-formats"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Supported formats</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Get started</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/setup"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Setup</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-translation-quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Create a custom model</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/endpoints"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Multi-regional endpoint</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Translate</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/detect-language"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Detect language</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/list-supported-languages"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>List supported languages</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/translate-text"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Translate text</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/batch-translation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Batch translate</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/translate-documents"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Translate documents</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/hybrid-glossaries-tutorial"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Translate photo text</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Model evaluation</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/translate/docs/advanced/translation-model-evaluation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Evaluate translation models</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/bleu-scores"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>The BLEU metric</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/translate/docs/advanced/romanize-text"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Romanize text</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Preview"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Customize translation</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-translations"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Custom translation overview</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/adaptive-translation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Adaptive LLM translation</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/adaptive-translation-data"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Adaptive translation datasets</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Glossaries</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/translate/docs/advanced/glossary"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Creating and using glossaries</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/stopwords"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Glossary stopwords</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Customize NMT models</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/translate/docs/advanced/nmt-customization"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>NMT customization overview</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-translation-quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Customization example</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-nmt-prepare"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>NMT training data</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-nmt-datasets"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>NMT dataset management</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-nmt-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>NMT model creation</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/automl-upgrade"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Migrating AutoML resources</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Customize TLLM models</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/translate/docs/advanced/tllm-customization"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>TLLM customization overview</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-tllm-prepare"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>TLLM training data</span></a></li><li class="devsite-nav-item"><a href="/translate/docs/advanced/custom-tllm-models"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>TLLM model creation</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Administration</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/long-running-operation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Check operation status</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/access-control"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Control access using IAM</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/audit-logging"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Audit logging</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/docs/advanced/labels"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Granular billing</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/attribution"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Attribution requirements</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/markup"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>HTML markup requirements</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/translate/troubleshooting"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Troubleshoot common issues</span></a></li>
+          </ul>
+        
+        
+          
+    
+      
+      <ul class="devsite-nav-list" menu="Documentation"
+          aria-label="Side menu" hidden>
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Get Started
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/get-started"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Get Started with Google Cloud"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Get Started with Google Cloud
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/product-list"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Product List"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Product List
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/support/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Customer Care"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Customer Care
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Featured Products
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products/gemini-enterprise-agent-platform"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Agent Platform"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Agent Platform
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/apigee"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Apigee API Management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Apigee API Management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/bigquery"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: BigQuery"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      BigQuery
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/products/compute"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Compute Engine"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Compute Engine
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/cdn"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud CDN"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud CDN
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/run"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Run"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Run
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/storage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud Storage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud Storage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/sql"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cloud SQL"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cloud SQL
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/gemini/enterprise/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Gemini Enterprise"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Gemini Enterprise
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/kubernetes-engine"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Google Kubernetes Engine"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Google Kubernetes Engine
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/looker"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Looker"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Looker
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Cross-product Tools
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/access-resources"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Access and resources management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Access and resources management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/costs-usage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Costs and usage management"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Costs and usage management
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/iac"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Infrastructure as code"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Infrastructure as code
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/devtools"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: SDK, languages, frameworks, and tools"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      SDK, languages, frameworks, and tools
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+          
+            
+              
+<li class="devsite-nav-item devsite-nav-heading">
+
+  
+  <span
+    
+       class="devsite-nav-title"
+       tooltip
+    
+    >
+  
+    <span class="devsite-nav-text" tooltip >
+      Technology Areas
+   </span>
+    
+  
+  </span>
+  
+
+</li>
+
+            
+            
+          
+            
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/ai-ml"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: AI and ML"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      AI and ML
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/application-development"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Application development"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Application development
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/application-hosting"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Application hosting"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Application hosting
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/compute-area"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Compute"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Compute
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/data"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Data analytics and pipelines"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Data analytics and pipelines
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/databases"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Databases"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Databases
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/dhm-cloud"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Distributed, hybrid, and multicloud"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Distributed, hybrid, and multicloud
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/industry"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Industry solutions"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Industry solutions
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/migration"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Migration"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Migration
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/networking"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Networking"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Networking
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/observability"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Observability and monitoring"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Observability and monitoring
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/security"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Security"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Security
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+              
+<li class="devsite-nav-item">
+
+  
+  <a href="/docs/storage"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Storage"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Storage
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+            
+          
+        
+      </ul>
+    
+  
+        
+        
+          
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+          
+        </devsite-book-nav>
+      
+      <section id="gc-wrapper">
+        <main role="main" id="main-content" class="devsite-main-content"
+            
+              has-book-nav
+              has-sidebar
+            >
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav"
+                            role="navigation"
+                            aria-label="On this page"
+                            depth="2"
+                            scrollbars
+                            data-nosnippet
+                  ></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav" data-nosnippet>
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article">
+  
+  
+  
+  
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation" data-nosnippet>
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Breadcrumb">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail="Google Cloud Documentation"
+      
+    >
+    
+          Home
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Documentation"
+      
+    >
+    
+          Documentation
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/docs/ai-ml"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail="AI and ML"
+      
+    >
+    
+          AI and ML
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/translate/docs"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="4"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="4"
+      
+        track-metadata-eventdetail="Cloud Translation"
+      
+    >
+    
+          Cloud Translation
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://docs.cloud.google.com/translate/docs/overview"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="5"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="5"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+          Guides
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Cloud Translation"
+  product-id="5048503"
+  bucket="Cloud Translation API Docs"
+  context="Cloud Translation API docs feedback link"
+  version="t-devsite-webserver-20261014-r02-rc00.481037794032955999"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+  
+    <h1 class="devsite-page-title" tabindex="-1">
+      Language support<devsite-actions hidden data-nosnippet><devsite-feature-tooltip
+      ack-key="AckCollectionsBookmarkTooltipDismiss"
+      analytics-category="Site-Wide Custom Events"
+      analytics-action-show="Callout Profile displayed"
+      analytics-action-close="Callout Profile dismissed"
+      analytics-label="Create Collection Callout"
+      class="devsite-page-bookmark-tooltip nocontent"
+      data-nosnippet
+      dismiss-button="true"
+      id="devsite-collections-dropdown"
+      
+      dismiss-button-text="Dismiss"
+
+      
+      close-button-text="Got it">
+
+    
+    
+      <devsite-bookmark></devsite-bookmark>
+    
+
+    <span slot="popout-heading">
+      
+      Stay organized with collections
+    </span>
+    <span slot="popout-contents">
+      
+      Save and categorize content based on your preferences.
+    </span>
+  </devsite-feature-tooltip>
+    <devsite-llm-tools></devsite-llm-tools></devsite-actions>
+  
+      
+    </h1>
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+    
+  <div class="devsite-article-body clearfix
+  ">
+
+  
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="adaptive_translation" data-text="Translation LLM supported languages" tabindex="-1">Translation LLM supported languages</h2>
+
+<p>Translations from any language to any language in this list are supported. 
+Languages supported by Translation LLM are also supported for
+Adaptive Translation. </p>
+
+<table>
+<thead>
+<tr>
+<th>Language name</th>
+<th>Language code</th>
+<th>Official Support</th>
+<th>Experimental Support</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td>Afrikaans</td>
+<td><code translate="no" dir="ltr">af</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Albanian</td>
+<td><code translate="no" dir="ltr">sq</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Amharic</td>
+<td><code translate="no" dir="ltr">am</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Arabic (Saudi Arabia)</td>
+<td><code translate="no" dir="ltr">ar-SA</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Arabic</td>
+<td><code translate="no" dir="ltr">ar</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Armenian</td>
+<td><code translate="no" dir="ltr">hy</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Azerbaijani</td>
+<td><code translate="no" dir="ltr">az</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Basque</td>
+<td><code translate="no" dir="ltr">eu</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Belarusian</td>
+<td><code translate="no" dir="ltr">be</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Bengali (India)</td>
+<td><code translate="no" dir="ltr">bn-IN</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Bengali</td>
+<td><code translate="no" dir="ltr">bn</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Bosnian (Cyrillic)</td>
+<td><code translate="no" dir="ltr">bs-Cyrl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Bosnian</td>
+<td><code translate="no" dir="ltr">bs</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Bulgarian</td>
+<td><code translate="no" dir="ltr">bg</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Burmese</td>
+<td><code translate="no" dir="ltr">my</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Catalan</td>
+<td><code translate="no" dir="ltr">ca</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese (China)</td>
+<td><code translate="no" dir="ltr">zh-CN</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese (Hong Kong)</td>
+<td><code translate="no" dir="ltr">zh-HK</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese (Simplified)</td>
+<td><code translate="no" dir="ltr">zh-Hans</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese (Taiwan)</td>
+<td><code translate="no" dir="ltr">zh-TW</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese (Traditional)</td>
+<td><code translate="no" dir="ltr">zh-Hant</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Chinese</td>
+<td><code translate="no" dir="ltr">zh</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Croatian</td>
+<td><code translate="no" dir="ltr">hr</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Czech</td>
+<td><code translate="no" dir="ltr">cs</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Danish</td>
+<td><code translate="no" dir="ltr">da</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Dutch (Belgium)</td>
+<td><code translate="no" dir="ltr">nl-BE</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Dutch</td>
+<td><code translate="no" dir="ltr">nl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (Australia)</td>
+<td><code translate="no" dir="ltr">en-AU</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (Canada)</td>
+<td><code translate="no" dir="ltr">en-CA</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (New Zealand)</td>
+<td><code translate="no" dir="ltr">en-NZ</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (Philippines)</td>
+<td><code translate="no" dir="ltr">en-PH</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (South Africa)</td>
+<td><code translate="no" dir="ltr">en-ZA</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (United Kingdom)</td>
+<td><code translate="no" dir="ltr">en-GB</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English (United States)</td>
+<td><code translate="no" dir="ltr">en-US</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>English</td>
+<td><code translate="no" dir="ltr">en</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Estonian</td>
+<td><code translate="no" dir="ltr">et</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Filipino</td>
+<td><code translate="no" dir="ltr">fil</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Finnish</td>
+<td><code translate="no" dir="ltr">fi</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>French (Canada)</td>
+<td><code translate="no" dir="ltr">fr-CA</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>French (Switzerland)</td>
+<td><code translate="no" dir="ltr">fr-CH</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>French</td>
+<td><code translate="no" dir="ltr">fr</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Frisian</td>
+<td><code translate="no" dir="ltr">fy</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Galician</td>
+<td><code translate="no" dir="ltr">gl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Georgian</td>
+<td><code translate="no" dir="ltr">ka</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>German</td>
+<td><code translate="no" dir="ltr">de</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Greek</td>
+<td><code translate="no" dir="ltr">el</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Guarani</td>
+<td><code translate="no" dir="ltr">gn</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Gujarati</td>
+<td><code translate="no" dir="ltr">gu</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Hausa</td>
+<td><code translate="no" dir="ltr">ha</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Hebrew</td>
+<td><code translate="no" dir="ltr">he</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Hebrew</td>
+<td><code translate="no" dir="ltr">iw</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Hindi</td>
+<td><code translate="no" dir="ltr">hi</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Hungarian</td>
+<td><code translate="no" dir="ltr">hu</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Icelandic</td>
+<td><code translate="no" dir="ltr">is</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Igbo</td>
+<td><code translate="no" dir="ltr">ig</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Indonesian</td>
+<td><code translate="no" dir="ltr">id</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Irish</td>
+<td><code translate="no" dir="ltr">ga</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Italian</td>
+<td><code translate="no" dir="ltr">it</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Japanese</td>
+<td><code translate="no" dir="ltr">ja</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Kannada</td>
+<td><code translate="no" dir="ltr">kn</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Khmer</td>
+<td><code translate="no" dir="ltr">km</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Korean</td>
+<td><code translate="no" dir="ltr">ko</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Kyrgyz</td>
+<td><code translate="no" dir="ltr">ky</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Lao</td>
+<td><code translate="no" dir="ltr">lo</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Latvian</td>
+<td><code translate="no" dir="ltr">lv</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Lingala</td>
+<td><code translate="no" dir="ltr">ln</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Lithuanian</td>
+<td><code translate="no" dir="ltr">lt</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Luxembourgish</td>
+<td><code translate="no" dir="ltr">lb</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Macedonian</td>
+<td><code translate="no" dir="ltr">mk</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Malay</td>
+<td><code translate="no" dir="ltr">ms</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Malayalam</td>
+<td><code translate="no" dir="ltr">ml</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Maltese</td>
+<td><code translate="no" dir="ltr">mt</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Marathi</td>
+<td><code translate="no" dir="ltr">mr</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Mongolian</td>
+<td><code translate="no" dir="ltr">mn</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Nepali</td>
+<td><code translate="no" dir="ltr">ne</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Norwegian Bokmal</td>
+<td><code translate="no" dir="ltr">nb</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Norwegian</td>
+<td><code translate="no" dir="ltr">no</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Odia</td>
+<td><code translate="no" dir="ltr">or</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Persian</td>
+<td><code translate="no" dir="ltr">fa</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Polish</td>
+<td><code translate="no" dir="ltr">pl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Portuguese (Brazil)</td>
+<td><code translate="no" dir="ltr">pt-BR</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Portuguese (Portugal)</td>
+<td><code translate="no" dir="ltr">pt-PT</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Portuguese</td>
+<td><code translate="no" dir="ltr">pt</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Punjabi (Pakistan)</td>
+<td><code translate="no" dir="ltr">pa-PK</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Punjabi</td>
+<td><code translate="no" dir="ltr">pa</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Romanian</td>
+<td><code translate="no" dir="ltr">ro</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Russian</td>
+<td><code translate="no" dir="ltr">ru</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Scots Gaelic</td>
+<td><code translate="no" dir="ltr">gd</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Serbian</td>
+<td><code translate="no" dir="ltr">sr</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Slovak</td>
+<td><code translate="no" dir="ltr">sk</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Slovenian</td>
+<td><code translate="no" dir="ltr">sl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Somali</td>
+<td><code translate="no" dir="ltr">so</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Argentina)</td>
+<td><code translate="no" dir="ltr">es-AR</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Chile)</td>
+<td><code translate="no" dir="ltr">es-CL</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Colombia)</td>
+<td><code translate="no" dir="ltr">es-CO</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Costa Rica)</td>
+<td><code translate="no" dir="ltr">es-CR</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Ecuador)</td>
+<td><code translate="no" dir="ltr">es-EC</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (El Salvador)</td>
+<td><code translate="no" dir="ltr">es-SV</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Guatemala)</td>
+<td><code translate="no" dir="ltr">es-GT</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Haiti)</td>
+<td><code translate="no" dir="ltr">es-HT</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Honduras)</td>
+<td><code translate="no" dir="ltr">es-HN</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Latin America)</td>
+<td><code translate="no" dir="ltr">es-419</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Mexico)</td>
+<td><code translate="no" dir="ltr">es-MX</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Nicaragua)</td>
+<td><code translate="no" dir="ltr">es-NI</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Panama)</td>
+<td><code translate="no" dir="ltr">es-PA</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Paraguay)</td>
+<td><code translate="no" dir="ltr">es-PY</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Peru)</td>
+<td><code translate="no" dir="ltr">es-PE</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Puerto Rico)</td>
+<td><code translate="no" dir="ltr">es-PR</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Spain)</td>
+<td><code translate="no" dir="ltr">es-ES</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (United States)</td>
+<td><code translate="no" dir="ltr">es-US</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Uruguay)</td>
+<td><code translate="no" dir="ltr">es-UY</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish (Venezuela)</td>
+<td><code translate="no" dir="ltr">es-VE</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Spanish</td>
+<td><code translate="no" dir="ltr">es</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Swahili</td>
+<td><code translate="no" dir="ltr">sw</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Swedish</td>
+<td><code translate="no" dir="ltr">sv</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Tagalog</td>
+<td><code translate="no" dir="ltr">tl</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Tajik</td>
+<td><code translate="no" dir="ltr">tg</code></td>
+<td>
+
+</td>
+<td>
+⚠️ Experimental support
+</td>
+</tr>
+
+<tr>
+<td>Tamil</td>
+<td><code translate="no" dir="ltr">ta</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Telugu</td>
+<td><code translate="no" dir="ltr">te</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Thai</td>
+<td><code translate="no" dir="ltr">th</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Turkish</td>
+<td><code translate="no" dir="ltr">tr</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Ukrainian</td>
+<td><code translate="no" dir="ltr">uk</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Urdu</td>
+<td><code translate="no" dir="ltr">ur</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Uzbek</td>
+<td><code translate="no" dir="ltr">uz</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Vietnamese</td>
+<td><code translate="no" dir="ltr">vi</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Welsh</td>
+<td><code translate="no" dir="ltr">cy</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+<tr>
+<td>Zulu</td>
+<td><code translate="no" dir="ltr">zu</code></td>
+<td>
+✅
+</td>
+<td>
+
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<h2 id="nmt" data-text="Neural Machine Translation model" tabindex="-1">Neural Machine Translation model</h2>
+
+<p>The Translation API&#39;s recognition engine supports a wide variety of languages
+for the Neural Machine Translation (NMT) model.</p>
+
+<p>These languages are specified within a recognition request using language code
+parameters as noted on this page. Most language code parameters conform to
+<a href="https://wikipedia.org/wiki/ISO_639" class="external">ISO-639</a> 
+identifiers, except where noted.</p>
+
+<p>Translations from any language to any language in this list are supported.
+<a href="#roman">Romanization and transliteration</a> are supported only on the
+Cloud Translation - Advanced API. The list is updated as new languages are added. You
+can also list the supported languages by using
+<a href="/translate/docs/list-supported-languages#list_basic">Cloud Translation - Basic</a>
+or
+<a href="/translate/docs/list-supported-languages#list_advanced">Cloud Translation - Advanced</a>
+APIs.</p>
+
+
+
+
+
+
+
+
+
+
+
+<cloud-free-trial>
+  <div class="eligible">
+    <div class="margin-after">
+    <h2 class="hide-from-toc" id="try-it-for-yourself" data-text="       Try it for yourself     " tabindex="-1">
+      Try it for yourself
+    </h2>
+    
+
+      
+        
+      
+    <p>
+      If you're new to Google Cloud, create an account to evaluate how
+      Cloud Translation performs in real-world
+      scenarios. New customers also get $300 in free credits to run, test, and
+      deploy workloads.
+    </p>
+      
+    
+
+    
+
+    <a href="https://console.cloud.google.com/freetrial" class="button button-primary"
+        track-type="button" track-metadata-modifier="primary"
+        track-name="
+        Try Cloud Translation free
+      " track-metadata-anchor_text="
+        Try Cloud Translation free
+      "
+        track-metadata-eventdetail="https://console.cloud.google.com/freetrial" track-metadata-href="https://console.cloud.google.com/freetrial">
+      
+        Try Cloud Translation free
+      
+    </a>
+  </div>
+  </div>
+</cloud-free-trial>
+
+
+<p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>ISO-639 code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abkhaz</td>
+<td><code translate="no" dir="ltr">ab</code></td>
+</tr>
+<tr>
+<td>Acehnese</td>
+<td><code translate="no" dir="ltr">ace</code></td>
+</tr>
+<tr>
+<td>Acholi</td>
+<td><code translate="no" dir="ltr">ach</code></td>
+</tr>
+<tr>
+<td>Afrikaans</td>
+<td><code translate="no" dir="ltr">af</code></td>
+</tr>
+<tr>
+<td>Albanian</td>
+<td><code translate="no" dir="ltr">sq</code></td>
+</tr>
+<tr>
+<td>Alur</td>
+<td><code translate="no" dir="ltr">alz</code></td>
+</tr>
+<tr>
+<td>Amharic</td>
+<td><code translate="no" dir="ltr">am</code></td>
+</tr>
+<tr>
+<td>Arabic</td>
+<td><code translate="no" dir="ltr">ar</code></td>
+</tr>
+<tr>
+<td>Armenian</td>
+<td><code translate="no" dir="ltr">hy</code></td>
+</tr>
+<tr>
+<td>Assamese</td>
+<td><code translate="no" dir="ltr">as</code></td>
+</tr>
+<tr>
+<td>Awadhi</td>
+<td><code translate="no" dir="ltr">awa</code></td>
+</tr>
+<tr>
+<td>Aymara</td>
+<td><code translate="no" dir="ltr">ay</code></td>
+</tr>
+<tr>
+<td>Azerbaijani</td>
+<td><code translate="no" dir="ltr">az</code></td>
+</tr>
+<tr>
+<td>Balinese</td>
+<td><code translate="no" dir="ltr">ban</code></td>
+</tr>
+<tr>
+<td>Bambara</td>
+<td><code translate="no" dir="ltr">bm</code></td>
+</tr>
+<tr>
+<td>Bashkir</td>
+<td><code translate="no" dir="ltr">ba</code></td>
+</tr>
+<tr>
+<td>Basque</td>
+<td><code translate="no" dir="ltr">eu</code></td>
+</tr>
+<tr>
+<td>Batak Karo</td>
+<td><code translate="no" dir="ltr">btx</code></td>
+</tr>
+<tr>
+<td>Batak Simalungun</td>
+<td><code translate="no" dir="ltr">bts</code></td>
+</tr>
+<tr>
+<td>Batak Toba</td>
+<td><code translate="no" dir="ltr">bbc</code></td>
+</tr>
+<tr>
+<td>Belarusian</td>
+<td><code translate="no" dir="ltr">be</code></td>
+</tr>
+<tr>
+<td>Bemba</td>
+<td><code translate="no" dir="ltr">bem</code></td>
+</tr>
+<tr>
+<td>Bengali</td>
+<td><code translate="no" dir="ltr">bn</code></td>
+</tr>
+<tr>
+<td>Betawi</td>
+<td><code translate="no" dir="ltr">bew</code></td>
+</tr>
+<tr>
+<td>Bhojpuri</td>
+<td><code translate="no" dir="ltr">bho</code></td>
+</tr>
+<tr>
+<td>Bikol</td>
+<td><code translate="no" dir="ltr">bik</code></td>
+</tr>
+<tr>
+<td>Bosnian</td>
+<td><code translate="no" dir="ltr">bs</code></td>
+</tr>
+<tr>
+<td>Breton</td>
+<td><code translate="no" dir="ltr">br</code></td>
+</tr>
+<tr>
+<td>Bulgarian</td>
+<td><code translate="no" dir="ltr">bg</code></td>
+</tr>
+<tr>
+<td>Buryat</td>
+<td><code translate="no" dir="ltr">bua</code></td>
+</tr>
+<tr>
+<td>Cantonese</td>
+<td><code translate="no" dir="ltr">yue</code></td>
+</tr>
+<tr>
+<td>Catalan</td>
+<td><code translate="no" dir="ltr">ca</code></td>
+</tr>
+<tr>
+<td>Cebuano</td>
+<td><code translate="no" dir="ltr">ceb</code></td>
+</tr>
+<tr>
+<td>Chichewa (Nyanja)</td>
+<td><code translate="no" dir="ltr">ny</code></td>
+</tr>
+<tr>
+<td>Chinese (Simplified)</td>
+<td><code translate="no" dir="ltr">zh-CN</code> or <code translate="no" dir="ltr">zh</code> (<a class="external" href="https://tools.ietf.org/html/bcp47">BCP-47</a>)</td>
+</tr>
+<tr>
+<td>Chinese (Traditional)</td>
+<td><code translate="no" dir="ltr">zh-TW</code> (<a class="external" href="https://tools.ietf.org/html/bcp47">BCP-47</a>)</td>
+</tr>
+<tr>
+<td>Chuvash</td>
+<td><code translate="no" dir="ltr">cv</code></td>
+</tr>
+<tr>
+<td>Corsican</td>
+<td><code translate="no" dir="ltr">co</code></td>
+</tr>
+<tr>
+<td>Crimean Tatar</td>
+<td><code translate="no" dir="ltr">crh</code></td>
+</tr>
+<tr>
+<td>Croatian</td>
+<td><code translate="no" dir="ltr">hr</code></td>
+</tr>
+<tr>
+<td>Czech</td>
+<td><code translate="no" dir="ltr">cs</code></td>
+</tr>
+<tr>
+<td>Danish</td>
+<td><code translate="no" dir="ltr">da</code></td>
+</tr>
+<tr>
+<td>Dinka</td>
+<td><code translate="no" dir="ltr">din</code></td>
+</tr>
+<tr>
+<td>Divehi</td>
+<td><code translate="no" dir="ltr">dv</code></td>
+</tr>
+<tr>
+<td>Dogri</td>
+<td><code translate="no" dir="ltr">doi</code></td>
+</tr>
+<tr>
+<td>Dombe</td>
+<td><code translate="no" dir="ltr">dov</code></td>
+</tr>
+<tr>
+<td>Dutch</td>
+<td><code translate="no" dir="ltr">nl</code></td>
+</tr>
+<tr>
+<td>Dzongkha</td>
+<td><code translate="no" dir="ltr">dz</code></td>
+</tr>
+<tr>
+<td>English</td>
+<td><code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Esperanto</td>
+<td><code translate="no" dir="ltr">eo</code></td>
+</tr>
+<tr>
+<td>Estonian</td>
+<td><code translate="no" dir="ltr">et</code></td>
+</tr>
+<tr>
+<td>Ewe</td>
+<td><code translate="no" dir="ltr">ee</code></td>
+</tr>
+<tr>
+<td>Fijian</td>
+<td><code translate="no" dir="ltr">fj</code></td>
+</tr>
+<tr>
+<td>Filipino (Tagalog)</td>
+<td><code translate="no" dir="ltr">fil</code> or <code translate="no" dir="ltr">tl</code></td>
+</tr>
+<tr>
+<td>Finnish</td>
+<td><code translate="no" dir="ltr">fi</code></td>
+</tr>
+<tr>
+<td>French</td>
+<td><code translate="no" dir="ltr">fr</code></td>
+</tr>
+<tr>
+<td>French (French)</td>
+<td><code translate="no" dir="ltr">fr-FR</code></td>
+</tr>
+<tr>
+<td>French (Canadian)</td>
+<td><code translate="no" dir="ltr">fr-CA</code></td>
+</tr>
+<tr>
+<td>Frisian</td>
+<td><code translate="no" dir="ltr">fy</code></td>
+</tr>
+<tr>
+<td>Fulfulde</td>
+<td><code translate="no" dir="ltr">ff</code></td>
+</tr>
+<tr>
+<td>Ga</td>
+<td><code translate="no" dir="ltr">gaa</code></td>
+</tr>
+<tr>
+<td>Galician</td>
+<td><code translate="no" dir="ltr">gl</code></td>
+</tr>
+<tr>
+<td>Ganda (Luganda)</td>
+<td><code translate="no" dir="ltr">lg</code></td>
+</tr>
+<tr>
+<td>Georgian</td>
+<td><code translate="no" dir="ltr">ka</code></td>
+</tr>
+<tr>
+<td>German</td>
+<td><code translate="no" dir="ltr">de</code></td>
+</tr>
+<tr>
+<td>Greek</td>
+<td><code translate="no" dir="ltr">el</code></td>
+</tr>
+<tr>
+<td>Guarani</td>
+<td><code translate="no" dir="ltr">gn</code></td>
+</tr>
+<tr>
+<td>Gujarati</td>
+<td><code translate="no" dir="ltr">gu</code></td>
+</tr>
+<tr>
+<td>Haitian Creole</td>
+<td><code translate="no" dir="ltr">ht</code></td>
+</tr>
+<tr>
+<td>Hakha Chin</td>
+<td><code translate="no" dir="ltr">cnh</code></td>
+</tr>
+<tr>
+<td>Hausa</td>
+<td><code translate="no" dir="ltr">ha</code></td>
+</tr>
+<tr>
+<td>Hawaiian</td>
+<td><code translate="no" dir="ltr">haw</code></td>
+</tr>
+<tr>
+<td>Hebrew</td>
+<td><code translate="no" dir="ltr">iw</code> or <code translate="no" dir="ltr">he</code></td>
+</tr>
+<tr>
+<td>Hiligaynon</td>
+<td><code translate="no" dir="ltr">hil</code></td>
+</tr>
+<tr>
+<td>Hindi</td>
+<td><code translate="no" dir="ltr">hi</code></td>
+</tr>
+<tr>
+<td>Hmong</td>
+<td><code translate="no" dir="ltr">hmn</code></td>
+</tr>
+<tr>
+<td>Hungarian</td>
+<td><code translate="no" dir="ltr">hu</code></td>
+</tr>
+<tr>
+<td>Hunsrik</td>
+<td><code translate="no" dir="ltr">hrx</code></td>
+</tr>
+<tr>
+<td>Icelandic</td>
+<td><code translate="no" dir="ltr">is</code></td>
+</tr>
+<tr>
+<td>Igbo</td>
+<td><code translate="no" dir="ltr">ig</code></td>
+</tr>
+<tr>
+<td>Iloko</td>
+<td><code translate="no" dir="ltr">ilo</code></td>
+</tr>
+<tr>
+<td>Indonesian</td>
+<td><code translate="no" dir="ltr">id</code></td>
+</tr>
+<tr>
+<td>Irish</td>
+<td><code translate="no" dir="ltr">ga</code></td>
+</tr>
+<tr>
+<td>Italian</td>
+<td><code translate="no" dir="ltr">it</code></td>
+</tr>
+<tr>
+<td>Japanese</td>
+<td><code translate="no" dir="ltr">ja</code></td>
+</tr>
+<tr>
+<td>Javanese</td>
+<td><code translate="no" dir="ltr">jw</code> or <code translate="no" dir="ltr">jv</code></td>
+</tr>
+<tr>
+<td>Kannada</td>
+<td><code translate="no" dir="ltr">kn</code></td>
+</tr>
+<tr>
+<td>Kapampangan</td>
+<td><code translate="no" dir="ltr">pam</code></td>
+</tr>
+<tr>
+<td>Kazakh</td>
+<td><code translate="no" dir="ltr">kk</code></td>
+</tr>
+<tr>
+<td>Khmer</td>
+<td><code translate="no" dir="ltr">km</code></td>
+</tr>
+<tr>
+<td>Kiga</td>
+<td><code translate="no" dir="ltr">cgg</code></td>
+</tr>
+<tr>
+<td>Kinyarwanda</td>
+<td><code translate="no" dir="ltr">rw</code></td>
+</tr>
+<tr>
+<td>Kituba</td>
+<td><code translate="no" dir="ltr">ktu</code></td>
+</tr>
+<tr>
+<td>Konkani</td>
+<td><code translate="no" dir="ltr">gom</code></td>
+</tr>
+<tr>
+<td>Korean</td>
+<td><code translate="no" dir="ltr">ko</code></td>
+</tr>
+<tr>
+<td>Krio</td>
+<td><code translate="no" dir="ltr">kri</code></td>
+</tr>
+<tr>
+<td>Kurdish (Kurmanji)</td>
+<td><code translate="no" dir="ltr">ku</code></td>
+</tr>
+<tr>
+<td>Kurdish (Sorani)</td>
+<td><code translate="no" dir="ltr">ckb</code></td>
+</tr>
+<tr>
+<td>Kyrgyz</td>
+<td><code translate="no" dir="ltr">ky</code></td>
+</tr>
+<tr>
+<td>Lao</td>
+<td><code translate="no" dir="ltr">lo</code></td>
+</tr>
+<tr>
+<td>Latgalian</td>
+<td><code translate="no" dir="ltr">ltg</code></td>
+</tr>
+<tr>
+<td>Latin</td>
+<td><code translate="no" dir="ltr">la</code></td>
+</tr>
+<tr>
+<td>Latvian</td>
+<td><code translate="no" dir="ltr">lv</code></td>
+</tr>
+<tr>
+<td>Ligurian</td>
+<td><code translate="no" dir="ltr">lij</code></td>
+</tr>
+<tr>
+<td>Limburgan</td>
+<td><code translate="no" dir="ltr">li</code></td>
+</tr>
+<tr>
+<td>Lingala</td>
+<td><code translate="no" dir="ltr">ln</code></td>
+</tr>
+<tr>
+<td>Lithuanian</td>
+<td><code translate="no" dir="ltr">lt</code></td>
+</tr>
+<tr>
+<td>Lombard</td>
+<td><code translate="no" dir="ltr">lmo</code></td>
+</tr>
+<tr>
+<td>Luo</td>
+<td><code translate="no" dir="ltr">luo</code></td>
+</tr>
+<tr>
+<td>Luxembourgish</td>
+<td><code translate="no" dir="ltr">lb</code></td>
+</tr>
+<tr>
+<td>Macedonian</td>
+<td><code translate="no" dir="ltr">mk</code></td>
+</tr>
+<tr>
+<td>Maithili</td>
+<td><code translate="no" dir="ltr">mai</code></td>
+</tr>
+<tr>
+<td>Makassar</td>
+<td><code translate="no" dir="ltr">mak</code></td>
+</tr>
+<tr>
+<td>Malagasy</td>
+<td><code translate="no" dir="ltr">mg</code></td>
+</tr>
+<tr>
+<td>Malay</td>
+<td><code translate="no" dir="ltr">ms</code></td>
+</tr>
+<tr>
+<td>Malay (Jawi)</td>
+<td><code translate="no" dir="ltr">ms-Arab</code></td>
+</tr>
+<tr>
+<td>Malayalam</td>
+<td><code translate="no" dir="ltr">ml</code></td>
+</tr>
+<tr>
+<td>Maltese</td>
+<td><code translate="no" dir="ltr">mt</code></td>
+</tr>
+<tr>
+<td>Maori</td>
+<td><code translate="no" dir="ltr">mi</code></td>
+</tr>
+<tr>
+<td>Marathi</td>
+<td><code translate="no" dir="ltr">mr</code></td>
+</tr>
+<tr>
+<td>Meadow Mari</td>
+<td><code translate="no" dir="ltr">chm</code></td>
+</tr>
+<tr>
+<td>Meiteilon (Manipuri)</td>
+<td><code translate="no" dir="ltr">mni-Mtei</code></td>
+</tr>
+<tr>
+<td>Minang</td>
+<td><code translate="no" dir="ltr">min</code></td>
+</tr>
+<tr>
+<td>Mizo</td>
+<td><code translate="no" dir="ltr">lus</code></td>
+</tr>
+<tr>
+<td>Mongolian</td>
+<td><code translate="no" dir="ltr">mn</code></td>
+</tr>
+<tr>
+<td>Myanmar (Burmese)</td>
+<td><code translate="no" dir="ltr">my</code></td>
+</tr>
+<tr>
+<td>Ndebele (South)</td>
+<td><code translate="no" dir="ltr">nr</code></td>
+</tr>
+<tr>
+<td>Nepalbhasa (Newari)</td>
+<td><code translate="no" dir="ltr">new</code></td>
+</tr>
+<tr>
+<td>Nepali</td>
+<td><code translate="no" dir="ltr">ne</code></td>
+</tr>
+<tr>
+<td>Northern Sotho (Sepedi)</td>
+<td><code translate="no" dir="ltr">nso</code></td>
+</tr>
+<tr>
+<td>Norwegian</td>
+<td><code translate="no" dir="ltr">no</code></td>
+</tr>
+<tr>
+<td>Nuer</td>
+<td><code translate="no" dir="ltr">nus</code></td>
+</tr>
+<tr>
+<td>Occitan</td>
+<td><code translate="no" dir="ltr">oc</code></td>
+</tr>
+<tr>
+<td>Odia (Oriya)</td>
+<td><code translate="no" dir="ltr">or</code></td>
+</tr>
+<tr>
+<td>Oromo</td>
+<td><code translate="no" dir="ltr">om</code></td>
+</tr>
+<tr>
+<td>Pangasinan</td>
+<td><code translate="no" dir="ltr">pag</code></td>
+</tr>
+<tr>
+<td>Papiamento</td>
+<td><code translate="no" dir="ltr">pap</code></td>
+</tr>
+<tr>
+<td>Pashto</td>
+<td><code translate="no" dir="ltr">ps</code></td>
+</tr>
+<tr>
+<td>Persian</td>
+<td><code translate="no" dir="ltr">fa</code></td>
+</tr>
+<tr>
+<td>Polish</td>
+<td><code translate="no" dir="ltr">pl</code></td>
+</tr>
+<tr>
+<td>Portuguese</td>
+<td><code translate="no" dir="ltr">pt</code></td>
+</tr>
+<tr>
+<td>Portuguese (Portugal)</td>
+<td><code translate="no" dir="ltr">pt-PT</code></td>
+</tr>
+<tr>
+<td>Portuguese (Brazil)</td>
+<td><code translate="no" dir="ltr">pt-BR</code></td>
+</tr>
+<tr>
+<td>Punjabi</td>
+<td><code translate="no" dir="ltr">pa</code></td>
+</tr>
+<tr>
+<td>Punjabi (Shahmukhi)</td>
+<td><code translate="no" dir="ltr">pa-Arab</code></td>
+</tr>
+<tr>
+<td>Quechua</td>
+<td><code translate="no" dir="ltr">qu</code></td>
+</tr>
+<tr>
+<td>Romani</td>
+<td><code translate="no" dir="ltr">rom</code></td>
+</tr>
+<tr>
+<td>Romanian</td>
+<td><code translate="no" dir="ltr">ro</code></td>
+</tr>
+<tr>
+<td>Rundi</td>
+<td><code translate="no" dir="ltr">rn</code></td>
+</tr>
+<tr>
+<td>Russian</td>
+<td><code translate="no" dir="ltr">ru</code></td>
+</tr>
+<tr>
+<td>Samoan</td>
+<td><code translate="no" dir="ltr">sm</code></td>
+</tr>
+<tr>
+<td>Sango</td>
+<td><code translate="no" dir="ltr">sg</code></td>
+</tr>
+<tr>
+<td>Sanskrit</td>
+<td><code translate="no" dir="ltr">sa</code></td>
+</tr>
+<tr>
+<td>Scots Gaelic</td>
+<td><code translate="no" dir="ltr">gd</code></td>
+</tr>
+<tr>
+<td>Serbian</td>
+<td><code translate="no" dir="ltr">sr</code></td>
+</tr>
+<tr>
+<td>Sesotho</td>
+<td><code translate="no" dir="ltr">st</code></td>
+</tr>
+<tr>
+<td>Seychellois Creole</td>
+<td><code translate="no" dir="ltr">crs</code></td>
+</tr>
+<tr>
+<td>Shan</td>
+<td><code translate="no" dir="ltr">shn</code></td>
+</tr>
+<tr>
+<td>Shona</td>
+<td><code translate="no" dir="ltr">sn</code></td>
+</tr>
+<tr>
+<td>Sicilian</td>
+<td><code translate="no" dir="ltr">scn</code></td>
+</tr>
+<tr>
+<td>Silesian</td>
+<td><code translate="no" dir="ltr">szl</code></td>
+</tr>
+<tr>
+<td>Sindhi</td>
+<td><code translate="no" dir="ltr">sd</code></td>
+</tr>
+<tr>
+<td>Sinhala (Sinhalese)</td>
+<td><code translate="no" dir="ltr">si</code></td>
+</tr>
+<tr>
+<td>Slovak</td>
+<td><code translate="no" dir="ltr">sk</code></td>
+</tr>
+<tr>
+<td>Slovenian</td>
+<td><code translate="no" dir="ltr">sl</code></td>
+</tr>
+<tr>
+<td>Somali</td>
+<td><code translate="no" dir="ltr">so</code></td>
+</tr>
+<tr>
+<td>Spanish</td>
+<td><code translate="no" dir="ltr">es</code></td>
+</tr>
+<tr>
+<td>Sundanese</td>
+<td><code translate="no" dir="ltr">su</code></td>
+</tr>
+<tr>
+<td>Swahili</td>
+<td><code translate="no" dir="ltr">sw</code></td>
+</tr>
+<tr>
+<td>Swati</td>
+<td><code translate="no" dir="ltr">ss</code></td>
+</tr>
+<tr>
+<td>Swedish</td>
+<td><code translate="no" dir="ltr">sv</code></td>
+</tr>
+<tr>
+<td>Tajik</td>
+<td><code translate="no" dir="ltr">tg</code></td>
+</tr>
+<tr>
+<td>Tamil</td>
+<td><code translate="no" dir="ltr">ta</code></td>
+</tr>
+<tr>
+<td>Tatar</td>
+<td><code translate="no" dir="ltr">tt</code></td>
+</tr>
+<tr>
+<td>Telugu</td>
+<td><code translate="no" dir="ltr">te</code></td>
+</tr>
+<tr>
+<td>Tetum</td>
+<td><code translate="no" dir="ltr">tet</code></td>
+</tr>
+<tr>
+<td>Thai</td>
+<td><code translate="no" dir="ltr">th</code></td>
+</tr>
+<tr>
+<td>Tigrinya</td>
+<td><code translate="no" dir="ltr">ti</code></td>
+</tr>
+<tr>
+<td>Tsonga</td>
+<td><code translate="no" dir="ltr">ts</code></td>
+</tr>
+<tr>
+<td>Tswana</td>
+<td><code translate="no" dir="ltr">tn</code></td>
+</tr>
+<tr>
+<td>Turkish</td>
+<td><code translate="no" dir="ltr">tr</code></td>
+</tr>
+<tr>
+<td>Turkmen</td>
+<td><code translate="no" dir="ltr">tk</code></td>
+</tr>
+<tr>
+<td>Twi (Akan)</td>
+<td><code translate="no" dir="ltr">ak</code></td>
+</tr>
+<tr>
+<td>Ukrainian</td>
+<td><code translate="no" dir="ltr">uk</code></td>
+</tr>
+<tr>
+<td>Urdu</td>
+<td><code translate="no" dir="ltr">ur</code></td>
+</tr>
+<tr>
+<td>Uyghur</td>
+<td><code translate="no" dir="ltr">ug</code></td>
+</tr>
+<tr>
+<td>Uzbek</td>
+<td><code translate="no" dir="ltr">uz</code></td>
+</tr>
+<tr>
+<td>Vietnamese</td>
+<td><code translate="no" dir="ltr">vi</code></td>
+</tr>
+<tr>
+<td>Welsh</td>
+<td><code translate="no" dir="ltr">cy</code></td>
+</tr>
+<tr>
+<td>Xhosa</td>
+<td><code translate="no" dir="ltr">xh</code></td>
+</tr>
+<tr>
+<td>Yiddish</td>
+<td><code translate="no" dir="ltr">yi</code></td>
+</tr>
+<tr>
+<td>Yoruba</td>
+<td><code translate="no" dir="ltr">yo</code></td>
+</tr>
+<tr>
+<td>Yucatec Maya</td>
+<td><code translate="no" dir="ltr">yua</code></td>
+</tr>
+<tr>
+<td>Zulu</td>
+<td><code translate="no" dir="ltr">zu</code></td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<h3 id="roman" data-text="Romanization and transliteration support" tabindex="-1">Romanization and transliteration support</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <aside class="beta">
+
+    <p>
+      <strong>
+      
+        Preview
+      
+        
+    </strong>
+    </p>
+
+    <p>
+      
+      
+        
+          This feature is
+        
+        subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the
+        <a href="/terms/service-terms#1" track-type="commonIncludes">Service Specific
+        Terms</a>.
+        
+        Pre-GA features are available "as is" and might have limited support.
+      
+      For more information, see the
+      <a href="https://cloud.google.com/products/#product-launch-stages"
+      track-type="commonIncludes">launch stage descriptions</a>.
+  </p>
+  
+  </aside>
+
+
+
+<p><a href="/translate/docs/advanced/romanize-text">Romanization</a> and
+<a href="/translate/docs/translate-text#transliteration">transliteration</a>
+support the following languages.</p>
+
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>ISO-639 code</th>
+<th>Romanization</th>
+<th>Transliteration</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Arabic</td>
+<td><code translate="no" dir="ltr">ar</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Amharic</td>
+<td><code translate="no" dir="ltr">am</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-no"></td>
+</tr>
+<tr>
+<td>Bengali</td>
+<td><code translate="no" dir="ltr">bn</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Belarusian</td>
+<td><code translate="no" dir="ltr">be</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-no"></td>
+</tr>
+<tr>
+<td>Gujarati</td>
+<td><code translate="no" dir="ltr">gu</code></td>
+<td><span class="compare-no"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Hindi</td>
+<td><code translate="no" dir="ltr">hi</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Japanese</td>
+<td><code translate="no" dir="ltr">ja</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Kannada</td>
+<td><code translate="no" dir="ltr">kn</code></td>
+<td><span class="compare-no"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Myanmar</td>
+<td><code translate="no" dir="ltr">my</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-no"></td>
+</tr>
+<tr>
+<td>Russian</td>
+<td><code translate="no" dir="ltr">ru</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Serbian</td>
+<td><code translate="no" dir="ltr">sr</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-no"></td>
+</tr>
+<tr>
+<td>Tamil</td>
+<td><code translate="no" dir="ltr">ta</code></td>
+<td><span class="compare-no"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Telugu</td>
+<td><code translate="no" dir="ltr">te</code></td>
+<td><span class="compare-no"></td>
+<td><span class="compare-yes"></td>
+</tr>
+<tr>
+<td>Ukrainian</td>
+<td><code translate="no" dir="ltr">uk</code></td>
+<td><span class="compare-yes"></td>
+<td><span class="compare-no"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="automl" data-text="Custom models" tabindex="-1">Custom models</h2>
+
+<p>For Cloud Translation - Advanced, AutoML Translation supports the
+following language pairs for custom models. A supported language means that
+Google has an existing Neural Machine Translation (NMT) model for that language,
+which AutoML Translation uses as a base to create a custom model during
+training.</p>
+<aside class="note"><strong>Note:</strong><span> Same language translation—from en-US to en-GB, for example—is
+not supported.</span></aside>
+<table>
+<thead>
+<tr>
+<th>Language Pair</th>
+<th>Language Codes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Afrikaans &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">af</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Albanian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sq</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Arabic &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ar</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Azerbaijani &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">az</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Bengali &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">bn</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Bulgarian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">bg</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Catalan &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ca</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Chinese (Simplified) &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">zh-CN</code> * &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Chinese (Traditional) &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">zh-TW</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Croatian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">hr</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Czech &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">cs</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Danish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">da</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Dutch &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">nl</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Estonian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">et</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Finnish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">fi</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>French &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">fr</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Galician &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">gl</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Georgian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ka</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>German &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">de</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Greek &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">el</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Gujarati &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">gu</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Haitian Creole &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ht</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Hebrew &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">iw</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Hindi &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">hi</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Hungarian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">hu</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Icelandic &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">is</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Indonesian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">id</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Italian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">it</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Japanese &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ja</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Korean &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ko</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Latvian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">lv</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Lithuanian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">lt</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Malay &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ms</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Marathi &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">mr</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Norwegian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">no</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Persian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">fa</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Polish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">pl</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Portuguese &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">pt</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Punjabi &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">pa</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Romanian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ro</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Russian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ru</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Serbian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sr</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Slovak &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sk</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Slovenian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sl</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Spanish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">es</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Swahili &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sw</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Swedish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">sv</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Thai &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">th</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Turkish &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">tr</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Ukrainian &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">uk</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Urdu &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">ur</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Vietnamese &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">vi</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+<tr>
+<td>Welsh &lt;-&gt; English</td>
+<td><code translate="no" dir="ltr">cy</code> &lt;-&gt; <code translate="no" dir="ltr">en</code></td>
+</tr>
+</tbody>
+</table>
+
+<p><small>&#42; Simplified Chinese can be specified either by <code translate="no" dir="ltr">zh-CN</code> or
+<code translate="no" dir="ltr">zh</code>.</small></p>
+
+<h3 id="supported_codes_for_language_variants" data-text="Supported codes for language variants" tabindex="-1">Supported codes for language variants</h3>
+
+<p>The following language codes are variants of the supported languages in the
+previous table. You can use these codes as the source or target language when
+you create datasets.</p>
+
+<p>Google doesn&#39;t have base NMT models for these languages. Instead,
+Cloud Translation uses the language variant&#39;s associated base model for training
+custom models.</p>
+
+<p>These codes are useful, for example, when you translate content for a particular
+dialect or region. For example, suppose you have localized data for <code translate="no" dir="ltr">zh-HK</code> that
+you create a custom model for. When you perform translations, you can specify
+the <code translate="no" dir="ltr">zh-HK</code> language code, which points to your custom model and produces more
+accurate translations for that locale.</p>
+
+<p>The following table lists the language codes, their descriptions, and their
+associated base models that Cloud Translation uses when training custom
+models.</p>
+
+<table>
+<thead>
+<tr>
+<th>Language code</th>
+<th>Description</th>
+<th>Base model</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code translate="no" dir="ltr">zh-HK</code></td>
+<td>Hong Kong (Traditional)</td>
+<td><code translate="no" dir="ltr">zh-TW</code></td>
+</tr>
+</tbody>
+</table>
+  
+
+  
+    <devsite-hats-survey class="nocontent" data-nosnippet
+      hats-id="mwETRvWii0eU5NUYprb0Y9z5GVbc"
+      listnr-id="83405"></devsite-hats-survey>
+  
+
+  
+</div>
+
+  
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+         <devsite-feedback
+  position="footer"
+  project-name="Cloud Translation"
+  product-id="5048503"
+  bucket="Cloud Translation API Docs"
+  context="Cloud Translation API docs feedback link"
+  version="t-devsite-webserver-20261014-r02-rc00.481037794032955999"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="footer"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Send feedback
+  
+  </button>
+</devsite-feedback>
+       
+    
+    
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+<devsite-content-footer class="nocontent" data-nosnippet>
+  <p>Except as otherwise noted, the content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>, and code samples are licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>. For details, see the <a href="https://developers.google.com/site-policies">Google Developers Site Policies</a>. Java is a registered trademark of Oracle and/or its affiliates.</p>
+  <p>Last updated 2026-10-20 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Cloud Translation"
+  product-id="5048503"
+  bucket="Cloud Translation API Docs"
+  context="Cloud Translation API docs feedback link"
+  version="t-devsite-webserver-20261014-r02-rc00.481037794032955999"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    
+      project-icon="https://docs.cloud.google.com/_static/clouddocs/images/icons/categories/ai-and-machine-learning-color.svg"
+    
+  
+  
+  
+  >
+
+  <button>
+  
+    Need to tell us more?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+  
+    <template class="devsite-content-data-template">
+      [[["Easy to understand","easyToUnderstand","thumb-up"],["Solved my problem","solvedMyProblem","thumb-up"],["Other","otherUp","thumb-up"]],[["Hard to understand","hardToUnderstand","thumb-down"],["Incorrect information or sample code","incorrectInformationOrSampleCode","thumb-down"],["Missing the information/samples I need","missingTheInformationSamplesINeed","thumb-down"],["Other","otherDown","thumb-down"]],["Last updated 2026-10-20 UTC."],[],[]]
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent"
+     aria-label="Footer links"
+     data-nosnippet>
+  
+  <ul class="devsite-footer-linkboxes-list">
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Products and pricing</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/products/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-type="footer link"track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/products/"track-name="see all products"track-metadata-child_headline="products and pricing"track-metadata-position="footer">
+            
+          
+            See all products
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/pricing/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-position="footer"track-metadata-module="footer"track-type="footer link"track-metadata-eventDetail="cloud.google.com/pricing/"track-metadata-child_headline="products and pricing"track-name="google cloud pricing">
+            
+          
+            Google Cloud pricing
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/marketplace/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-name="google cloud marketplace"track-type="footer link"track-metadata-child_headline="resources"track-metadata-position="footer"track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/marketplace/">
+            
+          
+            Google Cloud Marketplace
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/contact/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-type="footer link"track-metadata-child_headline="engage"track-name="contact sales"track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/contact/"track-metadata-position="footer">
+            
+              
+              
+            
+          
+            Contact sales
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Support</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//discuss.google.dev/c/google-cloud/14/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-type="footer link"track-metadata-child_headline="engage"track-metadata-eventDetail="www.googlecloudcommunity.com"track-name="google cloud community"track-metadata-position="footer"target="_blank"rel="noopener"track-metadata-module="footer">
+            
+          
+            Community forums
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/support-hub/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-child_headline="resources"track-metadata-module="footer"track-metadata-eventDetail="cloud.google.com/support-hub/"track-type="footer link"track-metadata-position="footer"track-name="support">
+            
+          
+            Support
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//docs.cloud.google.com/release-notes"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-position="footer"track-name="release notes"track-metadata-module="footer"track-metadata-child_headline="resources"track-metadata-eventDetail="cloud.google.com/release-notes/"track-type="footer link">
+            
+          
+            Release Notes
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//status.cloud.google.com"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-type="footer link"track-name="system status"track-metadata-eventDetail="status.cloud.google.com"track-metadata-module="footer"track-metadata-child_headline="resources"track-metadata-position="footer"target="_blank">
+            
+              
+              
+            
+          
+            System status
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Resources</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//github.com/googlecloudPlatform/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-type="footer link"track-metadata-module="footer"track-name="github"track-metadata-position="footer"track-metadata-child_headline="resources"track-metadata-eventDetail="github.com/googlecloudPlatform/">
+            
+          
+            GitHub
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/get-started/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-metadata-position="footer"track-type="footer link"track-name="google cloud quickstarts"track-metadata-eventDetail="cloud.google.com/docs/get-started/"track-metadata-module="footer"track-metadata-child_headline="resources">
+            
+          
+            Getting Started with Google Cloud
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/docs/samples"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-child_headline="resources"track-metadata-module="footer"track-metadata-position="footer"track-type="footer link"track-metadata-eventDetail="cloud.google.com/docs/samples"track-name="code samples">
+            
+          
+            Code samples
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="/architecture/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            track-metadata-eventDetail="cloud.google.com/architecture/"track-metadata-child_headline="resources"track-name="cloud architecture center"track-metadata-position="footer"track-metadata-module="footer"track-type="footer link">
+            
+          
+            Cloud Architecture Center
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/learn/training/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            track-metadata-eventDetail="cloud.google.com/learn/training/"track-name="training"track-metadata-child_headline="resources"track-type="footer link"track-metadata-position="footer"track-metadata-module="footer">
+            
+          
+            Training and Certification
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//me.developers.google.com/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 6)"
+            track-type="footer link"track-metadata-child_headline="resources"track-name="builders hub"track-metadata-eventDetail="me.developers.google.com/"track-metadata-module="footer"track-metadata-position="footer">
+            
+              
+              
+            
+          
+            Builders Hub
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="devsite-footer-linkbox ">
+    <h3 class="devsite-footer-linkbox-heading no-link">Engage</h3>
+      <ul class="devsite-footer-linkbox-list">
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/blog/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 1)"
+            track-metadata-eventDetail="cloud.google.com/blog/"track-metadata-position="footer"track-metadata-child_headline="engage"track-metadata-module="footer"track-type="footer link"track-name="blog">
+            
+          
+            Blog
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//cloud.google.com/events/"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 2)"
+            track-type="footer link"track-metadata-position="footer"track-metadata-child_headline="engage"track-name="events"track-metadata-eventDetail="cloud.google.com/events/"track-metadata-module="footer">
+            
+          
+            Events
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//x.com/googlecloud"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 3)"
+            track-metadata-position="footer"rel="noopener"track-type="footer link"track-metadata-eventDetail="x.com/googlecloud"target="_blank"track-name="follow on x"track-metadata-child_headline="engage"track-metadata-module="footer">
+            
+          
+            X (Twitter)
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/googlecloud"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 4)"
+            rel="noopener"target="_blank"track-metadata-child_headline="engage"track-name="google cloud on youtube"track-metadata-position="footer"track-type="footer link"track-metadata-module="footer"track-metadata-eventDetail="www.youtube.com/googlecloud">
+            
+          
+            Google Cloud on YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+        <li class="devsite-footer-linkbox-item">
+          
+          <a href="//www.youtube.com/googlecloudplatform"
+             class="devsite-footer-linkbox-link gc-analytics-event"
+             data-category="Site-Wide Custom Events"
+            
+             data-label="Footer Link (index 5)"
+            track-metadata-position="footer"target="_blank"rel="noopener"track-metadata-eventDetail="www.youtube.com/googlecloudplatform"track-metadata-child_headline="engage"track-metadata-module="footer"track-name="google cloud tech on youtube"track-type="footer link">
+            
+              
+              
+            
+          
+            Google Cloud Tech on YouTube
+          
+          </a>
+          
+          
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent" data-nosnippet>
+  
+  
+  <nav class="devsite-footer-sites" aria-label="Other Google Developers websites">
+    <a href="https://developers.google.com/"
+       class="devsite-footer-sites-logo-link gc-analytics-event"
+       data-category="Site-Wide Custom Events"
+       data-label="Footer Google Developers Link">
+      <picture>
+        
+        <source srcset="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup-google-for-developers-dark-theme.svg"
+                media="(prefers-color-scheme: none)"
+                class="devsite-dark-theme">
+        
+        <img class="devsite-footer-sites-logo"
+             src="https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup-google-for-developers.svg"
+             loading="lazy"
+             alt="Google Developers">
+      </picture>
+    </a>
+    <ul class="devsite-footer-sites-list">
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://developer.android.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Android Developers Link"
+         >
+          Android
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://developer.chrome.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Chrome Link"
+         >
+          Chrome
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://firebase.google.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Firebase Link"
+         >
+          Firebase
+        </a>
+      </li>
+      
+      <li class="devsite-footer-sites-item">
+        <a href="https://ai.google.com/"
+           class="devsite-footer-sites-link
+                  gc-analytics-event"
+           data-category="Site-Wide Custom Events"
+         
+         
+           data-label="Footer Google AI Link"
+         >
+          Google AI
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Utility links">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//about.google/"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer About Google link"
+         
+           track-type="footer link"
+         
+           target="_blank"
+         
+           track-name="about google"
+         
+           track-metadata-position="footer"
+         
+           track-metadata-eventDetail="//about.google/"
+         
+           track-metadata-module="utility footer"
+         >
+          About Google
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-privacy-link">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         
+           track-metadata-eventDetail="//policies.google.com/privacy"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-position="footer"
+         
+           target="_blank"
+         
+           track-type="footer link"
+         
+           track-name="privacy"
+         >
+          Privacy
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/terms?hl=en"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Site terms link"
+         
+           target="_blank"
+         
+           track-metadata-eventDetail="//www.google.com/intl/en/policies/terms/regional.html"
+         
+           track-metadata-position="footer"
+         
+           track-name="site terms"
+         
+           track-metadata-module="utility footer"
+         
+           track-type="footer link"
+         >
+          Site terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/product-terms"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Google Cloud terms link"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-position="footer"
+         
+           track-type="footer link"
+         
+           track-metadata-eventDetail="//cloud.google.com/product-terms"
+         
+           track-name="google cloud terms"
+         >
+          Google Cloud terms
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           track-metadata-eventDetail="#"
+         
+           track-metadata-module="utility footer"
+         
+           track-name="Manage cookies"
+         
+           track-type="footer link"
+         
+           track-metadata-position="footer"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-carbon-button">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/sustainability"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Our third decade of climate action: join us link"
+         
+           track-type="footer link"
+         
+           track-metadata-position="footer"
+         
+           track-name="Our third decade of climate action: join us"
+         
+           track-metadata-module="utility footer"
+         
+           track-metadata-eventDetail="/sustainability/"
+         >
+          Our third decade of climate action: join us
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+        
+        <span class="devsite-footer-utility-description">Sign up for the Google Cloud newsletter</span>
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//cloud.google.com/newsletter/"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Subscribe link"
+         
+           track-name="subscribe"
+         
+           track-metadata-module="utility footer"
+         
+           track-type="footer link"
+         
+           track-metadata-eventDetail="/newsletter/"
+         
+           track-metadata-position="footer"
+         >
+          Subscribe
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es"
+        >Español</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt"
+        >Português</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel>
+          
+        </devsite-panel>
+        
+      </section>
+      </section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar></devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics>
+      
+        <script type="application/json" analytics>[]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;True&#34;, &#34;ga4&#34;: [], &#34;ga4p&#34;: [], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-5CVQBG&#34;, &#34;purpose&#34;: 1}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;False&#34;, &#34;requested&#34;: &#34;en&#34;, &#34;served&#34;: &#34;en&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Cloud Translation&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;clouddocs&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    
+    
+<cloudx-user></cloudx-user>
+
+
+
+
+  
+    <cloudx-free-trial-eligible-store freeTrialEligible="true"></cloudx-free-trial-eligible-store>
+  
+
+    
+<script nonce="yrMHRlGVVBQlDkkhO40sMUBW8s3qeb">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/js/app_loader.js', '[39,"en",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420","https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs","https://clouddocs-dot-devsite-v2-prod.appspot.com",null,null,["/_pwa/clouddocs/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/favicons/onecloud/favicon.ico","https://www.gstatic.com/devrel-devsite/prod/v9ce9cb5b22b62a465ff52c45061a0a6a2d86a80b685e9aa8a182b203fdfbf420/clouddocs/images/lockup_full_color.svg","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyAP-jjEJBzmIyKR4F-3XITp8yM9T1gEEI8","AIzaSyB6xiKGDR5O3Ak2okS4rLkauxGUG7XP0hg","docs.cloud.google.com","AIzaSyAQk0fBONSGUqCNznf6Krs82Ap1-NV6J4o","AIzaSyCCxcqdrZ_7QMeLCRY20bh_SXdAYqy70KY",null,null,null,["Concierge__enable_remove_info_panel_tags","DevPro__enable_embed_profile_creation","Profiles__enable_profile_collections","Profiles__enable_purchase_prompts","Profiles__enable_developer_profile_benefits_ui_redesign","Search__enable_ai_search_summaries_for_all","Search__enable_suggestions_from_borg","Profiles__enable_user_type","SignIn__enable_l1_signup_flow","DevPro__enable_enterprise","Profiles__enable_dashboard_curated_recommendations","DevPro__enable_credits_banner","MiscFeatureFlags__enable_explain_this_code","DevPro__enable_firebase_workspaces_card","Cloud__enable_cloud_shell_fte_user_flow","Search__enable_ai_eligibility_checks","Concierge__enable_concierge_restricted","Profiles__enable_recognition_badges","DevPro__remove_eu_tax_intake_form","DevPro__enable_code_assist","Search__enable_page_map","AIStudioInteractionsToggle__interactions_are_default","Profiles__enable_targeted_hero","Analytics__enable_clearcut_logging","DevPro__enable_devsite_captcha","DevPro__enable_vertex_credit_card","Profiles__enable_join_program_group_endpoint","MiscFeatureFlags__enable_explicit_template_dependencies","Cloud__enable_free_trial_server_call","CloudShell__cloud_code_overflow_menu","Cloud__cache_serialized_dynamic_content","Search__enable_dynamic_content_confidential_banner","Profiles__enable_auto_apply_credits","MiscFeatureFlags__developers_footer_dark_image","Cloud__enable_legacy_calculator_redirect","MiscFeatureFlags__enable_firebase_utm","TpcFeatures__enable_unmirrored_page_left_nav","MiscFeatureFlags__developers_footer_image","Concierge__enable_pushui","Experiments__reqs_query_experiments","Analytics__enable_devpro_interaction_logging","Profiles__enable_developer_profile_pages_as_content","Cloud__enable_cloud_dlp_service","Cloud__fast_free_trial","Profiles__enable_completecodelab_endpoint","DevPro__enable_devpro_offers","Profiles__enable_awarding_url","CloudShell__cloud_shell_button","Profiles__enable_page_saving","DevPro__enable_google_payments","OnSwitch__enable","Profiles__require_profile_eligibility_for_signin","EngEduTelemetry__enable_engedu_telemetry","DevPro__enable_free_benefits","MiscFeatureFlags__gdp_dashboard_reskin_enabled","MiscFeatureFlags__enable_variable_operator","DevPro__enable_developer_subscriptions","MiscFeatureFlags__enable_variable_operator_index_yaml","TpcFeatures__proxy_prod_host","BookNav__enable_tenant_cache_key","Profiles__enable_playlist_community_acl","Cloud__enable_cloudx_experiment_ids","Profiles__enable_complete_playlist_endpoint","DevPro__enable_google_one_card","MiscFeatureFlags__enable_view_transitions","MiscFeatureFlags__enable_dark_theme","MiscFeatureFlags__remove_cross_domain_tracking_params","DevPro__enable_g1_ineligible_redirect","Profiles__enable_public_developer_profiles","DevPro__enable_cloud_innovators_plus","MiscFeatureFlags__enable_appearance_cookies","DevPro__enable_google_payments_buyflow","MiscFeatureFlags__enable_framebox_badge_methods","Concierge__enable_devsite_llm_tools","MiscFeatureFlags__enable_project_variables","Profiles__enable_callout_notifications","DevPro__enable_nvidia_credits_card","Cloud__enable_cloud_shell","Concierge__enable_actions_menu","Profiles__enable_completequiz_endpoint","Profiles__enable_stripe_subscription_management","MiscFeatureFlags__fix_lower_breadcrumbs","Profiles__enable_developer_profiles_callout","DevPro__enable_g1_integration"],null,null,"AIzaSyBLEMok-5suZ67qRPzx0qUtbnLmyT_kCVE","https://developerscontentserving-pa.clients6.google.com","AIzaSyCM4QpTRSqP5qI4Dvjt4OAScIN8sOUlO-k","https://developerscontentsearch-pa.clients6.google.com",1,4,1,"https://developerprofiles-pa.clients6.google.com",[39,"clouddocs","Google Cloud Documentation","docs.cloud.google.com",null,"clouddocs-dot-devsite-v2-prod.appspot.com",null,null,[1,1,null,null,null,null,null,null,null,null,null,[1],null,null,null,null,null,1,[1],[null,null,null,[1,20],"/terms/recommendations"],[1],null,[1],[1,null,1],null,[1]],null,[54,null,null,null,null,null,"/images/lockup_full_color.svg","/images/favicons/onecloud/apple-icon.png",null,null,null,1,1,1,1,null,[],null,null,[[],[],[],[],[],[],[],[]],null,1,null,null,null,"/images/lockup_dark_theme.svg",[]],[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[54,null,null,null,null,null,"/images/lockup_full_color.svg","/images/favicons/onecloud/apple-icon.png",null,null,null,1,1,1,1,null,[],null,null,[[],[],[],[],[],[],[],[]],null,1,null,null,null,"/images/lockup_dark_theme.svg",[]],null,null,null,null,null,[6,1,14,15,22,23,29,37],null,[[null,null,null,null,null,null,[1,[["docType","Choose a content type",[["ApiReference",null,null,null,null,null,null,null,null,"API reference"],["Sample",null,null,null,null,null,null,null,null,"Code sample"],["ReferenceArchitecture",null,null,null,null,null,null,null,null,"Reference architecture"],["Tutorial",null,null,null,null,null,null,null,null,"Tutorial"]]],["category","Choose a topic",[["AiAndMachineLearning",null,null,null,null,null,null,null,null,"Artificial intelligence and machine learning (AI/ML)"],["ApplicationDevelopment",null,null,null,null,null,null,null,null,"Application development"],["BigDataAndAnalytics",null,null,null,null,null,null,null,null,"Big data and analytics"],["Compute",null,null,null,null,null,null,null,null,"Compute"],["Containers",null,null,null,null,null,null,null,null,"Containers"],["Databases",null,null,null,null,null,null,null,null,"Databases"],["HybridCloud",null,null,null,null,null,null,null,null,"Hybrid and multicloud"],["LoggingAndMonitoring",null,null,null,null,null,null,null,null,"Logging and monitoring"],["Migrations",null,null,null,null,null,null,null,null,"Migrations"],["Networking",null,null,null,null,null,null,null,null,"Networking"],["SecurityAndCompliance",null,null,null,null,null,null,null,null,"Security and compliance"],["Serverless",null,null,null,null,null,null,null,null,"Serverless"],["Storage",null,null,null,null,null,null,null,null,"Storage"]]]]]],[1],null,1],[[null,null,null,null,null,["GTM-5CVQBG"],null,null,null,null,null,[["GTM-5CVQBG",2]],1],null,null,null,null,null,1],"mwETRvWii0eU5NUYprb0Y9z5GVbc",4],null,"pk_live_5170syrHvgGVmSx9sBrnWtA5luvk9BwnVcvIi7HizpwauFG96WedXsuXh790rtij9AmGllqPtMLfhe2RSwD6Pn38V00uBCydV4m",1,1,"https://developerscontentinsights-pa.clients6.google.com","AIzaSyCg-ZUslalsEbXMfIo9ZP8qufZgo3LSBDU","AIzaSyDxT0vkxnY_KeINtA4LSePJO-4MAZPMRsE","https://developers.clients6.google.com",null,null,"AIzaSyBQom12tzI-rybN7Sf-KfeL4nwm-Rf7PmI\n",null,null,"https://developers.googleapis.com"]')
+  
+</script>
+
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

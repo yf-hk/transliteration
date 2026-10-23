@@ -1,0 +1,75 @@
+{
+  "side": "after",
+  "runtime": "v26.5.0",
+  "profiledCalls": 150000,
+  "warmupCalls": 10000,
+  "checksum": 6960000,
+  "totalSamples": 718,
+  "top": [
+    {
+      "name": "codeMapReplace (../../../../src/common/transliterate.ts:67)",
+      "samples": 234,
+      "share": 0.32590529247910865
+    },
+    {
+      "name": "slugify (../../../../src/common/slugify.ts:42)",
+      "samples": 184,
+      "share": 0.2562674094707521
+    },
+    {
+      "name": "deepClone (../../../../src/common/utils.ts:44)",
+      "samples": 130,
+      "share": 0.181058495821727
+    },
+    {
+      "name": "transliterateWithOptions (../../../../src/common/transliterate.ts:223)",
+      "samples": 102,
+      "share": 0.14206128133704735
+    },
+    {
+      "name": "(garbage collector) ()",
+      "samples": 40,
+      "share": 0.055710306406685235
+    },
+    {
+      "name": "(program) ()",
+      "samples": 21,
+      "share": 0.02924791086350975
+    },
+    {
+      "name": "inRange (../../../../src/common/utils.ts:128)",
+      "samples": 11,
+      "share": 0.01532033426183844
+    },
+    {
+      "name": "(anonymous) (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-minimal/profile-worker.mjs)",
+      "samples": 8,
+      "share": 0.011142061281337047
+    },
+    {
+      "name": "hasChinese (../../../../src/common/utils.ts:28)",
+      "samples": 2,
+      "share": 0.002785515320334262
+    },
+    {
+      "name": "formatReplaceOption (../../../../src/common/transliterate.ts:138)",
+      "samples": 1,
+      "share": 0.001392757660167131
+    },
+    {
+      "name": "(root) ()",
+      "samples": 0,
+      "share": 0
+    },
+    {
+      "name": "post (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-minimal/profile-worker.mjs)",
+      "samples": 0,
+      "share": 0
+    },
+    {
+      "name": "post (node:inspector)",
+      "samples": 0,
+      "share": 0
+    }
+  ]
+}

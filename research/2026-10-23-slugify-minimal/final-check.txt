@@ -1,0 +1,256 @@
+$ bun run test:coverage && bun run typecheck && bun run lint
+$ bun run build && bun test --coverage && bun run test:package
+$ bun scripts/build.ts
+Generated data/charmap.ts (full)
+Generated data/charmap-latin.ts (Latin only)
+  Chunks: 133
+  Latin chunks: 3
+  Additional Latin mappings: 632
+  Korean: computed at runtime
+ℹ config file: /Users/administrator/Projects/Open Source/transliteration/repo/tsdown.config.ts 
+ℹ entry: src/browser/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/node/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/cli/slugify.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/node/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/cli/transliterate.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ Build start
+
+ WARN  TypeScript 7.0 does not yet have a stable API and is experimental. Some options will be unavailable.
+
+ℹ Emit types with typescript@7.0.2
+ℹ [CJS] dist/node/src/node/latin.js      16.89 kB │ gzip:  7.13 kB
+ℹ [CJS] dist/node/src/node/latin.js.map  53.49 kB │ gzip: 14.29 kB
+ℹ [CJS] 2 files, total: 70.37 kB
+ℹ [ESM] dist/browser/latin.esm.min.js      16.85 kB │ gzip:  7.10 kB
+ℹ [ESM] dist/browser/latin.esm.min.js.map  53.52 kB │ gzip: 14.31 kB
+ℹ [ESM] 2 files, total: 70.36 kB
+ℹ [IIFE] dist/browser/latin.umd.min.js      17.16 kB │ gzip:  7.24 kB
+ℹ [IIFE] dist/browser/latin.umd.min.js.map  53.53 kB │ gzip: 14.32 kB
+ℹ [IIFE] 2 files, total: 70.69 kB
+✔ Build complete in 847ms
+✔ Build complete in 856ms
+ℹ [CJS] Granting execute permission to dist/bin/transliterate
+ℹ [CJS] Granting execute permission to dist/bin/slugify
+ℹ [CJS] dist/bin/slugify  188.69 kB │ gzip: 57.85 kB
+ℹ [CJS] 1 files, total: 188.69 kB
+ℹ [CJS] dist/bin/transliterate  188.46 kB │ gzip: 57.78 kB
+ℹ [CJS] 1 files, total: 188.46 kB
+✔ Build complete in 891ms
+✔ Build complete in 892ms
+ℹ [IIFE] dist/browser/bundle.umd.min.js      186.05 kB │ gzip: 56.67 kB
+ℹ [IIFE] dist/browser/bundle.umd.min.js.map  438.61 kB │ gzip: 78.70 kB
+ℹ [IIFE] 2 files, total: 624.67 kB
+ℹ [ESM] dist/browser/bundle.esm.min.js      185.77 kB │ gzip: 56.52 kB
+ℹ [ESM] dist/browser/bundle.esm.min.js.map  438.60 kB │ gzip: 78.68 kB
+ℹ [ESM] 2 files, total: 624.37 kB
+✔ Build complete in 936ms
+✔ Build complete in 936ms
+ℹ [CJS] dist/node/src/node/index.js      185.82 kB │ gzip: 56.57 kB
+ℹ [CJS] dist/node/src/node/index.js.map  439.36 kB │ gzip: 78.67 kB
+ℹ [CJS] 2 files, total: 625.17 kB
+ℹ [CJS] dist/node/src/node/latin.d.ts  3.04 kB │ gzip: 1.07 kB
+ℹ [CJS] 1 files, total: 3.04 kB
+✔ Build complete in 2854ms
+ℹ [CJS] dist/node/src/node/index.d.ts  3.04 kB │ gzip: 1.07 kB
+ℹ [CJS] 1 files, total: 3.04 kB
+✔ Build complete in 2857ms
+bun test v1.4.4-canary.1 (ea6a2c7b7)
+
+src/cli/cli.test.ts:
+(pass) CLI transliterate > Basic string tests > should handle basic strings [2938.47ms]
+(pass) CLI transliterate > Complex tests > should transliterate Æneid [520.93ms]
+(pass) CLI transliterate > Complex tests > should transliterate étude [565.59ms]
+(pass) CLI transliterate > Complex tests > should transliterate 北亰 [481.51ms]
+(pass) CLI transliterate > Complex tests > should transliterate ᔕᓇᓇ [512.82ms]
+(pass) CLI transliterate > Complex tests > should transliterate ᏔᎵᏆ [465.60ms]
+(pass) CLI transliterate > Complex tests > should transliterate ܦܛܽܐܺ [390.20ms]
+(pass) CLI transliterate > Complex tests > should transliterate अभिजीत [410.95ms]
+(pass) CLI transliterate > Complex tests > should transliterate অভিজীত [475.05ms]
+(pass) CLI transliterate > Complex tests > should transliterate അഭിജീത [411.47ms]
+(pass) CLI transliterate > Complex tests > should transliterate മലയാലമ് [462.00ms]
+(pass) CLI transliterate > Complex tests > should transliterate げんまい茶 [449.68ms]
+(pass) CLI transliterate > With ignore option > should ignore specified characters [1378.18ms]
+(pass) CLI transliterate > With replace option > should replace specified strings [475.03ms]
+(pass) CLI transliterate > Stream input > should handle stream input [438.47ms]
+(pass) CLI slugify > Generate slugs > should generate slugs correctly [2682.81ms]
+(pass) CLI slugify > Stream input > should handle stream input [470.63ms]
+
+src/browser/index.test.ts:
+(pass) browser/transliterate() > should transliterate through the browser entry [1.03ms]
+(pass) browser/transliterate() > should handle options [0.57ms]
+(pass) browser/slugify() > should slugify through the browser entry [0.43ms]
+(pass) browser/slugify() > should handle options [0.70ms]
+
+src/common/utils.test.ts:
+(pass) escapeRegex() > should escape values [0.08ms]
+(pass) escapeRegex() > should handle strings with nothing to escape [0.03ms]
+(pass) escapeRegex() > should return an empty string for empty values [1.06ms]
+(pass) findStrOccurrences() > should find string occurrences [0.78ms]
+(pass) inRange() > should check if number is in range [0.15ms]
+(pass) regexpReplaceCustom > keeps replacement strings literal when nothing is ignored [0.11ms]
+(pass) regexpReplaceCustom > advances zero-width Unicode matches and preserves caller regex state [0.69ms]
+(pass) regexpReplaceCustom > should replace with custom regexp [0.38ms]
+(pass) deepClone > should deep clone objects [0.71ms]
+(pass) deepClone > should only clone own properties [0.08ms]
+
+src/common/transliterate.test.ts:
+(pass) transliterate() > Purity tests > should return ASCII characters unchanged [2.80ms]
+(pass) transliterate() > Basic string tests > should handle basic strings [0.34ms]
+(pass) transliterate() > Complex tests > should transliterate various scripts correctly [7.75ms]
+(pass) transliterate() > With ignore option > should ignore specified characters [0.41ms]
+(pass) transliterate() > With replace option > should replace specified strings [0.90ms]
+(pass) transliterate() > With replace option > should handle replace with ignore [0.14ms]
+(pass) transliterate() > With replaceAfter option > should replace after transliteration [0.33ms]
+(pass) transliterate() > With replace / replaceAfter and ignore options > should handle combined options [0.34ms]
+(pass) transliterate() > With trim option > should trim whitespace when enabled [0.23ms]
+(pass) transliterate() > With unknown option > should use placeholder for unknown characters [0.10ms]
+(pass) transliterate() > With unknown option > should preserve known silent mappings with an unknown placeholder [0.91ms]
+(pass) transliterate() > With unknown option > should preserve explicit empty custom mappings and restore them on reset [52.85ms]
+(pass) transliterate() > Edge cases > should handle empty strings [0.20ms]
+(pass) transliterate() > Edge cases > should handle strings with only whitespace [0.14ms]
+(pass) transliterate() > Edge cases > should handle mixed scripts in single string [0.12ms]
+(pass) transliterate() > Edge cases > should handle surrogate pairs (UTF-32 characters) [0.09ms]
+(pass) transliterate() > Edge cases > should handle very long strings [0.75ms]
+(pass) transliterate() > Edge cases > should handle strings with numbers [0.18ms]
+(pass) transliterate() > Edge cases > should handle strings with special ASCII characters [0.11ms]
+(pass) transliterate() > Edge cases > should handle consecutive non-ASCII characters [0.17ms]
+(pass) transliterate() > Edge cases > should handle Korean characters [0.07ms]
+(pass) transliterate() > Edge cases > should handle Arabic characters [0.12ms]
+(pass) transliterate() > Edge cases > should handle Russian/Cyrillic characters [0.09ms]
+(pass) transliterate() > Edge cases > should handle Greek characters [0.06ms]
+(pass) transliterate() > Edge cases > should handle Thai characters [0.03ms]
+(pass) transliterate() > Edge cases > should handle Hebrew characters [0.05ms]
+(pass) transliterate() > Chinese spacing behavior > should separate Chinese, Latin and number runs symmetrically [0.17ms]
+(pass) transliterate() > Chinese spacing behavior > should not add spaces for empty mappings or inside ignored strings [0.16ms]
+(pass) transliterate() > Chinese spacing behavior > should add spaces between Chinese characters by default [0.11ms]
+(pass) transliterate() > Chinese spacing behavior > should not add extra spaces around punctuation [0.07ms]
+(pass) transliterate() > Chinese spacing behavior > should respect trailing spaces and punctuation in custom mappings [42.83ms]
+(pass) transliterate() > Chinese spacing behavior > should handle fixChineseSpacing option [0.19ms]
+(pass) transliterate() > Reported Latin and compatibility mappings > should preserve acute Y and capital sharp S [0.08ms]
+(pass) transliterate() > Reported Latin and compatibility mappings > should map the compatibility characters reported with capital sharp S [0.06ms]
+(pass) transliterate() > Replace with regex > should handle regex patterns in replace option [0.40ms]
+(pass) transliterate() > Replace with regex > should handle global regex patterns [0.14ms]
+(pass) transliterate() > Replace with regex > should handle regex with flags [0.12ms]
+(pass) transliterate() > With non-string source > should convert non-string source to string [0.09ms]
+(pass) replaceStr() > should replace strings correctly [0.48ms]
+(pass) transliterate.config() > should read and reset config [0.24ms]
+(pass) transliterate.setData() > should set and reset custom codemap [113.95ms]
+(pass) transliterate.setData() > should only include own properties from data [62.75ms]
+(pass) formatReplaceOption > should format replace options correctly [0.41ms]
+(pass) formatReplaceOption > should only include own properties [0.17ms]
+
+src/common/slugify.test.ts:
+(pass) slugify() > normalizes adjacent default separators while preserving allowed punctuation [0.61ms]
+(pass) slugify() > preserves errors for non-iterable ignored values [2.55ms]
+(pass) slugify() > should generate slugs correctly [1.15ms]
+(pass) slugify.config() > should read current config [0.12ms]
+(pass) slugify.config() > should generate slugs with config [0.06ms]
+(pass) slugify() edge cases > should use default allowedChars for undefined and null options [0.20ms]
+(pass) slugify() edge cases > should separate mixed Chinese, Latin and number runs [0.29ms]
+(pass) slugify() edge cases > should retain corrected Latin characters in slugs [0.07ms]
+(pass) slugify() edge cases > should handle empty strings [0.06ms]
+(pass) slugify() edge cases > should handle strings with only special characters [0.04ms]
+(pass) slugify() edge cases > should handle strings with leading/trailing special characters [0.06ms]
+(pass) slugify() edge cases > should handle consecutive separators [0.08ms]
+(pass) slugify() edge cases > should handle mixed case with uppercase option [0.05ms]
+(pass) slugify() edge cases > should handle very long strings [0.25ms]
+(pass) slugify() edge cases > should handle strings with numbers [0.07ms]
+(pass) slugify() edge cases > should handle URL-safe characters in allowedChars [0.15ms]
+(pass) slugify() edge cases > should handle custom separator with special regex characters [0.21ms]
+(pass) slugify() with different scripts > should slugify Japanese text [0.04ms]
+(pass) slugify() with different scripts > should slugify Korean text [0.04ms]
+(pass) slugify() with different scripts > should slugify Russian text [0.04ms]
+(pass) slugify() with different scripts > should slugify Arabic text [0.04ms]
+(pass) slugify() with different scripts > should slugify Greek text [0.07ms]
+(pass) slugify() with different scripts > should slugify mixed language text [0.06ms]
+(pass) slugify() with different scripts > should slugify accented European characters [0.08ms]
+(pass) slugify() real-world use cases > should create URL-friendly slugs for blog titles [0.07ms]
+(pass) slugify() real-world use cases > should create slugs for product names [0.06ms]
+(pass) slugify() real-world use cases > should create slugs for file names [0.07ms]
+(pass) slugify() real-world use cases > should create slugs for internationalized content [0.10ms]
+(pass) slugify() real-world use cases > should handle edge cases in user-generated content [0.11ms]
+
+src/common/options.test.ts:
+(pass) transliterate snapshots per-call options before coercing the input [0.80ms]
+(pass) transliterate snapshots live configuration for each call [0.20ms]
+(pass) transliterate leaves caller replacement rules unchanged [0.21ms]
+(pass) transliterate snapshots nested rules while using a map changed during coercion [65.03ms]
+(pass) slugify snapshots per-call options before coercing the input [1.83ms]
+(pass) slugify snapshots live configuration for each call [0.14ms]
+(pass) slugify leaves caller replacement rules unchanged [0.14ms]
+(pass) slugify snapshots nested rules while using a map changed during coercion [36.41ms]
+
+src/node/latin.test.ts:
+(pass) latin build > transliterates Latin characters [0.24ms]
+(pass) latin build > retains corrected Latin and compatibility mappings in both Latin exports [0.31ms]
+(pass) latin build > omits non-Latin characters [0.14ms]
+(pass) latin build > slugifies Latin-only strings [0.06ms]
+(pass) browser latin exports > exposes transl alias [0.04ms]
+(pass) browser latin exports > slugifies via browser build [0.04ms]
+-----------------------------|---------|---------|-------------------
+File                         | % Funcs | % Lines | Uncovered Line #s
+-----------------------------|---------|---------|-------------------
+All files                    |  100.00 |   99.87 |
+ src/browser/index.ts        |  100.00 |  100.00 | 
+ src/browser/latin.ts        |  100.00 |  100.00 | 
+ src/common/slugify.ts       |  100.00 |  100.00 | 
+ src/common/transliterate.ts |  100.00 |  100.00 | 
+ src/common/utils.ts         |  100.00 |   99.08 | 81
+ src/node/index.ts           |  100.00 |  100.00 | 
+ src/node/latin.ts           |  100.00 |  100.00 | 
+-----------------------------|---------|---------|-------------------
+
+ 118 pass
+ 0 fail
+ 416 expect() calls
+Ran 118 tests across 7 files. [14.10s]
+$ node --test test/package.test.mjs
+✔ packed installation has no runtime dependencies (5.041691ms)
+✔ packed metadata preserves Node, browser, CDN, and legacy entry points (27.567394ms)
+✔ browser export conditions resolve to the standalone ES modules (250.12448ms)
+✔ packed root and Latin entries support Node ES module imports (336.84791ms)
+✔ packed Node executables run and report the package version (1668.950959ms)
+✔ packed APIs terminate for empty regex matches and empty ignore entries (504.739097ms)
+✔ browser script builds expose the documented globals (270.948022ms)
+✔ browser script builds support CommonJS and AMD loaders (155.701272ms)
+✔ browser ES modules load without sibling assets or installed packages (72.802154ms)
+✔ browser bundles include their referenced source maps (13.0432ms)
+✔ packed Node exports retain the issue fixes after data reset (51.78036ms)
+✔ CLI booleans accept positional text and explicit false (3134.993837ms)
+✔ invalid CLI boolean values produce a concise error (372.544617ms)
+✔ stdin file results match whole-input API calls across read boundaries (6225.147647ms)
+✔ custom maps accept upper-BMP and supplementary characters and reset (110.723352ms)
+✔ ignored whole tokens survive slug sanitization (2.584251ms)
+✔ multi-character separators collapse and trim as whole strings (0.372721ms)
+✔ slug cleanup protects ignored text produced by transliteration (0.442407ms)
+✔ Latin builds are small and retain Latin data on reset (2.887267ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18424.980192
+$ tsc --noEmit
+$ biome check .
+Checked 36 files in 247ms. No fixes applied.

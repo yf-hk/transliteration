@@ -1,0 +1,87 @@
+language,original_language_code,from_script,to_script
+Arabic,ar,Arab,Latn
+Arabic,ar,Latn,Arab
+Assamese,as,Beng,Latn
+Assamese,as,Latn,Beng
+Belarusian,be,Cyrl,Latn
+Belarusian,be,Latn,Cyrl
+Bulgarian,bg,Cyrl,Latn
+Bulgarian,bg,Latn,Cyrl
+Bangla,bn,Beng,Latn
+Bangla,bn,Latn,Beng
+Bodo,brx,Deva,Latn
+Bodo,brx,Latn,Deva
+Greek,el,Grek,Latn
+Greek,el,Latn,Grek
+Persian,fa,Arab,Latn
+Persian,fa,Latn,Arab
+Konkani,gom,Deva,Latn
+Konkani,gom,Latn,Deva
+Gujarati,gu,Gujr,Latn
+Gujarati,gu,Latn,Gujr
+Hebrew,he,Hebr,Latn
+Hebrew,he,Latn,Hebr
+Hindi,hi,Deva,Latn
+Hindi,hi,Latn,Deva
+Japanese,ja,Jpan,Latn
+Japanese,ja,Latn,Jpan
+Kazakh,kk,Cyrl,Latn
+Kazakh,kk,Latn,Cyrl
+Kannada,kn,Knda,Latn
+Kannada,kn,Latn,Knda
+Korean,ko,Kore,Latn
+Korean,ko,Latn,Kore
+Kashmiri,ks,Arab,Latn
+Kashmiri,ks,Latn,Arab
+Kyrgyz,ky,Cyrl,Latn
+Kyrgyz,ky,Latn,Cyrl
+Maithili,mai,Deva,Latn
+Maithili,mai,Latn,Deva
+Macedonian,mk,Cyrl,Latn
+Macedonian,mk,Latn,Cyrl
+Malayalam,ml,Mlym,Latn
+Malayalam,ml,Latn,Mlym
+Mongolian (Cyrillic),mn-Cyrl,Cyrl,Latn
+Mongolian (Cyrillic),mn-Cyrl,Cyrl,Mong
+Manipuri,mni,Mtei,Latn
+Manipuri,mni,Latn,Mtei
+Marathi,mr,Deva,Latn
+Marathi,mr,Latn,Deva
+Nepali,ne,Deva,Latn
+Nepali,ne,Latn,Deva
+Odia,or,Orya,Latn
+Odia,or,Latn,Orya
+Punjabi,pa,Guru,Latn
+Punjabi,pa,Latn,Guru
+Russian,ru,Cyrl,Latn
+Russian,ru,Latn,Cyrl
+Sanskrit,sa,Deva,Latn
+Sanskrit,sa,Latn,Deva
+Sindhi,sd,Arab,Latn
+Sindhi,sd,Latn,Arab
+Sinhala,si,Sinh,Latn
+Sinhala,si,Latn,Sinh
+Serbian (Cyrillic),sr-Cyrl,Cyrl,Latn
+Serbian (Latin),sr-Latn,Latn,Cyrl
+Tamil,ta,Taml,Latn
+Tamil,ta,Latn,Taml
+Telugu,te,Telu,Latn
+Telugu,te,Latn,Telu
+Tajik,tg,Cyrl,Latn
+Tajik,tg,Latn,Cyrl
+Thai,th,Thai,Latn
+Thai,th,Latn,Thai
+Tatar,tt,Cyrl,Latn
+Tatar,tt,Latn,Cyrl
+Ukrainian,uk,Cyrl,Latn
+Ukrainian,uk,Latn,Cyrl
+Urdu,ur,Arab,Latn
+Urdu,ur,Latn,Arab
+Chinese Simplified,zh-Hans,Hans,Hant
+Chinese Simplified,zh-Hans,Hans,Latn
+Chinese Simplified,zh-Hans,Latn,Hans
+Chinese Simplified,zh-Hans,Latn,Hant
+Chinese Traditional,zh-Hant,Hant,Hans
+Chinese Traditional,zh-Hant,Hant,Latn
+Chinese Traditional,zh-Hant,Latn,Hans
+Chinese Traditional,zh-Hant,Latn,Hant

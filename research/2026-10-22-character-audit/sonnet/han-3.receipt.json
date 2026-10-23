@@ -1,0 +1,44 @@
+{
+  "model_requested": "claude-sonnet-5-5",
+  "effort_requested": "medium",
+  "command": [
+    "claude",
+    "-p",
+    "--model",
+    "claude-sonnet-5-5",
+    "--effort",
+    "medium",
+    "--tools",
+    "",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--setting-sources",
+    "",
+    "--no-session-persistence",
+    "--output-format",
+    "json"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 535.22,
+  "packet": "han-3.txt",
+  "response": "han-3.response.json",
+  "model_usage": {
+    "claude-sonnet-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 84401,
+      "cacheReadInputTokens": 2080,
+      "cacheCreationInputTokens": 73512,
+      "webSearchRequests": 0,
+      "costUSD": 1.13827,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 50127,
+      "canonicalModel": "claude-sonnet-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "is_error": false,
+  "subtype": "success"
+}

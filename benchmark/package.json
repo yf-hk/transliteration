@@ -1,0 +1,28 @@
+{
+  "name": "transliteration-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Isolated, reproducible benchmarks for transliteration and related libraries",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "../node_modules/.bin/tsc -p tsconfig.json",
+    "typecheck": "../node_modules/.bin/tsc -p tsconfig.json --noEmit",
+    "bench": "bun run build && node .build/run.js --quick",
+    "bench:full": "bun run build && node .build/run.js --full",
+    "list": "bun run build && node .build/run.js --list"
+  },
+  "devDependencies": {
+    "@sindresorhus/slugify": "3.0.1",
+    "@sindresorhus/transliterate": "2.3.1",
+    "any-ascii": "0.3.3",
+    "limax": "4.2.3",
+    "pinyin-pro": "3.29.5",
+    "slug": "12.0.1",
+    "slugify": "1.6.9",
+    "speakingurl": "14.0.1",
+    "unidecode": "1.1.0"
+  }
+}

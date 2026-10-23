@@ -1,0 +1,27 @@
+✔ packed installation has no runtime dependencies (3.747109ms)
+✔ packed metadata preserves Node, browser, CDN, and legacy entry points (18.243276ms)
+✔ browser export conditions resolve to the standalone ES modules (261.411637ms)
+✔ packed root and Latin entries support Node ES module imports (483.306915ms)
+✔ packed Node executables run and report the package version (1622.20008ms)
+✔ packed APIs terminate for empty regex matches and empty ignore entries (453.671603ms)
+✔ browser script builds expose the documented globals (257.582342ms)
+✔ browser script builds support CommonJS and AMD loaders (168.810777ms)
+✔ browser ES modules load without sibling assets or installed packages (89.920269ms)
+✔ browser bundles include their referenced source maps (10.776608ms)
+✔ packed Node exports retain the issue fixes after data reset (53.556006ms)
+✔ CLI booleans accept positional text and explicit false (2646.747149ms)
+✔ invalid CLI boolean values produce a concise error (306.710096ms)
+✔ stdin file results match whole-input API calls across read boundaries (5944.677914ms)
+✔ custom maps accept upper-BMP and supplementary characters and reset (113.577064ms)
+✔ ignored whole tokens survive slug sanitization (2.649612ms)
+✔ multi-character separators collapse and trim as whole strings (0.396433ms)
+✔ slug cleanup protects ignored text produced by transliteration (0.462628ms)
+✔ Latin builds are small and retain Latin data on reset (3.100464ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14494.825502

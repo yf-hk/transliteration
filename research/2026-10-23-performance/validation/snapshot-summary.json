@@ -1,0 +1,41 @@
+{
+  "retrievedAtUtc": "2026-10-22 17:44:59 UTC",
+  "repository": "yf-hk/transliteration",
+  "baselineHead": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "liveMainHead": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "openIssueNumbers": [
+    250,
+    245,
+    243,
+    235,
+    228,
+    155,
+    154,
+    101,
+    72,
+    67,
+    65,
+    14
+  ],
+  "openPrNumbers": [
+    257,
+    255,
+    254,
+    252,
+    251,
+    57
+  ],
+  "methods": [
+    "GitHub plugin GET collections with per_page=100; both returned less than one page",
+    "All issue comments where comment count was nonzero",
+    "All six open PR file patches and PR 57 conversation",
+    "Pinned checkout source and installed package source/metadata",
+    "Existing outputs-latest.json inspected; no new measurements or test runs"
+  ],
+  "graft": {
+    "mapCallsIssued": 2,
+    "mapOutputsFullyRecovered": 1,
+    "recordedSavedTokens": 1066581,
+    "limitation": "First query output was truncated in a combined tool response; do not fabricate its count. No explicit build or refresh command was issued. Recovered second query said a rebuild was already in flight; subsequent discovery used pinned source only."
+  }
+}

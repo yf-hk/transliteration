@@ -19,8 +19,9 @@ coverage/
 .nyc_output/
 .rpt2_cache/
 *.tsbuildinfo
+graft/.cache/
 
-# Lock files (use bun.lockb)
+# Lock files (use bun.lock)
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
@@ -36,3 +37,9 @@ Thumbs.db
 # Temp
 *.tmp
 *.temp
+
+# Benchmark build/runtime caches and detailed generated runs
+benchmark/.build/
+benchmark/.venv/
+benchmark/.cache/
+benchmark/results/

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "before",
+    "spans": 128,
+    "sourceUnits": 384,
+    "indexedReads": 10829
+  },
+  {
+    "name": "after",
+    "spans": 128,
+    "sourceUnits": 384,
+    "indexedReads": 894
+  },
+  {
+    "name": "before",
+    "spans": 512,
+    "sourceUnits": 1536,
+    "indexedReads": 144655
+  },
+  {
+    "name": "after",
+    "spans": 512,
+    "sourceUnits": 1536,
+    "indexedReads": 3582
+  },
+  {
+    "name": "before",
+    "spans": 2048,
+    "sourceUnits": 6144,
+    "indexedReads": 2163729
+  },
+  {
+    "name": "after",
+    "spans": 2048,
+    "sourceUnits": 6144,
+    "indexedReads": 14334
+  }
+]

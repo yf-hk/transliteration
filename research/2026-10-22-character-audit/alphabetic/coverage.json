@@ -1,0 +1,662 @@
+{
+  "unicode_version": "17.0.0",
+  "positions": 8192,
+  "non_null_mappings": 5126,
+  "nonempty_mappings": 4814,
+  "empty_mappings": 312,
+  "missing_slots": 3066,
+  "mapped_assigned": 5125,
+  "mapped_unassigned": [
+    "U+0D49"
+  ],
+  "blocks": [
+    {
+      "block": "Basic Latin",
+      "range": "U+0000\u2013U+007F",
+      "positions": 128,
+      "mapped": 128,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Latin-1 Supplement",
+      "range": "U+0080\u2013U+00FF",
+      "positions": 128,
+      "mapped": 128,
+      "empty": 33,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Latin Extended-A",
+      "range": "U+0100\u2013U+017F",
+      "positions": 128,
+      "mapped": 128,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Latin Extended-B",
+      "range": "U+0180\u2013U+024F",
+      "positions": 208,
+      "mapped": 208,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "IPA Extensions",
+      "range": "U+0250\u2013U+02AF",
+      "positions": 96,
+      "mapped": 96,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Spacing Modifier Letters",
+      "range": "U+02B0\u2013U+02FF",
+      "positions": 80,
+      "mapped": 63,
+      "empty": 7,
+      "missing_assigned": 17,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Combining Diacritical Marks",
+      "range": "U+0300\u2013U+036F",
+      "positions": 112,
+      "mapped": 82,
+      "empty": 82,
+      "missing_assigned": 30,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Greek and Coptic",
+      "range": "U+0370\u2013U+03FF",
+      "positions": 144,
+      "mapped": 110,
+      "empty": 3,
+      "missing_assigned": 25,
+      "missing_assigned_letters": 24
+    },
+    {
+      "block": "Cyrillic",
+      "range": "U+0400\u2013U+04FF",
+      "positions": 256,
+      "mapped": 238,
+      "empty": 8,
+      "missing_assigned": 18,
+      "missing_assigned_letters": 17
+    },
+    {
+      "block": "Cyrillic Supplement",
+      "range": "U+0500\u2013U+052F",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 48,
+      "missing_assigned_letters": 48
+    },
+    {
+      "block": "Armenian",
+      "range": "U+0530\u2013U+058F",
+      "positions": 96,
+      "mapped": 86,
+      "empty": 0,
+      "missing_assigned": 5,
+      "missing_assigned_letters": 2
+    },
+    {
+      "block": "Hebrew",
+      "range": "U+0590\u2013U+05FF",
+      "positions": 112,
+      "mapped": 82,
+      "empty": 38,
+      "missing_assigned": 6,
+      "missing_assigned_letters": 1
+    },
+    {
+      "block": "Arabic",
+      "range": "U+0600\u2013U+06FF",
+      "positions": 256,
+      "mapped": 206,
+      "empty": 31,
+      "missing_assigned": 50,
+      "missing_assigned_letters": 11
+    },
+    {
+      "block": "Syriac",
+      "range": "U+0700\u2013U+074F",
+      "positions": 80,
+      "mapped": 71,
+      "empty": 5,
+      "missing_assigned": 6,
+      "missing_assigned_letters": 6
+    },
+    {
+      "block": "Arabic Supplement",
+      "range": "U+0750\u2013U+077F",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 48,
+      "missing_assigned_letters": 48
+    },
+    {
+      "block": "Thaana",
+      "range": "U+0780\u2013U+07BF",
+      "positions": 64,
+      "mapped": 49,
+      "empty": 1,
+      "missing_assigned": 1,
+      "missing_assigned_letters": 1
+    },
+    {
+      "block": "NKo",
+      "range": "U+07C0\u2013U+07FF",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 62,
+      "missing_assigned_letters": 36
+    },
+    {
+      "block": "Samaritan",
+      "range": "U+0800\u2013U+083F",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 61,
+      "missing_assigned_letters": 25
+    },
+    {
+      "block": "Mandaic",
+      "range": "U+0840\u2013U+085F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 29,
+      "missing_assigned_letters": 25
+    },
+    {
+      "block": "Syriac Supplement",
+      "range": "U+0860\u2013U+086F",
+      "positions": 16,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 11
+    },
+    {
+      "block": "Arabic Extended-B",
+      "range": "U+0870\u2013U+089F",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 43,
+      "missing_assigned_letters": 31
+    },
+    {
+      "block": "Arabic Extended-A",
+      "range": "U+08A0\u2013U+08FF",
+      "positions": 96,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 96,
+      "missing_assigned_letters": 42
+    },
+    {
+      "block": "Devanagari",
+      "range": "U+0900\u2013U+097F",
+      "positions": 128,
+      "mapped": 104,
+      "empty": 1,
+      "missing_assigned": 24,
+      "missing_assigned_letters": 16
+    },
+    {
+      "block": "Bengali",
+      "range": "U+0980\u2013U+09FF",
+      "positions": 128,
+      "mapped": 89,
+      "empty": 2,
+      "missing_assigned": 7,
+      "missing_assigned_letters": 4
+    },
+    {
+      "block": "Gurmukhi",
+      "range": "U+0A00\u2013U+0A7F",
+      "positions": 128,
+      "mapped": 75,
+      "empty": 3,
+      "missing_assigned": 5,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Gujarati",
+      "range": "U+0A80\u2013U+0AFF",
+      "positions": 128,
+      "mapped": 78,
+      "empty": 1,
+      "missing_assigned": 13,
+      "missing_assigned_letters": 3
+    },
+    {
+      "block": "Oriya",
+      "range": "U+0B00\u2013U+0B7F",
+      "positions": 128,
+      "mapped": 80,
+      "empty": 3,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 1
+    },
+    {
+      "block": "Tamil",
+      "range": "U+0B80\u2013U+0BFF",
+      "positions": 128,
+      "mapped": 62,
+      "empty": 1,
+      "missing_assigned": 10,
+      "missing_assigned_letters": 2
+    },
+    {
+      "block": "Telugu",
+      "range": "U+0C00\u2013U+0C7F",
+      "positions": 128,
+      "mapped": 80,
+      "empty": 1,
+      "missing_assigned": 21,
+      "missing_assigned_letters": 7
+    },
+    {
+      "block": "Kannada",
+      "range": "U+0C80\u2013U+0CFF",
+      "positions": 128,
+      "mapped": 80,
+      "empty": 1,
+      "missing_assigned": 12,
+      "missing_assigned_letters": 6
+    },
+    {
+      "block": "Malayalam",
+      "range": "U+0D00\u2013U+0D7F",
+      "positions": 128,
+      "mapped": 79,
+      "empty": 2,
+      "missing_assigned": 40,
+      "missing_assigned_letters": 15
+    },
+    {
+      "block": "Sinhala",
+      "range": "U+0D80\u2013U+0DFF",
+      "positions": 128,
+      "mapped": 80,
+      "empty": 1,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Thai",
+      "range": "U+0E00\u2013U+0E7F",
+      "positions": 128,
+      "mapped": 87,
+      "empty": 7,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Lao",
+      "range": "U+0E80\u2013U+0EFF",
+      "positions": 128,
+      "mapped": 65,
+      "empty": 7,
+      "missing_assigned": 18,
+      "missing_assigned_letters": 16
+    },
+    {
+      "block": "Tibetan",
+      "range": "U+0F00\u2013U+0FFF",
+      "positions": 256,
+      "mapped": 192,
+      "empty": 42,
+      "missing_assigned": 19,
+      "missing_assigned_letters": 3
+    },
+    {
+      "block": "Myanmar",
+      "range": "U+1000\u2013U+109F",
+      "positions": 160,
+      "mapped": 78,
+      "empty": 1,
+      "missing_assigned": 82,
+      "missing_assigned_letters": 27
+    },
+    {
+      "block": "Georgian",
+      "range": "U+10A0\u2013U+10FF",
+      "positions": 96,
+      "mapped": 78,
+      "empty": 0,
+      "missing_assigned": 10,
+      "missing_assigned_letters": 10
+    },
+    {
+      "block": "Hangul Jamo",
+      "range": "U+1100\u2013U+11FF",
+      "positions": 256,
+      "mapped": 240,
+      "empty": 16,
+      "missing_assigned": 16,
+      "missing_assigned_letters": 16
+    },
+    {
+      "block": "Ethiopic",
+      "range": "U+1200\u2013U+137F",
+      "positions": 384,
+      "mapped": 344,
+      "empty": 0,
+      "missing_assigned": 14,
+      "missing_assigned_letters": 10
+    },
+    {
+      "block": "Ethiopic Supplement",
+      "range": "U+1380\u2013U+139F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 26,
+      "missing_assigned_letters": 16
+    },
+    {
+      "block": "Cherokee",
+      "range": "U+13A0\u2013U+13FF",
+      "positions": 96,
+      "mapped": 85,
+      "empty": 0,
+      "missing_assigned": 7,
+      "missing_assigned_letters": 7
+    },
+    {
+      "block": "Unified Canadian Aboriginal Syllabics",
+      "range": "U+1400\u2013U+167F",
+      "positions": 640,
+      "mapped": 629,
+      "empty": 0,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 10
+    },
+    {
+      "block": "Ogham",
+      "range": "U+1680\u2013U+169F",
+      "positions": 32,
+      "mapped": 29,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Runic",
+      "range": "U+16A0\u2013U+16FF",
+      "positions": 96,
+      "mapped": 81,
+      "empty": 0,
+      "missing_assigned": 8,
+      "missing_assigned_letters": 8
+    },
+    {
+      "block": "Tagalog",
+      "range": "U+1700\u2013U+171F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 23,
+      "missing_assigned_letters": 19
+    },
+    {
+      "block": "Hanunoo",
+      "range": "U+1720\u2013U+173F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 23,
+      "missing_assigned_letters": 18
+    },
+    {
+      "block": "Buhid",
+      "range": "U+1740\u2013U+175F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 20,
+      "missing_assigned_letters": 18
+    },
+    {
+      "block": "Tagbanwa",
+      "range": "U+1760\u2013U+177F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 18,
+      "missing_assigned_letters": 16
+    },
+    {
+      "block": "Khmer",
+      "range": "U+1780\u2013U+17FF",
+      "positions": 128,
+      "mapped": 103,
+      "empty": 9,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Mongolian",
+      "range": "U+1800\u2013U+18AF",
+      "positions": 176,
+      "mapped": 154,
+      "empty": 6,
+      "missing_assigned": 4,
+      "missing_assigned_letters": 3
+    },
+    {
+      "block": "Unified Canadian Aboriginal Syllabics Extended",
+      "range": "U+18B0\u2013U+18FF",
+      "positions": 80,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 70,
+      "missing_assigned_letters": 70
+    },
+    {
+      "block": "Limbu",
+      "range": "U+1900\u2013U+194F",
+      "positions": 80,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 68,
+      "missing_assigned_letters": 31
+    },
+    {
+      "block": "Tai Le",
+      "range": "U+1950\u2013U+197F",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 35,
+      "missing_assigned_letters": 35
+    },
+    {
+      "block": "New Tai Lue",
+      "range": "U+1980\u2013U+19DF",
+      "positions": 96,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 83,
+      "missing_assigned_letters": 70
+    },
+    {
+      "block": "Khmer Symbols",
+      "range": "U+19E0\u2013U+19FF",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 32,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Buginese",
+      "range": "U+1A00\u2013U+1A1F",
+      "positions": 32,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 30,
+      "missing_assigned_letters": 23
+    },
+    {
+      "block": "Tai Tham",
+      "range": "U+1A20\u2013U+1AAF",
+      "positions": 144,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 127,
+      "missing_assigned_letters": 54
+    },
+    {
+      "block": "Combining Diacritical Marks Extended",
+      "range": "U+1AB0\u2013U+1AFF",
+      "positions": 80,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 58,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Balinese",
+      "range": "U+1B00\u2013U+1B7F",
+      "positions": 128,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 127,
+      "missing_assigned_letters": 55
+    },
+    {
+      "block": "Sundanese",
+      "range": "U+1B80\u2013U+1BBF",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 64,
+      "missing_assigned_letters": 38
+    },
+    {
+      "block": "Batak",
+      "range": "U+1BC0\u2013U+1BFF",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 56,
+      "missing_assigned_letters": 38
+    },
+    {
+      "block": "Lepcha",
+      "range": "U+1C00\u2013U+1C4F",
+      "positions": 80,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 74,
+      "missing_assigned_letters": 39
+    },
+    {
+      "block": "Ol Chiki",
+      "range": "U+1C50\u2013U+1C7F",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 48,
+      "missing_assigned_letters": 36
+    },
+    {
+      "block": "Cyrillic Extended-C",
+      "range": "U+1C80\u2013U+1C8F",
+      "positions": 16,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 11,
+      "missing_assigned_letters": 11
+    },
+    {
+      "block": "Georgian Extended",
+      "range": "U+1C90\u2013U+1CBF",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 46,
+      "missing_assigned_letters": 46
+    },
+    {
+      "block": "Sundanese Supplement",
+      "range": "U+1CC0\u2013U+1CCF",
+      "positions": 16,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 8,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Vedic Extensions",
+      "range": "U+1CD0\u2013U+1CFF",
+      "positions": 48,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 43,
+      "missing_assigned_letters": 13
+    },
+    {
+      "block": "Phonetic Extensions",
+      "range": "U+1D00\u2013U+1D7F",
+      "positions": 128,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 128,
+      "missing_assigned_letters": 128
+    },
+    {
+      "block": "Phonetic Extensions Supplement",
+      "range": "U+1D80\u2013U+1DBF",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 64,
+      "missing_assigned_letters": 64
+    },
+    {
+      "block": "Combining Diacritical Marks Supplement",
+      "range": "U+1DC0\u2013U+1DFF",
+      "positions": 64,
+      "mapped": 0,
+      "empty": 0,
+      "missing_assigned": 64,
+      "missing_assigned_letters": 0
+    },
+    {
+      "block": "Latin Extended Additional",
+      "range": "U+1E00\u2013U+1EFF",
+      "positions": 256,
+      "mapped": 246,
+      "empty": 0,
+      "missing_assigned": 10,
+      "missing_assigned_letters": 10
+    },
+    {
+      "block": "Greek Extended",
+      "range": "U+1F00\u2013U+1FFF",
+      "positions": 256,
+      "mapped": 233,
+      "empty": 0,
+      "missing_assigned": 0,
+      "missing_assigned_letters": 0
+    }
+  ]
+}

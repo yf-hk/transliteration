@@ -1,0 +1,58 @@
+[
+  {
+    "file": "google-cloud-languages.html",
+    "requested_url": "https://docs.cloud.google.com/translate/docs/languages",
+    "resolved_url": "https://docs.cloud.google.com/translate/docs/languages",
+    "retrieved_at_utc": "2026-10-21T15:25:41.806293+00:00",
+    "bytes": 174949,
+    "sha256": "8f97ed896f51bb5e65e575d96a53ca26fef22ba950c8f4315105f6a892562de0"
+  },
+  {
+    "file": "azure-language-support.html",
+    "requested_url": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
+    "resolved_url": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
+    "retrieved_at_utc": "2026-10-21T15:25:40.884098+00:00",
+    "bytes": 133846,
+    "sha256": "b7a263729bfcd5c20c45c1914d93ef22ab777a5b8b94764dcccba45615c54d15"
+  },
+  {
+    "file": "azure-languages-api.json",
+    "requested_url": "https://api.cognitive.microsofttranslator.com/languages?api-version=3.0&scope=translation,transliteration,dictionary",
+    "resolved_url": "https://api.cognitive.microsofttranslator.com/languages?api-version=3.0&scope=translation,transliteration,dictionary",
+    "retrieved_at_utc": "2026-10-21T15:25:39.770862+00:00",
+    "bytes": 36438,
+    "sha256": "33b571c6cefaba7d69164c48adb8213f323e994eecf13e7bf007ff8cb00124fa"
+  },
+  {
+    "file": "google-translate-consumer.html",
+    "requested_url": "https://translate.google.com/?hl=en&sl=auto&tl=en&op=translate",
+    "resolved_url": "https://translate.google.com/?hl=en&sl=auto&tl=en&op=translate",
+    "retrieved_at_utc": "2026-10-21T15:25:43.169321+00:00",
+    "bytes": 3162418,
+    "sha256": "8068a7c3d0b3016b57655e750c648a1777b9088502603b52f88e9a34ffd17036"
+  },
+  {
+    "file": "cldr-likelySubtags.json",
+    "requested_url": "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-core/supplemental/likelySubtags.json",
+    "resolved_url": "https://raw.githubusercontent.com/unicode-org/cldr-json/main/cldr-json/cldr-core/supplemental/likelySubtags.json",
+    "retrieved_at_utc": "2026-10-21T15:25:40.449582+00:00",
+    "bytes": 220093,
+    "sha256": "38345946ad457213fb39e9645ab50f36b61681bf674b2eef2979a3b58d04afc8"
+  },
+  {
+    "file": "cldr-supplementalData.xml",
+    "requested_url": "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalData.xml",
+    "resolved_url": "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalData.xml",
+    "retrieved_at_utc": "2026-10-21T15:27:29.326732+00:00",
+    "bytes": 394860,
+    "sha256": "745150ec1408d50e1a272b65654a5dd645f3e60f5cc2898b576f725b28538d1a"
+  },
+  {
+    "file": "cldr-supplementalMetadata.xml",
+    "requested_url": "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalMetadata.xml",
+    "resolved_url": "https://raw.githubusercontent.com/unicode-org/cldr/main/common/supplemental/supplementalMetadata.xml",
+    "retrieved_at_utc": "2026-10-21T15:27:28.955845+00:00",
+    "bytes": 179885,
+    "sha256": "b06614fc2c9aab3b9a9f7e8bf9328f4f7a95d89b2d2dbb300d0caff0f885c164"
+  }
+]

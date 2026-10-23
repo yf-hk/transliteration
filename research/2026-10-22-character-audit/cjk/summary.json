@@ -1,0 +1,39 @@
+{
+  "scope": "Every explicit data slot in U+2E80..9FFF and U+F900..FAFF; FF forms belong to parent audit",
+  "explicit_slots": 22528,
+  "nonempty": 21766,
+  "empty": 35,
+  "null": 727,
+  "full_range_codepoints": 29568,
+  "absent_slots": 7040,
+  "assessment_counts": {
+    "symbol_semantics_or_context_reviewed_no_confirmed_error": 401,
+    "empty_mapping_requires_context_or_policy": 35,
+    "null_slot_outside_mapped_value_audit": 727,
+    "kana_name_matches": 220,
+    "bopomofo_matches_unicode_name": 64,
+    "hangul_scheme_or_historical_consonant_review": 147,
+    "confirmed_kana_letter_typo": 1,
+    "confirmed_unit_symbol_error": 2,
+    "supported_mandarin_reading": 19137,
+    "valid_other_language_reading": 361,
+    "valid_moe_regional_historical_alternative": 160,
+    "unihan_only_unresolved": 766,
+    "two_primary_references_mismatch": 207,
+    "han_missing_reference_or_japanese_lexical_review": 9,
+    "variant_or_language_choice_unresolved": 3,
+    "compatibility_han_language_or_variant_policy": 288
+  },
+  "han_mismatch_counts": {
+    "valid_other_language_reading": 361,
+    "valid_moe_regional_historical_alternative": 160,
+    "unihan_only_unresolved": 766,
+    "two_primary_references_mismatch": 207,
+    "variant_or_language_choice_unresolved": 3
+  },
+  "confirmed_nonhan": 3,
+  "mandarin_default_shortlist": 33,
+  "valid_mandarin_noncustomary_unihan": 734,
+  "corpus_default_preferences": 105,
+  "data_sha256": "ed678e3d8e46f7976e32187e9c0d2231ce19a128e4807d2d700380129a11588d"
+}

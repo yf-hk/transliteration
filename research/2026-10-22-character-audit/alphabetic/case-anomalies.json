@@ -1,0 +1,92 @@
+[
+  {
+    "cp": "U+00DD",
+    "char": "Ý",
+    "name": "LATIN CAPITAL LETTER Y WITH ACUTE",
+    "mapping": "U",
+    "category": "Lu",
+    "lower_cp": "U+00FD",
+    "lower_mapping": "y"
+  },
+  {
+    "cp": "U+018E",
+    "char": "Ǝ",
+    "name": "LATIN CAPITAL LETTER REVERSED E",
+    "mapping": "3",
+    "category": "Lu",
+    "lower_cp": "U+01DD",
+    "lower_mapping": "@"
+  },
+  {
+    "cp": "U+01A6",
+    "char": "Ʀ",
+    "name": "LATIN LETTER YR",
+    "mapping": "YR",
+    "category": "Lu",
+    "lower_cp": "U+0280",
+    "lower_mapping": "R"
+  },
+  {
+    "cp": "U+01A9",
+    "char": "Ʃ",
+    "name": "LATIN CAPITAL LETTER ESH",
+    "mapping": "SH",
+    "category": "Lu",
+    "lower_cp": "U+0283",
+    "lower_mapping": "S"
+  },
+  {
+    "cp": "U+01B1",
+    "char": "Ʊ",
+    "name": "LATIN CAPITAL LETTER UPSILON",
+    "mapping": "Y",
+    "category": "Lu",
+    "lower_cp": "U+028A",
+    "lower_mapping": "U"
+  },
+  {
+    "cp": "U+01B7",
+    "char": "Ʒ",
+    "name": "LATIN CAPITAL LETTER EZH",
+    "mapping": "ZH",
+    "category": "Lu",
+    "lower_cp": "U+0292",
+    "lower_mapping": "Z"
+  },
+  {
+    "cp": "U+01F2",
+    "char": "ǲ",
+    "name": "LATIN CAPITAL LETTER D WITH SMALL LETTER Z",
+    "mapping": "D",
+    "category": "Lt",
+    "lower_cp": "U+01F3",
+    "lower_mapping": "dz"
+  },
+  {
+    "cp": "U+0245",
+    "char": "Ʌ",
+    "name": "LATIN CAPITAL LETTER TURNED V",
+    "mapping": "V",
+    "category": "Lu",
+    "lower_cp": "U+028C",
+    "lower_mapping": "^"
+  },
+  {
+    "cp": "U+038E",
+    "char": "Ύ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+    "mapping": "U",
+    "category": "Lu",
+    "lower_cp": "U+03CD",
+    "lower_mapping": "y"
+  },
+  {
+    "cp": "U+0400",
+    "char": "Ѐ",
+    "name": "CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+    "mapping": "Jo",
+    "category": "Lu",
+    "lower_cp": "U+0450",
+    "lower_mapping": "je"
+  }
+]

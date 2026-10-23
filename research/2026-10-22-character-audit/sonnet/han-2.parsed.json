@@ -1,0 +1,2276 @@
+[
+  {
+    "codepoint": "U+4EA3",
+    "verdict": "confirm_error",
+    "suggested": "Da",
+    "reason": "Wrong consonant: kMandarin dà and Cantonese daai6 both start with d. Only kMandarin supports it, so this is a narrow t/d error."
+  },
+  {
+    "codepoint": "U+4EF4",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "Wrong final: kMandarin and kHanyuPinyin agree on wò. Wan has no support."
+  },
+  {
+    "codepoint": "U+4F1D",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "伝 is the Japanese form of 傳, and Chuan matches that ordinary reading (chuán; Japanese DEN). The Unicode kMandarin yún is an obscure Chinese-character reading. Do not blanket-replace with Yun."
+  },
+  {
+    "codepoint": "U+4F61",
+    "verdict": "confirm_error",
+    "suggested": "Xian",
+    "reason": "Wrong vowel: kMandarin and kHanyuPinyin both give xiān."
+  },
+  {
+    "codepoint": "U+4FBE",
+    "verdict": "confirm_error",
+    "suggested": "Xiao",
+    "reason": "Wrong consonant for Pinyin: kMandarin and kHanyuPinyin give xiāo. Hao may come from Cantonese haau1 or Japanese KOU, which would be a different scheme."
+  },
+  {
+    "codepoint": "U+4FE4",
+    "verdict": "confirm_error",
+    "suggested": "Di",
+    "reason": "Wrong consonant: kMandarin, kHanyuPinyin and kXHC1983 all give dì."
+  },
+  {
+    "codepoint": "U+5003",
+    "verdict": "confirm_error",
+    "suggested": "Jiu",
+    "reason": "Mandarin jiù is corroborated by kHanyuPinyin. Zan has no support."
+  },
+  {
+    "codepoint": "U+5089",
+    "verdict": "confirm_error",
+    "suggested": "Nu",
+    "reason": "nù is corroborated by kHanyuPinyin, kXHC1983 and kTGHZ2013. Ru is a wrong consonant."
+  },
+  {
+    "codepoint": "U+50C1",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "Xi is a truncated or wrong vowel. kMandarin and kHanyuPinyin give xiè, with sù as an alternate."
+  },
+  {
+    "codepoint": "U+512C",
+    "verdict": "prefer_default",
+    "suggested": "Qing",
+    "reason": "Only kMandarin qìng supports a change. Chen may follow Japanese SHIN, so this is uncertain."
+  },
+  {
+    "codepoint": "U+51C1",
+    "verdict": "prefer_default",
+    "suggested": "Sou",
+    "reason": "kMandarin sōu is supported by Cantonese sau1. Shu is unsupported in Mandarin. Single-field evidence."
+  },
+  {
+    "codepoint": "U+51F5",
+    "verdict": "confirm_error",
+    "suggested": "Qian",
+    "reason": "Qu matches no listed reading: kMandarin qiǎn, kHanyuPinyin qiǎn/kǎn. Kan is the common radical-name alternate and should be kept as an option."
+  },
+  {
+    "codepoint": "U+5246",
+    "verdict": "confirm_error",
+    "suggested": "Luo",
+    "reason": "luǒ is corroborated by kHanyuPinyin and the fanqie 來可. Gen has no support."
+  },
+  {
+    "codepoint": "U+5297",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 在丸 gives cuán, a plausible archaic reading. The modern defaults are jiǎn (kMandarin) and zuān (kHanyuPinyin). Context-dependent, so do not blanket-replace."
+  },
+  {
+    "codepoint": "U+52CF",
+    "verdict": "confirm_error",
+    "suggested": "Bu",
+    "reason": "bù is corroborated by kHanyuPinyin. Pou is a wrong vowel."
+  },
+  {
+    "codepoint": "U+5325",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 皮變 supports biàn/piàn. kMandarin fán and Cantonese faan4 are the dictionary default. Keep as an alternative."
+  },
+  {
+    "codepoint": "U+533C",
+    "verdict": "confirm_error",
+    "suggested": "Ke",
+    "reason": "kē is strongly corroborated by kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003. Qia has no support."
+  },
+  {
+    "codepoint": "U+5383",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 職廉 gives zhān and Japanese is SEN. The Mandarin default is wěi (kHanyuPinyin also lists yán). Keep as an alternative."
+  },
+  {
+    "codepoint": "U+53DD",
+    "verdict": "prefer_default",
+    "suggested": "Ji",
+    "reason": "Only kMandarin jí supports a change. Japanese KOU leaves Gao possible, so this is uncertain."
+  },
+  {
+    "codepoint": "U+545F",
+    "verdict": "confirm_error",
+    "suggested": "Juan",
+    "reason": "juǎn is corroborated by kHanyuPinyin. Quan is a wrong consonant."
+  },
+  {
+    "codepoint": "U+54CA",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 于六 gives yù. kMandarin and kHanyuPinyin give yòu as default. Keep as an alternative."
+  },
+  {
+    "codepoint": "U+550D",
+    "verdict": "confirm_error",
+    "suggested": "Wan",
+    "reason": "wǎn is corroborated by kHanyuPinyin and Cantonese waan5. Huan is a wrong consonant."
+  },
+  {
+    "codepoint": "U+5552",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is gǔ (kHanyuPinyin). Fanqie 呼骨 gives hū, so Hu has historical support. Language or reading must be specified."
+  },
+  {
+    "codepoint": "U+55C0",
+    "verdict": "confirm_error",
+    "suggested": "Hu",
+    "reason": "kMandarin and kHanyuPinyin give hù. Huo has no Mandarin support."
+  },
+  {
+    "codepoint": "U+5607",
+    "verdict": "confirm_error",
+    "suggested": "Shan",
+    "reason": "San drops the h. kHanyuPinyin gives shān (alternates càn, shěn)."
+  },
+  {
+    "codepoint": "U+5688",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "Wrong vowel: kMandarin and kHanyuPinyin give yè."
+  },
+  {
+    "codepoint": "U+56A9",
+    "verdict": "prefer_default",
+    "suggested": "Mo",
+    "reason": "Mandarin default is mó (kHanyuPinyin). Fu may come from the 縛 component (fù), which is a different reading. Uncertain."
+  },
+  {
+    "codepoint": "U+5744",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 度侯 gives dòu/tóu, and Japanese TOU supports Tou. Default is yì (kHanyuPinyin). Keep as an alternative."
+  },
+  {
+    "codepoint": "U+57AD",
+    "verdict": "confirm_error",
+    "suggested": "Ya",
+    "reason": "yā is corroborated by kXHC1983 and kTGHZ2013. Wu is wrong."
+  },
+  {
+    "codepoint": "U+57C8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 私閏 and Cantonese seon3 support xùn. The modern default is jùn (kHanyuPinyin), as a variant of 峻. Keep as an alternative."
+  },
+  {
+    "codepoint": "U+57E5",
+    "verdict": "confirm_error",
+    "suggested": "Qing",
+    "reason": "qīng is the kMandarin default and zhēng the alternate. Cheng matches neither."
+  },
+  {
+    "codepoint": "U+583C",
+    "verdict": "confirm_error",
+    "suggested": "Heng",
+    "reason": "hèng is corroborated by kHanyuPinyin and kTGHZ2013, and Cantonese hang6 agrees. Feng is a wrong consonant."
+  },
+  {
+    "codepoint": "U+5876",
+    "verdict": "confirm_error",
+    "suggested": "Lu",
+    "reason": "lù is corroborated by kHanyuPinyin and Cantonese luk6. Cu is wrong."
+  },
+  {
+    "codepoint": "U+58AB",
+    "verdict": "confirm_error",
+    "suggested": "Zun",
+    "reason": "kMandarin zūn with alternate cūn (fanqie 七倫). Dun is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+593F",
+    "verdict": "confirm_error",
+    "suggested": "Ba",
+    "reason": "bā is corroborated by kHanyuPinyin and kXHC1983. Pa is a wrong consonant."
+  },
+  {
+    "codepoint": "U+5964",
+    "verdict": "confirm_error",
+    "suggested": "Ha",
+    "reason": "hǎ per kMandarin and kXHC1983. Alternates are pò and tǎi. Pan is not a Mandarin reading and probably follows Japanese ハン."
+  },
+  {
+    "codepoint": "U+59DB",
+    "verdict": "confirm_error",
+    "suggested": "Dong",
+    "reason": "dòng is corroborated by kHanyuPinyin and Cantonese dung6."
+  },
+  {
+    "codepoint": "U+59F6",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "è is corroborated by kHanyuPinyin and kTGHZ2013 (alternate yà). Yan is unsupported."
+  },
+  {
+    "codepoint": "U+5A17",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 徒鼎 gives dǐng, so Ding is attested. Default is tǐng (kHanyuPinyin). Keep as an alternative."
+  },
+  {
+    "codepoint": "U+5A3A",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 陟隹 gives zhuī/zhuì, so Zhui is attested. kHanyuPinyin default is zhuó."
+  },
+  {
+    "codepoint": "U+5A54",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 雨非 gives wēi/wěi, so Wei is attested. kMandarin default is fēi."
+  },
+  {
+    "codepoint": "U+5A89",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "Wrong vowel: kHanyuPinyin and kMandarin give wò."
+  },
+  {
+    "codepoint": "U+5AA8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 即救 gives jiù, so Jiu is attested. kMandarin default is cù."
+  },
+  {
+    "codepoint": "U+5AF9",
+    "verdict": "prefer_default",
+    "suggested": "Miao",
+    "reason": "kMandarin miáo. Japanese MEU supports miao, and Mao is only a weaker Japanese BAU match. Single-field evidence."
+  },
+  {
+    "codepoint": "U+5B23",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 女耕 gives nēng, so Neng is attested. kHanyuPinyin default is níng."
+  },
+  {
+    "codepoint": "U+5B31",
+    "verdict": "prefer_default",
+    "suggested": "Qian",
+    "reason": "kMandarin qiàn and fanqie 七豔 agree. Can has no support, but only a single Mandarin field is available."
+  },
+  {
+    "codepoint": "U+5B6C",
+    "verdict": "confirm_error",
+    "suggested": "Nao",
+    "reason": "nāo is strongly corroborated by kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003. Huai is wrong."
+  },
+  {
+    "codepoint": "U+5BE7",
+    "verdict": "confirm_error",
+    "suggested": "Ning",
+    "reason": "níng/nìng is strongly corroborated. Zhu is the reading of 宁 (zhù), a different character, and is not valid for 寧."
+  },
+  {
+    "codepoint": "U+5C75",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "è (kMandarin, kHanyuPinyin), alternate yǎn. Xue is unsupported."
+  },
+  {
+    "codepoint": "U+5CCE",
+    "verdict": "confirm_error",
+    "suggested": "En",
+    "reason": "ěn is corroborated by kHanyuPinyin. An is a wrong vowel."
+  },
+  {
+    "codepoint": "U+5CFC",
+    "verdict": "prefer_default",
+    "suggested": "Gao",
+    "reason": "kMandarin gào. Japanese KOU/GOU supports g-, so Hao is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+5D51",
+    "verdict": "confirm_error",
+    "suggested": "Ke",
+    "reason": "kě with alternate jié (kHanyuPinyin). Jue matches neither."
+  },
+  {
+    "codepoint": "U+5DA3",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives jiāo. Cantonese ciu4 suggests a qiáo reading as well, which is plausible for the 嶕嶢 word family but not evidenced here."
+  },
+  {
+    "codepoint": "U+5DDC",
+    "verdict": "prefer_default",
+    "suggested": "Kuai",
+    "reason": "kuài is the default (alternate huān). Gui may reflect fanqie 古外, which would be guài/guì, so uncertain."
+  },
+  {
+    "codepoint": "U+5E4D",
+    "verdict": "confirm_error",
+    "suggested": "Tao",
+    "reason": "tāo is corroborated by kHanyuPinyin and fanqie 土刀."
+  },
+  {
+    "codepoint": "U+5EB0",
+    "verdict": "confirm_error",
+    "suggested": "Bing",
+    "reason": "bìng/bǐng is corroborated by kHanyuPinyin and fanqie 防正. Ding is wrong."
+  },
+  {
+    "codepoint": "U+5ECD",
+    "verdict": "prefer_default",
+    "suggested": "Bu",
+    "reason": "kMandarin bù and Cantonese bou6 agree. Pou is a wrong consonant, but only kMandarin supports it."
+  },
+  {
+    "codepoint": "U+5F4D",
+    "verdict": "confirm_error",
+    "suggested": "Guo",
+    "reason": "guō is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Kuo may reflect Cantonese kwok3."
+  },
+  {
+    "codepoint": "U+5F9B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 渠綺 gives qǐ, so Qi is attested. Default is jì (kHanyuPinyin, kXHC1983, kTGHZ2013, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+5FC4",
+    "verdict": "confirm_error",
+    "suggested": "Xin",
+    "reason": "The radical form of 心 is xīn (kMandarin xin). Shu appears to mirror Cantonese syu6, which does not belong in a Pinyin table."
+  },
+  {
+    "codepoint": "U+6040",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 尺氏 gives chǐ, so Chi is attested. kHanyuPinyin default is shì."
+  },
+  {
+    "codepoint": "U+609D",
+    "verdict": "confirm_error",
+    "suggested": "Kui",
+    "reason": "kuī is strongly corroborated (alternate lǐ). Hui is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+60C9",
+    "verdict": "prefer_default",
+    "suggested": "Zhan",
+    "reason": "zhān per kMandarin and kHanyuPinyin. Korean CHEM hints at a ch- reading, so uncertain."
+  },
+  {
+    "codepoint": "U+613B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 蘇困 gives sùn, so Sun is attested. kHanyuPinyin default is xùn."
+  },
+  {
+    "codepoint": "U+61C5",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 強魚 gives qú, so Qu is attested. Default is jù (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+624C",
+    "verdict": "confirm_error",
+    "suggested": "Shou",
+    "reason": "The radical form of 手 is shǒu. T is a truncated or incorrect string."
+  },
+  {
+    "codepoint": "U+6265",
+    "verdict": "confirm_error",
+    "suggested": "Den",
+    "reason": "dèn is corroborated by kHanyuPinyin. Tuo is wrong."
+  },
+  {
+    "codepoint": "U+628C",
+    "verdict": "confirm_error",
+    "suggested": "Dan",
+    "reason": "dǎn is the default and shěn the alternate (kHanyuPinyin). Zhen matches neither."
+  },
+  {
+    "codepoint": "U+62B4",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 餘制 gives yì, so Yi is attested. Default is yè (kHanyuPinyin, kXHC1983)."
+  },
+  {
+    "codepoint": "U+6300",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is bāi (kHanyuPinyin). Bo may reflect the 擘 bò series and Japanese HAKU. Language must be specified."
+  },
+  {
+    "codepoint": "U+633C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "kSMSZD2003 lists ruó, and Cantonese no4 and Japanese NA support Nuo (nuó). Default is ruá."
+  },
+  {
+    "codepoint": "U+6359",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Cantonese jai6 and Japanese EI fit Yi (variant of 抴 yì). kMandarin gives yè. Single-field Mandarin evidence."
+  },
+  {
+    "codepoint": "U+637F",
+    "verdict": "prefer_default",
+    "suggested": "Qi",
+    "reason": "kMandarin qī (variant of 栖). Xi is a legitimate alternate for the 栖 family, so low confidence."
+  },
+  {
+    "codepoint": "U+63BA",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "摻 has the reading xiān (as in 摻摻). The modern default chān is corroborated by kXHC1983 and kTGHZ2013. Keep Xian as an alternative."
+  },
+  {
+    "codepoint": "U+63D8",
+    "verdict": "confirm_error",
+    "suggested": "Yong",
+    "reason": "kHanyuPinyin gives yóng (alternate huáng). Heng is unsupported."
+  },
+  {
+    "codepoint": "U+6404",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 古恒 and Cantonese gang1 support gēng. kMandarin gèn is the default."
+  },
+  {
+    "codepoint": "U+645A",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives chēng. Cantonese tong3 supports a tāng reading, which is plausible for the sense (Cant.) pull open. Language must be specified."
+  },
+  {
+    "codepoint": "U+6475",
+    "verdict": "prefer_default",
+    "suggested": "She",
+    "reason": "kHanyuPinyin gives shè, with sù and mí as alternates. Suo matches none, though 所六 fanqie suggests sù, so uncertain."
+  },
+  {
+    "codepoint": "U+6482",
+    "verdict": "confirm_error",
+    "suggested": "Liao",
+    "reason": "liào is strongly corroborated by five fields. Lue is wrong."
+  },
+  {
+    "codepoint": "U+6497",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡光 gives huáng, so Huang is attested. Default is guàng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+64D5",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "xié is corroborated by kXHC1983 and kMandarin. Xi drops the e."
+  },
+  {
+    "codepoint": "U+6515",
+    "verdict": "prefer_default",
+    "suggested": "Xian",
+    "reason": "xiān/jiān per kHanyuPinyin. Fanqie 所咸 would give shān, so San is not fully excluded. Uncertain."
+  },
+  {
+    "codepoint": "U+6533",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is xún (kHanyuPinyin). Cantonese cam4 and Japanese SHIN suggest an old xín reading. Language must be specified."
+  },
+  {
+    "codepoint": "U+6552",
+    "verdict": "prefer_default",
+    "suggested": "Shen",
+    "reason": "shēn per kMandarin and kHanyuPinyin. Zhen only follows Japanese CHIN."
+  },
+  {
+    "codepoint": "U+65A3",
+    "verdict": "confirm_error",
+    "suggested": "Dou",
+    "reason": "dòu is corroborated by kHanyuPinyin and fanqie 都豆. Chu is wrong."
+  },
+  {
+    "codepoint": "U+65EF",
+    "verdict": "confirm_error",
+    "suggested": "La",
+    "reason": "lá is strongly corroborated by four fields. Xu is wrong."
+  },
+  {
+    "codepoint": "U+6678",
+    "verdict": "confirm_error",
+    "suggested": "Zheng",
+    "reason": "Zhen drops the g. kHanyuPinyin gives zhěng and Korean is CENG."
+  },
+  {
+    "codepoint": "U+669C",
+    "verdict": "prefer_default",
+    "suggested": "Pu",
+    "reason": "kMandarin pǔ (variant of 普). Jin is unsupported, but only kMandarin is available."
+  },
+  {
+    "codepoint": "U+66CB",
+    "verdict": "confirm_error",
+    "suggested": "Shen",
+    "reason": "shěn is corroborated by kHanyuPinyin and Cantonese sam2."
+  },
+  {
+    "codepoint": "U+66EF",
+    "verdict": "confirm_error",
+    "suggested": "Zhu",
+    "reason": "zhú is corroborated by kHanyuPinyin and Cantonese zuk1. Chu is wrong."
+  },
+  {
+    "codepoint": "U+6776",
+    "verdict": "confirm_error",
+    "suggested": "Chun",
+    "reason": "chūn is corroborated by kHanyuPinyin and fanqie 丑倫. Qun is wrong."
+  },
+  {
+    "codepoint": "U+67AC",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Nan matches the 楠 semantic variant (nán). kMandarin zhān is the dictionary default. Keep as an alternative."
+  },
+  {
+    "codepoint": "U+67FB",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "査 is a variant of 查, and chá is the ordinary reading in the sense of investigate. zhā is the surname and dictionary default. Do not replace."
+  },
+  {
+    "codepoint": "U+6822",
+    "verdict": "prefer_default",
+    "suggested": "Bai",
+    "reason": "bǎi per kMandarin and kXHC1983. 柏 also has bó/bò readings (Bólín, huángbò), so Bo is a niche valid alternate."
+  },
+  {
+    "codepoint": "U+683B",
+    "verdict": "prefer_default",
+    "suggested": "Shi",
+    "reason": "shì is corroborated by kHanyuPinyin, kXHC1983 and kTGHZ2013. The fanqie 恥力 chì is historical."
+  },
+  {
+    "codepoint": "U+6870",
+    "verdict": "prefer_default",
+    "suggested": "Kuo",
+    "reason": "kuò per kHanyuPinyin. The 栝 variant has guā in 栝楼, so Gua is a possible alternate."
+  },
+  {
+    "codepoint": "U+68AB",
+    "verdict": "confirm_error",
+    "suggested": "Qin",
+    "reason": "qǐn is corroborated by kHanyuPinyin and kSMSZD2003. Cen is wrong."
+  },
+  {
+    "codepoint": "U+68CF",
+    "verdict": "confirm_error",
+    "suggested": "De",
+    "reason": "dé is corroborated by kHanyuPinyin and Cantonese dak6. Te is a wrong consonant."
+  },
+  {
+    "codepoint": "U+68FE",
+    "verdict": "confirm_error",
+    "suggested": "Qing",
+    "reason": "qíng is corroborated by kHanyuPinyin. Qiong is wrong."
+  },
+  {
+    "codepoint": "U+694E",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is huī (kHanyuPinyin). Fanqie 戶昆 and Cantonese wan4 support hún. Language must be specified."
+  },
+  {
+    "codepoint": "U+6992",
+    "verdict": "confirm_error",
+    "suggested": "Nuo",
+    "reason": "nuò is corroborated by kHanyuPinyin and Cantonese nik1. Nai is a wrong vowel."
+  },
+  {
+    "codepoint": "U+69E3",
+    "verdict": "confirm_error",
+    "suggested": "Ji",
+    "reason": "jī is the default and guī the alternate (kHanyuPinyin). Qi is a wrong consonant."
+  },
+  {
+    "codepoint": "U+69F8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Japanese GETSU/GECHI points to niè (槷 series). kHanyuPinyin default is yì."
+  },
+  {
+    "codepoint": "U+6A17",
+    "verdict": "confirm_error",
+    "suggested": "Chu",
+    "reason": "chū is strongly corroborated by four fields. Shu mirrors Cantonese syu1."
+  },
+  {
+    "codepoint": "U+6A33",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is xún (kHanyuPinyin). Fanqie 徐林 gives xín, so Xin is attested historically."
+  },
+  {
+    "codepoint": "U+6A6C",
+    "verdict": "confirm_error",
+    "suggested": "Qian",
+    "reason": "kHanyuPinyin gives qián (alternate qín). Cen is wrong."
+  },
+  {
+    "codepoint": "U+6A99",
+    "verdict": "confirm_error",
+    "suggested": "Cheng",
+    "reason": "chéng is corroborated by kHanyuPinyin and Cantonese caang4. Ding is wrong."
+  },
+  {
+    "codepoint": "U+6ABD",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives nòu, ruǎn or rú. Japanese JI/NI points to ěr/ér (木耳 sense). Language and sense must be specified."
+  },
+  {
+    "codepoint": "U+6B33",
+    "verdict": "confirm_error",
+    "suggested": "Kui",
+    "reason": "kuì is corroborated by kHanyuPinyin. Kuai is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6B5E",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "è is corroborated by kHanyuPinyin. Kan is wrong."
+  },
+  {
+    "codepoint": "U+6B9C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 余業 and Cantonese jip6 support yè. kHanyuPinyin default is dié."
+  },
+  {
+    "codepoint": "U+6BBE",
+    "verdict": "confirm_error",
+    "suggested": "Xun",
+    "reason": "xùn is corroborated by kHanyuPinyin and Cantonese seon3. Jun is a wrong consonant."
+  },
+  {
+    "codepoint": "U+6BDE",
+    "verdict": "confirm_error",
+    "suggested": "Pi",
+    "reason": "pí is corroborated by kHanyuPinyin. Pu is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6C0C",
+    "verdict": "confirm_error",
+    "suggested": "Lu",
+    "reason": "lǔ is corroborated by kHanyuPinyin and kSMSZD2003. Luo is wrong."
+  },
+  {
+    "codepoint": "U+6C66",
+    "verdict": "confirm_error",
+    "suggested": "Zhi",
+    "reason": "zhǐ is corroborated by kHanyuPinyin and Cantonese zi2. Chi is a wrong consonant."
+  },
+  {
+    "codepoint": "U+6C7C",
+    "verdict": "confirm_error",
+    "suggested": "Niu",
+    "reason": "Niou is a non-Pinyin full-form spelling. The Pinyin syllable is niú (kHanyuPinyin), with yóu as the alternate. This is an orthography error, not a reading change."
+  },
+  {
+    "codepoint": "U+6CCE",
+    "verdict": "confirm_error",
+    "suggested": "Ze",
+    "reason": "zé is corroborated by kHanyuPinyin. Zhuo is wrong."
+  },
+  {
+    "codepoint": "U+6CFA",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is luò (kXHC1983 also lists pō). Bo may follow the 泊 bó variant. Not evidenced, so language and sense must be specified."
+  },
+  {
+    "codepoint": "U+6D1F",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 以脂 gives yí, and Cantonese ji4 and Japanese I support Yi. kHanyuPinyin and kXHC1983 give tì."
+  },
+  {
+    "codepoint": "U+6D7B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 烏猛 gives wěng, so Weng is attested. Default is jiǒng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+6DC6",
+    "verdict": "prefer_default",
+    "suggested": "Xiao",
+    "reason": "xiáo is strongly corroborated. yáo is an older or Taiwan-style variant."
+  },
+  {
+    "codepoint": "U+6DF2",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 皮彪 gives piāo, so Piao is attested. Default is biāo (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+6E11",
+    "verdict": "confirm_error",
+    "suggested": "Mian",
+    "reason": "miǎn per kXHC1983 and kTGHZ2013 (alternate shéng). Min drops the a."
+  },
+  {
+    "codepoint": "U+6E3B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 息井 gives xǐng, so Xing is attested. Default is shěng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+6E68",
+    "verdict": "confirm_error",
+    "suggested": "Ju",
+    "reason": "jú is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Qu is a wrong consonant."
+  },
+  {
+    "codepoint": "U+6E6D",
+    "verdict": "confirm_error",
+    "suggested": "Qiu",
+    "reason": "Qiou is a non-Pinyin full-form spelling. The Pinyin syllable is qiú (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+6E87",
+    "verdict": "confirm_error",
+    "suggested": "Lou",
+    "reason": "lóu is corroborated by kXHC1983 and kTGHZ2013. Lu is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6EA8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 昨哉 gives cái, so Cai is attested. kMandarin default is zāi."
+  },
+  {
+    "codepoint": "U+6EBE",
+    "verdict": "confirm_error",
+    "suggested": "Ai",
+    "reason": "āi is corroborated by kHanyuPinyin and Cantonese aai1. Wei is wrong."
+  },
+  {
+    "codepoint": "U+6F05",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 子小 gives jiǎo, so Jiao is attested. Default is cháo (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+6F27",
+    "verdict": "confirm_error",
+    "suggested": "Gan",
+    "reason": "gān is corroborated by kHanyuPinyin and fanqie 古寒. Qian is wrong."
+  },
+  {
+    "codepoint": "U+6F68",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 職戎 gives zhōng, so Zhong is attested. Default is cóng (alternate zōng)."
+  },
+  {
+    "codepoint": "U+6F8B",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives hòng. Korean HOYNG and Cantonese wang6 support héng/hèng-type readings. Language must be specified."
+  },
+  {
+    "codepoint": "U+6FF4",
+    "verdict": "prefer_default",
+    "suggested": "Ying",
+    "reason": "yíng per kHanyuPinyin and Cantonese jing4. Xing may follow the 滎 xíng variant, which is not evidenced here."
+  },
+  {
+    "codepoint": "U+7025",
+    "verdict": "prefer_default",
+    "suggested": "Xue",
+    "reason": "xuè per kHanyuPinyin and fanqie 許角. Hao appears to track Cantonese hou6."
+  },
+  {
+    "codepoint": "U+7073",
+    "verdict": "confirm_error",
+    "suggested": "Hui",
+    "reason": "Hu drops the i. kMandarin gives huī and Cantonese fai1 agrees."
+  },
+  {
+    "codepoint": "U+70A8",
+    "verdict": "prefer_default",
+    "suggested": "Xie",
+    "reason": "kMandarin xiè and Cantonese se3 agree. Duo is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+70C6",
+    "verdict": "confirm_error",
+    "suggested": "Heng",
+    "reason": "héng is corroborated by kHanyuPinyin and Cantonese hang4. Xing is wrong."
+  },
+  {
+    "codepoint": "U+70FC",
+    "verdict": "confirm_error",
+    "suggested": "Xu",
+    "reason": "xù is corroborated by kHanyuPinyin and fanqie 許勿. Hu is wrong."
+  },
+  {
+    "codepoint": "U+7154",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 他念 gives tiàn, so Tian is attested. Default is shǎn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7175",
+    "verdict": "prefer_default",
+    "suggested": "Nan",
+    "reason": "kMandarin nǎn and Cantonese naam4 agree. Xia is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+71AE",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 落蕭 gives liáo, so Liao is attested. Default is liǔ (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+71DB",
+    "verdict": "prefer_default",
+    "suggested": "Jiong",
+    "reason": "kMandarin jiǒng. Jing is close but unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+71FE",
+    "verdict": "confirm_error",
+    "suggested": "Dao",
+    "reason": "kHanyuPinyin, kXHC1983 and kSMSZD2003 give dào/tāo. Chou is unsupported. Tao is a valid alternate."
+  },
+  {
+    "codepoint": "U+7289",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 如勻 gives rún, so Run is attested. Default is chún (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+72AD",
+    "verdict": "confirm_error",
+    "suggested": "Quan",
+    "reason": "The radical form of 犬 is quǎn. Fan is wrong."
+  },
+  {
+    "codepoint": "U+72B5",
+    "verdict": "confirm_error",
+    "suggested": "Ge",
+    "reason": "kHanyuPinyin gives gē or hé. Jie matches neither."
+  },
+  {
+    "codepoint": "U+72D5",
+    "verdict": "prefer_default",
+    "suggested": "Yao",
+    "reason": "yǎo per kHanyuPinyin and fanqie 於絞. Ao follows Japanese OU, so uncertain."
+  },
+  {
+    "codepoint": "U+72EF",
+    "verdict": "confirm_error",
+    "suggested": "Kuai",
+    "reason": "kuài is corroborated by kXHC1983 and kTGHZ2013. Hua is wrong."
+  },
+  {
+    "codepoint": "U+7324",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 其季 gives jì, so Ji is attested. Default is guì (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+734A",
+    "verdict": "confirm_error",
+    "suggested": "Cang",
+    "reason": "cāng is corroborated by kHanyuPinyin and Cantonese cong1. Chuang is wrong."
+  },
+  {
+    "codepoint": "U+7394",
+    "verdict": "confirm_error",
+    "suggested": "Chuan",
+    "reason": "chuàn is corroborated by kHanyuPinyin and Cantonese cyun3. Quan is wrong."
+  },
+  {
+    "codepoint": "U+73A4",
+    "verdict": "confirm_error",
+    "suggested": "Bang",
+    "reason": "bàng is corroborated by kHanyuPinyin and kTGHZ2013. Beng is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7404",
+    "verdict": "confirm_error",
+    "suggested": "Xuan",
+    "reason": "xuàn is corroborated by kHanyuPinyin and kTGHZ2013. Quan is wrong."
+  },
+  {
+    "codepoint": "U+7420",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 多殄 gives diǎn, so Dian is attested. Default is tiǎn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7458",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 以遮 and Cantonese je4 give yé, so Ye is attested. kHanyuPinyin default is yá."
+  },
+  {
+    "codepoint": "U+748A",
+    "verdict": "confirm_error",
+    "suggested": "Men",
+    "reason": "mén is corroborated by kHanyuPinyin and kXHC1983. Man is a wrong vowel."
+  },
+  {
+    "codepoint": "U+74C1",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "wò is corroborated by kHanyuPinyin. Huo is a wrong consonant."
+  },
+  {
+    "codepoint": "U+74DF",
+    "verdict": "confirm_error",
+    "suggested": "Bo",
+    "reason": "kHanyuPinyin gives bó/páo. Bao is a wrong vowel."
+  },
+  {
+    "codepoint": "U+750F",
+    "verdict": "confirm_error",
+    "suggested": "Beng",
+    "reason": "bèng is strongly corroborated by four fields. Peng is a wrong consonant."
+  },
+  {
+    "codepoint": "U+7541",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 渠之 gives qí, so Qi is attested. kMandarin default is bì."
+  },
+  {
+    "codepoint": "U+757B",
+    "verdict": "prefer_default",
+    "suggested": "Cheng",
+    "reason": "chéng per kHanyuPinyin. Sheng follows Cantonese sing4 and is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+7592",
+    "verdict": "context_required",
+    "suggested": "Ne",
+    "reason": "The default radical name is nè (kMandarin, kHanyuPinyin). Chuang tracks fanqie 士莊 (chuáng), a legitimate alternate."
+  },
+  {
+    "codepoint": "U+75B7",
+    "verdict": "prefer_default",
+    "suggested": "Zhi",
+    "reason": "zhī per kHanyuPinyin. Qi is unsupported."
+  },
+  {
+    "codepoint": "U+75C3",
+    "verdict": "confirm_error",
+    "suggested": "Xuan",
+    "reason": "xuán is strongly corroborated by four fields. Xian is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7607",
+    "verdict": "confirm_error",
+    "suggested": "Zhong",
+    "reason": "Zhung is a typo. zhǒng is corroborated by kHanyuPinyin."
+  },
+  {
+    "codepoint": "U+7611",
+    "verdict": "confirm_error",
+    "suggested": "Guo",
+    "reason": "guō is corroborated by kHanyuPinyin. Gua is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7637",
+    "verdict": "confirm_error",
+    "suggested": "Se",
+    "reason": "sè is corroborated by kHanyuPinyin. Suo is a wrong vowel."
+  },
+  {
+    "codepoint": "U+765F",
+    "verdict": "confirm_error",
+    "suggested": "Bie",
+    "reason": "biě/bié/biē is strongly corroborated. Pie is a wrong consonant."
+  },
+  {
+    "codepoint": "U+7679",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 蒲撥 gives pō, so Po is attested. Default is bá (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+770D",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "The traditional form 瞘 has fanqie 烏侯 (ōu), so Ou is attested. kXHC1983 and kTGHZ2013 give kōu as the modern default."
+  },
+  {
+    "codepoint": "U+772E",
+    "verdict": "confirm_error",
+    "suggested": "Tong",
+    "reason": "tóng is corroborated by kHanyuPinyin and Cantonese tung4. Dong is wrong."
+  },
+  {
+    "codepoint": "U+773F",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives mò. Japanese MYAKU suggests a mài reading (variant of 脈). Mai is plausible but not evidenced in Mandarin fields."
+  },
+  {
+    "codepoint": "U+775A",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Yai is valid in Taiwan usage (yái). Mainland Pinyin default is yá, per four corroborating fields."
+  },
+  {
+    "codepoint": "U+7775",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 倉才 gives cāi/cái, so Cai is attested. Default is zāi (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7783",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "wò is corroborated by kHanyuPinyin. Wen is wrong."
+  },
+  {
+    "codepoint": "U+7798",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 烏侯 gives ōu, so Ou is attested. Default is kōu (kHanyuPinyin, kXHC1983, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+77CB",
+    "verdict": "prefer_default",
+    "suggested": "Lei",
+    "reason": "kMandarin lěi. Li is a wrong vowel. Single-field evidence."
+  },
+  {
+    "codepoint": "U+77F1",
+    "verdict": "confirm_error",
+    "suggested": "Yue",
+    "reason": "yuē is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Huo is wrong. Cantonese wok6 does not make it Mandarin."
+  },
+  {
+    "codepoint": "U+7808",
+    "verdict": "prefer_default",
+    "suggested": "E",
+    "reason": "kHanyuPinyin gives ě and Cantonese ngo5 agrees. Nuo is unsupported, but Japanese NA suggests a phonetic-component reading."
+  },
+  {
+    "codepoint": "U+7828",
+    "verdict": "prefer_default",
+    "suggested": "E",
+    "reason": "kHanyuPinyin gives è. Ai may follow Japanese AI, so uncertain."
+  },
+  {
+    "codepoint": "U+7848",
+    "verdict": "confirm_error",
+    "suggested": "Qia",
+    "reason": "qià is corroborated by kHanyuPinyin and fanqie 恪八. Jia is wrong."
+  },
+  {
+    "codepoint": "U+789A",
+    "verdict": "confirm_error",
+    "suggested": "Bei",
+    "reason": "bèi is strongly corroborated by four fields. Pei is a wrong consonant."
+  },
+  {
+    "codepoint": "U+78E2",
+    "verdict": "confirm_error",
+    "suggested": "Chuang",
+    "reason": "chuǎng is corroborated by kHanyuPinyin and fanqie 初兩. Qiang is wrong."
+  },
+  {
+    "codepoint": "U+790F",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "yè is corroborated by kHanyuPinyin. Ji is wrong."
+  },
+  {
+    "codepoint": "U+7945",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "The definition includes Ormazda (祆教), which is read xiān. kMandarin yāo is the default for the calamity sense. Context depends on sense."
+  },
+  {
+    "codepoint": "U+7994",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 杜奚 and Cantonese tai4 support tí. kHanyuPinyin and kTGHZ2013 default is zhī."
+  },
+  {
+    "codepoint": "U+79E1",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is bó (kHanyuPinyin). Cantonese bat3 and Japanese HATSU point to bá, so Ba is plausible. Language must be specified."
+  },
+  {
+    "codepoint": "U+7A66",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is pīn (kHanyuPinyin). Korean 빈 and the 賓 phonetic series support bīn. Language must be specified."
+  },
+  {
+    "codepoint": "U+7AA1",
+    "verdict": "confirm_error",
+    "suggested": "Zhuo",
+    "reason": "zhuó is corroborated by kHanyuPinyin and fanqie 丁滑/丁刮. Zhui is unsupported."
+  },
+  {
+    "codepoint": "U+7AD3",
+    "verdict": "prefer_default",
+    "suggested": "Hao",
+    "reason": "kMandarin háo (毫升, milliliter). Qian appears to read the 千 component. Single-field evidence."
+  },
+  {
+    "codepoint": "U+7AD8",
+    "verdict": "confirm_error",
+    "suggested": "Qu",
+    "reason": "qǔ is corroborated by kHanyuPinyin, kTGHZ2013 and fanqie 驅雨. Ju is wrong."
+  },
+  {
+    "codepoint": "U+7AF4",
+    "verdict": "confirm_error",
+    "suggested": "Cun",
+    "reason": "cūn is corroborated by kHanyuPinyin and fanqie 七倫. Cui is wrong."
+  },
+  {
+    "codepoint": "U+7B09",
+    "verdict": "confirm_error",
+    "suggested": "Qin",
+    "reason": "qǐn is corroborated by kHanyuPinyin and fanqie 七忍. Zhen is wrong."
+  },
+  {
+    "codepoint": "U+7B34",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 古我 and Cantonese go2 support gě. Default is gǎn (kHanyuPinyin, kXHC1983)."
+  },
+  {
+    "codepoint": "U+7B9E",
+    "verdict": "prefer_default",
+    "suggested": "Qian",
+    "reason": "qiān per kHanyuPinyin. Quan is unsupported. Cantonese hyun1 is ambiguous."
+  },
+  {
+    "codepoint": "U+7BF8",
+    "verdict": "prefer_default",
+    "suggested": "Can",
+    "reason": "cǎn per kMandarin, kXHC1983 and kSMSZD2003 (cēn is also listed). Sen is unsupported."
+  },
+  {
+    "codepoint": "U+7C0E",
+    "verdict": "confirm_error",
+    "suggested": "Ce",
+    "reason": "kHanyuPinyin gives cè or jí. Zha is unsupported."
+  },
+  {
+    "codepoint": "U+7C35",
+    "verdict": "prefer_default",
+    "suggested": "Lu",
+    "reason": "kMandarin lù and fanqie 洛故 agree. Du is unsupported."
+  },
+  {
+    "codepoint": "U+7C7A",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡結 gives xié, so Xie is attested. Default is hé (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7C9A",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "kMandarin chī and Cantonese ci1 agree. Li is unsupported."
+  },
+  {
+    "codepoint": "U+7CD1",
+    "verdict": "prefer_default",
+    "suggested": "Nuo",
+    "reason": "nuò is corroborated by kHanyuPinyin. Ni may follow Japanese DEKI, so uncertain."
+  },
+  {
+    "codepoint": "U+7D2A",
+    "verdict": "prefer_default",
+    "suggested": "Qi",
+    "reason": "kMandarin qī and Cantonese cai1 agree. Ci is a Cantonese-style initial. Single-field evidence."
+  },
+  {
+    "codepoint": "U+7D47",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 九遇 gives jù, so Ju is attested. Default is qú (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7D6F",
+    "verdict": "confirm_error",
+    "suggested": "Gai",
+    "reason": "gāi/hài is corroborated by kHanyuPinyin. Lun is unsupported."
+  },
+  {
+    "codepoint": "U+7DC6",
+    "verdict": "prefer_default",
+    "suggested": "Xi",
+    "reason": "xī is corroborated by kHanyuPinyin and fanqie 先擊. Yi follows the Japanese I reading, so uncertain."
+  },
+  {
+    "codepoint": "U+7E42",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is lǜ (kHanyuPinyin). Shuai reflects the sibling 率 shuài, which is plausible but not evidenced for this character."
+  },
+  {
+    "codepoint": "U+7E50",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡桂 gives huì, so Hui is attested. Default is suì (kHanyuPinyin, kXHC1983, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+7E77",
+    "verdict": "prefer_default",
+    "suggested": "Nong",
+    "reason": "nǒng per kHanyuPinyin and Cantonese nung5. Nao is unsupported."
+  },
+  {
+    "codepoint": "U+7ED7",
+    "verdict": "confirm_error",
+    "suggested": "Hang",
+    "reason": "háng is corroborated by kXHC1983 and kTGHZ2013. Heng is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7F32",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is qiāo (alternate sāo). Cantonese zou2 supports zǎo, which Zao may reflect. Language must be specified."
+  },
+  {
+    "codepoint": "U+7F59",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kMandarin shēn (variant of 深). Japanese BI/MI suggests mí (冞). Language must be specified."
+  },
+  {
+    "codepoint": "U+7F8D",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 他達 gives tà, so Ta is attested. Default is dá (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+7FD7",
+    "verdict": "confirm_error",
+    "suggested": "Ke",
+    "reason": "ké is corroborated by kHanyuPinyin and Cantonese ke4. Qi is wrong."
+  },
+  {
+    "codepoint": "U+8020",
+    "verdict": "confirm_error",
+    "suggested": "Huo",
+    "reason": "huō is strongly corroborated by four fields. He may mirror Cantonese hap6."
+  },
+  {
+    "codepoint": "U+8035",
+    "verdict": "confirm_error",
+    "suggested": "Ding",
+    "reason": "dīng is strongly corroborated by four fields. Ting is a wrong consonant."
+  },
+  {
+    "codepoint": "U+807B",
+    "verdict": "confirm_error",
+    "suggested": "Ni",
+    "reason": "nǐ (alternate jiàn) is corroborated by kHanyuPinyin and fanqie 乃里. Ji is wrong."
+  },
+  {
+    "codepoint": "U+80D0",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 苦骨 gives kū, so Ku is attested. kMandarin default is fěi."
+  },
+  {
+    "codepoint": "U+8118",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 古滿 and Cantonese gun2 support guǎn. Default is wǎn (kHanyuPinyin, kXHC1983, kTGHZ2013, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+8125",
+    "verdict": "confirm_error",
+    "suggested": "Qian",
+    "reason": "qiǎn is corroborated by kHanyuPinyin and fanqie 謙琰. Xie is unsupported."
+  },
+  {
+    "codepoint": "U+8149",
+    "verdict": "confirm_error",
+    "suggested": "Nai",
+    "reason": "nái is corroborated by kHanyuPinyin and Cantonese naai4. Jie is wrong."
+  },
+  {
+    "codepoint": "U+815B",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "wò is corroborated by kHanyuPinyin. Wu is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8168",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is shuàn (kHanyuPinyin, kTGHZ2013). Chuan may be a rarer reading; Japanese SEN supports an affricate-type reading. Language must be specified."
+  },
+  {
+    "codepoint": "U+81D2",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "wò is corroborated by kHanyuPinyin and fanqie 烏郭. Huo is unsupported."
+  },
+  {
+    "codepoint": "U+8215",
+    "verdict": "confirm_error",
+    "suggested": "Tan",
+    "reason": "tàn is corroborated by kHanyuPinyin and fanqie 吐濫. Dan is a wrong consonant."
+  },
+  {
+    "codepoint": "U+822D",
+    "verdict": "confirm_error",
+    "suggested": "Bi",
+    "reason": "bǐ is corroborated by kHanyuPinyin, kXHC1983 and kTGHZ2013. Que is wrong."
+  },
+  {
+    "codepoint": "U+8258",
+    "verdict": "prefer_default",
+    "suggested": "Sou",
+    "reason": "sōu is strongly corroborated by five fields. Sao is a common colloquial misreading."
+  },
+  {
+    "codepoint": "U+8288",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "芈 has mǐ (surname) and miē (sheep bleat); Mie corresponds to the latter. Default for the surname is Mi."
+  },
+  {
+    "codepoint": "U+82CE",
+    "verdict": "confirm_error",
+    "suggested": "Zhu",
+    "reason": "zhù is corroborated by kXHC1983 and kTGHZ2013. Meng is wrong."
+  },
+  {
+    "codepoint": "U+82DD",
+    "verdict": "confirm_error",
+    "suggested": "Bei",
+    "reason": "bèi is corroborated by kHanyuPinyin and fanqie 蒲昧. Pei is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8326",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives cì. Cantonese caak3 corresponds to cè, so Ce is plausible. Language must be specified."
+  },
+  {
+    "codepoint": "U+834D",
+    "verdict": "confirm_error",
+    "suggested": "Qiao",
+    "reason": "qiáo is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Shou is wrong."
+  },
+  {
+    "codepoint": "U+838C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 徒活 gives duó, so Duo is attested. kHanyuPinyin default is tuō."
+  },
+  {
+    "codepoint": "U+8432",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is xuān (kHanyuPinyin). Yuan follows the 爰 phonetic series and Japanese EN. Language must be specified."
+  },
+  {
+    "codepoint": "U+8445",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kXHC1983 gives zū. Cantonese zeoi1 supports a jū reading, which Ju may reflect. Language must be specified."
+  },
+  {
+    "codepoint": "U+8474",
+    "verdict": "confirm_error",
+    "suggested": "Zhen",
+    "reason": "zhēn is corroborated by kHanyuPinyin and kTGHZ2013 (alternate qián). Xian is unsupported."
+  },
+  {
+    "codepoint": "U+84A7",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is diǎn (kHanyuPinyin). Japanese SHIN supports a zhēn-type reading, which Zhen may reflect. Language must be specified."
+  },
+  {
+    "codepoint": "U+84E1",
+    "verdict": "prefer_default",
+    "suggested": "Shen",
+    "reason": "shēn per kXHC1983. Can reflects the 參 cān component, so uncertain."
+  },
+  {
+    "codepoint": "U+852E",
+    "verdict": "prefer_default",
+    "suggested": "Guo",
+    "reason": "kHanyuPinyin gives guó and Cantonese gwok3 agrees. Kui is unsupported."
+  },
+  {
+    "codepoint": "U+859B",
+    "verdict": "confirm_error",
+    "suggested": "Xue",
+    "reason": "xuē is strongly corroborated by four fields. Xie is a wrong vowel."
+  },
+  {
+    "codepoint": "U+85E0",
+    "verdict": "confirm_error",
+    "suggested": "Jiao",
+    "reason": "jiào is strongly corroborated by four fields. Xiao is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8610",
+    "verdict": "confirm_error",
+    "suggested": "Xuan",
+    "reason": "xuān is corroborated by kXHC1983 and kMandarin. Xian is a wrong vowel."
+  },
+  {
+    "codepoint": "U+862A",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives méi. Korean 미 and Japanese BI/MI suggest mí (蘪蕪). Language must be specified."
+  },
+  {
+    "codepoint": "U+8686",
+    "verdict": "prefer_default",
+    "suggested": "Ba",
+    "reason": "bā is corroborated by kHanyuPinyin and kTGHZ2013. Fanqie 普巴 gives pā, so Pa is historical."
+  },
+  {
+    "codepoint": "U+86AE",
+    "verdict": "prefer_default",
+    "suggested": "Dai",
+    "reason": "kMandarin dài. Te may follow Japanese TOKU, so uncertain. Single-field evidence."
+  },
+  {
+    "codepoint": "U+86EC",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 居悚 gives gǒng, so Gong is attested. Default is qióng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+86F6",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 力輟 gives liè, so Lie is attested. Default is jiè (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8717",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "wō is corroborated by kXHC1983, kTGHZ2013 and kHanyuPinlu. Gua follows the 呙 component and is wrong."
+  },
+  {
+    "codepoint": "U+8750",
+    "verdict": "confirm_error",
+    "suggested": "Mao",
+    "reason": "mào is corroborated by kHanyuPinyin and Cantonese mou6. Mai is a wrong vowel."
+  },
+  {
+    "codepoint": "U+877A",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives qǔ and yǔ. Cantonese geoi2 corresponds to jǔ, so Ju is plausible. Language must be specified."
+  },
+  {
+    "codepoint": "U+87A4",
+    "verdict": "prefer_default",
+    "suggested": "Zhong",
+    "reason": "zhōng is corroborated by kHanyuPinyin and Cantonese zung1. Yu is unsupported."
+  },
+  {
+    "codepoint": "U+8808",
+    "verdict": "confirm_error",
+    "suggested": "Zei",
+    "reason": "Ze drops the i. kHanyuPinyin gives zéi."
+  },
+  {
+    "codepoint": "U+882F",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 蒲幸 gives bèng/bàng, so Beng is attested. kMandarin default is pí."
+  },
+  {
+    "codepoint": "U+8847",
+    "verdict": "confirm_error",
+    "suggested": "Mai",
+    "reason": "mài is corroborated by kXHC1983 (variant of 脈). Mo is wrong."
+  },
+  {
+    "codepoint": "U+8878",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡介 gives xiè, so Xie is attested. Default is jiè (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+88A8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 黃練 gives xiàn, so Xian is attested. Default is xuàn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+88B8",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 徂尊 gives cún, so Cun is attested. Default is jiàn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8901",
+    "verdict": "prefer_default",
+    "suggested": "Guo",
+    "reason": "kMandarin guǒ (variant of 裹). Zhi is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+8941",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 居兩 and Cantonese goeng5 support jiǎng. Default is qiǎng (four fields)."
+  },
+  {
+    "codepoint": "U+8985",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kMandarin fiào is a Wu-dialect contraction of 不要 and is not standard Pinyin. Biao parallels 嫑 as a Mandarin approximation. Language must be specified."
+  },
+  {
+    "codepoint": "U+89D3",
+    "verdict": "confirm_error",
+    "suggested": "Qiu",
+    "reason": "qiú is corroborated by kHanyuPinyin and fanqie 渠幽. Jiu is wrong."
+  },
+  {
+    "codepoint": "U+8A2F",
+    "verdict": "confirm_error",
+    "suggested": "Sa",
+    "reason": "sǎ is corroborated by kHanyuPinyin. Sha is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8A4F",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives yào. Cantonese aau3 corresponds to ào, so Ao is plausible for the (Cant.) sense. Language must be specified."
+  },
+  {
+    "codepoint": "U+8A8E",
+    "verdict": "confirm_error",
+    "suggested": "Cu",
+    "reason": "cù is corroborated by kHanyuPinyin and fanqie 七玉. Su is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8AA7",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 普胡 gives pū, so Pu is attested. Default is bū (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8ACC",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "諌 is the Japanese variant of 諫 (jiàn; Japanese KAN), so Jian is the ordinary reading in that context. The Unicode kMandarin dǒng is a different Chinese-character reading."
+  },
+  {
+    "codepoint": "U+8AEF",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 尺絹 gives chuàn, so Chuan is attested. Default is zhuān (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8B08",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 蒲角 gives bó/bào, so Bo is attested. Default is pó/páo (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8B1E",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 許角 gives xuè, so Xue is attested. Default is hè/xiāo (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8B55",
+    "verdict": "prefer_default",
+    "suggested": "Wu",
+    "reason": "kHanyuPinyin gives wú and mó. Mu has no Mandarin support and follows Japanese reading."
+  },
+  {
+    "codepoint": "U+8B7A",
+    "verdict": "confirm_error",
+    "suggested": "Ai",
+    "reason": "kHanyuPinyin gives ài, yǐ, nǐ, yì or yí. Ye matches none."
+  },
+  {
+    "codepoint": "U+8BCC",
+    "verdict": "confirm_error",
+    "suggested": "Zhou",
+    "reason": "zhōu is corroborated by kXHC1983 and kTGHZ2013. Zou is wrong."
+  },
+  {
+    "codepoint": "U+8C3B",
+    "verdict": "confirm_error",
+    "suggested": "Ji",
+    "reason": "jí is corroborated by kHanyuPinyin and fanqie 几劇. Jue is wrong."
+  },
+  {
+    "codepoint": "U+8C7B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 侯旰 gives hàn, so Han is attested. Default is àn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8CC3",
+    "verdict": "confirm_error",
+    "suggested": "Lin",
+    "reason": "lìn is corroborated by kHanyuPinyin and kSMSZD2003. Ren is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8D03",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "The sense to earn is a variant of 賺 (zhuàn/zuàn). kHanyuPinyin default is wàn."
+  },
+  {
+    "codepoint": "U+8D55",
+    "verdict": "confirm_error",
+    "suggested": "Dan",
+    "reason": "dǎn is corroborated by kXHC1983 and kTGHZ2013. Tan is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8D89",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is jué (alternate jú). Japanese CHUTSU hints at a zhú-type reading from the 朮 component. Language must be specified."
+  },
+  {
+    "codepoint": "U+8DF6",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Cantonese taat3 and fanqie of the traditional form give tà, so Ta is attested. Default is da (kMandarin, kTGHZ2013)."
+  },
+  {
+    "codepoint": "U+8E37",
+    "verdict": "confirm_error",
+    "suggested": "Zha",
+    "reason": "zhǎ is corroborated by kHanyuPinyin. Zhe is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8E5C",
+    "verdict": "confirm_error",
+    "suggested": "Su",
+    "reason": "sù is corroborated by kHanyuPinyin, kXHC1983 and kTGHZ2013. Suo is wrong."
+  },
+  {
+    "codepoint": "U+8E82",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 他達 gives tà, so Ta is attested. Default is dá (kHanyuPinyin, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+8ED6",
+    "verdict": "confirm_error",
+    "suggested": "Kuang",
+    "reason": "kuáng is corroborated by kHanyuPinyin and Cantonese kwong4. Qiang is wrong."
+  },
+  {
+    "codepoint": "U+8EE6",
+    "verdict": "confirm_error",
+    "suggested": "Kuang",
+    "reason": "kuàng is corroborated by kHanyuPinyin. Huang is a wrong consonant."
+  },
+  {
+    "codepoint": "U+8F01",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 渠容 gives qióng, so Qiong is attested. Default is gǒng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8F27",
+    "verdict": "prefer_default",
+    "suggested": "Ping",
+    "reason": "kHanyuPinyin gives píng or pēng. Pian follows the 軿 and Japanese HEN readings, so uncertain."
+  },
+  {
+    "codepoint": "U+8F4D",
+    "verdict": "confirm_error",
+    "suggested": "Zhe",
+    "reason": "zhé is corroborated by kHanyuPinyin and kSMSZD2003. Che is wrong; it echoes 車."
+  },
+  {
+    "codepoint": "U+8F5E",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡黤 gives xiàn, so Xian is attested. Default is jiàn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+8F99",
+    "verdict": "confirm_error",
+    "suggested": "Zhe",
+    "reason": "zhé is corroborated by kXHC1983 and kTGHZ2013. Che is wrong; it echoes 车."
+  },
+  {
+    "codepoint": "U+8FF5",
+    "verdict": "prefer_default",
+    "suggested": "Dong",
+    "reason": "dòng per kHanyuPinyin and Cantonese dung6. Tong may follow the 通 component, so uncertain."
+  },
+  {
+    "codepoint": "U+906A",
+    "verdict": "confirm_error",
+    "suggested": "Ca",
+    "reason": "cà is corroborated by kHanyuPinyin. Ce is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9103",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 羊朱 gives yú, so Yu is attested. Default is shū (kHanyuPinyin, kXHC1983, kTGHZ2013)."
+  },
+  {
+    "codepoint": "U+9129",
+    "verdict": "prefer_default",
+    "suggested": "Xun",
+    "reason": "xún is corroborated by kHanyuPinyin and kXHC1983. Xin matches fanqie 徐林 (xín), which is historical."
+  },
+  {
+    "codepoint": "U+918A",
+    "verdict": "confirm_error",
+    "suggested": "Zhui",
+    "reason": "zhuì is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Chuo is unsupported."
+  },
+  {
+    "codepoint": "U+91A6",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 所斬 gives shǎn, so Shan is attested. Default is chěn/chǎn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+91C3",
+    "verdict": "confirm_error",
+    "suggested": "Shai",
+    "reason": "shāi/shī/lí is corroborated by three fields. Xi has no Mandarin support."
+  },
+  {
+    "codepoint": "U+9206",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "鉛 is read yán in place names such as 鉛山, and Cantonese jyun4 agrees. Default is qiān (kMandarin)."
+  },
+  {
+    "codepoint": "U+921F",
+    "verdict": "prefer_default",
+    "suggested": "Diao",
+    "reason": "kMandarin diào; Japanese CHOU and Korean CO agree with d/t-initial. Shi is unsupported."
+  },
+  {
+    "codepoint": "U+9233",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 烏何 gives ē, so E is attested. Default is kē (kHanyuPinyin, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+9246",
+    "verdict": "prefer_default",
+    "suggested": "Chan",
+    "reason": "chān per kHanyuPinyin (alternates qián, tiē). Zhan is plausible via the 占 phonetic but not evidenced."
+  },
+  {
+    "codepoint": "U+92A9",
+    "verdict": "confirm_error",
+    "suggested": "Diu",
+    "reason": "Diou is a non-Pinyin full-form spelling. The Pinyin syllable is diū."
+  },
+  {
+    "codepoint": "U+92E5",
+    "verdict": "prefer_default",
+    "suggested": "Zeng",
+    "reason": "zèng is corroborated by kHanyuPinyin and kSMSZD2003. Zheng follows the 正 phonetic."
+  },
+  {
+    "codepoint": "U+9323",
+    "verdict": "prefer_default",
+    "suggested": "Zhui",
+    "reason": "zhuì is the default (alternate chuò). Zhuo matches neither, though fanqie 丁刮 hints at zhuō."
+  },
+  {
+    "codepoint": "U+9355",
+    "verdict": "confirm_error",
+    "suggested": "Jun",
+    "reason": "jūn is corroborated by kHanyuPinyin and Cantonese gwan1. Rou is wrong."
+  },
+  {
+    "codepoint": "U+9388",
+    "verdict": "confirm_error",
+    "suggested": "Suo",
+    "reason": "suǒ is the default (alternate chā). Chuo matches neither."
+  },
+  {
+    "codepoint": "U+93FC",
+    "verdict": "confirm_error",
+    "suggested": "Se",
+    "reason": "sè is corroborated by kHanyuPinyin. Suo is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9414",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 徒含 and Cantonese taam4 support tán, and Japanese TAN agrees. kHanyuPinyin default is xín."
+  },
+  {
+    "codepoint": "U+9486",
+    "verdict": "confirm_error",
+    "suggested": "Ga",
+    "reason": "gá is corroborated by kXHC1983 and kTGHZ2013. Qiu is wrong."
+  },
+  {
+    "codepoint": "U+9496",
+    "verdict": "confirm_error",
+    "suggested": "Yang",
+    "reason": "yáng is corroborated by kXHC1983 and kTGHZ2013. Xi follows the 锡 component."
+  },
+  {
+    "codepoint": "U+94BD",
+    "verdict": "confirm_error",
+    "suggested": "Tan",
+    "reason": "tǎn is corroborated by kXHC1983 and kTGHZ2013. Dan is a wrong consonant."
+  },
+  {
+    "codepoint": "U+94EA",
+    "verdict": "confirm_error",
+    "suggested": "Ha",
+    "reason": "hā is corroborated by kXHC1983 and kTGHZ2013. Jia is wrong."
+  },
+  {
+    "codepoint": "U+9513",
+    "verdict": "confirm_error",
+    "suggested": "Qin",
+    "reason": "qǐn is corroborated by kXHC1983 and kTGHZ2013. Qian is wrong."
+  },
+  {
+    "codepoint": "U+951E",
+    "verdict": "confirm_error",
+    "suggested": "Ke",
+    "reason": "kè is corroborated by kXHC1983 and kTGHZ2013. Kua is wrong."
+  },
+  {
+    "codepoint": "U+959A",
+    "verdict": "confirm_error",
+    "suggested": "Zhan",
+    "reason": "zhān is corroborated by kHanyuPinyin. Jian is wrong."
+  },
+  {
+    "codepoint": "U+9656",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 私閏 and Cantonese zeon3 give xùn, so Xun is attested. Default is jùn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+96BC",
+    "verdict": "confirm_error",
+    "suggested": "Sun",
+    "reason": "sǔn is strongly corroborated by four fields. Zhun follows Cantonese and Japanese readings and is wrong for Pinyin."
+  },
+  {
+    "codepoint": "U+96F4",
+    "verdict": "confirm_error",
+    "suggested": "Chi",
+    "reason": "chì is corroborated by kHanyuPinyin and fanqie 丑入. Li is wrong."
+  },
+  {
+    "codepoint": "U+96FF",
+    "verdict": "confirm_error",
+    "suggested": "Diao",
+    "reason": "diào is corroborated by kHanyuPinyin and Cantonese diu6. Zhao is wrong."
+  },
+  {
+    "codepoint": "U+9714",
+    "verdict": "confirm_error",
+    "suggested": "Zhu",
+    "reason": "zhù is corroborated by kHanyuPinyin and fanqie 之戍. Chou is wrong."
+  },
+  {
+    "codepoint": "U+972F",
+    "verdict": "confirm_error",
+    "suggested": "Teng",
+    "reason": "tèng is corroborated by kHanyuPinyin and Cantonese tang3. Deng is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9782",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 古黠 gives jiá, so Jia is attested. kMandarin default is jiē."
+  },
+  {
+    "codepoint": "U+97A5",
+    "verdict": "confirm_error",
+    "suggested": "Eng",
+    "reason": "ēng is corroborated by kHanyuPinyin, kXHC1983 and kSMSZD2003. Yi is wrong."
+  },
+  {
+    "codepoint": "U+97D7",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 虚願 gives xùn, so Xun is attested. Default is yùn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+97FD",
+    "verdict": "prefer_default",
+    "suggested": "An",
+    "reason": "ān is corroborated by kHanyuPinyin. Yin is plausible via the 音 phonetic and Japanese IN, so uncertain."
+  },
+  {
+    "codepoint": "U+9822",
+    "verdict": "prefer_default",
+    "suggested": "Kuo",
+    "reason": "kuò is corroborated by kHanyuPinyin. Gua may reflect the 括 guā series, so uncertain."
+  },
+  {
+    "codepoint": "U+9831",
+    "verdict": "confirm_error",
+    "suggested": "Luo",
+    "reason": "luō is corroborated by kHanyuPinyin. Le is unsupported."
+  },
+  {
+    "codepoint": "U+9843",
+    "verdict": "prefer_default",
+    "suggested": "Tan",
+    "reason": "tán/shǎn per kHanyuPinyin. Yan follows Japanese EN and is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+985F",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives láo. Japanese RYOU supports liáo, so Liao is plausible. Language must be specified."
+  },
+  {
+    "codepoint": "U+9864",
+    "verdict": "confirm_error",
+    "suggested": "Yao",
+    "reason": "yáo/qiào is corroborated by kHanyuPinyin. Rao is wrong."
+  },
+  {
+    "codepoint": "U+988C",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "hé is corroborated by kXHC1983 and kTGHZ2013 (alternate gé). Han belongs to 颔 and is wrong here."
+  },
+  {
+    "codepoint": "U+98CD",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives xiū. Japanese HYUU supports a biāo-type reading of the 飆 family. Language must be specified."
+  },
+  {
+    "codepoint": "U+990B",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives juàn. Japanese YOU supports yǎng/yàng via the 養 component. Language must be specified."
+  },
+  {
+    "codepoint": "U+9956",
+    "verdict": "prefer_default",
+    "suggested": "Wei",
+    "reason": "wèi is corroborated by kHanyuPinyin and fanqie 於廢. Hui may follow Japanese E, so uncertain."
+  },
+  {
+    "codepoint": "U+997B",
+    "verdict": "confirm_error",
+    "suggested": "Xi",
+    "reason": "xī is corroborated by kXHC1983 and kTGHZ2013. Yi is wrong."
+  },
+  {
+    "codepoint": "U+99AA",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Default is pīn (kHanyuPinyin). Korean 빈 and the 賓 series support bīn. Language must be specified."
+  },
+  {
+    "codepoint": "U+99CA",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 布火 gives bǒ, so Bo is attested. Default is pǒ (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9A14",
+    "verdict": "confirm_error",
+    "suggested": "Ge",
+    "reason": "gé is corroborated by kHanyuPinyin and Cantonese got3. Jie is wrong."
+  },
+  {
+    "codepoint": "U+9A2F",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 步光 gives páng, so Pang is attested. Default is péng (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9A53",
+    "verdict": "prefer_default",
+    "suggested": "Ceng",
+    "reason": "céng is corroborated by kHanyuPinyin and Cantonese cang4. Zeng follows the 增 phonetic."
+  },
+  {
+    "codepoint": "U+9A61",
+    "verdict": "confirm_error",
+    "suggested": "Long",
+    "reason": "lóng/zǎng is corroborated by kHanyuPinyin. Peng is unsupported."
+  },
+  {
+    "codepoint": "U+9AB3",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "kHanyuPinyin gives bèi. Japanese HI/BI supports a bì-type reading. Language must be specified."
+  },
+  {
+    "codepoint": "U+9AD0",
+    "verdict": "confirm_error",
+    "suggested": "Xiao",
+    "reason": "xiāo is corroborated by kHanyuPinyin and Cantonese haau1. Nao is wrong."
+  },
+  {
+    "codepoint": "U+9AEC",
+    "verdict": "confirm_error",
+    "suggested": "Pi",
+    "reason": "pī is corroborated by kHanyuPinyin and fanqie 敷悲. Peng is wrong."
+  },
+  {
+    "codepoint": "U+9AFA",
+    "verdict": "prefer_default",
+    "suggested": "Kuo",
+    "reason": "kuò/yuè per kHanyuPinyin. Gua may follow the 栝/括 guā series, so uncertain."
+  },
+  {
+    "codepoint": "U+9B35",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 昨鹽 gives qián, so Qian is attested. Default is qín/xín (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9B6C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Japanese HAN and fanqie 扶板 support a fǎn/fàn reading. Default is bǎn (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9BBA",
+    "verdict": "confirm_error",
+    "suggested": "Zha",
+    "reason": "zhǎ is corroborated by kHanyuPinyin and kSMSZD2003. Za mirrors Cantonese zaa2 and is wrong for Pinyin."
+  },
+  {
+    "codepoint": "U+9BCC",
+    "verdict": "confirm_error",
+    "suggested": "Kao",
+    "reason": "kào is corroborated by kHanyuPinyin. Gao is wrong."
+  },
+  {
+    "codepoint": "U+9BF7",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 是義 gives shì, so Shi is attested. Default is tí (kHanyuPinyin, kSMSZD2003)."
+  },
+  {
+    "codepoint": "U+9C26",
+    "verdict": "confirm_error",
+    "suggested": "Zi",
+    "reason": "Z is truncated. zī is corroborated by kHanyuPinyin."
+  },
+  {
+    "codepoint": "U+9C6F",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 胡麥 and Japanese KAKU/WAKU support huò, so Huo is attested. kHanyuPinyin default is hù."
+  },
+  {
+    "codepoint": "U+9CA9",
+    "verdict": "confirm_error",
+    "suggested": "Huan",
+    "reason": "huàn is corroborated by kXHC1983 and kTGHZ2013. Wan mirrors Cantonese waan5."
+  },
+  {
+    "codepoint": "U+9CD1",
+    "verdict": "confirm_error",
+    "suggested": "Pang",
+    "reason": "páng is corroborated by kXHC1983 and kTGHZ2013. Fang is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9D01",
+    "verdict": "confirm_error",
+    "suggested": "Yao",
+    "reason": "Yiao is a non-Pinyin full-form spelling. The Pinyin syllable is yāo (alternate ǎo)."
+  },
+  {
+    "codepoint": "U+9D1C",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "cí is corroborated by kHanyuPinyin and fanqie 疾移. Zi is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9D27",
+    "verdict": "prefer_default",
+    "suggested": "Yu",
+    "reason": "kMandarin yù. Rong is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+9D36",
+    "verdict": "confirm_error",
+    "suggested": "Jia",
+    "reason": "jiá is corroborated by kHanyuPinyin and fanqie 古黠. Ji drops the a."
+  },
+  {
+    "codepoint": "U+9D4C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 以諸 gives yú, so Yu is attested. Default is tú (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9D67",
+    "verdict": "confirm_error",
+    "suggested": "Pi",
+    "reason": "pí is corroborated by kHanyuPinyin and fanqie 房脂. Ping is wrong."
+  },
+  {
+    "codepoint": "U+9DA4",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 王問 gives yùn, so Yun is attested. Default is kūn (kHanyuPinyin, kXHC1983)."
+  },
+  {
+    "codepoint": "U+9DB1",
+    "verdict": "confirm_error",
+    "suggested": "Xian",
+    "reason": "xiān is corroborated by kHanyuPinyin and fanqie 虚言. Xuan is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9DC0",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "cí is corroborated by kHanyuPinyin and kSMSZD2003. Zi is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9DCD",
+    "verdict": "prefer_default",
+    "suggested": "Xiao",
+    "reason": "kMandarin xiāo and Cantonese hiu1 agree. Jiao is unsupported. Single-field evidence."
+  },
+  {
+    "codepoint": "U+9DDA",
+    "verdict": "confirm_error",
+    "suggested": "Liu",
+    "reason": "liù is corroborated by kHanyuPinyin and kSMSZD2003. Liao is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9DE4",
+    "verdict": "confirm_error",
+    "suggested": "Ti",
+    "reason": "tí/tán is corroborated by kHanyuPinyin and fanqie 杜奚. Quan is wrong."
+  },
+  {
+    "codepoint": "U+9E0C",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Taiwan usage reads 鸌 as huò, and Cantonese wok3 agrees. kHanyuPinyin default is hù."
+  },
+  {
+    "codepoint": "U+9E5A",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "cí is corroborated by kXHC1983 and kTGHZ2013. Zi is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9E62",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "yì is corroborated by kXHC1983 and kTGHZ2013. Ni is wrong."
+  },
+  {
+    "codepoint": "U+9E71",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "The traditional form 鸌 is read huò in Taiwan usage. Mainland default is hù (kXHC1983, kTGHZ2013)."
+  },
+  {
+    "codepoint": "U+9EA7",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "hé is corroborated by kHanyuPinyin and fanqie 下没. Ge is wrong."
+  },
+  {
+    "codepoint": "U+9ECA",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 戶圭 gives xī, and Japanese KEI agrees, so Xi is attested. kHanyuPinyin default is huà."
+  },
+  {
+    "codepoint": "U+9EE5",
+    "verdict": "confirm_error",
+    "suggested": "Qing",
+    "reason": "qíng is strongly corroborated by four fields. Jing is a wrong consonant."
+  },
+  {
+    "codepoint": "U+9F06",
+    "verdict": "prefer_default",
+    "suggested": "Meng",
+    "reason": "méng/měng per kHanyuPinyin. Mang may follow Japanese BOU, so uncertain."
+  },
+  {
+    "codepoint": "U+9F36",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Fanqie 杜奚 gives tí, so Ti is attested. Default is sī (kHanyuPinyin)."
+  },
+  {
+    "codepoint": "U+9F57",
+    "verdict": "confirm_error",
+    "suggested": "Yin",
+    "reason": "yín is corroborated by kHanyuPinyin and kSMSZD2003. Ken is wrong."
+  },
+  {
+    "codepoint": "U+9F5E",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "yǎn is corroborated by kHanyuPinyin and fanqie 研峴. Nian is wrong."
+  },
+  {
+    "codepoint": "U+9F73",
+    "verdict": "confirm_error",
+    "suggested": "Yun",
+    "reason": "yǔn is corroborated by kHanyuPinyin and fanqie 魚吻. Nen is wrong."
+  },
+  {
+    "codepoint": "U+9F82",
+    "verdict": "confirm_error",
+    "suggested": "Yin",
+    "reason": "yín is corroborated by kXHC1983 and kTGHZ2013. Ken is wrong."
+  },
+  {
+    "codepoint": "U+9F98",
+    "verdict": "confirm_error",
+    "suggested": "Da",
+    "reason": "dá is corroborated by kHanyuPinyin and Cantonese daap6. Ta is a wrong consonant."
+  }
+]

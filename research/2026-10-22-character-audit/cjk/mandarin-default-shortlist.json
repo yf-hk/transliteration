@@ -1,0 +1,1683 @@
+[
+  {
+    "codepoint": "U+5B6C",
+    "char": "孬",
+    "name": "CJK UNIFIED IDEOGRAPH-5B6C",
+    "current": "Huai ",
+    "readings": {
+      "kCantonese": "naau1",
+      "kDefinition": "bad; cowardly",
+      "kHanyuPinyin": "80018.100:nāo",
+      "kJapanese": "カイ ケ",
+      "kMandarin": "nāo",
+      "kSMSZD2003Readings": "nāo粵naau1",
+      "kTGHZ2013": "262.180:nāo",
+      "kXHC1983": "0819.020:nāo"
+    },
+    "accepted_readings": [
+      "nao"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "孬",
+        "D": "02954",
+        "H": "0",
+        "I": "ㄋㄠ",
+        "J": "  ",
+        "L": "nāo",
+        "lookup_char": "孬"
+      }
+    ],
+    "moe_readings": [
+      "nao"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Nao",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+5BE7",
+    "char": "寧",
+    "name": "CJK UNIFIED IDEOGRAPH-5BE7",
+    "current": "Zhu ",
+    "readings": {
+      "kCantonese": "ning4",
+      "kDefinition": "repose, serenity, peace; peaceful",
+      "kFanqie": "奴丁",
+      "kHangul": "녕:0E 령:0 영:0",
+      "kHanyuPinlu": "níng(13) nìng(9)",
+      "kHanyuPinyin": "20949.050:níng,nìng",
+      "kJapanese": "ネイ ニョウ いずくんぞ なんぞ むしろ やすい やすらか やすんじる",
+      "kJapaneseKun": "YASUI MUSHIRO NANZO",
+      "kJapaneseOn": "NEI NYOU",
+      "kKorean": "NYENG",
+      "kMandarin": "níng",
+      "kSMSZD2003Readings": "níng粵ning4 nìng粵ning4,ning6",
+      "kTang": "*neng neng",
+      "kXHC1983": "0835.111:níng 0836.021:nìng",
+      "kSemanticVariant": "U+5BCD<kMatthews U+21A34<kMeyerWempe",
+      "kSimplifiedVariant": "U+5B81"
+    },
+    "accepted_readings": [
+      "ning"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kHanyuPinlu",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "寧",
+        "D": "03107",
+        "H": "1",
+        "I": "ㄋㄧㄥˊ",
+        "J": "  ",
+        "L": "níng",
+        "lookup_char": "寧"
+      },
+      {
+        "A": "寧",
+        "D": "03118",
+        "H": "2",
+        "I": "ㄋㄧㄥˋ",
+        "J": "  ",
+        "L": "nìng",
+        "lookup_char": "寧"
+      }
+    ],
+    "moe_readings": [
+      "ning"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ning",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+60DA",
+    "char": "惚",
+    "name": "CJK UNIFIED IDEOGRAPH-60DA",
+    "current": "Bu ",
+    "readings": {
+      "kCantonese": "fat1",
+      "kDefinition": "absent-minded, confused",
+      "kFanqie": "呼骨",
+      "kHangul": "홀:0N",
+      "kHanyuPinlu": "hū(12)",
+      "kHanyuPinyin": "42317.130:hū",
+      "kJapanese": "コツ コチ ほれる ほうける ぼける",
+      "kJapaneseKun": "HORERU",
+      "kJapaneseOn": "KOTSU",
+      "kKorean": "HOL",
+      "kMandarin": "hū",
+      "kSMSZD2003Readings": "hū粵fat1",
+      "kTGHZ2013": "140.060:hū",
+      "kTang": "xuət",
+      "kVietnamese": "hốt",
+      "kXHC1983": "0472.020:hū"
+    },
+    "accepted_readings": [
+      "hu"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kHanyuPinlu",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "惚",
+        "D": "04943",
+        "H": "0",
+        "I": "ㄏㄨ",
+        "J": "  ",
+        "L": "hū",
+        "lookup_char": "惚"
+      }
+    ],
+    "moe_readings": [
+      "hu"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Hu",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+6251",
+    "char": "扑",
+    "name": "CJK UNIFIED IDEOGRAPH-6251",
+    "current": "Bu ",
+    "readings": {
+      "kCantonese": "pok3",
+      "kDefinition": "pound, beat, strike; attack",
+      "kFanqie": "普木",
+      "kHangul": "복:1N",
+      "kHanyuPinlu": "pū(140)",
+      "kHanyuPinyin": "31827.020:pū,pì",
+      "kJapanese": "ボク ホク ハク ホウ フ ヒョク ヒキ うつ むち むちうつ",
+      "kJapaneseKun": "KARUKUUTSU MUCHIUTSU",
+      "kJapaneseOn": "HOKU HAKU HOU FU",
+      "kKorean": "POK",
+      "kMandarin": "pū",
+      "kTGHZ2013": "288.050:pū",
+      "kVietnamese": "bốc",
+      "kXHC1983": "0888.010:pū",
+      "kSemanticVariant": "U+64B2<kLau,kMatthews",
+      "kSimplifiedVariant": "U+6251",
+      "kTraditionalVariant": "U+6251 U+64B2"
+    },
+    "accepted_readings": [
+      "pi",
+      "pu"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kHanyuPinlu"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "扑",
+        "D": "00981",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "扑"
+      },
+      {
+        "A": "扑",
+        "D": "00981",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "扑"
+      },
+      {
+        "A": "撲",
+        "D": "00984",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "撲"
+      }
+    ],
+    "moe_readings": [
+      "pu"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Pu",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+6482",
+    "char": "撂",
+    "name": "CJK UNIFIED IDEOGRAPH-6482",
+    "current": "Lue ",
+    "readings": {
+      "kCantonese": "liu1",
+      "kDefinition": "put down, put aside; drop",
+      "kFanqie": "離灼",
+      "kHanyuPinlu": "liào(12)",
+      "kHanyuPinyin": "31946.050:liào",
+      "kJapanese": "リャク",
+      "kMandarin": "liào",
+      "kSMSZD2003Readings": "liào粵liu1",
+      "kTGHZ2013": "223.100:liào",
+      "kXHC1983": "0712.050:liào",
+      "kSemanticVariant": "U+3A3C<kFenn"
+    },
+    "accepted_readings": [
+      "liao"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kHanyuPinlu",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "撂",
+        "D": "03548",
+        "H": "0",
+        "I": "ㄌㄧㄠˋ",
+        "J": "  ",
+        "L": "liào",
+        "lookup_char": "撂"
+      }
+    ],
+    "moe_readings": [
+      "liao"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Liao",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+65EF",
+    "char": "旯",
+    "name": "CJK UNIFIED IDEOGRAPH-65EF",
+    "current": "Xu ",
+    "readings": {
+      "kCantonese": "lo1",
+      "kDefinition": "nook, corner",
+      "kHanyuPinyin": "21485.060:lá",
+      "kMandarin": "lá",
+      "kSMSZD2003Readings": "lá粵lo1,lok1",
+      "kTGHZ2013": "206.050:lá",
+      "kXHC1983": "0668.040:lá"
+    },
+    "accepted_readings": [
+      "la"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "旯",
+        "D": "03172",
+        "H": "0",
+        "I": "ㄌㄚˊ",
+        "J": "  ",
+        "L": "lá",
+        "lookup_char": "旯"
+      }
+    ],
+    "moe_readings": [
+      "la"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "La",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+70C3",
+    "char": "烃",
+    "name": "CJK UNIFIED IDEOGRAPH-70C3",
+    "current": "Jing ",
+    "readings": {
+      "kCantonese": "ting1",
+      "kDefinition": "hydrocarbon",
+      "kMandarin": "tīng",
+      "kTGHZ2013": "367.150:tīng",
+      "kXHC1983": "1146.030:tīng",
+      "kTraditionalVariant": "U+70F4"
+    },
+    "accepted_readings": [
+      "ting"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "烴",
+        "D": "06584",
+        "H": "0",
+        "I": "ㄊㄧㄥ",
+        "J": "  ",
+        "L": "tīng",
+        "lookup_char": "烴"
+      }
+    ],
+    "moe_readings": [
+      "ting"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ting",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+762A",
+    "char": "瘪",
+    "name": "CJK UNIFIED IDEOGRAPH-762A",
+    "current": "Pie ",
+    "readings": {
+      "kCantonese": "bit6",
+      "kDefinition": "shrivelled up, dried up; vexed",
+      "kHanyuPinlu": "biě(13)",
+      "kMandarin": "biě",
+      "kTGHZ2013": "023.080:biē 023.140:biě",
+      "kXHC1983": "0073.030:biē 0074.010:biě",
+      "kTraditionalVariant": "U+765F"
+    },
+    "accepted_readings": [
+      "bie"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013",
+      "kHanyuPinlu"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "癟",
+        "D": "00431",
+        "H": "0",
+        "I": "ㄅㄧㄝˇ",
+        "J": "  ",
+        "L": "biě",
+        "lookup_char": "癟"
+      }
+    ],
+    "moe_readings": [
+      "bie"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Bie",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+765F",
+    "char": "癟",
+    "name": "CJK UNIFIED IDEOGRAPH-765F",
+    "current": "Pie ",
+    "readings": {
+      "kCantonese": "bit6",
+      "kDefinition": "shrivelled up, dried up; vexed",
+      "kFanqie": "蒲結 芳滅",
+      "kHanyuPinlu": "biě(13)",
+      "kHanyuPinyin": "42701.170:biě,bié,biē",
+      "kJapanese": "ヘツ ベチ",
+      "kJapaneseKun": "TOBENAI",
+      "kJapaneseOn": "HETSU BECHI",
+      "kMandarin": "biě",
+      "kSMSZD2003Readings": "biě粵bit6 biē粵bit6",
+      "kXHC1983": "0073.031:biē 0074.011:biě",
+      "kSimplifiedVariant": "U+762A"
+    },
+    "accepted_readings": [
+      "bie"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kHanyuPinlu",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "癟",
+        "D": "00431",
+        "H": "0",
+        "I": "ㄅㄧㄝˇ",
+        "J": "  ",
+        "L": "biě",
+        "lookup_char": "癟"
+      }
+    ],
+    "moe_readings": [
+      "bie"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Bie",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+7845",
+    "char": "硅",
+    "name": "CJK UNIFIED IDEOGRAPH-7845",
+    "current": "Huo ",
+    "readings": {
+      "kCantonese": "gwai1",
+      "kDefinition": "silicon (element 14, Si)",
+      "kFanqie": "虎伯",
+      "kHangul": "규:0N",
+      "kHanyuPinlu": "guī(14)",
+      "kHanyuPinyin": "42427.070:hè,guī",
+      "kJapanese": "ケイ カク キャク やぶる",
+      "kJapaneseOn": "KEI KAKU KYAKU",
+      "kKorean": "KYU",
+      "kMandarin": "guī",
+      "kSMSZD2003Readings": "guī粵gwai1",
+      "kTGHZ2013": "124.050:guī",
+      "kXHC1983": "0417.020:guī"
+    },
+    "accepted_readings": [
+      "gui",
+      "he"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kHanyuPinlu",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "硅",
+        "D": "04260",
+        "H": "0",
+        "I": "ㄍㄨㄟ",
+        "J": "  ",
+        "L": "guī",
+        "lookup_char": "硅"
+      }
+    ],
+    "moe_readings": [
+      "gui"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Gui",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+7C72",
+    "char": "籲",
+    "name": "CJK UNIFIED IDEOGRAPH-7C72",
+    "current": "Xu ",
+    "readings": {
+      "kCantonese": "jyu6",
+      "kDefinition": "appeal; request; implore",
+      "kFanqie": "羊戍",
+      "kHangul": "유:1N",
+      "kHanyuPinyin": "80034.070:yù",
+      "kJapanese": "ユ ヤク",
+      "kJapaneseKun": "YOBU",
+      "kJapaneseOn": "YU YAKU",
+      "kKorean": "YU",
+      "kMandarin": "yù",
+      "kSMSZD2003Readings": "yù粵jyu6",
+      "kXHC1983": "1415.011:yù",
+      "kSemanticVariant": "U+9FA5<kLau,kMatthews,kMeyerWempe",
+      "kSimplifiedVariant": "U+5401"
+    },
+    "accepted_readings": [
+      "yu"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "籲",
+        "D": "11724",
+        "H": "0",
+        "I": "ㄩˋ",
+        "J": "  ",
+        "L": "yù",
+        "lookup_char": "籲"
+      }
+    ],
+    "moe_readings": [
+      "yu"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Yu",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+7EBC",
+    "char": "纼",
+    "name": "CJK UNIFIED IDEOGRAPH-7EBC",
+    "current": "Yin ",
+    "readings": {
+      "kCantonese": "can2",
+      "kDefinition": "a rope for leading cattle or horse",
+      "kMandarin": "zhèn",
+      "kTGHZ2013": "472.130:zhèn",
+      "kXHC1983": "1471.010:zhèn",
+      "kTraditionalVariant": "U+7D16"
+    },
+    "accepted_readings": [
+      "zhen"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "紖",
+        "D": "07870",
+        "H": "0",
+        "I": "ㄓㄣˋ",
+        "J": "  ",
+        "L": "zhèn",
+        "lookup_char": "紖"
+      }
+    ],
+    "moe_readings": [
+      "zhen"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Zhen",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+7ECC",
+    "char": "绌",
+    "name": "CJK UNIFIED IDEOGRAPH-7ECC",
+    "current": "Zhuo ",
+    "readings": {
+      "kCantonese": "zyut3",
+      "kDefinition": "sew, stitch; insufficient",
+      "kMandarin": "chù",
+      "kTGHZ2013": "051.020:chù",
+      "kXHC1983": "0161.130:chù",
+      "kTraditionalVariant": "U+7D40"
+    },
+    "accepted_readings": [
+      "chu"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "絀",
+        "D": "08566",
+        "H": "0",
+        "I": "ㄔㄨˋ",
+        "J": "  ",
+        "L": "chù",
+        "lookup_char": "絀"
+      }
+    ],
+    "moe_readings": [
+      "chu"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Chu",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+7F9F",
+    "char": "羟",
+    "name": "CJK UNIFIED IDEOGRAPH-7F9F",
+    "current": "Qian ",
+    "readings": {
+      "kCantonese": "koeng5",
+      "kDefinition": "hydroxide",
+      "kMandarin": "qiǎng",
+      "kTGHZ2013": "298.160:qiǎng",
+      "kXHC1983": "0919.010:qiǎng",
+      "kTraditionalVariant": "U+7FA5"
+    },
+    "accepted_readings": [
+      "qiang"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "羥",
+        "D": "04553A",
+        "H": "2",
+        "I": "ㄎㄥ",
+        "J": "  ",
+        "L": "kēng",
+        "lookup_char": "羥"
+      },
+      {
+        "A": "羥",
+        "D": "06568",
+        "H": "1",
+        "I": "ㄑㄧㄤˇ",
+        "J": "  ",
+        "L": "qiǎng",
+        "lookup_char": "羥"
+      }
+    ],
+    "moe_readings": [
+      "keng",
+      "qiang"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Qiang",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+82CE",
+    "char": "苎",
+    "name": "CJK UNIFIED IDEOGRAPH-82CE",
+    "current": "Meng ",
+    "readings": {
+      "kCantonese": "cyu5",
+      "kDefinition": "china grass, ramie",
+      "kMandarin": "zhù",
+      "kTGHZ2013": "485.050:zhù",
+      "kXHC1983": "1513.010:zhù",
+      "kTraditionalVariant": "U+82E7"
+    },
+    "accepted_readings": [
+      "zhu"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "苧",
+        "D": "07988",
+        "H": "0",
+        "I": "ㄓㄨˋ",
+        "J": "  ",
+        "L": "zhù",
+        "lookup_char": "苧"
+      }
+    ],
+    "moe_readings": [
+      "zhu"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Zhu",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+859B",
+    "char": "薛",
+    "name": "CJK UNIFIED IDEOGRAPH-859B",
+    "current": "Xie ",
+    "readings": {
+      "kCantonese": "sit3",
+      "kDefinition": "kind of marsh grass; feudal state",
+      "kFanqie": "私列",
+      "kHangul": "설:0N",
+      "kHanyuPinyin": "53303.080:xuē",
+      "kJapanese": "セツ セチ",
+      "kJapaneseKun": "KAWARAYOMOGI HAMASUGE",
+      "kJapaneseOn": "SETSU SECHI",
+      "kKorean": "SEL",
+      "kMandarin": "xuē",
+      "kSMSZD2003Readings": "xuē粵sit3",
+      "kTGHZ2013": "416.050:xuē",
+      "kXHC1983": "1308.090:xuē"
+    },
+    "accepted_readings": [
+      "xue"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "薛",
+        "D": "07333",
+        "H": "0",
+        "I": "ㄒㄩㄝ",
+        "J": "  ",
+        "L": "xuē",
+        "lookup_char": "薛"
+      }
+    ],
+    "moe_readings": [
+      "xue"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Xue",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+8934",
+    "char": "褴",
+    "name": "CJK UNIFIED IDEOGRAPH-8934",
+    "current": "Bao ",
+    "readings": {
+      "kCantonese": "laam4",
+      "kDefinition": "ragged, tattered, threadbare",
+      "kMandarin": "lán",
+      "kTGHZ2013": "208.140:lán",
+      "kXHC1983": "0672.110:lán",
+      "kTraditionalVariant": "U+8964"
+    },
+    "accepted_readings": [
+      "lan"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "襤",
+        "D": "03332",
+        "H": "0",
+        "I": "ㄌㄢˊ",
+        "J": "  ",
+        "L": "lán",
+        "lookup_char": "襤"
+      }
+    ],
+    "moe_readings": [
+      "lan"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Lan",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+8941",
+    "char": "襁",
+    "name": "CJK UNIFIED IDEOGRAPH-8941",
+    "current": "Jiang ",
+    "readings": {
+      "kCantonese": "koeng5",
+      "kDefinition": "swaddling clothes",
+      "kFanqie": "居兩",
+      "kHangul": "강:0N",
+      "kHanyuPinyin": "53116.060:qiǎng",
+      "kJapanese": "キョウ コウ むつき",
+      "kJapaneseKun": "MUTSUKI",
+      "kJapaneseOn": "KYOU",
+      "kKorean": "KANG",
+      "kMandarin": "qiǎng",
+      "kSMSZD2003Readings": "qiǎng粵goeng5",
+      "kTGHZ2013": "299.020:qiǎng",
+      "kXHC1983": "0919.030:qiǎng",
+      "kSemanticVariant": "U+7E48<kMatthews,kMeyerWempe U+7E66<kMatthews"
+    },
+    "accepted_readings": [
+      "qiang"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "襁",
+        "D": "06565",
+        "H": "0",
+        "I": "ㄑㄧㄤˇ",
+        "J": "  ",
+        "L": "qiǎng",
+        "lookup_char": "襁"
+      }
+    ],
+    "moe_readings": [
+      "qiang"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Qiang",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9486",
+    "char": "钆",
+    "name": "CJK UNIFIED IDEOGRAPH-9486",
+    "current": "Qiu ",
+    "readings": {
+      "kCantonese": "gaa1",
+      "kDefinition": "gadolinium (element 64, Gd)",
+      "kMandarin": "gá",
+      "kTGHZ2013": "104.070:gá",
+      "kXHC1983": "0349.110:gá",
+      "kTraditionalVariant": "U+91D3"
+    },
+    "accepted_readings": [
+      "ga"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "釓",
+        "D": "03912",
+        "H": "0",
+        "I": "ㄍㄚˊ",
+        "J": "  ",
+        "L": "gá",
+        "lookup_char": "釓"
+      }
+    ],
+    "moe_readings": [
+      "ga"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ga",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+948C",
+    "char": "钌",
+    "name": "CJK UNIFIED IDEOGRAPH-948C",
+    "current": "Diao ",
+    "readings": {
+      "kCantonese": "liu5",
+      "kDefinition": "ruthenium (element 44, Ru)",
+      "kMandarin": "liǎo",
+      "kTGHZ2013": "223.030:liǎo 223.080:liào",
+      "kXHC1983": "0712.010:liǎo 0713.010:liào",
+      "kTraditionalVariant": "U+91D5"
+    },
+    "accepted_readings": [
+      "liao"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "釕",
+        "D": "03540",
+        "H": "1",
+        "I": "ㄌㄧㄠˇ",
+        "J": "  ",
+        "L": "liǎo",
+        "lookup_char": "釕"
+      },
+      {
+        "A": "釕",
+        "D": "03546",
+        "H": "2",
+        "I": "ㄌㄧㄠˋ",
+        "J": "  ",
+        "L": "liào",
+        "lookup_char": "釕"
+      }
+    ],
+    "moe_readings": [
+      "liao"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Liao",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9496",
+    "char": "钖",
+    "name": "CJK UNIFIED IDEOGRAPH-9496",
+    "current": "Xi ",
+    "readings": {
+      "kCantonese": "joeng4",
+      "kDefinition": "frontlet",
+      "kMandarin": "yáng",
+      "kTGHZ2013": "425.150:yáng",
+      "kXHC1983": "1337.020:yáng",
+      "kTraditionalVariant": "U+935A"
+    },
+    "accepted_readings": [
+      "yang"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鍚",
+        "D": "11149",
+        "H": "0",
+        "I": "ㄧㄤˊ",
+        "J": "  ",
+        "L": "yáng",
+        "lookup_char": "鍚"
+      }
+    ],
+    "moe_readings": [
+      "yang"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Yang",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+94C6",
+    "char": "铆",
+    "name": "CJK UNIFIED IDEOGRAPH-94C6",
+    "current": "Liu ",
+    "readings": {
+      "kCantonese": "maau5",
+      "kDefinition": "rivet",
+      "kMandarin": "mǎo",
+      "kTGHZ2013": "244.190:mǎo",
+      "kXHC1983": "0769.080:mǎo",
+      "kTraditionalVariant": "U+925A"
+    },
+    "accepted_readings": [
+      "mao"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鉚",
+        "D": "01174",
+        "H": "0",
+        "I": "ㄇㄠˇ",
+        "J": "  ",
+        "L": "mǎo",
+        "lookup_char": "鉚"
+      }
+    ],
+    "moe_readings": [
+      "mao"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Mao",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+94CA",
+    "char": "铊",
+    "name": "CJK UNIFIED IDEOGRAPH-94CA",
+    "current": "She ",
+    "readings": {
+      "kCantonese": "to4",
+      "kDefinition": "thallium (element 81, Tl)",
+      "kMandarin": "tā",
+      "kTGHZ2013": "355.050:tā 375.140:tuó",
+      "kXHC1983": "1106.040:tā 1173.071:tuó",
+      "kTraditionalVariant": "U+9248"
+    },
+    "accepted_readings": [
+      "ta",
+      "tuo"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鉈",
+        "D": "02413",
+        "H": "0",
+        "I": "ㄊㄚ",
+        "J": "  ",
+        "L": "tā",
+        "lookup_char": "鉈"
+      }
+    ],
+    "moe_readings": [
+      "ta"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ta",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+94EA",
+    "char": "铪",
+    "name": "CJK UNIFIED IDEOGRAPH-94EA",
+    "current": "Jia ",
+    "readings": {
+      "kCantonese": "hap6",
+      "kDefinition": "hafnium (element 72, Hf)",
+      "kMandarin": "hā",
+      "kTGHZ2013": "128.020:hā",
+      "kXHC1983": "0431.020:hā",
+      "kTraditionalVariant": "U+927F"
+    },
+    "accepted_readings": [
+      "ha"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鉿",
+        "D": "04712",
+        "H": "0",
+        "I": "ㄏㄚ",
+        "J": "  ",
+        "L": "hā",
+        "lookup_char": "鉿"
+      }
+    ],
+    "moe_readings": [
+      "ha"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ha",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9507",
+    "char": "锇",
+    "name": "CJK UNIFIED IDEOGRAPH-9507",
+    "current": "Tie ",
+    "readings": {
+      "kCantonese": "ngo4",
+      "kDefinition": "osmium (element 76, Os)",
+      "kMandarin": "é",
+      "kTGHZ2013": "086.110:é",
+      "kXHC1983": "0282.120:é",
+      "kTraditionalVariant": "U+92E8"
+    },
+    "accepted_readings": [
+      "e"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鋨",
+        "D": "10251",
+        "H": "0",
+        "I": "ㄜˊ",
+        "J": "  ",
+        "L": "é",
+        "lookup_char": "鋨"
+      }
+    ],
+    "moe_readings": [
+      "e"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "E",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9517",
+    "char": "锗",
+    "name": "CJK UNIFIED IDEOGRAPH-9517",
+    "current": "Duo ",
+    "readings": {
+      "kCantonese": "ze2",
+      "kDefinition": "germanium (element 32, Ge)",
+      "kMandarin": "zhě",
+      "kTGHZ2013": "470.070:zhě",
+      "kXHC1983": "1464.110:zhě",
+      "kTraditionalVariant": "U+937A"
+    },
+    "accepted_readings": [
+      "zhe"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鍺",
+        "D": "07677",
+        "H": "0",
+        "I": "ㄓㄜˇ",
+        "J": "  ",
+        "L": "zhě",
+        "lookup_char": "鍺"
+      }
+    ],
+    "moe_readings": [
+      "zhe"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Zhe",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9518",
+    "char": "锘",
+    "name": "CJK UNIFIED IDEOGRAPH-9518",
+    "current": "Tian ",
+    "readings": {
+      "kCantonese": "nok6",
+      "kDefinition": "nobelium (No)",
+      "kMandarin": "nuò",
+      "kTGHZ2013": "271.110:nuò",
+      "kXHC1983": "0844.030:nuò",
+      "kTraditionalVariant": "U+9369"
+    },
+    "accepted_readings": [
+      "nuo"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鍩",
+        "D": "03141",
+        "H": "0",
+        "I": "ㄋㄨㄛˋ",
+        "J": "  ",
+        "L": "nuò",
+        "lookup_char": "鍩"
+      }
+    ],
+    "moe_readings": [
+      "nuo"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Nuo",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9536",
+    "char": "锶",
+    "name": "CJK UNIFIED IDEOGRAPH-9536",
+    "current": "Song ",
+    "readings": {
+      "kCantonese": "si1",
+      "kDefinition": "strontium (element 38, Sr)",
+      "kMandarin": "sī",
+      "kTGHZ2013": "346.130:sī",
+      "kXHC1983": "1085.020:sī",
+      "kTraditionalVariant": "U+9376"
+    },
+    "accepted_readings": [
+      "si"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鍶",
+        "D": "09939",
+        "H": "0",
+        "I": "ㄙ",
+        "J": "  ",
+        "L": "sī",
+        "lookup_char": "鍶"
+      }
+    ],
+    "moe_readings": [
+      "si"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Si",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9616",
+    "char": "阖",
+    "name": "CJK UNIFIED IDEOGRAPH-9616",
+    "current": "Ge ",
+    "readings": {
+      "kCantonese": "hap6",
+      "kDefinition": "close; whole, entire; all; leaf",
+      "kMandarin": "hé",
+      "kTGHZ2013": "135.030:hé",
+      "kXHC1983": "0449.030:hé",
+      "kSpecializedSemanticVariant": "U+2CBA4<sGZJZD1989:T",
+      "kTraditionalVariant": "U+95D4"
+    },
+    "accepted_readings": [
+      "he"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "闔",
+        "D": "04748",
+        "H": "0",
+        "I": "ㄏㄜˊ",
+        "J": "  ",
+        "L": "hé",
+        "lookup_char": "闔"
+      }
+    ],
+    "moe_readings": [
+      "he"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "He",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+97A5",
+    "char": "鞥",
+    "name": "CJK UNIFIED IDEOGRAPH-97A5",
+    "current": "Yi ",
+    "readings": {
+      "kCantonese": "ang1",
+      "kDefinition": "reins",
+      "kFanqie": "烏合",
+      "kHanyuPinyin": "74343.090:ēng",
+      "kJapanese": "オウ アン オン アウ",
+      "kMandarin": "ēng",
+      "kSMSZD2003Readings": "ēng粵ang1",
+      "kXHC1983": "0285.130:ēng"
+    },
+    "accepted_readings": [
+      "eng"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鞥",
+        "D": "10454",
+        "H": "0",
+        "I": "ㄥ",
+        "J": "  ",
+        "L": "ēng",
+        "lookup_char": "鞥"
+      }
+    ],
+    "moe_readings": [
+      "eng"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Eng",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9CC0",
+    "char": "鳀",
+    "name": "CJK UNIFIED IDEOGRAPH-9CC0",
+    "current": "Shi ",
+    "readings": {
+      "kCantonese": "tai4",
+      "kDefinition": "anchovy",
+      "kMandarin": "tí",
+      "kTGHZ2013": "364.090:tí",
+      "kXHC1983": "1128.020:tí",
+      "kTraditionalVariant": "U+9BF7"
+    },
+    "accepted_readings": [
+      "ti"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鯷",
+        "D": "02636",
+        "H": "0",
+        "I": "ㄊㄧˊ",
+        "J": "  ",
+        "L": "tí",
+        "lookup_char": "鯷"
+      }
+    ],
+    "moe_readings": [
+      "ti"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Ti",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9CCF",
+    "char": "鳏",
+    "name": "CJK UNIFIED IDEOGRAPH-9CCF",
+    "current": "Yin ",
+    "readings": {
+      "kCantonese": "gwaan1",
+      "kDefinition": "huge fish; widower; bachelor",
+      "kMandarin": "guān",
+      "kTGHZ2013": "121.090:guān",
+      "kXHC1983": "0408.040:guān",
+      "kTraditionalVariant": "U+9C25"
+    },
+    "accepted_readings": [
+      "guan"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kXHC1983",
+      "kTGHZ2013"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "鰥",
+        "D": "04314",
+        "H": "0",
+        "I": "ㄍㄨㄢ",
+        "J": "  ",
+        "L": "guān",
+        "lookup_char": "鰥"
+      }
+    ],
+    "moe_readings": [
+      "guan"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Guan",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  },
+  {
+    "codepoint": "U+9EE5",
+    "char": "黥",
+    "name": "CJK UNIFIED IDEOGRAPH-9EE5",
+    "current": "Jing ",
+    "readings": {
+      "kCantonese": "king4",
+      "kDefinition": "to tattoo; to brand the face of criminals",
+      "kFanqie": "渠京",
+      "kHangul": "경:1N",
+      "kHanyuPinyin": "74751.070:qíng",
+      "kJapanese": "ゲイ ケイ ギョウ いれずみ",
+      "kJapaneseKun": "IREZUMI",
+      "kJapaneseOn": "GEI KEI",
+      "kKorean": "KYENG",
+      "kMandarin": "qíng",
+      "kSMSZD2003Readings": "qíng粵king4",
+      "kTGHZ2013": "304.080:qíng",
+      "kXHC1983": "0934.020:qíng"
+    },
+    "accepted_readings": [
+      "qing"
+    ],
+    "status": "han_reading_mismatch",
+    "valid_other_language_properties": [],
+    "corroborating_dictionary_fields": [
+      "kHanyuPinyin",
+      "kXHC1983",
+      "kTGHZ2013",
+      "kSMSZD2003Readings"
+    ],
+    "assessment": "high_confidence_modern_mandarin_default_recommendation",
+    "moe_records": [
+      {
+        "A": "黥",
+        "D": "06590",
+        "H": "0",
+        "I": "ㄑㄧㄥˊ",
+        "J": "  ",
+        "L": "qíng",
+        "lookup_char": "黥"
+      }
+    ],
+    "moe_readings": [
+      "qing"
+    ],
+    "moe_supports_current": false,
+    "final_assessment": "two_primary_references_mismatch",
+    "suggested_mandarin_default": "Qing",
+    "qualification": "Under a modern Mandarin default. Historical/dialect readings outside the checked references are not ruled out. No claim of a measured global frequency ranking.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip"
+    ]
+  }
+]

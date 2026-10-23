@@ -1,0 +1,98 @@
+[
+  {
+    "sha": "c45a219b946ba99441100d8be5e19523ee57a07c",
+    "filename": "CHANGELOG.md",
+    "status": "modified",
+    "additions": 4,
+    "deletions": 0,
+    "changes": 4,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/CHANGELOG.md",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/CHANGELOG.md",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/CHANGELOG.md?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -1,5 +1,9 @@\n # Changelog\n \n+## Unreleased\n+\n+- **New Feature**: Added `language` option for language-specific rules (`bg` supported)\n+\n ## 2.6.1\n \n - **Fix**: Added `transliteration/latin` entrypoint with proper `exports` mapping"
+  },
+  {
+    "sha": "7981516f9c22349b614e7f747aefe12c8048f57f",
+    "filename": "README.md",
+    "status": "modified",
+    "additions": 2,
+    "deletions": 1,
+    "changes": 3,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/README.md",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/README.md",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/README.md?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -140,6 +140,7 @@ Converts Unicode characters in the input string to their Latin equivalents. Unre\n | `trim` | `boolean` | `false` | Trim leading and trailing whitespace from result |\n | `unknown` | `string` | `''` | Replacement character for unrecognized Unicode |\n | `fixChineseSpacing` | `boolean` | `true` | Insert spaces between transliterated Chinese characters |\n+| `language` | `'bg'` | - | Apply language-specific transliteration rules |\n \n #### Example\n \n@@ -300,7 +301,7 @@ This library uses 1-to-1 Unicode code point mapping, which provides broad langua\n | **Chinese** | Polyphonic characters may not transliterate correctly | [`pinyin`](https://www.npmjs.com/package/pinyin) |\n | **Japanese** | Kanji characters often convert to Chinese Pinyin due to Unicode overlap | [`kuroshiro`](https://www.npmjs.com/package/kuroshiro) |\n | **Thai** | Not working properly | [Issue #67](https://github.com/yf-hk/transliteration/issues/67) |\n-| **Cyrillic** | May be inaccurate for specific languages like Bulgarian | - |\n+| **Cyrillic** | Mapped as Russian by default; use `language: 'bg'` for Bulgarian | - |\n \n For other issues or feature requests, please [open an issue](https://github.com/yf-hk/transliteration/issues).\n "
+  },
+  {
+    "sha": "acedcfffe172ace6e53ee8a2f2c302c18436658a",
+    "filename": "src/common/languages/cyrillic/bulgarian.ts",
+    "status": "added",
+    "additions": 33,
+    "deletions": 0,
+    "changes": 33,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Fcyrillic%2Fbulgarian.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Fcyrillic%2Fbulgarian.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Flanguages%2Fcyrillic%2Fbulgarian.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -0,0 +1,33 @@\n+import type { LanguageRules } from '../types';\n+\n+const LETTER_REGEX = /\\p{L}/u;\n+\n+/**\n+ * Bulgarian: Streamlined System (Law on the Transliteration, State Gazette 19/2009)\n+ * @see https://lex.bg/laws/ldoc/2135623187\n+ */\n+export const bulgarian: LanguageRules = {\n+  map: {\n+    Ц: 'Ts',\n+    ц: 'ts',\n+    Щ: 'Sht',\n+    щ: 'sht',\n+    Ъ: 'A',\n+    ъ: 'a',\n+    Ь: 'Y',\n+    ь: 'y',\n+  },\n+  // `ия` at the end of a word is `ia`\n+  resolve(str, i) {\n+    const char = str[i];\n+    const prev = str[i - 1];\n+    if ((char !== 'я' && char !== 'Я') || (prev !== 'и' && prev !== 'И')) {\n+      return null;\n+    }\n+    const next = str.codePointAt(i + 1);\n+    if (next !== undefined && LETTER_REGEX.test(String.fromCodePoint(next))) {\n+      return null;\n+    }\n+    return char === 'Я' ? 'A' : 'a';\n+  },\n+};"
+  },
+  {
+    "sha": "efe157c8b6744aac39213e54154699595178a85c",
+    "filename": "src/common/languages/index.ts",
+    "status": "added",
+    "additions": 18,
+    "deletions": 0,
+    "changes": 18,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Findex.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Findex.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Flanguages%2Findex.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -0,0 +1,18 @@\n+import { bulgarian } from './cyrillic/bulgarian';\n+import type { LanguageRules } from './types';\n+\n+/**\n+ * Registry of supported languages, keyed by ISO 639-1 code.\n+ * To add a language, create its rules file and register it here.\n+ */\n+const languages = {\n+  bg: bulgarian,\n+} satisfies Record<string, LanguageRules>;\n+\n+export type Language = keyof typeof languages;\n+\n+export function getLanguageRules(\n+  language?: Language\n+): LanguageRules | undefined {\n+  return language ? languages[language] : undefined;\n+}"
+  },
+  {
+    "sha": "a744018d187ce2891bfea2231b9b0d881ccb9540",
+    "filename": "src/common/languages/types.ts",
+    "status": "added",
+    "additions": 14,
+    "deletions": 0,
+    "changes": 14,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Ftypes.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Flanguages%2Ftypes.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Flanguages%2Ftypes.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -0,0 +1,14 @@\n+/**\n+ * Language-specific rules applied on top of the default charmap.\n+ */\n+export type LanguageRules = {\n+  /**\n+   * Per-character overrides of the default charmap\n+   */\n+  map?: Readonly<Record<string, string>>;\n+  /**\n+   * Context-sensitive overrides, called for the character at index `i` of `str`.\n+   * Return `null` to fall back to `map` and the default charmap.\n+   */\n+  resolve?: (str: string, i: number) => string | null;\n+};"
+  },
+  {
+    "sha": "d574873d9e8aa7a67d87de172ccdb933b8553fc4",
+    "filename": "src/common/transliterate.test.ts",
+    "status": "modified",
+    "additions": 28,
+    "deletions": 0,
+    "changes": 28,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Ftransliterate.test.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Ftransliterate.test.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Ftransliterate.test.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -210,6 +210,10 @@ describe('transliterate()', () => {\n       expect(tr('Москва')).toBe('Moskva');\n     });\n \n+    it('should not apply Bulgarian rules by default', () => {\n+      expect(tr('Щастие')).toBe('Shchastie');\n+    });\n+\n     it('should handle Greek characters', () => {\n       expect(tr('Αθήνα')).toBe('Athina');\n     });\n@@ -351,3 +355,27 @@ describe('formatReplaceOption', () => {\n     expect(formatReplaceOption(optObj)).toEqual([['own', 'ownValue']]);\n   });\n });\n+\n+describe('transliterate language: bg', () => {\n+  const bg = (str: string, opts = {}) => tr(str, { language: 'bg', ...opts });\n+\n+  it('should follow the official Bulgarian transliteration', () => {\n+    expect(bg('Щастие Хляб Ъгъл Кольо')).toBe('Shtastie Hlyab Agal Kolyo');\n+    expect(bg('Цар Ъгъл Шумен')).toBe('Tsar Agal Shumen');\n+  });\n+\n+  it('should transliterate word-final ия as ia', () => {\n+    expect(bg('България')).toBe('Balgaria');\n+    expect(bg('Мария, Ия.')).toBe('Maria, Ia.');\n+    expect(bg('БЪЛГАРИЯ')).toBe('BALGARIA');\n+  });\n+\n+  it('should keep я after и inside a word', () => {\n+    expect(bg('Диярбакър')).toBe('Diyarbakar');\n+    expect(bg('Бияч')).toBe('Biyach');\n+  });\n+\n+  it('should respect ignore', () => {\n+    expect(bg('Ъгъл Щастие', { ignore: ['Ъгъл'] })).toBe('Ъгъл Shtastie');\n+  });\n+});"
+  },
+  {
+    "sha": "6ff826a3f14431254b8118ad385599a328584335",
+    "filename": "src/common/transliterate.ts",
+    "status": "modified",
+    "additions": 8,
+    "deletions": 1,
+    "changes": 9,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Ftransliterate.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Fcommon%2Ftransliterate.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Ftransliterate.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -7,6 +7,7 @@ import type {\n   OptionsTransliterate,\n } from '../types';\n \n+import { getLanguageRules } from './languages';\n import {\n   deepClone,\n   escapeRegExp,\n@@ -77,6 +78,7 @@ export class Transliterate {\n     let index = 0;\n     let result = '';\n     const strContainsChinese = opt.fixChineseSpacing && hasChinese(str);\n+    const language = getLanguageRules(opt.language);\n     let lastCharHasChinese = false;\n     for (let i = 0; i < str.length; i++) {\n       // Get current character, taking surrogates in consideration\n@@ -101,7 +103,12 @@ export class Transliterate {\n           ignoreFixingChinese = true;\n         }\n       } else {\n-        s = this.map[char] || opt.unknown || '';\n+        s =\n+          language?.resolve?.(str, i) ||\n+          language?.map?.[char] ||\n+          this.map[char] ||\n+          opt.unknown ||\n+          '';\n       }\n       // fix Chinese spacing issue\n       if (strContainsChinese) {"
+  },
+  {
+    "sha": "f36beabfd3f7f9a790736bc71dd38191be4022c2",
+    "filename": "src/types/index.ts",
+    "status": "modified",
+    "additions": 6,
+    "deletions": 0,
+    "changes": 6,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Ftypes%2Findex.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/d244621814483c79aa0f2305fe8bd685cbc6bf3a/src%2Ftypes%2Findex.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Ftypes%2Findex.ts?ref=d244621814483c79aa0f2305fe8bd685cbc6bf3a",
+    "patch": "@@ -1,4 +1,5 @@\n import type { Charmap } from '../../data/charmap';\n+import type { Language } from '../common/languages';\n \n export type OptionReplaceArrayItem = [string | RegExp, string];\n export type OptionReplaceArray = OptionReplaceArrayItem[];\n@@ -40,6 +41,11 @@ export type OptionsTransliterate = {\n    * @default true\n    */\n   fixChineseSpacing?: boolean;\n+  /**\n+   * Apply the official transliteration rules of a language on top of the default charmap\n+   * @example tr('Кольо е голям щастливец', { language: 'bg' }) // Kolyo e golyam shtastlivets\n+   */\n+  language?: Language;\n };\n \n export type OptionsSlugify = OptionsTransliterate & {"
+  }
+]

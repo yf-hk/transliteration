@@ -1,0 +1,900 @@
+vendor,name,codes,entry_id,status,details
+google_consumer,English,en,en,,{}
+google_consumer,Spanish,es,es,,{}
+google_consumer,French,fr,fr,,{}
+google_consumer,Arabic,ar,ar,,{}
+google_consumer,Abkhaz,ab,ab,,{}
+google_consumer,Acehnese,ace,ace,,{}
+google_consumer,Acholi,ach,ach,,{}
+google_consumer,Afar,aa,aa,,{}
+google_consumer,Afrikaans,af,af,,{}
+google_consumer,Albanian,sq,sq,,{}
+google_consumer,Alur,alz,alz,,{}
+google_consumer,Amharic,am,am,,{}
+google_consumer,Armenian,hy,hy,,{}
+google_consumer,Assamese,as,as,,{}
+google_consumer,Avar,av,av,,{}
+google_consumer,Awadhi,awa,awa,,{}
+google_consumer,Aymara,ay,ay,,{}
+google_consumer,Azerbaijani,az,az,,{}
+google_consumer,Balinese,ban,ban,,{}
+google_consumer,Baluchi,bal,bal,,{}
+google_consumer,Bambara,bm,bm,,{}
+google_consumer,Baoulé,bci,bci,,{}
+google_consumer,Bashkir,ba,ba,,{}
+google_consumer,Basque,eu,eu,,{}
+google_consumer,Batak Karo,btx,btx,,{}
+google_consumer,Batak Simalungun,bts,bts,,{}
+google_consumer,Batak Toba,bbc,bbc,,{}
+google_consumer,Belarusian,be,be,,{}
+google_consumer,Bemba,bem,bem,,{}
+google_consumer,Bengali,bn,bn,,{}
+google_consumer,Betawi,bew,bew,,{}
+google_consumer,Bhojpuri,bho,bho,,{}
+google_consumer,Bikol,bik,bik,,{}
+google_consumer,Bosnian,bs,bs,,{}
+google_consumer,Breton,br,br,,{}
+google_consumer,Bulgarian,bg,bg,,{}
+google_consumer,Buryat,bua,bua,,{}
+google_consumer,Cantonese,yue,yue,,{}
+google_consumer,Catalan,ca,ca,,{}
+google_consumer,Cebuano,ceb,ceb,,{}
+google_consumer,Chamorro,ch,ch,,{}
+google_consumer,Chechen,ce,ce,,{}
+google_consumer,Chichewa,ny,ny,,{}
+google_consumer,Chinese (Simplified),zh-CN,zh-CN,,{}
+google_consumer,Chinese (Traditional),zh-TW,zh-TW,,{}
+google_consumer,Chuukese,chk,chk,,{}
+google_consumer,Chuvash,cv,cv,,{}
+google_consumer,Corsican,co,co,,{}
+google_consumer,Crimean Tatar (Cyrillic),crh,crh-Cyrl,,{}
+google_consumer,Crimean Tatar (Latin),crh-Latn,crh-Latn,,{}
+google_consumer,Croatian,hr,hr,,{}
+google_consumer,Czech,cs,cs,,{}
+google_consumer,Danish,da,da,,{}
+google_consumer,Dari,fa-AF,fa-AF,,{}
+google_consumer,Dhivehi,dv,dv,,{}
+google_consumer,Dinka,din,din,,{}
+google_consumer,Dogri,doi,doi,,{}
+google_consumer,Dombe,dov,dov,,{}
+google_consumer,Dutch,nl,nl,,{}
+google_consumer,Dyula,dyu,dyu,,{}
+google_consumer,Dzongkha,dz,dz,,{}
+google_consumer,Esperanto,eo,eo,,{}
+google_consumer,Estonian,et,et,,{}
+google_consumer,Ewe,ee,ee,,{}
+google_consumer,Faroese,fo,fo,,{}
+google_consumer,Fijian,fj,fj,,{}
+google_consumer,Filipino,tl,fil,,{}
+google_consumer,Finnish,fi,fi,,{}
+google_consumer,Fon,fon,fon,,{}
+google_consumer,French (Canada),fr-CA,fr-CA,,{}
+google_consumer,Frisian,fy,fy,,{}
+google_consumer,Friulian,fur,fur,,{}
+google_consumer,Fulani,ff,ff,,{}
+google_consumer,Ga,gaa,gaa,,{}
+google_consumer,Galician,gl,gl,,{}
+google_consumer,Georgian,ka,ka,,{}
+google_consumer,German,de,de,,{}
+google_consumer,Greek,el,el,,{}
+google_consumer,Guarani,gn,gn,,{}
+google_consumer,Gujarati,gu,gu,,{}
+google_consumer,Haitian Creole,ht,ht,,{}
+google_consumer,Hakha Chin,cnh,cnh,,{}
+google_consumer,Hausa,ha,ha,,{}
+google_consumer,Hawaiian,haw,haw,,{}
+google_consumer,Hebrew,iw,he,,{}
+google_consumer,Hiligaynon,hil,hil,,{}
+google_consumer,Hindi,hi,hi,,{}
+google_consumer,Hmong,hmn,hmn,,{}
+google_consumer,Hungarian,hu,hu,,{}
+google_consumer,Hunsrik,hrx,hrx,,{}
+google_consumer,Iban,iba,iba,,{}
+google_consumer,Icelandic,is,is,,{}
+google_consumer,Igbo,ig,ig,,{}
+google_consumer,Ilocano,ilo,ilo,,{}
+google_consumer,Indonesian,id,id,,{}
+google_consumer,Inuktut (Latin),iu-Latn,iu-Latn,,{}
+google_consumer,Inuktut (Syllabics),iu,iu-Cans,,{}
+google_consumer,Irish,ga,ga,,{}
+google_consumer,Italian,it,it,,{}
+google_consumer,Jamaican Patois,jam,jam,,{}
+google_consumer,Japanese,ja,ja,,{}
+google_consumer,Javanese,jw,jv,,{}
+google_consumer,Jingpo,kac,kac,,{}
+google_consumer,Kalaallisut,kl,kl,,{}
+google_consumer,Kannada,kn,kn,,{}
+google_consumer,Kanuri,kr,kr,,{}
+google_consumer,Kapampangan,pam,pam,,{}
+google_consumer,Kazakh,kk,kk,,{}
+google_consumer,Khasi,kha,kha,,{}
+google_consumer,Khmer,km,km,,{}
+google_consumer,Kiga,cgg,cgg,,{}
+google_consumer,Kikongo,kg,kg,,{}
+google_consumer,Kinyarwanda,rw,rw,,{}
+google_consumer,Kituba,ktu,ktu,,{}
+google_consumer,Kokborok,trp,trp,,{}
+google_consumer,Komi,kv,kv,,{}
+google_consumer,Konkani,gom,gom,,{}
+google_consumer,Korean,ko,ko,,{}
+google_consumer,Krio,kri,kri,,{}
+google_consumer,Kurdish (Kurmanji),ku,kmr,,{}
+google_consumer,Kurdish (Sorani),ckb,ckb,,{}
+google_consumer,Kyrgyz,ky,ky,,{}
+google_consumer,Lao,lo,lo,,{}
+google_consumer,Latgalian,ltg,ltg,,{}
+google_consumer,Latin,la,la,,{}
+google_consumer,Latvian,lv,lv,,{}
+google_consumer,Ligurian,lij,lij,,{}
+google_consumer,Limburgish,li,li,,{}
+google_consumer,Lingala,ln,ln,,{}
+google_consumer,Lithuanian,lt,lt,,{}
+google_consumer,Lombard,lmo,lmo,,{}
+google_consumer,Luganda,lg,lg,,{}
+google_consumer,Luo,luo,luo,,{}
+google_consumer,Luxembourgish,lb,lb,,{}
+google_consumer,Macedonian,mk,mk,,{}
+google_consumer,Madurese,mad,mad,,{}
+google_consumer,Maithili,mai,mai,,{}
+google_consumer,Makassar,mak,mak,,{}
+google_consumer,Malagasy,mg,mg,,{}
+google_consumer,Malay,ms,ms,,{}
+google_consumer,Malay (Jawi),ms-Arab,ms-Arab,,{}
+google_consumer,Malayalam,ml,ml,,{}
+google_consumer,Maltese,mt,mt,,{}
+google_consumer,Mam,mam,mam,,{}
+google_consumer,Manx,gv,gv,,{}
+google_consumer,Maori,mi,mi,,{}
+google_consumer,Marathi,mr,mr,,{}
+google_consumer,Marshallese,mh,mh,,{}
+google_consumer,Marwadi,mwr,mwr,,{}
+google_consumer,Mauritian Creole,mfe,mfe,,{}
+google_consumer,Meadow Mari,chm,chm,,{}
+google_consumer,Meiteilon (Manipuri),mni-Mtei,mni-Mtei,,{}
+google_consumer,Minang,min,min,,{}
+google_consumer,Mizo,lus,lus,,{}
+google_consumer,Mongolian,mn,mn,,{}
+google_consumer,Myanmar (Burmese),my,my,,{}
+google_consumer,Nahuatl (Eastern Huasteca),nhe,nhe,,{}
+google_consumer,Ndau,ndc-ZW,ndc-ZW,,{}
+google_consumer,Ndebele (South),nr,nr,,{}
+google_consumer,Nepalbhasa (Newari),new,new,,{}
+google_consumer,Nepali,ne,ne,,{}
+google_consumer,NKo,bm-Nkoo,bm-Nkoo,,{}
+google_consumer,Norwegian,no,no,,{}
+google_consumer,Nuer,nus,nus,,{}
+google_consumer,Occitan,oc,oc,,{}
+google_consumer,Odia (Oriya),or,or,,{}
+google_consumer,Oromo,om,om,,{}
+google_consumer,Ossetian,os,os,,{}
+google_consumer,Pangasinan,pag,pag,,{}
+google_consumer,Papiamento,pap,pap,,{}
+google_consumer,Pashto,ps,ps,,{}
+google_consumer,Persian,fa,fa,,{}
+google_consumer,Polish,pl,pl,,{}
+google_consumer,Portuguese (Brazil),pt,pt-BR,,{}
+google_consumer,Portuguese (Portugal),pt-PT,pt-PT,,{}
+google_consumer,Punjabi (Gurmukhi),pa,pa,,{}
+google_consumer,Punjabi (Shahmukhi),pa-Arab,pa-Arab,,{}
+google_consumer,Quechua,qu,qu,,{}
+google_consumer,Qʼeqchiʼ,kek,kek,,{}
+google_consumer,Romani,rom,rom,,{}
+google_consumer,Romanian,ro,ro,,{}
+google_consumer,Rundi,rn,rn,,{}
+google_consumer,Russian,ru,ru,,{}
+google_consumer,Sami (North),se,se,,{}
+google_consumer,Samoan,sm,sm,,{}
+google_consumer,Sango,sg,sg,,{}
+google_consumer,Sanskrit,sa,sa,,{}
+google_consumer,Santali (Latin),sat-Latn,sat-Latn,,{}
+google_consumer,Santali (Ol Chiki),sat,sat-Olck,,{}
+google_consumer,Scots Gaelic,gd,gd,,{}
+google_consumer,Sepedi,nso,nso,,{}
+google_consumer,Serbian,sr,sr,,{}
+google_consumer,Sesotho,st,st,,{}
+google_consumer,Seychellois Creole,crs,crs,,{}
+google_consumer,Shan,shn,shn,,{}
+google_consumer,Shona,sn,sn,,{}
+google_consumer,Sicilian,scn,scn,,{}
+google_consumer,Silesian,szl,szl,,{}
+google_consumer,Sindhi,sd,sd,,{}
+google_consumer,Sinhala,si,si,,{}
+google_consumer,Slovak,sk,sk,,{}
+google_consumer,Slovenian,sl,sl,,{}
+google_consumer,Somali,so,so,,{}
+google_consumer,Sundanese,su,su,,{}
+google_consumer,Susu,sus,sus,,{}
+google_consumer,Swahili,sw,sw,,{}
+google_consumer,Swati,ss,ss,,{}
+google_consumer,Swedish,sv,sv,,{}
+google_consumer,Tahitian,ty,ty,,{}
+google_consumer,Tajik,tg,tg,,{}
+google_consumer,Tamazight,ber-Latn,ber-Latn,,{}
+google_consumer,Tamazight (Tifinagh),ber,ber-Tfng,,{}
+google_consumer,Tamil,ta,ta,,{}
+google_consumer,Tatar,tt,tt,,{}
+google_consumer,Telugu,te,te,,{}
+google_consumer,Tetum,tet,tet,,{}
+google_consumer,Thai,th,th,,{}
+google_consumer,Tibetan,bo,bo,,{}
+google_consumer,Tigrinya,ti,ti,,{}
+google_consumer,Tiv,tiv,tiv,,{}
+google_consumer,Tok Pisin,tpi,tpi,,{}
+google_consumer,Tongan,to,to,,{}
+google_consumer,Tshiluba,lua,lua,,{}
+google_consumer,Tsonga,ts,ts,,{}
+google_consumer,Tswana,tn,tn,,{}
+google_consumer,Tulu,tcy,tcy,,{}
+google_consumer,Tumbuka,tum,tum,,{}
+google_consumer,Turkish,tr,tr,,{}
+google_consumer,Turkmen,tk,tk,,{}
+google_consumer,Tuvan,tyv,tyv,,{}
+google_consumer,Twi,ak,ak,,{}
+google_consumer,Udmurt,udm,udm,,{}
+google_consumer,Ukrainian,uk,uk,,{}
+google_consumer,Urdu,ur,ur,,{}
+google_consumer,Uyghur,ug,ug,,{}
+google_consumer,Uzbek,uz,uz,,{}
+google_consumer,Venda,ve,ve,,{}
+google_consumer,Venetian,vec,vec,,{}
+google_consumer,Vietnamese,vi,vi,,{}
+google_consumer,Waray,war,war,,{}
+google_consumer,Welsh,cy,cy,,{}
+google_consumer,Wolof,wo,wo,,{}
+google_consumer,Xhosa,xh,xh,,{}
+google_consumer,Yakut,sah,sah,,{}
+google_consumer,Yiddish,yi,yi,,{}
+google_consumer,Yoruba,yo,yo,,{}
+google_consumer,Yucatec Maya,yua,yua,,{}
+google_consumer,Zapotec,zap,zap,,{}
+google_consumer,Zulu,zu,zu,,{}
+google_cloud_nmt,Abkhaz,ab,ab,,{}
+google_cloud_nmt,Acehnese,ace,ace,,{}
+google_cloud_nmt,Acholi,ach,ach,,{}
+google_cloud_nmt,Afrikaans,af,af,,{}
+google_cloud_nmt,Albanian,sq,sq,,{}
+google_cloud_nmt,Alur,alz,alz,,{}
+google_cloud_nmt,Amharic,am,am,,{}
+google_cloud_nmt,Arabic,ar,ar,,{}
+google_cloud_nmt,Armenian,hy,hy,,{}
+google_cloud_nmt,Assamese,as,as,,{}
+google_cloud_nmt,Awadhi,awa,awa,,{}
+google_cloud_nmt,Aymara,ay,ay,,{}
+google_cloud_nmt,Azerbaijani,az,az,,{}
+google_cloud_nmt,Balinese,ban,ban,,{}
+google_cloud_nmt,Bambara,bm,bm,,{}
+google_cloud_nmt,Bashkir,ba,ba,,{}
+google_cloud_nmt,Basque,eu,eu,,{}
+google_cloud_nmt,Batak Karo,btx,btx,,{}
+google_cloud_nmt,Batak Simalungun,bts,bts,,{}
+google_cloud_nmt,Batak Toba,bbc,bbc,,{}
+google_cloud_nmt,Belarusian,be,be,,{}
+google_cloud_nmt,Bemba,bem,bem,,{}
+google_cloud_nmt,Bengali,bn,bn,,{}
+google_cloud_nmt,Betawi,bew,bew,,{}
+google_cloud_nmt,Bhojpuri,bho,bho,,{}
+google_cloud_nmt,Bikol,bik,bik,,{}
+google_cloud_nmt,Bosnian,bs,bs,,{}
+google_cloud_nmt,Breton,br,br,,{}
+google_cloud_nmt,Bulgarian,bg,bg,,{}
+google_cloud_nmt,Buryat,bua,bua,,{}
+google_cloud_nmt,Cantonese,yue,yue,,{}
+google_cloud_nmt,Catalan,ca,ca,,{}
+google_cloud_nmt,Cebuano,ceb,ceb,,{}
+google_cloud_nmt,Chichewa (Nyanja),ny,ny,,{}
+google_cloud_nmt,Chinese (Simplified),zh-CN;zh,zh-CN,,{}
+google_cloud_nmt,Chinese (Traditional),zh-TW,zh-TW,,{}
+google_cloud_nmt,Chuvash,cv,cv,,{}
+google_cloud_nmt,Corsican,co,co,,{}
+google_cloud_nmt,Crimean Tatar,crh,crh,,{}
+google_cloud_nmt,Croatian,hr,hr,,{}
+google_cloud_nmt,Czech,cs,cs,,{}
+google_cloud_nmt,Danish,da,da,,{}
+google_cloud_nmt,Dinka,din,din,,{}
+google_cloud_nmt,Divehi,dv,dv,,{}
+google_cloud_nmt,Dogri,doi,doi,,{}
+google_cloud_nmt,Dombe,dov,dov,,{}
+google_cloud_nmt,Dutch,nl,nl,,{}
+google_cloud_nmt,Dzongkha,dz,dz,,{}
+google_cloud_nmt,English,en,en,,{}
+google_cloud_nmt,Esperanto,eo,eo,,{}
+google_cloud_nmt,Estonian,et,et,,{}
+google_cloud_nmt,Ewe,ee,ee,,{}
+google_cloud_nmt,Fijian,fj,fj,,{}
+google_cloud_nmt,Filipino (Tagalog),fil;tl,fil,,{}
+google_cloud_nmt,Finnish,fi,fi,,{}
+google_cloud_nmt,French,fr,fr,,{}
+google_cloud_nmt,French (French),fr-FR,fr-FR,,{}
+google_cloud_nmt,French (Canadian),fr-CA,fr-CA,,{}
+google_cloud_nmt,Frisian,fy,fy,,{}
+google_cloud_nmt,Fulfulde,ff,ff,,{}
+google_cloud_nmt,Ga,gaa,gaa,,{}
+google_cloud_nmt,Galician,gl,gl,,{}
+google_cloud_nmt,Ganda (Luganda),lg,lg,,{}
+google_cloud_nmt,Georgian,ka,ka,,{}
+google_cloud_nmt,German,de,de,,{}
+google_cloud_nmt,Greek,el,el,,{}
+google_cloud_nmt,Guarani,gn,gn,,{}
+google_cloud_nmt,Gujarati,gu,gu,,{}
+google_cloud_nmt,Haitian Creole,ht,ht,,{}
+google_cloud_nmt,Hakha Chin,cnh,cnh,,{}
+google_cloud_nmt,Hausa,ha,ha,,{}
+google_cloud_nmt,Hawaiian,haw,haw,,{}
+google_cloud_nmt,Hebrew,iw;he,he,,{}
+google_cloud_nmt,Hiligaynon,hil,hil,,{}
+google_cloud_nmt,Hindi,hi,hi,,{}
+google_cloud_nmt,Hmong,hmn,hmn,,{}
+google_cloud_nmt,Hungarian,hu,hu,,{}
+google_cloud_nmt,Hunsrik,hrx,hrx,,{}
+google_cloud_nmt,Icelandic,is,is,,{}
+google_cloud_nmt,Igbo,ig,ig,,{}
+google_cloud_nmt,Iloko,ilo,ilo,,{}
+google_cloud_nmt,Indonesian,id,id,,{}
+google_cloud_nmt,Irish,ga,ga,,{}
+google_cloud_nmt,Italian,it,it,,{}
+google_cloud_nmt,Japanese,ja,ja,,{}
+google_cloud_nmt,Javanese,jw;jv,jv,,{}
+google_cloud_nmt,Kannada,kn,kn,,{}
+google_cloud_nmt,Kapampangan,pam,pam,,{}
+google_cloud_nmt,Kazakh,kk,kk,,{}
+google_cloud_nmt,Khmer,km,km,,{}
+google_cloud_nmt,Kiga,cgg,cgg,,{}
+google_cloud_nmt,Kinyarwanda,rw,rw,,{}
+google_cloud_nmt,Kituba,ktu,ktu,,{}
+google_cloud_nmt,Konkani,gom,gom,,{}
+google_cloud_nmt,Korean,ko,ko,,{}
+google_cloud_nmt,Krio,kri,kri,,{}
+google_cloud_nmt,Kurdish (Kurmanji),ku,kmr,,{}
+google_cloud_nmt,Kurdish (Sorani),ckb,ckb,,{}
+google_cloud_nmt,Kyrgyz,ky,ky,,{}
+google_cloud_nmt,Lao,lo,lo,,{}
+google_cloud_nmt,Latgalian,ltg,ltg,,{}
+google_cloud_nmt,Latin,la,la,,{}
+google_cloud_nmt,Latvian,lv,lv,,{}
+google_cloud_nmt,Ligurian,lij,lij,,{}
+google_cloud_nmt,Limburgan,li,li,,{}
+google_cloud_nmt,Lingala,ln,ln,,{}
+google_cloud_nmt,Lithuanian,lt,lt,,{}
+google_cloud_nmt,Lombard,lmo,lmo,,{}
+google_cloud_nmt,Luo,luo,luo,,{}
+google_cloud_nmt,Luxembourgish,lb,lb,,{}
+google_cloud_nmt,Macedonian,mk,mk,,{}
+google_cloud_nmt,Maithili,mai,mai,,{}
+google_cloud_nmt,Makassar,mak,mak,,{}
+google_cloud_nmt,Malagasy,mg,mg,,{}
+google_cloud_nmt,Malay,ms,ms,,{}
+google_cloud_nmt,Malay (Jawi),ms-Arab,ms-Arab,,{}
+google_cloud_nmt,Malayalam,ml,ml,,{}
+google_cloud_nmt,Maltese,mt,mt,,{}
+google_cloud_nmt,Maori,mi,mi,,{}
+google_cloud_nmt,Marathi,mr,mr,,{}
+google_cloud_nmt,Meadow Mari,chm,chm,,{}
+google_cloud_nmt,Meiteilon (Manipuri),mni-Mtei,mni-Mtei,,{}
+google_cloud_nmt,Minang,min,min,,{}
+google_cloud_nmt,Mizo,lus,lus,,{}
+google_cloud_nmt,Mongolian,mn,mn,,{}
+google_cloud_nmt,Myanmar (Burmese),my,my,,{}
+google_cloud_nmt,Ndebele (South),nr,nr,,{}
+google_cloud_nmt,Nepalbhasa (Newari),new,new,,{}
+google_cloud_nmt,Nepali,ne,ne,,{}
+google_cloud_nmt,Northern Sotho (Sepedi),nso,nso,,{}
+google_cloud_nmt,Norwegian,no,no,,{}
+google_cloud_nmt,Nuer,nus,nus,,{}
+google_cloud_nmt,Occitan,oc,oc,,{}
+google_cloud_nmt,Odia (Oriya),or,or,,{}
+google_cloud_nmt,Oromo,om,om,,{}
+google_cloud_nmt,Pangasinan,pag,pag,,{}
+google_cloud_nmt,Papiamento,pap,pap,,{}
+google_cloud_nmt,Pashto,ps,ps,,{}
+google_cloud_nmt,Persian,fa,fa,,{}
+google_cloud_nmt,Polish,pl,pl,,{}
+google_cloud_nmt,Portuguese,pt,pt,,{}
+google_cloud_nmt,Portuguese (Portugal),pt-PT,pt-PT,,{}
+google_cloud_nmt,Portuguese (Brazil),pt-BR,pt-BR,,{}
+google_cloud_nmt,Punjabi,pa,pa,,{}
+google_cloud_nmt,Punjabi (Shahmukhi),pa-Arab,pa-Arab,,{}
+google_cloud_nmt,Quechua,qu,qu,,{}
+google_cloud_nmt,Romani,rom,rom,,{}
+google_cloud_nmt,Romanian,ro,ro,,{}
+google_cloud_nmt,Rundi,rn,rn,,{}
+google_cloud_nmt,Russian,ru,ru,,{}
+google_cloud_nmt,Samoan,sm,sm,,{}
+google_cloud_nmt,Sango,sg,sg,,{}
+google_cloud_nmt,Sanskrit,sa,sa,,{}
+google_cloud_nmt,Scots Gaelic,gd,gd,,{}
+google_cloud_nmt,Serbian,sr,sr,,{}
+google_cloud_nmt,Sesotho,st,st,,{}
+google_cloud_nmt,Seychellois Creole,crs,crs,,{}
+google_cloud_nmt,Shan,shn,shn,,{}
+google_cloud_nmt,Shona,sn,sn,,{}
+google_cloud_nmt,Sicilian,scn,scn,,{}
+google_cloud_nmt,Silesian,szl,szl,,{}
+google_cloud_nmt,Sindhi,sd,sd,,{}
+google_cloud_nmt,Sinhala (Sinhalese),si,si,,{}
+google_cloud_nmt,Slovak,sk,sk,,{}
+google_cloud_nmt,Slovenian,sl,sl,,{}
+google_cloud_nmt,Somali,so,so,,{}
+google_cloud_nmt,Spanish,es,es,,{}
+google_cloud_nmt,Sundanese,su,su,,{}
+google_cloud_nmt,Swahili,sw,sw,,{}
+google_cloud_nmt,Swati,ss,ss,,{}
+google_cloud_nmt,Swedish,sv,sv,,{}
+google_cloud_nmt,Tajik,tg,tg,,{}
+google_cloud_nmt,Tamil,ta,ta,,{}
+google_cloud_nmt,Tatar,tt,tt,,{}
+google_cloud_nmt,Telugu,te,te,,{}
+google_cloud_nmt,Tetum,tet,tet,,{}
+google_cloud_nmt,Thai,th,th,,{}
+google_cloud_nmt,Tigrinya,ti,ti,,{}
+google_cloud_nmt,Tsonga,ts,ts,,{}
+google_cloud_nmt,Tswana,tn,tn,,{}
+google_cloud_nmt,Turkish,tr,tr,,{}
+google_cloud_nmt,Turkmen,tk,tk,,{}
+google_cloud_nmt,Twi (Akan),ak,ak,,{}
+google_cloud_nmt,Ukrainian,uk,uk,,{}
+google_cloud_nmt,Urdu,ur,ur,,{}
+google_cloud_nmt,Uyghur,ug,ug,,{}
+google_cloud_nmt,Uzbek,uz,uz,,{}
+google_cloud_nmt,Vietnamese,vi,vi,,{}
+google_cloud_nmt,Welsh,cy,cy,,{}
+google_cloud_nmt,Xhosa,xh,xh,,{}
+google_cloud_nmt,Yiddish,yi,yi,,{}
+google_cloud_nmt,Yoruba,yo,yo,,{}
+google_cloud_nmt,Yucatec Maya,yua,yua,,{}
+google_cloud_nmt,Zulu,zu,zu,,{}
+google_cloud_tllm,Afrikaans,af,af,official,{}
+google_cloud_tllm,Albanian,sq,sq,official,{}
+google_cloud_tllm,Amharic,am,am,experimental,{}
+google_cloud_tllm,Arabic (Saudi Arabia),ar-SA,ar-SA,official,{}
+google_cloud_tllm,Arabic,ar,ar,official,{}
+google_cloud_tllm,Armenian,hy,hy,experimental,{}
+google_cloud_tllm,Azerbaijani,az,az,official,{}
+google_cloud_tllm,Basque,eu,eu,experimental,{}
+google_cloud_tllm,Belarusian,be,be,official,{}
+google_cloud_tllm,Bengali (India),bn-IN,bn-IN,official,{}
+google_cloud_tllm,Bengali,bn,bn,official,{}
+google_cloud_tllm,Bosnian (Cyrillic),bs-Cyrl,bs-Cyrl,official,{}
+google_cloud_tllm,Bosnian,bs,bs,official,{}
+google_cloud_tllm,Bulgarian,bg,bg,official,{}
+google_cloud_tllm,Burmese,my,my,official,{}
+google_cloud_tllm,Catalan,ca,ca,official,{}
+google_cloud_tllm,Chinese (China),zh-CN,zh-CN,official,{}
+google_cloud_tllm,Chinese (Hong Kong),zh-HK,zh-HK,official,{}
+google_cloud_tllm,Chinese (Simplified),zh-Hans,zh-Hans,official,{}
+google_cloud_tllm,Chinese (Taiwan),zh-TW,zh-TW,official,{}
+google_cloud_tllm,Chinese (Traditional),zh-Hant,zh-Hant,official,{}
+google_cloud_tllm,Chinese,zh,zh,official,{}
+google_cloud_tllm,Croatian,hr,hr,official,{}
+google_cloud_tllm,Czech,cs,cs,official,{}
+google_cloud_tllm,Danish,da,da,official,{}
+google_cloud_tllm,Dutch (Belgium),nl-BE,nl-BE,official,{}
+google_cloud_tllm,Dutch,nl,nl,official,{}
+google_cloud_tllm,English (Australia),en-AU,en-AU,official,{}
+google_cloud_tllm,English (Canada),en-CA,en-CA,official,{}
+google_cloud_tllm,English (New Zealand),en-NZ,en-NZ,official,{}
+google_cloud_tllm,English (Philippines),en-PH,en-PH,official,{}
+google_cloud_tllm,English (South Africa),en-ZA,en-ZA,official,{}
+google_cloud_tllm,English (United Kingdom),en-GB,en-GB,official,{}
+google_cloud_tllm,English (United States),en-US,en-US,official,{}
+google_cloud_tllm,English,en,en,official,{}
+google_cloud_tllm,Estonian,et,et,official,{}
+google_cloud_tllm,Filipino,fil,fil,official,{}
+google_cloud_tllm,Finnish,fi,fi,official,{}
+google_cloud_tllm,French (Canada),fr-CA,fr-CA,official,{}
+google_cloud_tllm,French (Switzerland),fr-CH,fr-CH,official,{}
+google_cloud_tllm,French,fr,fr,official,{}
+google_cloud_tllm,Frisian,fy,fy,official,{}
+google_cloud_tllm,Galician,gl,gl,official,{}
+google_cloud_tllm,Georgian,ka,ka,official,{}
+google_cloud_tllm,German,de,de,official,{}
+google_cloud_tllm,Greek,el,el,official,{}
+google_cloud_tllm,Guarani,gn,gn,official,{}
+google_cloud_tllm,Gujarati,gu,gu,official,{}
+google_cloud_tllm,Hausa,ha,ha,experimental,{}
+google_cloud_tllm,Hebrew,he,he,official,{}
+google_cloud_tllm,Hebrew,iw,he,official,{}
+google_cloud_tllm,Hindi,hi,hi,official,{}
+google_cloud_tllm,Hungarian,hu,hu,official,{}
+google_cloud_tllm,Icelandic,is,is,official,{}
+google_cloud_tllm,Igbo,ig,ig,experimental,{}
+google_cloud_tllm,Indonesian,id,id,official,{}
+google_cloud_tllm,Irish,ga,ga,experimental,{}
+google_cloud_tllm,Italian,it,it,official,{}
+google_cloud_tllm,Japanese,ja,ja,official,{}
+google_cloud_tllm,Kannada,kn,kn,official,{}
+google_cloud_tllm,Khmer,km,km,official,{}
+google_cloud_tllm,Korean,ko,ko,official,{}
+google_cloud_tllm,Kyrgyz,ky,ky,official,{}
+google_cloud_tllm,Lao,lo,lo,official,{}
+google_cloud_tllm,Latvian,lv,lv,official,{}
+google_cloud_tllm,Lingala,ln,ln,official,{}
+google_cloud_tllm,Lithuanian,lt,lt,official,{}
+google_cloud_tllm,Luxembourgish,lb,lb,experimental,{}
+google_cloud_tllm,Macedonian,mk,mk,official,{}
+google_cloud_tllm,Malay,ms,ms,official,{}
+google_cloud_tllm,Malayalam,ml,ml,official,{}
+google_cloud_tllm,Maltese,mt,mt,experimental,{}
+google_cloud_tllm,Marathi,mr,mr,official,{}
+google_cloud_tllm,Mongolian,mn,mn,experimental,{}
+google_cloud_tllm,Nepali,ne,ne,official,{}
+google_cloud_tllm,Norwegian Bokmal,nb,nb,official,{}
+google_cloud_tllm,Norwegian,no,no,official,{}
+google_cloud_tllm,Odia,or,or,experimental,{}
+google_cloud_tllm,Persian,fa,fa,official,{}
+google_cloud_tllm,Polish,pl,pl,official,{}
+google_cloud_tllm,Portuguese (Brazil),pt-BR,pt-BR,official,{}
+google_cloud_tllm,Portuguese (Portugal),pt-PT,pt-PT,official,{}
+google_cloud_tllm,Portuguese,pt,pt,official,{}
+google_cloud_tllm,Punjabi (Pakistan),pa-PK,pa-PK,official,{}
+google_cloud_tllm,Punjabi,pa,pa,official,{}
+google_cloud_tllm,Romanian,ro,ro,official,{}
+google_cloud_tllm,Russian,ru,ru,official,{}
+google_cloud_tllm,Scots Gaelic,gd,gd,experimental,{}
+google_cloud_tllm,Serbian,sr,sr,experimental,{}
+google_cloud_tllm,Slovak,sk,sk,official,{}
+google_cloud_tllm,Slovenian,sl,sl,official,{}
+google_cloud_tllm,Somali,so,so,experimental,{}
+google_cloud_tllm,Spanish (Argentina),es-AR,es-AR,official,{}
+google_cloud_tllm,Spanish (Chile),es-CL,es-CL,official,{}
+google_cloud_tllm,Spanish (Colombia),es-CO,es-CO,official,{}
+google_cloud_tllm,Spanish (Costa Rica),es-CR,es-CR,official,{}
+google_cloud_tllm,Spanish (Ecuador),es-EC,es-EC,official,{}
+google_cloud_tllm,Spanish (El Salvador),es-SV,es-SV,official,{}
+google_cloud_tllm,Spanish (Guatemala),es-GT,es-GT,official,{}
+google_cloud_tllm,Spanish (Haiti),es-HT,es-HT,official,{}
+google_cloud_tllm,Spanish (Honduras),es-HN,es-HN,official,{}
+google_cloud_tllm,Spanish (Latin America),es-419,es-419,official,{}
+google_cloud_tllm,Spanish (Mexico),es-MX,es-MX,official,{}
+google_cloud_tllm,Spanish (Nicaragua),es-NI,es-NI,official,{}
+google_cloud_tllm,Spanish (Panama),es-PA,es-PA,official,{}
+google_cloud_tllm,Spanish (Paraguay),es-PY,es-PY,official,{}
+google_cloud_tllm,Spanish (Peru),es-PE,es-PE,official,{}
+google_cloud_tllm,Spanish (Puerto Rico),es-PR,es-PR,official,{}
+google_cloud_tllm,Spanish (Spain),es-ES,es-ES,official,{}
+google_cloud_tllm,Spanish (United States),es-US,es-US,official,{}
+google_cloud_tllm,Spanish (Uruguay),es-UY,es-UY,official,{}
+google_cloud_tllm,Spanish (Venezuela),es-VE,es-VE,official,{}
+google_cloud_tllm,Spanish,es,es,official,{}
+google_cloud_tllm,Swahili,sw,sw,official,{}
+google_cloud_tllm,Swedish,sv,sv,official,{}
+google_cloud_tllm,Tagalog,tl,fil,official,{}
+google_cloud_tllm,Tajik,tg,tg,experimental,{}
+google_cloud_tllm,Tamil,ta,ta,official,{}
+google_cloud_tllm,Telugu,te,te,official,{}
+google_cloud_tllm,Thai,th,th,official,{}
+google_cloud_tllm,Turkish,tr,tr,official,{}
+google_cloud_tllm,Ukrainian,uk,uk,official,{}
+google_cloud_tllm,Urdu,ur,ur,official,{}
+google_cloud_tllm,Uzbek,uz,uz,official,{}
+google_cloud_tllm,Vietnamese,vi,vi,official,{}
+google_cloud_tllm,Welsh,cy,cy,official,{}
+google_cloud_tllm,Zulu,zu,zu,official,{}
+google_cloud_romanization_table,Arabic,ar,ar,preview,"{""romanization"": true, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Amharic,am,am,preview,"{""romanization"": true, ""romanized_input_translation"": false}"
+google_cloud_romanization_table,Bengali,bn,bn,preview,"{""romanization"": true, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Belarusian,be,be,preview,"{""romanization"": true, ""romanized_input_translation"": false}"
+google_cloud_romanization_table,Gujarati,gu,gu,preview,"{""romanization"": false, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Hindi,hi,hi,preview,"{""romanization"": true, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Japanese,ja,ja,preview,"{""romanization"": true, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Kannada,kn,kn,preview,"{""romanization"": false, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Myanmar,my,my,preview,"{""romanization"": true, ""romanized_input_translation"": false}"
+google_cloud_romanization_table,Russian,ru,ru,preview,"{""romanization"": true, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Serbian,sr,sr,preview,"{""romanization"": true, ""romanized_input_translation"": false}"
+google_cloud_romanization_table,Tamil,ta,ta,preview,"{""romanization"": false, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Telugu,te,te,preview,"{""romanization"": false, ""romanized_input_translation"": true}"
+google_cloud_romanization_table,Ukrainian,uk,uk,preview,"{""romanization"": true, ""romanized_input_translation"": false}"
+azure_translation_api,Afrikaans,af,af,,"{""native_name"": ""Afrikaans""}"
+azure_translation_api,Amharic,am,am,,"{""native_name"": ""አማርኛ""}"
+azure_translation_api,Arabic,ar,ar,,"{""native_name"": ""العربية""}"
+azure_translation_api,Assamese,as,as,,"{""native_name"": ""অসমীয়া""}"
+azure_translation_api,Azerbaijani,az,az,,"{""native_name"": ""Azərbaycan""}"
+azure_translation_api,Bashkir,ba,ba,,"{""native_name"": ""Bashkir""}"
+azure_translation_api,Belarusian,be,be,,"{""native_name"": ""беларуская""}"
+azure_translation_api,Bulgarian,bg,bg,,"{""native_name"": ""Български""}"
+azure_translation_api,Bhojpuri,bho,bho,,"{""native_name"": ""भोजपुरी""}"
+azure_translation_api,Bangla,bn,bn,,"{""native_name"": ""বাংলা""}"
+azure_translation_api,Tibetan,bo,bo,,"{""native_name"": ""བོད་སྐད་""}"
+azure_translation_api,Bodo,brx,brx,,"{""native_name"": ""बड़ो""}"
+azure_translation_api,Bosnian,bs,bs,,"{""native_name"": ""Bosanski""}"
+azure_translation_api,Catalan,ca,ca,,"{""native_name"": ""Català""}"
+azure_translation_api,Czech,cs,cs,,"{""native_name"": ""Čeština""}"
+azure_translation_api,Welsh,cy,cy,,"{""native_name"": ""Cymraeg""}"
+azure_translation_api,Danish,da,da,,"{""native_name"": ""Dansk""}"
+azure_translation_api,German,de,de,,"{""native_name"": ""Deutsch""}"
+azure_translation_api,Dogri,doi,doi,,"{""native_name"": ""डोगरी""}"
+azure_translation_api,Lower Sorbian,dsb,dsb,,"{""native_name"": ""Dolnoserbšćina""}"
+azure_translation_api,Divehi,dv,dv,,"{""native_name"": ""ދިވެހިބަސް""}"
+azure_translation_api,Greek,el,el,,"{""native_name"": ""Ελληνικά""}"
+azure_translation_api,English,en,en,,"{""native_name"": ""English""}"
+azure_translation_api,Spanish,es,es,,"{""native_name"": ""Español""}"
+azure_translation_api,Spanish (Mexico),es-MX,es-MX,,"{""native_name"": ""Español (México)""}"
+azure_translation_api,Estonian,et,et,,"{""native_name"": ""Eesti""}"
+azure_translation_api,Basque,eu,eu,,"{""native_name"": ""Euskara""}"
+azure_translation_api,Persian,fa,fa,,"{""native_name"": ""فارسی""}"
+azure_translation_api,Finnish,fi,fi,,"{""native_name"": ""Suomi""}"
+azure_translation_api,Filipino,fil,fil,,"{""native_name"": ""Filipino""}"
+azure_translation_api,Fijian,fj,fj,,"{""native_name"": ""Na Vosa Vakaviti""}"
+azure_translation_api,Faroese,fo,fo,,"{""native_name"": ""Føroyskt""}"
+azure_translation_api,French,fr,fr,,"{""native_name"": ""Français""}"
+azure_translation_api,French (Canada),fr-CA,fr-CA,,"{""native_name"": ""Français (Canada)""}"
+azure_translation_api,Irish,ga,ga,,"{""native_name"": ""Gaeilge""}"
+azure_translation_api,Galician,gl,gl,,"{""native_name"": ""Galego""}"
+azure_translation_api,Konkani,gom,gom,,"{""native_name"": ""कोंकणी""}"
+azure_translation_api,Gujarati,gu,gu,,"{""native_name"": ""ગુજરાતી""}"
+azure_translation_api,Hausa,ha,ha,,"{""native_name"": ""Hausa""}"
+azure_translation_api,Hebrew,he,he,,"{""native_name"": ""עברית""}"
+azure_translation_api,Hindi,hi,hi,,"{""native_name"": ""हिन्दी""}"
+azure_translation_api,Chhattisgarhi,hne,hne,,"{""native_name"": ""छत्तीसगढ़ी""}"
+azure_translation_api,Croatian,hr,hr,,"{""native_name"": ""Hrvatski""}"
+azure_translation_api,Upper Sorbian,hsb,hsb,,"{""native_name"": ""Hornjoserbšćina""}"
+azure_translation_api,Haitian Creole,ht,ht,,"{""native_name"": ""Haitian Creole""}"
+azure_translation_api,Hungarian,hu,hu,,"{""native_name"": ""Magyar""}"
+azure_translation_api,Armenian,hy,hy,,"{""native_name"": ""Հայերեն""}"
+azure_translation_api,Indonesian,id,id,,"{""native_name"": ""Indonesia""}"
+azure_translation_api,Igbo,ig,ig,,"{""native_name"": ""Ásụ̀sụ́ Ìgbò""}"
+azure_translation_api,Inuinnaqtun,ikt,ikt,,"{""native_name"": ""Inuinnaqtun""}"
+azure_translation_api,Icelandic,is,is,,"{""native_name"": ""Íslenska""}"
+azure_translation_api,Italian,it,it,,"{""native_name"": ""Italiano""}"
+azure_translation_api,Inuktitut,iu,iu-Cans,,"{""native_name"": ""ᐃᓄᒃᑎᑐᑦ""}"
+azure_translation_api,Inuktitut (Latin),iu-Latn,iu-Latn,,"{""native_name"": ""Inuktitut (Latin)""}"
+azure_translation_api,Japanese,ja,ja,,"{""native_name"": ""日本語""}"
+azure_translation_api,Georgian,ka,ka,,"{""native_name"": ""ქართული""}"
+azure_translation_api,Kazakh,kk,kk,,"{""native_name"": ""Қазақ Тілі""}"
+azure_translation_api,Khmer,km,km,,"{""native_name"": ""ខ្មែរ""}"
+azure_translation_api,Kurdish (Northern),kmr,kmr,,"{""native_name"": ""Kurdî (Bakur)""}"
+azure_translation_api,Kannada,kn,kn,,"{""native_name"": ""ಕನ್ನಡ""}"
+azure_translation_api,Korean,ko,ko,,"{""native_name"": ""한국어""}"
+azure_translation_api,Kashmiri,ks,ks,,"{""native_name"": ""کٲشُر""}"
+azure_translation_api,Kurdish (Central),ku,ckb,,"{""native_name"": ""Kurdî (Navîn)""}"
+azure_translation_api,Kyrgyz,ky,ky,,"{""native_name"": ""Кыргызча""}"
+azure_translation_api,Luxembourgish,lb,lb,,"{""native_name"": ""Lëtzebuergesch""}"
+azure_translation_api,Lingala,ln,ln,,"{""native_name"": ""Lingála""}"
+azure_translation_api,Lao,lo,lo,,"{""native_name"": ""ລາວ""}"
+azure_translation_api,Lithuanian,lt,lt,,"{""native_name"": ""Lietuvių""}"
+azure_translation_api,Ganda,lug,lg,,"{""native_name"": ""Ganda""}"
+azure_translation_api,Latvian,lv,lv,,"{""native_name"": ""Latviešu""}"
+azure_translation_api,Chinese (Literary),lzh,lzh,,"{""native_name"": ""中文 (文言文)""}"
+azure_translation_api,Maithili,mai,mai,,"{""native_name"": ""मैथिली""}"
+azure_translation_api,Malagasy,mg,mg,,"{""native_name"": ""Malagasy""}"
+azure_translation_api,Māori,mi,mi,,"{""native_name"": ""Te Reo Māori""}"
+azure_translation_api,Macedonian,mk,mk,,"{""native_name"": ""Македонски""}"
+azure_translation_api,Malayalam,ml,ml,,"{""native_name"": ""മലയാളം""}"
+azure_translation_api,Mongolian (Cyrillic),mn-Cyrl,mn-Cyrl,,"{""native_name"": ""Монгол""}"
+azure_translation_api,Mongolian (Traditional),mn-Mong,mn-Mong,,"{""native_name"": ""ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ""}"
+azure_translation_api,Manipuri,mni,mni-Mtei,,"{""native_name"": ""ꯃꯩꯇꯩꯂꯣꯟ""}"
+azure_translation_api,Marathi,mr,mr,,"{""native_name"": ""मराठी""}"
+azure_translation_api,Malay,ms,ms,,"{""native_name"": ""Melayu""}"
+azure_translation_api,Maltese,mt,mt,,"{""native_name"": ""Malti""}"
+azure_translation_api,Hmong Daw,mww,mww-Latn,,"{""native_name"": ""Hmong Daw""}"
+azure_translation_api,Myanmar (Burmese),my,my,,"{""native_name"": ""မြန်မာ""}"
+azure_translation_api,Norwegian,nb,nb,,"{""native_name"": ""Norsk Bokmål""}"
+azure_translation_api,Nepali,ne,ne,,"{""native_name"": ""नेपाली""}"
+azure_translation_api,Dutch,nl,nl,,"{""native_name"": ""Nederlands""}"
+azure_translation_api,Sesotho sa Leboa,nso,nso,,"{""native_name"": ""Sesotho sa Leboa""}"
+azure_translation_api,Nyanja,nya,ny,,"{""native_name"": ""Nyanja""}"
+azure_translation_api,Odia,or,or,,"{""native_name"": ""ଓଡ଼ିଆ""}"
+azure_translation_api,Querétaro Otomi,otq,otq,,"{""native_name"": ""Hñähñu""}"
+azure_translation_api,Punjabi,pa,pa,,"{""native_name"": ""ਪੰਜਾਬੀ""}"
+azure_translation_api,Polish,pl,pl,,"{""native_name"": ""Polski""}"
+azure_translation_api,Dari,prs,fa-AF,,"{""native_name"": ""دری""}"
+azure_translation_api,Pashto,ps,ps,,"{""native_name"": ""پښتو""}"
+azure_translation_api,Portuguese (Brazil),pt,pt-BR,,"{""native_name"": ""Português (Brasil)""}"
+azure_translation_api,Portuguese (Portugal),pt-PT,pt-PT,,"{""native_name"": ""Português (Portugal)""}"
+azure_translation_api,Romanian,ro,ro,,"{""native_name"": ""Română""}"
+azure_translation_api,Russian,ru,ru,,"{""native_name"": ""Русский""}"
+azure_translation_api,Rundi,run,rn,,"{""native_name"": ""Rundi""}"
+azure_translation_api,Kinyarwanda,rw,rw,,"{""native_name"": ""Kinyarwanda""}"
+azure_translation_api,Sindhi,sd,sd,,"{""native_name"": ""سنڌي""}"
+azure_translation_api,Sinhala,si,si,,"{""native_name"": ""සිංහල""}"
+azure_translation_api,Slovak,sk,sk,,"{""native_name"": ""Slovenčina""}"
+azure_translation_api,Slovenian,sl,sl,,"{""native_name"": ""Slovenščina""}"
+azure_translation_api,Samoan,sm,sm,,"{""native_name"": ""Gagana Sāmoa""}"
+azure_translation_api,Shona,sn,sn,,"{""native_name"": ""chiShona""}"
+azure_translation_api,Somali,so,so,,"{""native_name"": ""Soomaali""}"
+azure_translation_api,Albanian,sq,sq,,"{""native_name"": ""Shqip""}"
+azure_translation_api,Serbian (Cyrillic),sr-Cyrl,sr-Cyrl,,"{""native_name"": ""Српски (ћирилица)""}"
+azure_translation_api,Serbian (Latin),sr-Latn,sr-Latn,,"{""native_name"": ""Srpski (latinica)""}"
+azure_translation_api,Sesotho,st,st,,"{""native_name"": ""Sesotho""}"
+azure_translation_api,Swedish,sv,sv,,"{""native_name"": ""Svenska""}"
+azure_translation_api,Swahili,sw,sw,,"{""native_name"": ""Kiswahili""}"
+azure_translation_api,Tamil,ta,ta,,"{""native_name"": ""தமிழ்""}"
+azure_translation_api,Telugu,te,te,,"{""native_name"": ""తెలుగు""}"
+azure_translation_api,Thai,th,th,,"{""native_name"": ""ไทย""}"
+azure_translation_api,Tigrinya,ti,ti,,"{""native_name"": ""ትግር""}"
+azure_translation_api,Turkmen,tk,tk,,"{""native_name"": ""Türkmen Dili""}"
+azure_translation_api,Klingon (Latin),tlh-Latn,tlh-Latn,,"{""native_name"": ""Klingon (Latin)""}"
+azure_translation_api,Klingon (pIqaD),tlh-Piqd,tlh-Piqd,,"{""native_name"": ""Klingon (pIqaD)""}"
+azure_translation_api,Setswana,tn,tn,,"{""native_name"": ""Setswana""}"
+azure_translation_api,Tongan,to,to,,"{""native_name"": ""Lea Fakatonga""}"
+azure_translation_api,Turkish,tr,tr,,"{""native_name"": ""Türkçe""}"
+azure_translation_api,Tatar,tt,tt,,"{""native_name"": ""Татар""}"
+azure_translation_api,Tahitian,ty,ty,,"{""native_name"": ""Reo Tahiti""}"
+azure_translation_api,Uyghur,ug,ug,,"{""native_name"": ""ئۇيغۇرچە""}"
+azure_translation_api,Ukrainian,uk,uk,,"{""native_name"": ""Українська""}"
+azure_translation_api,Urdu,ur,ur,,"{""native_name"": ""اردو""}"
+azure_translation_api,Uzbek (Latin),uz,uz,,"{""native_name"": ""O‘Zbek""}"
+azure_translation_api,Vietnamese,vi,vi,,"{""native_name"": ""Tiếng Việt""}"
+azure_translation_api,Xhosa,xh,xh,,"{""native_name"": ""isiXhosa""}"
+azure_translation_api,Yoruba,yo,yo,,"{""native_name"": ""Èdè Yorùbá""}"
+azure_translation_api,Yucatec Maya,yua,yua,,"{""native_name"": ""Yucatec Maya""}"
+azure_translation_api,Cantonese (Traditional),yue,yue,,"{""native_name"": ""粵語 (繁體)""}"
+azure_translation_api,Chinese Simplified,zh-Hans,zh-Hans,,"{""native_name"": ""中文 (简体)""}"
+azure_translation_api,Chinese Traditional,zh-Hant,zh-Hant,,"{""native_name"": ""繁體中文 (繁體)""}"
+azure_translation_api,Zulu,zu,zu,,"{""native_name"": ""Isi-Zulu""}"
+azure_transliteration_api,Arabic,ar,ar,,"{""pairs"": [{""from_script"": ""Arab"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Arab""}]}"
+azure_transliteration_api,Assamese,as,as,,"{""pairs"": [{""from_script"": ""Beng"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Beng""}]}"
+azure_transliteration_api,Belarusian,be,be,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Bulgarian,bg,bg,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Bangla,bn,bn,,"{""pairs"": [{""from_script"": ""Beng"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Beng""}]}"
+azure_transliteration_api,Bodo,brx,brx,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Greek,el,el,,"{""pairs"": [{""from_script"": ""Grek"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Grek""}]}"
+azure_transliteration_api,Persian,fa,fa,,"{""pairs"": [{""from_script"": ""Arab"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Arab""}]}"
+azure_transliteration_api,Konkani,gom,gom,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Gujarati,gu,gu,,"{""pairs"": [{""from_script"": ""Gujr"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Gujr""}]}"
+azure_transliteration_api,Hebrew,he,he,,"{""pairs"": [{""from_script"": ""Hebr"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Hebr""}]}"
+azure_transliteration_api,Hindi,hi,hi,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Japanese,ja,ja,,"{""pairs"": [{""from_script"": ""Jpan"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Jpan""}]}"
+azure_transliteration_api,Kazakh,kk,kk,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Kannada,kn,kn,,"{""pairs"": [{""from_script"": ""Knda"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Knda""}]}"
+azure_transliteration_api,Korean,ko,ko,,"{""pairs"": [{""from_script"": ""Kore"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Kore""}]}"
+azure_transliteration_api,Kashmiri,ks,ks,,"{""pairs"": [{""from_script"": ""Arab"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Arab""}]}"
+azure_transliteration_api,Kyrgyz,ky,ky,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Maithili,mai,mai,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Macedonian,mk,mk,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Malayalam,ml,ml,,"{""pairs"": [{""from_script"": ""Mlym"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Mlym""}]}"
+azure_transliteration_api,Mongolian (Cyrillic),mn-Cyrl,mn-Cyrl,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Cyrl"", ""to_script"": ""Mong""}]}"
+azure_transliteration_api,Manipuri,mni,mni-Mtei,,"{""pairs"": [{""from_script"": ""Mtei"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Mtei""}]}"
+azure_transliteration_api,Marathi,mr,mr,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Nepali,ne,ne,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Odia,or,or,,"{""pairs"": [{""from_script"": ""Orya"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Orya""}]}"
+azure_transliteration_api,Punjabi,pa,pa,,"{""pairs"": [{""from_script"": ""Guru"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Guru""}]}"
+azure_transliteration_api,Russian,ru,ru,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Sanskrit,sa,sa,,"{""pairs"": [{""from_script"": ""Deva"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Deva""}]}"
+azure_transliteration_api,Sindhi,sd,sd,,"{""pairs"": [{""from_script"": ""Arab"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Arab""}]}"
+azure_transliteration_api,Sinhala,si,si,,"{""pairs"": [{""from_script"": ""Sinh"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Sinh""}]}"
+azure_transliteration_api,Serbian (Cyrillic),sr-Cyrl,sr-Cyrl,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}]}"
+azure_transliteration_api,Serbian (Latin),sr-Latn,sr-Latn,,"{""pairs"": [{""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Tamil,ta,ta,,"{""pairs"": [{""from_script"": ""Taml"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Taml""}]}"
+azure_transliteration_api,Telugu,te,te,,"{""pairs"": [{""from_script"": ""Telu"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Telu""}]}"
+azure_transliteration_api,Tajik,tg,tg,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Thai,th,th,,"{""pairs"": [{""from_script"": ""Thai"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Thai""}]}"
+azure_transliteration_api,Tatar,tt,tt,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Ukrainian,uk,uk,,"{""pairs"": [{""from_script"": ""Cyrl"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Cyrl""}]}"
+azure_transliteration_api,Urdu,ur,ur,,"{""pairs"": [{""from_script"": ""Arab"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Arab""}]}"
+azure_transliteration_api,Chinese Simplified,zh-Hans,zh-Hans,,"{""pairs"": [{""from_script"": ""Hans"", ""to_script"": ""Hant""}, {""from_script"": ""Hans"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Hans""}, {""from_script"": ""Latn"", ""to_script"": ""Hant""}]}"
+azure_transliteration_api,Chinese Traditional,zh-Hant,zh-Hant,,"{""pairs"": [{""from_script"": ""Hant"", ""to_script"": ""Hans""}, {""from_script"": ""Hant"", ""to_script"": ""Latn""}, {""from_script"": ""Latn"", ""to_script"": ""Hans""}, {""from_script"": ""Latn"", ""to_script"": ""Hant""}]}"
+azure_translation_docs,Afrikaans,af,af,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Albanian,sq,sq,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Amharic,am,am,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Arabic,ar,ar,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Armenian,hy,hy,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Assamese,as,as,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Azerbaijani (Latin),az,az,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bangla,bn,bn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bashkir,ba,ba,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Basque,eu,eu,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bhojpuri,bho,bho,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bodo,brx,brx,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bosnian (Latin),bs,bs,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Bulgarian,bg,bg,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Cantonese (Traditional),yue,yue,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Catalan,ca,ca,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Chhattisgarhi,hne,hne,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Chinese (Literary),lzh,lzh,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Chinese Simplified,zh-Hans,zh-Hans,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Chinese Traditional,zh-Hant,zh-Hant,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,chiShona,sn,sn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Croatian,hr,hr,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Czech,cs,cs,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Danish,da,da,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Dari,prs,fa-AF,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Divehi,dv,dv,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Dogri,doi,doi,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": """", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Dutch,nl,nl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,English,en,en,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,Estonian,et,et,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Faroese,fo,fo,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Fijian,fj,fj,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Filipino,fil,fil,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Finnish,fi,fi,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,French,fr,fr,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,French (Canada),fr-ca,fr-CA,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,Galician,gl,gl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Georgian,ka,ka,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,German,de,de,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,Greek,el,el,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Gujarati,gu,gu,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Haitian Creole,ht,ht,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Hausa,ha,ha,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Hebrew,he,he,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Hindi,hi,hi,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Hmong Daw (Latin),mww,mww-Latn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Hungarian,hu,hu,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Icelandic,is,is,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Igbo,ig,ig,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Indonesian,id,id,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Inuinnaqtun,ikt,ikt,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Inuktitut,iu,iu-Cans,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Inuktitut (Latin),iu-Latn,iu-Latn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Irish,ga,ga,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Italian,it,it,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,Japanese,ja,ja,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kannada,kn,kn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kashmiri,ks,ks,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kazakh,kk,kk,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Khmer,km,km,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kinyarwanda,rw,rw,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Klingon,tlh-Latn,tlh-Latn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": """", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Klingon (plqaD),tlh-Piqd,tlh-Piqd,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": """", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Konkani,gom,gom,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Korean,ko,ko,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kurdish (Central),ku,ckb,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kurdish (Northern),kmr,kmr,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Kyrgyz (Cyrillic),ky,ky,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Lao,lo,lo,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Latvian,lv,lv,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Lithuanian,lt,lt,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Lingala,ln,ln,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Lower Sorbian,dsb,dsb,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": """", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Luganda,lug,lg,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Macedonian,mk,mk,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Maithili,mai,mai,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Malagasy,mg,mg,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Malay (Latin),ms,ms,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Malayalam,ml,ml,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Maltese,mt,mt,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Manipuri,mni,mni-Mtei,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Maori,mi,mi,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Marathi,mr,mr,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Mongolian (Cyrillic),mn-Cyrl,mn-Cyrl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Mongolian (Traditional),mn-Mong,mn-Mong,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Myanmar,my,my,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Nepali,ne,ne,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Norwegian Bokmål,nb,nb,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Nyanja,nya,ny,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Odia,or,or,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Pashto,ps,ps,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Persian,fa,fa,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Polish,pl,pl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Portuguese (Brazil),pt,pt-BR,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Portuguese (Portugal),pt-pt,pt-PT,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Punjabi,pa,pa,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Queretaro Otomi,otq,otq,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Romanian,ro,ro,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Rundi,run,rn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Russian,ru,ru,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Samoan (Latin),sm,sm,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Serbian (Cyrillic),sr-Cyrl,sr-Cyrl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Serbian (Latin),sr-Latn,sr-Latn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Sesotho,st,st,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Sesotho sa Leboa,nso,nso,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Setswana,tn,tn,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": """", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Sindhi,sd,sd,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Sinhala,si,si,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Slovak,sk,sk,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Slovenian,sl,sl,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Somali (Arabic),so,so,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Spanish,es,es,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": ""✔""}}"
+azure_translation_docs,Swahili (Latin),sw,sw,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": """", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Swedish,sv,sv,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tahitian,ty,ty,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tamil,ta,ta,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tatar (Latin),tt,tt,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Telugu,te,te,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Thai,th,th,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tibetan,bo,bo,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tigrinya,ti,ti,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Tongan,to,to,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Turkish,tr,tr,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Turkmen (Latin),tk,tk,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Ukrainian,uk,uk,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Upper Sorbian,hsb,hsb,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Urdu,ur,ur,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Uyghur (Arabic),ug,ug,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Uzbek (Latin),uz,uz,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Vietnamese,vi,vi,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Welsh,cy,cy,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": ""✔"", ""Auto Language Detection"": ""✔"", ""Dictionary"": ""✔"", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Xhosa,xh,xh,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Yoruba,yo,yo,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Yucatec Maya,yua,yua,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": """", ""Adaptive custom translation"": """"}}"
+azure_translation_docs,Zulu,zu,zu,,"{""capabilities"": {""Cloud – Text translation and Document translation"": ""✔"", ""Containers – Text translation"": ""✔"", ""Custom Translator"": """", ""Auto Language Detection"": ""✔"", ""Dictionary"": """", ""LLM translation"": ""✔"", ""Adaptive custom translation"": """"}}"

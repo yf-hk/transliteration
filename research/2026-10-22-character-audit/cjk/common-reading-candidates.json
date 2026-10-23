@@ -1,0 +1,6449 @@
+[
+  {
+    "codepoint": "U+4E86",
+    "char": "了",
+    "name": "CJK UNIFIED IDEOGRAPH-4E86",
+    "current": "Liao ",
+    "readings": {
+      "kCantonese": "liu5",
+      "kDefinition": "to finish; particle of completed action",
+      "kFanqie": "盧鳥",
+      "kHangul": "료:0E 요:0",
+      "kHanyuPinlu": "le(30101) liǎo(654) liào(19)",
+      "kHanyuPinyin": "10048.060:liǎo,le,liào",
+      "kJapanese": "リョウ おえる おわる ついに",
+      "kJapaneseKun": "OWARU TSUINI",
+      "kJapaneseOn": "RYOU",
+      "kKorean": "LYO",
+      "kMandarin": "le",
+      "kSMSZD2003Readings": "liǎo粵liu5 le粵liu5",
+      "kTGHZ2013": "212.080:le 223.010,223.020:liǎo",
+      "kTang": "*leǔ leǔ",
+      "kVietnamese": "liễu",
+      "kXHC1983": "0684.060:le 0711.150:liǎo 0712.070:liào",
+      "kSimplifiedVariant": "U+4E86",
+      "kSpoofingVariant": "U+20110",
+      "kTraditionalVariant": "U+4E86 U+77AD"
+    },
+    "accepted_readings": [
+      "le",
+      "liao"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "le": 30101,
+      "liao": 673
+    },
+    "highest_corpus_reading": "le",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "了",
+        "D": "03198",
+        "H": "2",
+        "I": "˙ㄌㄜ",
+        "J": "  ",
+        "L": "le",
+        "lookup_char": "了"
+      },
+      {
+        "A": "了",
+        "D": "03539",
+        "H": "1",
+        "I": "ㄌㄧㄠˇ",
+        "J": "  ",
+        "L": "liǎo",
+        "lookup_char": "了"
+      },
+      {
+        "A": "了",
+        "D": "03198",
+        "H": "2",
+        "I": "˙ㄌㄜ",
+        "J": "  ",
+        "L": "le",
+        "lookup_char": "了"
+      },
+      {
+        "A": "了",
+        "D": "03539",
+        "H": "1",
+        "I": "ㄌㄧㄠˇ",
+        "J": "  ",
+        "L": "liǎo",
+        "lookup_char": "了"
+      },
+      {
+        "A": "瞭",
+        "D": "03542",
+        "H": "1",
+        "I": "ㄌㄧㄠˇ",
+        "J": "  ",
+        "L": "liǎo",
+        "lookup_char": "瞭"
+      },
+      {
+        "A": "瞭",
+        "D": "03550",
+        "H": "2",
+        "I": "ㄌㄧㄠˋ",
+        "J": "  ",
+        "L": "liào",
+        "lookup_char": "瞭"
+      }
+    ],
+    "moe_readings": [
+      "le",
+      "liao"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+4E8F",
+    "char": "亏",
+    "name": "CJK UNIFIED IDEOGRAPH-4E8F",
+    "current": "Yu ",
+    "readings": {
+      "kCantonese": "kwai1",
+      "kDefinition": "lose, fail; damage; deficient",
+      "kHangul": "우:1",
+      "kHanyuPinlu": "kuī(71)",
+      "kHanyuPinyin": "10005.010:yú,kuī",
+      "kJapanese": "ウ ここに",
+      "kJapaneseKun": "KAKERU",
+      "kJapaneseOn": "U",
+      "kKorean": "YU WU",
+      "kMandarin": "kuī",
+      "kTGHZ2013": "202.130:kuī",
+      "kXHC1983": "0661.120:kuī",
+      "kSemanticVariant": "U+65BC<kMatthews U+6275<kMatthews",
+      "kSimplifiedVariant": "U+4E8F",
+      "kTraditionalVariant": "U+4E8F U+8667"
+    },
+    "accepted_readings": [
+      "kui",
+      "yu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "kui": 71
+    },
+    "highest_corpus_reading": "kui",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "亏",
+        "D": "11557-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "亏"
+      },
+      {
+        "A": "亏",
+        "D": "11557-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "亏"
+      },
+      {
+        "A": "虧",
+        "D": "04615",
+        "H": "0",
+        "I": "ㄎㄨㄟ",
+        "J": "  ",
+        "L": "kuī",
+        "lookup_char": "虧"
+      }
+    ],
+    "moe_readings": [
+      "kui"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+4EC0",
+    "char": "什",
+    "name": "CJK UNIFIED IDEOGRAPH-4EC0",
+    "current": "Shi ",
+    "readings": {
+      "kCantonese": "sap6",
+      "kDefinition": "file of ten soldiers; mixed, miscellaneous",
+      "kFanqie": "是執",
+      "kHangul": "십:0N 집:0N",
+      "kHanyuPinlu": "shén(4045) shen(17)",
+      "kHanyuPinyin": "10108.020:shí,shén",
+      "kJapanese": "ジュウ シュウ",
+      "kJapaneseKun": "KUMI TOU MAJIRU",
+      "kJapaneseOn": "SHUU JUU",
+      "kKorean": "SIP CIP",
+      "kMandarin": "shén",
+      "kSMSZD2003Readings": "shí粵sap6 shí粵zaap6 shén粵sam6",
+      "kTGHZ2013": "331.050:shén 334.170:shí",
+      "kVietnamese": "thập",
+      "kXHC1983": "1021.010:shén 1038.020:shí"
+    },
+    "accepted_readings": [
+      "shen",
+      "shi"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shen": 4062
+    },
+    "highest_corpus_reading": "shen",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "什",
+        "D": "08707",
+        "H": "1",
+        "I": "ㄕˊ",
+        "J": "  ",
+        "L": "shí",
+        "lookup_char": "什"
+      },
+      {
+        "A": "什",
+        "D": "08821",
+        "H": "3",
+        "I": "ㄕㄜˊ",
+        "J": "又音 ",
+        "L": "shé",
+        "lookup_char": "什"
+      },
+      {
+        "A": "什",
+        "D": "08983",
+        "H": "2",
+        "I": "ㄕㄣˊ",
+        "J": "  ",
+        "L": "shén",
+        "lookup_char": "什"
+      }
+    ],
+    "moe_readings": [
+      "she",
+      "shen",
+      "shi"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+4EF7",
+    "char": "价",
+    "name": "CJK UNIFIED IDEOGRAPH-4EF7",
+    "current": "Jie ",
+    "readings": {
+      "kCantonese": "gaai3",
+      "kDefinition": "price, value",
+      "kFanqie": "古拜",
+      "kHangul": "개:0N",
+      "kHanyuPinlu": "jià(430)",
+      "kHanyuPinyin": "10124.070:jiè,jià,jie",
+      "kJapanese": "カイ",
+      "kJapaneseKun": "YOI OOKII TSUKAI",
+      "kJapaneseOn": "KAI",
+      "kKorean": "KAY",
+      "kMandarin": "jià",
+      "kSMSZD2003Readings": "jiè粵gaai3",
+      "kTGHZ2013": "162.040:jià 175.100:jie",
+      "kVietnamese": "giá",
+      "kXHC1983": "0545.010:jià 0583.070:jiè 0584.050:jie",
+      "kSimplifiedVariant": "U+4EF7",
+      "kTraditionalVariant": "U+4EF7 U+50F9"
+    },
+    "accepted_readings": [
+      "jia",
+      "jie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jia": 430
+    },
+    "highest_corpus_reading": "jia",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "价",
+        "D": "05598",
+        "H": "1",
+        "I": "ㄐㄧㄝˋ",
+        "J": "  ",
+        "L": "jiè",
+        "lookup_char": "价"
+      },
+      {
+        "A": "价",
+        "D": "03919-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "价"
+      },
+      {
+        "A": "价",
+        "D": "05598",
+        "H": "1",
+        "I": "ㄐㄧㄝˋ",
+        "J": "  ",
+        "L": "jiè",
+        "lookup_char": "价"
+      },
+      {
+        "A": "价",
+        "D": "03919-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "价"
+      },
+      {
+        "A": "價",
+        "D": "03919",
+        "H": "2",
+        "I": "˙ㄍㄚ",
+        "J": "  ",
+        "L": "ga",
+        "lookup_char": "價"
+      },
+      {
+        "A": "價",
+        "D": "05531",
+        "H": "1",
+        "I": "ㄐㄧㄚˋ",
+        "J": "  ",
+        "L": "jià",
+        "lookup_char": "價"
+      }
+    ],
+    "moe_readings": [
+      "ga",
+      "jia",
+      "jie"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+4F3A",
+    "char": "伺",
+    "name": "CJK UNIFIED IDEOGRAPH-4F3A",
+    "current": "Si ",
+    "readings": {
+      "kCantonese": "zi6",
+      "kDefinition": "serve, wait upon, attend; examine",
+      "kFanqie": "息兹 相吏",
+      "kHangul": "사:0N",
+      "kHanyuPinlu": "cì(24)",
+      "kHanyuPinyin": "10139.050:sì,cì",
+      "kJapanese": "シ うかがう",
+      "kJapaneseKun": "UKAGAU UKAGAI",
+      "kJapaneseOn": "SHI",
+      "kKorean": "SA",
+      "kMandarin": "cì",
+      "kSMSZD2003Readings": "sì粵zi6 cì粵si6",
+      "kTGHZ2013": "055.190:cì 347.070:sì",
+      "kTang": "siə̀",
+      "kXHC1983": "0177.020:cì 1090.150:sì"
+    },
+    "accepted_readings": [
+      "ci",
+      "si"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ci": 24
+    },
+    "highest_corpus_reading": "ci",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "伺",
+        "D": "09716",
+        "H": "2",
+        "I": "ㄘˋ",
+        "J": "  ",
+        "L": "cì",
+        "lookup_char": "伺"
+      },
+      {
+        "A": "伺",
+        "D": "09966",
+        "H": "1",
+        "I": "ㄙˋ",
+        "J": "  ",
+        "L": "sì",
+        "lookup_char": "伺"
+      }
+    ],
+    "moe_readings": [
+      "ci",
+      "si"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+4F3C",
+    "char": "似",
+    "name": "CJK UNIFIED IDEOGRAPH-4F3C",
+    "current": "Si ",
+    "readings": {
+      "kCantonese": "ci5",
+      "kDefinition": "resemble, similar to; as if, seem",
+      "kFanqie": "詳里",
+      "kHangul": "사:0E",
+      "kHanyuPinlu": "shì(599) sì(401)",
+      "kHanyuPinyin": "10127.020:sì,shì",
+      "kJapanese": "ジ シ にる",
+      "kJapaneseKun": "NIRU",
+      "kJapaneseOn": "JI",
+      "kKorean": "SA",
+      "kMandarin": "sì",
+      "kSMSZD2003Readings": "sì粵ci5 shì粵ci5",
+      "kTGHZ2013": "336.140:shì 347.040:sì",
+      "kTang": "*ziə̌ ziə̌",
+      "kVietnamese": "tự",
+      "kXHC1983": "1054.020:shì 1090.080:sì"
+    },
+    "accepted_readings": [
+      "shi",
+      "si"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shi": 599,
+      "si": 401
+    },
+    "highest_corpus_reading": "shi",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "似",
+        "D": "09964",
+        "H": "0",
+        "I": "ㄙˋ",
+        "J": "  ",
+        "L": "sì",
+        "lookup_char": "似"
+      }
+    ],
+    "moe_readings": [
+      "si"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+4F5B",
+    "char": "佛",
+    "name": "CJK UNIFIED IDEOGRAPH-4F5B",
+    "current": "Fo ",
+    "readings": {
+      "kCantonese": "fat6",
+      "kDefinition": "Buddha; of Buddhism; merciful person; Buddhist image; the dead (Japanese)",
+      "kFanqie": "符弗",
+      "kHangul": "불:0E",
+      "kHanyuPinlu": "fú(252)",
+      "kHanyuPinyin": "10140.030:fú,bó,bì,fó",
+      "kJapanese": "フツ ブツ ホツ ヒツ ボチ ビチ ブチ ほとけ",
+      "kJapaneseKun": "HOTOKE",
+      "kJapaneseOn": "BUTSU FUTSU HOTSU",
+      "kKorean": "PWUL PHIL",
+      "kMandarin": "fú",
+      "kSMSZD2003Readings": "fó粵fat6 fú粵fat1",
+      "kTGHZ2013": "099.010:fó 100.060:fú",
+      "kTang": "bhiət",
+      "kVietnamese": "phật",
+      "kXHC1983": "0332.090:fó 0339.120:fú"
+    },
+    "accepted_readings": [
+      "bi",
+      "bo",
+      "fo",
+      "fu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "fu": 252
+    },
+    "highest_corpus_reading": "fu",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "佛",
+        "D": "00358",
+        "H": "2",
+        "I": "ㄅㄧˋ",
+        "J": "  ",
+        "L": "bì",
+        "lookup_char": "佛"
+      },
+      {
+        "A": "佛",
+        "D": "01542",
+        "H": "1",
+        "I": "ㄈㄛˊ",
+        "J": "  ",
+        "L": "fó",
+        "lookup_char": "佛"
+      },
+      {
+        "A": "佛",
+        "D": "01778",
+        "H": "3",
+        "I": "ㄈㄨˊ",
+        "J": "  ",
+        "L": "fú",
+        "lookup_char": "佛"
+      }
+    ],
+    "moe_readings": [
+      "bi",
+      "fo",
+      "fu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+513F",
+    "char": "儿",
+    "name": "CJK UNIFIED IDEOGRAPH-513F",
+    "current": "Er ",
+    "readings": {
+      "kCantonese": "ji4",
+      "kDefinition": "son, child; Kangxi radical 10",
+      "kFanqie": "如鄰",
+      "kHangul": "인:N",
+      "kHanyuPinlu": "r(3254) ér(581)",
+      "kHanyuPinyin": "10264.040:rén,ér",
+      "kJapanese": "ジン ニン カイ ひとあし",
+      "kJapaneseKun": "HITO NINNYOU",
+      "kJapaneseOn": "JIN NIN KAI",
+      "kKorean": "IN KWEY",
+      "kMandarin": "ér",
+      "kSMSZD2003Readings": "rén粵jan4",
+      "kTGHZ2013": "088.080:ér",
+      "kXHC1983": "0286.070:ér",
+      "kSimplifiedVariant": "U+513F",
+      "kTraditionalVariant": "U+513F U+5152"
+    },
+    "accepted_readings": [
+      "er",
+      "r",
+      "ren"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "r": 3254,
+      "er": 581
+    },
+    "highest_corpus_reading": "r",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "儿",
+        "D": "09215",
+        "H": "0",
+        "I": "ㄖㄣˊ",
+        "J": "  ",
+        "L": "rén",
+        "lookup_char": "儿"
+      },
+      {
+        "A": "儿",
+        "D": "09215",
+        "H": "0",
+        "I": "ㄖㄣˊ",
+        "J": "  ",
+        "L": "rén",
+        "lookup_char": "儿"
+      },
+      {
+        "A": "兒",
+        "D": "03004",
+        "H": "2",
+        "I": "ㄋㄧˊ",
+        "J": "  ",
+        "L": "ní",
+        "lookup_char": "兒"
+      },
+      {
+        "A": "兒",
+        "D": "10463",
+        "H": "1",
+        "I": "ㄦˊ",
+        "J": "  ",
+        "L": "ér",
+        "lookup_char": "兒"
+      }
+    ],
+    "moe_readings": [
+      "er",
+      "ni",
+      "ren"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5152",
+    "char": "兒",
+    "name": "CJK UNIFIED IDEOGRAPH-5152",
+    "current": "Er ",
+    "readings": {
+      "kCantonese": "ji4",
+      "kDefinition": "son, child, oneself; final part",
+      "kFanqie": "汝移 五稽",
+      "kHangul": "아:0E 예:N",
+      "kHanyuPinlu": "r(3254) ér(581)",
+      "kHanyuPinyin": "10272.050:ní,ér",
+      "kJapanese": "ジ ニ ゲイ こ",
+      "kJapaneseKun": "KO",
+      "kJapaneseOn": "JI NI GEI",
+      "kKorean": "A",
+      "kMandarin": "ér",
+      "kSMSZD2003Readings": "ér粵ji4",
+      "kTang": "*njiɛ njiɛ",
+      "kXHC1983": "0286.071:ér 0826.050:ní",
+      "kSimplifiedVariant": "U+513F"
+    },
+    "accepted_readings": [
+      "er",
+      "ni",
+      "r"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "r": 3254,
+      "er": 581
+    },
+    "highest_corpus_reading": "r",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "兒",
+        "D": "03004",
+        "H": "2",
+        "I": "ㄋㄧˊ",
+        "J": "  ",
+        "L": "ní",
+        "lookup_char": "兒"
+      },
+      {
+        "A": "兒",
+        "D": "10463",
+        "H": "1",
+        "I": "ㄦˊ",
+        "J": "  ",
+        "L": "ér",
+        "lookup_char": "兒"
+      }
+    ],
+    "moe_readings": [
+      "er",
+      "ni"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5192",
+    "char": "冒",
+    "name": "CJK UNIFIED IDEOGRAPH-5192",
+    "current": "Mou ",
+    "readings": {
+      "kCantonese": "mou6",
+      "kDefinition": "risk, brave, dare",
+      "kFanqie": "莫報 莫北",
+      "kHangul": "모:0E",
+      "kHanyuPinlu": "mào(187)",
+      "kHanyuPinyin": "21499.120:mào,mò",
+      "kJapanese": "ボウ モウ ボク モク バイ マイ おかす おおう",
+      "kJapaneseKun": "OKASU OOU",
+      "kJapaneseOn": "BOU",
+      "kKorean": "MO MOK",
+      "kMandarin": "mào",
+      "kSMSZD2003Readings": "mào粵mou6 mò粵mak6",
+      "kTGHZ2013": "245.040:mào",
+      "kTang": "mɑ̀u",
+      "kVietnamese": "mạo",
+      "kXHC1983": "0769.120:mào 0804.040:mò",
+      "kSemanticVariant": "U+2F8D2<kHKGlyph"
+    },
+    "accepted_readings": [
+      "mao",
+      "mo"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "mao": 187
+    },
+    "highest_corpus_reading": "mao",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "冒",
+        "D": "01077",
+        "H": "2",
+        "I": "ㄇㄛˋ",
+        "J": "  ",
+        "L": "mò",
+        "lookup_char": "冒"
+      },
+      {
+        "A": "冒",
+        "D": "01182",
+        "H": "1",
+        "I": "ㄇㄠˋ",
+        "J": "  ",
+        "L": "mào",
+        "lookup_char": "冒"
+      }
+    ],
+    "moe_readings": [
+      "mao",
+      "mo"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+5228",
+    "char": "刨",
+    "name": "CJK UNIFIED IDEOGRAPH-5228",
+    "current": "Bao ",
+    "readings": {
+      "kCantonese": "paau4",
+      "kDefinition": "carpenter's plane; plane, level",
+      "kHanyuPinlu": "páo(12)",
+      "kHanyuPinyin": "10331.030:páo,bào",
+      "kJapanese": "ホウ ビョウ",
+      "kJapaneseKun": "KEZURU",
+      "kJapaneseOn": "HOU BYOU",
+      "kKorean": "PHO",
+      "kMandarin": "páo",
+      "kSMSZD2003Readings": "páo粵paau4 bào粵paau4",
+      "kTGHZ2013": "013.050:bào 276.160:páo",
+      "kVietnamese": "bào",
+      "kXHC1983": "0043.040:bào 0856.080:páo",
+      "kSemanticVariant": "U+924B<kMatthews"
+    },
+    "accepted_readings": [
+      "bao",
+      "pao"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "pao": 12
+    },
+    "highest_corpus_reading": "pao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "刨",
+        "D": "00223",
+        "H": "2",
+        "I": "ㄅㄠˋ",
+        "J": "  ",
+        "L": "bào",
+        "lookup_char": "刨"
+      },
+      {
+        "A": "刨",
+        "D": "00672",
+        "H": "1",
+        "I": "ㄆㄠˊ",
+        "J": "  ",
+        "L": "páo",
+        "lookup_char": "刨"
+      }
+    ],
+    "moe_readings": [
+      "bao",
+      "pao"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5239",
+    "char": "刹",
+    "name": "CJK UNIFIED IDEOGRAPH-5239",
+    "current": "Cha ",
+    "readings": {
+      "kCantonese": "caat3",
+      "kDefinition": "temple, shrine, monastery",
+      "kFanqie": "初鎋",
+      "kHangul": "찰:0N",
+      "kHanyuPinlu": "shā(17) chà(14)",
+      "kHanyuPinyin": "10336.070:chà,shā",
+      "kJapanese": "セツ サツ セチ",
+      "kJapaneseKun": "HATABASHIRA TERA KUNI",
+      "kJapaneseOn": "SATSU SECHI",
+      "kKorean": "CHAL",
+      "kMandarin": "shā",
+      "kTGHZ2013": "035.150:chà 322.100:shā",
+      "kXHC1983": "0115.040:chà 0993.020:shā",
+      "kSimplifiedVariant": "U+5239",
+      "kTraditionalVariant": "U+5239 U+524E"
+    },
+    "accepted_readings": [
+      "cha",
+      "sha"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "sha": 17,
+      "cha": 14
+    },
+    "highest_corpus_reading": "sha",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "刹",
+        "D": "08256-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "刹"
+      },
+      {
+        "A": "刹",
+        "D": "08256-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "刹"
+      },
+      {
+        "A": "剎",
+        "D": "08256",
+        "H": "1",
+        "I": "ㄔㄚˋ",
+        "J": "  ",
+        "L": "chà",
+        "lookup_char": "剎"
+      },
+      {
+        "A": "剎",
+        "D": "08795",
+        "H": "2",
+        "I": "ㄕㄚ",
+        "J": "  ",
+        "L": "shā",
+        "lookup_char": "剎"
+      }
+    ],
+    "moe_readings": [
+      "cha",
+      "sha"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+524E",
+    "char": "剎",
+    "name": "CJK UNIFIED IDEOGRAPH-524E",
+    "current": "Cha ",
+    "readings": {
+      "kCantonese": "caat3",
+      "kDefinition": "temple",
+      "kHanyuPinlu": "shā(17) chà(14)",
+      "kJapanese": "セツ サツ セチ",
+      "kJapaneseKun": "HATABASHIRA TERA KUNI",
+      "kJapaneseOn": "SATSU SECHI",
+      "kKorean": "CHAL",
+      "kMandarin": "shā",
+      "kSMSZD2003Readings": "chà粵caat3,saat3 shā粵saat3",
+      "kSimplifiedVariant": "U+5239"
+    },
+    "accepted_readings": [
+      "cha",
+      "sha"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "sha": 17,
+      "cha": 14
+    },
+    "highest_corpus_reading": "sha",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "剎",
+        "D": "08256",
+        "H": "1",
+        "I": "ㄔㄚˋ",
+        "J": "  ",
+        "L": "chà",
+        "lookup_char": "剎"
+      },
+      {
+        "A": "剎",
+        "D": "08795",
+        "H": "2",
+        "I": "ㄕㄚ",
+        "J": "  ",
+        "L": "shā",
+        "lookup_char": "剎"
+      }
+    ],
+    "moe_readings": [
+      "cha",
+      "sha"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+52B2",
+    "char": "劲",
+    "name": "CJK UNIFIED IDEOGRAPH-52B2",
+    "current": "Jing ",
+    "readings": {
+      "kCantonese": "ging6",
+      "kDefinition": "strong, unyielding, tough, power",
+      "kHanyuPinlu": "jìn(294)",
+      "kJapaneseOn": "KEI",
+      "kMandarin": "jìn",
+      "kTGHZ2013": "177.040:jìn 180.050:jìng",
+      "kXHC1983": "0593.020:jìn 0604.010:jìng",
+      "kTraditionalVariant": "U+52C1"
+    },
+    "accepted_readings": [
+      "jin",
+      "jing"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jin": 294
+    },
+    "highest_corpus_reading": "jin",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "勁",
+        "D": "05863",
+        "H": "2",
+        "I": "ㄐㄧㄣˋ",
+        "J": "  ",
+        "L": "jìn",
+        "lookup_char": "勁"
+      },
+      {
+        "A": "勁",
+        "D": "05947",
+        "H": "1",
+        "I": "ㄐㄧㄥˋ",
+        "J": "  ",
+        "L": "jìng",
+        "lookup_char": "勁"
+      }
+    ],
+    "moe_readings": [
+      "jin",
+      "jing"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+52C1",
+    "char": "勁",
+    "name": "CJK UNIFIED IDEOGRAPH-52C1",
+    "current": "Jing ",
+    "readings": {
+      "kCantonese": "ging6",
+      "kDefinition": "strong, unyielding, tough, powerful",
+      "kFanqie": "居焮 居正",
+      "kHangul": "경:0N",
+      "kHanyuPinlu": "jìn(294)",
+      "kHanyuPinyin": "10371.040:jìng,jìn",
+      "kJapanese": "ケイ キョウ つよい",
+      "kJapaneseKun": "TSUYOI",
+      "kJapaneseOn": "KEI",
+      "kKorean": "KYENG",
+      "kMandarin": "jìn",
+      "kSMSZD2003Readings": "jìn粵ging3 jìng粵ging6",
+      "kTang": "giɛ̀ng",
+      "kVietnamese": "cứng",
+      "kXHC1983": "0593.021:jìn 0604.011:jìng",
+      "kSimplifiedVariant": "U+52B2",
+      "kSpecializedSemanticVariant": "U+4FD3<kMeyerWempe U+5F91"
+    },
+    "accepted_readings": [
+      "jin",
+      "jing"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jin": 294
+    },
+    "highest_corpus_reading": "jin",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "勁",
+        "D": "05863",
+        "H": "2",
+        "I": "ㄐㄧㄣˋ",
+        "J": "  ",
+        "L": "jìn",
+        "lookup_char": "勁"
+      },
+      {
+        "A": "勁",
+        "D": "05947",
+        "H": "1",
+        "I": "ㄐㄧㄥˋ",
+        "J": "  ",
+        "L": "jìng",
+        "lookup_char": "勁"
+      }
+    ],
+    "moe_readings": [
+      "jin",
+      "jing"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+52D2",
+    "char": "勒",
+    "name": "CJK UNIFIED IDEOGRAPH-52D2",
+    "current": "Le ",
+    "readings": {
+      "kCantonese": "lak6",
+      "kDefinition": "strangle, tighten",
+      "kFanqie": "盧則",
+      "kHangul": "늑:0 륵:0N",
+      "kHanyuPinlu": "lēi(13)",
+      "kHanyuPinyin": "10374.010:lè,lēi,lei",
+      "kJapanese": "ロク",
+      "kJapaneseKun": "KUTSUWA",
+      "kJapaneseOn": "ROKU",
+      "kKorean": "LUK",
+      "kMandarin": "lēi",
+      "kSMSZD2003Readings": "lè粵lak6,laak6 lēi粵lak6,laak6",
+      "kTGHZ2013": "212.050:lè 212.100:lēi",
+      "kTang": "lək",
+      "kVietnamese": "lắc",
+      "kXHC1983": "0684.020:lè 0684.070:lēi"
+    },
+    "accepted_readings": [
+      "le",
+      "lei"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "lei": 13
+    },
+    "highest_corpus_reading": "lei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "勒",
+        "D": "03192",
+        "H": "1",
+        "I": "ㄌㄜˋ",
+        "J": "  ",
+        "L": "lè",
+        "lookup_char": "勒"
+      },
+      {
+        "A": "勒",
+        "D": "03223",
+        "H": "2",
+        "I": "ㄌㄟ",
+        "J": "  ",
+        "L": "lēi",
+        "lookup_char": "勒"
+      }
+    ],
+    "moe_readings": [
+      "le",
+      "lei"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5319",
+    "char": "匙",
+    "name": "CJK UNIFIED IDEOGRAPH-5319",
+    "current": "Chi ",
+    "readings": {
+      "kCantonese": "ci4",
+      "kDefinition": "spoon; surname",
+      "kFanqie": "是支",
+      "kHangul": "시:0N",
+      "kHanyuPinlu": "shi(13)",
+      "kHanyuPinyin": "10263.020:chí,shi",
+      "kJapanese": "シ ヒ ジ さじ",
+      "kJapaneseKun": "SAJI",
+      "kJapaneseOn": "SHI JI",
+      "kKorean": "SI",
+      "kMandarin": "shi",
+      "kSMSZD2003Readings": "chí粵ci4 shi粵si4",
+      "kTGHZ2013": "045.210:chí 338.200:shi",
+      "kTang": "zhiɛ",
+      "kXHC1983": "0143.050:chí 1054.070:shi",
+      "kSemanticVariant": "U+9349<kMatthews"
+    },
+    "accepted_readings": [
+      "chi",
+      "shi"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shi": 13
+    },
+    "highest_corpus_reading": "shi",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "匙",
+        "D": "08189",
+        "H": "1",
+        "I": "ㄔˊ",
+        "J": "  ",
+        "L": "chí",
+        "lookup_char": "匙"
+      },
+      {
+        "A": "匙",
+        "D": "08782",
+        "H": "2",
+        "I": "˙ㄕ",
+        "J": "  ",
+        "L": "shi",
+        "lookup_char": "匙"
+      }
+    ],
+    "moe_readings": [
+      "chi",
+      "shi"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+535C",
+    "char": "卜",
+    "name": "CJK UNIFIED IDEOGRAPH-535C",
+    "current": "Bu ",
+    "readings": {
+      "kCantonese": "baak6",
+      "kDefinition": "fortune telling; prophesy",
+      "kFanqie": "博木",
+      "kHangul": "복:0E",
+      "kHanyuPinlu": "bo(25)",
+      "kHanyuPinyin": "10091.110:bǔ,pū,bo",
+      "kJapanese": "ボク ホク うらない うらなう ぼくのと",
+      "kJapaneseKun": "URANAU URANAI",
+      "kJapaneseOn": "BOKU",
+      "kKorean": "POK",
+      "kMandarin": "bo bǔ",
+      "kSMSZD2003Readings": "bǔ粵buk1",
+      "kTGHZ2013": "028.080:bo 028.130:bǔ",
+      "kTang": "*buk",
+      "kVietnamese": "bốc",
+      "kXHC1983": "0085.090:bo 0086.030:bǔ",
+      "kSimplifiedVariant": "U+535C",
+      "kTraditionalVariant": "U+535C U+8514"
+    },
+    "accepted_readings": [
+      "bo",
+      "bu",
+      "pu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "bo": 25
+    },
+    "highest_corpus_reading": "bo",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "卜",
+        "D": "00559",
+        "H": "0",
+        "I": "ㄅㄨˇ",
+        "J": "  ",
+        "L": "bǔ",
+        "lookup_char": "卜"
+      },
+      {
+        "A": "卜",
+        "D": "00559",
+        "H": "0",
+        "I": "ㄅㄨˇ",
+        "J": "  ",
+        "L": "bǔ",
+        "lookup_char": "卜"
+      },
+      {
+        "A": "蔔",
+        "D": "00106",
+        "H": "1",
+        "I": "ㄅㄛˊ",
+        "J": "讀音 ",
+        "L": "bó",
+        "lookup_char": "蔔"
+      },
+      {
+        "A": "蔔",
+        "D": "00130",
+        "H": "2",
+        "I": "˙ㄅㄛ",
+        "J": "語音 ",
+        "L": "bo",
+        "lookup_char": "蔔"
+      }
+    ],
+    "moe_readings": [
+      "bo",
+      "bu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5361",
+    "char": "卡",
+    "name": "CJK UNIFIED IDEOGRAPH-5361",
+    "current": "Qia ",
+    "readings": {
+      "kCantonese": "kaa1",
+      "kDefinition": "card, punch card; calorie",
+      "kHangul": "잡:1N",
+      "kHanyuPinlu": "kǎ(28)",
+      "kHanyuPinyin": "10092.040:qiǎ,kǎ",
+      "kJapanese": "カ ソウ ゾウ サ",
+      "kJapaneseOn": "SAHU SA KA ZOU SOU",
+      "kKorean": "CAP",
+      "kMandarin": "kǎ",
+      "kSMSZD2003Readings": "qiǎ粵kaa2 kǎ粵kaa1 kǎ粵kaat1",
+      "kTGHZ2013": "191.040:kǎ 294.160:qiǎ",
+      "kXHC1983": "0625.050:kǎ 0906.120:qiǎ"
+    },
+    "accepted_readings": [
+      "ka",
+      "qia"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ka": 28
+    },
+    "highest_corpus_reading": "ka",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "卡",
+        "D": "04400",
+        "H": "1",
+        "I": "ㄎㄚˇ",
+        "J": "  ",
+        "L": "kǎ",
+        "lookup_char": "卡"
+      },
+      {
+        "A": "卡",
+        "D": "06321",
+        "H": "2",
+        "I": "ㄑㄧㄚˇ",
+        "J": "  ",
+        "L": "qiǎ",
+        "lookup_char": "卡"
+      }
+    ],
+    "moe_readings": [
+      "ka",
+      "qia"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5382",
+    "char": "厂",
+    "name": "CJK UNIFIED IDEOGRAPH-5382",
+    "current": "Han ",
+    "readings": {
+      "kCantonese": "cong2",
+      "kDefinition": "factory, workshop; radical 27",
+      "kFanqie": "呼旱 呼旰",
+      "kHanyuPinlu": "chǎng(731)",
+      "kHanyuPinyin": "10067.160:hǎn,chǎng,yán,ān",
+      "kJapanese": "カン ゲン ゴン がんだれ",
+      "kJapaneseKun": "GAKE",
+      "kJapaneseOn": "KAN",
+      "kKorean": "EM HAN",
+      "kMandarin": "chǎng",
+      "kSMSZD2003Readings": "ān粵am1 àn粵ngon6",
+      "kTGHZ2013": "039.040:chǎng",
+      "kXHC1983": "0008.040:ān 0124.010:chǎng",
+      "kSimplifiedVariant": "U+5382",
+      "kTraditionalVariant": "U+5382 U+5EE0"
+    },
+    "accepted_readings": [
+      "an",
+      "chang",
+      "han",
+      "yan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "chang": 731
+    },
+    "highest_corpus_reading": "chang",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "厂",
+        "D": "04861",
+        "H": "0",
+        "I": "ㄏㄢˇ",
+        "J": "  ",
+        "L": "hǎn",
+        "lookup_char": "厂"
+      },
+      {
+        "A": "厂",
+        "D": "04861",
+        "H": "0",
+        "I": "ㄏㄢˇ",
+        "J": "  ",
+        "L": "hǎn",
+        "lookup_char": "厂"
+      },
+      {
+        "A": "廠",
+        "D": "08467",
+        "H": "0",
+        "I": "ㄔㄤˇ",
+        "J": "  ",
+        "L": "chǎng",
+        "lookup_char": "廠"
+      }
+    ],
+    "moe_readings": [
+      "chang",
+      "han"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+542D",
+    "char": "吭",
+    "name": "CJK UNIFIED IDEOGRAPH-542D",
+    "current": "Hang ",
+    "readings": {
+      "kCantonese": "hong4",
+      "kDefinition": "throat",
+      "kFanqie": "胡郎 胡朗 下浪",
+      "kHanyuPinlu": "kēng(10)",
+      "kHanyuPinyin": "10594.050:háng,hàng,kēng",
+      "kJapanese": "コウ ゴウ のど",
+      "kJapaneseKun": "NODO",
+      "kJapaneseOn": "KOU",
+      "kKorean": "HANG",
+      "kMandarin": "kēng",
+      "kSMSZD2003Readings": "háng粵hong4 kēng粵hang1",
+      "kTGHZ2013": "131.150:háng 197.110:kēng",
+      "kXHC1983": "0442.050:háng 0645.070:kēng"
+    },
+    "accepted_readings": [
+      "hang",
+      "keng"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "keng": 10
+    },
+    "highest_corpus_reading": "keng",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "吭",
+        "D": "04550",
+        "H": "2",
+        "I": "ㄎㄥ",
+        "J": "  ",
+        "L": "kēng",
+        "lookup_char": "吭"
+      },
+      {
+        "A": "吭",
+        "D": "04906",
+        "H": "1",
+        "I": "ㄏㄤˊ",
+        "J": "  ",
+        "L": "háng",
+        "lookup_char": "吭"
+      }
+    ],
+    "moe_readings": [
+      "hang",
+      "keng"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5446",
+    "char": "呆",
+    "name": "CJK UNIFIED IDEOGRAPH-5446",
+    "current": "Ai ",
+    "readings": {
+      "kCantonese": "ngoi4",
+      "kDefinition": "dull; dull-minded, simple, stupid",
+      "kFanqie": "五來 丁來",
+      "kHangul": "매:1N",
+      "kHanyuPinlu": "dāi(136)",
+      "kHanyuPinyin": "10585.110:bǎo,dāi,ái",
+      "kJapanese": "ホウ ボウ ホ タイ ガイ ダイ あきれる おろか",
+      "kJapaneseKun": "OROKA AKIRERU",
+      "kJapaneseOn": "BOU GAI HOU",
+      "kKorean": "MAY THAY PO",
+      "kMandarin": "dāi",
+      "kSMSZD2003Readings": "dāi粵ngoi4 dāi粵daai1",
+      "kTGHZ2013": "062.090:dāi",
+      "kVietnamese": "ngốc",
+      "kXHC1983": "0003.090:ái 0203.070:dāi",
+      "kSemanticVariant": "U+7343<kMatthews",
+      "kSpecializedSemanticVariant": "U+7343<kMeyerWempe"
+    },
+    "accepted_readings": [
+      "ai",
+      "bao",
+      "dai"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "dai": 136
+    },
+    "highest_corpus_reading": "dai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "呆",
+        "D": "01923",
+        "H": "1",
+        "I": "ㄉㄞ",
+        "J": "  ",
+        "L": "dāi",
+        "lookup_char": "呆"
+      },
+      {
+        "A": "呆",
+        "D": "10315",
+        "H": "2",
+        "I": "ㄞˊ",
+        "J": "又音 ",
+        "L": "ái",
+        "lookup_char": "呆"
+      }
+    ],
+    "moe_readings": [
+      "ai",
+      "dai"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5457",
+    "char": "呗",
+    "name": "CJK UNIFIED IDEOGRAPH-5457",
+    "current": "Bai ",
+    "readings": {
+      "kCantonese": "baai6",
+      "kDefinition": "final particle of assertion",
+      "kHanyuPinlu": "bei(22)",
+      "kMandarin": "bei",
+      "kTGHZ2013": "015.130:bei",
+      "kXHC1983": "0026.030:bài 0050.010:bei",
+      "kTraditionalVariant": "U+5504"
+    },
+    "accepted_readings": [
+      "bai",
+      "bei"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "bei": 22
+    },
+    "highest_corpus_reading": "bei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "唄",
+        "D": "00142",
+        "H": "1",
+        "I": "ㄅㄞˋ",
+        "J": "  ",
+        "L": "bài",
+        "lookup_char": "唄"
+      },
+      {
+        "A": "唄",
+        "D": "00200",
+        "H": "2",
+        "I": "˙ㄅㄟ",
+        "J": "  ",
+        "L": "bei",
+        "lookup_char": "唄"
+      }
+    ],
+    "moe_readings": [
+      "bai",
+      "bei"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5462",
+    "char": "呢",
+    "name": "CJK UNIFIED IDEOGRAPH-5462",
+    "current": "Ni ",
+    "readings": {
+      "kCantonese": "nai4",
+      "kDefinition": "interrogative or emphatic final; (Cant.) this",
+      "kFanqie": "女夷",
+      "kHangul": "니:1N",
+      "kHanyuPinlu": "ne(2307) ní(21)",
+      "kHanyuPinyin": "10609.030:ní,nǐ,nī,ne",
+      "kJapanese": "ジ ニ",
+      "kJapaneseOn": "JI NI",
+      "kKorean": "NI",
+      "kMandarin": "ne",
+      "kSMSZD2003Readings": "né粵nai4,nei4 ne粵ne1",
+      "kTGHZ2013": "263.160:ne 264.120:ní",
+      "kVietnamese": "nài",
+      "kXHC1983": "0822.040:ne 0827.030:ní"
+    },
+    "accepted_readings": [
+      "ne",
+      "ni"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ne": 2307,
+      "ni": 21
+    },
+    "highest_corpus_reading": "ne",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "呢",
+        "D": "02935",
+        "H": "2",
+        "I": "˙ㄋㄜ",
+        "J": "  ",
+        "L": "ne",
+        "lookup_char": "呢"
+      },
+      {
+        "A": "呢",
+        "D": "03001",
+        "H": "1",
+        "I": "ㄋㄧˊ",
+        "J": "  ",
+        "L": "ní",
+        "lookup_char": "呢"
+      }
+    ],
+    "moe_readings": [
+      "ne",
+      "ni"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5475",
+    "char": "呵",
+    "name": "CJK UNIFIED IDEOGRAPH-5475",
+    "current": "He ",
+    "readings": {
+      "kCantonese": "ho1",
+      "kDefinition": "scold; laughing sound; yawn",
+      "kFanqie": "虎何 呼箇",
+      "kHangul": "가:0N",
+      "kHanyuPinlu": "ā(392) hē(64)",
+      "kHanyuPinyin": "10598.100:hē,hā,ā,a,kē,huō",
+      "kJapanese": "カ ガ ア しかる わらう",
+      "kJapaneseKun": "SHIKARU WARAU",
+      "kJapaneseOn": "KA",
+      "kKorean": "KA",
+      "kMandarin": "hē",
+      "kSMSZD2003Readings": "hē粵ho1",
+      "kTGHZ2013": "133.120:hē",
+      "kTang": "xɑ",
+      "kVietnamese": "ha",
+      "kXHC1983": "0002.011:ā 0002.051:á 0002.061:ǎ 0002.071:à 0002.082:a 0448.050,0448.061:hē 0638.100:kē"
+    },
+    "accepted_readings": [
+      "a",
+      "ha",
+      "he",
+      "huo",
+      "ke"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "a": 392,
+      "he": 64
+    },
+    "highest_corpus_reading": "a",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "呵",
+        "D": "04717",
+        "H": "1",
+        "I": "ㄏㄜ",
+        "J": "  ",
+        "L": "hē",
+        "lookup_char": "呵"
+      },
+      {
+        "A": "呵",
+        "D": "10229",
+        "H": "2",
+        "I": "ㄛ",
+        "J": "  ",
+        "L": "ō",
+        "lookup_char": "呵"
+      }
+    ],
+    "moe_readings": [
+      "he",
+      "o"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+548B",
+    "char": "咋",
+    "name": "CJK UNIFIED IDEOGRAPH-548B",
+    "current": "Zha ",
+    "readings": {
+      "kCantonese": "zaa3",
+      "kDefinition": "question-forming particle, why? how? what?; to bite; loud",
+      "kFanqie": "側駕 鋤陌 側革",
+      "kHangul": "사:1N",
+      "kHanyuPinlu": "zǎ(17)",
+      "kHanyuPinyin": "10601.090:zé,zhà,zǎ,zhā",
+      "kJapanese": "サク サ シャク シャ くい くう",
+      "kJapaneseKun": "KUU KURAU KAMU",
+      "kJapaneseOn": "SAKU SA",
+      "kKorean": "SA",
+      "kMandarin": "zǎ",
+      "kSMSZD2003Readings": "zé粵zaak3 zhà粵zaa3 zǎ粵zaa3 zhā粵zaa1",
+      "kTGHZ2013": "456.080:zǎ 460.050:zé 461.170:zhā",
+      "kVietnamese": "chạ",
+      "kXHC1983": "1436.010:zǎ 1444.110:zé 1447.120:zhā"
+    },
+    "accepted_readings": [
+      "za",
+      "ze",
+      "zha"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "za": 17
+    },
+    "highest_corpus_reading": "za",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "咋",
+        "D": "07636",
+        "H": "1",
+        "I": "ㄓㄚˋ",
+        "J": "  ",
+        "L": "zhà",
+        "lookup_char": "咋"
+      },
+      {
+        "A": "咋",
+        "D": "09446",
+        "H": "2",
+        "I": "ㄗㄜˊ",
+        "J": "  ",
+        "L": "zé",
+        "lookup_char": "咋"
+      }
+    ],
+    "moe_readings": [
+      "ze",
+      "zha"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+54B3",
+    "char": "咳",
+    "name": "CJK UNIFIED IDEOGRAPH-54B3",
+    "current": "Ke ",
+    "readings": {
+      "kCantonese": "kat1",
+      "kDefinition": "cough",
+      "kFanqie": "戶來 苦格",
+      "kHangul": "해:0N",
+      "kHanyuPinlu": "hāi(46) ké(39)",
+      "kHanyuPinyin": "10622.040:hái,hāi,ké,gāi",
+      "kJapanese": "ガイ カイ アイ せき しわぶき",
+      "kJapaneseKun": "SEKI",
+      "kJapaneseOn": "GAI",
+      "kKorean": "HAY",
+      "kMandarin": "hāi",
+      "kSMSZD2003Readings": "ké粵kat1 hāi粵haai1 kài粵koi3",
+      "kTGHZ2013": "128.070:hāi 195.170:ké",
+      "kVietnamese": "cay",
+      "kXHC1983": "0432.020:hāi 0639.040:ké",
+      "kSemanticVariant": "U+6B2C<kMatthews",
+      "kSpecializedSemanticVariant": "U+6B2C<kFenn"
+    },
+    "accepted_readings": [
+      "gai",
+      "hai",
+      "kai",
+      "ke"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "hai": 46,
+      "ke": 39
+    },
+    "highest_corpus_reading": "hai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "咳",
+        "D": "04403",
+        "H": "2",
+        "I": "ㄎㄚˇ",
+        "J": "  ",
+        "L": "kǎ",
+        "lookup_char": "咳"
+      },
+      {
+        "A": "咳",
+        "D": "04429",
+        "H": "1",
+        "I": "ㄎㄜˊ",
+        "J": "  ",
+        "L": "ké",
+        "lookup_char": "咳"
+      },
+      {
+        "A": "咳",
+        "D": "04770",
+        "H": "3",
+        "I": "ㄏㄞ",
+        "J": "  ",
+        "L": "hāi",
+        "lookup_char": "咳"
+      }
+    ],
+    "moe_readings": [
+      "hai",
+      "ka",
+      "ke"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+54C6",
+    "char": "哆",
+    "name": "CJK UNIFIED IDEOGRAPH-54C6",
+    "current": "Chi ",
+    "readings": {
+      "kCantonese": "do1",
+      "kDefinition": "tremble, shiver, shudder, quiver",
+      "kFanqie": "敕加 尺氏 丁可 昌者 昌志 丁佐 陟駕",
+      "kHangul": "치:1N",
+      "kHanyuPinlu": "duō(30)",
+      "kHanyuPinyin": "10620.080:chǐ,zhà,chì,duò,diě,duō",
+      "kJapanese": "シ シャ タ",
+      "kJapaneseKun": "OOKII OOKUCHI",
+      "kJapaneseOn": "SHI TA SHA",
+      "kKorean": "CHI",
+      "kMandarin": "duō",
+      "kSMSZD2003Readings": "duō粵do1 chǐ粵ci2",
+      "kTGHZ2013": "084.080:duō",
+      "kVietnamese": "đớ",
+      "kXHC1983": "0280.010:duō"
+    },
+    "accepted_readings": [
+      "chi",
+      "die",
+      "duo",
+      "zha"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "duo": 30
+    },
+    "highest_corpus_reading": "duo",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "哆",
+        "D": "02309",
+        "H": "1",
+        "I": "ㄉㄨㄛ",
+        "J": "  ",
+        "L": "duō",
+        "lookup_char": "哆"
+      },
+      {
+        "A": "哆",
+        "D": "08265",
+        "H": "2",
+        "I": "ㄔㄜˇ",
+        "J": "  ",
+        "L": "chě",
+        "lookup_char": "哆"
+      }
+    ],
+    "moe_readings": [
+      "che",
+      "duo"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+54CF",
+    "char": "哏",
+    "name": "CJK UNIFIED IDEOGRAPH-54CF",
+    "current": "Hen ",
+    "readings": {
+      "kCantonese": "gan1",
+      "kDefinition": "something funny",
+      "kHanyuPinlu": "gén(56)",
+      "kHanyuPinyin": "10623.090:hěn,ǹ,gén",
+      "kJapanese": "コン",
+      "kJapaneseOn": "KON",
+      "kMandarin": "gén",
+      "kSMSZD2003Readings": "gén粵gan1",
+      "kTGHZ2013": "112.040:gén",
+      "kVietnamese": "gắn",
+      "kXHC1983": "0377.010:gén"
+    },
+    "accepted_readings": [
+      "gen",
+      "hen",
+      "n"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "gen": 56
+    },
+    "highest_corpus_reading": "gen",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "哏",
+        "D": "04082",
+        "H": "1",
+        "I": "ㄍㄣˊ",
+        "J": "  ",
+        "L": "gén",
+        "lookup_char": "哏"
+      },
+      {
+        "A": "哏",
+        "D": "04895",
+        "H": "2",
+        "I": "ㄏㄣ",
+        "J": "  ",
+        "L": "hēn",
+        "lookup_char": "哏"
+      }
+    ],
+    "moe_readings": [
+      "gen",
+      "hen"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+54E6",
+    "char": "哦",
+    "name": "CJK UNIFIED IDEOGRAPH-54E6",
+    "current": "E ",
+    "readings": {
+      "kCantonese": "ngo4",
+      "kDefinition": "oh? really? is that so?",
+      "kFanqie": "五何",
+      "kHangul": "아:1N",
+      "kHanyuPinlu": "ó(98) ò(98) é(63)",
+      "kHanyuPinyin": "10630.150:é,ó",
+      "kJapanese": "ガ うたう よむ",
+      "kJapaneseKun": "UTAU",
+      "kJapaneseOn": "GA",
+      "kKorean": "A",
+      "kMandarin": "ó",
+      "kSMSZD2003Readings": "ó粵o4 ò粵o6 é粵ngo4",
+      "kTGHZ2013": "086.070:é 272.020:ó 272.030:ò",
+      "kTang": "ngɑ",
+      "kVietnamese": "nga",
+      "kXHC1983": "0282.090:é 0845.030:ó 0845.050:ò",
+      "kSemanticVariant": "U+8A90<kMeyerWempe"
+    },
+    "accepted_readings": [
+      "e",
+      "o"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "o": 196,
+      "e": 63
+    },
+    "highest_corpus_reading": "o",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "哦",
+        "D": "10232",
+        "H": "2",
+        "I": "ㄛˊ",
+        "J": "  ",
+        "L": "ó",
+        "lookup_char": "哦"
+      },
+      {
+        "A": "哦",
+        "D": "10244",
+        "H": "1",
+        "I": "ㄜˊ",
+        "J": "  ",
+        "L": "é",
+        "lookup_char": "哦"
+      }
+    ],
+    "moe_readings": [
+      "e",
+      "o"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5504",
+    "char": "唄",
+    "name": "CJK UNIFIED IDEOGRAPH-5504",
+    "current": "Bai ",
+    "readings": {
+      "kCantonese": "baai6",
+      "kDefinition": "final particle of assertion",
+      "kFanqie": "薄邁",
+      "kHangul": "패:0N",
+      "kHanyuPinlu": "bei(22)",
+      "kHanyuPinyin": "10628.050:bài,bei",
+      "kJapanese": "バイ ベ ハイ うた",
+      "kJapaneseKun": "UTA",
+      "kJapaneseOn": "BAI",
+      "kKorean": "PHAY",
+      "kMandarin": "bei",
+      "kSMSZD2003Readings": "bei粵be6 bài粵baai6",
+      "kSimplifiedVariant": "U+5457"
+    },
+    "accepted_readings": [
+      "bai",
+      "bei"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "bei": 22
+    },
+    "highest_corpus_reading": "bei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "唄",
+        "D": "00142",
+        "H": "1",
+        "I": "ㄅㄞˋ",
+        "J": "  ",
+        "L": "bài",
+        "lookup_char": "唄"
+      },
+      {
+        "A": "唄",
+        "D": "00200",
+        "H": "2",
+        "I": "˙ㄅㄟ",
+        "J": "  ",
+        "L": "bei",
+        "lookup_char": "唄"
+      }
+    ],
+    "moe_readings": [
+      "bai",
+      "bei"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5561",
+    "char": "啡",
+    "name": "CJK UNIFIED IDEOGRAPH-5561",
+    "current": "Pei ",
+    "readings": {
+      "kCantonese": "fe1",
+      "kDefinition": "morphine; coffee",
+      "kFanqie": "匹愷",
+      "kHanyuPinlu": "fēi(9)",
+      "kHanyuPinyin": "10639.060:pèi,pái,fēi 64086.050:pēi,fēi,pái,bài",
+      "kJapanese": "ハイ ヘ ヒ",
+      "kJapaneseKun": "IBIKI TSUBA",
+      "kJapaneseOn": "HAI HE HI",
+      "kKorean": "PAY PI",
+      "kMandarin": "fēi",
+      "kSMSZD2003Readings": "fēi粵fe1",
+      "kTGHZ2013": "094.060:fēi",
+      "kXHC1983": "0313.040:fēi"
+    },
+    "accepted_readings": [
+      "bai",
+      "fei",
+      "pai",
+      "pei"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "fei": 9
+    },
+    "highest_corpus_reading": "fei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "啡",
+        "D": "01546",
+        "H": "0",
+        "I": "ㄈㄟ",
+        "J": "  ",
+        "L": "fēi",
+        "lookup_char": "啡"
+      }
+    ],
+    "moe_readings": [
+      "fei"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+5594",
+    "char": "喔",
+    "name": "CJK UNIFIED IDEOGRAPH-5594",
+    "current": "Wo ",
+    "readings": {
+      "kCantonese": "ak1",
+      "kDefinition": "descriptive of crying or of crowing",
+      "kFanqie": "於角",
+      "kHangul": "악:1N",
+      "kHanyuPinlu": "ō(103)",
+      "kHanyuPinyin": "10662.120:wō,wū,ō,o",
+      "kJapanese": "アク オク",
+      "kJapaneseOn": "AKU RAKU OKU",
+      "kKorean": "AK",
+      "kMandarin": "ō",
+      "kSMSZD2003Readings": "wō粵ak1,aak1 ō粵o1",
+      "kTGHZ2013": "387.030:wō",
+      "kVietnamese": "ộc",
+      "kXHC1983": "0845.020:ō 0845.051:ò 1209.050:wō"
+    },
+    "accepted_readings": [
+      "o",
+      "wo",
+      "wu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "o": 103
+    },
+    "highest_corpus_reading": "o",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "喔",
+        "D": "10231",
+        "H": "3",
+        "I": "ㄛ",
+        "J": "  ",
+        "L": "ō",
+        "lookup_char": "喔"
+      },
+      {
+        "A": "喔",
+        "D": "11226",
+        "H": "2",
+        "I": "ㄨ",
+        "J": "又音 ",
+        "L": "wū",
+        "lookup_char": "喔"
+      },
+      {
+        "A": "喔",
+        "D": "11343",
+        "H": "1",
+        "I": "ㄨㄛˋ",
+        "J": "  ",
+        "L": "wò",
+        "lookup_char": "喔"
+      }
+    ],
+    "moe_readings": [
+      "o",
+      "wo",
+      "wu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+563F",
+    "char": "嘿",
+    "name": "CJK UNIFIED IDEOGRAPH-563F",
+    "current": "Mo ",
+    "readings": {
+      "kCantonese": "hei1",
+      "kDefinition": "be silent, be quiet",
+      "kFanqie": "呼北",
+      "kHangul": "묵:1N",
+      "kHanyuPinlu": "hēi(76)",
+      "kHanyuPinyin": "10684.010:mò,mù,hēi",
+      "kJapanese": "モク ボク コク だまる",
+      "kJapaneseKun": "SHIZUKA DAMARU AGIMUKU",
+      "kJapaneseOn": "BOKU MOKU KOKU",
+      "kKorean": "MWUK",
+      "kMandarin": "hēi",
+      "kSMSZD2003Readings": "hèi粵hei1",
+      "kTGHZ2013": "136.010:hēi",
+      "kXHC1983": "0458.010:hēi 0804.010:mò",
+      "kSemanticVariant": "U+9ED8<kFenn"
+    },
+    "accepted_readings": [
+      "hei",
+      "mo",
+      "mu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "hei": 76
+    },
+    "highest_corpus_reading": "hei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "嘿",
+        "D": "01098",
+        "H": "1",
+        "I": "ㄇㄛˋ",
+        "J": "  ",
+        "L": "mò",
+        "lookup_char": "嘿"
+      },
+      {
+        "A": "嘿",
+        "D": "04784",
+        "H": "2",
+        "I": "ㄏㄟ",
+        "J": "  ",
+        "L": "hēi",
+        "lookup_char": "嘿"
+      }
+    ],
+    "moe_readings": [
+      "hei",
+      "mo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5662",
+    "char": "噢",
+    "name": "CJK UNIFIED IDEOGRAPH-5662",
+    "current": "Yu ",
+    "readings": {
+      "kCantonese": "jyu2",
+      "kDefinition": "moan; interjection for pain, sad",
+      "kFanqie": "於武 於六",
+      "kHanyuPinlu": "ō(103)",
+      "kHanyuPinyin": "10685.020:yǔ,yù,ào,ō",
+      "kJapanese": "ウ ク イク ユウ",
+      "kJapaneseKun": "UMEKU",
+      "kJapaneseOn": "IKU U KU IU",
+      "kKorean": "WUK WU",
+      "kMandarin": "ō",
+      "kSMSZD2003Readings": "yǔ粵jyu2 ō粵o1",
+      "kTGHZ2013": "272.010:ō",
+      "kXHC1983": "0845.010:ō"
+    },
+    "accepted_readings": [
+      "ao",
+      "o",
+      "yu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "o": 103
+    },
+    "highest_corpus_reading": "o",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "噢",
+        "D": "11642",
+        "H": "0",
+        "I": "ㄩˇ",
+        "J": "  ",
+        "L": "yǔ",
+        "lookup_char": "噢"
+      }
+    ],
+    "moe_readings": [
+      "yu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+56BC",
+    "char": "嚼",
+    "name": "CJK UNIFIED IDEOGRAPH-56BC",
+    "current": "Jiao ",
+    "readings": {
+      "kCantonese": "zoek3",
+      "kDefinition": "prattle, be glib",
+      "kFanqie": "在爵",
+      "kHangul": "작:0N",
+      "kHanyuPinlu": "jué(15)",
+      "kHanyuPinyin": "10704.080:jué,jiáo",
+      "kJapanese": "シャク ザク ショウ ジョウ かむ",
+      "kJapaneseKun": "KAMU",
+      "kJapaneseOn": "SHAKU",
+      "kKorean": "CAK",
+      "kMandarin": "jué",
+      "kSMSZD2003Readings": "jiáo粵zoek3 jué粵zoek3 jiào粵ziu6",
+      "kTGHZ2013": "169.110:jiáo 171.160:jiào 189.130:jué",
+      "kTang": "dzhiɑk",
+      "kXHC1983": "0567.060:jiáo 0573.010:jiào 0619.040:jué"
+    },
+    "accepted_readings": [
+      "jiao",
+      "jue"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jue": 15
+    },
+    "highest_corpus_reading": "jue",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "嚼",
+        "D": "05647",
+        "H": "2",
+        "I": "ㄐㄧㄠˊ",
+        "J": "  ",
+        "L": "jiáo",
+        "lookup_char": "嚼"
+      },
+      {
+        "A": "嚼",
+        "D": "05688",
+        "H": "3",
+        "I": "ㄐㄧㄠˋ",
+        "J": "  ",
+        "L": "jiào",
+        "lookup_char": "嚼"
+      },
+      {
+        "A": "嚼",
+        "D": "06111",
+        "H": "1",
+        "I": "ㄐㄩㄝˊ",
+        "J": "  ",
+        "L": "jué",
+        "lookup_char": "嚼"
+      }
+    ],
+    "moe_readings": [
+      "jiao",
+      "jue"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+5730",
+    "char": "地",
+    "name": "CJK UNIFIED IDEOGRAPH-5730",
+    "current": "Di ",
+    "readings": {
+      "kCantonese": "dei6",
+      "kDefinition": "earth; soil, ground; region",
+      "kFanqie": "徒四",
+      "kHangul": "지:0E",
+      "kHanyuPinlu": "de(7394) dì(4976)",
+      "kHanyuPinyin": "10420.120:dì,de",
+      "kJapanese": "チ ジ つち",
+      "kJapaneseKun": "TSUCHI",
+      "kJapaneseOn": "CHI JI",
+      "kKorean": "CI",
+      "kMandarin": "de dì",
+      "kSMSZD2003Readings": "dì粵dei6 de粵dei6",
+      "kTGHZ2013": "069.070:de 072.060:dì",
+      "kTang": "*dhì",
+      "kVietnamese": "địa",
+      "kXHC1983": "0224.030:de 0235.050:dì"
+    },
+    "accepted_readings": [
+      "de",
+      "di"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "de": 7394,
+      "di": 4976
+    },
+    "highest_corpus_reading": "de",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "地",
+        "D": "01919",
+        "H": "2",
+        "I": "˙ㄉㄜ",
+        "J": "  ",
+        "L": "de",
+        "lookup_char": "地"
+      },
+      {
+        "A": "地",
+        "D": "02134",
+        "H": "1",
+        "I": "ㄉㄧˋ",
+        "J": "  ",
+        "L": "dì",
+        "lookup_char": "地"
+      }
+    ],
+    "moe_readings": [
+      "de",
+      "di"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+574F",
+    "char": "坏",
+    "name": "CJK UNIFIED IDEOGRAPH-574F",
+    "current": "Pi ",
+    "readings": {
+      "kCantonese": "waai6",
+      "kDefinition": "rotten, spoilt, bad, broken down",
+      "kHangul": "배:1N",
+      "kHanyuPinlu": "huài(615)",
+      "kHanyuPinyin": "10421.110:pī,péi,huài",
+      "kJapanese": "ハイ カイ ヘ つき おか",
+      "kJapaneseKun": "OKA TSUKI",
+      "kJapaneseOn": "HAI",
+      "kKorean": "PAY",
+      "kMandarin": "huài",
+      "kTGHZ2013": "144.030:huài",
+      "kVietnamese": "hoại",
+      "kXHC1983": "0488.050:huài 0865.021:pī",
+      "kSemanticVariant": "U+576F<kMatthews",
+      "kSimplifiedVariant": "U+574F",
+      "kSpecializedSemanticVariant": "U+576F<kMeyerWempe",
+      "kTraditionalVariant": "U+574F U+58DE"
+    },
+    "accepted_readings": [
+      "huai",
+      "pei",
+      "pi"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "huai": 615
+    },
+    "highest_corpus_reading": "huai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "坏",
+        "D": "00649",
+        "H": "1",
+        "I": "ㄆㄟˊ",
+        "J": "  ",
+        "L": "péi",
+        "lookup_char": "坏"
+      },
+      {
+        "A": "坏",
+        "D": "05081-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "坏"
+      },
+      {
+        "A": "坏",
+        "D": "00649",
+        "H": "1",
+        "I": "ㄆㄟˊ",
+        "J": "  ",
+        "L": "péi",
+        "lookup_char": "坏"
+      },
+      {
+        "A": "坏",
+        "D": "05081-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "坏"
+      },
+      {
+        "A": "壞",
+        "D": "04254",
+        "H": "2",
+        "I": "ㄍㄨㄞˋ",
+        "J": "  ",
+        "L": "guài",
+        "lookup_char": "壞"
+      },
+      {
+        "A": "壞",
+        "D": "05081",
+        "H": "1",
+        "I": "ㄏㄨㄞˋ",
+        "J": "  ",
+        "L": "huài",
+        "lookup_char": "壞"
+      }
+    ],
+    "moe_readings": [
+      "guai",
+      "huai",
+      "pei"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+5BE7",
+    "char": "寧",
+    "name": "CJK UNIFIED IDEOGRAPH-5BE7",
+    "current": "Zhu ",
+    "readings": {
+      "kCantonese": "ning4",
+      "kDefinition": "repose, serenity, peace; peaceful",
+      "kFanqie": "奴丁",
+      "kHangul": "녕:0E 령:0 영:0",
+      "kHanyuPinlu": "níng(13) nìng(9)",
+      "kHanyuPinyin": "20949.050:níng,nìng",
+      "kJapanese": "ネイ ニョウ いずくんぞ なんぞ むしろ やすい やすらか やすんじる",
+      "kJapaneseKun": "YASUI MUSHIRO NANZO",
+      "kJapaneseOn": "NEI NYOU",
+      "kKorean": "NYENG",
+      "kMandarin": "níng",
+      "kSMSZD2003Readings": "níng粵ning4 nìng粵ning4,ning6",
+      "kTang": "*neng neng",
+      "kXHC1983": "0835.111:níng 0836.021:nìng",
+      "kSemanticVariant": "U+5BCD<kMatthews U+21A34<kMeyerWempe",
+      "kSimplifiedVariant": "U+5B81"
+    },
+    "accepted_readings": [
+      "ning"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "ning": 22
+    },
+    "highest_corpus_reading": "ning",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "寧",
+        "D": "03107",
+        "H": "1",
+        "I": "ㄋㄧㄥˊ",
+        "J": "  ",
+        "L": "níng",
+        "lookup_char": "寧"
+      },
+      {
+        "A": "寧",
+        "D": "03118",
+        "H": "2",
+        "I": "ㄋㄧㄥˋ",
+        "J": "  ",
+        "L": "nìng",
+        "lookup_char": "寧"
+      }
+    ],
+    "moe_readings": [
+      "ning"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+5DEE",
+    "char": "差",
+    "name": "CJK UNIFIED IDEOGRAPH-5DEE",
+    "current": "Chai ",
+    "readings": {
+      "kCantonese": "caa1",
+      "kDefinition": "to differ; different, wrong; nearly, almost; an officer",
+      "kFanqie": "楚宜 楚佳 楚皆 初加 楚懈",
+      "kHangul": "차:0E",
+      "kHanyuPinlu": "chà(241) chā(60) chāi(26)",
+      "kHanyuPinyin": "10413.040:chā,chà,chāi,chài,cī,cuō,jiē",
+      "kJapanese": "サ サイ シ セ タ シャ さす たかう つかわす やや",
+      "kJapaneseKun": "SASU TAGAU TAGAI",
+      "kJapaneseOn": "SHI SA",
+      "kKorean": "CHA CHI",
+      "kMandarin": "chà chā",
+      "kSMSZD2003Readings": "chà粵caa1 chā粵caa1 chāi粵caai1 cī粵ci1",
+      "kTGHZ2013": "034.020:chā 035.180:chà 036.010:chāi 054.190:cī",
+      "kTang": "*chriɛ",
+      "kVietnamese": "sai",
+      "kXHC1983": "0111.030:chā 0114.150:chà 0115.100:chāi 0116.070:chài 0172.100:cī"
+    },
+    "accepted_readings": [
+      "cha",
+      "chai",
+      "ci",
+      "cuo",
+      "jie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "cha": 301,
+      "chai": 26
+    },
+    "highest_corpus_reading": "cha",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "差",
+        "D": "08230",
+        "H": "1",
+        "I": "ㄔㄚ",
+        "J": "  ",
+        "L": "chā",
+        "lookup_char": "差"
+      },
+      {
+        "A": "差",
+        "D": "08257",
+        "H": "2",
+        "I": "ㄔㄚˋ",
+        "J": "  ",
+        "L": "chà",
+        "lookup_char": "差"
+      },
+      {
+        "A": "差",
+        "D": "08277",
+        "H": "3",
+        "I": "ㄔㄞ",
+        "J": "  ",
+        "L": "chāi",
+        "lookup_char": "差"
+      },
+      {
+        "A": "差",
+        "D": "08287",
+        "H": "4",
+        "I": "ㄔㄞˋ",
+        "J": "  ",
+        "L": "chài",
+        "lookup_char": "差"
+      },
+      {
+        "A": "差",
+        "D": "09690",
+        "H": "5",
+        "I": "ㄘ",
+        "J": "  ",
+        "L": "cī",
+        "lookup_char": "差"
+      },
+      {
+        "A": "差",
+        "D": "09833",
+        "H": "6",
+        "I": "ㄘㄨㄛ",
+        "J": "  ",
+        "L": "cuō",
+        "lookup_char": "差"
+      }
+    ],
+    "moe_readings": [
+      "cha",
+      "chai",
+      "ci",
+      "cuo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+60CA",
+    "char": "惊",
+    "name": "CJK UNIFIED IDEOGRAPH-60CA",
+    "current": "Liang ",
+    "readings": {
+      "kCantonese": "ging1",
+      "kDefinition": "frighten, surprise, startle",
+      "kHanyuPinlu": "jīng(425)",
+      "kHanyuPinyin": "42318.030:liáng,jīng",
+      "kJapanese": "リョウ",
+      "kJapaneseKun": "KANASHIMU",
+      "kJapaneseOn": "RYOU",
+      "kMandarin": "jīng",
+      "kTGHZ2013": "178.160:jīng",
+      "kVietnamese": "kinh",
+      "kXHC1983": "0594.090:jīng",
+      "kTraditionalVariant": "U+9A5A"
+    },
+    "accepted_readings": [
+      "jing",
+      "liang"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jing": 425
+    },
+    "highest_corpus_reading": "jing",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "驚",
+        "D": "05936",
+        "H": "0",
+        "I": "ㄐㄧㄥ",
+        "J": "  ",
+        "L": "jīng",
+        "lookup_char": "驚"
+      }
+    ],
+    "moe_readings": [
+      "jing"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+60DA",
+    "char": "惚",
+    "name": "CJK UNIFIED IDEOGRAPH-60DA",
+    "current": "Bu ",
+    "readings": {
+      "kCantonese": "fat1",
+      "kDefinition": "absent-minded, confused",
+      "kFanqie": "呼骨",
+      "kHangul": "홀:0N",
+      "kHanyuPinlu": "hū(12)",
+      "kHanyuPinyin": "42317.130:hū",
+      "kJapanese": "コツ コチ ほれる ほうける ぼける",
+      "kJapaneseKun": "HORERU",
+      "kJapaneseOn": "KOTSU",
+      "kKorean": "HOL",
+      "kMandarin": "hū",
+      "kSMSZD2003Readings": "hū粵fat1",
+      "kTGHZ2013": "140.060:hū",
+      "kTang": "xuət",
+      "kVietnamese": "hốt",
+      "kXHC1983": "0472.020:hū"
+    },
+    "accepted_readings": [
+      "hu"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "hu": 12
+    },
+    "highest_corpus_reading": "hu",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "惚",
+        "D": "04943",
+        "H": "0",
+        "I": "ㄏㄨ",
+        "J": "  ",
+        "L": "hū",
+        "lookup_char": "惚"
+      }
+    ],
+    "moe_readings": [
+      "hu"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+6251",
+    "char": "扑",
+    "name": "CJK UNIFIED IDEOGRAPH-6251",
+    "current": "Bu ",
+    "readings": {
+      "kCantonese": "pok3",
+      "kDefinition": "pound, beat, strike; attack",
+      "kFanqie": "普木",
+      "kHangul": "복:1N",
+      "kHanyuPinlu": "pū(140)",
+      "kHanyuPinyin": "31827.020:pū,pì",
+      "kJapanese": "ボク ホク ハク ホウ フ ヒョク ヒキ うつ むち むちうつ",
+      "kJapaneseKun": "KARUKUUTSU MUCHIUTSU",
+      "kJapaneseOn": "HOKU HAKU HOU FU",
+      "kKorean": "POK",
+      "kMandarin": "pū",
+      "kTGHZ2013": "288.050:pū",
+      "kVietnamese": "bốc",
+      "kXHC1983": "0888.010:pū",
+      "kSemanticVariant": "U+64B2<kLau,kMatthews",
+      "kSimplifiedVariant": "U+6251",
+      "kTraditionalVariant": "U+6251 U+64B2"
+    },
+    "accepted_readings": [
+      "pi",
+      "pu"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "pu": 140
+    },
+    "highest_corpus_reading": "pu",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "扑",
+        "D": "00981",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "扑"
+      },
+      {
+        "A": "扑",
+        "D": "00981",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "扑"
+      },
+      {
+        "A": "撲",
+        "D": "00984",
+        "H": "0",
+        "I": "ㄆㄨ",
+        "J": "  ",
+        "L": "pū",
+        "lookup_char": "撲"
+      }
+    ],
+    "moe_readings": [
+      "pu"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+62EC",
+    "char": "括",
+    "name": "CJK UNIFIED IDEOGRAPH-62EC",
+    "current": "Gua ",
+    "readings": {
+      "kCantonese": "kut3",
+      "kDefinition": "include, embrace, enclose",
+      "kFanqie": "古活",
+      "kHangul": "괄:0N",
+      "kHanyuPinlu": "kuò(171)",
+      "kHanyuPinyin": "31870.010:kuò",
+      "kJapanese": "カツ カチ くくる",
+      "kJapaneseKun": "KUKURU KUKURI",
+      "kJapaneseOn": "KATSU",
+      "kKorean": "KWAL",
+      "kMandarin": "kuò",
+      "kSMSZD2003Readings": "kuò粵kut3 guā粵gwaat3",
+      "kTGHZ2013": "204.190:kuò",
+      "kVietnamese": "quát",
+      "kXHC1983": "0402.120:guā 0665.060:kuò"
+    },
+    "accepted_readings": [
+      "gua",
+      "kuo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "kuo": 171
+    },
+    "highest_corpus_reading": "kuo",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "括",
+        "D": "04200",
+        "H": "1",
+        "I": "ㄍㄨㄚ",
+        "J": "  ",
+        "L": "guā",
+        "lookup_char": "括"
+      },
+      {
+        "A": "括",
+        "D": "04580",
+        "H": "2",
+        "I": "ㄎㄨㄛˋ",
+        "J": "又音 ",
+        "L": "kuò",
+        "lookup_char": "括"
+      }
+    ],
+    "moe_readings": [
+      "gua",
+      "kuo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+630E",
+    "char": "挎",
+    "name": "CJK UNIFIED IDEOGRAPH-630E",
+    "current": "Ku ",
+    "readings": {
+      "kCantonese": "kwaa3",
+      "kDefinition": "carry",
+      "kFanqie": "苦胡",
+      "kHanyuPinlu": "kuà(16)",
+      "kHanyuPinyin": "31868.040:kū,kuà,kōu",
+      "kJapanese": "コ ク コウ",
+      "kMandarin": "kuà",
+      "kSMSZD2003Readings": "kuà粵kwaa3",
+      "kTGHZ2013": "200.090:kuà",
+      "kXHC1983": "0656.040:kuà"
+    },
+    "accepted_readings": [
+      "kou",
+      "ku",
+      "kua"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "kua": 16
+    },
+    "highest_corpus_reading": "kua",
+    "classification": "common_reading_preference",
+    "moe_records": [],
+    "moe_readings": [],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+643A",
+    "char": "携",
+    "name": "CJK UNIFIED IDEOGRAPH-643A",
+    "current": "Xi ",
+    "readings": {
+      "kCantonese": "kwai4",
+      "kDefinition": "lead by hand, take with; carry",
+      "kFanqie": "戶圭",
+      "kHangul": "휴:0E",
+      "kHanyuPinlu": "xié(18)",
+      "kJapanese": "ケイ たずさえる たずさわる",
+      "kJapaneseKun": "TAZUSAERU",
+      "kJapaneseOn": "KEI",
+      "kKorean": "HYU",
+      "kMandarin": "xié",
+      "kTGHZ2013": "405.090:xié",
+      "kXHC1983": "1275.010:xié",
+      "kSemanticVariant": "U+651C<kHKGlyph,kLau,kMatthews,kMeyerWempe",
+      "kSimplifiedVariant": "U+643A",
+      "kTraditionalVariant": "U+643A U+651C"
+    },
+    "accepted_readings": [
+      "xie"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "xie": 18
+    },
+    "highest_corpus_reading": "xie",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "携",
+        "D": "06800-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "携"
+      },
+      {
+        "A": "携",
+        "D": "06800-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "携"
+      },
+      {
+        "A": "攜",
+        "D": "06800",
+        "H": "1",
+        "I": "ㄒㄧ",
+        "J": "讀音 ",
+        "L": "xī",
+        "lookup_char": "攜"
+      },
+      {
+        "A": "攜",
+        "D": "06945",
+        "H": "2",
+        "I": "ㄒㄧㄝˊ",
+        "J": "語音 ",
+        "L": "xié",
+        "lookup_char": "攜"
+      }
+    ],
+    "moe_readings": [
+      "xi",
+      "xie"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6482",
+    "char": "撂",
+    "name": "CJK UNIFIED IDEOGRAPH-6482",
+    "current": "Lue ",
+    "readings": {
+      "kCantonese": "liu1",
+      "kDefinition": "put down, put aside; drop",
+      "kFanqie": "離灼",
+      "kHanyuPinlu": "liào(12)",
+      "kHanyuPinyin": "31946.050:liào",
+      "kJapanese": "リャク",
+      "kMandarin": "liào",
+      "kSMSZD2003Readings": "liào粵liu1",
+      "kTGHZ2013": "223.100:liào",
+      "kXHC1983": "0712.050:liào",
+      "kSemanticVariant": "U+3A3C<kFenn"
+    },
+    "accepted_readings": [
+      "liao"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "liao": 12
+    },
+    "highest_corpus_reading": "liao",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "撂",
+        "D": "03548",
+        "H": "0",
+        "I": "ㄌㄧㄠˋ",
+        "J": "  ",
+        "L": "liào",
+        "lookup_char": "撂"
+      }
+    ],
+    "moe_readings": [
+      "liao"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+651C",
+    "char": "攜",
+    "name": "CJK UNIFIED IDEOGRAPH-651C",
+    "current": "Xi ",
+    "readings": {
+      "kCantonese": "kwai4",
+      "kDefinition": "lead by hand, take with; carry",
+      "kFanqie": "戶圭",
+      "kHanyuPinlu": "xié(18)",
+      "kHanyuPinyin": "31987.050:xié",
+      "kJapanese": "ケイ ゲ たずさえる",
+      "kJapaneseKun": "TAZUSAERU",
+      "kJapaneseOn": "KEI",
+      "kMandarin": "xié",
+      "kSMSZD2003Readings": "xié粵kwai4",
+      "kTang": "*huei",
+      "kVietnamese": "huề",
+      "kXHC1983": "1275.011:xié",
+      "kSemanticVariant": "U+643A<kHKGlyph,kLau,kMatthews,kMeyerWempe",
+      "kSimplifiedVariant": "U+643A"
+    },
+    "accepted_readings": [
+      "xie"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "xie": 18
+    },
+    "highest_corpus_reading": "xie",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "攜",
+        "D": "06800",
+        "H": "1",
+        "I": "ㄒㄧ",
+        "J": "讀音 ",
+        "L": "xī",
+        "lookup_char": "攜"
+      },
+      {
+        "A": "攜",
+        "D": "06945",
+        "H": "2",
+        "I": "ㄒㄧㄝˊ",
+        "J": "語音 ",
+        "L": "xié",
+        "lookup_char": "攜"
+      }
+    ],
+    "moe_readings": [
+      "xi",
+      "xie"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+671D",
+    "char": "朝",
+    "name": "CJK UNIFIED IDEOGRAPH-671D",
+    "current": "Zhao ",
+    "readings": {
+      "kCantonese": "ciu4",
+      "kDefinition": "dynasty; morning",
+      "kFanqie": "陟遙 直遙",
+      "kHangul": "조:0E",
+      "kHanyuPinlu": "cháo(296) zhāo(10)",
+      "kHanyuPinyin": "32084.080:zhāo,cháo,zhū",
+      "kJapanese": "チョウ チュ あさ あした",
+      "kJapaneseKun": "ASA ASHITA ATSUMARU",
+      "kJapaneseOn": "CHOU",
+      "kKorean": "CO",
+      "kMandarin": "cháo",
+      "kSMSZD2003Readings": "cháo粵ciu4 zhāo粵ziu1",
+      "kTGHZ2013": "040.080:cháo 467.170:zhāo",
+      "kTang": "*djhiɛu *djiɛu",
+      "kVietnamese": "triều",
+      "kXHC1983": "0127.030:cháo 1458.020:zhāo",
+      "kSemanticVariant": "U+6641<kMatthews",
+      "kSpecializedSemanticVariant": "U+6641<kMeyerWempe"
+    },
+    "accepted_readings": [
+      "chao",
+      "zhao",
+      "zhu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "chao": 296,
+      "zhao": 10
+    },
+    "highest_corpus_reading": "chao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "朝",
+        "D": "07710",
+        "H": "1",
+        "I": "ㄓㄠ",
+        "J": "  ",
+        "L": "zhāo",
+        "lookup_char": "朝"
+      },
+      {
+        "A": "朝",
+        "D": "08303",
+        "H": "2",
+        "I": "ㄔㄠˊ",
+        "J": "  ",
+        "L": "cháo",
+        "lookup_char": "朝"
+      }
+    ],
+    "moe_readings": [
+      "chao",
+      "zhao"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+672E",
+    "char": "朮",
+    "name": "CJK UNIFIED IDEOGRAPH-672E",
+    "current": "Zhu ",
+    "readings": {
+      "kCantonese": "seot6",
+      "kDefinition": "skill, art; method; trick, device",
+      "kHangul": "출:0N",
+      "kHanyuPinlu": "shù(1056)",
+      "kHanyuPinyin": "80019.110:zhú",
+      "kJapanese": "ジュツ ジュチ シュツ チュツ もちあわ おけら",
+      "kJapaneseKun": "MOCHIAWA",
+      "kJapaneseOn": "JUTSU SHUTSU CHUTSU",
+      "kKorean": "CHWUL",
+      "kMandarin": "shù",
+      "kSMSZD2003Readings": "zhú粵seot6"
+    },
+    "accepted_readings": [
+      "shu",
+      "zhu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shu": 1056
+    },
+    "highest_corpus_reading": "shu",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "朮",
+        "D": "07957",
+        "H": "0",
+        "I": "ㄓㄨˊ",
+        "J": "  ",
+        "L": "zhú",
+        "lookup_char": "朮"
+      }
+    ],
+    "moe_readings": [
+      "zhu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6734",
+    "char": "朴",
+    "name": "CJK UNIFIED IDEOGRAPH-6734",
+    "current": "Po ",
+    "readings": {
+      "kCantonese": "pok3",
+      "kDefinition": "simple, unadorned; sincere; surname; a tree",
+      "kFanqie": "匹角",
+      "kHangul": "박:0E",
+      "kHanyuPinlu": "pǔ(63)",
+      "kHanyuPinyin": "21154.020:pò,pǔ,pū,pō,piáo",
+      "kJapanese": "ボク ホウ ホク フ ヒュウ ハク ほお",
+      "kJapaneseKun": "HOO",
+      "kJapaneseOn": "BOKU HOKU",
+      "kKorean": "PAK",
+      "kMandarin": "pǔ",
+      "kSMSZD2003Readings": "pò粵pok3 pō粵pok3 piáo粵piu4",
+      "kTGHZ2013": "283.130:piáo 287.090:pò 288.230:pǔ",
+      "kVietnamese": "phắc",
+      "kXHC1983": "0874.060:piáo 0884.010:pō 0885.030:pò 0890.110:pǔ",
+      "kSemanticVariant": "U+6A38<kMatthews",
+      "kSimplifiedVariant": "U+6734",
+      "kTraditionalVariant": "U+6734 U+6A38"
+    },
+    "accepted_readings": [
+      "piao",
+      "po",
+      "pu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "pu": 63
+    },
+    "highest_corpus_reading": "pu",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "朴",
+        "D": "00616",
+        "H": "1",
+        "I": "ㄆㄛˋ",
+        "J": "  ",
+        "L": "pò",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "朴",
+        "D": "00890A",
+        "H": "3",
+        "I": "ㄆㄧㄠˊ",
+        "J": "  ",
+        "L": "piáo",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "朴",
+        "D": "00987",
+        "H": "2",
+        "I": "ㄆㄨˊ",
+        "J": "  ",
+        "L": "pú",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "朴",
+        "D": "00616",
+        "H": "1",
+        "I": "ㄆㄛˋ",
+        "J": "  ",
+        "L": "pò",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "朴",
+        "D": "00890A",
+        "H": "3",
+        "I": "ㄆㄧㄠˊ",
+        "J": "  ",
+        "L": "piáo",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "朴",
+        "D": "00987",
+        "H": "2",
+        "I": "ㄆㄨˊ",
+        "J": "  ",
+        "L": "pú",
+        "lookup_char": "朴"
+      },
+      {
+        "A": "樸",
+        "D": "00999",
+        "H": "0",
+        "I": "ㄆㄨˊ",
+        "J": "  ",
+        "L": "pú",
+        "lookup_char": "樸"
+      }
+    ],
+    "moe_readings": [
+      "piao",
+      "po",
+      "pu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+67CF",
+    "char": "柏",
+    "name": "CJK UNIFIED IDEOGRAPH-67CF",
+    "current": "Bo ",
+    "readings": {
+      "kCantonese": "paak3",
+      "kDefinition": "cypress, cedar",
+      "kFanqie": "博陌",
+      "kHangul": "백:0N",
+      "kHanyuPinlu": "bǎi(19)",
+      "kHanyuPinyin": "21185.030:bǎi,bó,bò",
+      "kJapanese": "ハク ヒャク かしわ このてがしわ",
+      "kJapaneseKun": "KASHIWA",
+      "kJapaneseOn": "HAKU",
+      "kKorean": "PAYK",
+      "kMandarin": "bǎi bó",
+      "kSMSZD2003Readings": "bǎi粵paak3 bó粵paak3",
+      "kTGHZ2013": "008.110:bǎi 026.170:bó",
+      "kTang": "*bæk",
+      "kVietnamese": "bách",
+      "kXHC1983": "0025.020:bǎi 0084.070:bó 0085.060:bò",
+      "kSemanticVariant": "U+6822<kMatthews,kMeyerWempe",
+      "kSpecializedSemanticVariant": "U+5B5B<kFenn"
+    },
+    "accepted_readings": [
+      "bai",
+      "bo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "bai": 19
+    },
+    "highest_corpus_reading": "bai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "柏",
+        "D": "00067",
+        "H": "1",
+        "I": "ㄅㄛˊ",
+        "J": "讀音 ",
+        "L": "bó",
+        "lookup_char": "柏"
+      },
+      {
+        "A": "柏",
+        "D": "00136",
+        "H": "2",
+        "I": "ㄅㄞˇ",
+        "J": "語音 ",
+        "L": "bǎi",
+        "lookup_char": "柏"
+      }
+    ],
+    "moe_readings": [
+      "bai",
+      "bo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+67DC",
+    "char": "柜",
+    "name": "CJK UNIFIED IDEOGRAPH-67DC",
+    "current": "Ju ",
+    "readings": {
+      "kCantonese": "gwai6",
+      "kDefinition": "cabinet, cupboard; shop counter",
+      "kFanqie": "居許",
+      "kHanyuPinlu": "guì(102)",
+      "kHanyuPinyin": "21167.050:jǔ,guì",
+      "kJapanese": "キョ コ ク",
+      "kJapaneseKun": "AMADARE",
+      "kJapaneseOn": "KYO KO KU",
+      "kMandarin": "guì",
+      "kSMSZD2003Readings": "jǔ粵geoi2",
+      "kTGHZ2013": "124.190:guì 184.180:jǔ",
+      "kXHC1983": "0420.080:guì 0612.080:jǔ",
+      "kSemanticVariant": "U+6AC3<kHKGlyph",
+      "kSimplifiedVariant": "U+67DC",
+      "kTraditionalVariant": "U+67DC U+6AC3"
+    },
+    "accepted_readings": [
+      "gui",
+      "ju"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "gui": 102
+    },
+    "highest_corpus_reading": "gui",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "柜",
+        "D": "06017",
+        "H": "1",
+        "I": "ㄐㄩˇ",
+        "J": "  ",
+        "L": "jǔ",
+        "lookup_char": "柜"
+      },
+      {
+        "A": "柜",
+        "D": "04294-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "柜"
+      },
+      {
+        "A": "柜",
+        "D": "06017",
+        "H": "1",
+        "I": "ㄐㄩˇ",
+        "J": "  ",
+        "L": "jǔ",
+        "lookup_char": "柜"
+      },
+      {
+        "A": "柜",
+        "D": "04294-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "柜"
+      },
+      {
+        "A": "櫃",
+        "D": "04294",
+        "H": "0",
+        "I": "ㄍㄨㄟˋ",
+        "J": "  ",
+        "L": "guì",
+        "lookup_char": "櫃"
+      }
+    ],
+    "moe_readings": [
+      "gui",
+      "ju"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6854",
+    "char": "桔",
+    "name": "CJK UNIFIED IDEOGRAPH-6854",
+    "current": "Jie ",
+    "readings": {
+      "kCantonese": "gat1",
+      "kDefinition": "Chinese bellflower; well-swept; the inner fibers of corn-stalks",
+      "kFanqie": "古屑",
+      "kHangul": "길:0N",
+      "kHanyuPinlu": "jú(11)",
+      "kHanyuPinyin": "21194.030:jié,xié,jú",
+      "kJapanese": "キツ ケツ ケチ ゲチ",
+      "kJapaneseKun": "HANETSURUBE",
+      "kJapaneseOn": "KITSU KETSU",
+      "kKorean": "KIL",
+      "kMandarin": "jié",
+      "kSMSZD2003Readings": "jié粵gat1 jié粵git3 jú粵gat1",
+      "kTGHZ2013": "173.080:jié",
+      "kXHC1983": "0576.100:jié 0611.120:jú"
+    },
+    "accepted_readings": [
+      "jie",
+      "ju",
+      "xie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ju": 11
+    },
+    "highest_corpus_reading": "ju",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "桔",
+        "D": "05554",
+        "H": "1",
+        "I": "ㄐㄧㄝˊ",
+        "J": "  ",
+        "L": "jié",
+        "lookup_char": "桔"
+      },
+      {
+        "A": "桔",
+        "D": "06005",
+        "H": "2",
+        "I": "ㄐㄩˊ",
+        "J": "  ",
+        "L": "jú",
+        "lookup_char": "桔"
+      }
+    ],
+    "moe_readings": [
+      "jie",
+      "ju"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+68B0",
+    "char": "械",
+    "name": "CJK UNIFIED IDEOGRAPH-68B0",
+    "current": "Jie ",
+    "readings": {
+      "kCantonese": "haai6",
+      "kDefinition": "weapons; implements, instruments",
+      "kFanqie": "胡介",
+      "kHangul": "계:0E",
+      "kHanyuPinlu": "xiè(174)",
+      "kHanyuPinyin": "21209.060:xiè",
+      "kJapanese": "カイ ガイ かせ",
+      "kJapaneseKun": "KASE",
+      "kJapaneseOn": "KAI",
+      "kKorean": "KYEY",
+      "kMandarin": "xiè",
+      "kSMSZD2003Readings": "xiè粵haai6",
+      "kTGHZ2013": "406.040:xiè",
+      "kVietnamese": "giới",
+      "kXHC1983": "1277.020:xiè"
+    },
+    "accepted_readings": [
+      "xie"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "xie": 174
+    },
+    "highest_corpus_reading": "xie",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "械",
+        "D": "05606",
+        "H": "2",
+        "I": "ㄐㄧㄝˋ",
+        "J": "又音 ",
+        "L": "jiè",
+        "lookup_char": "械"
+      },
+      {
+        "A": "械",
+        "D": "06962",
+        "H": "1",
+        "I": "ㄒㄧㄝˋ",
+        "J": "  ",
+        "L": "xiè",
+        "lookup_char": "械"
+      }
+    ],
+    "moe_readings": [
+      "jie",
+      "xie"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+69DB",
+    "char": "槛",
+    "name": "CJK UNIFIED IDEOGRAPH-69DB",
+    "current": "Jian ",
+    "readings": {
+      "kCantonese": "laam6",
+      "kDefinition": "threshold, door-sill",
+      "kHanyuPinlu": "kǎn(15)",
+      "kMandarin": "kǎn",
+      "kTGHZ2013": "166.090:jiàn 193.040:kǎn",
+      "kXHC1983": "0555.090:jiàn 0632.030:kǎn",
+      "kTraditionalVariant": "U+6ABB"
+    },
+    "accepted_readings": [
+      "jian",
+      "kan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "kan": 15
+    },
+    "highest_corpus_reading": "kan",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "檻",
+        "D": "04514",
+        "H": "2",
+        "I": "ㄎㄢˇ",
+        "J": "  ",
+        "L": "kǎn",
+        "lookup_char": "檻"
+      },
+      {
+        "A": "檻",
+        "D": "05822",
+        "H": "1",
+        "I": "ㄐㄧㄢˋ",
+        "J": "  ",
+        "L": "jiàn",
+        "lookup_char": "檻"
+      }
+    ],
+    "moe_readings": [
+      "jian",
+      "kan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6ABB",
+    "char": "檻",
+    "name": "CJK UNIFIED IDEOGRAPH-6ABB",
+    "current": "Jian ",
+    "readings": {
+      "kCantonese": "laam6",
+      "kDefinition": "threshold, door-sill",
+      "kFanqie": "胡黤",
+      "kHangul": "함:0N",
+      "kHanyuPinlu": "kǎn(15)",
+      "kHanyuPinyin": "21307.140:jiàn,kǎn",
+      "kJapanese": "カン ガン おばしま おり てすり",
+      "kJapaneseKun": "ORI TESURI OBASHIMA",
+      "kJapaneseOn": "KAN",
+      "kKorean": "HAM",
+      "kMandarin": "kǎn",
+      "kSMSZD2003Readings": "jiàn粵laam6 kǎn粵haam5",
+      "kTang": "hǎm",
+      "kXHC1983": "0555.091:jiàn 0632.031:kǎn",
+      "kSimplifiedVariant": "U+69DB"
+    },
+    "accepted_readings": [
+      "jian",
+      "kan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "kan": 15
+    },
+    "highest_corpus_reading": "kan",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "檻",
+        "D": "04514",
+        "H": "2",
+        "I": "ㄎㄢˇ",
+        "J": "  ",
+        "L": "kǎn",
+        "lookup_char": "檻"
+      },
+      {
+        "A": "檻",
+        "D": "05822",
+        "H": "1",
+        "I": "ㄐㄧㄢˋ",
+        "J": "  ",
+        "L": "jiàn",
+        "lookup_char": "檻"
+      }
+    ],
+    "moe_readings": [
+      "jian",
+      "kan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6C8F",
+    "char": "沏",
+    "name": "CJK UNIFIED IDEOGRAPH-6C8F",
+    "current": "Qie ",
+    "readings": {
+      "kCantonese": "cai3",
+      "kDefinition": "infuse",
+      "kFanqie": "千結",
+      "kHanyuPinlu": "qī(11)",
+      "kHanyuPinyin": "31562.040:qiè,qī",
+      "kJapanese": "セツ セチ シツ シチ",
+      "kMandarin": "qī",
+      "kSMSZD2003Readings": "qī粵cai3",
+      "kTGHZ2013": "290.020:qī",
+      "kXHC1983": "0894.020:qī"
+    },
+    "accepted_readings": [
+      "qi",
+      "qie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "qi": 11
+    },
+    "highest_corpus_reading": "qi",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "沏",
+        "D": "06203",
+        "H": "1",
+        "I": "ㄑㄧ",
+        "J": "  ",
+        "L": "qī",
+        "lookup_char": "沏"
+      },
+      {
+        "A": "沏",
+        "D": "06609",
+        "H": "2",
+        "I": "ㄑㄩ",
+        "J": "  ",
+        "L": "qū",
+        "lookup_char": "沏"
+      }
+    ],
+    "moe_readings": [
+      "qi",
+      "qu"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+6CCA",
+    "char": "泊",
+    "name": "CJK UNIFIED IDEOGRAPH-6CCA",
+    "current": "Bo ",
+    "readings": {
+      "kCantonese": "bok6",
+      "kDefinition": "anchor vessel; lie at anchor",
+      "kFanqie": "傍各",
+      "kHangul": "박:0E",
+      "kHanyuPinlu": "pō(26) bó(11)",
+      "kHanyuPinyin": "31588.050:bó,pò,pō",
+      "kJapanese": "ハク バク ヒャク とまる とめる",
+      "kJapaneseKun": "TOMARU TOMERU TOMARI",
+      "kJapaneseOn": "HAKU",
+      "kKorean": "PAK",
+      "kMandarin": "pō",
+      "kSMSZD2003Readings": "bó粵bok6 pō粵bok6",
+      "kTGHZ2013": "026.160:bó 286.160:pō",
+      "kTang": "*bhɑk",
+      "kVietnamese": "bạc",
+      "kXHC1983": "0084.050:bó 0884.030:pō"
+    },
+    "accepted_readings": [
+      "bo",
+      "po"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "po": 26,
+      "bo": 11
+    },
+    "highest_corpus_reading": "po",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "泊",
+        "D": "00063",
+        "H": "1",
+        "I": "ㄅㄛˊ",
+        "J": "  ",
+        "L": "bó",
+        "lookup_char": "泊"
+      },
+      {
+        "A": "泊",
+        "D": "00618",
+        "H": "2",
+        "I": "ㄆㄛˋ",
+        "J": "又音 ",
+        "L": "pò",
+        "lookup_char": "泊"
+      }
+    ],
+    "moe_readings": [
+      "bo",
+      "po"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+6D01",
+    "char": "洁",
+    "name": "CJK UNIFIED IDEOGRAPH-6D01",
+    "current": "Ji ",
+    "readings": {
+      "kCantonese": "git3",
+      "kDefinition": "clean, purify, pure",
+      "kFanqie": "居質",
+      "kHanyuPinlu": "jié(86)",
+      "kHanyuPinyin": "31602.010:jí,jié",
+      "kJapanese": "キツ キチ コウ おおきい ひろい",
+      "kMandarin": "jié",
+      "kTGHZ2013": "173.060:jié",
+      "kVietnamese": "cát khiết",
+      "kXHC1983": "0576.070:jié",
+      "kTraditionalVariant": "U+6F54"
+    },
+    "accepted_readings": [
+      "ji",
+      "jie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jie": 86
+    },
+    "highest_corpus_reading": "jie",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "潔",
+        "D": "05590",
+        "H": "0",
+        "I": "ㄐㄧㄝˊ",
+        "J": "  ",
+        "L": "jié",
+        "lookup_char": "潔"
+      }
+    ],
+    "moe_readings": [
+      "jie"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+719F",
+    "char": "熟",
+    "name": "CJK UNIFIED IDEOGRAPH-719F",
+    "current": "Shou ",
+    "readings": {
+      "kCantonese": "suk6",
+      "kDefinition": "well-cooked; ripe; familiar with",
+      "kFanqie": "殊六",
+      "kHangul": "숙:0E",
+      "kHanyuPinlu": "shú(385)",
+      "kHanyuPinyin": "32231.030:shú,shóu",
+      "kJapanese": "ジュク シュク うれる つらつら",
+      "kJapaneseKun": "URERU NIRU TSURATSURA",
+      "kJapaneseOn": "JUKU",
+      "kKorean": "SWUK",
+      "kMandarin": "shú",
+      "kSMSZD2003Readings": "shú,shóu粵suk6",
+      "kTGHZ2013": "339.010:shóu 341.100:shú",
+      "kTang": "*zhiuk",
+      "kVietnamese": "thục",
+      "kXHC1983": "1056.010:shóu 1065.020:shú"
+    },
+    "accepted_readings": [
+      "shou",
+      "shu",
+      "shu,shou"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shu": 385
+    },
+    "highest_corpus_reading": "shu",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "熟",
+        "D": "08890",
+        "H": "2",
+        "I": "ㄕㄡˊ",
+        "J": "語音 ",
+        "L": "shóu",
+        "lookup_char": "熟"
+      },
+      {
+        "A": "熟",
+        "D": "09073",
+        "H": "1",
+        "I": "ㄕㄨˊ",
+        "J": "讀音 ",
+        "L": "shú",
+        "lookup_char": "熟"
+      }
+    ],
+    "moe_readings": [
+      "shou",
+      "shu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+722A",
+    "char": "爪",
+    "name": "CJK UNIFIED IDEOGRAPH-722A",
+    "current": "Zhua ",
+    "readings": {
+      "kCantonese": "zaau2",
+      "kDefinition": "claw, nail, talon; animal feet",
+      "kFanqie": "側絞",
+      "kHangul": "조:0N",
+      "kHanyuPinlu": "zhǎo(18) zhuǎ(12)",
+      "kHanyuPinyin": "32030.010:zhǎo,zhuǎ",
+      "kJapanese": "ソウ ショウ つめ",
+      "kJapaneseKun": "TSUME",
+      "kJapaneseOn": "SOU",
+      "kKorean": "CO",
+      "kMandarin": "zhǎo",
+      "kSMSZD2003Readings": "zhǎo粵zaau2 zhuǎ粵zaau2",
+      "kTGHZ2013": "468.010:zhǎo 486.090:zhuǎ",
+      "kTang": "jrǎu",
+      "kVietnamese": "trảo",
+      "kXHC1983": "1460.030:zhǎo 1516.050:zhuǎ",
+      "kSemanticVariant": "U+355A<kMatthews U+722B<kLau,kMatthews"
+    },
+    "accepted_readings": [
+      "zhao",
+      "zhua"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhao": 18,
+      "zhua": 12
+    },
+    "highest_corpus_reading": "zhao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "爪",
+        "D": "07713",
+        "H": "1",
+        "I": "ㄓㄠˇ",
+        "J": "  ",
+        "L": "zhǎo",
+        "lookup_char": "爪"
+      },
+      {
+        "A": "爪",
+        "D": "08023",
+        "H": "2",
+        "I": "ㄓㄨㄚˇ",
+        "J": "  ",
+        "L": "zhuǎ",
+        "lookup_char": "爪"
+      }
+    ],
+    "moe_readings": [
+      "zhao",
+      "zhua"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+729B",
+    "char": "犛",
+    "name": "CJK UNIFIED IDEOGRAPH-729B",
+    "current": "Li ",
+    "readings": {
+      "kCantonese": "mou4",
+      "kDefinition": "a black ox, a yak",
+      "kFanqie": "里之 洛哀 莫交",
+      "kHanyuPinlu": "máo(11)",
+      "kHanyuPinyin": "31818.050:máo,lí",
+      "kJapanese": "ボウ ミョウ リ モウ ライ からうし やく",
+      "kJapaneseKun": "KARAUSHI YAKU",
+      "kJapaneseOn": "BOU MYOU MOU RI",
+      "kMandarin": "máo",
+      "kSMSZD2003Readings": "máo,lí粵mou4,lei4",
+      "kXHC1983": "0691.070:lí"
+    },
+    "accepted_readings": [
+      "li",
+      "mao",
+      "mao,li"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "mao": 11
+    },
+    "highest_corpus_reading": "mao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "犛",
+        "D": "01167",
+        "H": "2",
+        "I": "ㄇㄠˊ",
+        "J": "又音 ",
+        "L": "máo",
+        "lookup_char": "犛"
+      },
+      {
+        "A": "犛",
+        "D": "03406",
+        "H": "1",
+        "I": "ㄌㄧˊ",
+        "J": "  ",
+        "L": "lí",
+        "lookup_char": "犛"
+      }
+    ],
+    "moe_readings": [
+      "li",
+      "mao"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+730E",
+    "char": "猎",
+    "name": "CJK UNIFIED IDEOGRAPH-730E",
+    "current": "Xi ",
+    "readings": {
+      "kCantonese": "lip6",
+      "kDefinition": "hunt; field sports",
+      "kFanqie": "秦昔",
+      "kHanyuPinlu": "liè(72)",
+      "kHanyuPinyin": "21351.110:xī,què,liè",
+      "kJapanese": "セキ ジャク シャク サク",
+      "kMandarin": "liè",
+      "kTGHZ2013": "224.100:liè",
+      "kXHC1983": "0714.070:liè",
+      "kTraditionalVariant": "U+7375"
+    },
+    "accepted_readings": [
+      "lie",
+      "que",
+      "xi"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "lie": 72
+    },
+    "highest_corpus_reading": "lie",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "獵",
+        "D": "03512",
+        "H": "0",
+        "I": "ㄌㄧㄝˋ",
+        "J": "  ",
+        "L": "liè",
+        "lookup_char": "獵"
+      }
+    ],
+    "moe_readings": [
+      "lie"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+7422",
+    "char": "琢",
+    "name": "CJK UNIFIED IDEOGRAPH-7422",
+    "current": "Zhuo ",
+    "readings": {
+      "kCantonese": "doek3",
+      "kDefinition": "polish jade; cut jade",
+      "kFanqie": "竹角",
+      "kHangul": "탁:0N",
+      "kHanyuPinlu": "zuó(18)",
+      "kHanyuPinyin": "21120.120:zhuó,zuó",
+      "kJapanese": "タク みがく",
+      "kJapaneseKun": "MIGAKU",
+      "kJapaneseOn": "TAKU",
+      "kKorean": "THAK",
+      "kMandarin": "zuó",
+      "kSMSZD2003Readings": "zhuó粵doek3",
+      "kTGHZ2013": "490.080:zhuó 496.180:zuó",
+      "kVietnamese": "chác",
+      "kXHC1983": "1527.070:zhuó 1550.050:zuó",
+      "kSpoofingVariant": "U+24968"
+    },
+    "accepted_readings": [
+      "zhuo",
+      "zuo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zuo": 18
+    },
+    "highest_corpus_reading": "zuo",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "琢",
+        "D": "08051",
+        "H": "0",
+        "I": "ㄓㄨㄛˊ",
+        "J": "  ",
+        "L": "zhuó",
+        "lookup_char": "琢"
+      }
+    ],
+    "moe_readings": [
+      "zhuo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+75FA",
+    "char": "痺",
+    "name": "CJK UNIFIED IDEOGRAPH-75FA",
+    "current": "Bei ",
+    "readings": {
+      "kCantonese": "bei3",
+      "kDefinition": "paralysis, numbness",
+      "kFanqie": "府移",
+      "kHangul": "비:0N",
+      "kHanyuPinlu": "bì(10)",
+      "kJapanese": "ヒ しびれる",
+      "kJapaneseKun": "SHIBIRERU",
+      "kJapaneseOn": "HI",
+      "kKorean": "PI",
+      "kMandarin": "bì",
+      "kXHC1983": "0060.211:bì",
+      "kSemanticVariant": "U+75F9<kMatthews"
+    },
+    "accepted_readings": [
+      "bi"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "bi": 10
+    },
+    "highest_corpus_reading": "bi",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "痺",
+        "D": "00371",
+        "H": "0",
+        "I": "ㄅㄧˋ",
+        "J": "  ",
+        "L": "bì",
+        "lookup_char": "痺"
+      }
+    ],
+    "moe_readings": [
+      "bi"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+762A",
+    "char": "瘪",
+    "name": "CJK UNIFIED IDEOGRAPH-762A",
+    "current": "Pie ",
+    "readings": {
+      "kCantonese": "bit6",
+      "kDefinition": "shrivelled up, dried up; vexed",
+      "kHanyuPinlu": "biě(13)",
+      "kMandarin": "biě",
+      "kTGHZ2013": "023.080:biē 023.140:biě",
+      "kXHC1983": "0073.030:biē 0074.010:biě",
+      "kTraditionalVariant": "U+765F"
+    },
+    "accepted_readings": [
+      "bie"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "bie": 13
+    },
+    "highest_corpus_reading": "bie",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "癟",
+        "D": "00431",
+        "H": "0",
+        "I": "ㄅㄧㄝˇ",
+        "J": "  ",
+        "L": "biě",
+        "lookup_char": "癟"
+      }
+    ],
+    "moe_readings": [
+      "bie"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+765F",
+    "char": "癟",
+    "name": "CJK UNIFIED IDEOGRAPH-765F",
+    "current": "Pie ",
+    "readings": {
+      "kCantonese": "bit6",
+      "kDefinition": "shrivelled up, dried up; vexed",
+      "kFanqie": "蒲結 芳滅",
+      "kHanyuPinlu": "biě(13)",
+      "kHanyuPinyin": "42701.170:biě,bié,biē",
+      "kJapanese": "ヘツ ベチ",
+      "kJapaneseKun": "TOBENAI",
+      "kJapaneseOn": "HETSU BECHI",
+      "kMandarin": "biě",
+      "kSMSZD2003Readings": "biě粵bit6 biē粵bit6",
+      "kXHC1983": "0073.031:biē 0074.011:biě",
+      "kSimplifiedVariant": "U+762A"
+    },
+    "accepted_readings": [
+      "bie"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "bie": 13
+    },
+    "highest_corpus_reading": "bie",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "癟",
+        "D": "00431",
+        "H": "0",
+        "I": "ㄅㄧㄝˇ",
+        "J": "  ",
+        "L": "biě",
+        "lookup_char": "癟"
+      }
+    ],
+    "moe_readings": [
+      "bie"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+76EF",
+    "char": "盯",
+    "name": "CJK UNIFIED IDEOGRAPH-76EF",
+    "current": "Cheng ",
+    "readings": {
+      "kCantonese": "ding1",
+      "kDefinition": "rivet gaze upon, keep eyes on",
+      "kFanqie": "直庚 張梗",
+      "kHanyuPinlu": "dīng(65)",
+      "kHanyuPinyin": "42468.040:chéng,dīng",
+      "kJapanese": "トウ ジョウ チョウ",
+      "kMandarin": "dīng",
+      "kSMSZD2003Readings": "dīng粵ding1,deng1",
+      "kTGHZ2013": "076.230:dīng",
+      "kXHC1983": "0253.020:dīng"
+    },
+    "accepted_readings": [
+      "cheng",
+      "ding"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ding": 65
+    },
+    "highest_corpus_reading": "ding",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "盯",
+        "D": "02257",
+        "H": "0",
+        "I": "ㄉㄧㄥ",
+        "J": "  ",
+        "L": "dīng",
+        "lookup_char": "盯"
+      }
+    ],
+    "moe_readings": [
+      "ding"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+7740",
+    "char": "着",
+    "name": "CJK UNIFIED IDEOGRAPH-7740",
+    "current": "Zhao ",
+    "readings": {
+      "kCantonese": "zoek6",
+      "kDefinition": "make move, take action",
+      "kHangul": "착:0E",
+      "kHanyuPinlu": "zhe(10643) zháo(545) zhuó(125) zhāo(15)",
+      "kHanyuPinyin": "53129.090:zhuó,zhāo,zháo,zhe",
+      "kJapanese": "チャク ジャク きる きせる つく つける",
+      "kJapaneseKun": "KIRU TSUKU",
+      "kJapaneseOn": "CHAKU JAKU",
+      "kKorean": "CHAK",
+      "kMandarin": "zhe",
+      "kSMSZD2003Readings": "zháo粵zoek6 zhāo粵zoek6 zhe粵zoek6",
+      "kTGHZ2013": "467.160:zhāo 467.180:zháo 470.160:zhe 490.070:zhuó",
+      "kTang": "*djiɑk djiɑk",
+      "kXHC1983": "1458.010:zhāo 1459.020:zháo 1465.060:zhe 1527.030:zhuó",
+      "kSemanticVariant": "U+8457",
+      "kSimplifiedVariant": "U+7740",
+      "kSpecializedSemanticVariant": "U+8457<kFenn",
+      "kTraditionalVariant": "U+7740 U+8457"
+    },
+    "accepted_readings": [
+      "zhao",
+      "zhe",
+      "zhuo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhe": 10643,
+      "zhao": 560,
+      "zhuo": 125
+    },
+    "highest_corpus_reading": "zhe",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "著",
+        "D": "07689",
+        "H": "5",
+        "I": "˙ㄓㄜ",
+        "J": "  ",
+        "L": "zhe",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07709",
+        "H": "4",
+        "I": "ㄓㄠ",
+        "J": "  ",
+        "L": "zhāo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07712",
+        "H": "3",
+        "I": "ㄓㄠˊ",
+        "J": "  ",
+        "L": "zháo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08011",
+        "H": "1",
+        "I": "ㄓㄨˋ",
+        "J": "  ",
+        "L": "zhù",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08054",
+        "H": "2",
+        "I": "ㄓㄨㄛˊ",
+        "J": "  ",
+        "L": "zhuó",
+        "lookup_char": "著"
+      }
+    ],
+    "moe_readings": [
+      "zhao",
+      "zhe",
+      "zhu",
+      "zhuo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+7845",
+    "char": "硅",
+    "name": "CJK UNIFIED IDEOGRAPH-7845",
+    "current": "Huo ",
+    "readings": {
+      "kCantonese": "gwai1",
+      "kDefinition": "silicon (element 14, Si)",
+      "kFanqie": "虎伯",
+      "kHangul": "규:0N",
+      "kHanyuPinlu": "guī(14)",
+      "kHanyuPinyin": "42427.070:hè,guī",
+      "kJapanese": "ケイ カク キャク やぶる",
+      "kJapaneseOn": "KEI KAKU KYAKU",
+      "kKorean": "KYU",
+      "kMandarin": "guī",
+      "kSMSZD2003Readings": "guī粵gwai1",
+      "kTGHZ2013": "124.050:guī",
+      "kXHC1983": "0417.020:guī"
+    },
+    "accepted_readings": [
+      "gui",
+      "he"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "gui": 14
+    },
+    "highest_corpus_reading": "gui",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "硅",
+        "D": "04260",
+        "H": "0",
+        "I": "ㄍㄨㄟ",
+        "J": "  ",
+        "L": "guī",
+        "lookup_char": "硅"
+      }
+    ],
+    "moe_readings": [
+      "gui"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+79BB",
+    "char": "离",
+    "name": "CJK UNIFIED IDEOGRAPH-79BB",
+    "current": "Chi ",
+    "readings": {
+      "kCantonese": "lei4",
+      "kDefinition": "rare beast; strange; elegant",
+      "kFanqie": "呂支 丑知",
+      "kHangul": "리:1N",
+      "kHanyuPinlu": "lí(790)",
+      "kHanyuPinyin": "10287.110:chī,lí",
+      "kJapanese": "リ チ",
+      "kJapaneseOn": "CHI RI",
+      "kKorean": "LI",
+      "kMandarin": "lí",
+      "kTGHZ2013": "214.110:lí",
+      "kVietnamese": "le",
+      "kXHC1983": "0690.050:lí",
+      "kSpecializedSemanticVariant": "U+96E2<kFenn",
+      "kTraditionalVariant": "U+96E2"
+    },
+    "accepted_readings": [
+      "chi",
+      "li"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "li": 790
+    },
+    "highest_corpus_reading": "li",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "離",
+        "D": "03391",
+        "H": "0",
+        "I": "ㄌㄧˊ",
+        "J": "  ",
+        "L": "lí",
+        "lookup_char": "離"
+      }
+    ],
+    "moe_readings": [
+      "li"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+7C98",
+    "char": "粘",
+    "name": "CJK UNIFIED IDEOGRAPH-7C98",
+    "current": "Nian ",
+    "readings": {
+      "kCantonese": "zim1",
+      "kDefinition": "viscous, mucous; glutinous",
+      "kFanqie": "女廉",
+      "kHangul": "점:0N",
+      "kHanyuPinlu": "zhān(26)",
+      "kHanyuPinyin": "53144.120:zhān,nián,nián",
+      "kJapanese": "ネン デン ねばる",
+      "kJapaneseKun": "NEBARU",
+      "kJapaneseOn": "NEN",
+      "kKorean": "CEM",
+      "kMandarin": "zhān",
+      "kTGHZ2013": "266.030:nián 464.150:zhān",
+      "kXHC1983": "0829.130:nián 1451.010:zhān",
+      "kSemanticVariant": "U+9ECF<kLau",
+      "kSpecializedSemanticVariant": "U+9ECF<kMeyerWempe"
+    },
+    "accepted_readings": [
+      "nian",
+      "zhan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhan": 26
+    },
+    "highest_corpus_reading": "zhan",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "粘",
+        "D": "03084",
+        "H": "0",
+        "I": "ㄋㄧㄢˊ",
+        "J": "  ",
+        "L": "nián",
+        "lookup_char": "粘"
+      }
+    ],
+    "moe_readings": [
+      "nian"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+80F6",
+    "char": "胶",
+    "name": "CJK UNIFIED IDEOGRAPH-80F6",
+    "current": "Xiao ",
+    "readings": {
+      "kCantonese": "gaau1",
+      "kDefinition": "glue, gum, resin, rubber; sound; shin bone",
+      "kFanqie": "胡茅",
+      "kHanyuPinlu": "jiāo(37)",
+      "kHanyuPinyin": "32070.090:xiáo,jiāo",
+      "kJapanese": "コウ ギョウ",
+      "kJapaneseKun": "KOE HAGINOHONE",
+      "kJapaneseOn": "KOU GYOU",
+      "kMandarin": "jiāo",
+      "kTGHZ2013": "168.150:jiāo",
+      "kXHC1983": "0565.050:jiāo",
+      "kSpoofingVariant": "U+3B35",
+      "kTraditionalVariant": "U+81A0"
+    },
+    "accepted_readings": [
+      "jiao",
+      "xiao"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jiao": 37
+    },
+    "highest_corpus_reading": "jiao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "膠",
+        "D": "05645",
+        "H": "0",
+        "I": "ㄐㄧㄠ",
+        "J": "  ",
+        "L": "jiāo",
+        "lookup_char": "膠"
+      }
+    ],
+    "moe_readings": [
+      "jiao"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+8108",
+    "char": "脈",
+    "name": "CJK UNIFIED IDEOGRAPH-8108",
+    "current": "Mo ",
+    "readings": {
+      "kCantonese": "mak6",
+      "kDefinition": "blood vessels, veins, arteries",
+      "kFanqie": "莫獲",
+      "kHangul": "맥:0E",
+      "kHanyuPinlu": "mài(116)",
+      "kJapanese": "ミャク バク すじ",
+      "kJapaneseKun": "SUJI",
+      "kJapaneseOn": "MYAKU BAKU",
+      "kKorean": "MAYK",
+      "kMandarin": "mài",
+      "kSMSZD2003Readings": "mài粵mak6 mò粵mak6",
+      "kTang": "mɛk",
+      "kXHC1983": "0761.031:mài 0804.031:mò",
+      "kSemanticVariant": "U+8847<kLau,kMatthews U+8109<kLau,kMatthews,kMeyerWempe",
+      "kSimplifiedVariant": "U+8109",
+      "kSpecializedSemanticVariant": "U+8847<kFenn"
+    },
+    "accepted_readings": [
+      "mai",
+      "mo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "mai": 116
+    },
+    "highest_corpus_reading": "mai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "脈",
+        "D": "01078",
+        "H": "2",
+        "I": "ㄇㄛˋ",
+        "J": "又音 ",
+        "L": "mò",
+        "lookup_char": "脈"
+      },
+      {
+        "A": "脈",
+        "D": "01108",
+        "H": "1",
+        "I": "ㄇㄞˋ",
+        "J": "  ",
+        "L": "mài",
+        "lookup_char": "脈"
+      }
+    ],
+    "moe_readings": [
+      "mai",
+      "mo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+812F",
+    "char": "脯",
+    "name": "CJK UNIFIED IDEOGRAPH-812F",
+    "current": "Fu ",
+    "readings": {
+      "kCantonese": "fu2",
+      "kDefinition": "dried meat; preserved fruits",
+      "kFanqie": "方矩",
+      "kHangul": "포:0N",
+      "kHanyuPinlu": "pú(27)",
+      "kHanyuPinyin": "32076.030:fǔ,pú",
+      "kJapanese": "ホ フ ブ ほじし",
+      "kJapaneseKun": "HOJISHI",
+      "kJapaneseOn": "HO FU",
+      "kKorean": "PHO",
+      "kMandarin": "pú",
+      "kSMSZD2003Readings": "fǔ粵pou2,fu2 pú粵pou4",
+      "kTGHZ2013": "102.040:fǔ 288.130:pú",
+      "kTang": "biǒ",
+      "kXHC1983": "0341.040:fǔ 0889.060:pú"
+    },
+    "accepted_readings": [
+      "fu",
+      "pu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "pu": 27
+    },
+    "highest_corpus_reading": "pu",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "脯",
+        "D": "00990",
+        "H": "2",
+        "I": "ㄆㄨˊ",
+        "J": "  ",
+        "L": "pú",
+        "lookup_char": "脯"
+      },
+      {
+        "A": "脯",
+        "D": "01844",
+        "H": "1",
+        "I": "ㄈㄨˇ",
+        "J": "  ",
+        "L": "fǔ",
+        "lookup_char": "脯"
+      }
+    ],
+    "moe_readings": [
+      "fu",
+      "pu"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8258",
+    "char": "艘",
+    "name": "CJK UNIFIED IDEOGRAPH-8258",
+    "current": "Sao ",
+    "readings": {
+      "kCantonese": "sau1",
+      "kDefinition": "counter for ships, vessels",
+      "kFanqie": "蘇彫 蘇遭",
+      "kHangul": "소:1N",
+      "kHanyuPinlu": "sōu(30)",
+      "kHanyuPinyin": "53064.070:sōu",
+      "kJapanese": "ソウ ショウ シュウ シュ ふね",
+      "kJapaneseKun": "FUNE",
+      "kJapaneseOn": "SOU",
+      "kKorean": "SO",
+      "kMandarin": "sōu",
+      "kSMSZD2003Readings": "sōu粵sau2,sau1",
+      "kTGHZ2013": "349.080:sōu",
+      "kTang": "seu sɑu",
+      "kXHC1983": "1093.100:sōu"
+    },
+    "accepted_readings": [
+      "sou"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "sou": 30
+    },
+    "highest_corpus_reading": "sou",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "艘",
+        "D": "10025",
+        "H": "1",
+        "I": "ㄙㄠ",
+        "J": "  ",
+        "L": "sāo",
+        "lookup_char": "艘"
+      },
+      {
+        "A": "艘",
+        "D": "10039",
+        "H": "2",
+        "I": "ㄙㄡ",
+        "J": "又音 ",
+        "L": "sōu",
+        "lookup_char": "艘"
+      }
+    ],
+    "moe_readings": [
+      "sao",
+      "sou"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8304",
+    "char": "茄",
+    "name": "CJK UNIFIED IDEOGRAPH-8304",
+    "current": "Qie ",
+    "readings": {
+      "kCantonese": "ke2",
+      "kDefinition": "eggplant",
+      "kFanqie": "求迦 古牙",
+      "kHangul": "가:0N",
+      "kHanyuPinlu": "jiā(10)",
+      "kHanyuPinyin": "53198.030:jiā,qié",
+      "kJapanese": "カ なす",
+      "kJapaneseKun": "NASU",
+      "kJapaneseOn": "KA",
+      "kKorean": "KA",
+      "kMandarin": "jiā",
+      "kSMSZD2003Readings": "qié粵ke2 jiā粵gaa1",
+      "kTGHZ2013": "160.070:jiā 301.040:qié",
+      "kVietnamese": "nhà",
+      "kXHC1983": "0541.070:jiā 0923.060:qié"
+    },
+    "accepted_readings": [
+      "jia",
+      "qie"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jia": 10
+    },
+    "highest_corpus_reading": "jia",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "茄",
+        "D": "05478",
+        "H": "2",
+        "I": "ㄐㄧㄚ",
+        "J": "  ",
+        "L": "jiā",
+        "lookup_char": "茄"
+      },
+      {
+        "A": "茄",
+        "D": "06329",
+        "H": "1",
+        "I": "ㄑㄧㄝˊ",
+        "J": "  ",
+        "L": "qié",
+        "lookup_char": "茄"
+      }
+    ],
+    "moe_readings": [
+      "jia",
+      "qie"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8327",
+    "char": "茧",
+    "name": "CJK UNIFIED IDEOGRAPH-8327",
+    "current": "Chong ",
+    "readings": {
+      "kCantonese": "gaan2",
+      "kDefinition": "cocoon; callus, blister",
+      "kHanyuPinlu": "jiǎn(14)",
+      "kHanyuPinyin": "53203.070:chóng,jiǎn",
+      "kJapanese": "チュウ ジュ",
+      "kMandarin": "jiǎn",
+      "kTGHZ2013": "164.050:jiǎn",
+      "kXHC1983": "0552.030:jiǎn",
+      "kTraditionalVariant": "U+7E6D"
+    },
+    "accepted_readings": [
+      "chong",
+      "jian"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "jian": 14
+    },
+    "highest_corpus_reading": "jian",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "繭",
+        "D": "05794",
+        "H": "0",
+        "I": "ㄐㄧㄢˇ",
+        "J": "  ",
+        "L": "jiǎn",
+        "lookup_char": "繭"
+      }
+    ],
+    "moe_readings": [
+      "jian"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+8449",
+    "char": "葉",
+    "name": "CJK UNIFIED IDEOGRAPH-8449",
+    "current": "Xie ",
+    "readings": {
+      "kCantonese": "jip6",
+      "kDefinition": "leaf, petal; page of book; period",
+      "kFanqie": "與涉 書涉",
+      "kHangul": "섭:0N 엽:0E",
+      "kHanyuPinlu": "yè(301)",
+      "kHanyuPinyin": "53243.150:yè,shè",
+      "kJapanese": "ヨウ ショウ は",
+      "kJapaneseKun": "HA",
+      "kJapaneseOn": "YOU SHOU",
+      "kKorean": "YEP SEP",
+      "kMandarin": "yè",
+      "kSMSZD2003Readings": "yè粵jip6",
+      "kTang": "*iɛp",
+      "kVietnamese": "diệp",
+      "kXHC1983": "1348.062,1349.021:yè",
+      "kSimplifiedVariant": "U+53F6"
+    },
+    "accepted_readings": [
+      "she",
+      "ye"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "ye": 301
+    },
+    "highest_corpus_reading": "ye",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "葉",
+        "D": "08843",
+        "H": "2",
+        "I": "ㄕㄜˋ",
+        "J": "  ",
+        "L": "shè",
+        "lookup_char": "葉"
+      },
+      {
+        "A": "葉",
+        "D": "10773",
+        "H": "1",
+        "I": "ㄧㄝˋ",
+        "J": "  ",
+        "L": "yè",
+        "lookup_char": "葉"
+      }
+    ],
+    "moe_readings": [
+      "she",
+      "ye"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+8457",
+    "char": "著",
+    "name": "CJK UNIFIED IDEOGRAPH-8457",
+    "current": "Zhu ",
+    "readings": {
+      "kCantonese": "zyu3",
+      "kDefinition": "manifest; (Cant.) to wear",
+      "kFanqie": "直魚 丁吕 陟慮 張略 直略",
+      "kHangul": "저:0E",
+      "kHanyuPinlu": "zhe(10643) zháo(545) zhù(275) zhuó(125) zhāo(15)",
+      "kHanyuPinyin": "53228.020:zhù,chú,zhuó,zhāo,zháo,zhe",
+      "kJapanese": "チョ チャク ジャク あらわす いちじるしい あらわれる きる つく",
+      "kJapaneseKun": "ARAWASU ICHIJIRUSHI TSUKU",
+      "kJapaneseOn": "CHO CHAKU JAKU",
+      "kKorean": "CE CHAK",
+      "kMandarin": "zhù zhe",
+      "kSMSZD2003Readings": "zhù粵zyu3 zhuó粵zoek6 zhuó粵zoek3 zhù,zhuó粵zoek6,zyu3",
+      "kTGHZ2013": "485.190:zhù 490.040:zhuó",
+      "kTang": "*djiù *djiɑk djhiɑk",
+      "kVietnamese": "trứ",
+      "kXHC1983": "1465.061:zhe 1514.040:zhù 1527.031:zhuó",
+      "kSemanticVariant": "U+7740",
+      "kSimplifiedVariant": "U+7740 U+8457",
+      "kSpecializedSemanticVariant": "U+7740<kFenn U+87AB<kFenn",
+      "kTraditionalVariant": "U+8457"
+    },
+    "accepted_readings": [
+      "chu",
+      "zhao",
+      "zhe",
+      "zhu",
+      "zhu,zhuo",
+      "zhuo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhe": 10643,
+      "zhao": 560,
+      "zhu": 275,
+      "zhuo": 125
+    },
+    "highest_corpus_reading": "zhe",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "著",
+        "D": "07689",
+        "H": "5",
+        "I": "˙ㄓㄜ",
+        "J": "  ",
+        "L": "zhe",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07709",
+        "H": "4",
+        "I": "ㄓㄠ",
+        "J": "  ",
+        "L": "zhāo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07712",
+        "H": "3",
+        "I": "ㄓㄠˊ",
+        "J": "  ",
+        "L": "zháo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08011",
+        "H": "1",
+        "I": "ㄓㄨˋ",
+        "J": "  ",
+        "L": "zhù",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08054",
+        "H": "2",
+        "I": "ㄓㄨㄛˊ",
+        "J": "  ",
+        "L": "zhuó",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07689",
+        "H": "5",
+        "I": "˙ㄓㄜ",
+        "J": "  ",
+        "L": "zhe",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07709",
+        "H": "4",
+        "I": "ㄓㄠ",
+        "J": "  ",
+        "L": "zhāo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "07712",
+        "H": "3",
+        "I": "ㄓㄠˊ",
+        "J": "  ",
+        "L": "zháo",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08011",
+        "H": "1",
+        "I": "ㄓㄨˋ",
+        "J": "  ",
+        "L": "zhù",
+        "lookup_char": "著"
+      },
+      {
+        "A": "著",
+        "D": "08054",
+        "H": "2",
+        "I": "ㄓㄨㄛˊ",
+        "J": "  ",
+        "L": "zhuó",
+        "lookup_char": "著"
+      }
+    ],
+    "moe_readings": [
+      "zhao",
+      "zhe",
+      "zhu",
+      "zhuo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8584",
+    "char": "薄",
+    "name": "CJK UNIFIED IDEOGRAPH-8584",
+    "current": "Bo ",
+    "readings": {
+      "kCantonese": "bok6",
+      "kDefinition": "thin, slight, weak; poor, stingy",
+      "kFanqie": "傍各",
+      "kHangul": "박:0E",
+      "kHanyuPinlu": "báo(80) bó(43)",
+      "kHanyuPinyin": "53307.030:bó,bù,bò",
+      "kJapanese": "ハク ヘキ ホ うすい うすめる うすまる うすらぐ うすれる せまる すすき",
+      "kJapaneseKun": "USUI SEMARU SUSUKI",
+      "kJapaneseOn": "HAKU",
+      "kKorean": "PAK",
+      "kMandarin": "báo bó",
+      "kSMSZD2003Readings": "báo粵bok6 bó粵bok6 bò粵bok6",
+      "kTGHZ2013": "012.110:báo 027.210:bó 028.040:bò",
+      "kTang": "*bhɑk",
+      "kXHC1983": "0037.090:báo 0083.040:bó 0085.050:bò"
+    },
+    "accepted_readings": [
+      "bao",
+      "bo",
+      "bu"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "bao": 80,
+      "bo": 43
+    },
+    "highest_corpus_reading": "bao",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "薄",
+        "D": "00094",
+        "H": "1",
+        "I": "ㄅㄛˊ",
+        "J": "讀音 ",
+        "L": "bó",
+        "lookup_char": "薄"
+      },
+      {
+        "A": "薄",
+        "D": "00124",
+        "H": "3",
+        "I": "ㄅㄛˋ",
+        "J": "  ",
+        "L": "bò",
+        "lookup_char": "薄"
+      },
+      {
+        "A": "薄",
+        "D": "00214",
+        "H": "2",
+        "I": "ㄅㄠˊ",
+        "J": "語音 ",
+        "L": "báo",
+        "lookup_char": "薄"
+      }
+    ],
+    "moe_readings": [
+      "bao",
+      "bo"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+860B",
+    "char": "蘋",
+    "name": "CJK UNIFIED IDEOGRAPH-860B",
+    "current": "Pin ",
+    "readings": {
+      "kCantonese": "pan4",
+      "kDefinition": "apple",
+      "kFanqie": "符眞",
+      "kHangul": "빈:1N",
+      "kHanyuPinlu": "píng(77)",
+      "kHanyuPinyin": "53325.040:pín,píng",
+      "kJapanese": "ヒン ビン うきくさ",
+      "kJapaneseKun": "UKIKUSA DENJISO",
+      "kJapaneseOn": "HIN BIN",
+      "kKorean": "PIN",
+      "kMandarin": "píng",
+      "kSMSZD2003Readings": "pín粵pan4 píng粵ping4",
+      "kTang": "*bhin",
+      "kVietnamese": "tần",
+      "kXHC1983": "0883.021:píng",
+      "kSimplifiedVariant": "U+82F9 U+2C79F"
+    },
+    "accepted_readings": [
+      "pin",
+      "ping"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ping": 77
+    },
+    "highest_corpus_reading": "ping",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "蘋",
+        "D": "00942",
+        "H": "1",
+        "I": "ㄆㄧㄣˊ",
+        "J": "  ",
+        "L": "pín",
+        "lookup_char": "蘋"
+      },
+      {
+        "A": "蘋",
+        "D": "00977",
+        "H": "2",
+        "I": "ㄆㄧㄥˊ",
+        "J": "  ",
+        "L": "píng",
+        "lookup_char": "蘋"
+      }
+    ],
+    "moe_readings": [
+      "pin",
+      "ping"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8695",
+    "char": "蚕",
+    "name": "CJK UNIFIED IDEOGRAPH-8695",
+    "current": "Tian ",
+    "readings": {
+      "kCantonese": "caam4",
+      "kDefinition": "silkworms",
+      "kFanqie": "他典",
+      "kHangul": "천:1",
+      "kHanyuPinlu": "cán(62)",
+      "kHanyuPinyin": "42837.020:cán,tiǎn",
+      "kJapanese": "サン テン ゾン かいこ みみず",
+      "kJapaneseKun": "KAIKO",
+      "kJapaneseOn": "SAN TEN",
+      "kKorean": "CHEN CAM",
+      "kMandarin": "cán",
+      "kTGHZ2013": "031.100:cán",
+      "kVietnamese": "tằm",
+      "kXHC1983": "0103.030:cán",
+      "kSemanticVariant": "U+8836<kMatthews,kMeyerWempe",
+      "kSimplifiedVariant": "U+8695",
+      "kSpoofingVariant": "U+27255",
+      "kTraditionalVariant": "U+8695 U+8836"
+    },
+    "accepted_readings": [
+      "can",
+      "tian"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "can": 62
+    },
+    "highest_corpus_reading": "can",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "蚕",
+        "D": "09779-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "蚕"
+      },
+      {
+        "A": "蚕",
+        "D": "09779-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "蚕"
+      },
+      {
+        "A": "蠶",
+        "D": "09779",
+        "H": "0",
+        "I": "ㄘㄢˊ",
+        "J": "  ",
+        "L": "cán",
+        "lookup_char": "蠶"
+      }
+    ],
+    "moe_readings": [
+      "can"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+8717",
+    "char": "蜗",
+    "name": "CJK UNIFIED IDEOGRAPH-8717",
+    "current": "Gua ",
+    "readings": {
+      "kCantonese": "wo1",
+      "kDefinition": "a snail, Eulota callizoma",
+      "kHanyuPinlu": "wō(11)",
+      "kMandarin": "wō",
+      "kTGHZ2013": "387.050:wō",
+      "kXHC1983": "1209.020:wō",
+      "kTraditionalVariant": "U+8778"
+    },
+    "accepted_readings": [
+      "wo"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "wo": 11
+    },
+    "highest_corpus_reading": "wo",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "蝸",
+        "D": "04208",
+        "H": "0",
+        "I": "ㄍㄨㄚ",
+        "J": "  ",
+        "L": "guā",
+        "lookup_char": "蝸"
+      }
+    ],
+    "moe_readings": [
+      "gua"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8721",
+    "char": "蜡",
+    "name": "CJK UNIFIED IDEOGRAPH-8721",
+    "current": "Zha ",
+    "readings": {
+      "kCantonese": "laap6",
+      "kDefinition": "wax; candle; waxy, glazed; maggot; (same as 䄍) meaning imperial harvest",
+      "kFanqie": "七慮 鋤駕",
+      "kHangul": "사:1N",
+      "kHanyuPinlu": "là(40)",
+      "kHanyuPinyin": "42859.100:qù,zhà,jí,là",
+      "kJapanese": "ショ サ ジャ セキ シャク タ ダ",
+      "kJapaneseKun": "UJIMUSHI",
+      "kJapaneseOn": "SHO WA JA SEKI SHAKU",
+      "kKorean": "SA",
+      "kMandarin": "là",
+      "kSMSZD2003Readings": "zhà粵zaa3",
+      "kTGHZ2013": "206.120:là",
+      "kXHC1983": "0668.080:là 1448.190:zhà",
+      "kSemanticVariant": "U+410D<kMeyerWempe U+881F<kLau,kMatthews",
+      "kSimplifiedVariant": "U+8721",
+      "kSpecializedSemanticVariant": "U+410D U+881F<kFenn",
+      "kTraditionalVariant": "U+8721 U+881F"
+    },
+    "accepted_readings": [
+      "ji",
+      "la",
+      "qu",
+      "zha"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "la": 40
+    },
+    "highest_corpus_reading": "la",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "蜡",
+        "D": "07650",
+        "H": "1",
+        "I": "ㄓㄚˋ",
+        "J": "  ",
+        "L": "zhà",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蜡",
+        "D": "08258",
+        "H": "2",
+        "I": "ㄔㄚˋ",
+        "J": "又音 ",
+        "L": "chà",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蜡",
+        "D": "03182-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蜡",
+        "D": "07650",
+        "H": "1",
+        "I": "ㄓㄚˋ",
+        "J": "  ",
+        "L": "zhà",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蜡",
+        "D": "08258",
+        "H": "2",
+        "I": "ㄔㄚˋ",
+        "J": "又音 ",
+        "L": "chà",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蜡",
+        "D": "03182-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "蜡"
+      },
+      {
+        "A": "蠟",
+        "D": "03182",
+        "H": "0",
+        "I": "ㄌㄚˋ",
+        "J": "  ",
+        "L": "là",
+        "lookup_char": "蠟"
+      }
+    ],
+    "moe_readings": [
+      "cha",
+      "la",
+      "zha"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8778",
+    "char": "蝸",
+    "name": "CJK UNIFIED IDEOGRAPH-8778",
+    "current": "Gua ",
+    "readings": {
+      "kCantonese": "wo1",
+      "kDefinition": "snail",
+      "kFanqie": "古娃 古禾 古華",
+      "kHangul": "와:0N",
+      "kHanyuPinlu": "wō(11)",
+      "kHanyuPinyin": "42862.140:wō,luó,guǒ",
+      "kJapanese": "カ カイ ケ ラ かたつむり",
+      "kJapaneseKun": "KATATSUMURI",
+      "kJapaneseOn": "KA RA",
+      "kKorean": "WA",
+      "kMandarin": "wō",
+      "kSMSZD2003Readings": "wō粵wo1",
+      "kXHC1983": "1209.021:wō",
+      "kSimplifiedVariant": "U+8717"
+    },
+    "accepted_readings": [
+      "guo",
+      "luo",
+      "wo"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "wo": 11
+    },
+    "highest_corpus_reading": "wo",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "蝸",
+        "D": "04208",
+        "H": "0",
+        "I": "ㄍㄨㄚ",
+        "J": "  ",
+        "L": "guā",
+        "lookup_char": "蝸"
+      }
+    ],
+    "moe_readings": [
+      "gua"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8815",
+    "char": "蠕",
+    "name": "CJK UNIFIED IDEOGRAPH-8815",
+    "current": "Ruan ",
+    "readings": {
+      "kCantonese": "jyu4",
+      "kDefinition": "to squirm, wriggle",
+      "kFanqie": "人朱",
+      "kHangul": "연:1N",
+      "kHanyuPinlu": "rú(20)",
+      "kHanyuPinyin": "42900.030:rú",
+      "kJapanese": "ゼン ジュ ジュン ネン ニュ ニン",
+      "kJapaneseKun": "UGOMEKU HAU",
+      "kJapaneseOn": "DA ZEN JU",
+      "kKorean": "YU YEN",
+      "kMandarin": "rú",
+      "kSMSZD2003Readings": "rú粵jyu4",
+      "kTGHZ2013": "317.010:rú",
+      "kXHC1983": "0971.060:rú",
+      "kSemanticVariant": "U+8761<kSMSZD2003Index:T"
+    },
+    "accepted_readings": [
+      "ru"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "ru": 20
+    },
+    "highest_corpus_reading": "ru",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "蠕",
+        "D": "09288",
+        "H": "2",
+        "I": "ㄖㄨˊ",
+        "J": "又音 ",
+        "L": "rú",
+        "lookup_char": "蠕"
+      },
+      {
+        "A": "蠕",
+        "D": "09340",
+        "H": "1",
+        "I": "ㄖㄨㄢˇ",
+        "J": "  ",
+        "L": "ruǎn",
+        "lookup_char": "蠕"
+      }
+    ],
+    "moe_readings": [
+      "ru",
+      "ruan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8840",
+    "char": "血",
+    "name": "CJK UNIFIED IDEOGRAPH-8840",
+    "current": "Xie ",
+    "readings": {
+      "kCantonese": "hyut3",
+      "kDefinition": "blood; Kangxi radical 143",
+      "kFanqie": "呼決",
+      "kHangul": "혈:0E",
+      "kHanyuPinlu": "xuè(349) xiě(69)",
+      "kHanyuPinyin": "53050.010:xuè,xiě",
+      "kJapanese": "ケツ ケチ ち",
+      "kJapaneseKun": "CHI",
+      "kJapaneseOn": "KETSU",
+      "kKorean": "HYEL",
+      "kMandarin": "xuè",
+      "kSMSZD2003Readings": "xuè粵hyut3 xiě粵hyut3",
+      "kTGHZ2013": "405.160:xiě 416.140:xuè",
+      "kTang": "*xuet",
+      "kVietnamese": "huyết",
+      "kXHC1983": "1276.040:xiě 1311.030:xuè"
+    },
+    "accepted_readings": [
+      "xie",
+      "xue"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "xue": 349,
+      "xie": 69
+    },
+    "highest_corpus_reading": "xue",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "血",
+        "D": "06946",
+        "H": "1",
+        "I": "ㄒㄧㄝˇ",
+        "J": "語音 ",
+        "L": "xiě",
+        "lookup_char": "血"
+      },
+      {
+        "A": "血",
+        "D": "07344",
+        "H": "2",
+        "I": "ㄒㄩㄝˋ",
+        "J": "讀音 ",
+        "L": "xuè",
+        "lookup_char": "血"
+      }
+    ],
+    "moe_readings": [
+      "xie",
+      "xue"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+88F3",
+    "char": "裳",
+    "name": "CJK UNIFIED IDEOGRAPH-88F3",
+    "current": "Chang ",
+    "readings": {
+      "kCantonese": "soeng4",
+      "kDefinition": "clothes; skirt; beautiful",
+      "kFanqie": "市羊",
+      "kHangul": "상:0E",
+      "kHanyuPinlu": "shang(56)",
+      "kHanyuPinyin": "53095.110:cháng",
+      "kJapanese": "ショウ ジョウ も もすそ",
+      "kJapaneseKun": "MO MOSUSO",
+      "kJapaneseOn": "SHOU",
+      "kKorean": "SANG",
+      "kMandarin": "shang",
+      "kSMSZD2003Readings": "cháng粵soeng4 shang粵soeng4",
+      "kTGHZ2013": "327.030:shang",
+      "kTang": "*zhiɑng",
+      "kXHC1983": "0120.140:cháng 1007.010:shang"
+    },
+    "accepted_readings": [
+      "chang",
+      "shang"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "shang": 56
+    },
+    "highest_corpus_reading": "shang",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "裳",
+        "D": "08456",
+        "H": "1",
+        "I": "ㄔㄤˊ",
+        "J": "  ",
+        "L": "cháng",
+        "lookup_char": "裳"
+      },
+      {
+        "A": "裳",
+        "D": "09014",
+        "H": "2",
+        "I": "ㄕㄤ",
+        "J": "又音 ",
+        "L": "shāng",
+        "lookup_char": "裳"
+      }
+    ],
+    "moe_readings": [
+      "chang",
+      "shang"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8A92",
+    "char": "誒",
+    "name": "CJK UNIFIED IDEOGRAPH-8A92",
+    "current": "E ",
+    "readings": {
+      "kCantonese": "oi1",
+      "kDefinition": "an exclamation of confirmation",
+      "kFanqie": "許其",
+      "kHanyuPinlu": "éi(10) ěi(10) èi(10)",
+      "kHanyuPinyin": "63980.140:xī,yì,ê̄,ế,éi,ê̌,ěi,ề,èi",
+      "kJapanese": "キ カイ アイ イ ああ",
+      "kJapaneseKun": "AA",
+      "kJapaneseOn": "KI KAI AI I",
+      "kKorean": "HUY",
+      "kMandarin": "éi",
+      "kXHC1983": "0285.051:ēi 0285.061:éi 0285.071:ěi 0285.081:èi",
+      "kSimplifiedVariant": "U+8BF6"
+    },
+    "accepted_readings": [
+      "e",
+      "ei",
+      "xi",
+      "yi"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "ei": 30
+    },
+    "highest_corpus_reading": "ei",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "誒",
+        "D": "06772",
+        "H": "1",
+        "I": "ㄒㄧ",
+        "J": "  ",
+        "L": "xī",
+        "lookup_char": "誒"
+      },
+      {
+        "A": "誒",
+        "D": "10308",
+        "H": "2",
+        "I": "ㄝˋ",
+        "J": "  ",
+        "L": "ề",
+        "lookup_char": "誒"
+      }
+    ],
+    "moe_readings": [
+      "e",
+      "xi"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+8BF6",
+    "char": "诶",
+    "name": "CJK UNIFIED IDEOGRAPH-8BF6",
+    "current": "Ai ",
+    "readings": {
+      "kCantonese": "oi1",
+      "kDefinition": "an exclamation of confirmation",
+      "kHanyuPinlu": "éi(10) ěi(10) èi(10)",
+      "kMandarin": "éi",
+      "kTraditionalVariant": "U+8A92"
+    },
+    "accepted_readings": [
+      "ei"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "ei": 30
+    },
+    "highest_corpus_reading": "ei",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "誒",
+        "D": "06772",
+        "H": "1",
+        "I": "ㄒㄧ",
+        "J": "  ",
+        "L": "xī",
+        "lookup_char": "誒"
+      },
+      {
+        "A": "誒",
+        "D": "10308",
+        "H": "2",
+        "I": "ㄝˋ",
+        "J": "  ",
+        "L": "ề",
+        "lookup_char": "誒"
+      }
+    ],
+    "moe_readings": [
+      "e",
+      "xi"
+    ],
+    "moe_supports_current": false
+  },
+  {
+    "codepoint": "U+8FD8",
+    "char": "还",
+    "name": "CJK UNIFIED IDEOGRAPH-8FD8",
+    "current": "Huan ",
+    "readings": {
+      "kCantonese": "waan4",
+      "kDefinition": "still, yet, also, besides",
+      "kHanyuPinlu": "hái(5894) huán(103)",
+      "kHanyuPinyin": "63818.140:fú,huán,hái",
+      "kJapanese": "カン かえる",
+      "kMandarin": "hái",
+      "kTGHZ2013": "128.090:hái 144.060:huán",
+      "kXHC1983": "0432.050:hái 0489.090:huán",
+      "kSemanticVariant": "U+9084<kMatthews",
+      "kSimplifiedVariant": "U+8FD8",
+      "kTraditionalVariant": "U+8FD8 U+9084"
+    },
+    "accepted_readings": [
+      "fu",
+      "hai",
+      "huan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "hai": 5894,
+      "huan": 103
+    },
+    "highest_corpus_reading": "hai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "还",
+        "D": "05168-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "还"
+      },
+      {
+        "A": "还",
+        "D": "05168-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "还"
+      },
+      {
+        "A": "還",
+        "D": "04775",
+        "H": "3",
+        "I": "ㄏㄞˊ",
+        "J": "  ",
+        "L": "hái",
+        "lookup_char": "還"
+      },
+      {
+        "A": "還",
+        "D": "05168",
+        "H": "1",
+        "I": "ㄏㄨㄢˊ",
+        "J": "  ",
+        "L": "huán",
+        "lookup_char": "還"
+      },
+      {
+        "A": "還",
+        "D": "07376",
+        "H": "2",
+        "I": "ㄒㄩㄢˊ",
+        "J": "  ",
+        "L": "xuán",
+        "lookup_char": "還"
+      }
+    ],
+    "moe_readings": [
+      "hai",
+      "huan",
+      "xuan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9002",
+    "char": "适",
+    "name": "CJK UNIFIED IDEOGRAPH-9002",
+    "current": "Gua ",
+    "readings": {
+      "kCantonese": "sik1",
+      "kDefinition": "go, reach; appropriate, suitable",
+      "kFanqie": "古活 苦栝",
+      "kHangul": "괄:0N",
+      "kHanyuPinlu": "shì(356)",
+      "kHanyuPinyin": "63829.030:kuò,shì",
+      "kJapanese": "カツ カチ",
+      "kJapaneseKun": "HAYAI",
+      "kJapaneseOn": "KATSU GACHI",
+      "kKorean": "KWAL",
+      "kMandarin": "shì kuò",
+      "kSMSZD2003Readings": "kuò粵kut3",
+      "kTGHZ2013": "337.120:shì",
+      "kXHC1983": "0665.091:kuò 1054.010:shì",
+      "kSimplifiedVariant": "U+9002",
+      "kTraditionalVariant": "U+9002 U+9069"
+    },
+    "accepted_readings": [
+      "kuo",
+      "shi"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "shi": 356
+    },
+    "highest_corpus_reading": "shi",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "适",
+        "D": "04203",
+        "H": "1",
+        "I": "ㄍㄨㄚ",
+        "J": "  ",
+        "L": "guā",
+        "lookup_char": "适"
+      },
+      {
+        "A": "适",
+        "D": "04581",
+        "H": "2",
+        "I": "ㄎㄨㄛˋ",
+        "J": "又音 ",
+        "L": "kuò",
+        "lookup_char": "适"
+      },
+      {
+        "A": "适",
+        "D": "08774-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "适"
+      },
+      {
+        "A": "适",
+        "D": "04203",
+        "H": "1",
+        "I": "ㄍㄨㄚ",
+        "J": "  ",
+        "L": "guā",
+        "lookup_char": "适"
+      },
+      {
+        "A": "适",
+        "D": "04581",
+        "H": "2",
+        "I": "ㄎㄨㄛˋ",
+        "J": "又音 ",
+        "L": "kuò",
+        "lookup_char": "适"
+      },
+      {
+        "A": "适",
+        "D": "08774-1",
+        "H": "0",
+        "J": "  ",
+        "R": "異體字 ",
+        "lookup_char": "适"
+      },
+      {
+        "A": "適",
+        "D": "02110",
+        "H": "2",
+        "I": "ㄉㄧˊ",
+        "J": "  ",
+        "L": "dí",
+        "lookup_char": "適"
+      },
+      {
+        "A": "適",
+        "D": "08774",
+        "H": "1",
+        "I": "ㄕˋ",
+        "J": "  ",
+        "L": "shì",
+        "lookup_char": "適"
+      }
+    ],
+    "moe_readings": [
+      "di",
+      "gua",
+      "kuo",
+      "shi"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9084",
+    "char": "還",
+    "name": "CJK UNIFIED IDEOGRAPH-9084",
+    "current": "Huan ",
+    "readings": {
+      "kCantonese": "waan4",
+      "kDefinition": "still, yet, also, besides",
+      "kFanqie": "戶關 似宣",
+      "kHangul": "환:0E",
+      "kHanyuPinlu": "hái(5894) huán(103)",
+      "kHanyuPinyin": "63888.020:huán,xuán,hái,huán",
+      "kJapanese": "カン セン ゲン かえす かえる また めぐる",
+      "kJapaneseKun": "KAERU MATA MEGURU",
+      "kJapaneseOn": "KAN SEN GEN",
+      "kKorean": "HWAN SEN",
+      "kMandarin": "hái",
+      "kSMSZD2003Readings": "huán粵waan4 hái粵waan4",
+      "kTang": "*huan",
+      "kVietnamese": "hoàn",
+      "kXHC1983": "0432.051:hái 0489.091:huán",
+      "kSemanticVariant": "U+8FD8<kMatthews",
+      "kSimplifiedVariant": "U+8FD8"
+    },
+    "accepted_readings": [
+      "hai",
+      "huan",
+      "xuan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "hai": 5894,
+      "huan": 103
+    },
+    "highest_corpus_reading": "hai",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "還",
+        "D": "04775",
+        "H": "3",
+        "I": "ㄏㄞˊ",
+        "J": "  ",
+        "L": "hái",
+        "lookup_char": "還"
+      },
+      {
+        "A": "還",
+        "D": "05168",
+        "H": "1",
+        "I": "ㄏㄨㄢˊ",
+        "J": "  ",
+        "L": "huán",
+        "lookup_char": "還"
+      },
+      {
+        "A": "還",
+        "D": "07376",
+        "H": "2",
+        "I": "ㄒㄩㄢˊ",
+        "J": "  ",
+        "L": "xuán",
+        "lookup_char": "還"
+      }
+    ],
+    "moe_readings": [
+      "hai",
+      "huan",
+      "xuan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+90FD",
+    "char": "都",
+    "name": "CJK UNIFIED IDEOGRAPH-90FD",
+    "current": "Du ",
+    "readings": {
+      "kCantonese": "dou1",
+      "kDefinition": "metropolis, capital; all, the whole; elegant, refined",
+      "kFanqie": "當孤",
+      "kHangul": "도:0E",
+      "kHanyuPinlu": "dōu(5680) dū(93)",
+      "kHanyuPinyin": "63776.070:dū,dōu",
+      "kJapanese": "ト ツ チョ みやこ すべて",
+      "kJapaneseKun": "MIYAKO SUBETE",
+      "kJapaneseOn": "TO TSU CHO",
+      "kKorean": "TO",
+      "kMandarin": "dōu dū",
+      "kSMSZD2003Readings": "dū粵dou1 dōu粵dou1",
+      "kTGHZ2013": "079.080:dōu 080.070:dū",
+      "kTang": "*do",
+      "kVietnamese": "đô",
+      "kXHC1983": "0261.110:dōu 0265.050:dū"
+    },
+    "accepted_readings": [
+      "dou",
+      "du"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "dou": 5680,
+      "du": 93
+    },
+    "highest_corpus_reading": "dou",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "都",
+        "D": "01980",
+        "H": "2",
+        "I": "ㄉㄡ",
+        "J": "  ",
+        "L": "dōu",
+        "lookup_char": "都"
+      },
+      {
+        "A": "都",
+        "D": "02272",
+        "H": "1",
+        "I": "ㄉㄨ",
+        "J": "  ",
+        "L": "dū",
+        "lookup_char": "都"
+      }
+    ],
+    "moe_readings": [
+      "dou",
+      "du"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9175",
+    "char": "酵",
+    "name": "CJK UNIFIED IDEOGRAPH-9175",
+    "current": "Xiao ",
+    "readings": {
+      "kCantonese": "haau1",
+      "kDefinition": "yeast, leaven",
+      "kFanqie": "古孝",
+      "kHangul": "효:0N",
+      "kHanyuPinlu": "jiào(9)",
+      "kHanyuPinyin": "63582.080:jiào",
+      "kJapanese": "コウ キョウ",
+      "kJapaneseKun": "MOTO",
+      "kJapaneseOn": "KOU",
+      "kKorean": "HYO",
+      "kMandarin": "jiào",
+      "kSMSZD2003Readings": "jiào粵gaau3,haau1",
+      "kTGHZ2013": "171.100:jiào",
+      "kXHC1983": "0572.020:jiào"
+    },
+    "accepted_readings": [
+      "jiao"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "jiao": 9
+    },
+    "highest_corpus_reading": "jiao",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "酵",
+        "D": "05676",
+        "H": "2",
+        "I": "ㄐㄧㄠˋ",
+        "J": "又音 ",
+        "L": "jiào",
+        "lookup_char": "酵"
+      },
+      {
+        "A": "酵",
+        "D": "07029",
+        "H": "1",
+        "I": "ㄒㄧㄠˋ",
+        "J": "  ",
+        "L": "xiào",
+        "lookup_char": "酵"
+      }
+    ],
+    "moe_readings": [
+      "jiao",
+      "xiao"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+91CD",
+    "char": "重",
+    "name": "CJK UNIFIED IDEOGRAPH-91CD",
+    "current": "Chong ",
+    "readings": {
+      "kCantonese": "cung5",
+      "kDefinition": "heavy, weighty; double",
+      "kFanqie": "直容 直隴 柱用",
+      "kHangul": "중:0E",
+      "kHanyuPinlu": "zhòng(1823) chóng(329)",
+      "kHanyuPinyin": "63680.020:zhòng,chóng,tóng",
+      "kJapanese": "ジュウ チョウ ジュ ズ トウ シュウ シュ え おもい かさねる かさなる おもんじる はばかる",
+      "kJapaneseKun": "OMOI KASANERU E",
+      "kJapaneseOn": "CHOU JUU",
+      "kKorean": "CWUNG",
+      "kMandarin": "zhòng",
+      "kSMSZD2003Readings": "zhòng粵cung5 zhòng粵zung6 chóng粵cung4",
+      "kTGHZ2013": "047.150:chóng 481.090:zhòng",
+      "kTang": "*djhiong *djhiǒng djhiòng",
+      "kVietnamese": "trọng",
+      "kXHC1983": "0149.100:chóng 1502.040:zhòng"
+    },
+    "accepted_readings": [
+      "chong",
+      "tong",
+      "zhong"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhong": 1823,
+      "chong": 329
+    },
+    "highest_corpus_reading": "zhong",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "重",
+        "D": "08152",
+        "H": "1",
+        "I": "ㄓㄨㄥˋ",
+        "J": "  ",
+        "L": "zhòng",
+        "lookup_char": "重"
+      },
+      {
+        "A": "重",
+        "D": "08680",
+        "H": "2",
+        "I": "ㄔㄨㄥˊ",
+        "J": "  ",
+        "L": "chóng",
+        "lookup_char": "重"
+      }
+    ],
+    "moe_readings": [
+      "chong",
+      "zhong"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9577",
+    "char": "長",
+    "name": "CJK UNIFIED IDEOGRAPH-9577",
+    "current": "Chang ",
+    "readings": {
+      "kCantonese": "coeng4",
+      "kDefinition": "long; length; excel in; leader; Kangxi radical 168",
+      "kFanqie": "直良 知丈 直亮",
+      "kHangul": "장:0E",
+      "kHanyuPinlu": "zhǎng(1879) cháng(1179)",
+      "kHanyuPinyin": "64050.010:cháng,zhǎng,zhàng",
+      "kJapanese": "チョウ ジョウ ながい おさ たけ たける ながく",
+      "kJapaneseKun": "NAGAI TAKERU OSA",
+      "kJapaneseOn": "CHOU",
+      "kKorean": "CANG",
+      "kMandarin": "zhǎng",
+      "kSMSZD2003Readings": "cháng粵coeng4 zhàng粵zoeng6",
+      "kTang": "*djhiɑng djhiɑ̀ng djhiɑ̌ng",
+      "kVietnamese": "trường",
+      "kXHC1983": "0121.041:cháng 1456.021:zhǎng",
+      "kSimplifiedVariant": "U+957F"
+    },
+    "accepted_readings": [
+      "chang",
+      "zhang"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhang": 1879,
+      "chang": 1179
+    },
+    "highest_corpus_reading": "zhang",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "長",
+        "D": "07891",
+        "H": "2",
+        "I": "ㄓㄤˇ",
+        "J": "  ",
+        "L": "zhǎng",
+        "lookup_char": "長"
+      },
+      {
+        "A": "長",
+        "D": "07897",
+        "H": "3",
+        "I": "ㄓㄤˋ",
+        "J": "  ",
+        "L": "zhàng",
+        "lookup_char": "長"
+      },
+      {
+        "A": "長",
+        "D": "08451",
+        "H": "1",
+        "I": "ㄔㄤˊ",
+        "J": "  ",
+        "L": "cháng",
+        "lookup_char": "長"
+      }
+    ],
+    "moe_readings": [
+      "chang",
+      "zhang"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+957F",
+    "char": "长",
+    "name": "CJK UNIFIED IDEOGRAPH-957F",
+    "current": "Chang ",
+    "readings": {
+      "kCantonese": "coeng4",
+      "kDefinition": "long; length; excel in; leader",
+      "kHanyuPinlu": "zhǎng(1879) cháng(1179)",
+      "kMandarin": "zhǎng",
+      "kTGHZ2013": "038.110:cháng 466.110:zhǎng",
+      "kXHC1983": "0121.040:cháng 1456.020:zhǎng",
+      "kTraditionalVariant": "U+9577"
+    },
+    "accepted_readings": [
+      "chang",
+      "zhang"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "zhang": 1879,
+      "chang": 1179
+    },
+    "highest_corpus_reading": "zhang",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "長",
+        "D": "07891",
+        "H": "2",
+        "I": "ㄓㄤˇ",
+        "J": "  ",
+        "L": "zhǎng",
+        "lookup_char": "長"
+      },
+      {
+        "A": "長",
+        "D": "07897",
+        "H": "3",
+        "I": "ㄓㄤˋ",
+        "J": "  ",
+        "L": "zhàng",
+        "lookup_char": "長"
+      },
+      {
+        "A": "長",
+        "D": "08451",
+        "H": "1",
+        "I": "ㄔㄤˊ",
+        "J": "  ",
+        "L": "cháng",
+        "lookup_char": "長"
+      }
+    ],
+    "moe_readings": [
+      "chang",
+      "zhang"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+986B",
+    "char": "顫",
+    "name": "CJK UNIFIED IDEOGRAPH-986B",
+    "current": "Zhan ",
+    "readings": {
+      "kCantonese": "zin3",
+      "kDefinition": "shiver, tremble; trembling",
+      "kFanqie": "之膳",
+      "kHangul": "전:0N",
+      "kHanyuPinlu": "chàn(72)",
+      "kHanyuPinyin": "74394.090:chàn,zhàn,shān",
+      "kJapanese": "セン ふるえる",
+      "kJapaneseKun": "FURUERU",
+      "kJapaneseOn": "SEN",
+      "kKorean": "CEN",
+      "kMandarin": "chàn",
+      "kSMSZD2003Readings": "chàn粵zin3 zhàn粵zin3",
+      "kSimplifiedVariant": "U+98A4"
+    },
+    "accepted_readings": [
+      "chan",
+      "shan",
+      "zhan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "chan": 72
+    },
+    "highest_corpus_reading": "chan",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "顫",
+        "D": "07811",
+        "H": "1",
+        "I": "ㄓㄢˋ",
+        "J": "  ",
+        "L": "zhàn",
+        "lookup_char": "顫"
+      },
+      {
+        "A": "顫",
+        "D": "08403",
+        "H": "2",
+        "I": "ㄔㄢˋ",
+        "J": "又音 ",
+        "L": "chàn",
+        "lookup_char": "顫"
+      }
+    ],
+    "moe_readings": [
+      "chan",
+      "zhan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+98A4",
+    "char": "颤",
+    "name": "CJK UNIFIED IDEOGRAPH-98A4",
+    "current": "Zhan ",
+    "readings": {
+      "kCantonese": "zin3",
+      "kDefinition": "shiver, tremble; trembling",
+      "kHanyuPinlu": "chàn(72)",
+      "kMandarin": "chàn",
+      "kTGHZ2013": "038.010:chàn",
+      "kXHC1983": "0119.100:chàn 1452.040:zhàn",
+      "kTraditionalVariant": "U+986B"
+    },
+    "accepted_readings": [
+      "chan",
+      "zhan"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "chan": 72
+    },
+    "highest_corpus_reading": "chan",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "顫",
+        "D": "07811",
+        "H": "1",
+        "I": "ㄓㄢˋ",
+        "J": "  ",
+        "L": "zhàn",
+        "lookup_char": "顫"
+      },
+      {
+        "A": "顫",
+        "D": "08403",
+        "H": "2",
+        "I": "ㄔㄢˋ",
+        "J": "又音 ",
+        "L": "chàn",
+        "lookup_char": "顫"
+      }
+    ],
+    "moe_readings": [
+      "chan",
+      "zhan"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9A5F",
+    "char": "驟",
+    "name": "CJK UNIFIED IDEOGRAPH-9A5F",
+    "current": "Zou ",
+    "readings": {
+      "kCantonese": "zaau6",
+      "kDefinition": "procedure; gallop; sudden(ly)",
+      "kFanqie": "鋤佑",
+      "kHangul": "취:0N",
+      "kHanyuPinlu": "zhòu(20)",
+      "kHanyuPinyin": "74581.120:zhòu",
+      "kJapanese": "シュウ ジュ ソウ にわか はしる はせる",
+      "kJapaneseKun": "HASERU NIWAKA",
+      "kJapaneseOn": "SHUU",
+      "kKorean": "CHWI",
+      "kMandarin": "zhòu",
+      "kSMSZD2003Readings": "zhòu粵zaau6",
+      "kTang": "jrhiou",
+      "kVietnamese": "sậu",
+      "kSimplifiedVariant": "U+9AA4"
+    },
+    "accepted_readings": [
+      "zhou"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "zhou": 20
+    },
+    "highest_corpus_reading": "zhou",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "驟",
+        "D": "09531",
+        "H": "0",
+        "I": "ㄗㄡˋ",
+        "J": "  ",
+        "L": "zòu",
+        "lookup_char": "驟"
+      }
+    ],
+    "moe_readings": [
+      "zou"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9AA4",
+    "char": "骤",
+    "name": "CJK UNIFIED IDEOGRAPH-9AA4",
+    "current": "Zou ",
+    "readings": {
+      "kCantonese": "zaau6",
+      "kDefinition": "procedure; gallop; sudden(ly)",
+      "kHanyuPinlu": "zhòu(20)",
+      "kMandarin": "zhòu",
+      "kTGHZ2013": "483.070:zhòu",
+      "kXHC1983": "1506.200:zhòu",
+      "kTraditionalVariant": "U+9A5F"
+    },
+    "accepted_readings": [
+      "zhou"
+    ],
+    "status": "han_reading_mismatch",
+    "corpus_reading_counts": {
+      "zhou": 20
+    },
+    "highest_corpus_reading": "zhou",
+    "classification": "mismatch_with_frequency_evidence",
+    "moe_records": [
+      {
+        "A": "驟",
+        "D": "09531",
+        "H": "0",
+        "I": "ㄗㄡˋ",
+        "J": "  ",
+        "L": "zòu",
+        "lookup_char": "驟"
+      }
+    ],
+    "moe_readings": [
+      "zou"
+    ],
+    "moe_supports_current": true
+  },
+  {
+    "codepoint": "U+9EBC",
+    "char": "麼",
+    "name": "CJK UNIFIED IDEOGRAPH-9EBC",
+    "current": "Mo ",
+    "readings": {
+      "kCantonese": "mo1",
+      "kDefinition": "interrogative final particle; insignificant, small, tiny",
+      "kFanqie": "亡果",
+      "kHanyuPinlu": "me(3394)",
+      "kJapanese": "モ バ マ ビ ミ",
+      "kJapaneseKun": "KOMAKAI KASUKA",
+      "kJapaneseOn": "MA BA",
+      "kKorean": "MA",
+      "kMandarin": "me",
+      "kSMSZD2003Readings": "me粵mo1 mó粵mo1",
+      "kSemanticVariant": "U+5E85<kMatthews U+9EBD<kHKGlyph,kLau",
+      "kSimplifiedVariant": "U+4E48"
+    },
+    "accepted_readings": [
+      "me",
+      "mo"
+    ],
+    "status": "supported_mandarin_reading",
+    "corpus_reading_counts": {
+      "me": 3394
+    },
+    "highest_corpus_reading": "me",
+    "classification": "common_reading_preference",
+    "moe_records": [
+      {
+        "A": "麼",
+        "D": "01025",
+        "H": "3",
+        "I": "ㄇㄚˊ",
+        "J": "  ",
+        "L": "má",
+        "lookup_char": "麼"
+      },
+      {
+        "A": "麼",
+        "D": "01041",
+        "H": "2",
+        "I": "˙ㄇㄚ",
+        "J": "  ",
+        "L": "ma",
+        "lookup_char": "麼"
+      },
+      {
+        "A": "麼",
+        "D": "01046",
+        "H": "1",
+        "I": "ㄇㄛˊ",
+        "J": "  ",
+        "L": "mó",
+        "lookup_char": "麼"
+      },
+      {
+        "A": "麼",
+        "D": "01102",
+        "H": "4",
+        "I": "˙ㄇㄜ",
+        "J": "  ",
+        "L": "me",
+        "lookup_char": "麼"
+      }
+    ],
+    "moe_readings": [
+      "ma",
+      "me",
+      "mo"
+    ],
+    "moe_supports_current": true
+  }
+]

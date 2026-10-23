@@ -1,0 +1,50 @@
+[
+  {
+    "sha": "43c7ee6ab2ba090f953d4165d219d3cc0b20a7ed",
+    "filename": "src/browser/index.ts",
+    "status": "modified",
+    "additions": 3,
+    "deletions": 2,
+    "changes": 5,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fbrowser%2Findex.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fbrowser%2Findex.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fbrowser%2Findex.ts?ref=7cefac0013bb41cbab996e11d0667a46b83a877b",
+    "patch": "@@ -1,8 +1,9 @@\n+import { charmap } from '../../data/charmap';\n import { Slugify } from '../common/slugify';\n import { Transliterate } from '../common/transliterate';\n import type { SlugifyFunction, TransliterateFunction } from '../types';\n \n-const t = new Transliterate();\n+const t = new Transliterate({}, charmap);\n export const transliterate: TransliterateFunction = t.transliterate.bind(\n   t\n ) as TransliterateFunction;\n@@ -11,7 +12,7 @@ transliterate.setData = t.setData.bind(t);\n \n export const transl = transliterate;\n \n-const s = new Slugify();\n+const s = new Slugify({}, charmap);\n export const slugify: SlugifyFunction = s.slugify.bind(s) as SlugifyFunction;\n slugify.config = s.config.bind(s);\n slugify.setData = s.setData.bind(s);"
+  },
+  {
+    "sha": "e34ab1dd81e4ef7bd7401394faabdc195c93e901",
+    "filename": "src/common/transliterate.test.ts",
+    "status": "modified",
+    "additions": 3,
+    "deletions": 3,
+    "changes": 6,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fcommon%2Ftransliterate.test.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fcommon%2Ftransliterate.test.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Ftransliterate.test.ts?ref=7cefac0013bb41cbab996e11d0667a46b83a877b",
+    "patch": "@@ -273,7 +273,7 @@ describe('transliterate()', () => {\n \n describe('replaceStr()', () => {\n   it('should replace strings correctly', () => {\n-    const transliterate = new Transliterate();\n+    const transliterate = new Transliterate({}, charmap);\n     const replaceString = transliterate.replaceString.bind(transliterate);\n     const tests: [string, [string | RegExp, string][], string][] = [\n       [\n@@ -327,7 +327,7 @@ describe('transliterate.setData()', () => {\n \n describe('formatReplaceOption', () => {\n   it('should format replace options correctly', () => {\n-    const transliterate = new Transliterate();\n+    const transliterate = new Transliterate({}, charmap);\n     const formatReplaceOption =\n       transliterate.formatReplaceOption.bind(transliterate);\n     const optObj: OptionReplaceObject = { a: 'b', c: 'd' };\n@@ -341,7 +341,7 @@ describe('formatReplaceOption', () => {\n   });\n \n   it('should only include own properties', () => {\n-    const transliterate = new Transliterate();\n+    const transliterate = new Transliterate({}, charmap);\n     const formatReplaceOption =\n       transliterate.formatReplaceOption.bind(transliterate);\n     // Create object with inherited property"
+  },
+  {
+    "sha": "9e5fb307d94d3e815deda5f5aaed693c9bf39da5",
+    "filename": "src/common/transliterate.ts",
+    "status": "modified",
+    "additions": 2,
+    "deletions": 5,
+    "changes": 7,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fcommon%2Ftransliterate.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fcommon%2Ftransliterate.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Ftransliterate.ts?ref=7cefac0013bb41cbab996e11d0667a46b83a877b",
+    "patch": "@@ -1,4 +1,4 @@\n-import { type Charmap, charmap } from '../../data/charmap';\n+import type { Charmap } from '../../data/charmap';\n import type {\n   IntervalArray,\n   OptionReplaceArray,\n@@ -39,10 +39,7 @@ export class Transliterate {\n   protected defaultMap: Charmap;\n   protected map: Charmap;\n \n-  constructor(\n-    confOptions: OptionsTransliterate = deepClone(defaultOptions),\n-    map: Charmap = charmap\n-  ) {\n+  constructor(confOptions: OptionsTransliterate, map: Charmap) {\n     this.confOptions = confOptions;\n     this.defaultMap = map;\n     this.map = map;"
+  },
+  {
+    "sha": "0b59181ab1e37c6c8712ab33ca34111b3b474140",
+    "filename": "src/node/index.ts",
+    "status": "modified",
+    "additions": 3,
+    "deletions": 2,
+    "changes": 5,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fnode%2Findex.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/7cefac0013bb41cbab996e11d0667a46b83a877b/src%2Fnode%2Findex.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fnode%2Findex.ts?ref=7cefac0013bb41cbab996e11d0667a46b83a877b",
+    "patch": "@@ -1,15 +1,16 @@\n+import { charmap } from '../../data/charmap';\n import { Slugify } from '../common/slugify';\n import { Transliterate } from '../common/transliterate';\n import type { SlugifyFunction, TransliterateFunction } from '../types';\n \n-const t = new Transliterate();\n+const t = new Transliterate({}, charmap);\n export const transliterate: TransliterateFunction = t.transliterate.bind(\n   t\n ) as TransliterateFunction;\n transliterate.config = t.config.bind(t);\n transliterate.setData = t.setData.bind(t);\n \n-const s = new Slugify();\n+const s = new Slugify({}, charmap);\n export const slugify: SlugifyFunction = s.slugify.bind(s) as SlugifyFunction;\n slugify.config = s.config.bind(s);\n slugify.setData = s.setData.bind(s);"
+  }
+]

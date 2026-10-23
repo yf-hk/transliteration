@@ -1,0 +1,357 @@
+{
+  "startedAt": "2026-10-22T16:23:32.113Z",
+  "head": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "runtime": "v26.5.0",
+  "platform": "darwin",
+  "arch": "x64",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+  "cpuCount": 64,
+  "loadStart": [
+    10.78955078125,
+    10.814453125,
+    8.5634765625
+  ],
+  "rounds": 5,
+  "targetMs": 120,
+  "kind": "outputs",
+  "results": [
+    {
+      "id": "current-full",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRASSE fur Ol",
+          "czech": "yY",
+          "compat": "A a 1",
+          "greek": "Athina",
+          "russian": "Privet mir",
+          "bulgarian": "Blgariya",
+          "chinese": "Ni Hao Shi Jie",
+          "chineseMixed": "2022 Nian Zhong Wen 01 Ying Wen nihao 02",
+          "korean": "annyeonghaseyo",
+          "japanese": "konnitihaShi Jie",
+          "thai": "echiiyngaihm",
+          "arabic": "mrHb blaalm",
+          "tamil": "knnnnnniyaakumri",
+          "supplementary": "",
+          "emoji": "Hello  World"
+        },
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fur-ol",
+          "czech": "yy",
+          "compat": "a-a-1",
+          "greek": "athina",
+          "russian": "privet-mir",
+          "bulgarian": "blgariya",
+          "chinese": "ni-hao-shi-jie",
+          "chineseMixed": "2022-nian-zhong-wen-01-ying-wen-nihao-02",
+          "korean": "annyeonghaseyo",
+          "japanese": "konnitihashi-jie",
+          "thai": "echiiyngaihm",
+          "arabic": "mrhb-blaalm",
+          "tamil": "knnnnnniyaakumri",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "current-latin",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRASSE fur Ol",
+          "czech": "yY",
+          "compat": "A a 1",
+          "greek": "",
+          "russian": " ",
+          "bulgarian": "",
+          "chinese": "",
+          "chineseMixed": "202201 nihao 02",
+          "korean": "",
+          "japanese": "",
+          "thai": "",
+          "arabic": " ",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "Hello  World"
+        },
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fur-ol",
+          "czech": "yy",
+          "compat": "a-a-1",
+          "greek": "",
+          "russian": "",
+          "bulgarian": "",
+          "chinese": "",
+          "chineseMixed": "202201-nihao-02",
+          "korean": "",
+          "japanese": "",
+          "thai": "",
+          "arabic": "",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "published-full",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRAE fur Ol",
+          "czech": "yU",
+          "compat": "  ",
+          "greek": "Athina",
+          "russian": "Privet mir",
+          "bulgarian": "Blgariya",
+          "chinese": "Ni Hao Shi Jie",
+          "chineseMixed": "2022Nian Zhong Wen 01Ying Wen nihao02",
+          "korean": "annyeonghaseyo",
+          "japanese": "konnitihaShi Jie",
+          "thai": "echiiyngaihm",
+          "arabic": "mrHb blaalm",
+          "tamil": "knnnnnniyaakumri",
+          "supplementary": "",
+          "emoji": "Hello  World"
+        },
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strae-fur-ol",
+          "czech": "yu",
+          "compat": "",
+          "greek": "athina",
+          "russian": "privet-mir",
+          "bulgarian": "blgariya",
+          "chinese": "ni-hao-shi-jie",
+          "chineseMixed": "2022nian-zhong-wen-01ying-wen-nihao02",
+          "korean": "annyeonghaseyo",
+          "japanese": "konnitihashi-jie",
+          "thai": "echiiyngaihm",
+          "arabic": "mrhb-blaalm",
+          "tamil": "knnnnnniyaakumri",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "any-ascii",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRASsE fur Ol",
+          "czech": "yY",
+          "compat": "a a 1",
+          "greek": "Athina",
+          "russian": "Privet mir",
+          "bulgarian": "B'lgariya",
+          "chinese": "NiHaoShiJie",
+          "chineseMixed": "2022NianZhongWen01YingWennihao02",
+          "korean": "AnNyeongHaSeYo",
+          "japanese": "konnichihaShiJie",
+          "thai": "echiyngaihm",
+          "arabic": "mrhb bl`lm",
+          "tamil": "knniyakumri",
+          "supplementary": "KichiMot",
+          "emoji": "Hello :rocket: World"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "sindre-transliterate",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRASsE fuer Oel",
+          "czech": "yY",
+          "compat": "ᴀ ₐ 1",
+          "greek": "Athina",
+          "russian": "Privet mir",
+          "bulgarian": "Blgariya",
+          "chinese": "你好世界",
+          "chineseMixed": "2022年中文01英文nihao02",
+          "korean": "안녕하세요",
+          "japanese": "こんにちは世界",
+          "thai": "เชียงใหม",
+          "arabic": "mrhba balealm",
+          "tamil": "கனனியாகுமரி",
+          "supplementary": "𠮷𠬠",
+          "emoji": "Hello 🚀 World"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "unidecode",
+      "result": {
+        "transliterate": {
+          "ascii": "Hello World 123",
+          "latin": "Creme brulee Sao Paulo",
+          "german": "STRASsE fur Ol",
+          "czech": "yY",
+          "compat": " [?] ",
+          "greek": "Athena",
+          "russian": "Privet mir",
+          "bulgarian": "Blgariia",
+          "chinese": "Ni Hao Shi Jie ",
+          "chineseMixed": "2022Nian Zhong Wen 01Ying Wen nihao02",
+          "korean": "annyeonghaseyo",
+          "japanese": "konnitihaShi Jie ",
+          "thai": "echiiyngaihm",
+          "arabic": "mrHb bl`lm",
+          "tamil": "knnnnnniyaakumri",
+          "supplementary": "",
+          "emoji": "Hello  World"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "simov-slugify",
+      "result": {
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fur-ol",
+          "czech": "yy",
+          "compat": "",
+          "greek": "a8hna",
+          "russian": "privet-mir",
+          "bulgarian": "bulgariya",
+          "chinese": "",
+          "chineseMixed": "202201nihao02",
+          "korean": "",
+          "japanese": "",
+          "thai": "",
+          "arabic": "mrhba-balaalm",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "slug",
+      "result": {
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fur-ol",
+          "czech": "yy",
+          "compat": "4bsaiokckcdikaa",
+          "greek": "athhna",
+          "russian": "privet-mir",
+          "bulgarian": "bulgariya",
+          "chinese": "5l2g5aw95liw55wm",
+          "chineseMixed": "202201nihao02",
+          "korean": "7jwi64wv7zwy7is47jqu",
+          "japanese": "44gt44kt44gr44gh44gv5liw55wm",
+          "thai": "4lma4lik4li14lii4lih4lmd4lir4lih4lmi",
+          "arabic": "mrhba-balaaalm",
+          "tamil": "4k6v4k6p4kn4k6p4k64k6v4k64k6v4kb4k6u4k6w4k6",
+          "supplementary": "8kcutcgrka",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "speakingurl",
+      "result": {
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fuer-oel",
+          "czech": "yy",
+          "compat": "1",
+          "greek": "athina",
+          "russian": "privet-mir",
+          "bulgarian": "blgariya",
+          "chinese": "",
+          "chineseMixed": "2022-01-nihao02",
+          "korean": "",
+          "japanese": "",
+          "thai": "",
+          "arabic": "mrhba-balaalm",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "limax",
+      "result": {
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strasse-fuer-oel",
+          "czech": "yy",
+          "compat": "a-1",
+          "greek": "athina",
+          "russian": "privet-mir",
+          "bulgarian": "blgariya",
+          "chinese": "ni3-hao3-shi4-jie4",
+          "chineseMixed": "2022-nian2-zhong1-wen2-01-ying1-wen2-nihao02",
+          "korean": "",
+          "japanese": "konnichiha",
+          "thai": "",
+          "arabic": "mrhba-balaalm",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    },
+    {
+      "id": "sindre-slugify",
+      "result": {
+        "slugify": {
+          "ascii": "hello-world-123",
+          "latin": "creme-brulee-sao-paulo",
+          "german": "strass-e-fuer-oel",
+          "czech": "y-y",
+          "compat": "1",
+          "greek": "athina",
+          "russian": "privet-mir",
+          "bulgarian": "blgariya",
+          "chinese": "",
+          "chineseMixed": "2022-01-nihao02",
+          "korean": "",
+          "japanese": "",
+          "thai": "",
+          "arabic": "mrhba-balealm",
+          "tamil": "",
+          "supplementary": "",
+          "emoji": "hello-world"
+        }
+      },
+      "round": 0
+    }
+  ],
+  "endedAt": "2026-10-22T16:23:36.474Z",
+  "loadEnd": [
+    11.60693359375,
+    10.9833984375,
+    8.63623046875
+  ]
+}

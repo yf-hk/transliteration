@@ -1,0 +1,9 @@
+{
+  "runtime": "v26.5.0",
+  "seed": 37403345,
+  "cases": 3000,
+  "assertions": 24000,
+  "errors": 0,
+  "fullAndLatin": true,
+  "defaultAndCustomMaps": true
+}

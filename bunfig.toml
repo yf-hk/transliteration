@@ -1,0 +1,5 @@
+[test]
+root = "./src"
+coverageReporter = ["text", "lcov"]
+coverageSkipTestFiles = true
+coveragePathIgnorePatterns = ["**/data/**", "**/src/cli/**", "**/src/types/**"]

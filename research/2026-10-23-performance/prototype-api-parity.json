@@ -1,0 +1,45 @@
+{
+  "assertions": 1061504,
+  "report": [
+    {
+      "id": "prototype-eager-object",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pages",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pooled-values",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pooled-blocks",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-packed12-values",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pooled-values-ascii",
+      "assertions": 132688,
+      "passed": true
+    },
+    {
+      "id": "prototype-pooled-values-options",
+      "assertions": 132688,
+      "passed": true
+    }
+  ]
+}

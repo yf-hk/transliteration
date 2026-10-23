@@ -1,0 +1,10 @@
+import { createRequire } from 'node:module';
+import { performance } from 'node:perf_hooks';
+const require=createRequire(import.meta.url);
+global.gc();const before=process.memoryUsage();const start=performance.now();
+const api=require(process.argv[2]);const importMs=performance.now()-start;
+global.gc();const imported=process.memoryUsage();
+let checksum=0;
+for(let index=0;index<10000;index++)checksum+=api.slugify(index%2?'Crème brûlée et café à Montréal':'A practical guide to building reliable software').length;
+global.gc();const warmed=process.memoryUsage();
+console.log(JSON.stringify({before,imported,warmed,importMs,checksum}));

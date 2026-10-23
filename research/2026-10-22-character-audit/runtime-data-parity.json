@@ -1,0 +1,11 @@
+{
+  "count": 45056,
+  "mismatch": [],
+  "audited_data_sha256": "ed678e3d8e46f7976e32187e9c0d2231ce19a128e4807d2d700380129a11588d",
+  "runtime_module": "dist/node/src/node/index.js",
+  "options": {
+    "trim": false,
+    "fixChineseSpacing": false
+  },
+  "note": "Recorded before concurrent workspace source changes were observed; existing built artifact, not a fresh build validation."
+}

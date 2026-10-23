@@ -1,0 +1,43 @@
+{
+  "unicode_version": "16.0.0",
+  "total": 4460,
+  "nonempty": 2285,
+  "empty": 2175,
+  "named": 4214,
+  "pages": {
+    "32": 256,
+    "33": 256,
+    "36": 256,
+    "37": 256,
+    "38": 256,
+    "39": 256,
+    "40": 256,
+    "160": 256,
+    "161": 256,
+    "162": 256,
+    "163": 256,
+    "164": 256,
+    "167": 256,
+    "215": 92,
+    "251": 256,
+    "252": 256,
+    "253": 256,
+    "254": 256,
+    "255": 16
+  },
+  "candidates": 1123,
+  "finding_status_counts": {
+    "confirmed_wrong": 7,
+    "confirmed_context_required": 1,
+    "common_reading_recommendation": 5,
+    "scheme_semantic_review": 3,
+    "missing_mapping": 5
+  },
+  "missing_compatibility_count": 916,
+  "yi_syllable_name_matches": 1165,
+  "yi_syllable_semantic_exceptions": [
+    "U+A015"
+  ],
+  "yi_radicals_named": 55,
+  "yi_radicals_nonempty": 50
+}

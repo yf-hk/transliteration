@@ -1,0 +1,188 @@
+{
+  "esbuild": "0.28.2",
+  "scope": "Full experimental API bundles; includes research mapper metadata and materialization compatibility.",
+  "results": [
+    {
+      "id": "prototype-eager-object",
+      "cjs": {
+        "bytes": 194027,
+        "gzip9": 53394,
+        "brotli11": 44251
+      },
+      "browserEsm": {
+        "bytes": 194712,
+        "gzip9": 53506,
+        "brotli11": 44388
+      }
+    },
+    {
+      "id": "prototype-pages",
+      "cjs": {
+        "bytes": 194025,
+        "gzip9": 53416,
+        "brotli11": 44274
+      },
+      "browserEsm": {
+        "bytes": 194712,
+        "gzip9": 53526,
+        "brotli11": 44390
+      }
+    },
+    {
+      "id": "prototype-pooled-offsets",
+      "cjs": {
+        "bytes": 123631,
+        "gzip9": 66185,
+        "brotli11": 58101
+      },
+      "browserEsm": {
+        "bytes": 124324,
+        "gzip9": 66304,
+        "brotli11": 57981
+      }
+    },
+    {
+      "id": "prototype-pooled-values",
+      "cjs": {
+        "bytes": 124742,
+        "gzip9": 60830,
+        "brotli11": 52992
+      },
+      "browserEsm": {
+        "bytes": 125435,
+        "gzip9": 60960,
+        "brotli11": 53072
+      }
+    },
+    {
+      "id": "prototype-pooled-blocks",
+      "cjs": {
+        "bytes": 121969,
+        "gzip9": 62155,
+        "brotli11": 54770
+      },
+      "browserEsm": {
+        "bytes": 122662,
+        "gzip9": 62277,
+        "brotli11": 53928
+      }
+    },
+    {
+      "id": "prototype-packed12-values",
+      "cjs": {
+        "bytes": 101669,
+        "gzip9": 51480,
+        "brotli11": 43596
+      },
+      "browserEsm": {
+        "bytes": 102352,
+        "gzip9": 51605,
+        "brotli11": 43550
+      }
+    },
+    {
+      "id": "prototype-pooled-values-ascii",
+      "cjs": {
+        "bytes": 124837,
+        "gzip9": 60872,
+        "brotli11": 53065
+      },
+      "browserEsm": {
+        "bytes": 125530,
+        "gzip9": 60997,
+        "brotli11": 53150
+      }
+    },
+    {
+      "id": "prototype-pooled-values-options",
+      "cjs": {
+        "bytes": 124843,
+        "gzip9": 60874,
+        "brotli11": 53013
+      },
+      "browserEsm": {
+        "bytes": 125536,
+        "gzip9": 60997,
+        "brotli11": 53152
+      }
+    },
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "cjs": {
+        "bytes": 123875,
+        "gzip9": 66324,
+        "brotli11": 58089
+      },
+      "browserEsm": {
+        "bytes": 124568,
+        "gzip9": 66452,
+        "brotli11": 58159
+      }
+    },
+    {
+      "id": "prototype-packed12-hangul-prefix",
+      "cjs": {
+        "bytes": 101746,
+        "gzip9": 51533,
+        "brotli11": 43484
+      },
+      "browserEsm": {
+        "bytes": 102429,
+        "gzip9": 51658,
+        "brotli11": 43675
+      }
+    },
+    {
+      "id": "prototype-packed12-codepoints",
+      "cjs": {
+        "bytes": 102201,
+        "gzip9": 51735,
+        "brotli11": 43686
+      },
+      "browserEsm": {
+        "bytes": 102880,
+        "gzip9": 51849,
+        "brotli11": 43767
+      }
+    },
+    {
+      "id": "prototype-packed12-optimized",
+      "cjs": {
+        "bytes": 102330,
+        "gzip9": 51768,
+        "brotli11": 43769
+      },
+      "browserEsm": {
+        "bytes": 103009,
+        "gzip9": 51885,
+        "brotli11": 43722
+      }
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "cjs": {
+        "bytes": 102341,
+        "gzip9": 51771,
+        "brotli11": 43731
+      },
+      "browserEsm": {
+        "bytes": 103018,
+        "gzip9": 51887,
+        "brotli11": 43789
+      }
+    },
+    {
+      "id": "prototype-packed12-lean-custom",
+      "cjs": {
+        "bytes": 102459,
+        "gzip9": 51802,
+        "brotli11": 43818
+      },
+      "browserEsm": {
+        "bytes": 103136,
+        "gzip9": 51918,
+        "brotli11": 43831
+      }
+    }
+  ]
+}

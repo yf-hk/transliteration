@@ -1,0 +1,20 @@
+✔ release consumes the triggering successful push and tested archive (4.75484ms)
+✔ release verifies archive bytes and checked-out package identity (721.966266ms)
+✔ package helpers install the supplied archive when the checkout differs (1940.564632ms)
+✔ Test the archive passes the verified tarball to package tests (1595.296588ms)
+✔ Test the archive without development dependencies passes the verified tarball to package tests (1310.563877ms)
+✔ release rejects mismatched identity another-package@1.2.3 (627.538127ms)
+✔ release rejects mismatched identity transliteration-workflow-fixture@9.9.9 (680.926508ms)
+✔ release rejects tampered archives before publication (371.506469ms)
+✔ release rejects duplicate archives before publication (265.277963ms)
+✔ release rejects missing archives before publication (264.795882ms)
+✔ release rejects wrong manifest archives before publication (445.494644ms)
+✔ publication rechecks the archive and dry-runs without lifecycle scripts (1969.087451ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10643.062804

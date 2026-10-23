@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-10-21",
+  "scope": "Research inventory/data-integrity audit; no transliteration implementation or linguistic accuracy benchmark",
+  "checks": {
+    "all_305_entries_unique_and_assessed": true,
+    "every_original_vendor_row_is_represented": true,
+    "every_script_has_recorded_basis": true,
+    "every_entry_has_methods_notes_sources": true,
+    "every_profile_used": true,
+    "profile_and_entry_classes_match": true,
+    "assessment_csv_matches_json": true,
+    "all_249_consumer_picker_codes_saved": true,
+    "consumer_labels_exclude_icon_text": true,
+    "azure_translation_api_list_preserves_all_original_rows": true,
+    "azure_translation_docs_list_preserves_all_original_rows": true,
+    "azure_transliteration_api_list_preserves_all_original_rows": true,
+    "google_cloud_nmt_list_preserves_all_original_rows": true,
+    "google_cloud_romanization_table_list_preserves_all_original_rows": true,
+    "google_cloud_tllm_list_preserves_all_original_rows": true,
+    "google_consumer_list_preserves_all_original_rows": true,
+    "google_html_flags_are_explicit": true,
+    "google_romanization_counts_match_source": true,
+    "azure_translation_all_138_codes_saved": true,
+    "all_86_azure_directions_saved": true,
+    "provider_kurdish_code_collision_kept_separate": true,
+    "vendor_meitei_and_hmong_script_overrides_retained": true,
+    "script_only_han_requires_reading_policy": true,
+    "yiddish_rule_first_and_dzongkha_separate": true,
+    "all_profile_links_resolve": true,
+    "report_contains_every_entry": true,
+    "all_snapshot_hashes_match": true
+  },
+  "assessed_entries": 305,
+  "original_vendor_rows": 899,
+  "method_class_counts": {
+    "A": 206,
+    "B": 31,
+    "C": 20,
+    "D": 48
+  },
+  "profiles": 34,
+  "source_snapshots": 7
+}

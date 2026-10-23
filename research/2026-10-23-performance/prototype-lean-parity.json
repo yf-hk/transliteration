@@ -1,0 +1,10 @@
+{
+  "assertions": 133826,
+  "report": [
+    {
+      "id": "prototype-packed12-lean-custom",
+      "assertions": 133826,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mainRuntime": "Node22.23.2",
+  "rounds": 5,
+  "targetMsPerSample": 120,
+  "initialWarmCalls": 256,
+  "calibrationMinimumMs": 30,
+  "timedChecks": "consume output length + last character checksum",
+  "correctness": "stable outputs after timing, exhaustive prototype parity outside timing",
+  "notes": "Primary comparisons are five fresh-worker warmed/calibrated runs. Differences near the run-to-run range will be treated as inconclusive; a longer warmed confirmation follows for chosen candidates."
+}

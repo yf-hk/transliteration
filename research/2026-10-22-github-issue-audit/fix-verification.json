@@ -1,0 +1,16 @@
+{
+  "sourceTests": 96,
+  "packageTests": 14,
+  "coverageLog": "/tmp/transliteration-fix-coverage.txt",
+  "lint": "25 tracked files passed",
+  "typescript": "tsc --noEmit passed",
+  "generatedData": "135 files identical after regeneration",
+  "artifactSizes": {
+    "dist/node/src/node/index.js": 194626,
+    "dist/node/src/node/latin.js": 17984,
+    "dist/browser/bundle.umd.min.js": 194852,
+    "dist/browser/latin.umd.min.js": 18209,
+    "dist/browser/bundle.esm.min.js": 194139,
+    "dist/browser/latin.esm.min.js": 17504
+  }
+}

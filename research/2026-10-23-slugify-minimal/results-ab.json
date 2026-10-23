@@ -1,0 +1,1219 @@
+{
+  "startedAt": "2026-10-22T20:48:18.317Z",
+  "runtime": "v22.23.2",
+  "platform": "darwin/x64",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+  "logicalCpus": 64,
+  "loadBefore": [
+    27.53369140625,
+    25.23583984375,
+    22.99951171875
+  ],
+  "protocol": {
+    "rounds": 5,
+    "warmupMs": 150,
+    "calibrationMs": 25,
+    "targetMs": 350
+  },
+  "adapters": [
+    {
+      "id": "ours-before",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Defaults; full map",
+      "entry": "research/2026-10-23-slugify-minimal/before-dist/node/src/node/index.js",
+      "entrySha256": "cfa341f9a1714dc4ec94e103d790c0df129387c09cf0cf8b05a728c00b4e5224"
+    },
+    {
+      "id": "slugify",
+      "package": "slugify",
+      "version": "1.6.9",
+      "engines": {
+        "node": ">=8.0.0"
+      },
+      "options": "{lower:true, strict:true}",
+      "entry": "benchmark/node_modules/slugify/slugify.js",
+      "entrySha256": "3b47b6f184ae98e958de5bd95a2cf6c8f82c84c6484188a54e204c63d2540696"
+    },
+    {
+      "id": "ours-after",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Production A+B candidate; same compiler as baseline",
+      "entry": "research/2026-10-23-slugify-minimal/candidate-ab-dist/node/src/node/index.js",
+      "entrySha256": "4515ddca16a0a67c147f80529a4bb31ab64892adcf03afc9c450f81776a25552"
+    }
+  ],
+  "audits": [
+    {
+      "adapter": "ours-before",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "ascii",
+          "outputs": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "flags": []
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "flags": []
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "flags": []
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "flags": []
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "flags": []
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "flags": []
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "flags": []
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "flags": []
+            }
+          ],
+          "probes": [],
+          "flags": [],
+          "assessment": "ascii-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        }
+      ]
+    },
+    {
+      "adapter": "slugify",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "ascii",
+          "outputs": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "flags": []
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "flags": []
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "flags": []
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "flags": []
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "flags": []
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "flags": []
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "flags": []
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "flags": []
+            }
+          ],
+          "probes": [],
+          "flags": [],
+          "assessment": "ascii-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        }
+      ]
+    },
+    {
+      "adapter": "ours-after",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "ascii",
+          "outputs": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "flags": []
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "flags": []
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "flags": []
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "flags": []
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "flags": []
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "flags": []
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "flags": []
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "flags": []
+            }
+          ],
+          "probes": [],
+          "flags": [],
+          "assessment": "ascii-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "adapter": "ours-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 21328,
+      "elapsedMs": 338.9779410000001,
+      "operationsPerSecond": 62918.54843734505,
+      "inputBytes": 930434,
+      "inputCodePoints": 930434,
+      "inputMiBPerSecond": 2.61766593511503,
+      "nanosecondsPerCodePoint": 364.32239256089105,
+      "cpuMs": 338.638,
+      "cpuToWallRatio": 0.9989971589331232,
+      "checksum": 5603932,
+      "outputCodeUnits": 927768,
+      "completedCalls": 21328,
+      "expectedChecksum": 5603932,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 7872,
+      "warmupElapsedMs": 150.03742499999998,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 33.614631000000145
+    },
+    {
+      "adapter": "slugify",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 29664,
+      "elapsedMs": 329.63762799999995,
+      "operationsPerSecond": 89989.72653692316,
+      "inputBytes": 1294092,
+      "inputCodePoints": 1294092,
+      "inputMiBPerSecond": 3.743936367200158,
+      "nanosecondsPerCodePoint": 254.72503345975397,
+      "cpuMs": 327.289,
+      "cpuToWallRatio": 0.9928751216472169,
+      "checksum": 7794216,
+      "outputCodeUnits": 1290384,
+      "completedCalls": 29664,
+      "expectedChecksum": 7794216,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 14280,
+      "warmupElapsedMs": 150.02239299999997,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 48.33012799999983
+    },
+    {
+      "adapter": "ours-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 31536,
+      "elapsedMs": 342.49175200000013,
+      "operationsPerSecond": 92078.12981142971,
+      "inputBytes": 1375758,
+      "inputCodePoints": 1375758,
+      "inputMiBPerSecond": 3.8308223848568157,
+      "nanosecondsPerCodePoint": 248.94767248309668,
+      "cpuMs": 342.143,
+      "cpuToWallRatio": 0.99898172146347,
+      "checksum": 8286084,
+      "outputCodeUnits": 1371816,
+      "completedCalls": 31536,
+      "expectedChecksum": 8286084,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11528,
+      "warmupElapsedMs": 150.05175099999997,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 45.4700220000002
+    },
+    {
+      "adapter": "slugify",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 47568,
+      "elapsedMs": 355.84154499999977,
+      "operationsPerSecond": 133677.4771478694,
+      "inputBytes": 1504338,
+      "inputCodePoints": 1290282,
+      "inputMiBPerSecond": 4.031706061173791,
+      "nanosecondsPerCodePoint": 275.78587084063776,
+      "cpuMs": 353.281,
+      "cpuToWallRatio": 0.9928042550512202,
+      "checksum": 11142804,
+      "outputCodeUnits": 1296228,
+      "completedCalls": 47568,
+      "expectedChecksum": 11142804,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 21496,
+      "warmupElapsedMs": 150.06148799999983,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 30.138805000000048
+    },
+    {
+      "adapter": "ours-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 36544,
+      "elapsedMs": 331.36276399999997,
+      "operationsPerSecond": 110283.96660766628,
+      "inputBytes": 1155704,
+      "inputCodePoints": 991256,
+      "inputMiBPerSecond": 3.326158946959921,
+      "nanosecondsPerCodePoint": 334.28575867384404,
+      "cpuMs": 330.821,
+      "cpuToWallRatio": 0.998365042609314,
+      "checksum": 8560432,
+      "outputCodeUnits": 995824,
+      "completedCalls": 36544,
+      "expectedChecksum": 8560432,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 18024,
+      "warmupElapsedMs": 150.04846100000032,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 39.23548100000016
+    },
+    {
+      "adapter": "ours-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 30704,
+      "elapsedMs": 350.006582,
+      "operationsPerSecond": 87724.06457201997,
+      "inputBytes": 971014,
+      "inputCodePoints": 832846,
+      "inputMiBPerSecond": 2.645753423776752,
+      "nanosecondsPerCodePoint": 420.2536627419715,
+      "cpuMs": 349.443,
+      "cpuToWallRatio": 0.9983897959953222,
+      "checksum": 7192412,
+      "outputCodeUnits": 836684,
+      "completedCalls": 30704,
+      "expectedChecksum": 7192412,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11992,
+      "warmupElapsedMs": 150.02466300000015,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 46.69478499999968
+    },
+    {
+      "adapter": "slugify",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 33368,
+      "elapsedMs": 288.8181850000001,
+      "operationsPerSecond": 115532.89139324793,
+      "inputBytes": 1455679,
+      "inputCodePoints": 1455679,
+      "inputMiBPerSecond": 4.806635272055093,
+      "nanosecondsPerCodePoint": 198.40788044616983,
+      "cpuMs": 287.72,
+      "cpuToWallRatio": 0.9961976597837838,
+      "checksum": 8767442,
+      "outputCodeUnits": 1451508,
+      "completedCalls": 33368,
+      "expectedChecksum": 8767442,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11776,
+      "warmupElapsedMs": 150.0327069999994,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 42.97125700000015
+    },
+    {
+      "adapter": "ours-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 24400,
+      "elapsedMs": 307.88293299999987,
+      "operationsPerSecond": 79250.9015106726,
+      "inputBytes": 1064450,
+      "inputCodePoints": 1064450,
+      "inputMiBPerSecond": 3.2971578392058296,
+      "nanosecondsPerCodePoint": 289.2413293250034,
+      "cpuMs": 307.483,
+      "cpuToWallRatio": 0.9987010225084485,
+      "checksum": 6411100,
+      "outputCodeUnits": 1061400,
+      "completedCalls": 24400,
+      "expectedChecksum": 6411100,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 12560,
+      "warmupElapsedMs": 150.0809789999994,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 29.37982599999941
+    },
+    {
+      "adapter": "ours-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 24496,
+      "elapsedMs": 346.7874409999995,
+      "operationsPerSecond": 70636.92943828389,
+      "inputBytes": 1068638,
+      "inputCodePoints": 1068638,
+      "inputMiBPerSecond": 2.938781782860884,
+      "nanosecondsPerCodePoint": 324.5134844540429,
+      "cpuMs": 346.141,
+      "cpuToWallRatio": 0.9981359157698001,
+      "checksum": 6436324,
+      "outputCodeUnits": 1065576,
+      "completedCalls": 24496,
+      "expectedChecksum": 6436324,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 10632,
+      "warmupElapsedMs": 150.02568500000052,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 29.26969100000042
+    },
+    {
+      "adapter": "ours-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 38704,
+      "elapsedMs": 332.501346,
+      "operationsPerSecond": 116402.53630732669,
+      "inputBytes": 1224014,
+      "inputCodePoints": 1049846,
+      "inputMiBPerSecond": 3.5106947047416757,
+      "nanosecondsPerCodePoint": 316.7144000167644,
+      "cpuMs": 332.135,
+      "cpuToWallRatio": 0.9988982119789673,
+      "checksum": 9066412,
+      "outputCodeUnits": 1054684,
+      "completedCalls": 38704,
+      "expectedChecksum": 9066412,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 15736,
+      "warmupElapsedMs": 150.03137700000025,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 37.04495700000007
+    },
+    {
+      "adapter": "ours-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 24392,
+      "elapsedMs": 389.1623589999999,
+      "operationsPerSecond": 62678.20984197499,
+      "inputBytes": 771397,
+      "inputCodePoints": 661633,
+      "inputMiBPerSecond": 1.8903716909908859,
+      "nanosecondsPerCodePoint": 588.1846265225585,
+      "cpuMs": 388.515,
+      "cpuToWallRatio": 0.9983365323366232,
+      "checksum": 5713826,
+      "outputCodeUnits": 664682,
+      "completedCalls": 24392,
+      "expectedChecksum": 5713826,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11208,
+      "warmupElapsedMs": 150.01141499999994,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 29.388597999999547
+    },
+    {
+      "adapter": "slugify",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 54584,
+      "elapsedMs": 346.1255230000006,
+      "operationsPerSecond": 157700.01451178713,
+      "inputBytes": 1726219,
+      "inputCodePoints": 1480591,
+      "inputMiBPerSecond": 4.756224593100803,
+      "nanosecondsPerCodePoint": 233.77524448007625,
+      "cpuMs": 344.81,
+      "cpuToWallRatio": 0.9961992892387753,
+      "checksum": 12786302,
+      "outputCodeUnits": 1487414,
+      "completedCalls": 54584,
+      "expectedChecksum": 12786302,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 22144,
+      "warmupElapsedMs": 150.038595,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 26.267063999999664
+    },
+    {
+      "adapter": "ours-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 27968,
+      "elapsedMs": 308.35219999999936,
+      "operationsPerSecond": 90701.4770771866,
+      "inputBytes": 1220104,
+      "inputCodePoints": 1220104,
+      "inputMiBPerSecond": 3.773548066608682,
+      "nanosecondsPerCodePoint": 252.7261610485658,
+      "cpuMs": 308.223,
+      "cpuToWallRatio": 0.9995809986113303,
+      "checksum": 7348592,
+      "outputCodeUnits": 1216608,
+      "completedCalls": 27968,
+      "expectedChecksum": 7348592,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 12256,
+      "warmupElapsedMs": 150.0124310000001,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 25.630095999999867
+    },
+    {
+      "adapter": "ours-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 24472,
+      "elapsedMs": 360.6188910000001,
+      "operationsPerSecond": 67861.11490759366,
+      "inputBytes": 1067591,
+      "inputCodePoints": 1067591,
+      "inputMiBPerSecond": 2.823296678394102,
+      "nanosecondsPerCodePoint": 337.7874963352071,
+      "cpuMs": 360.241,
+      "cpuToWallRatio": 0.9989521042590082,
+      "checksum": 6430018,
+      "outputCodeUnits": 1064532,
+      "completedCalls": 24472,
+      "expectedChecksum": 6430018,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 10048,
+      "warmupElapsedMs": 150.04054899999937,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 29.29699900000014
+    },
+    {
+      "adapter": "slugify",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 39040,
+      "elapsedMs": 428.8258990000013,
+      "operationsPerSecond": 91039.27745744638,
+      "inputBytes": 1703120,
+      "inputCodePoints": 1703120,
+      "inputMiBPerSecond": 3.787601927834605,
+      "nanosecondsPerCodePoint": 251.78842301188484,
+      "cpuMs": 427.411,
+      "cpuToWallRatio": 0.9967005281087249,
+      "checksum": 10257760,
+      "outputCodeUnits": 1698240,
+      "completedCalls": 39040,
+      "expectedChecksum": 10257760,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 16008,
+      "warmupElapsedMs": 150.01643700000022,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 36.72321499999998
+    },
+    {
+      "adapter": "ours-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 23680,
+      "elapsedMs": 319.1206030000012,
+      "operationsPerSecond": 74203.92095461134,
+      "inputBytes": 748880,
+      "inputCodePoints": 642320,
+      "inputMiBPerSecond": 2.2379865648170316,
+      "nanosecondsPerCodePoint": 496.8249517374536,
+      "cpuMs": 318.466,
+      "cpuToWallRatio": 0.9979487284937187,
+      "checksum": 5547040,
+      "outputCodeUnits": 645280,
+      "completedCalls": 23680,
+      "expectedChecksum": 5547040,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 10664,
+      "warmupElapsedMs": 150.01598899999954,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 30.279576999999335
+    },
+    {
+      "adapter": "slugify",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 49040,
+      "elapsedMs": 380.133828,
+      "operationsPerSecond": 129007.19795976696,
+      "inputBytes": 1550890,
+      "inputCodePoints": 1330210,
+      "inputMiBPerSecond": 3.890850673177366,
+      "nanosecondsPerCodePoint": 285.7697867254043,
+      "cpuMs": 378.764,
+      "cpuToWallRatio": 0.9963964585651136,
+      "checksum": 11487620,
+      "outputCodeUnits": 1336340,
+      "completedCalls": 49040,
+      "expectedChecksum": 11487620,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 19896,
+      "warmupElapsedMs": 150.05456799999956,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 29.233789999998407
+    },
+    {
+      "adapter": "ours-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 40160,
+      "elapsedMs": 392.1394419999997,
+      "operationsPerSecond": 102412.5494624436,
+      "inputBytes": 1270060,
+      "inputCodePoints": 1089340,
+      "inputMiBPerSecond": 3.0887573974130427,
+      "nanosecondsPerCodePoint": 359.9789248535808,
+      "cpuMs": 391.756,
+      "cpuToWallRatio": 0.9990221794623767,
+      "checksum": 9407480,
+      "outputCodeUnits": 1094360,
+      "completedCalls": 40160,
+      "expectedChecksum": 9407480,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 16864,
+      "warmupElapsedMs": 150.01203200000054,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 35.69772099999864
+    },
+    {
+      "adapter": "ours-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 27192,
+      "elapsedMs": 402.627308000001,
+      "operationsPerSecond": 67536.40267241866,
+      "inputBytes": 1186251,
+      "inputCodePoints": 1186251,
+      "inputMiBPerSecond": 2.8097873369066853,
+      "nanosecondsPerCodePoint": 339.411564668861,
+      "cpuMs": 402.155,
+      "cpuToWallRatio": 0.9988269350075951,
+      "checksum": 7144698,
+      "outputCodeUnits": 1182852,
+      "completedCalls": 27192,
+      "expectedChecksum": 7144698,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 9688,
+      "warmupElapsedMs": 150.05687399999988,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 26.367795000000115
+    },
+    {
+      "adapter": "slugify",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 31184,
+      "elapsedMs": 341.84800499999983,
+      "operationsPerSecond": 91221.82825083334,
+      "inputBytes": 1360402,
+      "inputCodePoints": 1360402,
+      "inputMiBPerSecond": 3.7951967787195247,
+      "nanosecondsPerCodePoint": 251.28455044905832,
+      "cpuMs": 340.714,
+      "cpuToWallRatio": 0.9966827216089799,
+      "checksum": 8193596,
+      "outputCodeUnits": 1356504,
+      "completedCalls": 31184,
+      "expectedChecksum": 8193596,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 13608,
+      "warmupElapsedMs": 150.05904499999997,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 45.97739899999942
+    },
+    {
+      "adapter": "ours-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 29136,
+      "elapsedMs": 308.2011590000002,
+      "operationsPerSecond": 94535.66006868905,
+      "inputBytes": 1271058,
+      "inputCodePoints": 1271058,
+      "inputMiBPerSecond": 3.9330655770269005,
+      "nanosecondsPerCodePoint": 242.47607819627441,
+      "cpuMs": 307.974,
+      "cpuToWallRatio": 0.9992629521552182,
+      "checksum": 7655484,
+      "outputCodeUnits": 1267416,
+      "completedCalls": 29136,
+      "expectedChecksum": 7655484,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 14328,
+      "warmupElapsedMs": 150.08434599999964,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 49.215001999999004
+    },
+    {
+      "adapter": "slugify",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 48896,
+      "elapsedMs": 362.58989699999984,
+      "operationsPerSecond": 134852.07504278593,
+      "inputBytes": 1546336,
+      "inputCodePoints": 1326304,
+      "inputMiBPerSecond": 4.067131875255685,
+      "nanosecondsPerCodePoint": 273.3837016249667,
+      "cpuMs": 361.37,
+      "cpuToWallRatio": 0.9966356012396015,
+      "checksum": 11453888,
+      "outputCodeUnits": 1332416,
+      "completedCalls": 48896,
+      "expectedChecksum": 11453888,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 20432,
+      "warmupElapsedMs": 150.03533700000116,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 29.321372000000338
+    },
+    {
+      "adapter": "ours-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 38824,
+      "elapsedMs": 350.33725499999855,
+      "operationsPerSecond": 110818.93074717435,
+      "inputBytes": 1227809,
+      "inputCodePoints": 1053101,
+      "inputMiBPerSecond": 3.342293438796414,
+      "nanosecondsPerCodePoint": 332.67203715502933,
+      "cpuMs": 349.97,
+      "cpuToWallRatio": 0.9989517101171598,
+      "checksum": 9094522,
+      "outputCodeUnits": 1057954,
+      "completedCalls": 38824,
+      "expectedChecksum": 9094522,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 16080,
+      "warmupElapsedMs": 150.07496400000127,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 36.92685199999869
+    },
+    {
+      "adapter": "ours-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 26008,
+      "elapsedMs": 300.31380999999965,
+      "operationsPerSecond": 86602.74397637602,
+      "inputBytes": 822503,
+      "inputCodePoints": 705467,
+      "inputMiBPerSecond": 2.6119344503907125,
+      "nanosecondsPerCodePoint": 425.6950502291385,
+      "cpuMs": 299.831,
+      "cpuToWallRatio": 0.9983923150254075,
+      "checksum": 6092374,
+      "outputCodeUnits": 708718,
+      "completedCalls": 26008,
+      "expectedChecksum": 6092374,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11344,
+      "warmupElapsedMs": 150.06266700000015,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 27.56673899999987
+    },
+    {
+      "adapter": "slugify",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 35608,
+      "elapsedMs": 365.4945520000001,
+      "operationsPerSecond": 97424.16078475497,
+      "inputBytes": 1553399,
+      "inputCodePoints": 1553399,
+      "inputMiBPerSecond": 4.053238882288872,
+      "nanosecondsPerCodePoint": 235.28697520727135,
+      "cpuMs": 364.235,
+      "cpuToWallRatio": 0.9965538419297695,
+      "checksum": 9356002,
+      "outputCodeUnits": 1548948,
+      "completedCalls": 35608,
+      "expectedChecksum": 9356002,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 14616,
+      "warmupElapsedMs": 150.02728599999864,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 40.26693499999965
+    },
+    {
+      "adapter": "ours-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 31976,
+      "elapsedMs": 322.9713040000006,
+      "operationsPerSecond": 99005.69989957975,
+      "inputBytes": 1394953,
+      "inputCodePoints": 1394953,
+      "inputMiBPerSecond": 4.119037302130859,
+      "nanosecondsPerCodePoint": 231.5284486287356,
+      "cpuMs": 322.485,
+      "cpuToWallRatio": 0.9984942810894414,
+      "checksum": 8401694,
+      "outputCodeUnits": 1390956,
+      "completedCalls": 31976,
+      "expectedChecksum": 8401694,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 13824,
+      "warmupElapsedMs": 150.04517099999975,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 44.84181399999943
+    },
+    {
+      "adapter": "ours-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "ascii",
+      "iterations": 24584,
+      "elapsedMs": 376.6961910000009,
+      "operationsPerSecond": 65262.1411826273,
+      "inputBytes": 1072477,
+      "inputCodePoints": 1072477,
+      "inputMiBPerSecond": 2.7151688662453806,
+      "nanosecondsPerCodePoint": 351.2394121272539,
+      "cpuMs": 376.097,
+      "cpuToWallRatio": 0.9984093521136748,
+      "checksum": 6459446,
+      "outputCodeUnits": 1069404,
+      "completedCalls": 24584,
+      "expectedChecksum": 6459446,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 10032,
+      "warmupElapsedMs": 150.07249600000068,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 29.16071699999884
+    },
+    {
+      "adapter": "ours-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 40352,
+      "elapsedMs": 357.3798370000004,
+      "operationsPerSecond": 112910.67884168282,
+      "inputBytes": 1276132,
+      "inputCodePoints": 1094548,
+      "inputMiBPerSecond": 3.4053804572755997,
+      "nanosecondsPerCodePoint": 326.5090585337513,
+      "cpuMs": 356.889,
+      "cpuToWallRatio": 0.9986265677321903,
+      "checksum": 9452456,
+      "outputCodeUnits": 1099592,
+      "completedCalls": 40352,
+      "expectedChecksum": 9452456,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 16816,
+      "warmupElapsedMs": 150.05507299999954,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 35.52922799999942
+    },
+    {
+      "adapter": "ours-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 24896,
+      "elapsedMs": 340.6873020000021,
+      "operationsPerSecond": 73075.80838454569,
+      "inputBytes": 787336,
+      "inputCodePoints": 675304,
+      "inputMiBPerSecond": 2.2039627458202906,
+      "nanosecondsPerCodePoint": 504.49471941525906,
+      "cpuMs": 340.151,
+      "cpuToWallRatio": 0.9984258233375481,
+      "checksum": 5831888,
+      "outputCodeUnits": 678416,
+      "completedCalls": 24896,
+      "expectedChecksum": 5831888,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 12032,
+      "warmupElapsedMs": 150.01908600000024,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 28.796024999999645
+    },
+    {
+      "adapter": "slugify",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 52520,
+      "elapsedMs": 398.27037100000234,
+      "operationsPerSecond": 131870.2163762006,
+      "inputBytes": 1660945,
+      "inputCodePoints": 1424605,
+      "inputMiBPerSecond": 3.9771991662000126,
+      "nanosecondsPerCodePoint": 279.5654732364426,
+      "cpuMs": 396.864,
+      "cpuToWallRatio": 0.9964688033496663,
+      "checksum": 12302810,
+      "outputCodeUnits": 1431170,
+      "completedCalls": 52520,
+      "expectedChecksum": 12302810,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 19104,
+      "warmupElapsedMs": 150.03306599999996,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 27.299415000001318
+    }
+  ],
+  "failures": [],
+  "exactOutputEquality": true,
+  "finishedAt": "2026-10-22T20:48:36.937Z",
+  "loadAfter": [
+    27.287109375,
+    25.37060546875,
+    23.10205078125
+  ],
+  "summary": [
+    {
+      "fixture": "ascii",
+      "adapter": "ours-before",
+      "samples": 5,
+      "median": 67536.40267241866,
+      "min": 62918.54843734505,
+      "max": 70636.92943828389,
+      "completedCalls": 122072,
+      "errors": 0
+    },
+    {
+      "fixture": "ascii",
+      "adapter": "slugify",
+      "samples": 5,
+      "median": 91221.82825083334,
+      "min": 89989.72653692316,
+      "max": 115532.89139324793,
+      "completedCalls": 168864,
+      "errors": 0
+    },
+    {
+      "fixture": "ascii",
+      "adapter": "ours-after",
+      "samples": 5,
+      "median": 92078.12981142971,
+      "min": 79250.9015106726,
+      "max": 99005.69989957975,
+      "completedCalls": 145016,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "ours-before",
+      "samples": 5,
+      "median": 74203.92095461134,
+      "min": 62678.20984197499,
+      "max": 87724.06457201997,
+      "completedCalls": 129680,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "slugify",
+      "samples": 5,
+      "median": 133677.4771478694,
+      "min": 129007.19795976696,
+      "max": 157700.01451178713,
+      "completedCalls": 252608,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "ours-after",
+      "samples": 5,
+      "median": 110818.93074717435,
+      "min": 102412.5494624436,
+      "max": 116402.53630732669,
+      "completedCalls": 194584,
+      "errors": 0
+    }
+  ]
+}

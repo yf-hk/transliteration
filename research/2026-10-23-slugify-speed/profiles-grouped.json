@@ -1,0 +1,377 @@
+{
+  "ours-current": [
+    {
+      "function": "slugify",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 9,
+      "column": 1265,
+      "share": 0.26081389697215224,
+      "sampleMs": 541.44,
+      "sourcePrefix": "(e,t){let n=typeof t==`object`?t:{},r=H({...this.options,...n}),i=r.separator?z(r.separator):``,a=this.transliterate(e,r);return a=G(a,RegExp(`[^${r.allowedChars??Y.allowedChars}]+"
+    },
+    {
+      "function": "H",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 5,
+      "column": 153440,
+      "share": 0.1959423168910043,
+      "sampleMs": 406.76899999999995,
+      "sourcePrefix": "(e){if(Array.isArray(e))return e.map(e=>H(e));if(e instanceof Date)return new Date(e.valueOf());if(e instanceof RegExp)return new RegExp(e.source,e.flags);if(typeof e==`object`&&e)"
+    },
+    {
+      "function": "G",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 7,
+      "column": 555,
+      "share": 0.15602108515421517,
+      "sampleMs": 323.894,
+      "sourcePrefix": "(e,t,n,r=[]){let i=U(e,r),a=new RegExp(t.source,`${t.flags.replace(`g`,``)}g`),o=``,s=0,c=0;for(let t of e.matchAll(a)){let r=t.index,a=r+t[0].length;for(o+=e.slice(s,r);c<i.length"
+    },
+    {
+      "function": "codeMapReplace",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 7,
+      "column": 1384,
+      "share": 0.1162645962379869,
+      "sampleMs": 241.361,
+      "sourcePrefix": "(e,t,n=[]){let r=0,i=``,a=t.fixChineseSpacing&&B(e),o=!1,s=!1,c=!1;for(let l=0;l<e.length;l++){let u=Xt.test(e[l])&&Zt.test(e[l+1])?e[l]+e[l+1]:e[l],d,f=!1;if(W(r,n)||u.length===2&"
+    },
+    {
+      "function": "transliterate",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 9,
+      "column": 586,
+      "share": 0.09435235599093048,
+      "sampleMs": 195.872,
+      "sourcePrefix": "(e,t){let n=typeof t==`object`?t:{},r=H({...this.options,...n}),i=typeof e==`string`?e:String(e),a=this.formatReplaceOption(r.replace);a.length&&(i=this.replaceString(i,a,r.ignore)"
+    },
+    {
+      "function": "z",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 5,
+      "column": 153329,
+      "share": 0.04685006428341931,
+      "sampleMs": 97.259,
+      "sourcePrefix": "(e){return(e||``).replace(Kt,`\\\\$&`)}function B(e){return qt.test(e)}function V(e){return Jt.test(e)}function H(e){if(Array.isArray(e))return e.map(e=>H(e));if(e instanceof Date)re"
+    },
+    {
+      "function": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.037957805606361965,
+      "sampleMs": 78.799,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "post",
+      "url": "node:inspector",
+      "line": 118,
+      "column": 6,
+      "share": 0.0362771398141489,
+      "sampleMs": 75.31,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "get options",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 9,
+      "column": 1107,
+      "share": 0.03420051320760534,
+      "sampleMs": 70.999,
+      "sourcePrefix": "(){return H({...Y,...this.confOptions})}config(e,t=!1){return t&&(this.confOptions={}),e&&typeof e==`object`&&(this.confOptions=H(e)),this.confOptions}slugify(e,t){let n=typeof t=="
+    },
+    {
+      "function": "batch",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 12,
+      "column": 14,
+      "share": 0.009082050113609925,
+      "sampleMs": 18.854,
+      "sourcePrefix": "() {"
+    },
+    {
+      "function": "B",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 5,
+      "column": 153376,
+      "share": 0.004538616536036528,
+      "sampleMs": 9.422,
+      "sourcePrefix": "(e){return qt.test(e)}function V(e){return Jt.test(e)}function H(e){if(Array.isArray(e))return e.map(e=>H(e));if(e instanceof Date)return new Date(e.valueOf());if(e instanceof RegE"
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 9,
+      "column": 1523,
+      "share": 0.002447057100728674,
+      "sampleMs": 5.08,
+      "sourcePrefix": "()=>r.separator??`-`),a=a.replace(RegExp(`^(?:${i})+|(?:${i})+$`,`g`),``)),r.lowercase&&(a=a.toLowerCase()),r.uppercase&&(a=a.toUpperCase()),a}};const X=new J({},L),Z=X.translitera"
+    },
+    {
+      "function": "(program)",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.0017153484912785055,
+      "sampleMs": 3.561,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "now",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.0012283455919012043,
+      "sampleMs": 2.55,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 0,
+      "column": -1,
+      "share": 0.001152718039772385,
+      "sampleMs": 2.393,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "U",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+      "line": 7,
+      "column": 63,
+      "share": 0.0006363311870201926,
+      "sampleMs": 1.321,
+      "sourcePrefix": "(e,t){let n=[];for(let r of t){if(r.length===0)continue;let t=e.indexOf(r);for(;t>-1;)n.push([t,t+r.length-1]),t=e.indexOf(r,t+1)}let r=n.sort((e,t)=>e[0]-t[0]||e[1]-t[1]);n=[];let"
+    },
+    {
+      "function": "now",
+      "url": "node:internal/perf/performance",
+      "line": 137,
+      "column": 5,
+      "share": 0.0005197587818279998,
+      "sampleMs": 1.079,
+      "sourcePrefix": ""
+    }
+  ],
+  "slugify": [
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/benchmark/node_modules/slugify/slugify.js",
+      "line": 35,
+      "column": 23,
+      "share": 0.4144612471748691,
+      "sampleMs": 847.589,
+      "sourcePrefix": "(result, ch) {"
+    },
+    {
+      "function": "replace",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/benchmark/node_modules/slugify/slugify.js",
+      "line": 18,
+      "column": 19,
+      "share": 0.247913241709934,
+      "sampleMs": 506.992,
+      "sourcePrefix": "(string, options) {"
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 0,
+      "column": -1,
+      "share": 0.16564190983248234,
+      "sampleMs": 338.744,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "batch",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 12,
+      "column": 14,
+      "share": 0.09343885052502691,
+      "sampleMs": 191.086,
+      "sourcePrefix": "() {"
+    },
+    {
+      "function": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.05206749214440025,
+      "sampleMs": 106.48,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "post",
+      "url": "node:inspector",
+      "line": 118,
+      "column": 6,
+      "share": 0.02165632130063109,
+      "sampleMs": 44.288,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "(program)",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.0024454313318383325,
+      "sampleMs": 5.001,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "now",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.001869402915740441,
+      "sampleMs": 3.823,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "wrappedFn",
+      "url": "node:internal/errors",
+      "line": 535,
+      "column": 20,
+      "share": 0.0005061030650775194,
+      "sampleMs": 1.035,
+      "sourcePrefix": ""
+    }
+  ],
+  "ours-prototype": [
+    {
+      "function": "slugify",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 24728,
+      "share": 0.38602152694832,
+      "sampleMs": 788.901,
+      "sourcePrefix": "(A,B){let b=typeof B==\"object\"?B:{},c={...z,...this.confOptions,...b},e=c.separator?l(c.separator):\"\",f=this.transliterate(A,c);return f=F(f,new RegExp(`[^${c.allowedChars??z.allow"
+    },
+    {
+      "function": "F",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 21667,
+      "share": 0.26774808665386945,
+      "sampleMs": 547.189,
+      "sourcePrefix": "(d,A,B,b=[]){let c=L(d,b),e=new RegExp(A.source,`${A.flags.replace(\"g\",\"\")}g`);if(c.length===0)return d.replace(e,()=>B);let f=\"\",t=0,D=0;for(let s of d.matchAll(e)){let h=s.index,"
+    },
+    {
+      "function": "transliterate",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 24050,
+      "share": 0.08397584542717493,
+      "sampleMs": 171.619,
+      "sourcePrefix": "(A,B){let b=typeof B==\"object\"?B:{},c={...Y,...this.confOptions,...b},e=typeof A==\"string\"?A:String(A),f=this.formatReplaceOption(c.replace);f.length&&(e=this.replaceString(e,f,c.i"
+    },
+    {
+      "function": "l",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 20789,
+      "share": 0.0826346315037988,
+      "sampleMs": 168.878,
+      "sourcePrefix": "(d){return(d||\"\").replace(tA,\"\\\\$&\")}function E(d){return nA.test(d)}function G(d){return oA.test(d)}function u(d){if(Array.isArray(d))return d.map(A=>u(A));if(d instanceof Date)re"
+    },
+    {
+      "function": "codeMapReplace",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 22537,
+      "share": 0.0612936230929538,
+      "sampleMs": 125.264,
+      "sourcePrefix": "(A,B,b=[]){if(!J()&&this.map===this.defaultMap&&/^[\\x20-\\x7e]*$/.test(A))return A;if(!J()&&this.map===this.defaultMap&&b.length===0&&!(B.fixChineseSpacing&&E(A))){let i=\"\";for(let "
+    },
+    {
+      "function": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.048864518799748104,
+      "sampleMs": 99.863,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "batch",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 12,
+      "column": 14,
+      "share": 0.025673408293213535,
+      "sampleMs": 52.468,
+      "sourcePrefix": "() {"
+    },
+    {
+      "function": "post",
+      "url": "node:inspector",
+      "line": 118,
+      "column": 6,
+      "share": 0.021358134455105544,
+      "sampleMs": 43.649,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "E",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 20836,
+      "share": 0.007619132433743005,
+      "sampleMs": 15.571,
+      "sourcePrefix": "(d){return nA.test(d)}function G(d){return oA.test(d)}function u(d){if(Array.isArray(d))return d.map(A=>u(A));if(d instanceof Date)return new Date(d.valueOf());if(d instanceof RegE"
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 25000,
+      "share": 0.0066669243728564925,
+      "sampleMs": 13.625,
+      "sourcePrefix": "()=>c.separator??\"-\"),f=f.replace(new RegExp(`^(?:${e})+|(?:${e})+$`,\"g\"),\"\")),c.lowercase&&(f=f.toLowerCase()),c.uppercase&&(f=f.toUpperCase()),f}};var R=new p({},r),S=R.translite"
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 21781,
+      "share": 0.0031370019929822363,
+      "sampleMs": 6.411,
+      "sourcePrefix": "()=>B);let f=\"\",t=0,D=0;for(let s of d.matchAll(e)){let h=s.index,i=h+s[0].length;for(f+=d.slice(t,h);D<c.length&&c[D][1]<h;)D+=1;let g=h;for(let a=D;a<c.length&&c[a][0]<i;a+=1){le"
+    },
+    {
+      "function": "",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/profile.mjs",
+      "line": 0,
+      "column": -1,
+      "share": 0.0019425827346965339,
+      "sampleMs": 3.97,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "L",
+      "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+      "line": 4,
+      "column": 21175,
+      "share": 0.0018094889050145548,
+      "sampleMs": 3.698,
+      "sourcePrefix": "(d,A){let B=[];for(let e of A){if(e.length===0)continue;let f=d.indexOf(e);for(;f>-1;)B.push([f,f+e.length-1]),f=d.indexOf(e,f+1)}let b=B.sort((e,f)=>e[0]-f[0]||e[1]-f[1]);B=[];let"
+    },
+    {
+      "function": "now",
+      "url": "node:internal/perf/performance",
+      "line": 137,
+      "column": 5,
+      "share": 0.0006287704821372912,
+      "sampleMs": 1.285,
+      "sourcePrefix": ""
+    },
+    {
+      "function": "now",
+      "url": "",
+      "line": 0,
+      "column": -1,
+      "share": 0.0006263239043857842,
+      "sampleMs": 1.28,
+      "sourcePrefix": ""
+    }
+  ]
+}

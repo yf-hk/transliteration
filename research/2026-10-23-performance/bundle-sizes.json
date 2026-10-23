@@ -1,0 +1,68 @@
+[
+  {
+    "id": "current-full",
+    "bytes": 193536,
+    "gzip": 53240,
+    "brotli": 44125
+  },
+  {
+    "id": "current-latin",
+    "bytes": 17421,
+    "gzip": 6233,
+    "brotli": 4586
+  },
+  {
+    "id": "published-full",
+    "bytes": 190739,
+    "gzip": 53512,
+    "brotli": 44299
+  },
+  {
+    "id": "any-ascii",
+    "bytes": 546648,
+    "gzip": 215436,
+    "brotli": 171292
+  },
+  {
+    "id": "sindre-transliterate",
+    "bytes": 34488,
+    "gzip": 8394,
+    "brotli": 4928
+  },
+  {
+    "id": "unidecode",
+    "bytes": 327870,
+    "gzip": 79122,
+    "brotli": 51964
+  },
+  {
+    "id": "simov-slugify",
+    "bytes": 11325,
+    "gzip": 3784,
+    "brotli": 2731
+  },
+  {
+    "id": "slug",
+    "bytes": 10316,
+    "gzip": 3755,
+    "brotli": 2834
+  },
+  {
+    "id": "speakingurl",
+    "bytes": 18677,
+    "gzip": 6447,
+    "brotli": 5026
+  },
+  {
+    "id": "limax",
+    "bytes": 501907,
+    "gzip": 160010,
+    "brotli": 127952
+  },
+  {
+    "id": "sindre-slugify",
+    "bytes": 36309,
+    "gzip": 9191,
+    "brotli": 5636
+  }
+]

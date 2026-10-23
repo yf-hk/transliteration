@@ -1,0 +1,8501 @@
+{
+  "tables": [
+    {
+      "heading": "Translation LLM supported languages",
+      "rows": [
+        [
+          {
+            "text": "Language name",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Language code",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Official Support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Experimental Support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Afrikaans",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "af",
+            "icons": [],
+            "codes": [
+              "af"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Albanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sq",
+            "icons": [],
+            "codes": [
+              "sq"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Amharic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "am",
+            "icons": [],
+            "codes": [
+              "am"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Arabic (Saudi Arabia)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ar-SA",
+            "icons": [],
+            "codes": [
+              "ar-SA"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Arabic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ar",
+            "icons": [],
+            "codes": [
+              "ar"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Armenian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hy",
+            "icons": [],
+            "codes": [
+              "hy"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Azerbaijani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "az",
+            "icons": [],
+            "codes": [
+              "az"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Basque",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "eu",
+            "icons": [],
+            "codes": [
+              "eu"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Belarusian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "be",
+            "icons": [],
+            "codes": [
+              "be"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bengali (India)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bn-IN",
+            "icons": [],
+            "codes": [
+              "bn-IN"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bengali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bn",
+            "icons": [],
+            "codes": [
+              "bn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bosnian (Cyrillic)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bs-Cyrl",
+            "icons": [],
+            "codes": [
+              "bs-Cyrl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bosnian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bs",
+            "icons": [],
+            "codes": [
+              "bs"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bulgarian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bg",
+            "icons": [],
+            "codes": [
+              "bg"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Burmese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "my",
+            "icons": [],
+            "codes": [
+              "my"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Catalan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ca",
+            "icons": [],
+            "codes": [
+              "ca"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese (China)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-CN",
+            "icons": [],
+            "codes": [
+              "zh-CN"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Hong Kong)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-HK",
+            "icons": [],
+            "codes": [
+              "zh-HK"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Simplified)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-Hans",
+            "icons": [],
+            "codes": [
+              "zh-Hans"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Taiwan)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-TW",
+            "icons": [],
+            "codes": [
+              "zh-TW"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Traditional)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-Hant",
+            "icons": [],
+            "codes": [
+              "zh-Hant"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Chinese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh",
+            "icons": [],
+            "codes": [
+              "zh"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Croatian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hr",
+            "icons": [],
+            "codes": [
+              "hr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Czech",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cs",
+            "icons": [],
+            "codes": [
+              "cs"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Danish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "da",
+            "icons": [],
+            "codes": [
+              "da"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Dutch (Belgium)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nl-BE",
+            "icons": [],
+            "codes": [
+              "nl-BE"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Dutch",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nl",
+            "icons": [],
+            "codes": [
+              "nl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (Australia)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-AU",
+            "icons": [],
+            "codes": [
+              "en-AU"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (Canada)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-CA",
+            "icons": [],
+            "codes": [
+              "en-CA"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (New Zealand)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-NZ",
+            "icons": [],
+            "codes": [
+              "en-NZ"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (Philippines)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-PH",
+            "icons": [],
+            "codes": [
+              "en-PH"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (South Africa)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-ZA",
+            "icons": [],
+            "codes": [
+              "en-ZA"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (United Kingdom)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-GB",
+            "icons": [],
+            "codes": [
+              "en-GB"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English (United States)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en-US",
+            "icons": [],
+            "codes": [
+              "en-US"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en",
+            "icons": [],
+            "codes": [
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Estonian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "et",
+            "icons": [],
+            "codes": [
+              "et"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Filipino",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fil",
+            "icons": [],
+            "codes": [
+              "fil"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Finnish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fi",
+            "icons": [],
+            "codes": [
+              "fi"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "French (Canada)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr-CA",
+            "icons": [],
+            "codes": [
+              "fr-CA"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "French (Switzerland)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr-CH",
+            "icons": [],
+            "codes": [
+              "fr-CH"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "French",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr",
+            "icons": [],
+            "codes": [
+              "fr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Frisian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fy",
+            "icons": [],
+            "codes": [
+              "fy"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Galician",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gl",
+            "icons": [],
+            "codes": [
+              "gl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Georgian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ka",
+            "icons": [],
+            "codes": [
+              "ka"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "German",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "de",
+            "icons": [],
+            "codes": [
+              "de"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Greek",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "el",
+            "icons": [],
+            "codes": [
+              "el"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Guarani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gn",
+            "icons": [],
+            "codes": [
+              "gn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Gujarati",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gu",
+            "icons": [],
+            "codes": [
+              "gu"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hausa",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ha",
+            "icons": [],
+            "codes": [
+              "ha"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hebrew",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "he",
+            "icons": [],
+            "codes": [
+              "he"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hebrew",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "iw",
+            "icons": [],
+            "codes": [
+              "iw"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hindi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hi",
+            "icons": [],
+            "codes": [
+              "hi"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hungarian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hu",
+            "icons": [],
+            "codes": [
+              "hu"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Icelandic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "is",
+            "icons": [],
+            "codes": [
+              "is"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Igbo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ig",
+            "icons": [],
+            "codes": [
+              "ig"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Indonesian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "id",
+            "icons": [],
+            "codes": [
+              "id"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Irish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ga",
+            "icons": [],
+            "codes": [
+              "ga"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Italian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "it",
+            "icons": [],
+            "codes": [
+              "it"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Japanese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ja",
+            "icons": [],
+            "codes": [
+              "ja"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Kannada",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "kn",
+            "icons": [],
+            "codes": [
+              "kn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Khmer",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "km",
+            "icons": [],
+            "codes": [
+              "km"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Korean",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ko",
+            "icons": [],
+            "codes": [
+              "ko"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Kyrgyz",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ky",
+            "icons": [],
+            "codes": [
+              "ky"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Lao",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lo",
+            "icons": [],
+            "codes": [
+              "lo"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Latvian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lv",
+            "icons": [],
+            "codes": [
+              "lv"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Lingala",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ln",
+            "icons": [],
+            "codes": [
+              "ln"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Lithuanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lt",
+            "icons": [],
+            "codes": [
+              "lt"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Luxembourgish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lb",
+            "icons": [],
+            "codes": [
+              "lb"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Macedonian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mk",
+            "icons": [],
+            "codes": [
+              "mk"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Malay",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ms",
+            "icons": [],
+            "codes": [
+              "ms"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Malayalam",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ml",
+            "icons": [],
+            "codes": [
+              "ml"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Maltese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mt",
+            "icons": [],
+            "codes": [
+              "mt"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Marathi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mr",
+            "icons": [],
+            "codes": [
+              "mr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Mongolian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mn",
+            "icons": [],
+            "codes": [
+              "mn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Nepali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ne",
+            "icons": [],
+            "codes": [
+              "ne"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Norwegian Bokmal",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nb",
+            "icons": [],
+            "codes": [
+              "nb"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Norwegian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [
+              "no"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Odia",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "or",
+            "icons": [],
+            "codes": [
+              "or"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Persian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fa",
+            "icons": [],
+            "codes": [
+              "fa"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Polish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pl",
+            "icons": [],
+            "codes": [
+              "pl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Portuguese (Brazil)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt-BR",
+            "icons": [],
+            "codes": [
+              "pt-BR"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Portuguese (Portugal)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt-PT",
+            "icons": [],
+            "codes": [
+              "pt-PT"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Portuguese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt",
+            "icons": [],
+            "codes": [
+              "pt"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Punjabi (Pakistan)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pa-PK",
+            "icons": [],
+            "codes": [
+              "pa-PK"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Punjabi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pa",
+            "icons": [],
+            "codes": [
+              "pa"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Romanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ro",
+            "icons": [],
+            "codes": [
+              "ro"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Russian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ru",
+            "icons": [],
+            "codes": [
+              "ru"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Scots Gaelic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gd",
+            "icons": [],
+            "codes": [
+              "gd"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Serbian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sr",
+            "icons": [],
+            "codes": [
+              "sr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Slovak",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sk",
+            "icons": [],
+            "codes": [
+              "sk"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Slovenian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sl",
+            "icons": [],
+            "codes": [
+              "sl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Somali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "so",
+            "icons": [],
+            "codes": [
+              "so"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Argentina)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-AR",
+            "icons": [],
+            "codes": [
+              "es-AR"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Chile)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-CL",
+            "icons": [],
+            "codes": [
+              "es-CL"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Colombia)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-CO",
+            "icons": [],
+            "codes": [
+              "es-CO"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Costa Rica)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-CR",
+            "icons": [],
+            "codes": [
+              "es-CR"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Ecuador)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-EC",
+            "icons": [],
+            "codes": [
+              "es-EC"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (El Salvador)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-SV",
+            "icons": [],
+            "codes": [
+              "es-SV"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Guatemala)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-GT",
+            "icons": [],
+            "codes": [
+              "es-GT"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Haiti)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-HT",
+            "icons": [],
+            "codes": [
+              "es-HT"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Honduras)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-HN",
+            "icons": [],
+            "codes": [
+              "es-HN"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Latin America)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-419",
+            "icons": [],
+            "codes": [
+              "es-419"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Mexico)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-MX",
+            "icons": [],
+            "codes": [
+              "es-MX"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Nicaragua)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-NI",
+            "icons": [],
+            "codes": [
+              "es-NI"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Panama)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-PA",
+            "icons": [],
+            "codes": [
+              "es-PA"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Paraguay)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-PY",
+            "icons": [],
+            "codes": [
+              "es-PY"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Peru)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-PE",
+            "icons": [],
+            "codes": [
+              "es-PE"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Puerto Rico)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-PR",
+            "icons": [],
+            "codes": [
+              "es-PR"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Spain)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-ES",
+            "icons": [],
+            "codes": [
+              "es-ES"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (United States)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-US",
+            "icons": [],
+            "codes": [
+              "es-US"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Uruguay)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-UY",
+            "icons": [],
+            "codes": [
+              "es-UY"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish (Venezuela)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es-VE",
+            "icons": [],
+            "codes": [
+              "es-VE"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Spanish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es",
+            "icons": [],
+            "codes": [
+              "es"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Swahili",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sw",
+            "icons": [],
+            "codes": [
+              "sw"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Swedish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sv",
+            "icons": [],
+            "codes": [
+              "sv"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Tagalog",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tl",
+            "icons": [],
+            "codes": [
+              "tl"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Tajik",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tg",
+            "icons": [],
+            "codes": [
+              "tg"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "⚠️ Experimental support",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Tamil",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ta",
+            "icons": [],
+            "codes": [
+              "ta"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Telugu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "te",
+            "icons": [],
+            "codes": [
+              "te"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Thai",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "th",
+            "icons": [],
+            "codes": [
+              "th"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Turkish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tr",
+            "icons": [],
+            "codes": [
+              "tr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Ukrainian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uk",
+            "icons": [],
+            "codes": [
+              "uk"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Urdu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ur",
+            "icons": [],
+            "codes": [
+              "ur"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Uzbek",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uz",
+            "icons": [],
+            "codes": [
+              "uz"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Vietnamese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "vi",
+            "icons": [],
+            "codes": [
+              "vi"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Welsh",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cy",
+            "icons": [],
+            "codes": [
+              "cy"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Zulu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zu",
+            "icons": [],
+            "codes": [
+              "zu"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "✅",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Try it for yourself",
+      "rows": [
+        [
+          {
+            "text": "Language",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ISO-639 code",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Abkhaz",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ab",
+            "icons": [],
+            "codes": [
+              "ab"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Acehnese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ace",
+            "icons": [],
+            "codes": [
+              "ace"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Acholi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ach",
+            "icons": [],
+            "codes": [
+              "ach"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Afrikaans",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "af",
+            "icons": [],
+            "codes": [
+              "af"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Albanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sq",
+            "icons": [],
+            "codes": [
+              "sq"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Alur",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "alz",
+            "icons": [],
+            "codes": [
+              "alz"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Amharic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "am",
+            "icons": [],
+            "codes": [
+              "am"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Arabic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ar",
+            "icons": [],
+            "codes": [
+              "ar"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Armenian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hy",
+            "icons": [],
+            "codes": [
+              "hy"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Assamese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "as",
+            "icons": [],
+            "codes": [
+              "as"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Awadhi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "awa",
+            "icons": [],
+            "codes": [
+              "awa"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Aymara",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ay",
+            "icons": [],
+            "codes": [
+              "ay"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Azerbaijani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "az",
+            "icons": [],
+            "codes": [
+              "az"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Balinese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ban",
+            "icons": [],
+            "codes": [
+              "ban"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bambara",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bm",
+            "icons": [],
+            "codes": [
+              "bm"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bashkir",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ba",
+            "icons": [],
+            "codes": [
+              "ba"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Basque",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "eu",
+            "icons": [],
+            "codes": [
+              "eu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Batak Karo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "btx",
+            "icons": [],
+            "codes": [
+              "btx"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Batak Simalungun",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bts",
+            "icons": [],
+            "codes": [
+              "bts"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Batak Toba",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bbc",
+            "icons": [],
+            "codes": [
+              "bbc"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Belarusian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "be",
+            "icons": [],
+            "codes": [
+              "be"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bemba",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bem",
+            "icons": [],
+            "codes": [
+              "bem"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bengali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bn",
+            "icons": [],
+            "codes": [
+              "bn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Betawi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bew",
+            "icons": [],
+            "codes": [
+              "bew"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bhojpuri",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bho",
+            "icons": [],
+            "codes": [
+              "bho"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bikol",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bik",
+            "icons": [],
+            "codes": [
+              "bik"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bosnian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bs",
+            "icons": [],
+            "codes": [
+              "bs"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Breton",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "br",
+            "icons": [],
+            "codes": [
+              "br"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bulgarian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bg",
+            "icons": [],
+            "codes": [
+              "bg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Buryat",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bua",
+            "icons": [],
+            "codes": [
+              "bua"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Cantonese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yue",
+            "icons": [],
+            "codes": [
+              "yue"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Catalan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ca",
+            "icons": [],
+            "codes": [
+              "ca"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Cebuano",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ceb",
+            "icons": [],
+            "codes": [
+              "ceb"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chichewa (Nyanja)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ny",
+            "icons": [],
+            "codes": [
+              "ny"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Simplified)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-CN or zh (BCP-47)",
+            "icons": [],
+            "codes": [
+              "zh-CN",
+              "zh"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Traditional)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-TW (BCP-47)",
+            "icons": [],
+            "codes": [
+              "zh-TW"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chuvash",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cv",
+            "icons": [],
+            "codes": [
+              "cv"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Corsican",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "co",
+            "icons": [],
+            "codes": [
+              "co"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Crimean Tatar",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "crh",
+            "icons": [],
+            "codes": [
+              "crh"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Croatian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hr",
+            "icons": [],
+            "codes": [
+              "hr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Czech",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cs",
+            "icons": [],
+            "codes": [
+              "cs"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Danish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "da",
+            "icons": [],
+            "codes": [
+              "da"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dinka",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "din",
+            "icons": [],
+            "codes": [
+              "din"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Divehi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "dv",
+            "icons": [],
+            "codes": [
+              "dv"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dogri",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "doi",
+            "icons": [],
+            "codes": [
+              "doi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dombe",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "dov",
+            "icons": [],
+            "codes": [
+              "dov"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dutch",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nl",
+            "icons": [],
+            "codes": [
+              "nl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dzongkha",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "dz",
+            "icons": [],
+            "codes": [
+              "dz"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "en",
+            "icons": [],
+            "codes": [
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Esperanto",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "eo",
+            "icons": [],
+            "codes": [
+              "eo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Estonian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "et",
+            "icons": [],
+            "codes": [
+              "et"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ewe",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ee",
+            "icons": [],
+            "codes": [
+              "ee"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Fijian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fj",
+            "icons": [],
+            "codes": [
+              "fj"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Filipino (Tagalog)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fil or tl",
+            "icons": [],
+            "codes": [
+              "fil",
+              "tl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Finnish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fi",
+            "icons": [],
+            "codes": [
+              "fi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "French",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr",
+            "icons": [],
+            "codes": [
+              "fr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "French (French)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr-FR",
+            "icons": [],
+            "codes": [
+              "fr-FR"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "French (Canadian)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr-CA",
+            "icons": [],
+            "codes": [
+              "fr-CA"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Frisian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fy",
+            "icons": [],
+            "codes": [
+              "fy"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Fulfulde",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ff",
+            "icons": [],
+            "codes": [
+              "ff"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ga",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gaa",
+            "icons": [],
+            "codes": [
+              "gaa"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Galician",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gl",
+            "icons": [],
+            "codes": [
+              "gl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ganda (Luganda)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lg",
+            "icons": [],
+            "codes": [
+              "lg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Georgian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ka",
+            "icons": [],
+            "codes": [
+              "ka"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "German",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "de",
+            "icons": [],
+            "codes": [
+              "de"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Greek",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "el",
+            "icons": [],
+            "codes": [
+              "el"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Guarani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gn",
+            "icons": [],
+            "codes": [
+              "gn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Gujarati",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gu",
+            "icons": [],
+            "codes": [
+              "gu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Haitian Creole",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ht",
+            "icons": [],
+            "codes": [
+              "ht"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hakha Chin",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cnh",
+            "icons": [],
+            "codes": [
+              "cnh"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hausa",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ha",
+            "icons": [],
+            "codes": [
+              "ha"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hawaiian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "haw",
+            "icons": [],
+            "codes": [
+              "haw"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hebrew",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "iw or he",
+            "icons": [],
+            "codes": [
+              "iw",
+              "he"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hiligaynon",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hil",
+            "icons": [],
+            "codes": [
+              "hil"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hindi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hi",
+            "icons": [],
+            "codes": [
+              "hi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hmong",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hmn",
+            "icons": [],
+            "codes": [
+              "hmn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hungarian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hu",
+            "icons": [],
+            "codes": [
+              "hu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hunsrik",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hrx",
+            "icons": [],
+            "codes": [
+              "hrx"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Icelandic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "is",
+            "icons": [],
+            "codes": [
+              "is"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Igbo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ig",
+            "icons": [],
+            "codes": [
+              "ig"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Iloko",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ilo",
+            "icons": [],
+            "codes": [
+              "ilo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Indonesian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "id",
+            "icons": [],
+            "codes": [
+              "id"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Irish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ga",
+            "icons": [],
+            "codes": [
+              "ga"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Italian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "it",
+            "icons": [],
+            "codes": [
+              "it"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Japanese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ja",
+            "icons": [],
+            "codes": [
+              "ja"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Javanese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "jw or jv",
+            "icons": [],
+            "codes": [
+              "jw",
+              "jv"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kannada",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "kn",
+            "icons": [],
+            "codes": [
+              "kn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kapampangan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pam",
+            "icons": [],
+            "codes": [
+              "pam"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kazakh",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "kk",
+            "icons": [],
+            "codes": [
+              "kk"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Khmer",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "km",
+            "icons": [],
+            "codes": [
+              "km"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kiga",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cgg",
+            "icons": [],
+            "codes": [
+              "cgg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kinyarwanda",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "rw",
+            "icons": [],
+            "codes": [
+              "rw"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kituba",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ktu",
+            "icons": [],
+            "codes": [
+              "ktu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Konkani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gom",
+            "icons": [],
+            "codes": [
+              "gom"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Korean",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ko",
+            "icons": [],
+            "codes": [
+              "ko"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Krio",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "kri",
+            "icons": [],
+            "codes": [
+              "kri"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kurdish (Kurmanji)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ku",
+            "icons": [],
+            "codes": [
+              "ku"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kurdish (Sorani)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ckb",
+            "icons": [],
+            "codes": [
+              "ckb"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Kyrgyz",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ky",
+            "icons": [],
+            "codes": [
+              "ky"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Lao",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lo",
+            "icons": [],
+            "codes": [
+              "lo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Latgalian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ltg",
+            "icons": [],
+            "codes": [
+              "ltg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Latin",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "la",
+            "icons": [],
+            "codes": [
+              "la"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Latvian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lv",
+            "icons": [],
+            "codes": [
+              "lv"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ligurian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lij",
+            "icons": [],
+            "codes": [
+              "lij"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Limburgan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "li",
+            "icons": [],
+            "codes": [
+              "li"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Lingala",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ln",
+            "icons": [],
+            "codes": [
+              "ln"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Lithuanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lt",
+            "icons": [],
+            "codes": [
+              "lt"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Lombard",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lmo",
+            "icons": [],
+            "codes": [
+              "lmo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Luo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "luo",
+            "icons": [],
+            "codes": [
+              "luo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Luxembourgish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lb",
+            "icons": [],
+            "codes": [
+              "lb"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Macedonian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mk",
+            "icons": [],
+            "codes": [
+              "mk"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Maithili",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mai",
+            "icons": [],
+            "codes": [
+              "mai"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Makassar",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mak",
+            "icons": [],
+            "codes": [
+              "mak"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Malagasy",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mg",
+            "icons": [],
+            "codes": [
+              "mg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Malay",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ms",
+            "icons": [],
+            "codes": [
+              "ms"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Malay (Jawi)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ms-Arab",
+            "icons": [],
+            "codes": [
+              "ms-Arab"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Malayalam",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ml",
+            "icons": [],
+            "codes": [
+              "ml"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Maltese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mt",
+            "icons": [],
+            "codes": [
+              "mt"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Maori",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mi",
+            "icons": [],
+            "codes": [
+              "mi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Marathi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mr",
+            "icons": [],
+            "codes": [
+              "mr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Meadow Mari",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "chm",
+            "icons": [],
+            "codes": [
+              "chm"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Meiteilon (Manipuri)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mni-Mtei",
+            "icons": [],
+            "codes": [
+              "mni-Mtei"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Minang",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "min",
+            "icons": [],
+            "codes": [
+              "min"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Mizo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lus",
+            "icons": [],
+            "codes": [
+              "lus"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Mongolian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mn",
+            "icons": [],
+            "codes": [
+              "mn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Myanmar (Burmese)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "my",
+            "icons": [],
+            "codes": [
+              "my"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ndebele (South)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nr",
+            "icons": [],
+            "codes": [
+              "nr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Nepalbhasa (Newari)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "new",
+            "icons": [],
+            "codes": [
+              "new"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Nepali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ne",
+            "icons": [],
+            "codes": [
+              "ne"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Northern Sotho (Sepedi)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nso",
+            "icons": [],
+            "codes": [
+              "nso"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Norwegian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [
+              "no"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Nuer",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nus",
+            "icons": [],
+            "codes": [
+              "nus"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Occitan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "oc",
+            "icons": [],
+            "codes": [
+              "oc"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Odia (Oriya)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "or",
+            "icons": [],
+            "codes": [
+              "or"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Oromo",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "om",
+            "icons": [],
+            "codes": [
+              "om"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Pangasinan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pag",
+            "icons": [],
+            "codes": [
+              "pag"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Papiamento",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pap",
+            "icons": [],
+            "codes": [
+              "pap"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Pashto",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ps",
+            "icons": [],
+            "codes": [
+              "ps"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Persian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fa",
+            "icons": [],
+            "codes": [
+              "fa"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Polish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pl",
+            "icons": [],
+            "codes": [
+              "pl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Portuguese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt",
+            "icons": [],
+            "codes": [
+              "pt"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Portuguese (Portugal)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt-PT",
+            "icons": [],
+            "codes": [
+              "pt-PT"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Portuguese (Brazil)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt-BR",
+            "icons": [],
+            "codes": [
+              "pt-BR"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Punjabi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pa",
+            "icons": [],
+            "codes": [
+              "pa"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Punjabi (Shahmukhi)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pa-Arab",
+            "icons": [],
+            "codes": [
+              "pa-Arab"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Quechua",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "qu",
+            "icons": [],
+            "codes": [
+              "qu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Romani",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "rom",
+            "icons": [],
+            "codes": [
+              "rom"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Romanian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ro",
+            "icons": [],
+            "codes": [
+              "ro"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Rundi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "rn",
+            "icons": [],
+            "codes": [
+              "rn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Russian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ru",
+            "icons": [],
+            "codes": [
+              "ru"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Samoan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sm",
+            "icons": [],
+            "codes": [
+              "sm"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sango",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sg",
+            "icons": [],
+            "codes": [
+              "sg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sanskrit",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sa",
+            "icons": [],
+            "codes": [
+              "sa"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Scots Gaelic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gd",
+            "icons": [],
+            "codes": [
+              "gd"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Serbian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sr",
+            "icons": [],
+            "codes": [
+              "sr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sesotho",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "st",
+            "icons": [],
+            "codes": [
+              "st"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Seychellois Creole",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "crs",
+            "icons": [],
+            "codes": [
+              "crs"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Shan",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "shn",
+            "icons": [],
+            "codes": [
+              "shn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Shona",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sn",
+            "icons": [],
+            "codes": [
+              "sn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sicilian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "scn",
+            "icons": [],
+            "codes": [
+              "scn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Silesian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "szl",
+            "icons": [],
+            "codes": [
+              "szl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sindhi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sd",
+            "icons": [],
+            "codes": [
+              "sd"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sinhala (Sinhalese)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "si",
+            "icons": [],
+            "codes": [
+              "si"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Slovak",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sk",
+            "icons": [],
+            "codes": [
+              "sk"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Slovenian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sl",
+            "icons": [],
+            "codes": [
+              "sl"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Somali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "so",
+            "icons": [],
+            "codes": [
+              "so"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Spanish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es",
+            "icons": [],
+            "codes": [
+              "es"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Sundanese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "su",
+            "icons": [],
+            "codes": [
+              "su"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Swahili",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sw",
+            "icons": [],
+            "codes": [
+              "sw"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Swati",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ss",
+            "icons": [],
+            "codes": [
+              "ss"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Swedish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sv",
+            "icons": [],
+            "codes": [
+              "sv"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tajik",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tg",
+            "icons": [],
+            "codes": [
+              "tg"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tamil",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ta",
+            "icons": [],
+            "codes": [
+              "ta"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tatar",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tt",
+            "icons": [],
+            "codes": [
+              "tt"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Telugu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "te",
+            "icons": [],
+            "codes": [
+              "te"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tetum",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tet",
+            "icons": [],
+            "codes": [
+              "tet"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Thai",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "th",
+            "icons": [],
+            "codes": [
+              "th"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tigrinya",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ti",
+            "icons": [],
+            "codes": [
+              "ti"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tsonga",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ts",
+            "icons": [],
+            "codes": [
+              "ts"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Tswana",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tn",
+            "icons": [],
+            "codes": [
+              "tn"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Turkish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tr",
+            "icons": [],
+            "codes": [
+              "tr"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Turkmen",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tk",
+            "icons": [],
+            "codes": [
+              "tk"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Twi (Akan)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ak",
+            "icons": [],
+            "codes": [
+              "ak"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ukrainian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uk",
+            "icons": [],
+            "codes": [
+              "uk"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Urdu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ur",
+            "icons": [],
+            "codes": [
+              "ur"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Uyghur",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ug",
+            "icons": [],
+            "codes": [
+              "ug"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Uzbek",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uz",
+            "icons": [],
+            "codes": [
+              "uz"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Vietnamese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "vi",
+            "icons": [],
+            "codes": [
+              "vi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Welsh",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cy",
+            "icons": [],
+            "codes": [
+              "cy"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Xhosa",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "xh",
+            "icons": [],
+            "codes": [
+              "xh"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Yiddish",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yi",
+            "icons": [],
+            "codes": [
+              "yi"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Yoruba",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yo",
+            "icons": [],
+            "codes": [
+              "yo"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Yucatec Maya",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yua",
+            "icons": [],
+            "codes": [
+              "yua"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Zulu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zu",
+            "icons": [],
+            "codes": [
+              "zu"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Romanization and transliteration support",
+      "rows": [
+        [
+          {
+            "text": "Language",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ISO-639 code",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Romanization",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Transliteration",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Arabic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ar",
+            "icons": [],
+            "codes": [
+              "ar"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Amharic",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "am",
+            "icons": [],
+            "codes": [
+              "am"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Bengali",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bn",
+            "icons": [],
+            "codes": [
+              "bn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Belarusian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "be",
+            "icons": [],
+            "codes": [
+              "be"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Gujarati",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gu",
+            "icons": [],
+            "codes": [
+              "gu"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Hindi",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hi",
+            "icons": [],
+            "codes": [
+              "hi"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Japanese",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ja",
+            "icons": [],
+            "codes": [
+              "ja"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Kannada",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "kn",
+            "icons": [],
+            "codes": [
+              "kn"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Myanmar",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "my",
+            "icons": [],
+            "codes": [
+              "my"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Russian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ru",
+            "icons": [],
+            "codes": [
+              "ru"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Serbian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sr",
+            "icons": [],
+            "codes": [
+              "sr"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Tamil",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ta",
+            "icons": [],
+            "codes": [
+              "ta"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Telugu",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "te",
+            "icons": [],
+            "codes": [
+              "te"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Ukrainian",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uk",
+            "icons": [],
+            "codes": [
+              "uk"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "yes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Custom models",
+      "rows": [
+        [
+          {
+            "text": "Language Pair",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Language Codes",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "Afrikaans <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "af <-> en",
+            "icons": [],
+            "codes": [
+              "af",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Albanian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sq <-> en",
+            "icons": [],
+            "codes": [
+              "sq",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Arabic <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ar <-> en",
+            "icons": [],
+            "codes": [
+              "ar",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Azerbaijani <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "az <-> en",
+            "icons": [],
+            "codes": [
+              "az",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bengali <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bn <-> en",
+            "icons": [],
+            "codes": [
+              "bn",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Bulgarian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "bg <-> en",
+            "icons": [],
+            "codes": [
+              "bg",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Catalan <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ca <-> en",
+            "icons": [],
+            "codes": [
+              "ca",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Simplified) <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-CN * <-> en",
+            "icons": [],
+            "codes": [
+              "zh-CN",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Chinese (Traditional) <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-TW <-> en",
+            "icons": [],
+            "codes": [
+              "zh-TW",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Croatian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hr <-> en",
+            "icons": [],
+            "codes": [
+              "hr",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Czech <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cs <-> en",
+            "icons": [],
+            "codes": [
+              "cs",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Danish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "da <-> en",
+            "icons": [],
+            "codes": [
+              "da",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Dutch <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "nl <-> en",
+            "icons": [],
+            "codes": [
+              "nl",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Estonian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "et <-> en",
+            "icons": [],
+            "codes": [
+              "et",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Finnish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fi <-> en",
+            "icons": [],
+            "codes": [
+              "fi",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "French <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fr <-> en",
+            "icons": [],
+            "codes": [
+              "fr",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Galician <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gl <-> en",
+            "icons": [],
+            "codes": [
+              "gl",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Georgian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ka <-> en",
+            "icons": [],
+            "codes": [
+              "ka",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "German <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "de <-> en",
+            "icons": [],
+            "codes": [
+              "de",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Greek <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "el <-> en",
+            "icons": [],
+            "codes": [
+              "el",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Gujarati <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "gu <-> en",
+            "icons": [],
+            "codes": [
+              "gu",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Haitian Creole <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ht <-> en",
+            "icons": [],
+            "codes": [
+              "ht",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hebrew <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "iw <-> en",
+            "icons": [],
+            "codes": [
+              "iw",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hindi <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hi <-> en",
+            "icons": [],
+            "codes": [
+              "hi",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Hungarian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "hu <-> en",
+            "icons": [],
+            "codes": [
+              "hu",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Icelandic <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "is <-> en",
+            "icons": [],
+            "codes": [
+              "is",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Indonesian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "id <-> en",
+            "icons": [],
+            "codes": [
+              "id",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Italian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "it <-> en",
+            "icons": [],
+            "codes": [
+              "it",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Japanese <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ja <-> en",
+            "icons": [],
+            "codes": [
+              "ja",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Korean <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ko <-> en",
+            "icons": [],
+            "codes": [
+              "ko",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Latvian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lv <-> en",
+            "icons": [],
+            "codes": [
+              "lv",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Lithuanian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "lt <-> en",
+            "icons": [],
+            "codes": [
+              "lt",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Malay <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ms <-> en",
+            "icons": [],
+            "codes": [
+              "ms",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Marathi <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "mr <-> en",
+            "icons": [],
+            "codes": [
+              "mr",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Norwegian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "no <-> en",
+            "icons": [],
+            "codes": [
+              "no",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Persian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "fa <-> en",
+            "icons": [],
+            "codes": [
+              "fa",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Polish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pl <-> en",
+            "icons": [],
+            "codes": [
+              "pl",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Portuguese <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pt <-> en",
+            "icons": [],
+            "codes": [
+              "pt",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Punjabi <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "pa <-> en",
+            "icons": [],
+            "codes": [
+              "pa",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Romanian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ro <-> en",
+            "icons": [],
+            "codes": [
+              "ro",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Russian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ru <-> en",
+            "icons": [],
+            "codes": [
+              "ru",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Serbian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sr <-> en",
+            "icons": [],
+            "codes": [
+              "sr",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Slovak <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sk <-> en",
+            "icons": [],
+            "codes": [
+              "sk",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Slovenian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sl <-> en",
+            "icons": [],
+            "codes": [
+              "sl",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Spanish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "es <-> en",
+            "icons": [],
+            "codes": [
+              "es",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Swahili <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sw <-> en",
+            "icons": [],
+            "codes": [
+              "sw",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Swedish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "sv <-> en",
+            "icons": [],
+            "codes": [
+              "sv",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Thai <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "th <-> en",
+            "icons": [],
+            "codes": [
+              "th",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Turkish <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "tr <-> en",
+            "icons": [],
+            "codes": [
+              "tr",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Ukrainian <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "uk <-> en",
+            "icons": [],
+            "codes": [
+              "uk",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Urdu <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "ur <-> en",
+            "icons": [],
+            "codes": [
+              "ur",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Vietnamese <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "vi <-> en",
+            "icons": [],
+            "codes": [
+              "vi",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ],
+        [
+          {
+            "text": "Welsh <-> English",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "cy <-> en",
+            "icons": [],
+            "codes": [
+              "cy",
+              "en"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Supported codes for language variants",
+      "rows": [
+        [
+          {
+            "text": "Language code",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Description",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "Base model",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          }
+        ],
+        [
+          {
+            "text": "zh-HK",
+            "icons": [],
+            "codes": [
+              "zh-HK"
+            ],
+            "attrs": {},
+            "code_open": false
+          },
+          {
+            "text": "Hong Kong (Traditional)",
+            "icons": [],
+            "codes": [],
+            "attrs": {}
+          },
+          {
+            "text": "zh-TW",
+            "icons": [],
+            "codes": [
+              "zh-TW"
+            ],
+            "attrs": {},
+            "code_open": false
+          }
+        ]
+      ]
+    }
+  ],
+  "consumer_languages": {}
+}

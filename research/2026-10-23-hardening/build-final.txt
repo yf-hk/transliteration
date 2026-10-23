@@ -1,0 +1,73 @@
+$ bun scripts/build.ts
+Generated data/charmap.ts (full)
+Generated data/charmap-latin.ts (Latin only)
+  Chunks: 133
+  Latin chunks: 3
+  Additional Latin mappings: 632
+  Korean: computed at runtime
+ℹ config file: /Users/administrator/Projects/Open Source/transliteration/repo/tsdown.config.ts 
+ℹ entry: src/node/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/node/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/latin.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/browser/index.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/cli/transliterate.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ entry: src/cli/slugify.ts
+ℹ target: es2020
+ℹ tsconfig: tsconfig.json
+ℹ Build start
+
+ WARN  TypeScript 7.0 does not yet have a stable API and is experimental. Some options will be unavailable.
+
+ℹ Emit types with typescript@7.0.2
+ℹ [ESM] dist/browser/latin.esm.min.js      16.99 kB │ gzip:  7.17 kB
+ℹ [ESM] dist/browser/latin.esm.min.js.map  54.13 kB │ gzip: 14.47 kB
+ℹ [ESM] 2 files, total: 71.13 kB
+ℹ [CJS] dist/node/src/node/latin.js      17.03 kB │ gzip:  7.19 kB
+ℹ [CJS] dist/node/src/node/latin.js.map  54.11 kB │ gzip: 14.45 kB
+ℹ [CJS] 2 files, total: 71.14 kB
+ℹ [IIFE] dist/browser/latin.umd.min.js      17.30 kB │ gzip:  7.31 kB
+ℹ [IIFE] dist/browser/latin.umd.min.js.map  54.15 kB │ gzip: 14.48 kB
+ℹ [IIFE] 2 files, total: 71.45 kB
+ℹ [CJS] Granting execute permission to dist/bin/transliterate
+✔ Build complete in 965ms
+✔ Build complete in 968ms
+ℹ [CJS] Granting execute permission to dist/bin/slugify
+ℹ [CJS] dist/bin/transliterate  188.58 kB │ gzip: 57.83 kB
+ℹ [CJS] 1 files, total: 188.58 kB
+✔ Build complete in 1011ms
+ℹ [CJS] dist/bin/slugify  188.81 kB │ gzip: 57.91 kB
+ℹ [CJS] 1 files, total: 188.81 kB
+✔ Build complete in 1014ms
+ℹ [ESM] dist/browser/bundle.esm.min.js      185.90 kB │ gzip: 56.59 kB
+ℹ [ESM] dist/browser/bundle.esm.min.js.map  439.21 kB │ gzip: 78.85 kB
+ℹ [ESM] 2 files, total: 625.11 kB
+✔ Build complete in 1018ms
+ℹ [CJS] dist/node/src/node/index.js      185.94 kB │ gzip: 56.63 kB
+ℹ [CJS] dist/node/src/node/index.js.map  439.97 kB │ gzip: 78.84 kB
+ℹ [CJS] 2 files, total: 625.91 kB
+ℹ [IIFE] dist/browser/bundle.umd.min.js      186.18 kB │ gzip: 56.74 kB
+ℹ [IIFE] dist/browser/bundle.umd.min.js.map  439.23 kB │ gzip: 78.87 kB
+ℹ [IIFE] 2 files, total: 625.41 kB
+✔ Build complete in 1031ms
+ℹ [CJS] dist/node/src/node/index.d.ts  3.04 kB │ gzip: 1.07 kB
+ℹ [CJS] 1 files, total: 3.04 kB
+ℹ [CJS] dist/node/src/node/latin.d.ts  3.04 kB │ gzip: 1.07 kB
+ℹ [CJS] 1 files, total: 3.04 kB
+✔ Build complete in 1850ms
+✔ Build complete in 1850ms

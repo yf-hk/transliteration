@@ -1,0 +1,81 @@
+[
+  {
+    "packet": "core",
+    "rows": 50,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "confirm_error": 28,
+      "context_required": 4,
+      "prefer_default": 7,
+      "unresolved": 5,
+      "missing_mapping": 5,
+      "valid_alternative": 1
+    },
+    "elapsed_seconds": 122.14
+  },
+  {
+    "packet": "supplement",
+    "rows": 36,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "confirm_error": 28,
+      "prefer_default": 8
+    },
+    "elapsed_seconds": 84.69
+  },
+  {
+    "packet": "common",
+    "rows": 105,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "prefer_default": 82,
+      "unresolved": 7,
+      "valid_alternative": 16
+    },
+    "elapsed_seconds": 137.06
+  },
+  {
+    "packet": "han-1",
+    "rows": 379,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "confirm_error": 252,
+      "valid_alternative": 4,
+      "prefer_default": 104,
+      "unresolved": 13,
+      "context_required": 6
+    },
+    "elapsed_seconds": 478.74
+  },
+  {
+    "packet": "han-2",
+    "rows": 379,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "confirm_error": 190,
+      "context_required": 34,
+      "prefer_default": 63,
+      "valid_alternative": 92
+    },
+    "elapsed_seconds": 432.89
+  },
+  {
+    "packet": "han-3",
+    "rows": 378,
+    "model": "claude-sonnet-5-5",
+    "effort": "medium",
+    "verdicts": {
+      "confirm_error": 209,
+      "valid_alternative": 67,
+      "prefer_default": 82,
+      "unresolved": 17,
+      "context_required": 3
+    },
+    "elapsed_seconds": 535.22
+  }
+]

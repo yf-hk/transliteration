@@ -1,0 +1,50 @@
+✔ packed installation has no runtime dependencies (3.629033ms)
+✔ packed metadata preserves Node, browser, CDN, and legacy entry points (17.846631ms)
+✔ browser export conditions resolve to the standalone ES modules (300.861416ms)
+✔ packed root and Latin entries support Node ES module imports (434.695819ms)
+✔ packed Node executables run and report the package version (1676.859766ms)
+✔ packed APIs terminate for empty regex matches and empty ignore entries (402.673856ms)
+✔ browser script builds expose the documented globals (295.359619ms)
+✔ browser script builds support CommonJS and AMD loaders (181.114065ms)
+✔ browser ES modules load without sibling assets or installed packages (81.194897ms)
+✔ browser bundles include their referenced source maps (14.502892ms)
+✔ packed Node exports retain the issue fixes after data reset (50.047993ms)
+✔ CLI booleans accept positional text and explicit false (3286.305817ms)
+✔ invalid CLI boolean values produce a concise error (610.154737ms)
+✖ stdin file results match whole-input API calls across read boundaries (5598.007972ms)
+✔ custom maps accept upper-BMP and supplementary characters and reset (120.962934ms)
+✔ ignored whole tokens survive slug sanitization (3.119997ms)
+✔ multi-character separators collapse and trim as whole strings (0.455332ms)
+✔ slug cleanup protects ignored text produced by transliteration (0.388251ms)
+✔ Latin builds are small and retain Latin data on reset (3.547263ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 18
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 15058.610286
+
+✖ failing tests:
+
+test at test/package.test.mjs:387:1
+✖ stdin file results match whole-input API calls across read boundaries (5598.007972ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  null !== 0
+  
+      at TestContext.<anonymous> (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-minimal/standalone-tests/test/package.test.mjs:402:12)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,250 @@
+name,original_codes,normalized_entry_id,status,capability_details
+English,en,en,,{}
+Spanish,es,es,,{}
+French,fr,fr,,{}
+Arabic,ar,ar,,{}
+Abkhaz,ab,ab,,{}
+Acehnese,ace,ace,,{}
+Acholi,ach,ach,,{}
+Afar,aa,aa,,{}
+Afrikaans,af,af,,{}
+Albanian,sq,sq,,{}
+Alur,alz,alz,,{}
+Amharic,am,am,,{}
+Armenian,hy,hy,,{}
+Assamese,as,as,,{}
+Avar,av,av,,{}
+Awadhi,awa,awa,,{}
+Aymara,ay,ay,,{}
+Azerbaijani,az,az,,{}
+Balinese,ban,ban,,{}
+Baluchi,bal,bal,,{}
+Bambara,bm,bm,,{}
+Baoulé,bci,bci,,{}
+Bashkir,ba,ba,,{}
+Basque,eu,eu,,{}
+Batak Karo,btx,btx,,{}
+Batak Simalungun,bts,bts,,{}
+Batak Toba,bbc,bbc,,{}
+Belarusian,be,be,,{}
+Bemba,bem,bem,,{}
+Bengali,bn,bn,,{}
+Betawi,bew,bew,,{}
+Bhojpuri,bho,bho,,{}
+Bikol,bik,bik,,{}
+Bosnian,bs,bs,,{}
+Breton,br,br,,{}
+Bulgarian,bg,bg,,{}
+Buryat,bua,bua,,{}
+Cantonese,yue,yue,,{}
+Catalan,ca,ca,,{}
+Cebuano,ceb,ceb,,{}
+Chamorro,ch,ch,,{}
+Chechen,ce,ce,,{}
+Chichewa,ny,ny,,{}
+Chinese (Simplified),zh-CN,zh-CN,,{}
+Chinese (Traditional),zh-TW,zh-TW,,{}
+Chuukese,chk,chk,,{}
+Chuvash,cv,cv,,{}
+Corsican,co,co,,{}
+Crimean Tatar (Cyrillic),crh,crh-Cyrl,,{}
+Crimean Tatar (Latin),crh-Latn,crh-Latn,,{}
+Croatian,hr,hr,,{}
+Czech,cs,cs,,{}
+Danish,da,da,,{}
+Dari,fa-AF,fa-AF,,{}
+Dhivehi,dv,dv,,{}
+Dinka,din,din,,{}
+Dogri,doi,doi,,{}
+Dombe,dov,dov,,{}
+Dutch,nl,nl,,{}
+Dyula,dyu,dyu,,{}
+Dzongkha,dz,dz,,{}
+Esperanto,eo,eo,,{}
+Estonian,et,et,,{}
+Ewe,ee,ee,,{}
+Faroese,fo,fo,,{}
+Fijian,fj,fj,,{}
+Filipino,tl,fil,,{}
+Finnish,fi,fi,,{}
+Fon,fon,fon,,{}
+French (Canada),fr-CA,fr-CA,,{}
+Frisian,fy,fy,,{}
+Friulian,fur,fur,,{}
+Fulani,ff,ff,,{}
+Ga,gaa,gaa,,{}
+Galician,gl,gl,,{}
+Georgian,ka,ka,,{}
+German,de,de,,{}
+Greek,el,el,,{}
+Guarani,gn,gn,,{}
+Gujarati,gu,gu,,{}
+Haitian Creole,ht,ht,,{}
+Hakha Chin,cnh,cnh,,{}
+Hausa,ha,ha,,{}
+Hawaiian,haw,haw,,{}
+Hebrew,iw,he,,{}
+Hiligaynon,hil,hil,,{}
+Hindi,hi,hi,,{}
+Hmong,hmn,hmn,,{}
+Hungarian,hu,hu,,{}
+Hunsrik,hrx,hrx,,{}
+Iban,iba,iba,,{}
+Icelandic,is,is,,{}
+Igbo,ig,ig,,{}
+Ilocano,ilo,ilo,,{}
+Indonesian,id,id,,{}
+Inuktut (Latin),iu-Latn,iu-Latn,,{}
+Inuktut (Syllabics),iu,iu-Cans,,{}
+Irish,ga,ga,,{}
+Italian,it,it,,{}
+Jamaican Patois,jam,jam,,{}
+Japanese,ja,ja,,{}
+Javanese,jw,jv,,{}
+Jingpo,kac,kac,,{}
+Kalaallisut,kl,kl,,{}
+Kannada,kn,kn,,{}
+Kanuri,kr,kr,,{}
+Kapampangan,pam,pam,,{}
+Kazakh,kk,kk,,{}
+Khasi,kha,kha,,{}
+Khmer,km,km,,{}
+Kiga,cgg,cgg,,{}
+Kikongo,kg,kg,,{}
+Kinyarwanda,rw,rw,,{}
+Kituba,ktu,ktu,,{}
+Kokborok,trp,trp,,{}
+Komi,kv,kv,,{}
+Konkani,gom,gom,,{}
+Korean,ko,ko,,{}
+Krio,kri,kri,,{}
+Kurdish (Kurmanji),ku,kmr,,{}
+Kurdish (Sorani),ckb,ckb,,{}
+Kyrgyz,ky,ky,,{}
+Lao,lo,lo,,{}
+Latgalian,ltg,ltg,,{}
+Latin,la,la,,{}
+Latvian,lv,lv,,{}
+Ligurian,lij,lij,,{}
+Limburgish,li,li,,{}
+Lingala,ln,ln,,{}
+Lithuanian,lt,lt,,{}
+Lombard,lmo,lmo,,{}
+Luganda,lg,lg,,{}
+Luo,luo,luo,,{}
+Luxembourgish,lb,lb,,{}
+Macedonian,mk,mk,,{}
+Madurese,mad,mad,,{}
+Maithili,mai,mai,,{}
+Makassar,mak,mak,,{}
+Malagasy,mg,mg,,{}
+Malay,ms,ms,,{}
+Malay (Jawi),ms-Arab,ms-Arab,,{}
+Malayalam,ml,ml,,{}
+Maltese,mt,mt,,{}
+Mam,mam,mam,,{}
+Manx,gv,gv,,{}
+Maori,mi,mi,,{}
+Marathi,mr,mr,,{}
+Marshallese,mh,mh,,{}
+Marwadi,mwr,mwr,,{}
+Mauritian Creole,mfe,mfe,,{}
+Meadow Mari,chm,chm,,{}
+Meiteilon (Manipuri),mni-Mtei,mni-Mtei,,{}
+Minang,min,min,,{}
+Mizo,lus,lus,,{}
+Mongolian,mn,mn,,{}
+Myanmar (Burmese),my,my,,{}
+Nahuatl (Eastern Huasteca),nhe,nhe,,{}
+Ndau,ndc-ZW,ndc-ZW,,{}
+Ndebele (South),nr,nr,,{}
+Nepalbhasa (Newari),new,new,,{}
+Nepali,ne,ne,,{}
+NKo,bm-Nkoo,bm-Nkoo,,{}
+Norwegian,no,no,,{}
+Nuer,nus,nus,,{}
+Occitan,oc,oc,,{}
+Odia (Oriya),or,or,,{}
+Oromo,om,om,,{}
+Ossetian,os,os,,{}
+Pangasinan,pag,pag,,{}
+Papiamento,pap,pap,,{}
+Pashto,ps,ps,,{}
+Persian,fa,fa,,{}
+Polish,pl,pl,,{}
+Portuguese (Brazil),pt,pt-BR,,{}
+Portuguese (Portugal),pt-PT,pt-PT,,{}
+Punjabi (Gurmukhi),pa,pa,,{}
+Punjabi (Shahmukhi),pa-Arab,pa-Arab,,{}
+Quechua,qu,qu,,{}
+Qʼeqchiʼ,kek,kek,,{}
+Romani,rom,rom,,{}
+Romanian,ro,ro,,{}
+Rundi,rn,rn,,{}
+Russian,ru,ru,,{}
+Sami (North),se,se,,{}
+Samoan,sm,sm,,{}
+Sango,sg,sg,,{}
+Sanskrit,sa,sa,,{}
+Santali (Latin),sat-Latn,sat-Latn,,{}
+Santali (Ol Chiki),sat,sat-Olck,,{}
+Scots Gaelic,gd,gd,,{}
+Sepedi,nso,nso,,{}
+Serbian,sr,sr,,{}
+Sesotho,st,st,,{}
+Seychellois Creole,crs,crs,,{}
+Shan,shn,shn,,{}
+Shona,sn,sn,,{}
+Sicilian,scn,scn,,{}
+Silesian,szl,szl,,{}
+Sindhi,sd,sd,,{}
+Sinhala,si,si,,{}
+Slovak,sk,sk,,{}
+Slovenian,sl,sl,,{}
+Somali,so,so,,{}
+Sundanese,su,su,,{}
+Susu,sus,sus,,{}
+Swahili,sw,sw,,{}
+Swati,ss,ss,,{}
+Swedish,sv,sv,,{}
+Tahitian,ty,ty,,{}
+Tajik,tg,tg,,{}
+Tamazight,ber-Latn,ber-Latn,,{}
+Tamazight (Tifinagh),ber,ber-Tfng,,{}
+Tamil,ta,ta,,{}
+Tatar,tt,tt,,{}
+Telugu,te,te,,{}
+Tetum,tet,tet,,{}
+Thai,th,th,,{}
+Tibetan,bo,bo,,{}
+Tigrinya,ti,ti,,{}
+Tiv,tiv,tiv,,{}
+Tok Pisin,tpi,tpi,,{}
+Tongan,to,to,,{}
+Tshiluba,lua,lua,,{}
+Tsonga,ts,ts,,{}
+Tswana,tn,tn,,{}
+Tulu,tcy,tcy,,{}
+Tumbuka,tum,tum,,{}
+Turkish,tr,tr,,{}
+Turkmen,tk,tk,,{}
+Tuvan,tyv,tyv,,{}
+Twi,ak,ak,,{}
+Udmurt,udm,udm,,{}
+Ukrainian,uk,uk,,{}
+Urdu,ur,ur,,{}
+Uyghur,ug,ug,,{}
+Uzbek,uz,uz,,{}
+Venda,ve,ve,,{}
+Venetian,vec,vec,,{}
+Vietnamese,vi,vi,,{}
+Waray,war,war,,{}
+Welsh,cy,cy,,{}
+Wolof,wo,wo,,{}
+Xhosa,xh,xh,,{}
+Yakut,sah,sah,,{}
+Yiddish,yi,yi,,{}
+Yoruba,yo,yo,,{}
+Yucatec Maya,yua,yua,,{}
+Zapotec,zap,zap,,{}
+Zulu,zu,zu,,{}

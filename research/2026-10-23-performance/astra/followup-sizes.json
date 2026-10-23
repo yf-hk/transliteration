@@ -1,0 +1,48 @@
+{
+  "sourceCommit": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "node": "v26.5.0",
+  "esbuild": "0.27.1",
+  "scope": "Standalone research mapper modules, including lookup, materialize, and metadata exports. Not full API bundles or npm package sizes.",
+  "commands": "node research/2026-10-23-performance/astra/measure-sizes.cjs",
+  "results": [
+    {
+      "variant": "pooled-offsets-memo",
+      "source": {
+        "bytes": 117061,
+        "gzip9Bytes": 62845,
+        "brotli11Bytes": 55275
+      },
+      "minified": {
+        "bytes": 116429,
+        "gzip9Bytes": 62674,
+        "brotli11Bytes": 55127
+      }
+    },
+    {
+      "variant": "packed12-hangul-prefix",
+      "source": {
+        "bytes": 94815,
+        "gzip9Bytes": 47853,
+        "brotli11Bytes": 40720
+      },
+      "minified": {
+        "bytes": 94296,
+        "gzip9Bytes": 47779,
+        "brotli11Bytes": 40835
+      }
+    },
+    {
+      "variant": "packed12-codepoints",
+      "source": {
+        "bytes": 94950,
+        "gzip9Bytes": 47909,
+        "brotli11Bytes": 40752
+      },
+      "minified": {
+        "bytes": 94413,
+        "gzip9Bytes": 47850,
+        "brotli11Bytes": 40699
+      }
+    }
+  ]
+}

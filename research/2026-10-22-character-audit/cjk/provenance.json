@@ -1,0 +1,23 @@
+{
+  "snapshot_date": "2026-10-22",
+  "files": [
+    {
+      "local_file": "Unihan.zip",
+      "source_url": "https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip",
+      "bytes": 8518517,
+      "sha256": "f7a48b2b545acfaa77b2d607ae28747404ce02baefee16396c5d2d7a8ef34b5e"
+    },
+    {
+      "local_file": "UnicodeData.txt",
+      "source_url": "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "bytes": 2198209,
+      "sha256": "2e1efc1dcb59c575eedf5ccae60f95229f706ee6d031835247d843c11d96470c"
+    },
+    {
+      "local_file": "MOE-revised-20260929.zip",
+      "source_url": "https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/download/dict_revised_2015_20260929.zip",
+      "bytes": 30615676,
+      "sha256": "65a24fff76d0fbfa078541f39761bb9f302bdf7ad6bb48be4ce1052d1b49f609"
+    }
+  ]
+}

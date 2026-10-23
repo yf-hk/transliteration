@@ -5,10 +5,14 @@ import {
 } from './transliterate';
 import { deepClone, escapeRegExp, regexpReplaceCustom } from './utils';
 
+const DEFAULT_ALLOWED_CHARS = 'a-zA-Z0-9-_.~';
+const DEFAULT_SEPARATORS = /[^a-zA-Z0-9_.~]+/g;
+const DEFAULT_EDGES = /^-+|-+$/g;
+
 // Slugify
 export const defaultOptions: OptionsSlugify = {
   ...deepClone(defaultOptionsTransliterate),
-  allowedChars: 'a-zA-Z0-9-_.~',
+  allowedChars: DEFAULT_ALLOWED_CHARS,
   lowercase: true,
   separator: '-',
   uppercase: false,
@@ -16,10 +20,6 @@ export const defaultOptions: OptionsSlugify = {
 };
 
 export class Slugify extends Transliterate {
-  get options(): OptionsSlugify {
-    return deepClone({ ...defaultOptions, ...this.confOptions });
-  }
-
   /**
    * Set default config
    * @param options
@@ -41,27 +41,42 @@ export class Slugify extends Transliterate {
    */
   slugify(str: string, options?: OptionsSlugify): string {
     const opts = typeof options === 'object' ? options : {};
-    const opt: OptionsSlugify = deepClone({ ...this.options, ...opts });
+    const opt: OptionsSlugify =
+      options === undefined && Reflect.ownKeys(this.confOptions).length === 0
+        ? defaultOptions
+        : deepClone({
+            ...defaultOptions,
+            ...this.confOptions,
+            ...opts,
+          });
 
-    // remove leading and trailing separators
-    const sep: string = opt.separator ? escapeRegExp(opt.separator) : '';
+    const allowedChars = opt.allowedChars ?? defaultOptions.allowedChars;
+    const defaultCleanup =
+      opt.separator === '-' &&
+      allowedChars === DEFAULT_ALLOWED_CHARS &&
+      Array.isArray(opt.ignore) &&
+      opt.ignore.length === 0;
+    const sep =
+      !defaultCleanup && opt.separator ? escapeRegExp(opt.separator) : '';
 
-    let slug: string = this.transliterate(str, opt);
+    let slug: string = this.transliterateWithOptions(str, opt);
 
-    slug = regexpReplaceCustom(
-      slug,
-      new RegExp(`[^${opt.allowedChars ?? defaultOptions.allowedChars}]+`, 'g'),
-      opt.separator ?? '-',
-      opt.ignore ?? []
-    );
-    if (sep) {
-      // Collapse consecutive separators into one
-      slug = slug.replace(
-        new RegExp(`(?:${sep})+`, 'g'),
-        () => opt.separator ?? '-'
+    if (defaultCleanup) {
+      slug = slug.replace(DEFAULT_SEPARATORS, '-').replace(DEFAULT_EDGES, '');
+    } else {
+      slug = regexpReplaceCustom(
+        slug,
+        new RegExp(`[^${allowedChars}]+`, 'g'),
+        opt.separator ?? '-',
+        opt.ignore ?? []
       );
-      // Remove leading and trailing separators
-      slug = slug.replace(new RegExp(`^(?:${sep})+|(?:${sep})+$`, 'g'), '');
+      if (sep) {
+        slug = slug.replace(
+          new RegExp(`(?:${sep})+`, 'g'),
+          () => opt.separator ?? '-'
+        );
+        slug = slug.replace(new RegExp(`^(?:${sep})+|(?:${sep})+$`, 'g'), '');
+      }
     }
 
     if (opt.lowercase) {

@@ -1,0 +1,27 @@
+{
+  "requestedModel": "claude-opus-5-5",
+  "respondingModels": [
+    "claude-opus-5-5"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 60.09500002861023,
+  "subtype": "success",
+  "isError": false,
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 4818,
+      "cacheReadInputTokens": 1858,
+      "cacheCreationInputTokens": 3110,
+      "webSearchRequests": 0,
+      "costUSD": 0.1216196,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 3234,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "promptSha256": "e76b6b7e6b2e48874baaf66509fd6d08bd3ada1b1ec3633cf331030c20a2edac"
+}

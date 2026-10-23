@@ -11,31 +11,88 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
 
-      - name: Setup Node.js for package tests
-        uses: actions/setup-node@v4
+      - name: Setup Node.js for development tools
+        uses: actions/setup-node@v7.1.0
         with:
-          node-version: '20'
+          node-version: '26'
 
       - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+        uses: oven-sh/setup-bun@v2.2.0
         with:
-          bun-version: latest
+          bun-version-file: package.json
 
       - name: Install dependencies
-        run: bun install
+        run: bun install --frozen-lockfile
 
-      - name: Lint
-        run: bun run lint
+      - name: Build
+        run: bun run build
 
-      - name: Test with coverage
-        run: bun run test:coverage
+      - name: Pack the build once
+        run: |
+          mkdir -p artifacts
+          npm pack --ignore-scripts --pack-destination artifacts
+          archive=(artifacts/*.tgz)
+          test "${#archive[@]}" -eq 1
+          test -f "${archive[0]}"
+          sha256sum "${archive[0]}" > artifacts/SHA256SUMS
+          echo "TRANSLITERATION_TARBALL=$PWD/${archive[0]}" >> "$GITHUB_ENV"
+
+      - name: Test, typecheck and lint
+        run: |
+          bun run test:unit --coverage
+          bun run test:workflow
+          bun run typecheck
+          bun run lint
 
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v5
+        uses: codecov/codecov-action@v7.1.1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage/coverage-final.json
+          files: ./coverage/lcov.info
           fail_ci_if_error: false
           verbose: true
+
+      - name: Test the archive
+        run: |
+          archive=(artifacts/*.tgz)
+          test "${#archive[@]}" -eq 1
+          test -f "${archive[0]}"
+          sha256sum "${archive[0]}" | diff artifacts/SHA256SUMS -
+          TRANSLITERATION_TARBALL="$PWD/${archive[0]}" bun run test:package
+
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: npm-package
+          path: |
+            artifacts/*.tgz
+            artifacts/SHA256SUMS
+          if-no-files-found: error
+
+  package-compatibility:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['20.0.0', '22', '24', '26']
+    steps:
+      - uses: actions/checkout@v7.0.1
+
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: ${{ matrix.node }}
+
+      - uses: actions/download-artifact@v8.0.2
+        with:
+          name: npm-package
+          path: artifacts
+          digest-mismatch: error
+
+      - name: Test the archive without development dependencies
+        run: |
+          archive=(artifacts/*.tgz)
+          test "${#archive[@]}" -eq 1
+          test -f "${archive[0]}"
+          sha256sum "${archive[0]}" | diff artifacts/SHA256SUMS -
+          TRANSLITERATION_TARBALL="$PWD/${archive[0]}" node --test test/package.test.mjs

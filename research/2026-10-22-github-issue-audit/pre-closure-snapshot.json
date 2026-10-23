@@ -1,0 +1,174 @@
+[
+  {
+    "comments": [
+      {
+        "id": "MDEyOklzc3VlQ29tbWVudDU2Nzc3NDI0MQ==",
+        "author": {
+          "login": "yf-hk"
+        },
+        "authorAssociation": "OWNER",
+        "body": "Thanks for raising the issue. I think the problem is that these characters are in a Cyrillic alphabet which shared with different langueages (I'm not excactly sure). One solution is that you can set a custom character map for these individual characters like this:\r\n```js\r\ntransliterate.setData({\r\n  '\u00dd': 'Y'\r\n});\r\ntransliterate('\u00fd\u00dd')\r\n```\r\nIn the next major version I may consider to find a better way to handle it",
+        "createdAt": "2019-12-20T03:36:30Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/107#issuecomment-567774241",
+        "viewerDidAuthor": false
+      }
+    ],
+    "number": 107,
+    "state": "OPEN",
+    "title": "[BUG] Czech uppercase \"\u00dd\" is replaced by \"U\" instead of \"Y\"",
+    "updatedAt": "2019-12-20T03:37:14Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/107"
+  },
+  {
+    "comments": [],
+    "number": 246,
+    "state": "OPEN",
+    "title": "\u044a is mapped to unknown, should be silent instead",
+    "updatedAt": "2025-05-28T08:39:20Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/246"
+  },
+  {
+    "comments": [],
+    "number": 256,
+    "state": "OPEN",
+    "title": "\u1e9e (U+1E9E capital sharp S) is silently dropped: transliterate(\"STRA\u1e9eE\") returns \"STRAE\"",
+    "updatedAt": "2026-10-16T04:06:45Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/256"
+  },
+  {
+    "comments": [
+      {
+        "id": "IC_kwDOAWTFRc5H82L0",
+        "author": {
+          "login": "yf-hk"
+        },
+        "authorAssociation": "OWNER",
+        "body": "Well, it supposed to work that way, I'll do some investigation. Meanwhile you can implement it with a workaround like:\r\n```js\r\nslugify('2022\u5e74\u4e2d\u658701\u82f1\u6587nihao02'.replace(/(\\d+)/g, ' $1 ')).replace(/^-|-$/g, '')\r\n```",
+        "createdAt": "2022-08-06T02:57:14Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/239#issuecomment-1207132916",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOAWTFRc5JrafD",
+        "author": {
+          "login": "szx741"
+        },
+        "authorAssociation": "NONE",
+        "body": "\u4f60\u597d\uff0c\u6211\u53c8\u53d1\u73b0\u6709\u4e00\u70b9\u95ee\u9898\uff0c\u4e2d\u6587\u5728\u524d\uff0c\u82f1\u6587\u5728\u540e\uff0c\u4e2d\u95f4\u4f1a\u6709\u6a2a\u6760\uff0c\u5982\u679c\u4e2d\u6587\u5728\u540e\uff0c\u82f1\u6587\u5728\u524d\uff0c\u5c31\u6ca1\u6709\u6a2a\u6760\u8fde\u63a5\u4e86\u3002\r\n\u6bd4\u5982\r\nslugify('\u4f60\u597dworld')    //ni-hao-world\r\nslugify('hello\u4e16\u754c')     //helloshi-jie",
+        "createdAt": "2022-09-03T13:09:44Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/239#issuecomment-1236117443",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "IC_kwDOAWTFRc6LTKba",
+        "author": {
+          "login": "lionel-rowe"
+        },
+        "authorAssociation": "NONE",
+        "body": "You can get better Chinese results by disabling the `fixChineseSpacing` option and instead use the web-standard `Intl.Segmenter` API:\r\n\r\n```ts\r\nimport { slugify } from 'transliteration'\r\n\r\nfunction slugifyWords(str) {\r\n    // you can use 'zh-CN' or another locale instead of 'en-US', but 'en-US' still works fine, even for Chinese text\r\n    return [...new Intl.Segmenter('en-US', { granularity: 'word' }).segment(str)]\r\n        .filter((x) => x.isWordLike)\r\n        .map((x) => x.segment)\r\n        .map((x) => slugify(x, { fixChineseSpacing: false }))\r\n        .join('-')\r\n}\r\n\r\nconsole.log(slugifyWords('2022\u5e74\u4e2d\u658701\u82f1\u6587nihao02'))\r\n// 2022-nian-zhongwen-01-yingwen-nihao02\r\nconsole.log(slugifyWords('\u4f60\u597dworld'))\r\n// nihao-world\r\nconsole.log(slugifyWords('hello\u4e16\u754c'))\r\n// hello-shijie\r\n```",
+        "createdAt": "2024-09-09T03:50:00Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/239#issuecomment-2337056474",
+        "viewerDidAuthor": false
+      }
+    ],
+    "number": 239,
+    "state": "OPEN",
+    "title": "Mixing of numbers and Chinese and English",
+    "updatedAt": "2024-09-09T03:50:00Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/239"
+  },
+  {
+    "comments": [
+      {
+        "id": "IC_kwDOAWTFRc8AAAABNYg_WQ",
+        "author": {
+          "login": "stof"
+        },
+        "authorAssociation": "NONE",
+        "body": "The root cause of that is that the full charmap is imported in `common/transliterate.js`.\nEven though `browser/latin.js` sets a different charmap in the Transliterate instance, that does not remove the import for the full charmap.",
+        "createdAt": "2026-08-05T14:30:35Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/253#issuecomment-5193088857",
+        "viewerDidAuthor": false
+      }
+    ],
+    "number": 253,
+    "state": "OPEN",
+    "title": "Latin same size as bundle",
+    "updatedAt": "2026-08-05T14:30:35Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/253"
+  },
+  {
+    "comments": [
+      {
+        "id": "MDEyOklzc3VlQ29tbWVudDQwNTA3MTU0Mg==",
+        "author": {
+          "login": "yf-hk"
+        },
+        "authorAssociation": "OWNER",
+        "body": "I'm going to work on it. What I'm thinking is to provide an option which you can use your own Unicode -> Latin mappings. Something like:\r\n\r\n```js\r\ntransliterate('\u3053\u3093\u306b\u3061\u308f\u3001\u4e16\u754c\uff01\\^H', { charmap: { 8 /* \\^H backspace */: '\u232b' });\r\n```\r\n\r\nThis is much better than using `replace` option, since it uses a regex to match and replace the entire source string, splitting the source string into multiple segments and then calling transliterate in a recursive ways to  transliterate each segments. If using a Unicode number to Latin mapping it's much more efficient.\r\n\r\nAt the first step, it may only support simple Unicode -> Latin character map. But later on in v2 I'd implement a plugin system, so for some specific language which cannot be 1-1 mapped can implement their own logic, only when the source string contains the characters in that language. For example, Chinese, Japanese and Thai are not working properly without analyzing each whole words, instead of single characters. Then, since I'm not familiar with the transliteration rules from a lot of languages, other users might be able to contribute their own transliteration rules.\r\n\r\nUltimately, if I have time, I'd like to make it possible to transliterate from 1 language to another, e.g. from English to Russian, from Spanish to Japanese etc.. There's a tone of workload though and requires much professional knowledge.\r\n\r\nHow do you guys think about it?",
+        "createdAt": "2018-07-15T06:54:00Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/64#issuecomment-405071542",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "MDEyOklzc3VlQ29tbWVudDQ1NDk2Mjc3Mg==",
+        "author": {
+          "login": "yf-hk"
+        },
+        "authorAssociation": "OWNER",
+        "body": "With v2 you can do it like this:\r\n```\r\ntransliterate.setData({\r\n  '\\^H': '\u232b'\r\n});\r\ntransliterate('\u3053\u3093\u306b\u3061\u308f\u3001\u4e16\u754c\uff01\\^H');\r\n```",
+        "createdAt": "2019-01-16T22:08:43Z",
+        "includesCreatedEdit": false,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/64#issuecomment-454962772",
+        "viewerDidAuthor": false
+      },
+      {
+        "id": "MDEyOklzc3VlQ29tbWVudDQ1NDk2MzU5Mg==",
+        "author": {
+          "login": "yf-hk"
+        },
+        "authorAssociation": "OWNER",
+        "body": "I'll close it for now. If you have more questions, please comment.",
+        "createdAt": "2019-01-16T22:11:31Z",
+        "includesCreatedEdit": true,
+        "isMinimized": false,
+        "minimizedReason": "",
+        "reactionGroups": [],
+        "url": "https://github.com/yf-hk/transliteration/issues/64#issuecomment-454963592",
+        "viewerDidAuthor": false
+      }
+    ],
+    "number": 64,
+    "state": "OPEN",
+    "title": "Add Additional Filter",
+    "updatedAt": "2019-01-16T22:11:42Z",
+    "url": "https://github.com/yf-hk/transliteration/issues/64"
+  }
+]

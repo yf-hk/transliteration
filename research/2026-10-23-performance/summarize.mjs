@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {dir} from './adapters.mjs';
+const read=file=>JSON.parse(fs.readFileSync(path.join(dir,file),'utf8'));
+const stat=values=>{const a=[...values].sort((a,b)=>a-b);return {median:a.length%2?a[a.length>>1]:(a[a.length/2-1]+a[a.length/2])/2,min:a[0],max:a.at(-1)};};
+function bench(file){
+  const source=read(file),groups=new Map();
+  if(!source.endedAt)throw new Error(`Incomplete ${file}`);
+  for(const row of source.results){const key=[row.id,row.mode,row.workload].join('|');if(!groups.has(key))groups.set(key,[]);groups.get(key).push(row);}
+  const results=[...groups.values()].map(rows=>({id:rows[0].id,mode:rows[0].mode,workload:rows[0].workload,runs:rows.length,opsPerSec:stat(rows.map(r=>r.opsPerSec)),mibPerSec:stat(rows.map(r=>r.mibPerSec)),cpuFraction:stat(rows.map(r=>r.cpuMs/r.elapsedMs)),errors:rows.reduce((sum,r)=>sum+r.errors,0),emptyOutputsPerSample:rows[0].outputEmpty,inputCharsPerCall:rows[0].inputCharsPerCall??null}));
+  if(results.some(r=>r.runs!==5||r.errors))throw new Error(`Invalid evidence in ${file}`);
+  return {file,runtime:source.runtime,measurements:source.results.length,startedAt:source.startedAt,endedAt:source.endedAt,loadStart:source.loadStart,loadEnd:source.loadEnd,results};
+}
+const summary={owner:'GPT-6 Astra, max effort',generatedAt:new Date().toISOString(),broad:bench('benchmark-1792686766141.json'),confirmation:bench('confirmation-finalists.json')};
+if(fs.existsSync(path.join(dir,'confirmation-scaling.json')))summary.scaling=bench('confirmation-scaling.json');
+if(fs.existsSync(path.join(dir,'memory-astra.json'))){const source=read('memory-astra.json');if(!source.endedAt)throw new Error('Incomplete memory');summary.memory={file:'memory-astra.json',runtime:source.runtime,results:[...new Set(source.results.map(r=>r.id))].map(id=>{const a=source.results.filter(r=>r.id===id);const row={id,runs:a.length,importMs:stat(a.map(r=>r.importMs)),firstCallMs:stat(a.map(r=>r.firstCallMs))};for(const state of ['importDelta','firstDelta','warmDelta'])row[state]={heap:stat(a.map(r=>r[state].heapUsed)),external:stat(a.map(r=>r[state].external)),arrayBuffers:stat(a.map(r=>r[state].arrayBuffers)),heapPlusExternal:stat(a.map(r=>r[state].heapUsed+r[state].external)),rss:stat(a.map(r=>r[state].rss))};return row;})};}
+if(fs.existsSync(path.join(dir,'memory-scenarios.json'))){const source=read('memory-scenarios.json');if(fs.existsSync(path.join(dir,'memory-scenarios-lean.json')))source.results.push(...read('memory-scenarios-lean.json').results);summary.legacyMemory={files:['memory-scenarios.json',...(fs.existsSync(path.join(dir,'memory-scenarios-lean.json'))?['memory-scenarios-lean.json']:[])],results:[...new Set(source.results.map(r=>r.id+'|'+r.scenario))].map(key=>{const a=source.results.filter(r=>r.id+'|'+r.scenario===key);return {id:a[0].id,scenario:a[0].scenario,runs:a.length,keys:a[0].keyCount,materializeMs:stat(a.map(r=>r.materializeMs)),totalHeapPlusExternalDelta:stat(a.map(r=>r.heapExternalDelta)),additionalHeapPlusExternal:stat(a.map(r=>r.after.heapUsed+r.after.external-r.warm.heapUsed-r.warm.external))};})};}
+for(const language of ['python','rust'])if(fs.existsSync(path.join(dir,`${language}-benchmark.json`))){const source=read(`${language}-benchmark.json`);const groups=new Map();for(const row of source.results){const key=row.id+'|'+row.workload;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(row);}summary[language]={file:`${language}-benchmark.json`,measurements:source.results.length,results:[...groups.values()].map(a=>({id:a[0].id,mode:a[0].mode,workload:a[0].workload,runs:a.length,opsPerSec:stat(a.map(x=>x.opsPerSec)),mibPerSec:stat(a.map(x=>x.mibPerSec)),errors:a.reduce((n,x)=>n+x.errors,0),emptyOutputsPerSample:a[0].outputEmpty,version:a[0].version??null,runtime:a[0].runtime??null}))};}
+fs.writeFileSync(path.join(dir,'summary.json'),JSON.stringify(summary,null,2)+'\n');
+const rows=[['suite','id','mode','workload','runs','median_ops_s','min_ops_s','max_ops_s','median_mib_s','median_cpu_fraction','errors','empty_outputs_per_input_batch']];
+for(const suite of ['broad','confirmation','scaling','python','rust'])for(const r of summary[suite]?.results??[])rows.push([suite,r.id,r.mode,r.workload,r.runs,r.opsPerSec.median,r.opsPerSec.min,r.opsPerSec.max,r.mibPerSec.median,r.cpuFraction?.median??'',r.errors,r.emptyOutputsPerSample]);
+fs.writeFileSync(path.join(dir,'throughput.csv'),rows.map(row=>row.join(',')).join('\n')+'\n');
+console.log(JSON.stringify({broad:summary.broad.measurements,confirmation:summary.confirmation.measurements,scaling:summary.scaling?.measurements,memory:summary.memory?.results.length,legacyMemory:summary.legacyMemory?.results.length}));

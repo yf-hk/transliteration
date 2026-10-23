@@ -1,0 +1,21 @@
+✔ built Node executables run and report the package version (745.520918ms)
+✔ built APIs terminate for empty regex matches and empty ignore entries (353.067778ms)
+✔ browser script builds expose the documented globals (56.620384ms)
+✔ browser script builds support CommonJS and AMD loaders (65.918147ms)
+✔ browser ES modules load without sibling assets (28.83418ms)
+✔ CLI booleans accept positional text and explicit false (2288.053308ms)
+✔ invalid CLI boolean values produce a concise error (282.553266ms)
+✔ stdin file results match whole-input API calls across read boundaries (841.197103ms)
+✔ custom maps accept upper-BMP and supplementary characters and reset (128.254078ms)
+✔ ignored whole tokens survive slug sanitization (1.807195ms)
+✔ multi-character separators collapse and trim as whole strings (0.629529ms)
+✔ slug cleanup protects ignored text produced by transliteration (0.515404ms)
+✔ Latin builds are small and retain Latin data on reset (5.747606ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5202.135311

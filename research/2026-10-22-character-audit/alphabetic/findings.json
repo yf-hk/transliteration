@@ -1,0 +1,376 @@
+[
+  {
+    "codepoint": "U+00DD",
+    "char": "Ý",
+    "name": "LATIN CAPITAL LETTER Y WITH ACUTE",
+    "current": "U",
+    "proposed": "Y",
+    "category": "wrong_letter",
+    "reason": "Acute accent on Latin Y; lowercase ý maps y and canonical decomposition is Y + acute.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+01F2",
+    "char": "ǲ",
+    "name": "LATIN CAPITAL LETTER D WITH SMALL LETTER Z",
+    "current": "D",
+    "proposed": "Dz",
+    "category": "dropped_letter",
+    "reason": "Titlecase DZ digraph decomposes to D z; mapping drops z.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+02B0",
+    "char": "ʰ",
+    "name": "MODIFIER LETTER SMALL H",
+    "current": "k",
+    "proposed": "h",
+    "category": "wrong_letter",
+    "reason": "Modifier small h has compatibility decomposition h, not k.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+03F2",
+    "char": "ϲ",
+    "name": "GREEK LUNATE SIGMA SYMBOL",
+    "current": "c",
+    "proposed": "s",
+    "category": "wrong_letter",
+    "reason": "Lunate sigma is sigma, not Latin c; ALA-LC explicitly maps ϲ to s.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.loc.gov/catdir/cpso/romanization/greek.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0400",
+    "char": "Ѐ",
+    "name": "CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+    "current": "Jo",
+    "proposed": "E (Je if choosing a je convention)",
+    "category": "wrong_vowel",
+    "reason": "This is Е with grave, not Ё/IO; Jo substitutes an o vowel. Ordinary Е maps E. Lowercase ѐ maps je, so case pair also disagrees.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+098C",
+    "char": "ঌ",
+    "name": "BENGALI LETTER VOCALIC L",
+    "current": "RR",
+    "proposed": "L",
+    "category": "wrong_vowel",
+    "reason": "Bengali VOCALIC L belongs to vocalic l series, not vocalic RR; dependent counterpart U+09E2 maps L.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+09F1",
+    "char": "ৱ",
+    "name": "BENGALI LETTER RA WITH LOWER DIAGONAL",
+    "current": "r`",
+    "proposed": "w (or v)",
+    "category": "wrong_letter",
+    "reason": "Despite misleading Unicode formal name RA WITH LOWER DIAGONAL, Unicode identifies this as Assamese wa; r` is the wrong consonant.",
+    "sources": [
+      "https://www.unicode.org/versions/Unicode16.0.0/UnicodeStandard-16.0.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/assamese.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0A2D",
+    "char": "ਭ",
+    "name": "GURMUKHI LETTER BHA",
+    "current": "bb",
+    "proposed": "bh",
+    "category": "wrong_letter",
+    "reason": "Gurmukhi BHA is bha in ALA-LC, consonantal skeleton bh; bb is not the corresponding consonant.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/panjabi.pdf",
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0E0B",
+    "char": "ซ",
+    "name": "THAI CHARACTER SO SO",
+    "current": "ch",
+    "proposed": "s",
+    "category": "wrong_letter",
+    "reason": "Thai SO SO is s initially, t finally; ch is not either reading.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/thai.pdf",
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0E45",
+    "char": "ๅ",
+    "name": "THAI CHARACTER LAKKHANGYAO",
+    "current": "ao",
+    "proposed": "vowel-length operation (fallback aa)",
+    "category": "wrong_vowel",
+    "reason": "Lakkhangyao lengthens ฤ or ฦ; ao introduces an unrelated o. Unicode calls it a vowel length sign; a correct readable result requires context.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/U0E00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/thai.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0E95",
+    "char": "ຕ",
+    "name": "LAO LETTER TO",
+    "current": "h",
+    "proposed": "t",
+    "category": "wrong_letter",
+    "reason": "Lao TO is t, not h; ALA-LC uses t both initially and finally.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/lao.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0EAE",
+    "char": "ຮ",
+    "name": "LAO LETTER HO TAM",
+    "current": "",
+    "proposed": "h",
+    "category": "dropped_letter",
+    "reason": "Lao HO TAM is h initially. Empty string erases an ordinary consonant.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/lao.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0698",
+    "char": "ژ",
+    "name": "ARABIC LETTER JEH",
+    "current": "j",
+    "proposed": "zh",
+    "category": "wrong_letter",
+    "reason": "Persian/Pashto JEH is zh, not j; distinct from Arabic JEEM which maps j.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/persian.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/pushto.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+06A9",
+    "char": "ک",
+    "name": "ARABIC LETTER KEHEH",
+    "current": "kh",
+    "proposed": "k",
+    "category": "wrong_letter",
+    "reason": "Persian/Urdu keheh is k, not kh; LoC Persian note 2 explicitly shows ک as kaf form.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/persian.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+06D0",
+    "char": "ې",
+    "name": "ARABIC LETTER E",
+    "current": "",
+    "proposed": "e",
+    "category": "dropped_vowel",
+    "reason": "Pashto vowel E is romanized e. Empty string deletes a written vowel.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/pushto.pdf",
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0685",
+    "char": "څ",
+    "name": "ARABIC LETTER HAH WITH THREE DOTS ABOVE",
+    "current": "H",
+    "proposed": "ts or s (ALA-LC ṡ)",
+    "category": "wrong_letter",
+    "reason": "Pashto letter TSE is represented by ALA-LC ṡ; ts/s depend on dialect. H is not either consonant.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/pushto.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+06AB",
+    "char": "ګ",
+    "name": "ARABIC LETTER KAF WITH RING",
+    "current": "K",
+    "proposed": "g",
+    "category": "wrong_letter",
+    "reason": "Pashto ګ is g in the ALA-LC alphabet; the data uses K.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/pushto.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+05F2",
+    "char": "ײ",
+    "name": "HEBREW LIGATURE YIDDISH DOUBLE YOD",
+    "current": "i",
+    "proposed": "ey (ay in applicable words)",
+    "category": "wrong_vowel",
+    "reason": "Yiddish double yod represents ey/ay, not i; LoC explicitly lists both diphthongs. Prefer ey as unpointed YIVO default, with ay requiring context/pointing.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0390",
+    "char": "ΐ",
+    "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS",
+    "current": "I",
+    "proposed": "i",
+    "category": "case_error",
+    "reason": "Lowercase Greek iota with dialytika and tonos is currently uppercase I, while other lowercase iotas map i.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0478",
+    "char": "Ѹ",
+    "name": "CYRILLIC CAPITAL LETTER UK",
+    "current": "u",
+    "proposed": "U",
+    "category": "case_error",
+    "reason": "Capital Cyrillic UK maps lowercase u, while lowercase U+0479 also maps u; restore the capital U.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+04D0",
+    "char": "Ӑ",
+    "name": "CYRILLIC CAPITAL LETTER A WITH BREVE",
+    "current": "a",
+    "proposed": "A",
+    "category": "case_error",
+    "reason": "Capital Cyrillic A with breve maps lowercase a; lowercase U+04D1 maps a.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+038E",
+    "char": "Ύ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+    "current": "U",
+    "proposed": "Y (modern/default) or consistent scheme",
+    "category": "scheme_inconsistency",
+    "reason": "Capital upsilon with tonos uses U while unaccented Υ and lowercase ύ use Y/y. U can occur in classical romanization, so this is scheme/case consistency, not universally an impossible reading.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.loc.gov/catdir/cpso/romanization/greek.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+01B1",
+    "char": "Ʊ",
+    "name": "LATIN CAPITAL LETTER UPSILON",
+    "current": "Y",
+    "proposed": "U",
+    "category": "scheme_inconsistency",
+    "reason": "Latin capital upsilon maps Y although its lowercase ʊ maps U (SAMPA-style). Unlike Greek upsilon, this is a Latin IPA/orthographic letter. Needs policy review.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0AAF",
+    "char": "ય",
+    "name": "GUJARATI LETTER YA",
+    "current": "ya",
+    "proposed": "y before vowel signs",
+    "category": "context_or_scheme",
+    "reason": "Gujarati YA uniquely includes inherent a (ya), while neighboring consonants are bare and dependent vowels append, producing duplicate/inappropriate a before explicit vowel signs. Isolated ya itself is a valid romanization.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.loc.gov/catdir/cpso/romanization/gujarati.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0A71",
+    "char": "ੱ",
+    "name": "GURMUKHI ADDAK",
+    "current": "H",
+    "proposed": "double following consonant",
+    "category": "context_error",
+    "reason": "Gurmukhi addak/adhik marks gemination; fixed H inserts unrelated h. ALA-LC specifies doubling the following consonant.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/panjabi.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0651",
+    "char": "ّ",
+    "name": "ARABIC SHADDA",
+    "current": "W",
+    "proposed": "double preceding consonant",
+    "category": "context_error",
+    "reason": "Arabic shadda marks gemination; fixed W inserts unrelated w. ALA-LC Persian/Pashto specifies doubling the letter/digraph.",
+    "sources": [
+      "https://www.loc.gov/catdir/cpso/romanization/persian.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/pushto.pdf"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+0B35",
+    "char": "ଵ",
+    "name": "ORIYA LETTER VA",
+    "current": "",
+    "proposed": "v (or w)",
+    "category": "dropped_letter",
+    "reason": "Odia VA is a consonant, not an ignorable sign; data currently drops it. Primary Unicode identity supports nonempty consonantal fallback; preferred scheme needs specialist confirmation.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  },
+  {
+    "codepoint": "U+095C",
+    "char": "ड़",
+    "name": "DEVANAGARI LETTER DDDHA",
+    "current": "dddh",
+    "proposed": "r/rr (ASCII of ṛ)",
+    "category": "needs_scheme_confirmation",
+    "reason": "Devanagari DDDHA is the flap ṛ (ड़), not an aspirated dddh sequence. Existing data RRA uses rr. Hindi chart retrieval not yet verified; ask language reviewer.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt"
+    ],
+    "claude_review": "pending_parent"
+  }
+]

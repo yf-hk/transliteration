@@ -1,8 +1,9 @@
 import { charmap as latinCharmap } from '../../data/charmap-latin';
 import { Slugify } from '../common/slugify';
-import { Transliterate } from '../common/transliterate';
+import { registerDefaultMap, Transliterate } from '../common/transliterate';
 import type { SlugifyFunction, TransliterateFunction } from '../types';
 
+registerDefaultMap(latinCharmap);
 const t = new Transliterate({}, latinCharmap);
 export const transliterate: TransliterateFunction = t.transliterate.bind(
   t

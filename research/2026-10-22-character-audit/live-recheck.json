@@ -1,0 +1,428 @@
+{
+  "audited_sha256": "ed678e3d8e46f7976e32187e9c0d2231ce19a128e4807d2d700380129a11588d",
+  "live_sha256": "5f73d742afe15b135b27a9c537d302d1eaa124fe4e393c8d239b77fbcf7373bd",
+  "changed_during_audit": true,
+  "counts": {
+    "matches_suggestion_now": 1,
+    "unchanged_defect": 30
+  },
+  "rows": [
+    {
+      "codepoint": "U+00DD",
+      "audited_value": "U",
+      "live_value": "Y",
+      "suggested": "Y",
+      "status": "matches_suggestion_now"
+    },
+    {
+      "codepoint": "U+01F2",
+      "audited_value": "D",
+      "live_value": "D",
+      "suggested": "Dz",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+02B0",
+      "audited_value": "k",
+      "live_value": "k",
+      "suggested": "h",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0390",
+      "audited_value": "I",
+      "live_value": "I",
+      "suggested": "i",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+03F2",
+      "audited_value": "c",
+      "live_value": "c",
+      "suggested": "s",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0400",
+      "audited_value": "Jo",
+      "live_value": "Jo",
+      "suggested": "E",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0478",
+      "audited_value": "u",
+      "live_value": "u",
+      "suggested": "U",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+04D0",
+      "audited_value": "a",
+      "live_value": "a",
+      "suggested": "A",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+05F2",
+      "audited_value": "i",
+      "live_value": "i",
+      "suggested": "ey",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0685",
+      "audited_value": "H",
+      "live_value": "H",
+      "suggested": "ts",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+06A9",
+      "audited_value": "kh",
+      "live_value": "kh",
+      "suggested": "k",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+06AB",
+      "audited_value": "K",
+      "live_value": "K",
+      "suggested": "g",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+06D0",
+      "audited_value": "",
+      "live_value": "",
+      "suggested": "e",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+095C",
+      "audited_value": "dddh",
+      "live_value": "dddh",
+      "suggested": "r",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+098C",
+      "audited_value": "RR",
+      "live_value": "RR",
+      "suggested": "L",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+09F1",
+      "audited_value": "r`",
+      "live_value": "r`",
+      "suggested": "w",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0A2D",
+      "audited_value": "bb",
+      "live_value": "bb",
+      "suggested": "bh",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0B35",
+      "audited_value": "",
+      "live_value": "",
+      "suggested": "v",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0E0B",
+      "audited_value": "ch",
+      "live_value": "ch",
+      "suggested": "s",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0E95",
+      "audited_value": "h",
+      "live_value": "h",
+      "suggested": "t",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+0EAE",
+      "audited_value": "",
+      "live_value": "",
+      "suggested": "h",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+32D3",
+      "audited_value": "u",
+      "live_value": "u",
+      "suggested": "e",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+3371",
+      "audited_value": "HPA",
+      "live_value": "HPA",
+      "suggested": "hPa",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+33A3",
+      "audited_value": "mm^4",
+      "live_value": "mm^4",
+      "suggested": "mm^3",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+A771",
+      "audited_value": "us",
+      "live_value": "us",
+      "suggested": "dum",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+A772",
+      "audited_value": "dum",
+      "live_value": "dum",
+      "suggested": "lum",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+A773",
+      "audited_value": "lum",
+      "live_value": "lum",
+      "suggested": "mum",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+FB27",
+      "audited_value": "m",
+      "live_value": "m",
+      "suggested": "r",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+FB3E",
+      "audited_value": "l",
+      "live_value": "l",
+      "suggested": "m",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+FB41",
+      "audited_value": "n",
+      "live_value": "n",
+      "suggested": "s",
+      "status": "unchanged_defect"
+    },
+    {
+      "codepoint": "U+FB47",
+      "audited_value": "ts",
+      "live_value": "ts",
+      "suggested": "q",
+      "status": "unchanged_defect"
+    }
+  ],
+  "mandarin_defaults": [
+    {
+      "codepoint": "U+5B6C",
+      "audited_value": "Huai ",
+      "live_value": "Huai ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+5BE7",
+      "audited_value": "Zhu ",
+      "live_value": "Zhu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+60DA",
+      "audited_value": "Bu ",
+      "live_value": "Bu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+6251",
+      "audited_value": "Bu ",
+      "live_value": "Bu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+6482",
+      "audited_value": "Lue ",
+      "live_value": "Lue ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+65EF",
+      "audited_value": "Xu ",
+      "live_value": "Xu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+70C3",
+      "audited_value": "Jing ",
+      "live_value": "Jing ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+762A",
+      "audited_value": "Pie ",
+      "live_value": "Pie ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+765F",
+      "audited_value": "Pie ",
+      "live_value": "Pie ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+7845",
+      "audited_value": "Huo ",
+      "live_value": "Huo ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+7C72",
+      "audited_value": "Xu ",
+      "live_value": "Xu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+7EBC",
+      "audited_value": "Yin ",
+      "live_value": "Yin ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+7ECC",
+      "audited_value": "Zhuo ",
+      "live_value": "Zhuo ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+7F9F",
+      "audited_value": "Qian ",
+      "live_value": "Qian ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+82CE",
+      "audited_value": "Meng ",
+      "live_value": "Meng ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+859B",
+      "audited_value": "Xie ",
+      "live_value": "Xie ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+8934",
+      "audited_value": "Bao ",
+      "live_value": "Bao ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+8941",
+      "audited_value": "Jiang ",
+      "live_value": "Jiang ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9486",
+      "audited_value": "Qiu ",
+      "live_value": "Qiu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+948C",
+      "audited_value": "Diao ",
+      "live_value": "Diao ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9496",
+      "audited_value": "Xi ",
+      "live_value": "Xi ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+94C6",
+      "audited_value": "Liu ",
+      "live_value": "Liu ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+94CA",
+      "audited_value": "She ",
+      "live_value": "She ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+94EA",
+      "audited_value": "Jia ",
+      "live_value": "Jia ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9507",
+      "audited_value": "Tie ",
+      "live_value": "Tie ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9517",
+      "audited_value": "Duo ",
+      "live_value": "Duo ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9518",
+      "audited_value": "Tian ",
+      "live_value": "Tian ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9536",
+      "audited_value": "Song ",
+      "live_value": "Song ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9616",
+      "audited_value": "Ge ",
+      "live_value": "Ge ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+97A5",
+      "audited_value": "Yi ",
+      "live_value": "Yi ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9CC0",
+      "audited_value": "Shi ",
+      "live_value": "Shi ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9CCF",
+      "audited_value": "Yin ",
+      "live_value": "Yin ",
+      "changed": false
+    },
+    {
+      "codepoint": "U+9EE5",
+      "audited_value": "Jing ",
+      "live_value": "Jing ",
+      "changed": false
+    }
+  ]
+}

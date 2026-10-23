@@ -1,0 +1,21 @@
+$ node --test test/release-workflows.test.mjs
+✔ release consumes the triggering successful push and tested archive (4.584268ms)
+✔ release verifies archive bytes and checked-out package identity (681.378675ms)
+✔ package helpers install the supplied archive when the checkout differs (1359.755023ms)
+✔ Test the archive passes the verified tarball to package tests (1693.837237ms)
+✔ Test the archive without development dependencies passes the verified tarball to package tests (1432.696276ms)
+✔ release rejects mismatched identity another-package@1.2.3 (702.774476ms)
+✔ release rejects mismatched identity transliteration-workflow-fixture@9.9.9 (627.611291ms)
+✔ release rejects tampered archives before publication (331.348344ms)
+✔ release rejects duplicate archives before publication (266.216143ms)
+✔ release rejects missing archives before publication (221.726408ms)
+✔ release rejects wrong manifest archives before publication (364.657332ms)
+✔ publication rechecks the archive and dry-runs without lifecycle scripts (1680.955971ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9856.369703

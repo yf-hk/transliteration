@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prototype-eager-object",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/eager-object.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pages",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pages.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-offsets",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-offsets.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-values",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-values.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-blocks",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-blocks.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-values",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-values.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-values-ascii",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-values-ascii.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-values-options",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-values-options.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-pooled-offsets-memo",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/pooled-offsets-memo.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-hangul-prefix",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-hangul-prefix.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-codepoints",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-codepoints.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-optimized",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-optimized.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-linear-spacing",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-linear-spacing.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  },
+  {
+    "id": "prototype-packed12-lean-custom",
+    "module": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-performance/prototypes/packed12-lean-custom.cjs",
+    "package": null,
+    "modes": [
+      "transliterate",
+      "slugify"
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+deps/node_modules/
+python/.venv/
+rust/target/
+package-experiments/

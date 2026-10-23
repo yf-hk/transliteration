@@ -1,0 +1,38 @@
+diff --git a/src/common/slugify.test.ts b/src/common/slugify.test.ts
+index 8d6ccc2..20b9b39 100644
+--- a/src/common/slugify.test.ts
++++ b/src/common/slugify.test.ts
+@@ -140,6 +140,20 @@ describe('slugify() edge cases', () => {
+     );
+   });
+ 
++  it('should fall back to the default allowedChars when it is undefined or null', () => {
++    // Passing `allowedChars: undefined` (e.g. from a spread of optional config)
++    // must use the default, not coerce `undefined` into the character class.
++    expect(slugify('Hello World', { allowedChars: undefined })).toBe(
++      'hello-world'
++    );
++    expect(
++      slugify('Hello World', { allowedChars: null as unknown as string })
++    ).toBe('hello-world');
++    expect(
++      slugify('Hello World', { uppercase: true, allowedChars: undefined })
++    ).toBe('HELLO-WORLD');
++  });
++
+   it('should handle custom separator with special regex characters', () => {
+     expect(slugify('hello world', { separator: '.' })).toBe('hello.world');
+     expect(slugify('hello world', { separator: '+' })).toBe('hello+world');
+diff --git a/src/common/slugify.ts b/src/common/slugify.ts
+index 40ed2d6..2fec945 100644
+--- a/src/common/slugify.ts
++++ b/src/common/slugify.ts
+@@ -50,7 +50,7 @@ export class Slugify extends Transliterate {
+ 
+     slug = regexpReplaceCustom(
+       slug,
+-      new RegExp(`[^${opt.allowedChars}]+`, 'g'),
++      new RegExp(`[^${opt.allowedChars ?? defaultOptions.allowedChars}]+`, 'g'),
+       opt.separator ?? '-',
+       opt.ignore ?? []
+     );

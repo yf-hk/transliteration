@@ -13,15 +13,112 @@ import {
   findStrOccurrences,
   hasChinese,
   hasPunctuationOrSpace,
-  inRange,
   regexpReplaceCustom,
 } from './utils';
 
-const SURROGATE_HIGH_REGEX = /[\uD800-\uDBFF]/;
-const SURROGATE_LOW_REGEX = /[\uDC00-\uDFFF]/;
 const REDOS_SAFE_REGEX = /[^\s\S]/;
+const NON_ASCII_REGEX = /[^\p{ASCII}]/gu;
 const LATIN_REGEX = /^\p{Script_Extensions=Latin}$/u;
 const NUMBER_REGEX = /^\p{Number}$/u;
+// A map returned by either API can be changed through its shared reference.
+type Page = (string | undefined)[];
+type PrivateMap = { pages: Record<number, Page | undefined> | undefined };
+const mapAccess = new WeakMap<Charmap, PrivateMap | 'exposed'>();
+const setPagePrototype = Object.setPrototypeOf;
+const getOwnDescriptor = Object.getOwnPropertyDescriptor;
+const hasOwnValue = Object.hasOwn;
+
+function privateValue(
+  map: Charmap,
+  state: PrivateMap,
+  code: number,
+  char: string
+): string | undefined {
+  const high = code >>> 8;
+  const low = code & 255;
+  const directory = state.pages;
+  let page = directory?.[high];
+  const cached = page?.[low];
+  if (cached !== undefined) return cached;
+  if (!hasOwnValue(map, char)) return undefined;
+  const own = getOwnDescriptor(map, char);
+  if (!own || !hasOwnValue(own, 'value') || typeof own.value !== 'string')
+    return undefined;
+  if (page === undefined) {
+    page = [];
+    setPagePrototype(page, null);
+    const pages: Record<number, Page | undefined> =
+      directory ?? Object.create(null);
+    state.pages = pages;
+    pages[high] = page;
+  }
+  page[low] = own.value;
+  return own.value;
+}
+
+function readMap(map: Charmap, char: string): string | undefined {
+  const state = mapAccess.get(map);
+  if (state && state !== 'exposed') {
+    const code = char.codePointAt(0);
+    if (code === undefined) return undefined;
+    if (code < 128) return char;
+    const value = privateValue(map, state, code, char);
+    if (value !== undefined) return value;
+    if (!(char in map)) return undefined;
+    // A getter receives the map as its receiver and can retain or mutate it.
+    mapAccess.set(map, 'exposed');
+  }
+  return map[char];
+}
+
+function mapPrivateCharacters(
+  source: string,
+  map: Charmap,
+  state: PrivateMap,
+  unknown: string
+): string | undefined {
+  let result = '';
+  let start = 0;
+  for (let index = 0; index < source.length; index++) {
+    let code = source.charCodeAt(index);
+    if (code < 128) continue;
+    let width = 1;
+    const low =
+      code >= 0xd800 && code <= 0xdbff ? source.charCodeAt(index + 1) : 0;
+    if (low >= 0xdc00 && low <= 0xdfff) {
+      code = (code - 0xd800) * 1024 + low - 0xdc00 + 0x10000;
+      width = 2;
+    }
+    let value = state.pages?.[code >>> 8]?.[code & 255];
+    let char = '';
+    if (value === undefined) {
+      char = source.slice(index, index + width);
+      value = privateValue(map, state, code, char);
+    }
+    if (value === undefined && char in map) {
+      mapAccess.set(map, 'exposed');
+      return undefined;
+    }
+    value ??= unknown;
+    result += source.slice(start, index) + value;
+    start = index + width;
+    index += width - 1;
+  }
+  return start ? result + source.slice(start) : source;
+}
+
+export function registerDefaultMap(map: Charmap): void {
+  if (mapAccess.has(map)) return;
+  for (let code = 0; code < 128; code++) {
+    const char = String.fromCharCode(code);
+    const entry = Object.getOwnPropertyDescriptor(map, char);
+    if (!entry || !Object.hasOwn(entry, 'value') || entry.value !== char) {
+      mapAccess.set(map, 'exposed');
+      return;
+    }
+  }
+  mapAccess.set(map, { pages: undefined });
+}
 
 export const defaultOptions: OptionsTransliterate = {
   ignore: [],
@@ -33,10 +130,6 @@ export const defaultOptions: OptionsTransliterate = {
 };
 
 export class Transliterate {
-  get options(): OptionsTransliterate {
-    return deepClone({ ...defaultOptions, ...this.confOptions });
-  }
-
   protected confOptions: OptionsTransliterate;
   protected defaultMap: Charmap;
   protected map: Charmap;
@@ -73,47 +166,90 @@ export class Transliterate {
     opt: OptionsTransliterate,
     ignoreRanges: IntervalArray = []
   ): string {
-    let index = 0;
+    let ignoreIndex = 0;
     let result = '';
     const strContainsChinese = opt.fixChineseSpacing && hasChinese(str);
+    if (!strContainsChinese && ignoreRanges.length === 0) {
+      const unknown = opt.unknown ?? '';
+      const state = mapAccess.get(this.map);
+      if (state && state !== 'exposed' && typeof unknown === 'string') {
+        const mapped = mapPrivateCharacters(str, this.map, state, unknown);
+        if (mapped !== undefined) return mapped;
+      }
+
+      const usePrivateMapping = typeof mapAccess.get(this.map) === 'object';
+      let unchangedStart = 0;
+      for (let i = 0; i < str.length; i++) {
+        const code = str.charCodeAt(i);
+        let char = str[i];
+        if (code >= 0xd800 && code <= 0xdbff) {
+          const low = str.charCodeAt(i + 1);
+          if (low >= 0xdc00 && low <= 0xdfff) char += str[i + 1];
+        }
+        const mapped =
+          (usePrivateMapping ? readMap(this.map, char) : this.map[char]) ??
+          opt.unknown ??
+          '';
+        if (mapped !== char) {
+          result += str.slice(unchangedStart, i) + mapped;
+          unchangedStart = i + char.length;
+        }
+        i += char.length - 1;
+      }
+      return unchangedStart ? result + str.slice(unchangedStart) : str;
+    }
+    const usePrivateMapping = typeof mapAccess.get(this.map) === 'object';
     let lastCharHasChinese = false;
     let lastCharIsLatin = false;
     let lastCharIsNumber = false;
+    let lastOutputChar = '';
     for (let i = 0; i < str.length; i++) {
       // Get current character, taking surrogates in consideration
-      const char =
-        SURROGATE_HIGH_REGEX.test(str[i]) &&
-        SURROGATE_LOW_REGEX.test(str[i + 1])
-          ? str[i] + str[i + 1]
-          : str[i];
+      const code = str.charCodeAt(i);
+      let char = str[i];
+      if (code >= 0xd800 && code <= 0xdbff) {
+        const low = str.charCodeAt(i + 1);
+        if (low >= 0xdc00 && low <= 0xdfff) char += str[i + 1];
+      }
       let s: string;
       let ignoreFixingChinese = false;
       // Check if current character is in ignored list or UTF-32 surrogate pair
-      const isIgnored =
-        inRange(index, ignoreRanges) ||
-        (char.length === 2 && inRange(index + 1, ignoreRanges));
+      while (
+        ignoreIndex < ignoreRanges.length &&
+        ignoreRanges[ignoreIndex][1] < i
+      ) {
+        ignoreIndex += 1;
+      }
+      const ignoreRange = ignoreRanges[ignoreIndex];
+      const isIgnored = ignoreRange && ignoreRange[0] < i + char.length;
 
       if (isIgnored) {
         s = char;
         // if it's the first character of an ignored string, then leave ignoreFixingChinese to true
-        if (
-          !ignoreRanges.find((range) => range[1] >= index && range[0] === index)
-        ) {
-          ignoreFixingChinese = true;
-        }
+        ignoreFixingChinese = ignoreRange[0] !== i;
       } else {
-        s = this.map[char] ?? opt.unknown ?? '';
+        s =
+          (usePrivateMapping ? readMap(this.map, char) : this.map[char]) ??
+          opt.unknown ??
+          '';
       }
       // fix Chinese spacing issue
       if (strContainsChinese && s) {
-        const charHasChinese = hasChinese(char);
-        const charIsNumber = NUMBER_REGEX.test(char);
-        const charIsLatin = LATIN_REGEX.test(char);
+        const basicHan = code >= 0x4e00 && code <= 0x9ffc;
+        const ascii = code < 128;
+        const charHasChinese = !ascii && (basicHan || hasChinese(char));
+        const charIsNumber = ascii
+          ? code >= 48 && code <= 57
+          : !basicHan && NUMBER_REGEX.test(char);
+        const latinCode = code | 32;
+        const charIsLatin = ascii
+          ? latinCode >= 97 && latinCode <= 122
+          : !basicHan && LATIN_REGEX.test(char);
         if (
           !(
             ignoreFixingChinese ||
             hasPunctuationOrSpace(s) ||
-            hasPunctuationOrSpace(result.slice(-1))
+            hasPunctuationOrSpace(lastOutputChar)
           ) &&
           (lastCharHasChinese ||
             (charHasChinese && (lastCharIsLatin || lastCharIsNumber)) ||
@@ -125,9 +261,9 @@ export class Transliterate {
         lastCharHasChinese = charHasChinese;
         lastCharIsLatin = charIsLatin;
         lastCharIsNumber = charIsNumber;
+        lastOutputChar = s.slice(-1);
       }
       result += s;
-      index += char.length;
       // If it's UTF-32 then skip next character
       i += char.length - 1;
     }
@@ -194,9 +330,11 @@ export class Transliterate {
    */
   setData(data?: Charmap, reset = false): Charmap {
     if (reset) {
+      mapAccess.set(this.defaultMap, 'exposed');
       this.map = deepClone(this.defaultMap);
     }
     if (data && typeof data === 'object' && Object.keys(data).length) {
+      mapAccess.set(this.map, 'exposed');
       this.map = deepClone(this.map);
       for (const from of Object.keys(data)) {
         const code = from.codePointAt(0);
@@ -205,6 +343,7 @@ export class Transliterate {
         }
       }
     }
+    mapAccess.set(this.map, 'exposed');
     return this.map;
   }
 
@@ -214,12 +353,33 @@ export class Transliterate {
    * @param options Options object
    */
   transliterate(source: string, options?: OptionsTransliterate): string {
+    if (
+      options === undefined &&
+      Reflect.ownKeys(this.confOptions).length === 0
+    ) {
+      if (
+        typeof source === 'string' &&
+        typeof mapAccess.get(this.map) === 'object' &&
+        source.search(NON_ASCII_REGEX) === -1
+      ) {
+        return source;
+      }
+      return this.transliterateWithOptions(source, defaultOptions);
+    }
     const opts = typeof options === 'object' ? options : {};
     const opt: OptionsTransliterate = deepClone({
-      ...this.options,
+      ...defaultOptions,
+      ...this.confOptions,
       ...opts,
     });
 
+    return this.transliterateWithOptions(source, opt);
+  }
+
+  protected transliterateWithOptions(
+    source: string,
+    opt: OptionsTransliterate
+  ): string {
     // force convert to string
     let str = typeof source === 'string' ? source : String(source);
 

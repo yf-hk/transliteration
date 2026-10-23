@@ -1,0 +1,581 @@
+{
+  "runtime": "v26.5.0",
+  "files": [
+    {
+      "name": "before",
+      "file": "node/src/node/index.js",
+      "rawBytes": 185604,
+      "gzipBytes": 54308,
+      "brotliBytes": 54194
+    },
+    {
+      "name": "before",
+      "file": "node/src/node/latin.js",
+      "rawBytes": 16650,
+      "gzipBytes": 6597,
+      "brotliBytes": 5707
+    },
+    {
+      "name": "before",
+      "file": "browser/bundle.esm.min.js",
+      "rawBytes": 185562,
+      "gzipBytes": 54275,
+      "brotliBytes": 54282
+    },
+    {
+      "name": "before",
+      "file": "browser/bundle.umd.min.js",
+      "rawBytes": 185842,
+      "gzipBytes": 54422,
+      "brotliBytes": 54297
+    },
+    {
+      "name": "before",
+      "file": "browser/latin.esm.min.js",
+      "rawBytes": 16611,
+      "gzipBytes": 6558,
+      "brotliBytes": 5682
+    },
+    {
+      "name": "before",
+      "file": "browser/latin.umd.min.js",
+      "rawBytes": 16923,
+      "gzipBytes": 6705,
+      "brotliBytes": 5775
+    },
+    {
+      "name": "after",
+      "file": "node/src/node/index.js",
+      "rawBytes": 185816,
+      "gzipBytes": 54398,
+      "brotliBytes": 54296
+    },
+    {
+      "name": "after",
+      "file": "node/src/node/latin.js",
+      "rawBytes": 16885,
+      "gzipBytes": 6685,
+      "brotliBytes": 5791
+    },
+    {
+      "name": "after",
+      "file": "browser/bundle.esm.min.js",
+      "rawBytes": 185774,
+      "gzipBytes": 54362,
+      "brotliBytes": 54378
+    },
+    {
+      "name": "after",
+      "file": "browser/bundle.umd.min.js",
+      "rawBytes": 186054,
+      "gzipBytes": 54500,
+      "brotliBytes": 54369
+    },
+    {
+      "name": "after",
+      "file": "browser/latin.esm.min.js",
+      "rawBytes": 16846,
+      "gzipBytes": 6644,
+      "brotliBytes": 5766
+    },
+    {
+      "name": "after",
+      "file": "browser/latin.umd.min.js",
+      "rawBytes": 17158,
+      "gzipBytes": 6792,
+      "brotliBytes": 5859
+    }
+  ],
+  "packages": [
+    {
+      "name": "transliteration",
+      "id": "transliteration@2.6.2",
+      "version": "2.6.2",
+      "size": 550118,
+      "unpackedSize": 2478489,
+      "shasum": "69c7074eca2b0be28f5f928f21544ca455776321",
+      "integrity": "sha512-Q+d0aTskz/quSdwyM6yAa4/8hcl//gs0q+pIYD0BAQbSMmoWPGgzdbWnReKaprqtRqR78CJrcFCSYPYq/jZ6vg==",
+      "filename": "transliteration-2.6.2.tgz",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 1068,
+          "mode": 420
+        },
+        {
+          "path": "README.md",
+          "size": 12853,
+          "mode": 420
+        },
+        {
+          "path": "dist/bin/slugify",
+          "size": 188475,
+          "mode": 493
+        },
+        {
+          "path": "dist/bin/transliterate",
+          "size": 188248,
+          "mode": 493
+        },
+        {
+          "path": "dist/browser/bundle.esm.min.js",
+          "size": 185562,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.esm.min.js.map",
+          "size": 437771,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.umd.min.js",
+          "size": 185842,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.umd.min.js.map",
+          "size": 437786,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.esm.min.js",
+          "size": 16611,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.esm.min.js.map",
+          "size": 52659,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.umd.min.js",
+          "size": 16923,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.umd.min.js.map",
+          "size": 52672,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.d.ts",
+          "size": 3040,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.js",
+          "size": 185604,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.js.map",
+          "size": 438528,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.d.ts",
+          "size": 3040,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.js",
+          "size": 16650,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.js.map",
+          "size": 52632,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 2525,
+          "mode": 420
+        }
+      ],
+      "entryCount": 19,
+      "bundled": []
+    },
+    {
+      "name": "transliteration",
+      "id": "transliteration@2.6.2",
+      "version": "2.6.2",
+      "size": 551623,
+      "unpackedSize": 2485306,
+      "shasum": "00d7f294666f64666ad89dac40ea63bc601b66de",
+      "integrity": "sha512-J2NKQ51lXGTW9ATeI5MO6XSax2cPbOL73VVghS04IrMLlYrXrwfkhynIfuYqr868WcRs05FE27+iZeZcfRiJcg==",
+      "filename": "transliteration-2.6.2.tgz",
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "size": 1068,
+          "mode": 420
+        },
+        {
+          "path": "README.md",
+          "size": 12853,
+          "mode": 420
+        },
+        {
+          "path": "dist/bin/slugify",
+          "size": 188687,
+          "mode": 493
+        },
+        {
+          "path": "dist/bin/transliterate",
+          "size": 188460,
+          "mode": 493
+        },
+        {
+          "path": "dist/browser/bundle.esm.min.js",
+          "size": 185774,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.esm.min.js.map",
+          "size": 438598,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.umd.min.js",
+          "size": 186054,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/bundle.umd.min.js.map",
+          "size": 438613,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.esm.min.js",
+          "size": 16846,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.esm.min.js.map",
+          "size": 53516,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.umd.min.js",
+          "size": 17158,
+          "mode": 420
+        },
+        {
+          "path": "dist/browser/latin.umd.min.js.map",
+          "size": 53529,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.d.ts",
+          "size": 3040,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.js",
+          "size": 185816,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/index.js.map",
+          "size": 439355,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.d.ts",
+          "size": 3040,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.js",
+          "size": 16885,
+          "mode": 420
+        },
+        {
+          "path": "dist/node/src/node/latin.js.map",
+          "size": 53489,
+          "mode": 420
+        },
+        {
+          "path": "package.json",
+          "size": 2525,
+          "mode": 420
+        }
+      ],
+      "entryCount": 19,
+      "bundled": []
+    }
+  ],
+  "memory": [
+    {
+      "name": "before",
+      "round": 0,
+      "before": {
+        "rss": 44077056,
+        "heapTotal": 5378048,
+        "heapUsed": 4427632,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65552384,
+        "heapTotal": 10027008,
+        "heapUsed": 7428720,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 74354688,
+        "heapTotal": 12648448,
+        "heapUsed": 7519536,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 77.00449600000002,
+      "checksum": 390000
+    },
+    {
+      "name": "after",
+      "round": 0,
+      "before": {
+        "rss": 44834816,
+        "heapTotal": 5378048,
+        "heapUsed": 4315616,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65921024,
+        "heapTotal": 10551296,
+        "heapUsed": 7444264,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 72769536,
+        "heapTotal": 12648448,
+        "heapUsed": 7481136,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 69.12759300000002,
+      "checksum": 390000
+    },
+    {
+      "name": "after",
+      "round": 1,
+      "before": {
+        "rss": 44019712,
+        "heapTotal": 5378048,
+        "heapUsed": 4427800,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65646592,
+        "heapTotal": 10027008,
+        "heapUsed": 7434984,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 71176192,
+        "heapTotal": 12386304,
+        "heapUsed": 7481048,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 75.53457900000001,
+      "checksum": 390000
+    },
+    {
+      "name": "before",
+      "round": 1,
+      "before": {
+        "rss": 43995136,
+        "heapTotal": 5378048,
+        "heapUsed": 4427072,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 64970752,
+        "heapTotal": 10027008,
+        "heapUsed": 7434448,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 74383360,
+        "heapTotal": 12124160,
+        "heapUsed": 7519696,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 90.067138,
+      "checksum": 390000
+    },
+    {
+      "name": "before",
+      "round": 2,
+      "before": {
+        "rss": 44244992,
+        "heapTotal": 5378048,
+        "heapUsed": 4282896,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65785856,
+        "heapTotal": 10027008,
+        "heapUsed": 7434448,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 75280384,
+        "heapTotal": 12124160,
+        "heapUsed": 7519584,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 80.156254,
+      "checksum": 390000
+    },
+    {
+      "name": "after",
+      "round": 2,
+      "before": {
+        "rss": 44355584,
+        "heapTotal": 5378048,
+        "heapUsed": 4427072,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65859584,
+        "heapTotal": 10551296,
+        "heapUsed": 7429248,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 71888896,
+        "heapTotal": 12910592,
+        "heapUsed": 7481136,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 92.609691,
+      "checksum": 390000
+    },
+    {
+      "name": "after",
+      "round": 3,
+      "before": {
+        "rss": 44097536,
+        "heapTotal": 5378048,
+        "heapUsed": 4592752,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65011712,
+        "heapTotal": 10027008,
+        "heapUsed": 7434984,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 70291456,
+        "heapTotal": 12386304,
+        "heapUsed": 7481024,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 74.98140399999998,
+      "checksum": 390000
+    },
+    {
+      "name": "before",
+      "round": 3,
+      "before": {
+        "rss": 44412928,
+        "heapTotal": 5378048,
+        "heapUsed": 4047376,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65634304,
+        "heapTotal": 10027008,
+        "heapUsed": 7428720,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 75067392,
+        "heapTotal": 12910592,
+        "heapUsed": 7519536,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 71.584307,
+      "checksum": 390000
+    },
+    {
+      "name": "before",
+      "round": 4,
+      "before": {
+        "rss": 44093440,
+        "heapTotal": 5378048,
+        "heapUsed": 4427800,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65097728,
+        "heapTotal": 10551296,
+        "heapUsed": 7428720,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 74592256,
+        "heapTotal": 12910592,
+        "heapUsed": 7519536,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 94.94691899999998,
+      "checksum": 390000
+    },
+    {
+      "name": "after",
+      "round": 4,
+      "before": {
+        "rss": 44433408,
+        "heapTotal": 5378048,
+        "heapUsed": 4047336,
+        "external": 1676573,
+        "arrayBuffers": 137467
+      },
+      "imported": {
+        "rss": 65925120,
+        "heapTotal": 10551296,
+        "heapUsed": 7429248,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "warmed": {
+        "rss": 72998912,
+        "heapTotal": 12648448,
+        "heapUsed": 7480880,
+        "external": 1676578,
+        "arrayBuffers": 137467
+      },
+      "importMs": 92.20769999999999,
+      "checksum": 390000
+    }
+  ]
+}

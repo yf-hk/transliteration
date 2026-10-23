@@ -1,0 +1,139 @@
+{
+  "runtime": "v26.5.0",
+  "files": [
+    {
+      "file": "node/src/node/index.js",
+      "beforeRaw": 185604,
+      "afterRaw": 185816,
+      "deltaRaw": 212,
+      "beforeGzip": 54308,
+      "afterGzip": 54398,
+      "deltaGzip": 90
+    },
+    {
+      "file": "node/src/node/latin.js",
+      "beforeRaw": 16650,
+      "afterRaw": 16885,
+      "deltaRaw": 235,
+      "beforeGzip": 6597,
+      "afterGzip": 6685,
+      "deltaGzip": 88
+    },
+    {
+      "file": "browser/bundle.esm.min.js",
+      "beforeRaw": 185562,
+      "afterRaw": 185774,
+      "deltaRaw": 212,
+      "beforeGzip": 54275,
+      "afterGzip": 54362,
+      "deltaGzip": 87
+    },
+    {
+      "file": "browser/bundle.umd.min.js",
+      "beforeRaw": 185842,
+      "afterRaw": 186054,
+      "deltaRaw": 212,
+      "beforeGzip": 54422,
+      "afterGzip": 54500,
+      "deltaGzip": 78
+    },
+    {
+      "file": "browser/latin.esm.min.js",
+      "beforeRaw": 16611,
+      "afterRaw": 16846,
+      "deltaRaw": 235,
+      "beforeGzip": 6558,
+      "afterGzip": 6644,
+      "deltaGzip": 86
+    },
+    {
+      "file": "browser/latin.umd.min.js",
+      "beforeRaw": 16923,
+      "afterRaw": 17158,
+      "deltaRaw": 235,
+      "beforeGzip": 6705,
+      "afterGzip": 6792,
+      "deltaGzip": 87
+    }
+  ],
+  "packages": [
+    {
+      "name": "transliteration",
+      "size": 550118,
+      "unpackedSize": 2478489
+    },
+    {
+      "name": "transliteration",
+      "size": 551623,
+      "unpackedSize": 2485306
+    }
+  ],
+  "memory": [
+    {
+      "name": "before",
+      "before.heapUsed": {
+        "median": 4427072,
+        "min": 4047376,
+        "max": 4427800
+      },
+      "before.rss": {
+        "median": 44093440,
+        "min": 43995136,
+        "max": 44412928
+      },
+      "imported.heapUsed": {
+        "median": 7428720,
+        "min": 7428720,
+        "max": 7434448
+      },
+      "imported.rss": {
+        "median": 65552384,
+        "min": 64970752,
+        "max": 65785856
+      },
+      "warmed.heapUsed": {
+        "median": 7519536,
+        "min": 7519536,
+        "max": 7519696
+      },
+      "warmed.rss": {
+        "median": 74592256,
+        "min": 74354688,
+        "max": 75280384
+      }
+    },
+    {
+      "name": "after",
+      "before.heapUsed": {
+        "median": 4427072,
+        "min": 4047336,
+        "max": 4592752
+      },
+      "before.rss": {
+        "median": 44355584,
+        "min": 44019712,
+        "max": 44834816
+      },
+      "imported.heapUsed": {
+        "median": 7434984,
+        "min": 7429248,
+        "max": 7444264
+      },
+      "imported.rss": {
+        "median": 65859584,
+        "min": 65011712,
+        "max": 65925120
+      },
+      "warmed.heapUsed": {
+        "median": 7481048,
+        "min": 7480880,
+        "max": 7481136
+      },
+      "warmed.rss": {
+        "median": 71888896,
+        "min": 70291456,
+        "max": 72998912
+      }
+    }
+  ]
+}

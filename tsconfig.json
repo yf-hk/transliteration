@@ -20,8 +20,8 @@
     "strictNullChecks": true,
     "stripInternal": true,
     "target": "ES2020",
-    "types": ["node", "vitest/globals"]
+    "types": ["bun"]
   },
-  "include": ["src", "data", "test", "scripts"],
+  "include": ["src", "data", "test", "scripts", "tsdown.config.ts"],
   "exclude": ["node_modules", "dist"]
 }

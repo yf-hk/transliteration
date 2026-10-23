@@ -1,0 +1,87 @@
+[
+  {
+    "cp": "U+A771",
+    "character": "ꝱ",
+    "output": "us"
+  },
+  {
+    "cp": "U+A772",
+    "character": "ꝲ",
+    "output": "dum"
+  },
+  {
+    "cp": "U+A773",
+    "character": "ꝳ",
+    "output": "lum"
+  },
+  {
+    "cp": "U+A7FF",
+    "character": "ꟿ",
+    "output": "M1"
+  },
+  {
+    "cp": "U+FB27",
+    "character": "ﬧ",
+    "output": "m"
+  },
+  {
+    "cp": "U+FB3E",
+    "character": "מּ",
+    "output": "l"
+  },
+  {
+    "cp": "U+FB41",
+    "character": "סּ",
+    "output": "n"
+  },
+  {
+    "cp": "U+FB47",
+    "character": "קּ",
+    "output": "ts"
+  },
+  {
+    "cp": "U+FB35",
+    "character": "וּ",
+    "output": "v"
+  },
+  {
+    "cp": "U+FB4B",
+    "character": "וֹ",
+    "output": "vo"
+  },
+  {
+    "cp": "U+FB4C",
+    "character": "בֿ",
+    "output": "b"
+  },
+  {
+    "cp": "U+FB4D",
+    "character": "כֿ",
+    "output": "k"
+  },
+  {
+    "cp": "U+FB4E",
+    "character": "פֿ",
+    "output": "p"
+  },
+  {
+    "cp": "U+A4A2",
+    "character": "꒢",
+    "output": ""
+  },
+  {
+    "cp": "U+2460",
+    "character": "①",
+    "output": ""
+  },
+  {
+    "cp": "U+FDF2",
+    "character": "ﷲ",
+    "output": ""
+  },
+  {
+    "cp": "U+FE8F",
+    "character": "ﺏ",
+    "output": ""
+  }
+]

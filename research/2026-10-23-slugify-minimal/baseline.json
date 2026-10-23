@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-10-22T20:40:14.564Z",
+  "head": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "branch": "codex/modern-tooling-benchmarks",
+  "sourceHashes": {
+    "src/common/transliterate.ts": "ee012a5311aa2770073c0d2824c80c94f5611d24c6fc41e10da4bc8a69087bc4",
+    "src/common/slugify.ts": "0b170a69cb7dcc84e6de0bd6b347175ece545e8bef7e29ea7e1e3287813a9472",
+    "src/common/utils.ts": "3820d60c344854f26676e13bc2ec4a258c6e6b19d5fb1f5921fc8062286f881e",
+    "package.json": "e6c45de3a330fb6e312686f18b3b65677377cf9927e2aad32385b2c15d76de48",
+    "bun.lock": "9b907de626a21b82962de2a50efe3d47b46d4159415dc34f8598e2d21c106314",
+    "tsdown.config.ts": "0341ad86cab6011b29f3fcfc76c02c2564dbad8788f101d6fee8a967f7fb1cd5"
+  }
+}

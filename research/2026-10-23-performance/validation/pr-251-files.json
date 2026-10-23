@@ -1,0 +1,14 @@
+[
+  {
+    "sha": "5a4fbb2a0078105672340a4f9cd006caeac716ed",
+    "filename": "README.md",
+    "status": "modified",
+    "additions": 3,
+    "deletions": 3,
+    "changes": 6,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/bb170f27bee3c258c86fff80dac277c9cf9c8522/README.md",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/bb170f27bee3c258c86fff80dac277c9cf9c8522/README.md",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/README.md?ref=bb170f27bee3c258c86fff80dac277c9cf9c8522",
+    "patch": "@@ -93,11 +93,11 @@ slugify('你好, world!');  // => 'ni-hao-world'\n <script src=\"https://cdn.jsdelivr.net/npm/transliteration@2/dist/browser/bundle.umd.min.js\"></script>\n <script>\n   // Available as global variables\n-  transliterate('你好, World');  // => 'Ni Hao , World'\n-  slugify('Hello, 世界');       // => 'hello-shi-jie'\n+  transliteration.transliterate('你好, World');  // => 'Ni Hao , World'\n+  transliteration.slugify('Hello, 世界');       // => 'hello-shi-jie'\n   \n   // Legacy method (will be removed in next major version)\n-  transl('Hola, mundo');       // => 'hola-mundo'\n+  transliteration.transl('Hola, mundo');       // => 'hola-mundo'\n </script>\n ```\n "
+  }
+]

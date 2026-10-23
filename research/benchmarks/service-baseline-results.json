@@ -1,0 +1,487 @@
+{
+  "scope": "Current mapping engine; not a neural/quality/Azure comparison",
+  "node": "v26.5.0",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+  "logicalCpus": 64,
+  "loadBefore": [
+    10.548828125,
+    9.9287109375,
+    8.5302734375
+  ],
+  "sourceMapSourcesVerified": 132,
+  "errors": 0,
+  "checksum": 43740655,
+  "memoryRuns": [
+    {
+      "importMs": 53.77131400000002,
+      "before": {
+        "rss": 56643584,
+        "heapTotal": 10096640,
+        "heapUsed": 7031344,
+        "external": 4020928,
+        "arrayBuffers": 146559
+      },
+      "after": {
+        "rss": 68452352,
+        "heapTotal": 13963264,
+        "heapUsed": 10433096,
+        "external": 4020933,
+        "arrayBuffers": 146559
+      },
+      "heapDelta": 3401752,
+      "rssDelta": 11808768
+    },
+    {
+      "importMs": 65.09119100000001,
+      "before": {
+        "rss": 56819712,
+        "heapTotal": 10358784,
+        "heapUsed": 7334520,
+        "external": 4020928,
+        "arrayBuffers": 146559
+      },
+      "after": {
+        "rss": 69427200,
+        "heapTotal": 13963264,
+        "heapUsed": 10433288,
+        "external": 4020933,
+        "arrayBuffers": 146559
+      },
+      "heapDelta": 3098768,
+      "rssDelta": 12607488
+    },
+    {
+      "importMs": 58.81116800000001,
+      "before": {
+        "rss": 56520704,
+        "heapTotal": 10620928,
+        "heapUsed": 7186784,
+        "external": 4020928,
+        "arrayBuffers": 146559
+      },
+      "after": {
+        "rss": 69013504,
+        "heapTotal": 13963264,
+        "heapUsed": 10433096,
+        "external": 4020933,
+        "arrayBuffers": 146559
+      },
+      "heapDelta": 3246312,
+      "rssDelta": 12492800
+    },
+    {
+      "importMs": 79.29126699999995,
+      "before": {
+        "rss": 57090048,
+        "heapTotal": 10096640,
+        "heapUsed": 7249280,
+        "external": 4020928,
+        "arrayBuffers": 146559
+      },
+      "after": {
+        "rss": 68845568,
+        "heapTotal": 13701120,
+        "heapUsed": 10431832,
+        "external": 4020933,
+        "arrayBuffers": 146559
+      },
+      "heapDelta": 3182552,
+      "rssDelta": 11755520
+    },
+    {
+      "importMs": 76.81689,
+      "before": {
+        "rss": 57171968,
+        "heapTotal": 10096640,
+        "heapUsed": 7310344,
+        "external": 4020928,
+        "arrayBuffers": 146559
+      },
+      "after": {
+        "rss": 69070848,
+        "heapTotal": 13701120,
+        "heapUsed": 10433096,
+        "external": 4020933,
+        "arrayBuffers": 146559
+      },
+      "heapDelta": 3122752,
+      "rssDelta": 11898880
+    }
+  ],
+  "micro": [
+    {
+      "name": "ascii",
+      "codePoints": 77,
+      "usPerCall": {
+        "median": 5.368216847317011,
+        "min": 5.099268366118009,
+        "max": 8.315630101699453
+      },
+      "runs": [
+        {
+          "elapsedMs": 160.49559399999998,
+          "calls": 29892,
+          "usPerCall": 5.369182189214505
+        },
+        {
+          "elapsedMs": 152.42732999999953,
+          "calls": 29892,
+          "usPerCall": 5.099268366118009
+        },
+        {
+          "elapsedMs": 248.57081500000004,
+          "calls": 29892,
+          "usPerCall": 8.315630101699453
+        },
+        {
+          "elapsedMs": 160.46673800000008,
+          "calls": 29892,
+          "usPerCall": 5.368216847317011
+        },
+        {
+          "elapsedMs": 156.31316700000025,
+          "calls": 29892,
+          "usPerCall": 5.229264251304706
+        }
+      ]
+    },
+    {
+      "name": "chinese",
+      "codePoints": 42,
+      "usPerCall": {
+        "median": 12.530233532437377,
+        "min": 11.293695370831257,
+        "max": 16.439920275427212
+      },
+      "runs": [
+        {
+          "elapsedMs": 151.03943500000014,
+          "calls": 12054,
+          "usPerCall": 12.530233532437377
+        },
+        {
+          "elapsedMs": 156.25113200000033,
+          "calls": 12054,
+          "usPerCall": 12.962595984735385
+        },
+        {
+          "elapsedMs": 198.16679899999963,
+          "calls": 12054,
+          "usPerCall": 16.439920275427212
+        },
+        {
+          "elapsedMs": 139.95521400000052,
+          "calls": 12054,
+          "usPerCall": 11.610686411149869
+        },
+        {
+          "elapsedMs": 136.13420399999995,
+          "calls": 12054,
+          "usPerCall": 11.293695370831257
+        }
+      ]
+    },
+    {
+      "name": "korean",
+      "codePoints": 46,
+      "usPerCall": {
+        "median": 7.999344013596893,
+        "min": 6.546544126904218,
+        "max": 9.179027823240625
+      },
+      "runs": [
+        {
+          "elapsedMs": 127.07757900000024,
+          "calls": 15886,
+          "usPerCall": 7.999344013596893
+        },
+        {
+          "elapsedMs": 145.81803600000057,
+          "calls": 15886,
+          "usPerCall": 9.179027823240625
+        },
+        {
+          "elapsedMs": 103.9984000000004,
+          "calls": 15886,
+          "usPerCall": 6.546544126904218
+        },
+        {
+          "elapsedMs": 142.54495700000007,
+          "calls": 15886,
+          "usPerCall": 8.97299238323052
+        },
+        {
+          "elapsedMs": 115.57954199999949,
+          "calls": 15886,
+          "usPerCall": 7.275559738134175
+        }
+      ]
+    },
+    {
+      "name": "thai",
+      "codePoints": 70,
+      "usPerCall": {
+        "median": 11.875392225697327,
+        "min": 11.191842471436805,
+        "max": 13.107342184208822
+      },
+      "runs": [
+        {
+          "elapsedMs": 186.05177000000003,
+          "calls": 15667,
+          "usPerCall": 11.875392225697327
+        },
+        {
+          "elapsedMs": 175.3425960000004,
+          "calls": 15667,
+          "usPerCall": 11.191842471436805
+        },
+        {
+          "elapsedMs": 178.79169699999966,
+          "calls": 15667,
+          "usPerCall": 11.411993170358055
+        },
+        {
+          "elapsedMs": 205.3527299999996,
+          "calls": 15667,
+          "usPerCall": 13.107342184208822
+        },
+        {
+          "elapsedMs": 204.4223669999992,
+          "calls": 15667,
+          "usPerCall": 13.04795857534941
+        }
+      ]
+    },
+    {
+      "name": "arabic",
+      "codePoints": 81,
+      "usPerCall": {
+        "median": 14.177988712756248,
+        "min": 11.463430907129263,
+        "max": 19.617817910200074
+      },
+      "runs": [
+        {
+          "elapsedMs": 185.53576699999985,
+          "calls": 12049,
+          "usPerCall": 15.398436965723285
+        },
+        {
+          "elapsedMs": 138.12287900000047,
+          "calls": 12049,
+          "usPerCall": 11.463430907129263
+        },
+        {
+          "elapsedMs": 170.83058600000004,
+          "calls": 12049,
+          "usPerCall": 14.177988712756248
+        },
+        {
+          "elapsedMs": 163.68839000000025,
+          "calls": 12049,
+          "usPerCall": 13.585226159847311
+        },
+        {
+          "elapsedMs": 236.3750880000007,
+          "calls": 12049,
+          "usPerCall": 19.617817910200074
+        }
+      ]
+    }
+  ],
+  "http": [
+    {
+      "concurrency": 1,
+      "runs": [
+        {
+          "requests": 1000,
+          "elapsedMs": 2875.0064199999997,
+          "requestsPerSecond": 347.8253102474811,
+          "p50Ms": 2.7175370000004477,
+          "p95Ms": 3.944799000000785,
+          "p99Ms": 7.250328999998601,
+          "clientCpu": {
+            "user": 1785157,
+            "system": 264770
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 2428.6269699999993,
+          "requestsPerSecond": 411.7552890388927,
+          "p50Ms": 2.425547999999253,
+          "p95Ms": 3.0855200000005425,
+          "p99Ms": 3.372932000000219,
+          "clientCpu": {
+            "user": 1019824,
+            "system": 187093
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 2205.102517000001,
+          "requestsPerSecond": 453.49365496189284,
+          "p50Ms": 2.2067620000016177,
+          "p95Ms": 2.676625000000058,
+          "p99Ms": 3.366395000000921,
+          "clientCpu": {
+            "user": 926947,
+            "system": 103035
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 2296.2727589999995,
+          "requestsPerSecond": 435.4883347723415,
+          "p50Ms": 2.289228000001458,
+          "p95Ms": 2.842014999998355,
+          "p99Ms": 3.2778870000001916,
+          "clientCpu": {
+            "user": 1013629,
+            "system": 158510
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 2229.984676,
+          "requestsPerSecond": 448.4335747964575,
+          "p50Ms": 2.2462850000010803,
+          "p95Ms": 2.816023999999743,
+          "p99Ms": 3.3446850000000268,
+          "clientCpu": {
+            "user": 909929,
+            "system": 110008
+          }
+        }
+      ],
+      "requestsPerSecond": {
+        "median": 435.4883347723415,
+        "min": 347.8253102474811,
+        "max": 453.49365496189284
+      },
+      "p95Ms": {
+        "median": 2.842014999998355,
+        "min": 2.676625000000058,
+        "max": 3.944799000000785
+      }
+    },
+    {
+      "concurrency": 16,
+      "runs": [
+        {
+          "requests": 1000,
+          "elapsedMs": 570.1929569999993,
+          "requestsPerSecond": 1753.7922693071798,
+          "p50Ms": 7.922586999997293,
+          "p95Ms": 15.422216999999364,
+          "p99Ms": 26.566383000001224,
+          "clientCpu": {
+            "user": 751650,
+            "system": 52776
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 526.4532589999981,
+          "requestsPerSecond": 1899.503864596655,
+          "p50Ms": 7.598348999999871,
+          "p95Ms": 13.895958000000974,
+          "p99Ms": 21.977708999998868,
+          "clientCpu": {
+            "user": 668337,
+            "system": 51605
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 719.8840409999975,
+          "requestsPerSecond": 1389.1126112629067,
+          "p50Ms": 10.78163300000233,
+          "p95Ms": 16.635784000001877,
+          "p99Ms": 35.173541000000114,
+          "clientCpu": {
+            "user": 862591,
+            "system": 65329
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 668.9099519999982,
+          "requestsPerSecond": 1494.969535152024,
+          "p50Ms": 8.524070000003121,
+          "p95Ms": 20.6095779999996,
+          "p99Ms": 40.08988699999827,
+          "clientCpu": {
+            "user": 921207,
+            "system": 73290
+          }
+        },
+        {
+          "requests": 1000,
+          "elapsedMs": 566.8528320000005,
+          "requestsPerSecond": 1764.1263191219252,
+          "p50Ms": 8.648152000001573,
+          "p95Ms": 11.987768999999389,
+          "p99Ms": 24.247176999997464,
+          "clientCpu": {
+            "user": 665683,
+            "system": 58716
+          }
+        }
+      ],
+      "requestsPerSecond": {
+        "median": 1753.7922693071798,
+        "min": 1389.1126112629067,
+        "max": 1899.503864596655
+      },
+      "p95Ms": {
+        "median": 15.422216999999364,
+        "min": 11.987768999999389,
+        "max": 20.6095779999996
+      }
+    }
+  ],
+  "server": {
+    "completed": 10000,
+    "failed": 0,
+    "memory": {
+      "rss": 97931264,
+      "heapTotal": 22355968,
+      "heapUsed": 16137544,
+      "external": 4073999,
+      "arrayBuffers": 168625
+    },
+    "cpu": {
+      "user": 3157919,
+      "system": 916315
+    }
+  },
+  "loadAfter": [
+    9.740234375,
+    9.78564453125,
+    8.5107421875
+  ],
+  "memory": {
+    "importMs": {
+      "median": 65.09119100000001,
+      "min": 53.77131400000002,
+      "max": 79.29126699999995
+    },
+    "heapDeltaBytes": {
+      "median": 3182552,
+      "min": 3098768,
+      "max": 3401752
+    },
+    "rssAfterBytes": {
+      "median": 69013504,
+      "min": 68452352,
+      "max": 69427200
+    },
+    "rssDeltaBytes": {
+      "median": 11898880,
+      "min": 11755520,
+      "max": 12607488
+    }
+  }
+}

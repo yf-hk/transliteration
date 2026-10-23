@@ -1,0 +1,1685 @@
+[
+  {
+    "cp": "U+00A8",
+    "char": "¨",
+    "name": "DIAERESIS",
+    "mapping": "\"",
+    "category": "Sk",
+    "decomposition": " ̈",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+00AF",
+    "char": "¯",
+    "name": "MACRON",
+    "mapping": "-",
+    "category": "Sk",
+    "decomposition": " ̄",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+00B4",
+    "char": "´",
+    "name": "ACUTE ACCENT",
+    "mapping": "'",
+    "category": "Sk",
+    "decomposition": " ́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+00B5",
+    "char": "µ",
+    "name": "MICRO SIGN",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "μ",
+    "decomposed_mapping": "m"
+  },
+  {
+    "cp": "U+00B8",
+    "char": "¸",
+    "name": "CEDILLA",
+    "mapping": ",",
+    "category": "Sk",
+    "decomposition": " ̧",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+00DD",
+    "char": "Ý",
+    "name": "LATIN CAPITAL LETTER Y WITH ACUTE",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ý",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+013F",
+    "char": "Ŀ",
+    "name": "LATIN CAPITAL LETTER L WITH MIDDLE DOT",
+    "mapping": "L",
+    "category": "Lu",
+    "decomposition": "L·",
+    "decomposed_mapping": "L*"
+  },
+  {
+    "cp": "U+0140",
+    "char": "ŀ",
+    "name": "LATIN SMALL LETTER L WITH MIDDLE DOT",
+    "mapping": "l",
+    "category": "Ll",
+    "decomposition": "l·",
+    "decomposed_mapping": "l*"
+  },
+  {
+    "cp": "U+01EF",
+    "char": "ǯ",
+    "name": "LATIN SMALL LETTER EZH WITH CARON",
+    "mapping": "zh",
+    "category": "Ll",
+    "decomposition": "ǯ",
+    "decomposed_mapping": "Z"
+  },
+  {
+    "cp": "U+01F2",
+    "char": "ǲ",
+    "name": "LATIN CAPITAL LETTER D WITH SMALL LETTER Z",
+    "mapping": "D",
+    "category": "Lt",
+    "decomposition": "Dz",
+    "decomposed_mapping": "Dz"
+  },
+  {
+    "cp": "U+02B0",
+    "char": "ʰ",
+    "name": "MODIFIER LETTER SMALL H",
+    "mapping": "k",
+    "category": "Lm",
+    "decomposition": "h",
+    "decomposed_mapping": "h"
+  },
+  {
+    "cp": "U+02D8",
+    "char": "˘",
+    "name": "BREVE",
+    "mapping": "V",
+    "category": "Sk",
+    "decomposition": " ̆",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+02D9",
+    "char": "˙",
+    "name": "DOT ABOVE",
+    "mapping": ".",
+    "category": "Sk",
+    "decomposition": " ̇",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+02DA",
+    "char": "˚",
+    "name": "RING ABOVE",
+    "mapping": "@",
+    "category": "Sk",
+    "decomposition": " ̊",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+02DB",
+    "char": "˛",
+    "name": "OGONEK",
+    "mapping": ",",
+    "category": "Sk",
+    "decomposition": " ̨",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+02DC",
+    "char": "˜",
+    "name": "SMALL TILDE",
+    "mapping": "~",
+    "category": "Sk",
+    "decomposition": " ̃",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+02DD",
+    "char": "˝",
+    "name": "DOUBLE ACUTE ACCENT",
+    "mapping": "\"",
+    "category": "Sk",
+    "decomposition": " ̋",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+037A",
+    "char": "ͺ",
+    "name": "GREEK YPOGEGRAMMENI",
+    "mapping": "",
+    "category": "Lm",
+    "decomposition": " ͅ",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+037E",
+    "char": ";",
+    "name": "GREEK QUESTION MARK",
+    "mapping": "?",
+    "category": "Po",
+    "decomposition": ";",
+    "decomposed_mapping": ";"
+  },
+  {
+    "cp": "U+0384",
+    "char": "΄",
+    "name": "GREEK TONOS",
+    "mapping": "",
+    "category": "Sk",
+    "decomposition": " ́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+0385",
+    "char": "΅",
+    "name": "GREEK DIALYTIKA TONOS",
+    "mapping": "",
+    "category": "Sk",
+    "decomposition": " ̈́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+0387",
+    "char": "·",
+    "name": "GREEK ANO TELEIA",
+    "mapping": ";",
+    "category": "Po",
+    "decomposition": "·",
+    "decomposed_mapping": "*"
+  },
+  {
+    "cp": "U+038E",
+    "char": "Ύ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH TONOS",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ύ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+03D0",
+    "char": "ϐ",
+    "name": "GREEK BETA SYMBOL",
+    "mapping": "b",
+    "category": "Ll",
+    "decomposition": "β",
+    "decomposed_mapping": "v"
+  },
+  {
+    "cp": "U+03D2",
+    "char": "ϒ",
+    "name": "GREEK UPSILON WITH HOOK SYMBOL",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Υ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+03D3",
+    "char": "ϓ",
+    "name": "GREEK UPSILON WITH ACUTE AND HOOK SYMBOL",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ύ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+03D4",
+    "char": "ϔ",
+    "name": "GREEK UPSILON WITH DIAERESIS AND HOOK SYMBOL",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ϋ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+03D5",
+    "char": "ϕ",
+    "name": "GREEK PHI SYMBOL",
+    "mapping": "ph",
+    "category": "Ll",
+    "decomposition": "φ",
+    "decomposed_mapping": "f"
+  },
+  {
+    "cp": "U+03F2",
+    "char": "ϲ",
+    "name": "GREEK LUNATE SIGMA SYMBOL",
+    "mapping": "c",
+    "category": "Ll",
+    "decomposition": "ς",
+    "decomposed_mapping": "s"
+  },
+  {
+    "cp": "U+0400",
+    "char": "Ѐ",
+    "name": "CYRILLIC CAPITAL LETTER IE WITH GRAVE",
+    "mapping": "Jo",
+    "category": "Lu",
+    "decomposition": "Ѐ",
+    "decomposed_mapping": "E"
+  },
+  {
+    "cp": "U+0401",
+    "char": "Ё",
+    "name": "CYRILLIC CAPITAL LETTER IO",
+    "mapping": "Yo",
+    "category": "Lu",
+    "decomposition": "Ё",
+    "decomposed_mapping": "E"
+  },
+  {
+    "cp": "U+0403",
+    "char": "Ѓ",
+    "name": "CYRILLIC CAPITAL LETTER GJE",
+    "mapping": "Gj",
+    "category": "Lu",
+    "decomposition": "Ѓ",
+    "decomposed_mapping": "G"
+  },
+  {
+    "cp": "U+0407",
+    "char": "Ї",
+    "name": "CYRILLIC CAPITAL LETTER YI",
+    "mapping": "Yi",
+    "category": "Lu",
+    "decomposition": "Ї",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+040C",
+    "char": "Ќ",
+    "name": "CYRILLIC CAPITAL LETTER KJE",
+    "mapping": "Kj",
+    "category": "Lu",
+    "decomposition": "Ќ",
+    "decomposed_mapping": "K"
+  },
+  {
+    "cp": "U+0419",
+    "char": "Й",
+    "name": "CYRILLIC CAPITAL LETTER SHORT I",
+    "mapping": "Y",
+    "category": "Lu",
+    "decomposition": "Й",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+0439",
+    "char": "й",
+    "name": "CYRILLIC SMALL LETTER SHORT I",
+    "mapping": "y",
+    "category": "Ll",
+    "decomposition": "й",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+0450",
+    "char": "ѐ",
+    "name": "CYRILLIC SMALL LETTER IE WITH GRAVE",
+    "mapping": "je",
+    "category": "Ll",
+    "decomposition": "ѐ",
+    "decomposed_mapping": "e"
+  },
+  {
+    "cp": "U+0451",
+    "char": "ё",
+    "name": "CYRILLIC SMALL LETTER IO",
+    "mapping": "yo",
+    "category": "Ll",
+    "decomposition": "ё",
+    "decomposed_mapping": "e"
+  },
+  {
+    "cp": "U+0453",
+    "char": "ѓ",
+    "name": "CYRILLIC SMALL LETTER GJE",
+    "mapping": "gj",
+    "category": "Ll",
+    "decomposition": "ѓ",
+    "decomposed_mapping": "g"
+  },
+  {
+    "cp": "U+0457",
+    "char": "ї",
+    "name": "CYRILLIC SMALL LETTER YI",
+    "mapping": "yi",
+    "category": "Ll",
+    "decomposition": "ї",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+045C",
+    "char": "ќ",
+    "name": "CYRILLIC SMALL LETTER KJE",
+    "mapping": "kj",
+    "category": "Ll",
+    "decomposition": "ќ",
+    "decomposed_mapping": "k"
+  },
+  {
+    "cp": "U+04D6",
+    "char": "Ӗ",
+    "name": "CYRILLIC CAPITAL LETTER IE WITH BREVE",
+    "mapping": "Ie",
+    "category": "Lu",
+    "decomposition": "Ӗ",
+    "decomposed_mapping": "E"
+  },
+  {
+    "cp": "U+04D7",
+    "char": "ӗ",
+    "name": "CYRILLIC SMALL LETTER IE WITH BREVE",
+    "mapping": "ie",
+    "category": "Ll",
+    "decomposition": "ӗ",
+    "decomposed_mapping": "e"
+  },
+  {
+    "cp": "U+0622",
+    "char": "آ",
+    "name": "ARABIC LETTER ALEF WITH MADDA ABOVE",
+    "mapping": "a",
+    "category": "Lo",
+    "decomposition": "آ",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+0623",
+    "char": "أ",
+    "name": "ARABIC LETTER ALEF WITH HAMZA ABOVE",
+    "mapping": "'",
+    "category": "Lo",
+    "decomposition": "أ",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+0624",
+    "char": "ؤ",
+    "name": "ARABIC LETTER WAW WITH HAMZA ABOVE",
+    "mapping": "w'",
+    "category": "Lo",
+    "decomposition": "ؤ",
+    "decomposed_mapping": "w"
+  },
+  {
+    "cp": "U+0626",
+    "char": "ئ",
+    "name": "ARABIC LETTER YEH WITH HAMZA ABOVE",
+    "mapping": "y'",
+    "category": "Lo",
+    "decomposition": "ئ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+0675",
+    "char": "ٵ",
+    "name": "ARABIC LETTER HIGH HAMZA ALEF",
+    "mapping": "'",
+    "category": "Lo",
+    "decomposition": "اٴ",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+0676",
+    "char": "ٶ",
+    "name": "ARABIC LETTER HIGH HAMZA WAW",
+    "mapping": "'w",
+    "category": "Lo",
+    "decomposition": "وٴ",
+    "decomposed_mapping": "w"
+  },
+  {
+    "cp": "U+0677",
+    "char": "ٷ",
+    "name": "ARABIC LETTER U WITH HAMZA ABOVE",
+    "mapping": "'u",
+    "category": "Lo",
+    "decomposition": "ۇٴ",
+    "decomposed_mapping": "u"
+  },
+  {
+    "cp": "U+0678",
+    "char": "ٸ",
+    "name": "ARABIC LETTER HIGH HAMZA YEH",
+    "mapping": "'y",
+    "category": "Lo",
+    "decomposition": "يٴ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+06C0",
+    "char": "ۀ",
+    "name": "ARABIC LETTER HEH WITH YEH ABOVE",
+    "mapping": "hy",
+    "category": "Lo",
+    "decomposition": "ۀ",
+    "decomposed_mapping": "ae"
+  },
+  {
+    "cp": "U+06D3",
+    "char": "ۓ",
+    "name": "ARABIC LETTER YEH BARREE WITH HAMZA ABOVE",
+    "mapping": "y'",
+    "category": "Lo",
+    "decomposition": "ۓ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+0929",
+    "char": "ऩ",
+    "name": "DEVANAGARI LETTER NNNA",
+    "mapping": "nnn",
+    "category": "Lo",
+    "decomposition": "ऩ",
+    "decomposed_mapping": "n"
+  },
+  {
+    "cp": "U+0931",
+    "char": "ऱ",
+    "name": "DEVANAGARI LETTER RRA",
+    "mapping": "rr",
+    "category": "Lo",
+    "decomposition": "ऱ",
+    "decomposed_mapping": "r"
+  },
+  {
+    "cp": "U+0934",
+    "char": "ऴ",
+    "name": "DEVANAGARI LETTER LLLA",
+    "mapping": "lll",
+    "category": "Lo",
+    "decomposition": "ऴ",
+    "decomposed_mapping": "l"
+  },
+  {
+    "cp": "U+0958",
+    "char": "क़",
+    "name": "DEVANAGARI LETTER QA",
+    "mapping": "q",
+    "category": "Lo",
+    "decomposition": "क़",
+    "decomposed_mapping": "k"
+  },
+  {
+    "cp": "U+0959",
+    "char": "ख़",
+    "name": "DEVANAGARI LETTER KHHA",
+    "mapping": "khh",
+    "category": "Lo",
+    "decomposition": "ख़",
+    "decomposed_mapping": "kh"
+  },
+  {
+    "cp": "U+095A",
+    "char": "ग़",
+    "name": "DEVANAGARI LETTER GHHA",
+    "mapping": "ghh",
+    "category": "Lo",
+    "decomposition": "ग़",
+    "decomposed_mapping": "g"
+  },
+  {
+    "cp": "U+095B",
+    "char": "ज़",
+    "name": "DEVANAGARI LETTER ZA",
+    "mapping": "z",
+    "category": "Lo",
+    "decomposition": "ज़",
+    "decomposed_mapping": "j"
+  },
+  {
+    "cp": "U+095C",
+    "char": "ड़",
+    "name": "DEVANAGARI LETTER DDDHA",
+    "mapping": "dddh",
+    "category": "Lo",
+    "decomposition": "ड़",
+    "decomposed_mapping": "dd"
+  },
+  {
+    "cp": "U+095D",
+    "char": "ढ़",
+    "name": "DEVANAGARI LETTER RHA",
+    "mapping": "rh",
+    "category": "Lo",
+    "decomposition": "ढ़",
+    "decomposed_mapping": "ddh"
+  },
+  {
+    "cp": "U+095E",
+    "char": "फ़",
+    "name": "DEVANAGARI LETTER FA",
+    "mapping": "f",
+    "category": "Lo",
+    "decomposition": "फ़",
+    "decomposed_mapping": "ph"
+  },
+  {
+    "cp": "U+095F",
+    "char": "य़",
+    "name": "DEVANAGARI LETTER YYA",
+    "mapping": "yy",
+    "category": "Lo",
+    "decomposition": "य़",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+09CB",
+    "char": "ো",
+    "name": "BENGALI VOWEL SIGN O",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ো",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+09CC",
+    "char": "ৌ",
+    "name": "BENGALI VOWEL SIGN AU",
+    "mapping": "au",
+    "category": "Mc",
+    "decomposition": "ৌ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+09DC",
+    "char": "ড়",
+    "name": "BENGALI LETTER RRA",
+    "mapping": "rr",
+    "category": "Lo",
+    "decomposition": "ড়",
+    "decomposed_mapping": "dd"
+  },
+  {
+    "cp": "U+09DD",
+    "char": "ঢ়",
+    "name": "BENGALI LETTER RHA",
+    "mapping": "rh",
+    "category": "Lo",
+    "decomposition": "ঢ়",
+    "decomposed_mapping": "ddh"
+  },
+  {
+    "cp": "U+09DF",
+    "char": "য়",
+    "name": "BENGALI LETTER YYA",
+    "mapping": "yy",
+    "category": "Lo",
+    "decomposition": "য়",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+0A33",
+    "char": "ਲ਼",
+    "name": "GURMUKHI LETTER LLA",
+    "mapping": "ll",
+    "category": "Lo",
+    "decomposition": "ਲ਼",
+    "decomposed_mapping": "l"
+  },
+  {
+    "cp": "U+0A36",
+    "char": "ਸ਼",
+    "name": "GURMUKHI LETTER SHA",
+    "mapping": "sh",
+    "category": "Lo",
+    "decomposition": "ਸ਼",
+    "decomposed_mapping": "s"
+  },
+  {
+    "cp": "U+0A59",
+    "char": "ਖ਼",
+    "name": "GURMUKHI LETTER KHHA",
+    "mapping": "khh",
+    "category": "Lo",
+    "decomposition": "ਖ਼",
+    "decomposed_mapping": "kh"
+  },
+  {
+    "cp": "U+0A5A",
+    "char": "ਗ਼",
+    "name": "GURMUKHI LETTER GHHA",
+    "mapping": "ghh",
+    "category": "Lo",
+    "decomposition": "ਗ਼",
+    "decomposed_mapping": "g"
+  },
+  {
+    "cp": "U+0A5B",
+    "char": "ਜ਼",
+    "name": "GURMUKHI LETTER ZA",
+    "mapping": "z",
+    "category": "Lo",
+    "decomposition": "ਜ਼",
+    "decomposed_mapping": "j"
+  },
+  {
+    "cp": "U+0A5E",
+    "char": "ਫ਼",
+    "name": "GURMUKHI LETTER FA",
+    "mapping": "f",
+    "category": "Lo",
+    "decomposition": "ਫ਼",
+    "decomposed_mapping": "ph"
+  },
+  {
+    "cp": "U+0B48",
+    "char": "ୈ",
+    "name": "ORIYA VOWEL SIGN AI",
+    "mapping": "ai",
+    "category": "Mc",
+    "decomposition": "ୈ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0B4B",
+    "char": "ୋ",
+    "name": "ORIYA VOWEL SIGN O",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ୋ",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+0B4C",
+    "char": "ୌ",
+    "name": "ORIYA VOWEL SIGN AU",
+    "mapping": "au",
+    "category": "Mc",
+    "decomposition": "ୌ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0B5C",
+    "char": "ଡ଼",
+    "name": "ORIYA LETTER RRA",
+    "mapping": "rr",
+    "category": "Lo",
+    "decomposition": "ଡ଼",
+    "decomposed_mapping": "dd"
+  },
+  {
+    "cp": "U+0B5D",
+    "char": "ଢ଼",
+    "name": "ORIYA LETTER RHA",
+    "mapping": "rh",
+    "category": "Lo",
+    "decomposition": "ଢ଼",
+    "decomposed_mapping": "ddh"
+  },
+  {
+    "cp": "U+0B94",
+    "char": "ஔ",
+    "name": "TAMIL LETTER AU",
+    "mapping": "au",
+    "category": "Lo",
+    "decomposition": "ஔ",
+    "decomposed_mapping": "o+"
+  },
+  {
+    "cp": "U+0BCA",
+    "char": "ொ",
+    "name": "TAMIL VOWEL SIGN O",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ொ",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+0BCB",
+    "char": "ோ",
+    "name": "TAMIL VOWEL SIGN OO",
+    "mapping": "oo",
+    "category": "Mc",
+    "decomposition": "ோ",
+    "decomposed_mapping": "eeaa"
+  },
+  {
+    "cp": "U+0BCC",
+    "char": "ௌ",
+    "name": "TAMIL VOWEL SIGN AU",
+    "mapping": "au",
+    "category": "Mc",
+    "decomposition": "ௌ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0C48",
+    "char": "ై",
+    "name": "TELUGU VOWEL SIGN AI",
+    "mapping": "ai",
+    "category": "Mn",
+    "decomposition": "ై",
+    "decomposed_mapping": "e"
+  },
+  {
+    "cp": "U+0CC0",
+    "char": "ೀ",
+    "name": "KANNADA VOWEL SIGN II",
+    "mapping": "ii",
+    "category": "Mc",
+    "decomposition": "ೀ",
+    "decomposed_mapping": "i+"
+  },
+  {
+    "cp": "U+0CC7",
+    "char": "ೇ",
+    "name": "KANNADA VOWEL SIGN EE",
+    "mapping": "ee",
+    "category": "Mc",
+    "decomposition": "ೇ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0CC8",
+    "char": "ೈ",
+    "name": "KANNADA VOWEL SIGN AI",
+    "mapping": "ai",
+    "category": "Mc",
+    "decomposition": "ೈ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0CCA",
+    "char": "ೊ",
+    "name": "KANNADA VOWEL SIGN O",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ೊ",
+    "decomposed_mapping": "euu"
+  },
+  {
+    "cp": "U+0CCB",
+    "char": "ೋ",
+    "name": "KANNADA VOWEL SIGN OO",
+    "mapping": "oo",
+    "category": "Mc",
+    "decomposition": "ೋ",
+    "decomposed_mapping": "euu+"
+  },
+  {
+    "cp": "U+0D4A",
+    "char": "ൊ",
+    "name": "MALAYALAM VOWEL SIGN O",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ൊ",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+0D4B",
+    "char": "ോ",
+    "name": "MALAYALAM VOWEL SIGN OO",
+    "mapping": "oo",
+    "category": "Mc",
+    "decomposition": "ോ",
+    "decomposed_mapping": "eeaa"
+  },
+  {
+    "cp": "U+0D4C",
+    "char": "ൌ",
+    "name": "MALAYALAM VOWEL SIGN AU",
+    "mapping": "au",
+    "category": "Mc",
+    "decomposition": "ൌ",
+    "decomposed_mapping": "e+"
+  },
+  {
+    "cp": "U+0DDA",
+    "char": "ේ",
+    "name": "SINHALA VOWEL SIGN DIGA KOMBUVA",
+    "mapping": "ee",
+    "category": "Mc",
+    "decomposition": "ේ",
+    "decomposed_mapping": "e"
+  },
+  {
+    "cp": "U+0DDC",
+    "char": "ො",
+    "name": "SINHALA VOWEL SIGN KOMBUVA HAA AELA-PILLA",
+    "mapping": "o",
+    "category": "Mc",
+    "decomposition": "ො",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+0DDD",
+    "char": "ෝ",
+    "name": "SINHALA VOWEL SIGN KOMBUVA HAA DIGA AELA-PILLA",
+    "mapping": "oo",
+    "category": "Mc",
+    "decomposition": "ෝ",
+    "decomposed_mapping": "eaa"
+  },
+  {
+    "cp": "U+0DDE",
+    "char": "ෞ",
+    "name": "SINHALA VOWEL SIGN KOMBUVA HAA GAYANUKITTA",
+    "mapping": "au",
+    "category": "Mc",
+    "decomposition": "ෞ",
+    "decomposed_mapping": "eL"
+  },
+  {
+    "cp": "U+0E33",
+    "char": "ำ",
+    "name": "THAI CHARACTER SARA AM",
+    "mapping": "am",
+    "category": "Lo",
+    "decomposition": "ํา",
+    "decomposed_mapping": "Maa"
+  },
+  {
+    "cp": "U+0EB3",
+    "char": "ຳ",
+    "name": "LAO VOWEL SIGN AM",
+    "mapping": "am",
+    "category": "Lo",
+    "decomposition": "ໍາ",
+    "decomposed_mapping": "Maa"
+  },
+  {
+    "cp": "U+0F0C",
+    "char": "༌",
+    "name": "TIBETAN MARK DELIMITER TSHEG BSTAR",
+    "mapping": " / ",
+    "category": "Po",
+    "decomposition": "་",
+    "decomposed_mapping": "-"
+  },
+  {
+    "cp": "U+0F73",
+    "char": "ཱི",
+    "name": "TIBETAN VOWEL SIGN II",
+    "mapping": "ii",
+    "category": "Mn",
+    "decomposition": "ཱི",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+0F75",
+    "char": "ཱུ",
+    "name": "TIBETAN VOWEL SIGN UU",
+    "mapping": "uu",
+    "category": "Mn",
+    "decomposition": "ཱུ",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+0F77",
+    "char": "ཷ",
+    "name": "TIBETAN VOWEL SIGN VOCALIC RR",
+    "mapping": "RR",
+    "category": "Mn",
+    "decomposition": "ྲཱྀ",
+    "decomposed_mapping": "r"
+  },
+  {
+    "cp": "U+0F79",
+    "char": "ཹ",
+    "name": "TIBETAN VOWEL SIGN VOCALIC LL",
+    "mapping": "LL",
+    "category": "Mn",
+    "decomposition": "ླཱྀ",
+    "decomposed_mapping": "l"
+  },
+  {
+    "cp": "U+0F81",
+    "char": "ཱྀ",
+    "name": "TIBETAN VOWEL SIGN REVERSED II",
+    "mapping": "ii",
+    "category": "Mn",
+    "decomposition": "ཱྀ",
+    "decomposed_mapping": ""
+  },
+  {
+    "cp": "U+1026",
+    "char": "ဦ",
+    "name": "MYANMAR LETTER UU",
+    "mapping": "uu",
+    "category": "Lo",
+    "decomposition": "ဦ",
+    "decomposed_mapping": "uii"
+  },
+  {
+    "cp": "U+1E9A",
+    "char": "ẚ",
+    "name": "LATIN SMALL LETTER A WITH RIGHT HALF RING",
+    "mapping": "a",
+    "category": "Ll",
+    "decomposition": "aʾ",
+    "decomposed_mapping": "a`"
+  },
+  {
+    "cp": "U+1F20",
+    "char": "ἠ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἠ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F21",
+    "char": "ἡ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἡ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F22",
+    "char": "ἢ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἢ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F23",
+    "char": "ἣ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἣ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F24",
+    "char": "ἤ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἤ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F25",
+    "char": "ἥ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἥ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F26",
+    "char": "ἦ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἦ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F27",
+    "char": "ἧ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ἧ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F28",
+    "char": "Ἠ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἠ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F29",
+    "char": "Ἡ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἡ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2A",
+    "char": "Ἢ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἢ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2B",
+    "char": "Ἣ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἣ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2C",
+    "char": "Ἤ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἤ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2D",
+    "char": "Ἥ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἥ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2E",
+    "char": "Ἦ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἦ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F2F",
+    "char": "Ἧ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ἧ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F50",
+    "char": "ὐ",
+    "name": "GREEK SMALL LETTER UPSILON WITH PSILI",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὐ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F51",
+    "char": "ὑ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DASIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὑ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F52",
+    "char": "ὒ",
+    "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὒ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F53",
+    "char": "ὓ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὓ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F54",
+    "char": "ὔ",
+    "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὔ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F55",
+    "char": "ὕ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὕ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F56",
+    "char": "ὖ",
+    "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὖ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F57",
+    "char": "ὗ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὗ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F59",
+    "char": "Ὑ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ὑ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1F5B",
+    "char": "Ὓ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND VARIA",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ὓ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1F5D",
+    "char": "Ὕ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND OXIA",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ὕ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1F5F",
+    "char": "Ὗ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH DASIA AND PERISPOMENI",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ὗ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1F74",
+    "char": "ὴ",
+    "name": "GREEK SMALL LETTER ETA WITH VARIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ὴ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F75",
+    "char": "ή",
+    "name": "GREEK SMALL LETTER ETA WITH OXIA",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ή",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F7A",
+    "char": "ὺ",
+    "name": "GREEK SMALL LETTER UPSILON WITH VARIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ὺ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F7B",
+    "char": "ύ",
+    "name": "GREEK SMALL LETTER UPSILON WITH OXIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ύ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1F90",
+    "char": "ᾐ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾐ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F91",
+    "char": "ᾑ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾑ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F92",
+    "char": "ᾒ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾒ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F93",
+    "char": "ᾓ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾓ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F94",
+    "char": "ᾔ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾔ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F95",
+    "char": "ᾕ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾕ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F96",
+    "char": "ᾖ",
+    "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾖ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F97",
+    "char": "ᾗ",
+    "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ᾗ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1F98",
+    "char": "ᾘ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾘ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F99",
+    "char": "ᾙ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾙ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9A",
+    "char": "ᾚ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND VARIA AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾚ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9B",
+    "char": "ᾛ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND VARIA AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾛ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9C",
+    "char": "ᾜ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND OXIA AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾜ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9D",
+    "char": "ᾝ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND OXIA AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾝ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9E",
+    "char": "ᾞ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PSILI AND PERISPOMENI AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾞ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1F9F",
+    "char": "ᾟ",
+    "name": "GREEK CAPITAL LETTER ETA WITH DASIA AND PERISPOMENI AND PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ᾟ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1FBD",
+    "char": "᾽",
+    "name": "GREEK KORONIS",
+    "mapping": "'",
+    "category": "Sk",
+    "decomposition": " ̓",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FBF",
+    "char": "᾿",
+    "name": "GREEK PSILI",
+    "mapping": "'",
+    "category": "Sk",
+    "decomposition": " ̓",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FC0",
+    "char": "῀",
+    "name": "GREEK PERISPOMENI",
+    "mapping": "~",
+    "category": "Sk",
+    "decomposition": " ͂",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FC1",
+    "char": "῁",
+    "name": "GREEK DIALYTIKA AND PERISPOMENI",
+    "mapping": "\"~",
+    "category": "Sk",
+    "decomposition": " ̈͂",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FC2",
+    "char": "ῂ",
+    "name": "GREEK SMALL LETTER ETA WITH VARIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ῂ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1FC3",
+    "char": "ῃ",
+    "name": "GREEK SMALL LETTER ETA WITH YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ῃ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1FC4",
+    "char": "ῄ",
+    "name": "GREEK SMALL LETTER ETA WITH OXIA AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ῄ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1FC6",
+    "char": "ῆ",
+    "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ῆ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1FC7",
+    "char": "ῇ",
+    "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI AND YPOGEGRAMMENI",
+    "mapping": "e",
+    "category": "Ll",
+    "decomposition": "ῇ",
+    "decomposed_mapping": "i"
+  },
+  {
+    "cp": "U+1FCA",
+    "char": "Ὴ",
+    "name": "GREEK CAPITAL LETTER ETA WITH VARIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ὴ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1FCB",
+    "char": "Ή",
+    "name": "GREEK CAPITAL LETTER ETA WITH OXIA",
+    "mapping": "E",
+    "category": "Lu",
+    "decomposition": "Ή",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1FCC",
+    "char": "ῌ",
+    "name": "GREEK CAPITAL LETTER ETA WITH PROSGEGRAMMENI",
+    "mapping": "E",
+    "category": "Lt",
+    "decomposition": "ῌ",
+    "decomposed_mapping": "I"
+  },
+  {
+    "cp": "U+1FCD",
+    "char": "῍",
+    "name": "GREEK PSILI AND VARIA",
+    "mapping": "'`",
+    "category": "Sk",
+    "decomposition": " ̓̀",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FCE",
+    "char": "῎",
+    "name": "GREEK PSILI AND OXIA",
+    "mapping": "''",
+    "category": "Sk",
+    "decomposition": " ̓́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FCF",
+    "char": "῏",
+    "name": "GREEK PSILI AND PERISPOMENI",
+    "mapping": "'~",
+    "category": "Sk",
+    "decomposition": " ̓͂",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FDD",
+    "char": "῝",
+    "name": "GREEK DASIA AND VARIA",
+    "mapping": "`'",
+    "category": "Sk",
+    "decomposition": " ̔̀",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FDE",
+    "char": "῞",
+    "name": "GREEK DASIA AND OXIA",
+    "mapping": "`'",
+    "category": "Sk",
+    "decomposition": " ̔́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FDF",
+    "char": "῟",
+    "name": "GREEK DASIA AND PERISPOMENI",
+    "mapping": "`~",
+    "category": "Sk",
+    "decomposition": " ̔͂",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FE0",
+    "char": "ῠ",
+    "name": "GREEK SMALL LETTER UPSILON WITH VRACHY",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ῠ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE1",
+    "char": "ῡ",
+    "name": "GREEK SMALL LETTER UPSILON WITH MACRON",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ῡ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE2",
+    "char": "ῢ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ῢ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE3",
+    "char": "ΰ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND OXIA",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ΰ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE6",
+    "char": "ῦ",
+    "name": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ῦ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE7",
+    "char": "ῧ",
+    "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI",
+    "mapping": "u",
+    "category": "Ll",
+    "decomposition": "ῧ",
+    "decomposed_mapping": "y"
+  },
+  {
+    "cp": "U+1FE8",
+    "char": "Ῠ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH VRACHY",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ῠ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1FE9",
+    "char": "Ῡ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH MACRON",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ῡ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1FEA",
+    "char": "Ὺ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH VARIA",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ὺ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1FEB",
+    "char": "Ύ",
+    "name": "GREEK CAPITAL LETTER UPSILON WITH OXIA",
+    "mapping": "U",
+    "category": "Lu",
+    "decomposition": "Ύ",
+    "decomposed_mapping": "Y"
+  },
+  {
+    "cp": "U+1FED",
+    "char": "῭",
+    "name": "GREEK DIALYTIKA AND VARIA",
+    "mapping": "\"`",
+    "category": "Sk",
+    "decomposition": " ̈̀",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FEE",
+    "char": "΅",
+    "name": "GREEK DIALYTIKA AND OXIA",
+    "mapping": "\"'",
+    "category": "Sk",
+    "decomposition": " ̈́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FFD",
+    "char": "´",
+    "name": "GREEK OXIA",
+    "mapping": "'",
+    "category": "Sk",
+    "decomposition": " ́",
+    "decomposed_mapping": " "
+  },
+  {
+    "cp": "U+1FFE",
+    "char": "῾",
+    "name": "GREEK DASIA",
+    "mapping": "`",
+    "category": "Sk",
+    "decomposition": " ̔",
+    "decomposed_mapping": " "
+  }
+]

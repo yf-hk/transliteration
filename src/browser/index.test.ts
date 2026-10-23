@@ -1,10 +1,8 @@
-// @vitest-environment happy-dom
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'bun:test';
 import { slugify, transliterate } from './index';
 
 describe('browser/transliterate()', () => {
-  it('should transliterate in browser environment', () => {
-    expect('window' in globalThis).toBe(true);
+  it('should transliterate through the browser entry', () => {
     expect(transliterate('你好')).toBe('Ni Hao');
     expect(transliterate('北亰')).toBe('Bei Jing');
   });
@@ -17,8 +15,7 @@ describe('browser/transliterate()', () => {
 });
 
 describe('browser/slugify()', () => {
-  it('should slugify in browser environment', () => {
-    expect('window' in globalThis).toBe(true);
+  it('should slugify through the browser entry', () => {
     expect(slugify('你好, 世界!')).toBe('ni-hao-shi-jie');
   });
 

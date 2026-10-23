@@ -1,0 +1,87 @@
+{
+  "sourceCommit": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "node": "v26.5.0",
+  "esbuild": "0.27.1",
+  "scope": "Standalone research mapper modules, including lookup, materialize, and metadata exports. Not full API bundles or npm package sizes.",
+  "commands": "node research/2026-10-23-performance/astra/measure-sizes.cjs",
+  "results": [
+    {
+      "variant": "eager-object",
+      "source": {
+        "bytes": 186935,
+        "gzip9Bytes": 49481,
+        "brotli11Bytes": 41471
+      },
+      "minified": {
+        "bytes": 186575,
+        "gzip9Bytes": 49351,
+        "brotli11Bytes": 41385
+      }
+    },
+    {
+      "variant": "pages",
+      "source": {
+        "bytes": 186999,
+        "gzip9Bytes": 49480,
+        "brotli11Bytes": 41556
+      },
+      "minified": {
+        "bytes": 186579,
+        "gzip9Bytes": 49380,
+        "brotli11Bytes": 41419
+      }
+    },
+    {
+      "variant": "pooled-offsets",
+      "source": {
+        "bytes": 116776,
+        "gzip9Bytes": 62699,
+        "brotli11Bytes": 55073
+      },
+      "minified": {
+        "bytes": 116185,
+        "gzip9Bytes": 62517,
+        "brotli11Bytes": 55069
+      }
+    },
+    {
+      "variant": "pooled-values",
+      "source": {
+        "bytes": 117861,
+        "gzip9Bytes": 57239,
+        "brotli11Bytes": 50178
+      },
+      "minified": {
+        "bytes": 117296,
+        "gzip9Bytes": 57142,
+        "brotli11Bytes": 50022
+      }
+    },
+    {
+      "variant": "pooled-blocks",
+      "source": {
+        "bytes": 115093,
+        "gzip9Bytes": 58699,
+        "brotli11Bytes": 50955
+      },
+      "minified": {
+        "bytes": 114523,
+        "gzip9Bytes": 58594,
+        "brotli11Bytes": 50880
+      }
+    },
+    {
+      "variant": "packed12-values",
+      "source": {
+        "bytes": 94709,
+        "gzip9Bytes": 47794,
+        "brotli11Bytes": 40655
+      },
+      "minified": {
+        "bytes": 94217,
+        "gzip9Bytes": 47731,
+        "brotli11Bytes": 40649
+      }
+    }
+  ]
+}

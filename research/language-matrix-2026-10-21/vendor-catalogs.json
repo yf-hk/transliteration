@@ -1,0 +1,9148 @@
+[
+  {
+    "vendor": "google_consumer",
+    "name": "English",
+    "codes": [
+      "en"
+    ],
+    "entry_id": "en"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Spanish",
+    "codes": [
+      "es"
+    ],
+    "entry_id": "es"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "French",
+    "codes": [
+      "fr"
+    ],
+    "entry_id": "fr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Abkhaz",
+    "codes": [
+      "ab"
+    ],
+    "entry_id": "ab"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Acehnese",
+    "codes": [
+      "ace"
+    ],
+    "entry_id": "ace"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Acholi",
+    "codes": [
+      "ach"
+    ],
+    "entry_id": "ach"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Afar",
+    "codes": [
+      "aa"
+    ],
+    "entry_id": "aa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Afrikaans",
+    "codes": [
+      "af"
+    ],
+    "entry_id": "af"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Albanian",
+    "codes": [
+      "sq"
+    ],
+    "entry_id": "sq"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Alur",
+    "codes": [
+      "alz"
+    ],
+    "entry_id": "alz"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Armenian",
+    "codes": [
+      "hy"
+    ],
+    "entry_id": "hy"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Assamese",
+    "codes": [
+      "as"
+    ],
+    "entry_id": "as"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Avar",
+    "codes": [
+      "av"
+    ],
+    "entry_id": "av"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Awadhi",
+    "codes": [
+      "awa"
+    ],
+    "entry_id": "awa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Aymara",
+    "codes": [
+      "ay"
+    ],
+    "entry_id": "ay"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Azerbaijani",
+    "codes": [
+      "az"
+    ],
+    "entry_id": "az"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Balinese",
+    "codes": [
+      "ban"
+    ],
+    "entry_id": "ban"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Baluchi",
+    "codes": [
+      "bal"
+    ],
+    "entry_id": "bal"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bambara",
+    "codes": [
+      "bm"
+    ],
+    "entry_id": "bm"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Baoulé",
+    "codes": [
+      "bci"
+    ],
+    "entry_id": "bci"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bashkir",
+    "codes": [
+      "ba"
+    ],
+    "entry_id": "ba"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Basque",
+    "codes": [
+      "eu"
+    ],
+    "entry_id": "eu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Batak Karo",
+    "codes": [
+      "btx"
+    ],
+    "entry_id": "btx"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Batak Simalungun",
+    "codes": [
+      "bts"
+    ],
+    "entry_id": "bts"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Batak Toba",
+    "codes": [
+      "bbc"
+    ],
+    "entry_id": "bbc"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bemba",
+    "codes": [
+      "bem"
+    ],
+    "entry_id": "bem"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bengali",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Betawi",
+    "codes": [
+      "bew"
+    ],
+    "entry_id": "bew"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bhojpuri",
+    "codes": [
+      "bho"
+    ],
+    "entry_id": "bho"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bikol",
+    "codes": [
+      "bik"
+    ],
+    "entry_id": "bik"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bosnian",
+    "codes": [
+      "bs"
+    ],
+    "entry_id": "bs"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Breton",
+    "codes": [
+      "br"
+    ],
+    "entry_id": "br"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Buryat",
+    "codes": [
+      "bua"
+    ],
+    "entry_id": "bua"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Cantonese",
+    "codes": [
+      "yue"
+    ],
+    "entry_id": "yue"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Catalan",
+    "codes": [
+      "ca"
+    ],
+    "entry_id": "ca"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Cebuano",
+    "codes": [
+      "ceb"
+    ],
+    "entry_id": "ceb"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chamorro",
+    "codes": [
+      "ch"
+    ],
+    "entry_id": "ch"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chechen",
+    "codes": [
+      "ce"
+    ],
+    "entry_id": "ce"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chichewa",
+    "codes": [
+      "ny"
+    ],
+    "entry_id": "ny"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chinese (Simplified)",
+    "codes": [
+      "zh-CN"
+    ],
+    "entry_id": "zh-CN"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chinese (Traditional)",
+    "codes": [
+      "zh-TW"
+    ],
+    "entry_id": "zh-TW"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chuukese",
+    "codes": [
+      "chk"
+    ],
+    "entry_id": "chk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Chuvash",
+    "codes": [
+      "cv"
+    ],
+    "entry_id": "cv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Corsican",
+    "codes": [
+      "co"
+    ],
+    "entry_id": "co"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Crimean Tatar (Cyrillic)",
+    "codes": [
+      "crh"
+    ],
+    "entry_id": "crh-Cyrl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Crimean Tatar (Latin)",
+    "codes": [
+      "crh-Latn"
+    ],
+    "entry_id": "crh-Latn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Croatian",
+    "codes": [
+      "hr"
+    ],
+    "entry_id": "hr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Czech",
+    "codes": [
+      "cs"
+    ],
+    "entry_id": "cs"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Danish",
+    "codes": [
+      "da"
+    ],
+    "entry_id": "da"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dari",
+    "codes": [
+      "fa-AF"
+    ],
+    "entry_id": "fa-AF"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dhivehi",
+    "codes": [
+      "dv"
+    ],
+    "entry_id": "dv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dinka",
+    "codes": [
+      "din"
+    ],
+    "entry_id": "din"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dogri",
+    "codes": [
+      "doi"
+    ],
+    "entry_id": "doi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dombe",
+    "codes": [
+      "dov"
+    ],
+    "entry_id": "dov"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dutch",
+    "codes": [
+      "nl"
+    ],
+    "entry_id": "nl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dyula",
+    "codes": [
+      "dyu"
+    ],
+    "entry_id": "dyu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Dzongkha",
+    "codes": [
+      "dz"
+    ],
+    "entry_id": "dz"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Esperanto",
+    "codes": [
+      "eo"
+    ],
+    "entry_id": "eo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Estonian",
+    "codes": [
+      "et"
+    ],
+    "entry_id": "et"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ewe",
+    "codes": [
+      "ee"
+    ],
+    "entry_id": "ee"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Faroese",
+    "codes": [
+      "fo"
+    ],
+    "entry_id": "fo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Fijian",
+    "codes": [
+      "fj"
+    ],
+    "entry_id": "fj"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Filipino",
+    "codes": [
+      "tl"
+    ],
+    "entry_id": "fil"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Finnish",
+    "codes": [
+      "fi"
+    ],
+    "entry_id": "fi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Fon",
+    "codes": [
+      "fon"
+    ],
+    "entry_id": "fon"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "French (Canada)",
+    "codes": [
+      "fr-CA"
+    ],
+    "entry_id": "fr-CA"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Frisian",
+    "codes": [
+      "fy"
+    ],
+    "entry_id": "fy"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Friulian",
+    "codes": [
+      "fur"
+    ],
+    "entry_id": "fur"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Fulani",
+    "codes": [
+      "ff"
+    ],
+    "entry_id": "ff"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ga",
+    "codes": [
+      "gaa"
+    ],
+    "entry_id": "gaa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Galician",
+    "codes": [
+      "gl"
+    ],
+    "entry_id": "gl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Georgian",
+    "codes": [
+      "ka"
+    ],
+    "entry_id": "ka"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "German",
+    "codes": [
+      "de"
+    ],
+    "entry_id": "de"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Guarani",
+    "codes": [
+      "gn"
+    ],
+    "entry_id": "gn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Haitian Creole",
+    "codes": [
+      "ht"
+    ],
+    "entry_id": "ht"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hakha Chin",
+    "codes": [
+      "cnh"
+    ],
+    "entry_id": "cnh"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "entry_id": "ha"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hawaiian",
+    "codes": [
+      "haw"
+    ],
+    "entry_id": "haw"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hebrew",
+    "codes": [
+      "iw"
+    ],
+    "entry_id": "he"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hiligaynon",
+    "codes": [
+      "hil"
+    ],
+    "entry_id": "hil"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hmong",
+    "codes": [
+      "hmn"
+    ],
+    "entry_id": "hmn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hungarian",
+    "codes": [
+      "hu"
+    ],
+    "entry_id": "hu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Hunsrik",
+    "codes": [
+      "hrx"
+    ],
+    "entry_id": "hrx"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Iban",
+    "codes": [
+      "iba"
+    ],
+    "entry_id": "iba"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Icelandic",
+    "codes": [
+      "is"
+    ],
+    "entry_id": "is"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "entry_id": "ig"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ilocano",
+    "codes": [
+      "ilo"
+    ],
+    "entry_id": "ilo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Indonesian",
+    "codes": [
+      "id"
+    ],
+    "entry_id": "id"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Inuktut (Latin)",
+    "codes": [
+      "iu-Latn"
+    ],
+    "entry_id": "iu-Latn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Inuktut (Syllabics)",
+    "codes": [
+      "iu"
+    ],
+    "entry_id": "iu-Cans"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Irish",
+    "codes": [
+      "ga"
+    ],
+    "entry_id": "ga"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Italian",
+    "codes": [
+      "it"
+    ],
+    "entry_id": "it"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Jamaican Patois",
+    "codes": [
+      "jam"
+    ],
+    "entry_id": "jam"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Javanese",
+    "codes": [
+      "jw"
+    ],
+    "entry_id": "jv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Jingpo",
+    "codes": [
+      "kac"
+    ],
+    "entry_id": "kac"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kalaallisut",
+    "codes": [
+      "kl"
+    ],
+    "entry_id": "kl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kanuri",
+    "codes": [
+      "kr"
+    ],
+    "entry_id": "kr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kapampangan",
+    "codes": [
+      "pam"
+    ],
+    "entry_id": "pam"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kazakh",
+    "codes": [
+      "kk"
+    ],
+    "entry_id": "kk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Khasi",
+    "codes": [
+      "kha"
+    ],
+    "entry_id": "kha"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Khmer",
+    "codes": [
+      "km"
+    ],
+    "entry_id": "km"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kiga",
+    "codes": [
+      "cgg"
+    ],
+    "entry_id": "cgg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kikongo",
+    "codes": [
+      "kg"
+    ],
+    "entry_id": "kg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kinyarwanda",
+    "codes": [
+      "rw"
+    ],
+    "entry_id": "rw"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kituba",
+    "codes": [
+      "ktu"
+    ],
+    "entry_id": "ktu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kokborok",
+    "codes": [
+      "trp"
+    ],
+    "entry_id": "trp"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Komi",
+    "codes": [
+      "kv"
+    ],
+    "entry_id": "kv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Konkani",
+    "codes": [
+      "gom"
+    ],
+    "entry_id": "gom"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Krio",
+    "codes": [
+      "kri"
+    ],
+    "entry_id": "kri"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kurdish (Kurmanji)",
+    "codes": [
+      "ku"
+    ],
+    "entry_id": "kmr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kurdish (Sorani)",
+    "codes": [
+      "ckb"
+    ],
+    "entry_id": "ckb"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Kyrgyz",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Lao",
+    "codes": [
+      "lo"
+    ],
+    "entry_id": "lo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Latgalian",
+    "codes": [
+      "ltg"
+    ],
+    "entry_id": "ltg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Latin",
+    "codes": [
+      "la"
+    ],
+    "entry_id": "la"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Latvian",
+    "codes": [
+      "lv"
+    ],
+    "entry_id": "lv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ligurian",
+    "codes": [
+      "lij"
+    ],
+    "entry_id": "lij"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Limburgish",
+    "codes": [
+      "li"
+    ],
+    "entry_id": "li"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Lingala",
+    "codes": [
+      "ln"
+    ],
+    "entry_id": "ln"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Lithuanian",
+    "codes": [
+      "lt"
+    ],
+    "entry_id": "lt"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Lombard",
+    "codes": [
+      "lmo"
+    ],
+    "entry_id": "lmo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Luganda",
+    "codes": [
+      "lg"
+    ],
+    "entry_id": "lg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Luo",
+    "codes": [
+      "luo"
+    ],
+    "entry_id": "luo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Luxembourgish",
+    "codes": [
+      "lb"
+    ],
+    "entry_id": "lb"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Madurese",
+    "codes": [
+      "mad"
+    ],
+    "entry_id": "mad"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Maithili",
+    "codes": [
+      "mai"
+    ],
+    "entry_id": "mai"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Makassar",
+    "codes": [
+      "mak"
+    ],
+    "entry_id": "mak"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Malagasy",
+    "codes": [
+      "mg"
+    ],
+    "entry_id": "mg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Malay",
+    "codes": [
+      "ms"
+    ],
+    "entry_id": "ms"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Malay (Jawi)",
+    "codes": [
+      "ms-Arab"
+    ],
+    "entry_id": "ms-Arab"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Maltese",
+    "codes": [
+      "mt"
+    ],
+    "entry_id": "mt"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Mam",
+    "codes": [
+      "mam"
+    ],
+    "entry_id": "mam"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Manx",
+    "codes": [
+      "gv"
+    ],
+    "entry_id": "gv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Maori",
+    "codes": [
+      "mi"
+    ],
+    "entry_id": "mi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Marshallese",
+    "codes": [
+      "mh"
+    ],
+    "entry_id": "mh"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Marwadi",
+    "codes": [
+      "mwr"
+    ],
+    "entry_id": "mwr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Mauritian Creole",
+    "codes": [
+      "mfe"
+    ],
+    "entry_id": "mfe"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Meadow Mari",
+    "codes": [
+      "chm"
+    ],
+    "entry_id": "chm"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Meiteilon (Manipuri)",
+    "codes": [
+      "mni-Mtei"
+    ],
+    "entry_id": "mni-Mtei"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Minang",
+    "codes": [
+      "min"
+    ],
+    "entry_id": "min"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Mizo",
+    "codes": [
+      "lus"
+    ],
+    "entry_id": "lus"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Mongolian",
+    "codes": [
+      "mn"
+    ],
+    "entry_id": "mn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Myanmar (Burmese)",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Nahuatl (Eastern Huasteca)",
+    "codes": [
+      "nhe"
+    ],
+    "entry_id": "nhe"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ndau",
+    "codes": [
+      "ndc-ZW"
+    ],
+    "entry_id": "ndc-ZW"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ndebele (South)",
+    "codes": [
+      "nr"
+    ],
+    "entry_id": "nr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Nepalbhasa (Newari)",
+    "codes": [
+      "new"
+    ],
+    "entry_id": "new"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "NKo",
+    "codes": [
+      "bm-Nkoo"
+    ],
+    "entry_id": "bm-Nkoo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Norwegian",
+    "codes": [
+      "no"
+    ],
+    "entry_id": "no"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Nuer",
+    "codes": [
+      "nus"
+    ],
+    "entry_id": "nus"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Occitan",
+    "codes": [
+      "oc"
+    ],
+    "entry_id": "oc"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Odia (Oriya)",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Oromo",
+    "codes": [
+      "om"
+    ],
+    "entry_id": "om"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ossetian",
+    "codes": [
+      "os"
+    ],
+    "entry_id": "os"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Pangasinan",
+    "codes": [
+      "pag"
+    ],
+    "entry_id": "pag"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Papiamento",
+    "codes": [
+      "pap"
+    ],
+    "entry_id": "pap"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Pashto",
+    "codes": [
+      "ps"
+    ],
+    "entry_id": "ps"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Polish",
+    "codes": [
+      "pl"
+    ],
+    "entry_id": "pl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Portuguese (Brazil)",
+    "codes": [
+      "pt"
+    ],
+    "entry_id": "pt-BR"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Portuguese (Portugal)",
+    "codes": [
+      "pt-PT"
+    ],
+    "entry_id": "pt-PT"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Punjabi (Gurmukhi)",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Punjabi (Shahmukhi)",
+    "codes": [
+      "pa-Arab"
+    ],
+    "entry_id": "pa-Arab"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Quechua",
+    "codes": [
+      "qu"
+    ],
+    "entry_id": "qu"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Qʼeqchiʼ",
+    "codes": [
+      "kek"
+    ],
+    "entry_id": "kek"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Romani",
+    "codes": [
+      "rom"
+    ],
+    "entry_id": "rom"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Romanian",
+    "codes": [
+      "ro"
+    ],
+    "entry_id": "ro"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Rundi",
+    "codes": [
+      "rn"
+    ],
+    "entry_id": "rn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sami (North)",
+    "codes": [
+      "se"
+    ],
+    "entry_id": "se"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Samoan",
+    "codes": [
+      "sm"
+    ],
+    "entry_id": "sm"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sango",
+    "codes": [
+      "sg"
+    ],
+    "entry_id": "sg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sanskrit",
+    "codes": [
+      "sa"
+    ],
+    "entry_id": "sa"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Santali (Latin)",
+    "codes": [
+      "sat-Latn"
+    ],
+    "entry_id": "sat-Latn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Santali (Ol Chiki)",
+    "codes": [
+      "sat"
+    ],
+    "entry_id": "sat-Olck"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Scots Gaelic",
+    "codes": [
+      "gd"
+    ],
+    "entry_id": "gd"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sepedi",
+    "codes": [
+      "nso"
+    ],
+    "entry_id": "nso"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Serbian",
+    "codes": [
+      "sr"
+    ],
+    "entry_id": "sr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sesotho",
+    "codes": [
+      "st"
+    ],
+    "entry_id": "st"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Seychellois Creole",
+    "codes": [
+      "crs"
+    ],
+    "entry_id": "crs"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Shan",
+    "codes": [
+      "shn"
+    ],
+    "entry_id": "shn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Shona",
+    "codes": [
+      "sn"
+    ],
+    "entry_id": "sn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sicilian",
+    "codes": [
+      "scn"
+    ],
+    "entry_id": "scn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Silesian",
+    "codes": [
+      "szl"
+    ],
+    "entry_id": "szl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sindhi",
+    "codes": [
+      "sd"
+    ],
+    "entry_id": "sd"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sinhala",
+    "codes": [
+      "si"
+    ],
+    "entry_id": "si"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Slovak",
+    "codes": [
+      "sk"
+    ],
+    "entry_id": "sk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Slovenian",
+    "codes": [
+      "sl"
+    ],
+    "entry_id": "sl"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Somali",
+    "codes": [
+      "so"
+    ],
+    "entry_id": "so"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Sundanese",
+    "codes": [
+      "su"
+    ],
+    "entry_id": "su"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Susu",
+    "codes": [
+      "sus"
+    ],
+    "entry_id": "sus"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Swahili",
+    "codes": [
+      "sw"
+    ],
+    "entry_id": "sw"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Swati",
+    "codes": [
+      "ss"
+    ],
+    "entry_id": "ss"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Swedish",
+    "codes": [
+      "sv"
+    ],
+    "entry_id": "sv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tahitian",
+    "codes": [
+      "ty"
+    ],
+    "entry_id": "ty"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tajik",
+    "codes": [
+      "tg"
+    ],
+    "entry_id": "tg"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tamazight",
+    "codes": [
+      "ber-Latn"
+    ],
+    "entry_id": "ber-Latn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tamazight (Tifinagh)",
+    "codes": [
+      "ber"
+    ],
+    "entry_id": "ber-Tfng"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tatar",
+    "codes": [
+      "tt"
+    ],
+    "entry_id": "tt"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tetum",
+    "codes": [
+      "tet"
+    ],
+    "entry_id": "tet"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tibetan",
+    "codes": [
+      "bo"
+    ],
+    "entry_id": "bo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tigrinya",
+    "codes": [
+      "ti"
+    ],
+    "entry_id": "ti"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tiv",
+    "codes": [
+      "tiv"
+    ],
+    "entry_id": "tiv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tok Pisin",
+    "codes": [
+      "tpi"
+    ],
+    "entry_id": "tpi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tongan",
+    "codes": [
+      "to"
+    ],
+    "entry_id": "to"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tshiluba",
+    "codes": [
+      "lua"
+    ],
+    "entry_id": "lua"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tsonga",
+    "codes": [
+      "ts"
+    ],
+    "entry_id": "ts"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tswana",
+    "codes": [
+      "tn"
+    ],
+    "entry_id": "tn"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tulu",
+    "codes": [
+      "tcy"
+    ],
+    "entry_id": "tcy"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tumbuka",
+    "codes": [
+      "tum"
+    ],
+    "entry_id": "tum"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Turkish",
+    "codes": [
+      "tr"
+    ],
+    "entry_id": "tr"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Turkmen",
+    "codes": [
+      "tk"
+    ],
+    "entry_id": "tk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Tuvan",
+    "codes": [
+      "tyv"
+    ],
+    "entry_id": "tyv"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Twi",
+    "codes": [
+      "ak"
+    ],
+    "entry_id": "ak"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Udmurt",
+    "codes": [
+      "udm"
+    ],
+    "entry_id": "udm"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Uyghur",
+    "codes": [
+      "ug"
+    ],
+    "entry_id": "ug"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Uzbek",
+    "codes": [
+      "uz"
+    ],
+    "entry_id": "uz"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Venda",
+    "codes": [
+      "ve"
+    ],
+    "entry_id": "ve"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Venetian",
+    "codes": [
+      "vec"
+    ],
+    "entry_id": "vec"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Vietnamese",
+    "codes": [
+      "vi"
+    ],
+    "entry_id": "vi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Waray",
+    "codes": [
+      "war"
+    ],
+    "entry_id": "war"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Welsh",
+    "codes": [
+      "cy"
+    ],
+    "entry_id": "cy"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Wolof",
+    "codes": [
+      "wo"
+    ],
+    "entry_id": "wo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Xhosa",
+    "codes": [
+      "xh"
+    ],
+    "entry_id": "xh"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Yakut",
+    "codes": [
+      "sah"
+    ],
+    "entry_id": "sah"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Yiddish",
+    "codes": [
+      "yi"
+    ],
+    "entry_id": "yi"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Yoruba",
+    "codes": [
+      "yo"
+    ],
+    "entry_id": "yo"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Yucatec Maya",
+    "codes": [
+      "yua"
+    ],
+    "entry_id": "yua"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Zapotec",
+    "codes": [
+      "zap"
+    ],
+    "entry_id": "zap"
+  },
+  {
+    "vendor": "google_consumer",
+    "name": "Zulu",
+    "codes": [
+      "zu"
+    ],
+    "entry_id": "zu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Abkhaz",
+    "codes": [
+      "ab"
+    ],
+    "entry_id": "ab"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Acehnese",
+    "codes": [
+      "ace"
+    ],
+    "entry_id": "ace"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Acholi",
+    "codes": [
+      "ach"
+    ],
+    "entry_id": "ach"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Afrikaans",
+    "codes": [
+      "af"
+    ],
+    "entry_id": "af"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Albanian",
+    "codes": [
+      "sq"
+    ],
+    "entry_id": "sq"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Alur",
+    "codes": [
+      "alz"
+    ],
+    "entry_id": "alz"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Armenian",
+    "codes": [
+      "hy"
+    ],
+    "entry_id": "hy"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Assamese",
+    "codes": [
+      "as"
+    ],
+    "entry_id": "as"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Awadhi",
+    "codes": [
+      "awa"
+    ],
+    "entry_id": "awa"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Aymara",
+    "codes": [
+      "ay"
+    ],
+    "entry_id": "ay"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Azerbaijani",
+    "codes": [
+      "az"
+    ],
+    "entry_id": "az"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Balinese",
+    "codes": [
+      "ban"
+    ],
+    "entry_id": "ban"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bambara",
+    "codes": [
+      "bm"
+    ],
+    "entry_id": "bm"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bashkir",
+    "codes": [
+      "ba"
+    ],
+    "entry_id": "ba"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Basque",
+    "codes": [
+      "eu"
+    ],
+    "entry_id": "eu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Batak Karo",
+    "codes": [
+      "btx"
+    ],
+    "entry_id": "btx"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Batak Simalungun",
+    "codes": [
+      "bts"
+    ],
+    "entry_id": "bts"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Batak Toba",
+    "codes": [
+      "bbc"
+    ],
+    "entry_id": "bbc"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bemba",
+    "codes": [
+      "bem"
+    ],
+    "entry_id": "bem"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bengali",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Betawi",
+    "codes": [
+      "bew"
+    ],
+    "entry_id": "bew"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bhojpuri",
+    "codes": [
+      "bho"
+    ],
+    "entry_id": "bho"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bikol",
+    "codes": [
+      "bik"
+    ],
+    "entry_id": "bik"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bosnian",
+    "codes": [
+      "bs"
+    ],
+    "entry_id": "bs"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Breton",
+    "codes": [
+      "br"
+    ],
+    "entry_id": "br"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Buryat",
+    "codes": [
+      "bua"
+    ],
+    "entry_id": "bua"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Cantonese",
+    "codes": [
+      "yue"
+    ],
+    "entry_id": "yue"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Catalan",
+    "codes": [
+      "ca"
+    ],
+    "entry_id": "ca"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Cebuano",
+    "codes": [
+      "ceb"
+    ],
+    "entry_id": "ceb"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Chichewa (Nyanja)",
+    "codes": [
+      "ny"
+    ],
+    "entry_id": "ny"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Chinese (Simplified)",
+    "codes": [
+      "zh-CN",
+      "zh"
+    ],
+    "entry_id": "zh-CN"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Chinese (Traditional)",
+    "codes": [
+      "zh-TW"
+    ],
+    "entry_id": "zh-TW"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Chuvash",
+    "codes": [
+      "cv"
+    ],
+    "entry_id": "cv"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Corsican",
+    "codes": [
+      "co"
+    ],
+    "entry_id": "co"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Crimean Tatar",
+    "codes": [
+      "crh"
+    ],
+    "entry_id": "crh"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Croatian",
+    "codes": [
+      "hr"
+    ],
+    "entry_id": "hr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Czech",
+    "codes": [
+      "cs"
+    ],
+    "entry_id": "cs"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Danish",
+    "codes": [
+      "da"
+    ],
+    "entry_id": "da"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Dinka",
+    "codes": [
+      "din"
+    ],
+    "entry_id": "din"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Divehi",
+    "codes": [
+      "dv"
+    ],
+    "entry_id": "dv"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Dogri",
+    "codes": [
+      "doi"
+    ],
+    "entry_id": "doi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Dombe",
+    "codes": [
+      "dov"
+    ],
+    "entry_id": "dov"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Dutch",
+    "codes": [
+      "nl"
+    ],
+    "entry_id": "nl"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Dzongkha",
+    "codes": [
+      "dz"
+    ],
+    "entry_id": "dz"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "English",
+    "codes": [
+      "en"
+    ],
+    "entry_id": "en"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Esperanto",
+    "codes": [
+      "eo"
+    ],
+    "entry_id": "eo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Estonian",
+    "codes": [
+      "et"
+    ],
+    "entry_id": "et"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ewe",
+    "codes": [
+      "ee"
+    ],
+    "entry_id": "ee"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Fijian",
+    "codes": [
+      "fj"
+    ],
+    "entry_id": "fj"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Filipino (Tagalog)",
+    "codes": [
+      "fil",
+      "tl"
+    ],
+    "entry_id": "fil"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Finnish",
+    "codes": [
+      "fi"
+    ],
+    "entry_id": "fi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "French",
+    "codes": [
+      "fr"
+    ],
+    "entry_id": "fr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "French (French)",
+    "codes": [
+      "fr-FR"
+    ],
+    "entry_id": "fr-FR"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "French (Canadian)",
+    "codes": [
+      "fr-CA"
+    ],
+    "entry_id": "fr-CA"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Frisian",
+    "codes": [
+      "fy"
+    ],
+    "entry_id": "fy"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Fulfulde",
+    "codes": [
+      "ff"
+    ],
+    "entry_id": "ff"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ga",
+    "codes": [
+      "gaa"
+    ],
+    "entry_id": "gaa"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Galician",
+    "codes": [
+      "gl"
+    ],
+    "entry_id": "gl"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ganda (Luganda)",
+    "codes": [
+      "lg"
+    ],
+    "entry_id": "lg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Georgian",
+    "codes": [
+      "ka"
+    ],
+    "entry_id": "ka"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "German",
+    "codes": [
+      "de"
+    ],
+    "entry_id": "de"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Guarani",
+    "codes": [
+      "gn"
+    ],
+    "entry_id": "gn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Haitian Creole",
+    "codes": [
+      "ht"
+    ],
+    "entry_id": "ht"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hakha Chin",
+    "codes": [
+      "cnh"
+    ],
+    "entry_id": "cnh"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "entry_id": "ha"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hawaiian",
+    "codes": [
+      "haw"
+    ],
+    "entry_id": "haw"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hebrew",
+    "codes": [
+      "iw",
+      "he"
+    ],
+    "entry_id": "he"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hiligaynon",
+    "codes": [
+      "hil"
+    ],
+    "entry_id": "hil"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hmong",
+    "codes": [
+      "hmn"
+    ],
+    "entry_id": "hmn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hungarian",
+    "codes": [
+      "hu"
+    ],
+    "entry_id": "hu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Hunsrik",
+    "codes": [
+      "hrx"
+    ],
+    "entry_id": "hrx"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Icelandic",
+    "codes": [
+      "is"
+    ],
+    "entry_id": "is"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "entry_id": "ig"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Iloko",
+    "codes": [
+      "ilo"
+    ],
+    "entry_id": "ilo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Indonesian",
+    "codes": [
+      "id"
+    ],
+    "entry_id": "id"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Irish",
+    "codes": [
+      "ga"
+    ],
+    "entry_id": "ga"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Italian",
+    "codes": [
+      "it"
+    ],
+    "entry_id": "it"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Javanese",
+    "codes": [
+      "jw",
+      "jv"
+    ],
+    "entry_id": "jv"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kapampangan",
+    "codes": [
+      "pam"
+    ],
+    "entry_id": "pam"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kazakh",
+    "codes": [
+      "kk"
+    ],
+    "entry_id": "kk"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Khmer",
+    "codes": [
+      "km"
+    ],
+    "entry_id": "km"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kiga",
+    "codes": [
+      "cgg"
+    ],
+    "entry_id": "cgg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kinyarwanda",
+    "codes": [
+      "rw"
+    ],
+    "entry_id": "rw"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kituba",
+    "codes": [
+      "ktu"
+    ],
+    "entry_id": "ktu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Konkani",
+    "codes": [
+      "gom"
+    ],
+    "entry_id": "gom"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Krio",
+    "codes": [
+      "kri"
+    ],
+    "entry_id": "kri"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kurdish (Kurmanji)",
+    "codes": [
+      "ku"
+    ],
+    "entry_id": "kmr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kurdish (Sorani)",
+    "codes": [
+      "ckb"
+    ],
+    "entry_id": "ckb"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Kyrgyz",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Lao",
+    "codes": [
+      "lo"
+    ],
+    "entry_id": "lo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Latgalian",
+    "codes": [
+      "ltg"
+    ],
+    "entry_id": "ltg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Latin",
+    "codes": [
+      "la"
+    ],
+    "entry_id": "la"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Latvian",
+    "codes": [
+      "lv"
+    ],
+    "entry_id": "lv"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ligurian",
+    "codes": [
+      "lij"
+    ],
+    "entry_id": "lij"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Limburgan",
+    "codes": [
+      "li"
+    ],
+    "entry_id": "li"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Lingala",
+    "codes": [
+      "ln"
+    ],
+    "entry_id": "ln"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Lithuanian",
+    "codes": [
+      "lt"
+    ],
+    "entry_id": "lt"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Lombard",
+    "codes": [
+      "lmo"
+    ],
+    "entry_id": "lmo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Luo",
+    "codes": [
+      "luo"
+    ],
+    "entry_id": "luo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Luxembourgish",
+    "codes": [
+      "lb"
+    ],
+    "entry_id": "lb"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Maithili",
+    "codes": [
+      "mai"
+    ],
+    "entry_id": "mai"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Makassar",
+    "codes": [
+      "mak"
+    ],
+    "entry_id": "mak"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Malagasy",
+    "codes": [
+      "mg"
+    ],
+    "entry_id": "mg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Malay",
+    "codes": [
+      "ms"
+    ],
+    "entry_id": "ms"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Malay (Jawi)",
+    "codes": [
+      "ms-Arab"
+    ],
+    "entry_id": "ms-Arab"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Maltese",
+    "codes": [
+      "mt"
+    ],
+    "entry_id": "mt"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Maori",
+    "codes": [
+      "mi"
+    ],
+    "entry_id": "mi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Meadow Mari",
+    "codes": [
+      "chm"
+    ],
+    "entry_id": "chm"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Meiteilon (Manipuri)",
+    "codes": [
+      "mni-Mtei"
+    ],
+    "entry_id": "mni-Mtei"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Minang",
+    "codes": [
+      "min"
+    ],
+    "entry_id": "min"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Mizo",
+    "codes": [
+      "lus"
+    ],
+    "entry_id": "lus"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Mongolian",
+    "codes": [
+      "mn"
+    ],
+    "entry_id": "mn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Myanmar (Burmese)",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ndebele (South)",
+    "codes": [
+      "nr"
+    ],
+    "entry_id": "nr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Nepalbhasa (Newari)",
+    "codes": [
+      "new"
+    ],
+    "entry_id": "new"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Northern Sotho (Sepedi)",
+    "codes": [
+      "nso"
+    ],
+    "entry_id": "nso"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Norwegian",
+    "codes": [
+      "no"
+    ],
+    "entry_id": "no"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Nuer",
+    "codes": [
+      "nus"
+    ],
+    "entry_id": "nus"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Occitan",
+    "codes": [
+      "oc"
+    ],
+    "entry_id": "oc"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Odia (Oriya)",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Oromo",
+    "codes": [
+      "om"
+    ],
+    "entry_id": "om"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Pangasinan",
+    "codes": [
+      "pag"
+    ],
+    "entry_id": "pag"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Papiamento",
+    "codes": [
+      "pap"
+    ],
+    "entry_id": "pap"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Pashto",
+    "codes": [
+      "ps"
+    ],
+    "entry_id": "ps"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Polish",
+    "codes": [
+      "pl"
+    ],
+    "entry_id": "pl"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Portuguese",
+    "codes": [
+      "pt"
+    ],
+    "entry_id": "pt"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Portuguese (Portugal)",
+    "codes": [
+      "pt-PT"
+    ],
+    "entry_id": "pt-PT"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Portuguese (Brazil)",
+    "codes": [
+      "pt-BR"
+    ],
+    "entry_id": "pt-BR"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Punjabi",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Punjabi (Shahmukhi)",
+    "codes": [
+      "pa-Arab"
+    ],
+    "entry_id": "pa-Arab"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Quechua",
+    "codes": [
+      "qu"
+    ],
+    "entry_id": "qu"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Romani",
+    "codes": [
+      "rom"
+    ],
+    "entry_id": "rom"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Romanian",
+    "codes": [
+      "ro"
+    ],
+    "entry_id": "ro"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Rundi",
+    "codes": [
+      "rn"
+    ],
+    "entry_id": "rn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Samoan",
+    "codes": [
+      "sm"
+    ],
+    "entry_id": "sm"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sango",
+    "codes": [
+      "sg"
+    ],
+    "entry_id": "sg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sanskrit",
+    "codes": [
+      "sa"
+    ],
+    "entry_id": "sa"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Scots Gaelic",
+    "codes": [
+      "gd"
+    ],
+    "entry_id": "gd"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Serbian",
+    "codes": [
+      "sr"
+    ],
+    "entry_id": "sr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sesotho",
+    "codes": [
+      "st"
+    ],
+    "entry_id": "st"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Seychellois Creole",
+    "codes": [
+      "crs"
+    ],
+    "entry_id": "crs"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Shan",
+    "codes": [
+      "shn"
+    ],
+    "entry_id": "shn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Shona",
+    "codes": [
+      "sn"
+    ],
+    "entry_id": "sn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sicilian",
+    "codes": [
+      "scn"
+    ],
+    "entry_id": "scn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Silesian",
+    "codes": [
+      "szl"
+    ],
+    "entry_id": "szl"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sindhi",
+    "codes": [
+      "sd"
+    ],
+    "entry_id": "sd"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sinhala (Sinhalese)",
+    "codes": [
+      "si"
+    ],
+    "entry_id": "si"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Slovak",
+    "codes": [
+      "sk"
+    ],
+    "entry_id": "sk"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Slovenian",
+    "codes": [
+      "sl"
+    ],
+    "entry_id": "sl"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Somali",
+    "codes": [
+      "so"
+    ],
+    "entry_id": "so"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Spanish",
+    "codes": [
+      "es"
+    ],
+    "entry_id": "es"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Sundanese",
+    "codes": [
+      "su"
+    ],
+    "entry_id": "su"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Swahili",
+    "codes": [
+      "sw"
+    ],
+    "entry_id": "sw"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Swati",
+    "codes": [
+      "ss"
+    ],
+    "entry_id": "ss"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Swedish",
+    "codes": [
+      "sv"
+    ],
+    "entry_id": "sv"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tajik",
+    "codes": [
+      "tg"
+    ],
+    "entry_id": "tg"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tatar",
+    "codes": [
+      "tt"
+    ],
+    "entry_id": "tt"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tetum",
+    "codes": [
+      "tet"
+    ],
+    "entry_id": "tet"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tigrinya",
+    "codes": [
+      "ti"
+    ],
+    "entry_id": "ti"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tsonga",
+    "codes": [
+      "ts"
+    ],
+    "entry_id": "ts"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Tswana",
+    "codes": [
+      "tn"
+    ],
+    "entry_id": "tn"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Turkish",
+    "codes": [
+      "tr"
+    ],
+    "entry_id": "tr"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Turkmen",
+    "codes": [
+      "tk"
+    ],
+    "entry_id": "tk"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Twi (Akan)",
+    "codes": [
+      "ak"
+    ],
+    "entry_id": "ak"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Uyghur",
+    "codes": [
+      "ug"
+    ],
+    "entry_id": "ug"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Uzbek",
+    "codes": [
+      "uz"
+    ],
+    "entry_id": "uz"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Vietnamese",
+    "codes": [
+      "vi"
+    ],
+    "entry_id": "vi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Welsh",
+    "codes": [
+      "cy"
+    ],
+    "entry_id": "cy"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Xhosa",
+    "codes": [
+      "xh"
+    ],
+    "entry_id": "xh"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Yiddish",
+    "codes": [
+      "yi"
+    ],
+    "entry_id": "yi"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Yoruba",
+    "codes": [
+      "yo"
+    ],
+    "entry_id": "yo"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Yucatec Maya",
+    "codes": [
+      "yua"
+    ],
+    "entry_id": "yua"
+  },
+  {
+    "vendor": "google_cloud_nmt",
+    "name": "Zulu",
+    "codes": [
+      "zu"
+    ],
+    "entry_id": "zu"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Afrikaans",
+    "codes": [
+      "af"
+    ],
+    "entry_id": "af",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Albanian",
+    "codes": [
+      "sq"
+    ],
+    "entry_id": "sq",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Arabic (Saudi Arabia)",
+    "codes": [
+      "ar-SA"
+    ],
+    "entry_id": "ar-SA",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Armenian",
+    "codes": [
+      "hy"
+    ],
+    "entry_id": "hy",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Azerbaijani",
+    "codes": [
+      "az"
+    ],
+    "entry_id": "az",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Basque",
+    "codes": [
+      "eu"
+    ],
+    "entry_id": "eu",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Bengali (India)",
+    "codes": [
+      "bn-IN"
+    ],
+    "entry_id": "bn-IN",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Bengali",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Bosnian (Cyrillic)",
+    "codes": [
+      "bs-Cyrl"
+    ],
+    "entry_id": "bs-Cyrl",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Bosnian",
+    "codes": [
+      "bs"
+    ],
+    "entry_id": "bs",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Burmese",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Catalan",
+    "codes": [
+      "ca"
+    ],
+    "entry_id": "ca",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese (China)",
+    "codes": [
+      "zh-CN"
+    ],
+    "entry_id": "zh-CN",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese (Hong Kong)",
+    "codes": [
+      "zh-HK"
+    ],
+    "entry_id": "zh-HK",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese (Simplified)",
+    "codes": [
+      "zh-Hans"
+    ],
+    "entry_id": "zh-Hans",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese (Taiwan)",
+    "codes": [
+      "zh-TW"
+    ],
+    "entry_id": "zh-TW",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese (Traditional)",
+    "codes": [
+      "zh-Hant"
+    ],
+    "entry_id": "zh-Hant",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Chinese",
+    "codes": [
+      "zh"
+    ],
+    "entry_id": "zh",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Croatian",
+    "codes": [
+      "hr"
+    ],
+    "entry_id": "hr",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Czech",
+    "codes": [
+      "cs"
+    ],
+    "entry_id": "cs",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Danish",
+    "codes": [
+      "da"
+    ],
+    "entry_id": "da",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Dutch (Belgium)",
+    "codes": [
+      "nl-BE"
+    ],
+    "entry_id": "nl-BE",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Dutch",
+    "codes": [
+      "nl"
+    ],
+    "entry_id": "nl",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (Australia)",
+    "codes": [
+      "en-AU"
+    ],
+    "entry_id": "en-AU",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (Canada)",
+    "codes": [
+      "en-CA"
+    ],
+    "entry_id": "en-CA",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (New Zealand)",
+    "codes": [
+      "en-NZ"
+    ],
+    "entry_id": "en-NZ",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (Philippines)",
+    "codes": [
+      "en-PH"
+    ],
+    "entry_id": "en-PH",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (South Africa)",
+    "codes": [
+      "en-ZA"
+    ],
+    "entry_id": "en-ZA",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (United Kingdom)",
+    "codes": [
+      "en-GB"
+    ],
+    "entry_id": "en-GB",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English (United States)",
+    "codes": [
+      "en-US"
+    ],
+    "entry_id": "en-US",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "English",
+    "codes": [
+      "en"
+    ],
+    "entry_id": "en",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Estonian",
+    "codes": [
+      "et"
+    ],
+    "entry_id": "et",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Filipino",
+    "codes": [
+      "fil"
+    ],
+    "entry_id": "fil",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Finnish",
+    "codes": [
+      "fi"
+    ],
+    "entry_id": "fi",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "French (Canada)",
+    "codes": [
+      "fr-CA"
+    ],
+    "entry_id": "fr-CA",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "French (Switzerland)",
+    "codes": [
+      "fr-CH"
+    ],
+    "entry_id": "fr-CH",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "French",
+    "codes": [
+      "fr"
+    ],
+    "entry_id": "fr",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Frisian",
+    "codes": [
+      "fy"
+    ],
+    "entry_id": "fy",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Galician",
+    "codes": [
+      "gl"
+    ],
+    "entry_id": "gl",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Georgian",
+    "codes": [
+      "ka"
+    ],
+    "entry_id": "ka",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "German",
+    "codes": [
+      "de"
+    ],
+    "entry_id": "de",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Guarani",
+    "codes": [
+      "gn"
+    ],
+    "entry_id": "gn",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "entry_id": "ha",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Hebrew",
+    "codes": [
+      "he"
+    ],
+    "entry_id": "he",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Hebrew",
+    "codes": [
+      "iw"
+    ],
+    "entry_id": "he",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Hungarian",
+    "codes": [
+      "hu"
+    ],
+    "entry_id": "hu",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Icelandic",
+    "codes": [
+      "is"
+    ],
+    "entry_id": "is",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "entry_id": "ig",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Indonesian",
+    "codes": [
+      "id"
+    ],
+    "entry_id": "id",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Irish",
+    "codes": [
+      "ga"
+    ],
+    "entry_id": "ga",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Italian",
+    "codes": [
+      "it"
+    ],
+    "entry_id": "it",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Khmer",
+    "codes": [
+      "km"
+    ],
+    "entry_id": "km",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Kyrgyz",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Lao",
+    "codes": [
+      "lo"
+    ],
+    "entry_id": "lo",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Latvian",
+    "codes": [
+      "lv"
+    ],
+    "entry_id": "lv",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Lingala",
+    "codes": [
+      "ln"
+    ],
+    "entry_id": "ln",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Lithuanian",
+    "codes": [
+      "lt"
+    ],
+    "entry_id": "lt",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Luxembourgish",
+    "codes": [
+      "lb"
+    ],
+    "entry_id": "lb",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Malay",
+    "codes": [
+      "ms"
+    ],
+    "entry_id": "ms",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Maltese",
+    "codes": [
+      "mt"
+    ],
+    "entry_id": "mt",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Mongolian",
+    "codes": [
+      "mn"
+    ],
+    "entry_id": "mn",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Norwegian Bokmal",
+    "codes": [
+      "nb"
+    ],
+    "entry_id": "nb",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Norwegian",
+    "codes": [
+      "no"
+    ],
+    "entry_id": "no",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Odia",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Polish",
+    "codes": [
+      "pl"
+    ],
+    "entry_id": "pl",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Portuguese (Brazil)",
+    "codes": [
+      "pt-BR"
+    ],
+    "entry_id": "pt-BR",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Portuguese (Portugal)",
+    "codes": [
+      "pt-PT"
+    ],
+    "entry_id": "pt-PT",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Portuguese",
+    "codes": [
+      "pt"
+    ],
+    "entry_id": "pt",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Punjabi (Pakistan)",
+    "codes": [
+      "pa-PK"
+    ],
+    "entry_id": "pa-PK",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Punjabi",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Romanian",
+    "codes": [
+      "ro"
+    ],
+    "entry_id": "ro",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Scots Gaelic",
+    "codes": [
+      "gd"
+    ],
+    "entry_id": "gd",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Serbian",
+    "codes": [
+      "sr"
+    ],
+    "entry_id": "sr",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Slovak",
+    "codes": [
+      "sk"
+    ],
+    "entry_id": "sk",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Slovenian",
+    "codes": [
+      "sl"
+    ],
+    "entry_id": "sl",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Somali",
+    "codes": [
+      "so"
+    ],
+    "entry_id": "so",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Argentina)",
+    "codes": [
+      "es-AR"
+    ],
+    "entry_id": "es-AR",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Chile)",
+    "codes": [
+      "es-CL"
+    ],
+    "entry_id": "es-CL",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Colombia)",
+    "codes": [
+      "es-CO"
+    ],
+    "entry_id": "es-CO",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Costa Rica)",
+    "codes": [
+      "es-CR"
+    ],
+    "entry_id": "es-CR",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Ecuador)",
+    "codes": [
+      "es-EC"
+    ],
+    "entry_id": "es-EC",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (El Salvador)",
+    "codes": [
+      "es-SV"
+    ],
+    "entry_id": "es-SV",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Guatemala)",
+    "codes": [
+      "es-GT"
+    ],
+    "entry_id": "es-GT",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Haiti)",
+    "codes": [
+      "es-HT"
+    ],
+    "entry_id": "es-HT",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Honduras)",
+    "codes": [
+      "es-HN"
+    ],
+    "entry_id": "es-HN",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Latin America)",
+    "codes": [
+      "es-419"
+    ],
+    "entry_id": "es-419",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Mexico)",
+    "codes": [
+      "es-MX"
+    ],
+    "entry_id": "es-MX",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Nicaragua)",
+    "codes": [
+      "es-NI"
+    ],
+    "entry_id": "es-NI",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Panama)",
+    "codes": [
+      "es-PA"
+    ],
+    "entry_id": "es-PA",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Paraguay)",
+    "codes": [
+      "es-PY"
+    ],
+    "entry_id": "es-PY",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Peru)",
+    "codes": [
+      "es-PE"
+    ],
+    "entry_id": "es-PE",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Puerto Rico)",
+    "codes": [
+      "es-PR"
+    ],
+    "entry_id": "es-PR",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Spain)",
+    "codes": [
+      "es-ES"
+    ],
+    "entry_id": "es-ES",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (United States)",
+    "codes": [
+      "es-US"
+    ],
+    "entry_id": "es-US",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Uruguay)",
+    "codes": [
+      "es-UY"
+    ],
+    "entry_id": "es-UY",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish (Venezuela)",
+    "codes": [
+      "es-VE"
+    ],
+    "entry_id": "es-VE",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Spanish",
+    "codes": [
+      "es"
+    ],
+    "entry_id": "es",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Swahili",
+    "codes": [
+      "sw"
+    ],
+    "entry_id": "sw",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Swedish",
+    "codes": [
+      "sv"
+    ],
+    "entry_id": "sv",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Tagalog",
+    "codes": [
+      "tl"
+    ],
+    "entry_id": "fil",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Tajik",
+    "codes": [
+      "tg"
+    ],
+    "entry_id": "tg",
+    "status": "experimental"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Turkish",
+    "codes": [
+      "tr"
+    ],
+    "entry_id": "tr",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Uzbek",
+    "codes": [
+      "uz"
+    ],
+    "entry_id": "uz",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Vietnamese",
+    "codes": [
+      "vi"
+    ],
+    "entry_id": "vi",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Welsh",
+    "codes": [
+      "cy"
+    ],
+    "entry_id": "cy",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_tllm",
+    "name": "Zulu",
+    "codes": [
+      "zu"
+    ],
+    "entry_id": "zu",
+    "status": "official"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar",
+    "romanization": true,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am",
+    "romanization": true,
+    "romanized_input_translation": false,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Bengali",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn",
+    "romanization": true,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be",
+    "romanization": true,
+    "romanized_input_translation": false,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu",
+    "romanization": false,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi",
+    "romanization": true,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja",
+    "romanization": true,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn",
+    "romanization": false,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Myanmar",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my",
+    "romanization": true,
+    "romanized_input_translation": false,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru",
+    "romanization": true,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Serbian",
+    "codes": [
+      "sr"
+    ],
+    "entry_id": "sr",
+    "romanization": true,
+    "romanized_input_translation": false,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta",
+    "romanization": false,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te",
+    "romanization": false,
+    "romanized_input_translation": true,
+    "status": "preview"
+  },
+  {
+    "vendor": "google_cloud_romanization_table",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk",
+    "romanization": true,
+    "romanized_input_translation": false,
+    "status": "preview"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Afrikaans",
+    "codes": [
+      "af"
+    ],
+    "entry_id": "af",
+    "native_name": "Afrikaans"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am",
+    "native_name": "አማርኛ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar",
+    "native_name": "العربية"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Assamese",
+    "codes": [
+      "as"
+    ],
+    "entry_id": "as",
+    "native_name": "অসমীয়া"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Azerbaijani",
+    "codes": [
+      "az"
+    ],
+    "entry_id": "az",
+    "native_name": "Azərbaycan"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bashkir",
+    "codes": [
+      "ba"
+    ],
+    "entry_id": "ba",
+    "native_name": "Bashkir"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be",
+    "native_name": "беларуская"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg",
+    "native_name": "Български"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bhojpuri",
+    "codes": [
+      "bho"
+    ],
+    "entry_id": "bho",
+    "native_name": "भोजपुरी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bangla",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn",
+    "native_name": "বাংলা"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tibetan",
+    "codes": [
+      "bo"
+    ],
+    "entry_id": "bo",
+    "native_name": "བོད་སྐད་"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bodo",
+    "codes": [
+      "brx"
+    ],
+    "entry_id": "brx",
+    "native_name": "बड़ो"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Bosnian",
+    "codes": [
+      "bs"
+    ],
+    "entry_id": "bs",
+    "native_name": "Bosanski"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Catalan",
+    "codes": [
+      "ca"
+    ],
+    "entry_id": "ca",
+    "native_name": "Català"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Czech",
+    "codes": [
+      "cs"
+    ],
+    "entry_id": "cs",
+    "native_name": "Čeština"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Welsh",
+    "codes": [
+      "cy"
+    ],
+    "entry_id": "cy",
+    "native_name": "Cymraeg"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Danish",
+    "codes": [
+      "da"
+    ],
+    "entry_id": "da",
+    "native_name": "Dansk"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "German",
+    "codes": [
+      "de"
+    ],
+    "entry_id": "de",
+    "native_name": "Deutsch"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Dogri",
+    "codes": [
+      "doi"
+    ],
+    "entry_id": "doi",
+    "native_name": "डोगरी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Lower Sorbian",
+    "codes": [
+      "dsb"
+    ],
+    "entry_id": "dsb",
+    "native_name": "Dolnoserbšćina"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Divehi",
+    "codes": [
+      "dv"
+    ],
+    "entry_id": "dv",
+    "native_name": "ދިވެހިބަސް"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el",
+    "native_name": "Ελληνικά"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "English",
+    "codes": [
+      "en"
+    ],
+    "entry_id": "en",
+    "native_name": "English"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Spanish",
+    "codes": [
+      "es"
+    ],
+    "entry_id": "es",
+    "native_name": "Español"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Spanish (Mexico)",
+    "codes": [
+      "es-MX"
+    ],
+    "entry_id": "es-MX",
+    "native_name": "Español (México)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Estonian",
+    "codes": [
+      "et"
+    ],
+    "entry_id": "et",
+    "native_name": "Eesti"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Basque",
+    "codes": [
+      "eu"
+    ],
+    "entry_id": "eu",
+    "native_name": "Euskara"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa",
+    "native_name": "فارسی"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Finnish",
+    "codes": [
+      "fi"
+    ],
+    "entry_id": "fi",
+    "native_name": "Suomi"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Filipino",
+    "codes": [
+      "fil"
+    ],
+    "entry_id": "fil",
+    "native_name": "Filipino"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Fijian",
+    "codes": [
+      "fj"
+    ],
+    "entry_id": "fj",
+    "native_name": "Na Vosa Vakaviti"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Faroese",
+    "codes": [
+      "fo"
+    ],
+    "entry_id": "fo",
+    "native_name": "Føroyskt"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "French",
+    "codes": [
+      "fr"
+    ],
+    "entry_id": "fr",
+    "native_name": "Français"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "French (Canada)",
+    "codes": [
+      "fr-CA"
+    ],
+    "entry_id": "fr-CA",
+    "native_name": "Français (Canada)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Irish",
+    "codes": [
+      "ga"
+    ],
+    "entry_id": "ga",
+    "native_name": "Gaeilge"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Galician",
+    "codes": [
+      "gl"
+    ],
+    "entry_id": "gl",
+    "native_name": "Galego"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Konkani",
+    "codes": [
+      "gom"
+    ],
+    "entry_id": "gom",
+    "native_name": "कोंकणी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu",
+    "native_name": "ગુજરાતી"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "entry_id": "ha",
+    "native_name": "Hausa"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Hebrew",
+    "codes": [
+      "he"
+    ],
+    "entry_id": "he",
+    "native_name": "עברית"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi",
+    "native_name": "हिन्दी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Chhattisgarhi",
+    "codes": [
+      "hne"
+    ],
+    "entry_id": "hne",
+    "native_name": "छत्तीसगढ़ी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Croatian",
+    "codes": [
+      "hr"
+    ],
+    "entry_id": "hr",
+    "native_name": "Hrvatski"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Upper Sorbian",
+    "codes": [
+      "hsb"
+    ],
+    "entry_id": "hsb",
+    "native_name": "Hornjoserbšćina"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Haitian Creole",
+    "codes": [
+      "ht"
+    ],
+    "entry_id": "ht",
+    "native_name": "Haitian Creole"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Hungarian",
+    "codes": [
+      "hu"
+    ],
+    "entry_id": "hu",
+    "native_name": "Magyar"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Armenian",
+    "codes": [
+      "hy"
+    ],
+    "entry_id": "hy",
+    "native_name": "Հայերեն"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Indonesian",
+    "codes": [
+      "id"
+    ],
+    "entry_id": "id",
+    "native_name": "Indonesia"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "entry_id": "ig",
+    "native_name": "Ásụ̀sụ́ Ìgbò"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Inuinnaqtun",
+    "codes": [
+      "ikt"
+    ],
+    "entry_id": "ikt",
+    "native_name": "Inuinnaqtun"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Icelandic",
+    "codes": [
+      "is"
+    ],
+    "entry_id": "is",
+    "native_name": "Íslenska"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Italian",
+    "codes": [
+      "it"
+    ],
+    "entry_id": "it",
+    "native_name": "Italiano"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Inuktitut",
+    "codes": [
+      "iu"
+    ],
+    "entry_id": "iu-Cans",
+    "native_name": "ᐃᓄᒃᑎᑐᑦ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Inuktitut (Latin)",
+    "codes": [
+      "iu-Latn"
+    ],
+    "entry_id": "iu-Latn",
+    "native_name": "Inuktitut (Latin)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja",
+    "native_name": "日本語"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Georgian",
+    "codes": [
+      "ka"
+    ],
+    "entry_id": "ka",
+    "native_name": "ქართული"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kazakh",
+    "codes": [
+      "kk"
+    ],
+    "entry_id": "kk",
+    "native_name": "Қазақ Тілі"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Khmer",
+    "codes": [
+      "km"
+    ],
+    "entry_id": "km",
+    "native_name": "ខ្មែរ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kurdish (Northern)",
+    "codes": [
+      "kmr"
+    ],
+    "entry_id": "kmr",
+    "native_name": "Kurdî (Bakur)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn",
+    "native_name": "ಕನ್ನಡ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko",
+    "native_name": "한국어"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kashmiri",
+    "codes": [
+      "ks"
+    ],
+    "entry_id": "ks",
+    "native_name": "کٲشُر"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kurdish (Central)",
+    "codes": [
+      "ku"
+    ],
+    "entry_id": "ckb",
+    "native_name": "Kurdî (Navîn)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kyrgyz",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky",
+    "native_name": "Кыргызча"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Luxembourgish",
+    "codes": [
+      "lb"
+    ],
+    "entry_id": "lb",
+    "native_name": "Lëtzebuergesch"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Lingala",
+    "codes": [
+      "ln"
+    ],
+    "entry_id": "ln",
+    "native_name": "Lingála"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Lao",
+    "codes": [
+      "lo"
+    ],
+    "entry_id": "lo",
+    "native_name": "ລາວ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Lithuanian",
+    "codes": [
+      "lt"
+    ],
+    "entry_id": "lt",
+    "native_name": "Lietuvių"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Ganda",
+    "codes": [
+      "lug"
+    ],
+    "entry_id": "lg",
+    "native_name": "Ganda"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Latvian",
+    "codes": [
+      "lv"
+    ],
+    "entry_id": "lv",
+    "native_name": "Latviešu"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Chinese (Literary)",
+    "codes": [
+      "lzh"
+    ],
+    "entry_id": "lzh",
+    "native_name": "中文 (文言文)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Maithili",
+    "codes": [
+      "mai"
+    ],
+    "entry_id": "mai",
+    "native_name": "मैथिली"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Malagasy",
+    "codes": [
+      "mg"
+    ],
+    "entry_id": "mg",
+    "native_name": "Malagasy"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Māori",
+    "codes": [
+      "mi"
+    ],
+    "entry_id": "mi",
+    "native_name": "Te Reo Māori"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk",
+    "native_name": "Македонски"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml",
+    "native_name": "മലയാളം"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Mongolian (Cyrillic)",
+    "codes": [
+      "mn-Cyrl"
+    ],
+    "entry_id": "mn-Cyrl",
+    "native_name": "Монгол"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Mongolian (Traditional)",
+    "codes": [
+      "mn-Mong"
+    ],
+    "entry_id": "mn-Mong",
+    "native_name": "ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Manipuri",
+    "codes": [
+      "mni"
+    ],
+    "entry_id": "mni-Mtei",
+    "native_name": "ꯃꯩꯇꯩꯂꯣꯟ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr",
+    "native_name": "मराठी"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Malay",
+    "codes": [
+      "ms"
+    ],
+    "entry_id": "ms",
+    "native_name": "Melayu"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Maltese",
+    "codes": [
+      "mt"
+    ],
+    "entry_id": "mt",
+    "native_name": "Malti"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Hmong Daw",
+    "codes": [
+      "mww"
+    ],
+    "entry_id": "mww-Latn",
+    "native_name": "Hmong Daw"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Myanmar (Burmese)",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my",
+    "native_name": "မြန်မာ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Norwegian",
+    "codes": [
+      "nb"
+    ],
+    "entry_id": "nb",
+    "native_name": "Norsk Bokmål"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne",
+    "native_name": "नेपाली"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Dutch",
+    "codes": [
+      "nl"
+    ],
+    "entry_id": "nl",
+    "native_name": "Nederlands"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Sesotho sa Leboa",
+    "codes": [
+      "nso"
+    ],
+    "entry_id": "nso",
+    "native_name": "Sesotho sa Leboa"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Nyanja",
+    "codes": [
+      "nya"
+    ],
+    "entry_id": "ny",
+    "native_name": "Nyanja"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Odia",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or",
+    "native_name": "ଓଡ଼ିଆ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Querétaro Otomi",
+    "codes": [
+      "otq"
+    ],
+    "entry_id": "otq",
+    "native_name": "Hñähñu"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Punjabi",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa",
+    "native_name": "ਪੰਜਾਬੀ"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Polish",
+    "codes": [
+      "pl"
+    ],
+    "entry_id": "pl",
+    "native_name": "Polski"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Dari",
+    "codes": [
+      "prs"
+    ],
+    "entry_id": "fa-AF",
+    "native_name": "دری"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Pashto",
+    "codes": [
+      "ps"
+    ],
+    "entry_id": "ps",
+    "native_name": "پښتو"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Portuguese (Brazil)",
+    "codes": [
+      "pt"
+    ],
+    "entry_id": "pt-BR",
+    "native_name": "Português (Brasil)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Portuguese (Portugal)",
+    "codes": [
+      "pt-PT"
+    ],
+    "entry_id": "pt-PT",
+    "native_name": "Português (Portugal)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Romanian",
+    "codes": [
+      "ro"
+    ],
+    "entry_id": "ro",
+    "native_name": "Română"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru",
+    "native_name": "Русский"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Rundi",
+    "codes": [
+      "run"
+    ],
+    "entry_id": "rn",
+    "native_name": "Rundi"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Kinyarwanda",
+    "codes": [
+      "rw"
+    ],
+    "entry_id": "rw",
+    "native_name": "Kinyarwanda"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Sindhi",
+    "codes": [
+      "sd"
+    ],
+    "entry_id": "sd",
+    "native_name": "سنڌي"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Sinhala",
+    "codes": [
+      "si"
+    ],
+    "entry_id": "si",
+    "native_name": "සිංහල"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Slovak",
+    "codes": [
+      "sk"
+    ],
+    "entry_id": "sk",
+    "native_name": "Slovenčina"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Slovenian",
+    "codes": [
+      "sl"
+    ],
+    "entry_id": "sl",
+    "native_name": "Slovenščina"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Samoan",
+    "codes": [
+      "sm"
+    ],
+    "entry_id": "sm",
+    "native_name": "Gagana Sāmoa"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Shona",
+    "codes": [
+      "sn"
+    ],
+    "entry_id": "sn",
+    "native_name": "chiShona"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Somali",
+    "codes": [
+      "so"
+    ],
+    "entry_id": "so",
+    "native_name": "Soomaali"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Albanian",
+    "codes": [
+      "sq"
+    ],
+    "entry_id": "sq",
+    "native_name": "Shqip"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Serbian (Cyrillic)",
+    "codes": [
+      "sr-Cyrl"
+    ],
+    "entry_id": "sr-Cyrl",
+    "native_name": "Српски (ћирилица)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Serbian (Latin)",
+    "codes": [
+      "sr-Latn"
+    ],
+    "entry_id": "sr-Latn",
+    "native_name": "Srpski (latinica)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Sesotho",
+    "codes": [
+      "st"
+    ],
+    "entry_id": "st",
+    "native_name": "Sesotho"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Swedish",
+    "codes": [
+      "sv"
+    ],
+    "entry_id": "sv",
+    "native_name": "Svenska"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Swahili",
+    "codes": [
+      "sw"
+    ],
+    "entry_id": "sw",
+    "native_name": "Kiswahili"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta",
+    "native_name": "தமிழ்"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te",
+    "native_name": "తెలుగు"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th",
+    "native_name": "ไทย"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tigrinya",
+    "codes": [
+      "ti"
+    ],
+    "entry_id": "ti",
+    "native_name": "ትግር"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Turkmen",
+    "codes": [
+      "tk"
+    ],
+    "entry_id": "tk",
+    "native_name": "Türkmen Dili"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Klingon (Latin)",
+    "codes": [
+      "tlh-Latn"
+    ],
+    "entry_id": "tlh-Latn",
+    "native_name": "Klingon (Latin)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Klingon (pIqaD)",
+    "codes": [
+      "tlh-Piqd"
+    ],
+    "entry_id": "tlh-Piqd",
+    "native_name": "Klingon (pIqaD)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Setswana",
+    "codes": [
+      "tn"
+    ],
+    "entry_id": "tn",
+    "native_name": "Setswana"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tongan",
+    "codes": [
+      "to"
+    ],
+    "entry_id": "to",
+    "native_name": "Lea Fakatonga"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Turkish",
+    "codes": [
+      "tr"
+    ],
+    "entry_id": "tr",
+    "native_name": "Türkçe"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tatar",
+    "codes": [
+      "tt"
+    ],
+    "entry_id": "tt",
+    "native_name": "Татар"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Tahitian",
+    "codes": [
+      "ty"
+    ],
+    "entry_id": "ty",
+    "native_name": "Reo Tahiti"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Uyghur",
+    "codes": [
+      "ug"
+    ],
+    "entry_id": "ug",
+    "native_name": "ئۇيغۇرچە"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk",
+    "native_name": "Українська"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur",
+    "native_name": "اردو"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Uzbek (Latin)",
+    "codes": [
+      "uz"
+    ],
+    "entry_id": "uz",
+    "native_name": "O‘Zbek"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Vietnamese",
+    "codes": [
+      "vi"
+    ],
+    "entry_id": "vi",
+    "native_name": "Tiếng Việt"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Xhosa",
+    "codes": [
+      "xh"
+    ],
+    "entry_id": "xh",
+    "native_name": "isiXhosa"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Yoruba",
+    "codes": [
+      "yo"
+    ],
+    "entry_id": "yo",
+    "native_name": "Èdè Yorùbá"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Yucatec Maya",
+    "codes": [
+      "yua"
+    ],
+    "entry_id": "yua",
+    "native_name": "Yucatec Maya"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Cantonese (Traditional)",
+    "codes": [
+      "yue"
+    ],
+    "entry_id": "yue",
+    "native_name": "粵語 (繁體)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Chinese Simplified",
+    "codes": [
+      "zh-Hans"
+    ],
+    "entry_id": "zh-Hans",
+    "native_name": "中文 (简体)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Chinese Traditional",
+    "codes": [
+      "zh-Hant"
+    ],
+    "entry_id": "zh-Hant",
+    "native_name": "繁體中文 (繁體)"
+  },
+  {
+    "vendor": "azure_translation_api",
+    "name": "Zulu",
+    "codes": [
+      "zu"
+    ],
+    "entry_id": "zu",
+    "native_name": "Isi-Zulu"
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar",
+    "pairs": [
+      {
+        "from_script": "Arab",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Arab"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Assamese",
+    "codes": [
+      "as"
+    ],
+    "entry_id": "as",
+    "pairs": [
+      {
+        "from_script": "Beng",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Beng"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Belarusian",
+    "codes": [
+      "be"
+    ],
+    "entry_id": "be",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Bangla",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn",
+    "pairs": [
+      {
+        "from_script": "Beng",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Beng"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Bodo",
+    "codes": [
+      "brx"
+    ],
+    "entry_id": "brx",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el",
+    "pairs": [
+      {
+        "from_script": "Grek",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Grek"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa",
+    "pairs": [
+      {
+        "from_script": "Arab",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Arab"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Konkani",
+    "codes": [
+      "gom"
+    ],
+    "entry_id": "gom",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu",
+    "pairs": [
+      {
+        "from_script": "Gujr",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Gujr"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Hebrew",
+    "codes": [
+      "he"
+    ],
+    "entry_id": "he",
+    "pairs": [
+      {
+        "from_script": "Hebr",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Hebr"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja",
+    "pairs": [
+      {
+        "from_script": "Jpan",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Jpan"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Kazakh",
+    "codes": [
+      "kk"
+    ],
+    "entry_id": "kk",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn",
+    "pairs": [
+      {
+        "from_script": "Knda",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Knda"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko",
+    "pairs": [
+      {
+        "from_script": "Kore",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Kore"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Kashmiri",
+    "codes": [
+      "ks"
+    ],
+    "entry_id": "ks",
+    "pairs": [
+      {
+        "from_script": "Arab",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Arab"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Kyrgyz",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Maithili",
+    "codes": [
+      "mai"
+    ],
+    "entry_id": "mai",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml",
+    "pairs": [
+      {
+        "from_script": "Mlym",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Mlym"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Mongolian (Cyrillic)",
+    "codes": [
+      "mn-Cyrl"
+    ],
+    "entry_id": "mn-Cyrl",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Cyrl",
+        "to_script": "Mong"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Manipuri",
+    "codes": [
+      "mni"
+    ],
+    "entry_id": "mni-Mtei",
+    "pairs": [
+      {
+        "from_script": "Mtei",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Mtei"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Odia",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or",
+    "pairs": [
+      {
+        "from_script": "Orya",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Orya"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Punjabi",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa",
+    "pairs": [
+      {
+        "from_script": "Guru",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Guru"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Sanskrit",
+    "codes": [
+      "sa"
+    ],
+    "entry_id": "sa",
+    "pairs": [
+      {
+        "from_script": "Deva",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Deva"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Sindhi",
+    "codes": [
+      "sd"
+    ],
+    "entry_id": "sd",
+    "pairs": [
+      {
+        "from_script": "Arab",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Arab"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Sinhala",
+    "codes": [
+      "si"
+    ],
+    "entry_id": "si",
+    "pairs": [
+      {
+        "from_script": "Sinh",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Sinh"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Serbian (Cyrillic)",
+    "codes": [
+      "sr-Cyrl"
+    ],
+    "entry_id": "sr-Cyrl",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Serbian (Latin)",
+    "codes": [
+      "sr-Latn"
+    ],
+    "entry_id": "sr-Latn",
+    "pairs": [
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta",
+    "pairs": [
+      {
+        "from_script": "Taml",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Taml"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te",
+    "pairs": [
+      {
+        "from_script": "Telu",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Telu"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Tajik",
+    "codes": [
+      "tg"
+    ],
+    "entry_id": "tg",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th",
+    "pairs": [
+      {
+        "from_script": "Thai",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Thai"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Tatar",
+    "codes": [
+      "tt"
+    ],
+    "entry_id": "tt",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk",
+    "pairs": [
+      {
+        "from_script": "Cyrl",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Cyrl"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur",
+    "pairs": [
+      {
+        "from_script": "Arab",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Arab"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Chinese Simplified",
+    "codes": [
+      "zh-Hans"
+    ],
+    "entry_id": "zh-Hans",
+    "pairs": [
+      {
+        "from_script": "Hans",
+        "to_script": "Hant"
+      },
+      {
+        "from_script": "Hans",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Hans"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Hant"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_transliteration_api",
+    "name": "Chinese Traditional",
+    "codes": [
+      "zh-Hant"
+    ],
+    "entry_id": "zh-Hant",
+    "pairs": [
+      {
+        "from_script": "Hant",
+        "to_script": "Hans"
+      },
+      {
+        "from_script": "Hant",
+        "to_script": "Latn"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Hans"
+      },
+      {
+        "from_script": "Latn",
+        "to_script": "Hant"
+      }
+    ]
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Afrikaans",
+    "codes": [
+      "af"
+    ],
+    "entry_id": "af",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Albanian",
+    "codes": [
+      "sq"
+    ],
+    "entry_id": "sq",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Amharic",
+    "codes": [
+      "am"
+    ],
+    "entry_id": "am",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Arabic",
+    "codes": [
+      "ar"
+    ],
+    "entry_id": "ar",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Armenian",
+    "codes": [
+      "hy"
+    ],
+    "entry_id": "hy",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Assamese",
+    "codes": [
+      "as"
+    ],
+    "entry_id": "as",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Azerbaijani (Latin)",
+    "codes": [
+      "az"
+    ],
+    "entry_id": "az",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bangla",
+    "codes": [
+      "bn"
+    ],
+    "entry_id": "bn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bashkir",
+    "codes": [
+      "ba"
+    ],
+    "entry_id": "ba",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Basque",
+    "codes": [
+      "eu"
+    ],
+    "entry_id": "eu",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bhojpuri",
+    "codes": [
+      "bho"
+    ],
+    "entry_id": "bho",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bodo",
+    "codes": [
+      "brx"
+    ],
+    "entry_id": "brx",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bosnian (Latin)",
+    "codes": [
+      "bs"
+    ],
+    "entry_id": "bs",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Bulgarian",
+    "codes": [
+      "bg"
+    ],
+    "entry_id": "bg",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Cantonese (Traditional)",
+    "codes": [
+      "yue"
+    ],
+    "entry_id": "yue",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Catalan",
+    "codes": [
+      "ca"
+    ],
+    "entry_id": "ca",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Chhattisgarhi",
+    "codes": [
+      "hne"
+    ],
+    "entry_id": "hne",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Chinese (Literary)",
+    "codes": [
+      "lzh"
+    ],
+    "entry_id": "lzh",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Chinese Simplified",
+    "codes": [
+      "zh-Hans"
+    ],
+    "entry_id": "zh-Hans",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Chinese Traditional",
+    "codes": [
+      "zh-Hant"
+    ],
+    "entry_id": "zh-Hant",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "chiShona",
+    "codes": [
+      "sn"
+    ],
+    "entry_id": "sn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Croatian",
+    "codes": [
+      "hr"
+    ],
+    "entry_id": "hr",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Czech",
+    "codes": [
+      "cs"
+    ],
+    "entry_id": "cs",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Danish",
+    "codes": [
+      "da"
+    ],
+    "entry_id": "da",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Dari",
+    "codes": [
+      "prs"
+    ],
+    "entry_id": "fa-AF",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Divehi",
+    "codes": [
+      "dv"
+    ],
+    "entry_id": "dv",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Dogri",
+    "codes": [
+      "doi"
+    ],
+    "entry_id": "doi",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Dutch",
+    "codes": [
+      "nl"
+    ],
+    "entry_id": "nl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "English",
+    "codes": [
+      "en"
+    ],
+    "entry_id": "en",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Estonian",
+    "codes": [
+      "et"
+    ],
+    "entry_id": "et",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Faroese",
+    "codes": [
+      "fo"
+    ],
+    "entry_id": "fo",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Fijian",
+    "codes": [
+      "fj"
+    ],
+    "entry_id": "fj",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Filipino",
+    "codes": [
+      "fil"
+    ],
+    "entry_id": "fil",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Finnish",
+    "codes": [
+      "fi"
+    ],
+    "entry_id": "fi",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "French",
+    "codes": [
+      "fr"
+    ],
+    "entry_id": "fr",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "French (Canada)",
+    "codes": [
+      "fr-ca"
+    ],
+    "entry_id": "fr-CA",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Galician",
+    "codes": [
+      "gl"
+    ],
+    "entry_id": "gl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Georgian",
+    "codes": [
+      "ka"
+    ],
+    "entry_id": "ka",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "German",
+    "codes": [
+      "de"
+    ],
+    "entry_id": "de",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Greek",
+    "codes": [
+      "el"
+    ],
+    "entry_id": "el",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Gujarati",
+    "codes": [
+      "gu"
+    ],
+    "entry_id": "gu",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Haitian Creole",
+    "codes": [
+      "ht"
+    ],
+    "entry_id": "ht",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Hausa",
+    "codes": [
+      "ha"
+    ],
+    "entry_id": "ha",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Hebrew",
+    "codes": [
+      "he"
+    ],
+    "entry_id": "he",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Hindi",
+    "codes": [
+      "hi"
+    ],
+    "entry_id": "hi",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Hmong Daw (Latin)",
+    "codes": [
+      "mww"
+    ],
+    "entry_id": "mww-Latn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Hungarian",
+    "codes": [
+      "hu"
+    ],
+    "entry_id": "hu",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Icelandic",
+    "codes": [
+      "is"
+    ],
+    "entry_id": "is",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Igbo",
+    "codes": [
+      "ig"
+    ],
+    "entry_id": "ig",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Indonesian",
+    "codes": [
+      "id"
+    ],
+    "entry_id": "id",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Inuinnaqtun",
+    "codes": [
+      "ikt"
+    ],
+    "entry_id": "ikt",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Inuktitut",
+    "codes": [
+      "iu"
+    ],
+    "entry_id": "iu-Cans",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Inuktitut (Latin)",
+    "codes": [
+      "iu-Latn"
+    ],
+    "entry_id": "iu-Latn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Irish",
+    "codes": [
+      "ga"
+    ],
+    "entry_id": "ga",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Italian",
+    "codes": [
+      "it"
+    ],
+    "entry_id": "it",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Japanese",
+    "codes": [
+      "ja"
+    ],
+    "entry_id": "ja",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kannada",
+    "codes": [
+      "kn"
+    ],
+    "entry_id": "kn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kashmiri",
+    "codes": [
+      "ks"
+    ],
+    "entry_id": "ks",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kazakh",
+    "codes": [
+      "kk"
+    ],
+    "entry_id": "kk",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Khmer",
+    "codes": [
+      "km"
+    ],
+    "entry_id": "km",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kinyarwanda",
+    "codes": [
+      "rw"
+    ],
+    "entry_id": "rw",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Klingon",
+    "codes": [
+      "tlh-Latn"
+    ],
+    "entry_id": "tlh-Latn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Klingon (plqaD)",
+    "codes": [
+      "tlh-Piqd"
+    ],
+    "entry_id": "tlh-Piqd",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Konkani",
+    "codes": [
+      "gom"
+    ],
+    "entry_id": "gom",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Korean",
+    "codes": [
+      "ko"
+    ],
+    "entry_id": "ko",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kurdish (Central)",
+    "codes": [
+      "ku"
+    ],
+    "entry_id": "ckb",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kurdish (Northern)",
+    "codes": [
+      "kmr"
+    ],
+    "entry_id": "kmr",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Kyrgyz (Cyrillic)",
+    "codes": [
+      "ky"
+    ],
+    "entry_id": "ky",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Lao",
+    "codes": [
+      "lo"
+    ],
+    "entry_id": "lo",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Latvian",
+    "codes": [
+      "lv"
+    ],
+    "entry_id": "lv",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Lithuanian",
+    "codes": [
+      "lt"
+    ],
+    "entry_id": "lt",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Lingala",
+    "codes": [
+      "ln"
+    ],
+    "entry_id": "ln",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Lower Sorbian",
+    "codes": [
+      "dsb"
+    ],
+    "entry_id": "dsb",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Luganda",
+    "codes": [
+      "lug"
+    ],
+    "entry_id": "lg",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Macedonian",
+    "codes": [
+      "mk"
+    ],
+    "entry_id": "mk",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Maithili",
+    "codes": [
+      "mai"
+    ],
+    "entry_id": "mai",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Malagasy",
+    "codes": [
+      "mg"
+    ],
+    "entry_id": "mg",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Malay (Latin)",
+    "codes": [
+      "ms"
+    ],
+    "entry_id": "ms",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Malayalam",
+    "codes": [
+      "ml"
+    ],
+    "entry_id": "ml",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Maltese",
+    "codes": [
+      "mt"
+    ],
+    "entry_id": "mt",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Manipuri",
+    "codes": [
+      "mni"
+    ],
+    "entry_id": "mni-Mtei",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Maori",
+    "codes": [
+      "mi"
+    ],
+    "entry_id": "mi",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Marathi",
+    "codes": [
+      "mr"
+    ],
+    "entry_id": "mr",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Mongolian (Cyrillic)",
+    "codes": [
+      "mn-Cyrl"
+    ],
+    "entry_id": "mn-Cyrl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Mongolian (Traditional)",
+    "codes": [
+      "mn-Mong"
+    ],
+    "entry_id": "mn-Mong",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Myanmar",
+    "codes": [
+      "my"
+    ],
+    "entry_id": "my",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Nepali",
+    "codes": [
+      "ne"
+    ],
+    "entry_id": "ne",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Norwegian Bokmål",
+    "codes": [
+      "nb"
+    ],
+    "entry_id": "nb",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Nyanja",
+    "codes": [
+      "nya"
+    ],
+    "entry_id": "ny",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Odia",
+    "codes": [
+      "or"
+    ],
+    "entry_id": "or",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Pashto",
+    "codes": [
+      "ps"
+    ],
+    "entry_id": "ps",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Persian",
+    "codes": [
+      "fa"
+    ],
+    "entry_id": "fa",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Polish",
+    "codes": [
+      "pl"
+    ],
+    "entry_id": "pl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Portuguese (Brazil)",
+    "codes": [
+      "pt"
+    ],
+    "entry_id": "pt-BR",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Portuguese (Portugal)",
+    "codes": [
+      "pt-pt"
+    ],
+    "entry_id": "pt-PT",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Punjabi",
+    "codes": [
+      "pa"
+    ],
+    "entry_id": "pa",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Queretaro Otomi",
+    "codes": [
+      "otq"
+    ],
+    "entry_id": "otq",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Romanian",
+    "codes": [
+      "ro"
+    ],
+    "entry_id": "ro",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Rundi",
+    "codes": [
+      "run"
+    ],
+    "entry_id": "rn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Russian",
+    "codes": [
+      "ru"
+    ],
+    "entry_id": "ru",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Samoan (Latin)",
+    "codes": [
+      "sm"
+    ],
+    "entry_id": "sm",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Serbian (Cyrillic)",
+    "codes": [
+      "sr-Cyrl"
+    ],
+    "entry_id": "sr-Cyrl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Serbian (Latin)",
+    "codes": [
+      "sr-Latn"
+    ],
+    "entry_id": "sr-Latn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Sesotho",
+    "codes": [
+      "st"
+    ],
+    "entry_id": "st",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Sesotho sa Leboa",
+    "codes": [
+      "nso"
+    ],
+    "entry_id": "nso",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Setswana",
+    "codes": [
+      "tn"
+    ],
+    "entry_id": "tn",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Sindhi",
+    "codes": [
+      "sd"
+    ],
+    "entry_id": "sd",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Sinhala",
+    "codes": [
+      "si"
+    ],
+    "entry_id": "si",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Slovak",
+    "codes": [
+      "sk"
+    ],
+    "entry_id": "sk",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Slovenian",
+    "codes": [
+      "sl"
+    ],
+    "entry_id": "sl",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Somali (Arabic)",
+    "codes": [
+      "so"
+    ],
+    "entry_id": "so",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Spanish",
+    "codes": [
+      "es"
+    ],
+    "entry_id": "es",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": "✔"
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Swahili (Latin)",
+    "codes": [
+      "sw"
+    ],
+    "entry_id": "sw",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Swedish",
+    "codes": [
+      "sv"
+    ],
+    "entry_id": "sv",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tahitian",
+    "codes": [
+      "ty"
+    ],
+    "entry_id": "ty",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tamil",
+    "codes": [
+      "ta"
+    ],
+    "entry_id": "ta",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tatar (Latin)",
+    "codes": [
+      "tt"
+    ],
+    "entry_id": "tt",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Telugu",
+    "codes": [
+      "te"
+    ],
+    "entry_id": "te",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Thai",
+    "codes": [
+      "th"
+    ],
+    "entry_id": "th",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tibetan",
+    "codes": [
+      "bo"
+    ],
+    "entry_id": "bo",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tigrinya",
+    "codes": [
+      "ti"
+    ],
+    "entry_id": "ti",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Tongan",
+    "codes": [
+      "to"
+    ],
+    "entry_id": "to",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Turkish",
+    "codes": [
+      "tr"
+    ],
+    "entry_id": "tr",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Turkmen (Latin)",
+    "codes": [
+      "tk"
+    ],
+    "entry_id": "tk",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Ukrainian",
+    "codes": [
+      "uk"
+    ],
+    "entry_id": "uk",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Upper Sorbian",
+    "codes": [
+      "hsb"
+    ],
+    "entry_id": "hsb",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Urdu",
+    "codes": [
+      "ur"
+    ],
+    "entry_id": "ur",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Uyghur (Arabic)",
+    "codes": [
+      "ug"
+    ],
+    "entry_id": "ug",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Uzbek (Latin)",
+    "codes": [
+      "uz"
+    ],
+    "entry_id": "uz",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Vietnamese",
+    "codes": [
+      "vi"
+    ],
+    "entry_id": "vi",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Welsh",
+    "codes": [
+      "cy"
+    ],
+    "entry_id": "cy",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "✔",
+      "Auto Language Detection": "✔",
+      "Dictionary": "✔",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Xhosa",
+    "codes": [
+      "xh"
+    ],
+    "entry_id": "xh",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Yoruba",
+    "codes": [
+      "yo"
+    ],
+    "entry_id": "yo",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Yucatec Maya",
+    "codes": [
+      "yua"
+    ],
+    "entry_id": "yua",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "",
+      "Adaptive custom translation": ""
+    }
+  },
+  {
+    "vendor": "azure_translation_docs",
+    "name": "Zulu",
+    "codes": [
+      "zu"
+    ],
+    "entry_id": "zu",
+    "capabilities": {
+      "Cloud – Text translation and Document translation": "✔",
+      "Containers – Text translation": "✔",
+      "Custom Translator": "",
+      "Auto Language Detection": "✔",
+      "Dictionary": "",
+      "LLM translation": "✔",
+      "Adaptive custom translation": ""
+    }
+  }
+]

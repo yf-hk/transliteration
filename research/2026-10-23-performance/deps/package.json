@@ -1,0 +1,17 @@
+{
+  "name": "transliteration-performance-deps",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@sindresorhus/slugify": "^3.0.1",
+    "@sindresorhus/transliterate": "^2.3.1",
+    "any-ascii": "^0.3.3",
+    "esbuild": "^0.28.2",
+    "limax": "^4.2.3",
+    "slug": "^12.0.1",
+    "slugify": "^1.6.9",
+    "speakingurl": "^14.0.1",
+    "transliteration": "^2.6.2",
+    "unidecode": "^1.1.0"
+  }
+}

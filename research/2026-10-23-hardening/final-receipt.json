@@ -1,0 +1,38 @@
+{
+  "archive": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-hardening/artifacts/transliteration-2.6.2.tgz",
+  "sha256": "3882e644e8c28a67a82f82076d53ae755537cb8d11ae6eea3acf3db37c46c116",
+  "size": 552890,
+  "shasum": "fcb607cb0bdbe7876d5a1a6f486954e2e73cbb23",
+  "sha256AfterChecks": "3882e644e8c28a67a82f82076d53ae755537cb8d11ae6eea3acf3db37c46c116",
+  "distFilesByteIdentical": 16,
+  "declarationsByteIdentical": true,
+  "entryMatchesMeasured": true,
+  "dryRunSha1MatchesArchive": true,
+  "runtimes": [
+    "20.0.0",
+    "26.5.0"
+  ],
+  "npmDryRunVersions": [
+    "11.17.0",
+    "12.2.1"
+  ],
+  "tests": {
+    "unit": 125,
+    "packagePerRuntime": 20,
+    "workflow": 12,
+    "baselineDifferential": 326698,
+    "ignoredDifferential": 24000
+  },
+  "footprint": {
+    "archiveBefore": 551623,
+    "archiveAfter": 552890
+  },
+  "sourceHashes": {
+    "src/common/transliterate.ts": "0d0ab43a3e5e7359cf49f499d72c1a02141074f1988fd7b3a3f0019db9ed2dc5",
+    "src/common/utils.ts": "38fe8933cc6b363c54c555d44f82f5014911db955326e77ffce825d207721773",
+    "src/cli/cli.test.ts": "9db76d48d126cd9e07a930477b4fd7641db3c5da59876c75898e582970b35729",
+    ".github/workflows/build.yml": "ba2ef215027be9802fd4b1aeb23125c32387ee51131c9bb4ad8da05f6fab1616",
+    ".github/workflows/release.yml": "2ee6044132d50bf390c442b65e9da1f25dcceb29e50f3b4eeff138dc14d41639",
+    "package.json": "4c7abba8a1d8a2704fa90389a1a56e7cad89f1276d7457786c26e95cba342d59"
+  }
+}

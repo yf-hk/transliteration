@@ -1,0 +1,368 @@
+[
+  {
+    "cp": "U+A771",
+    "character": "ꝱ",
+    "name": "LATIN SMALL LETTER DUM",
+    "current": "us",
+    "nfkd": "ꝱ",
+    "nfkd_mapping": "us",
+    "category": "Ll",
+    "page": 167,
+    "index": 113,
+    "suggested": "dum",
+    "status": "confirmed_wrong",
+    "reason": "Medieval Latin abbreviation expansion is shifted to preceding character; Unicode identifies the intended expansion.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+A772",
+    "character": "ꝲ",
+    "name": "LATIN SMALL LETTER LUM",
+    "current": "dum",
+    "nfkd": "ꝲ",
+    "nfkd_mapping": "dum",
+    "category": "Ll",
+    "page": 167,
+    "index": 114,
+    "suggested": "lum",
+    "status": "confirmed_wrong",
+    "reason": "Medieval Latin abbreviation expansion is shifted to preceding character; Unicode identifies the intended expansion.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+A773",
+    "character": "ꝳ",
+    "name": "LATIN SMALL LETTER MUM",
+    "current": "lum",
+    "nfkd": "ꝳ",
+    "nfkd_mapping": "lum",
+    "category": "Ll",
+    "page": 167,
+    "index": 115,
+    "suggested": "mum",
+    "status": "confirmed_wrong",
+    "reason": "Medieval Latin abbreviation expansion is shifted to preceding character; Unicode identifies the intended expansion.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB27",
+    "character": "ﬧ",
+    "name": "HEBREW LETTER WIDE RESH",
+    "current": "m",
+    "nfkd": "ר",
+    "nfkd_mapping": "r",
+    "category": "Lo",
+    "page": 251,
+    "index": 39,
+    "suggested": "r",
+    "status": "confirmed_wrong",
+    "reason": "Unicode decomposition identifies a different consonant from the current output; LC romanization confirms the suggested consonant.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB3E",
+    "character": "מּ",
+    "name": "HEBREW LETTER MEM WITH DAGESH",
+    "current": "l",
+    "nfkd": "מּ",
+    "nfkd_mapping": "m'",
+    "category": "Lo",
+    "page": 251,
+    "index": 62,
+    "suggested": "m",
+    "status": "confirmed_wrong",
+    "reason": "Unicode decomposition identifies a different consonant from the current output; LC romanization confirms the suggested consonant.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB41",
+    "character": "סּ",
+    "name": "HEBREW LETTER SAMEKH WITH DAGESH",
+    "current": "n",
+    "nfkd": "סּ",
+    "nfkd_mapping": "s'",
+    "category": "Lo",
+    "page": 251,
+    "index": 65,
+    "suggested": "s",
+    "status": "confirmed_wrong",
+    "reason": "Unicode decomposition identifies a different consonant from the current output; LC romanization confirms the suggested consonant.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB47",
+    "character": "קּ",
+    "name": "HEBREW LETTER QOF WITH DAGESH",
+    "current": "ts",
+    "nfkd": "קּ",
+    "nfkd_mapping": "q'",
+    "category": "Lo",
+    "page": 251,
+    "index": 71,
+    "suggested": "q",
+    "status": "confirmed_wrong",
+    "reason": "Current ts denotes tsadi, while the character is qof. q preserves the existing base table scheme; k follows common modern Hebrew pronunciation and LC dotted-k convention.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+A015",
+    "character": "ꀕ",
+    "name": "YI SYLLABLE WU",
+    "current": "wu",
+    "nfkd": "ꀕ",
+    "nfkd_mapping": "wu",
+    "category": "Lm",
+    "page": 160,
+    "index": 21,
+    "suggested": "repeat the preceding Yi syllable",
+    "status": "confirmed_context_required",
+    "reason": "Unicode explicitly identifies this as a syllable iteration mark and calls the name YI SYLLABLE WU a misnomer; fixed wu is not the linguistic reading.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA000.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB35",
+    "character": "וּ",
+    "name": "HEBREW LETTER VAV WITH DAGESH",
+    "current": "v",
+    "nfkd": "וּ",
+    "nfkd_mapping": "v'",
+    "category": "Lo",
+    "page": 251,
+    "index": 53,
+    "suggested": "u",
+    "status": "common_reading_recommendation",
+    "reason": "Usually shuruk u; consonantal v with dagesh is a context-dependent alternate.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB4B",
+    "character": "וֹ",
+    "name": "HEBREW LETTER VAV WITH HOLAM",
+    "current": "vo",
+    "nfkd": "וֹ",
+    "nfkd_mapping": "vo",
+    "category": "Lo",
+    "page": 251,
+    "index": 75,
+    "suggested": "o",
+    "status": "common_reading_recommendation",
+    "reason": "Usually holam-vav o; consonantal vo is a context-dependent alternate.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB4C",
+    "character": "בֿ",
+    "name": "HEBREW LETTER BET WITH RAFE",
+    "current": "b",
+    "nfkd": "בֿ",
+    "nfkd_mapping": "b",
+    "category": "Lo",
+    "page": 251,
+    "index": 76,
+    "suggested": "v",
+    "status": "common_reading_recommendation",
+    "reason": "Bet with rafe is soft bet/vet in common modern Hebrew; b is an orthographic base-letter policy.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB4D",
+    "character": "כֿ",
+    "name": "HEBREW LETTER KAF WITH RAFE",
+    "current": "k",
+    "nfkd": "כֿ",
+    "nfkd_mapping": "k",
+    "category": "Lo",
+    "page": 251,
+    "index": 77,
+    "suggested": "kh",
+    "status": "common_reading_recommendation",
+    "reason": "Kaf with rafe is soft kaf/khaf; k is an orthographic base-letter policy.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+FB4E",
+    "character": "פֿ",
+    "name": "HEBREW LETTER PE WITH RAFE",
+    "current": "p",
+    "nfkd": "פֿ",
+    "nfkd_mapping": "p",
+    "category": "Lo",
+    "page": 251,
+    "index": 78,
+    "suggested": "f",
+    "status": "common_reading_recommendation",
+    "reason": "Pe with rafe is soft pe/fe; p is an orthographic base-letter policy.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UFB00.pdf",
+      "https://www.loc.gov/catdir/cpso/romanization/hebrew.pdf"
+    ]
+  },
+  {
+    "cp": "U+A7FF",
+    "character": "ꟿ",
+    "name": "LATIN EPIGRAPHIC LETTER ARCHAIC M",
+    "current": "M1",
+    "nfkd": "ꟿ",
+    "nfkd_mapping": "M1",
+    "category": "Lo",
+    "page": 167,
+    "index": 255,
+    "suggested": "M or Manius",
+    "status": "scheme_semantic_review",
+    "reason": "Unicode calls this archaic M and a logograph for Manius; M1 might be a legacy disambiguation marker, not a pronunciation. Do not call this proven wrong without establishing the intended output policy.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+A768",
+    "character": "Ꝩ",
+    "name": "LATIN CAPITAL LETTER VEND",
+    "current": "Y",
+    "nfkd": "Ꝩ",
+    "nfkd_mapping": "Y",
+    "category": "Lu",
+    "page": 167,
+    "index": 104,
+    "suggested": "V/v or W/w depending historical reading",
+    "status": "scheme_semantic_review",
+    "reason": "Current Y/y visually resembles vend but is doubtful as a historical phonetic reading. Primary chart names vend without a reading; insufficient source verification for confirmed status.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+A769",
+    "character": "ꝩ",
+    "name": "LATIN SMALL LETTER VEND",
+    "current": "y",
+    "nfkd": "ꝩ",
+    "nfkd_mapping": "y",
+    "category": "Ll",
+    "page": 167,
+    "index": 105,
+    "suggested": "V/v or W/w depending historical reading",
+    "status": "scheme_semantic_review",
+    "reason": "Current Y/y visually resembles vend but is doubtful as a historical phonetic reading. Primary chart names vend without a reading; insufficient source verification for confirmed status.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA720.pdf"
+    ]
+  },
+  {
+    "cp": "U+A4A2",
+    "character": "꒢",
+    "name": "YI RADICAL ZUP",
+    "current": null,
+    "nfkd": "꒢",
+    "nfkd_mapping": "",
+    "category": "So",
+    "page": 164,
+    "index": 162,
+    "suggested": "Zup",
+    "status": "missing_mapping",
+    "reason": "Five valid named Yi radicals are null while neighboring radical names are mapped.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA490.pdf"
+    ]
+  },
+  {
+    "cp": "U+A4A3",
+    "character": "꒣",
+    "name": "YI RADICAL CYT",
+    "current": null,
+    "nfkd": "꒣",
+    "nfkd_mapping": "",
+    "category": "So",
+    "page": 164,
+    "index": 163,
+    "suggested": "Cyt",
+    "status": "missing_mapping",
+    "reason": "Five valid named Yi radicals are null while neighboring radical names are mapped.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA490.pdf"
+    ]
+  },
+  {
+    "cp": "U+A4B4",
+    "character": "꒴",
+    "name": "YI RADICAL NZUP",
+    "current": null,
+    "nfkd": "꒴",
+    "nfkd_mapping": "",
+    "category": "So",
+    "page": 164,
+    "index": 180,
+    "suggested": "Nzup",
+    "status": "missing_mapping",
+    "reason": "Five valid named Yi radicals are null while neighboring radical names are mapped.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA490.pdf"
+    ]
+  },
+  {
+    "cp": "U+A4C1",
+    "character": "꓁",
+    "name": "YI RADICAL ZUR",
+    "current": null,
+    "nfkd": "꓁",
+    "nfkd_mapping": "",
+    "category": "So",
+    "page": 164,
+    "index": 193,
+    "suggested": "Zur",
+    "status": "missing_mapping",
+    "reason": "Five valid named Yi radicals are null while neighboring radical names are mapped.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA490.pdf"
+    ]
+  },
+  {
+    "cp": "U+A4C5",
+    "character": "꓅",
+    "name": "YI RADICAL NBIE",
+    "current": null,
+    "nfkd": "꓅",
+    "nfkd_mapping": "",
+    "category": "So",
+    "page": 164,
+    "index": 197,
+    "suggested": "Nbie",
+    "status": "missing_mapping",
+    "reason": "Five valid named Yi radicals are null while neighboring radical names are mapped.",
+    "sources": [
+      "https://www.unicode.org/charts/PDF/UA490.pdf"
+    ]
+  }
+]

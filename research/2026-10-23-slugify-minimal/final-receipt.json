@@ -1,0 +1,100 @@
+{
+  "createdAt": "2026-10-22T21:12:22.750443+00:00",
+  "branch": "codex/modern-tooling-benchmarks",
+  "head": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "measuredEntrySha256": "8bbaa9a1085a4e2cdadc78cd69fdd4f0b4937d7199c4b1f7a4b867b7fe836637",
+  "finalEntryMatchesMeasured": true,
+  "allArtifactsMatchMeasuredSnapshotAndPackedTree": true,
+  "declarationsByteIdenticalToBaseline": true,
+  "sourceHashes": {
+    "src/common/slugify.ts": "6a927fc576e426fd38003a3d2a6754efb2bf4847037fcdb671e1d9e6147ef571",
+    "src/common/transliterate.ts": "be3693d2abf31146e63b718e9d74f12d71f2cc4648f59c70274f7928ffb94b70",
+    "src/common/utils.ts": "60a720e5a3c590f0b4ed311908952c597e64f393a822293de2c9095538299c15"
+  },
+  "artifactHashes": {
+    "bin/slugify": "8dec9db5aa04d016075b0014455a9f69159479dfafd5381dfd53129a8c0fd8ef",
+    "bin/transliterate": "5dff01e30ef14a95b79da6aafe9e6005c6fa84e4eed3fbc7bd536ac1d098cb79",
+    "browser/bundle.esm.min.js": "0d21515e0e5494de06c622ffd92b2dce492e8dd14f3b750ea27273b5a82aeb3c",
+    "browser/bundle.esm.min.js.map": "f36d3c21e05be12b3fa1ac85d46d048e41e071f795a5f867420909c71f8661c6",
+    "browser/bundle.umd.min.js": "4a329fa8057df94749455079b0db594e1c32848532664d63ea51abcc83dc612f",
+    "browser/bundle.umd.min.js.map": "2b22e76b6121056973f0cbab8dc9482c159973bda88aba9f524186aa1cf91827",
+    "browser/latin.esm.min.js": "c8a4c07283fad9c84176f24f372fa5b9d898693c8d2f4ed892952ec489dfa268",
+    "browser/latin.esm.min.js.map": "6f753f5959871374cb932b821e05c47888c3d1a1038bf27398b13ca210bca4cd",
+    "browser/latin.umd.min.js": "c5347f66114adfccaaafe7c4a9c4b80ff30ad9ec37abe5328151fd29b7d866d3",
+    "browser/latin.umd.min.js.map": "f0e43b51f9d4e302f533e3f74a28da261d1122900c44268e456d61b6dcc8d604",
+    "node/src/node/index.d.ts": "0b7f2e9a487cade1f8b3917ccfb753ef3280e507f08b9ec5718c2e1a0154bdbf",
+    "node/src/node/index.js": "8bbaa9a1085a4e2cdadc78cd69fdd4f0b4937d7199c4b1f7a4b867b7fe836637",
+    "node/src/node/index.js.map": "bc9d6e9c13fc066cb6729fb6043dbfa360e1513a7d708762325dc03adedf8cd1",
+    "node/src/node/latin.d.ts": "0b7f2e9a487cade1f8b3917ccfb753ef3280e507f08b9ec5718c2e1a0154bdbf",
+    "node/src/node/latin.js": "c9e4e80ae7af30eeb97a654e9879a140c34d73ecd64dc1695e7f60ba3f979235",
+    "node/src/node/latin.js.map": "1dbf3568009132fa4f001ef544bf3637384cfa84f58b7f1a1e858ea549e24a8e"
+  },
+  "tarballSha256": "02362148a43ebc7acbf5a5f8e4f9c9beeed678a5a8dc95135812e776adff32a2",
+  "runtimeSourceDiff": "34\t22\tsrc/common/slugify.ts\n9\t5\tsrc/common/transliterate.ts\n3\t0\tsrc/common/utils.ts",
+  "checks": {
+    "buildUnitCoveragePackageTypesLint": "passed; final-check.txt",
+    "baselineDifferential": {
+      "runtime": "v26.5.0",
+      "assertions": 326698,
+      "report": [
+        {
+          "build": "index",
+          "assertions": 163349,
+          "passed": true
+        },
+        {
+          "build": "latin",
+          "assertions": 163349,
+          "passed": true
+        }
+      ]
+    },
+    "exactNode20": "19/19 passed; node20-final.stdout.txt",
+    "exactNode26": "19/19 passed on identical archive retry; node26-final.stdout.txt",
+    "initialNode26": "18/19; large-stdin CLI returned null status near the existing 5000ms deadline; node26-first.stdout.txt",
+    "gitDiffCheck": 0,
+    "focusedStdinDiagnostic": {
+      "runtime": "v26.5.0",
+      "archive": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-slugify-minimal/after.tgz",
+      "archiveSha256": "02362148a43ebc7acbf5a5f8e4f9c9beeed678a5a8dc95135812e776adff32a2",
+      "deadlineMs": 5000,
+      "maxBufferBytes": 1048576,
+      "cases": [
+        {
+          "name": "slugify",
+          "inputBytes": 120001,
+          "elapsedMs": 469.26782000000003,
+          "error": null,
+          "signal": null,
+          "status": 0,
+          "stdoutBytes": 120002,
+          "stderr": "",
+          "expectedBytes": 120002,
+          "exactOutput": true
+        },
+        {
+          "name": "transliterate",
+          "inputBytes": 144000,
+          "elapsedMs": 2790.0441010000004,
+          "error": null,
+          "signal": null,
+          "status": 0,
+          "stdoutBytes": 168000,
+          "stderr": "",
+          "expectedBytes": 168000,
+          "exactOutput": true
+        }
+      ]
+    }
+  },
+  "graft": {
+    "sourceAndCallerCalls": 6,
+    "freshnessCalls": 1,
+    "estimatesReturned": 4,
+    "reportedTokensSaved": 19451,
+    "committedGraph": "freshness reports no local manifest and stale structure for research helper additions"
+  },
+  "committed": false,
+  "pushed": false,
+  "released": false
+}

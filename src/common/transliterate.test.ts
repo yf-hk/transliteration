@@ -3,10 +3,11 @@
  *
  * @see <http://search.cpan.org/~sburke/Text-Unidecode-0.04/lib/Text/Unidecode.pm>
  */
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'bun:test';
 import { charmap } from '../../data/charmap';
 import { transliterate as tr } from '../node';
 import type {
+  IntervalArray,
   OptionReplaceArray,
   OptionReplaceCombined,
   OptionReplaceObject,
@@ -72,6 +73,43 @@ describe('transliterate()', () => {
   });
 
   describe('With ignore option', () => {
+    it('walks ignored ranges once while preserving Chinese spacing', () => {
+      const count = 512;
+      const source = '你é '.repeat(count);
+      let reads = 0;
+      const ranges: IntervalArray = Array.from({ length: count }, (_, i) => [
+        i * 3,
+        i * 3,
+      ]);
+      const observed = new Proxy(ranges, {
+        get(target, property, receiver) {
+          if (
+            typeof property === 'string' &&
+            Number.isInteger(Number(property))
+          ) {
+            reads += 1;
+          }
+          return Reflect.get(target, property, receiver);
+        },
+      });
+      const engine = new Transliterate({}, charmap);
+      expect(engine.codeMapReplace(source, defaultOptions, observed)).toBe(
+        '你 e '.repeat(count)
+      );
+      expect(reads).toBeLessThan(source.length * 10);
+    });
+
+    it('preserves merged tokens and either half of supplementary characters', () => {
+      expect(tr('你你好é你你好', { ignore: ['你', '你好', '你你'] })).toBe(
+        '你你好 e 你你好'
+      );
+      for (const ignore of [['🚀'], ['\ud83d']]) {
+        expect(tr('你🚀é', { ignore })).toBe('Ni 🚀e');
+      }
+      expect(tr('你🚀é', { ignore: ['\ude80'] })).toBe('Ni🚀e');
+      expect(tr('你🚀é', { ignore: ['你🚀é'] })).toBe('你🚀é');
+    });
+
     it('should ignore specified characters', () => {
       const tests: [string, string[], string][] = [
         ['Æneid', ['Æ'], 'Æneid'],
@@ -85,6 +123,15 @@ describe('transliterate()', () => {
   });
 
   describe('With replace option', () => {
+    it('preserves own __proto__ replacement entries', () => {
+      const replace: OptionReplaceObject = JSON.parse(
+        '{"__proto__":"safe","constructor":"ctor","prototype":"proto"}'
+      );
+      expect(tr('__proto__ constructor prototype', { replace })).toBe(
+        'safe ctor proto'
+      );
+    });
+
     it('should replace specified strings', () => {
       const tests: [string, OptionReplaceCombined, string][] = [
         ['你好，世界！', [['你好', 'Hola']], 'Hola,Shi Jie!'],

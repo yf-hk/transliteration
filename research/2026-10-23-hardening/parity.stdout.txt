@@ -1,0 +1,15 @@
+{
+  "assertions": 326698,
+  "report": [
+    {
+      "build": "index",
+      "assertions": 163349,
+      "passed": true
+    },
+    {
+      "build": "latin",
+      "assertions": 163349,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "owner": "GPT-6 Astra, max effort",
+  "measuredAt": "2026-10-22T17:30:10.654Z",
+  "installed": [
+    {
+      "id": "published-full",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "license": "MIT",
+      "ownInstalledBytes": 2454138,
+      "runtimeTreeInstalledBytes": 2454138,
+      "runtimePackages": [
+        "transliteration"
+      ],
+      "registryUrl": "https://registry.npmjs.org/transliteration/2.6.2",
+      "tarball": "https://registry.npmjs.org/transliteration/-/transliteration-2.6.2.tgz",
+      "tarballGzipBytes": 534980,
+      "registryUnpackedBytes": 2454138,
+      "fileCount": 20,
+      "integrity": "sha512-nS94BsBPRF1AwZG9ZfY7zl1mu9S3Opj8NqfM251J3pz4IdeAtIz4J1gZNhP5IpXAew7qevNlGvdQ4X1BZLDykw=="
+    },
+    {
+      "id": "any-ascii",
+      "package": "any-ascii",
+      "version": "0.3.3",
+      "license": "ISC",
+      "ownInstalledBytes": 552792,
+      "runtimeTreeInstalledBytes": 552792,
+      "runtimePackages": [
+        "any-ascii"
+      ],
+      "registryUrl": "https://registry.npmjs.org/any-ascii/0.3.3",
+      "tarball": "https://registry.npmjs.org/any-ascii/-/any-ascii-0.3.3.tgz",
+      "tarballGzipBytes": 219975,
+      "registryUnpackedBytes": 552792,
+      "fileCount": 7,
+      "integrity": "sha512-8hm+zPrc1VnlxD5eRgMo9F9k2wEMZhbZVLKwA/sPKIt6ywuz7bI9uV/yb27uvc8fv8q6Wl2piJT51q1saKX0Jw=="
+    },
+    {
+      "id": "sindre-transliterate",
+      "package": "@sindresorhus/transliterate",
+      "version": "2.3.1",
+      "license": "MIT",
+      "ownInstalledBytes": 43298,
+      "runtimeTreeInstalledBytes": 43298,
+      "runtimePackages": [
+        "@sindresorhus/transliterate"
+      ],
+      "registryUrl": "https://registry.npmjs.org/%40sindresorhus%2Ftransliterate/2.3.1",
+      "tarball": "https://registry.npmjs.org/@sindresorhus/transliterate/-/transliterate-2.3.1.tgz",
+      "tarballGzipBytes": 13345,
+      "registryUnpackedBytes": 43298,
+      "fileCount": 7,
+      "integrity": "sha512-gVaaGtKYMYAMmI8buULVH3A2TXVJ98QiwGwI7ddrWGuGidGC2uRt4FHs22+8iROJ0QTzju9CuMjlVsrvpqsdhA=="
+    },
+    {
+      "id": "unidecode",
+      "package": "unidecode",
+      "version": "1.1.0",
+      "license": null,
+      "ownInstalledBytes": 414769,
+      "runtimeTreeInstalledBytes": 414769,
+      "runtimePackages": [
+        "unidecode"
+      ],
+      "registryUrl": "https://registry.npmjs.org/unidecode/1.1.0",
+      "tarball": "https://registry.npmjs.org/unidecode/-/unidecode-1.1.0.tgz",
+      "tarballGzipBytes": 96416,
+      "registryUnpackedBytes": 414769,
+      "fileCount": 196,
+      "integrity": "sha512-GIp57N6DVVJi8dpeIU6/leJGdv7W65ZSXFLFiNmxvexXkc0nXdqUvhA/qL9KqBKsILxMwg5MnmYNOIDJLb5JVA=="
+    },
+    {
+      "id": "simov-slugify",
+      "package": "slugify",
+      "version": "1.6.9",
+      "license": "MIT",
+      "ownInstalledBytes": 16225,
+      "runtimeTreeInstalledBytes": 16225,
+      "runtimePackages": [
+        "slugify"
+      ],
+      "registryUrl": "https://registry.npmjs.org/slugify/1.6.9",
+      "tarball": "https://registry.npmjs.org/slugify/-/slugify-1.6.9.tgz",
+      "tarballGzipBytes": 7260,
+      "registryUnpackedBytes": 16225,
+      "fileCount": 5,
+      "integrity": "sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg=="
+    },
+    {
+      "id": "slug",
+      "package": "slug",
+      "version": "12.0.1",
+      "license": "MIT",
+      "ownInstalledBytes": 33810,
+      "runtimeTreeInstalledBytes": 33810,
+      "runtimePackages": [
+        "slug"
+      ],
+      "registryUrl": "https://registry.npmjs.org/slug/12.0.1",
+      "tarball": "https://registry.npmjs.org/slug/-/slug-12.0.1.tgz",
+      "tarballGzipBytes": 12470,
+      "registryUnpackedBytes": 33810,
+      "fileCount": 7,
+      "integrity": "sha512-p8lJZLw/5GDmxXO3FKjiOYjiBMFGDc+/8DgutoXKqjn8KX7buzbkX1unEavO7T+GHGLTOyeb7VjWTRWpb8wmuQ=="
+    },
+    {
+      "id": "speakingurl",
+      "package": "speakingurl",
+      "version": "14.0.1",
+      "license": "BSD-3-Clause",
+      "ownInstalledBytes": 167059,
+      "runtimeTreeInstalledBytes": 167059,
+      "runtimePackages": [
+        "speakingurl"
+      ],
+      "registryUrl": "https://registry.npmjs.org/speakingurl/14.0.1",
+      "tarball": "https://registry.npmjs.org/speakingurl/-/speakingurl-14.0.1.tgz",
+      "tarballGzipBytes": 35644,
+      "integrity": "sha512-1POYv7uv2gXoyGFpBCmpDVSNV74IfsWlDW216UPjbWufNf+bSU6GdbDsxdcxtfwb4xlI3yxzOTKClUosxARYrQ=="
+    },
+    {
+      "id": "limax",
+      "package": "limax",
+      "version": "4.2.3",
+      "license": "Apache-2.0",
+      "ownInstalledBytes": 29148,
+      "runtimeTreeInstalledBytes": 1178122,
+      "runtimePackages": [
+        "limax",
+        "hepburn",
+        "pinyin-pro",
+        "speakingurl"
+      ],
+      "registryUrl": "https://registry.npmjs.org/limax/4.2.3",
+      "tarball": "https://registry.npmjs.org/limax/-/limax-4.2.3.tgz",
+      "tarballGzipBytes": 10202,
+      "registryUnpackedBytes": 29148,
+      "fileCount": 8,
+      "integrity": "sha512-KJ41cc23/i9rGgFjpLpz4LVFuVHIVUoQX3zJs8qCY+Eo1KReIPD8QTahSErdWuO1Zt7CyjuLdo4vtsH60qau8Q=="
+    },
+    {
+      "id": "sindre-slugify",
+      "package": "@sindresorhus/slugify",
+      "version": "3.0.1",
+      "license": "MIT",
+      "ownInstalledBytes": 19168,
+      "runtimeTreeInstalledBytes": 66125,
+      "runtimePackages": [
+        "@sindresorhus/slugify",
+        "@sindresorhus/transliterate",
+        "escape-string-regexp"
+      ],
+      "registryUrl": "https://registry.npmjs.org/%40sindresorhus%2Fslugify/3.0.1",
+      "tarball": "https://registry.npmjs.org/@sindresorhus/slugify/-/slugify-3.0.1.tgz",
+      "tarballGzipBytes": 5759,
+      "registryUnpackedBytes": 19168,
+      "fileCount": 6,
+      "integrity": "sha512-N1oPvN6sytRKZCskv0L+vSyvnUYi9JplPXZ90lT6EBsijjHrUdoXttb0Lna6pw1TWMe8vlajQnLDtU9KYHqtDg=="
+    }
+  ],
+  "currentPackage": {
+    "size": 550243,
+    "unpackedSize": 2597355,
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "size": 1068,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 12619,
+        "mode": 420
+      },
+      {
+        "path": "dist/bin/slugify",
+        "size": 197106,
+        "mode": 493
+      },
+      {
+        "path": "dist/bin/transliterate",
+        "size": 196886,
+        "mode": 493
+      },
+      {
+        "path": "dist/browser/bundle.esm.min.js",
+        "size": 194139,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.esm.min.js.map",
+        "size": 462292,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.umd.min.js",
+        "size": 194852,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.umd.min.js.map",
+        "size": 462420,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.esm.min.js",
+        "size": 17504,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.esm.min.js.map",
+        "size": 52714,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.umd.min.js",
+        "size": 18209,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.umd.min.js.map",
+        "size": 52848,
+        "mode": 420
+      },
+      {
+        "path": "dist/index-DkV1_imC.d.ts",
+        "size": 3152,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.js",
+        "size": 194626,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.js.map",
+        "size": 463192,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.js",
+        "size": 17984,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.js.map",
+        "size": 52843,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2453,
+        "mode": 420
+      }
+    ],
+    "filename": "transliteration-2.6.2.tgz"
+  },
+  "leanPackagingExperiment": {
+    "size": 229088,
+    "unpackedSize": 1280068,
+    "removedSourceContentBytes": 929281,
+    "cliChecks": 8,
+    "scope": "Current production algorithm/data; two CLI bundles share the existing Node API, and source-map embedded source content is removed. Staged artifact only; production unchanged."
+  },
+  "distFiles": [
+    {
+      "file": "dist/bin/slugify",
+      "bytes": 197106
+    },
+    {
+      "file": "dist/bin/transliterate",
+      "bytes": 196886
+    },
+    {
+      "file": "dist/browser/bundle.esm.min.js",
+      "bytes": 194139
+    },
+    {
+      "file": "dist/browser/bundle.esm.min.js.map",
+      "bytes": 462292
+    },
+    {
+      "file": "dist/browser/bundle.umd.min.js",
+      "bytes": 194852
+    },
+    {
+      "file": "dist/browser/bundle.umd.min.js.map",
+      "bytes": 462420
+    },
+    {
+      "file": "dist/browser/latin.esm.min.js",
+      "bytes": 17504
+    },
+    {
+      "file": "dist/browser/latin.esm.min.js.map",
+      "bytes": 52714
+    },
+    {
+      "file": "dist/browser/latin.umd.min.js",
+      "bytes": 18209
+    },
+    {
+      "file": "dist/browser/latin.umd.min.js.map",
+      "bytes": 52848
+    },
+    {
+      "file": "dist/index-DkV1_imC.d.ts",
+      "bytes": 3152
+    },
+    {
+      "file": "dist/node/src/node/index.d.ts",
+      "bytes": 224
+    },
+    {
+      "file": "dist/node/src/node/index.js",
+      "bytes": 194626
+    },
+    {
+      "file": "dist/node/src/node/index.js.map",
+      "bytes": 463192
+    },
+    {
+      "file": "dist/node/src/node/latin.d.ts",
+      "bytes": 224
+    },
+    {
+      "file": "dist/node/src/node/latin.js",
+      "bytes": 17984
+    },
+    {
+      "file": "dist/node/src/node/latin.js.map",
+      "bytes": 52843
+    }
+  ]
+}

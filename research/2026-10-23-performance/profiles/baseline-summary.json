@@ -1,0 +1,128 @@
+[
+  {
+    "function": "codeMapReplace",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 1328.489,
+    "share": 0.2573286488865335
+  },
+  {
+    "function": "Y",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 786.697,
+    "share": 0.15238340407266393
+  },
+  {
+    "function": "slugify",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 765.292,
+    "share": 0.14823725026227014
+  },
+  {
+    "function": "transliterate",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 520.945,
+    "share": 0.10090717574191069
+  },
+  {
+    "function": "G",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 424.895,
+    "share": 0.08230226691274346
+  },
+  {
+    "function": "B",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 165.115,
+    "share": 0.03198281646359133
+  },
+  {
+    "function": "RegExp: [\\uD800-\\uDBFF]",
+    "url": "",
+    "line": 0,
+    "sampleMs": 149.629,
+    "share": 0.0289831744216498
+  },
+  {
+    "function": "(garbage collector)",
+    "url": "",
+    "line": 0,
+    "sampleMs": 144.664,
+    "share": 0.028021452689876606
+  },
+  {
+    "function": "RegExp: [\\s!-#%-*,-/:;?@[-\\]_{}\\xA1\\xA7\\xAB\\xB6\\xB7\\xBB\\xBF\\u037E\\u0387\\u055A-\\u055F\\u0589\\u058A\\u05BE\\u05C0\\u05C3\\u05C6\\u05F3\\u05F4\\u0609\\u060A\\u060C\\u060D\\u061B\\u061E\\u061F\\u066A-\\u066D\\u06D4\\u0700-\\u070D\\u07F7-\\u07F9\\u0830-\\u083E\\u085E\\u0964\\u0965\\u0970\\u09FD\\u0A76\\u0AF0\\u0C77\\u0C84\\u0DF4\\u0E4F\\u0E5A\\u0E5B\\u0F04-\\u0F12\\u0F14\\u0F3A-\\u0F3D\\u0F85\\u0FD0-\\u0FD4\\u0FD9\\u0FDA\\u104A-\\u104F\\u10FB\\u1360-\\u1368\\u1400\\u166E\\u169B\\u169C\\u16EB-\\u16ED\\u1735\\u1736\\u17D4-\\u17D6\\u17D8-\\u17DA\\u1800-\\u180A\\u1944\\u1945\\u1A1E\\u1A1F\\u1AA0-\\u1AA6\\u1AA8-\\u1AAD\\u1B5A-\\u1B60\\u1BFC-\\u1BFF\\u1C3B-\\u1C3F\\u1C7E\\u1C7F\\u1CC0-\\u1CC7\\u1CD3\\u2010-\\u2027\\u2030-\\u2043\\u2045-\\u2051\\u2053-\\u205E\\u207D\\u207E\\u208D\\u208E\\u2308-\\u230B\\u2329\\u232A\\u2768-\\u2775\\u27C5\\u27C6\\u27E6-\\u27EF\\u2983-\\u2998\\u29D8-\\u29DB\\u29FC\\u29FD\\u2CF9-\\u2CFC\\u2CFE\\u2CFF\\u2D70\\u2E00-\\u2E2E\\u2E30-\\u2E4F\\u2E52\\u3001-\\u3003\\u3008-\\u3011\\u3014-\\u301F\\u3030\\u303D\\u30A0\\u30FB\\uA4FE\\uA4FF\\uA60D-\\uA60F\\uA673\\uA67E\\uA6F2-\\uA6F7\\uA874-\\uA877\\uA8CE\\uA8CF\\uA8F8-\\uA8FA\\uA8FC\\uA92E\\uA92F\\uA95F\\uA9",
+    "url": "",
+    "line": 0,
+    "sampleMs": 82.214,
+    "share": 0.01592487219657631
+  },
+  {
+    "function": "RegExp: [^a-zA-Z0-9-_.~]+",
+    "url": "",
+    "line": 0,
+    "sampleMs": 80.673,
+    "share": 0.01562638011426765
+  },
+  {
+    "function": "RegExp: [\\u2E80-\\u2E99\\u2E9B-\\u2EF3\\u2F00-\\u2FD5\\u3005\\u3007\\u3021-\\u3029\\u3038-\\u303B\\u3400-\\u4DBF\\u4E00-\\u9FFC\\uF900-\\uFA6D\\uFA70-\\uFAD9]|\\uD81B[\\uDFF0\\uDFF1]|[\\uD840-\\uD868\\uD86A-\\uD86C\\uD86F-\\uD872\\uD874-\\uD879\\uD880-\\uD883][\\uDC00-\\uDFFF]|\\uD869[\\uDC00-\\uDEDD\\uDF00-\\uDFFF]|\\uD86D[\\uDC00-\\uDF34\\uDF40-\\uDFFF]|\\uD86E[\\uDC00-\\uDC1D\\uDC20-\\uDFFF]|\\uD873[\\uDC00-\\uDEA1\\uDEB0-\\uDFFF]|\\uD87A[\\uDC00-\\uDFE0]|\\uD87E[\\uDC00-\\uDE1D]|\\uD884[\\uDC00-\\uDF4A]",
+    "url": "",
+    "line": 0,
+    "sampleMs": 76.869,
+    "share": 0.01488954437052843
+  },
+  {
+    "function": "m",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 69.235,
+    "share": 0.013410836676599616
+  },
+  {
+    "function": "d",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 67.25,
+    "share": 0.013026341684138429
+  },
+  {
+    "function": "(anonymous)",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-performance/profile.mjs",
+    "line": 1,
+    "sampleMs": 63.473,
+    "share": 0.012294735847097673
+  },
+  {
+    "function": "get options",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 5,
+    "sampleMs": 58.47,
+    "share": 0.01132565350589701
+  },
+  {
+    "function": "RegExp: (?:\\-)+",
+    "url": "",
+    "line": 0,
+    "sampleMs": 51.9,
+    "share": 0.010053042875937316
+  },
+  {
+    "function": "(anonymous)",
+    "url": "file:///Users/administrator/Projects/Open%20Source/transliteration/repo/dist/node/src/node/index.js",
+    "line": 1,
+    "sampleMs": 50.143,
+    "share": 0.00971271154004094
+  },
+  {
+    "function": "RegExp: ^\\p{Script_Extensions=Latin}$",
+    "url": "",
+    "line": 0,
+    "sampleMs": 45.467,
+    "share": 0.008806969179966125
+  }
+]

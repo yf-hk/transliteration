@@ -1,0 +1,2276 @@
+[
+  {
+    "codepoint": "U+4E63",
+    "verdict": "confirm_error",
+    "suggested": "Jiu",
+    "reason": "kMandarin and kHanyuPinyin both give jiǔ. 'Diu' is a wrong initial consonant in a Pinyin table and nothing in the evidence supports it."
+  },
+  {
+    "codepoint": "U+4EEE",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "仮 is the Japanese variant of 假, and 'Jia' matches 假 (jiǎ). Unicode kMandarin fǎn is uncorroborated and probably reflects the 反 phonetic, so do not blanket-replace. Whether to use the 假 reading or fǎn is a project decision."
+  },
+  {
+    "codepoint": "U+4F13",
+    "verdict": "confirm_error",
+    "suggested": "Pi",
+    "reason": "kMandarin and kHanyuPinyin give pī. 'Bei' is a wrong vowel and the consonant is unaspirated rather than aspirated."
+  },
+  {
+    "codepoint": "U+4F2D",
+    "verdict": "confirm_error",
+    "suggested": "Xian",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 all give xián. 'Xuan' is the wrong vowel (Cantonese jin4 is also consistent with xian)."
+  },
+  {
+    "codepoint": "U+4FA2",
+    "verdict": "prefer_default",
+    "suggested": "Dai",
+    "reason": "kMandarin dài, backed by Cantonese daai3 and the 'load' sense. 'Zai' has the wrong initial. The evidence is only a single kMandarin field, so this is a default preference."
+  },
+  {
+    "codepoint": "U+4FD6",
+    "verdict": "prefer_default",
+    "suggested": "Pei",
+    "reason": "kMandarin and kHanyuPinyin give pěi. 'Pai' could derive from fanqie 普乃 (pǎi), so it is arguably an archaic alternative. Prefer pěi as the Mandarin default."
+  },
+  {
+    "codepoint": "U+4FFF",
+    "verdict": "confirm_error",
+    "suggested": "Hu",
+    "reason": "kHanyuPinyin lists hǔ and chí, and kMandarin is hǔ. 'Jian' matches neither (Cantonese fu2 supports hu)."
+  },
+  {
+    "codepoint": "U+5044",
+    "verdict": "prefer_default",
+    "suggested": "Ruan",
+    "reason": "kMandarin and kHanyuPinyin give ruǎn (rú alternate). 'Nuan' is supported by fanqie 奴亂 and the Japanese NAN reading, so it is an archaic alternative rather than a typo. The default is Ruan."
+  },
+  {
+    "codepoint": "U+50B8",
+    "verdict": "confirm_error",
+    "suggested": "Chuang",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 初丈 all give chuǎng. 'Qiang' has the wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+50EA",
+    "verdict": "confirm_error",
+    "suggested": "Ju",
+    "reason": "kHanyuPinyin lists jú and yù, and kMandarin is jú. 'Jue' is not an attested Mandarin reading in the evidence. Yu is the secondary reading."
+  },
+  {
+    "codepoint": "U+51BE",
+    "verdict": "prefer_default",
+    "suggested": "Qia",
+    "reason": "kMandarin and kHanyuPinyin give qià. 'Xia' matches the Cantonese/Korean (hap/hyeop) side and the xiá reading of 洽. Prefer Qia as the Mandarin default."
+  },
+  {
+    "codepoint": "U+51D6",
+    "verdict": "confirm_error",
+    "suggested": "Zhun",
+    "reason": "Typo: 'Zhuen' is not a Pinyin syllable. kMandarin is zhǔn, and the character is a variant of 準 (Hangul 준, Cantonese zeon2)."
+  },
+  {
+    "codepoint": "U+522F",
+    "verdict": "confirm_error",
+    "suggested": "Geng",
+    "reason": "kMandarin and kHanyuPinyin give gēng (Cantonese gang1). 'Gen' drops the final -g."
+  },
+  {
+    "codepoint": "U+527B",
+    "verdict": "confirm_error",
+    "suggested": "Peng",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 普等 give pěng. 'Fou' is unsupported."
+  },
+  {
+    "codepoint": "U+52C2",
+    "verdict": "confirm_error",
+    "suggested": "Gao",
+    "reason": "kMandarin and kHanyuPinyin give gào. 'Hao' has the wrong initial, even though Cantonese hou4 is close."
+  },
+  {
+    "codepoint": "U+5314",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin gōng is uncorroborated. Cantonese kung4 and Japanese キュウ/キク are compatible with 'Qiong'. The evidence conflicts, so do not change without a dictionary check."
+  },
+  {
+    "codepoint": "U+5337",
+    "verdict": "confirm_error",
+    "suggested": "Jue",
+    "reason": "kMandarin and kHanyuPinyin give jué (Cantonese goek3). 'Qu' is a wrong vowel and consonant."
+  },
+  {
+    "codepoint": "U+5376",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "kMandarin and kHanyuPinyin give chǐ. 'Shi' is supported by fanqie 施智 and Korean SI, so it is an archaic alternative. Prefer chǐ (fanqie 充豉)."
+  },
+  {
+    "codepoint": "U+53AA",
+    "verdict": "prefer_default",
+    "suggested": "Jin",
+    "reason": "kMandarin and kXHC1983 give jǐn. The semantic variant 廑 has a qín reading ('hut'), so 'Qin' is valid for that sense. Prefer Jin as the default."
+  },
+  {
+    "codepoint": "U+5459",
+    "verdict": "confirm_error",
+    "suggested": "Guo",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give guō. 'Kuai' is wrong."
+  },
+  {
+    "codepoint": "U+54B0",
+    "verdict": "confirm_error",
+    "suggested": "Shu",
+    "reason": "kMandarin and kHanyuPinyin give shù (xún alternate). 'Shuai' adds a spurious -ai."
+  },
+  {
+    "codepoint": "U+54F9",
+    "verdict": "prefer_default",
+    "suggested": "Fu",
+    "reason": "kMandarin and kHanyuPinyin give fú. 'Fou' could reflect fanqie 甫鳩 (fōu), an archaic alternative. Prefer Fu."
+  },
+  {
+    "codepoint": "U+5528",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "唨 is a Cantonese particle (zo2, cf. 咗 zuǒ), so 'Zuo' is a defensible Pinyin rendering of that sense. kMandarin zǔ is uncorroborated. Decide by the table's treatment of Cantonese characters."
+  },
+  {
+    "codepoint": "U+55BF",
+    "verdict": "prefer_default",
+    "suggested": "Zao",
+    "reason": "kMandarin and kHanyuPinyin give zào (qiāo alternate). 'Sao' matches fanqie 蘇到 and Japanese SOU, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+55FA",
+    "verdict": "confirm_error",
+    "suggested": "Zui",
+    "reason": "kMandarin and kHanyuPinyin give zuī (suī, zuǐ alternates). 'Cui' is not an attested Mandarin reading; the fanqie initials are z/s."
+  },
+  {
+    "codepoint": "U+5667",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 許介 give xiè. 'Hui' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+569D",
+    "verdict": "confirm_error",
+    "suggested": "Hong",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 虎橫 give hōng. 'Huang' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+5714",
+    "verdict": "confirm_error",
+    "suggested": "Ya",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 烏洽 give yà. 'E' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+578E",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin, kHanyuPinyin, kTGHZ2013 and fanqie 胡格 give hè. 'Ke' is a wrong initial."
+  },
+  {
+    "codepoint": "U+57C4",
+    "verdict": "confirm_error",
+    "suggested": "Beng",
+    "reason": "kMandarin and kHanyuPinyin give běng (fēng alternate). 'Peng' is a wrong consonant; Cantonese bung6 is unaspirated."
+  },
+  {
+    "codepoint": "U+57D2",
+    "verdict": "confirm_error",
+    "suggested": "Lie",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kTGHZ2013 all give liè. 'Lei' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+583B",
+    "verdict": "confirm_error",
+    "suggested": "Jin",
+    "reason": "kMandarin and kHanyuPinyin give jīn. 'Zhen' is a wrong consonant and vowel."
+  },
+  {
+    "codepoint": "U+5863",
+    "verdict": "confirm_error",
+    "suggested": "Zheng",
+    "reason": "kMandarin and kHanyuPinyin give zhèng (Cantonese zing6). 'Cheng' has the wrong initial, aspirated rather than unaspirated."
+  },
+  {
+    "codepoint": "U+5898",
+    "verdict": "confirm_error",
+    "suggested": "Qian",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kTGHZ2013 give qián. 'Qi' drops the final -an."
+  },
+  {
+    "codepoint": "U+590E",
+    "verdict": "prefer_default",
+    "suggested": "Cuo",
+    "reason": "kMandarin and kHanyuPinyin give cuò. 'Zuo' is supported by fanqie 則卧 and Cantonese zo3, so it is an archaic or alternative reading."
+  },
+  {
+    "codepoint": "U+595B",
+    "verdict": "confirm_error",
+    "suggested": "Huang",
+    "reason": "kMandarin and kHanyuPinyin give huǎng. 'Xiang' is wrong; Cantonese kong3 gives no support."
+  },
+  {
+    "codepoint": "U+598E",
+    "verdict": "confirm_error",
+    "suggested": "Hai",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give hài (jiè alternate). 'Xie' is not attested."
+  },
+  {
+    "codepoint": "U+59E1",
+    "verdict": "confirm_error",
+    "suggested": "Hua",
+    "reason": "kMandarin and kHanyuPinyin give huá (huó alternate). 'Kuo' is a wrong consonant and vowel."
+  },
+  {
+    "codepoint": "U+5A0E",
+    "verdict": "prefer_default",
+    "suggested": "Xie",
+    "reason": "kMandarin and kHanyuPinyin give xiè (fanqie 許别). 'Xiao' matches the other fanqie 火弔 (xiào), so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+5A28",
+    "verdict": "confirm_error",
+    "suggested": "Xian",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 下晏 give xiàn. 'Han' is a wrong initial, though Cantonese haan6 is close."
+  },
+  {
+    "codepoint": "U+5A50",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 烏果 give wǒ. 'E' is a wrong consonant and vowel."
+  },
+  {
+    "codepoint": "U+5A69",
+    "verdict": "confirm_error",
+    "suggested": "An",
+    "reason": "kMandarin and kHanyuPinyin give àn (nüè alternate). 'Yan' has a spurious initial y-."
+  },
+  {
+    "codepoint": "U+5A9C",
+    "verdict": "confirm_error",
+    "suggested": "Zheng",
+    "reason": "kMandarin and kHanyuPinyin give zhēng. 'Zhen' drops the final -g."
+  },
+  {
+    "codepoint": "U+5AC6",
+    "verdict": "confirm_error",
+    "suggested": "Rong",
+    "reason": "kMandarin and kHanyuPinyin give róng. 'Yong' is a wrong initial, apparently from the Cantonese jung4 side."
+  },
+  {
+    "codepoint": "U+5B12",
+    "verdict": "prefer_default",
+    "suggested": "Hui",
+    "reason": "kMandarin and kHanyuPinyin give huì. 'Wei' is possibly from fanqie 烏外 and Cantonese wai3, so it is an archaic alternative. Prefer Hui."
+  },
+  {
+    "codepoint": "U+5B2C",
+    "verdict": "confirm_error",
+    "suggested": "Ru",
+    "reason": "kMandarin, kHanyuPinyin, kTGHZ2013 and fanqie 人朱 give rú (nòu alternate). 'Xu' is wrong."
+  },
+  {
+    "codepoint": "U+5B48",
+    "verdict": "confirm_error",
+    "suggested": "Hui",
+    "reason": "kMandarin and kHanyuPinyin give huì (xié alternate). 'Shuai' is unsupported."
+  },
+  {
+    "codepoint": "U+5BD6",
+    "verdict": "confirm_error",
+    "suggested": "Jin",
+    "reason": "kMandarin, kHanyuPinyin and kXHC1983 give jìn. 'Qin' is a wrong consonant."
+  },
+  {
+    "codepoint": "U+5C53",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "'Xi' matches fanqie 虚器, kTang xyì and the common word 赑屃 bìxì. kMandarin and kHanyuPinyin xiè is the unusual reading. Do not replace with Xie without review."
+  },
+  {
+    "codepoint": "U+5CA5",
+    "verdict": "confirm_error",
+    "suggested": "Po",
+    "reason": "kMandarin and kHanyuPinyin give pō (Hangul 파, Japanese ハ). 'Bei' is wrong."
+  },
+  {
+    "codepoint": "U+5CF5",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin róng is uncorroborated. Japanese コウ would support 'Hong', and Cantonese wing4 is consistent with rong or yong. The evidence conflicts."
+  },
+  {
+    "codepoint": "U+5D45",
+    "verdict": "confirm_error",
+    "suggested": "Han",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 give hán. 'Gan' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+5D8F",
+    "verdict": "confirm_error",
+    "suggested": "Pei",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 滂佩 give pèi (pǐ alternate). 'Bo' is wrong."
+  },
+  {
+    "codepoint": "U+5DBB",
+    "verdict": "prefer_default",
+    "suggested": "Jie",
+    "reason": "kMandarin jié (uncorroborated), with Cantonese zit3 agreeing. 'Za' looks derived from Japanese サツ and is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+5E34",
+    "verdict": "confirm_error",
+    "suggested": "San",
+    "reason": "kMandarin and kHanyuPinyin give sàn (jiǎn/jiān alternates). 'Sha' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+5EAC",
+    "verdict": "prefer_default",
+    "suggested": "Mang",
+    "reason": "kMandarin and kHanyuPinyin give máng (méng alternate). 'Pang' matches Cantonese pong4 and may reflect the 龐 variant. Prefer Mang, with moderate uncertainty."
+  },
+  {
+    "codepoint": "U+5ECC",
+    "verdict": "confirm_error",
+    "suggested": "Zhi",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give zhì (Cantonese zi6, fanqie 池爾). 'Jian' is wrong."
+  },
+  {
+    "codepoint": "U+5F49",
+    "verdict": "confirm_error",
+    "suggested": "Guo",
+    "reason": "kMandarin and kXHC1983 give guō. 'Kuo' is a wrong initial."
+  },
+  {
+    "codepoint": "U+5F60",
+    "verdict": "prefer_default",
+    "suggested": "Yue",
+    "reason": "kMandarin, kXHC1983 and kSMSZD2003 give yuē. 'Huo' matches fanqie 胡麥, Cantonese wok6 and Japanese KAKU, so it is a historical alternative."
+  },
+  {
+    "codepoint": "U+5FBB",
+    "verdict": "confirm_error",
+    "suggested": "Hui",
+    "reason": "kMandarin and kHanyuPinyin give huì. 'Wei' is unsupported in Mandarin."
+  },
+  {
+    "codepoint": "U+6037",
+    "verdict": "confirm_error",
+    "suggested": "Shu",
+    "reason": "kMandarin and kHanyuPinyin give shù. 'Xi' is wrong."
+  },
+  {
+    "codepoint": "U+6066",
+    "verdict": "confirm_error",
+    "suggested": "Shang",
+    "reason": "kMandarin and kHanyuPinyin give shàng. 'Xiang' is a wrong initial."
+  },
+  {
+    "codepoint": "U+60C3",
+    "verdict": "confirm_error",
+    "suggested": "Gun",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 古渾 give gǔn. 'Kun' is a wrong consonant."
+  },
+  {
+    "codepoint": "U+6117",
+    "verdict": "confirm_error",
+    "suggested": "Mao",
+    "reason": "kMandarin and kHanyuPinyin give mào (as 茂/瞀). 'Mou' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+618C",
+    "verdict": "confirm_error",
+    "suggested": "Qiong",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 渠營 give qióng. 'Chun' is wrong."
+  },
+  {
+    "codepoint": "U+623B",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "戻 is the Japanese form of 戾 (lì), which 'Li' matches (Japanese REI/RAI). Unicode and kHanyuPinyin tì reflect a different Chinese character sense. The choice depends on whether the table reads this as Japanese 戻 or Chinese 戻."
+  },
+  {
+    "codepoint": "U+6255",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "払 is the Japanese shinjitai of 拂 (fú), and 'Fu' matches that reading. kMandarin and kHanyuPinyin fǎn is the Chinese-side reading. Choose by language context rather than replacing."
+  },
+  {
+    "codepoint": "U+627D",
+    "verdict": "confirm_error",
+    "suggested": "Den",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 all give dèn. 'Dun' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+62A9",
+    "verdict": "prefer_default",
+    "suggested": "Nan",
+    "reason": "kMandarin nán, supported by Cantonese naam4. 'Tan' is a wrong initial. Only one Mandarin source, so treat as a default preference."
+  },
+  {
+    "codepoint": "U+62BA",
+    "verdict": "confirm_error",
+    "suggested": "Mei",
+    "reason": "kMandarin and kHanyuPinyin give mèi (Cantonese mui6, Japanese MAI). 'Mo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6335",
+    "verdict": "prefer_default",
+    "suggested": "Nong",
+    "reason": "挵 is a variant of 弄, kMandarin nòng. 'Long' matches the lòng reading of 弄 (e.g. 弄堂) and Cantonese lung6, so it is valid in some contexts. Nong is the ordinary reading."
+  },
+  {
+    "codepoint": "U+6356",
+    "verdict": "prefer_default",
+    "suggested": "Wan",
+    "reason": "kMandarin and kHanyuPinyin give wán (guā alternate). 'Huan' matches fanqie 胡官 and Korean 완, so it is a historical reading. Prefer Wan."
+  },
+  {
+    "codepoint": "U+637D",
+    "verdict": "confirm_error",
+    "suggested": "Zuo",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give zuó. 'Zu' drops the final vowel; this is a truncation."
+  },
+  {
+    "codepoint": "U+6396",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "kMandarin yē and yè are corroborated by kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003. 'Yi' is a wrong vowel, possibly from the Japanese EKI reading."
+  },
+  {
+    "codepoint": "U+63D7",
+    "verdict": "prefer_default",
+    "suggested": "Xun",
+    "reason": "kMandarin and kHanyuPinyin give xún (cf. 循, fanqie 詳遵). 'Shun' matches fanqie 食閏/食尹 and Japanese SHUN, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+63EF",
+    "verdict": "prefer_default",
+    "suggested": "Gen",
+    "reason": "kMandarin and kHanyuPinyin give gèn. 'Geng' matches fanqie 古鄧 and Cantonese gang1, so it is an archaic or Cantonese-side alternative. Moderate uncertainty."
+  },
+  {
+    "codepoint": "U+643A",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "kMandarin, kXHC1983, kTGHZ2013 and kHanyuPinlu give xié. 'Xi' drops the vowel e; this is a truncation."
+  },
+  {
+    "codepoint": "U+6474",
+    "verdict": "prefer_default",
+    "suggested": "Chu",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kTGHZ2013 give chū (摴蒲). 'Shu' matches the 舒 variant sense (Cantonese syu1), so it is valid for that sense. Prefer Chu."
+  },
+  {
+    "codepoint": "U+647F",
+    "verdict": "prefer_default",
+    "suggested": "Yao",
+    "reason": "kMandarin yáo, with Cantonese jiu4 agreeing. 'Yin' appears to follow Japanese イン. Single-field evidence, so a default preference."
+  },
+  {
+    "codepoint": "U+6494",
+    "verdict": "confirm_error",
+    "suggested": "Hong",
+    "reason": "kMandarin and kHanyuPinyin give hòng. 'Heng' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+64CC",
+    "verdict": "confirm_error",
+    "suggested": "Se",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 山責 give sè. 'Suo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+650C",
+    "verdict": "confirm_error",
+    "suggested": "Huan",
+    "reason": "kMandarin and kHanyuPinyin give huǎn. 'Han' drops the medial -u-."
+  },
+  {
+    "codepoint": "U+6521",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "kMandarin chī (摛 variant), Cantonese ci1. 'Li' matches fanqie 呂支 and Japanese リ, so it is an alternative reading."
+  },
+  {
+    "codepoint": "U+6540",
+    "verdict": "prefer_default",
+    "suggested": "Po",
+    "reason": "kMandarin and kHanyuPinyin give pò. 'Bo' is supported by fanqie 博陌 and Cantonese baak3, so it is an alternative."
+  },
+  {
+    "codepoint": "U+657C",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yǐ (Cantonese ji2, Japanese イ). 'Xi' is wrong."
+  },
+  {
+    "codepoint": "U+65DD",
+    "verdict": "confirm_error",
+    "suggested": "Kuai",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give kuài. 'Guai' is a wrong initial; the fanqie 古外 yields kuài in Mandarin."
+  },
+  {
+    "codepoint": "U+6672",
+    "verdict": "confirm_error",
+    "suggested": "Ni",
+    "reason": "kMandarin and kHanyuPinyin give nǐ. 'Yi' is wrong."
+  },
+  {
+    "codepoint": "U+668D",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give yē. 'He' is a wrong initial."
+  },
+  {
+    "codepoint": "U+66BA",
+    "verdict": "prefer_default",
+    "suggested": "Tan",
+    "reason": "kMandarin tǎn, supported by Cantonese taan2 and Hangul 탄. 'Dan' follows Japanese DAN and is not a Mandarin reading. Single-field default."
+  },
+  {
+    "codepoint": "U+66D5",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "Typo: 'Yian' is not a Pinyin syllable. kMandarin and kHanyuPinyin give yàn."
+  },
+  {
+    "codepoint": "U+675A",
+    "verdict": "confirm_error",
+    "suggested": "Gai",
+    "reason": "kMandarin and kHanyuPinyin give gài (gé alternate). 'Gu' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+67A1",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "枡 is a Japanese kokuji (masu). 'Dou' matches the 斗 (dǒu) sense and kMandarin shēng matches 升. Both are semantic substitutes with no phonetic basis, so do not auto-replace."
+  },
+  {
+    "codepoint": "U+67D6",
+    "verdict": "confirm_error",
+    "suggested": "Shao",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 give sháo. 'Zhao' is a wrong initial."
+  },
+  {
+    "codepoint": "U+681C",
+    "verdict": "confirm_error",
+    "suggested": "Se",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 山責 give sè (cì alternate). 'Su' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6835",
+    "verdict": "prefer_default",
+    "suggested": "Lie",
+    "reason": "kMandarin and kHanyuPinyin give liè. 'Li' matches fanqie 力制 and Cantonese lai6, so it is an alternative reading."
+  },
+  {
+    "codepoint": "U+6867",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give guì (huì alternate). 'Kuai' is wrong."
+  },
+  {
+    "codepoint": "U+68A1",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin and kHanyuPinyin give hún (kuǎn alternate). 'Huan' matches fanqie 胡官 and Korean 완, so the evidence is mixed. The default would be Hun, but dictionary verification is needed."
+  },
+  {
+    "codepoint": "U+68C6",
+    "verdict": "confirm_error",
+    "suggested": "Lun",
+    "reason": "kMandarin and kHanyuPinyin give lún (fanqie 力迍, Cantonese leon4). 'Zhun' is a wrong initial."
+  },
+  {
+    "codepoint": "U+68E4",
+    "verdict": "confirm_error",
+    "suggested": "Cuo",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 give cuò. 'Xi' follows fanqie 思積 (an archaic reading) and is not the modern Mandarin reading."
+  },
+  {
+    "codepoint": "U+6931",
+    "verdict": "confirm_error",
+    "suggested": "Fu",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 扶富 give fù. 'Fou' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+697B",
+    "verdict": "confirm_error",
+    "suggested": "Huang",
+    "reason": "kMandarin, kHanyuPinyin and Hangul 황 give huáng. 'Heng' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+69C6",
+    "verdict": "prefer_default",
+    "suggested": "Chun",
+    "reason": "kMandarin chūn, Cantonese ceon1. 'Xun' matches fanqie 相倫 and Japanese SHUN, so it is an archaic alternative. Uncorroborated by other Mandarin sources."
+  },
+  {
+    "codepoint": "U+69F6",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin and kHanyuPinyin give guì (Cantonese gui3). 'Kui' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6A0E",
+    "verdict": "confirm_error",
+    "suggested": "Su",
+    "reason": "kMandarin and kHanyuPinyin give sù. 'Suo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6A20",
+    "verdict": "prefer_default",
+    "suggested": "Man",
+    "reason": "kMandarin and kHanyuPinyin give mán (lǎng alternate). 'Men' matches fanqie 莫奔, so it is an alternative."
+  },
+  {
+    "codepoint": "U+6A41",
+    "verdict": "confirm_error",
+    "suggested": "Chun",
+    "reason": "kMandarin and kHanyuPinyin give chūn (Cantonese ceon1). 'Xun' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6A98",
+    "verdict": "confirm_error",
+    "suggested": "Ping",
+    "reason": "kMandarin and kHanyuPinyin give píng (bò alternate; Cantonese ping4). 'Bi' is wrong."
+  },
+  {
+    "codepoint": "U+6AB2",
+    "verdict": "confirm_error",
+    "suggested": "Tuan",
+    "reason": "Typo: 'Toan' is not a Pinyin syllable. kMandarin and kHanyuPinyin give tuán."
+  },
+  {
+    "codepoint": "U+6B2B",
+    "verdict": "confirm_error",
+    "suggested": "Qi",
+    "reason": "kMandarin and kHanyuPinyin give qì. 'Chi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6B4B",
+    "verdict": "prefer_default",
+    "suggested": "Ye",
+    "reason": "kMandarin and kHanyuPinyin give yè. 'Yi' matches fanqie 弋支 and Cantonese ji4, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+6B7A",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "歺 is a variant of 歹 (dǎi), and 'Dai' reflects that (definition 'bad, vicious'). kMandarin and kHanyuPinyin è is the dictionary reading of 歺. Choose by treatment of the variant."
+  },
+  {
+    "codepoint": "U+6BBB",
+    "verdict": "confirm_error",
+    "suggested": "Qiao",
+    "reason": "kMandarin and kXHC1983 give qiào (colloquial ké also exists). 'Que' is not supported by the evidence."
+  },
+  {
+    "codepoint": "U+6BD1",
+    "verdict": "confirm_error",
+    "suggested": "Jie",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give jiě. 'Zuo' is wrong."
+  },
+  {
+    "codepoint": "U+6C07",
+    "verdict": "confirm_error",
+    "suggested": "Lu",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give a neutral-tone lu (as in 氆氇 pǔlu). 'Luo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6C56",
+    "verdict": "confirm_error",
+    "suggested": "Pin",
+    "reason": "kMandarin and kHanyuPinyin give pìn (chí alternate). 'Pai' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6C7B",
+    "verdict": "prefer_default",
+    "suggested": "Hu",
+    "reason": "kMandarin and kHanyuPinyin give hǔ (huǎng alternate). 'Hang' matches fanqie 呼朗 only; Cantonese wu2 supports hu. Prefer Hu."
+  },
+  {
+    "codepoint": "U+6CAF",
+    "verdict": "prefer_default",
+    "suggested": "Za",
+    "reason": "kMandarin zá, with Cantonese zaat3 agreeing. 'Zan' adds a spurious -n. Single-field default."
+  },
+  {
+    "codepoint": "U+6CE7",
+    "verdict": "prefer_default",
+    "suggested": "Sa",
+    "reason": "kMandarin and kHanyuPinyin give sà (xuè alternate). 'Yue' matches fanqie 王伐 and Japanese ETSU, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+6D05",
+    "verdict": "prefer_default",
+    "suggested": "Zai",
+    "reason": "kMandarin and kHanyuPinyin give zài. 'Zui' matches fanqie 子罪, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+6D48",
+    "verdict": "confirm_error",
+    "suggested": "Zhen",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give zhēn. 'Cheng' is wrong."
+  },
+  {
+    "codepoint": "U+6DBB",
+    "verdict": "confirm_error",
+    "suggested": "She",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 始夜 give shè. 'Gan' is wrong."
+  },
+  {
+    "codepoint": "U+6DDB",
+    "verdict": "confirm_error",
+    "suggested": "Zhe",
+    "reason": "kMandarin and kXHC1983 give zhè (as in the abbreviation for 浙). 'Zhi' follows the 制 reading (fanqie 征例), which is not the modern Mandarin reading."
+  },
+  {
+    "codepoint": "U+6DFF",
+    "verdict": "prefer_default",
+    "suggested": "Bo",
+    "reason": "kMandarin bó, with Cantonese bok6 agreeing. 'Mi' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+6E2E",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin and kHanyuPinyin give hé. 'Ge' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6E41",
+    "verdict": "confirm_error",
+    "suggested": "Chi",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 丑入 give chì. 'Shi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6E6A",
+    "verdict": "confirm_error",
+    "suggested": "Tuan",
+    "reason": "kMandarin and kHanyuPinyin give tuàn (nuǎn alternate). 'Suei' is not a Pinyin syllable and is unsupported."
+  },
+  {
+    "codepoint": "U+6E7A",
+    "verdict": "prefer_default",
+    "suggested": "Xian",
+    "reason": "kMandarin xián, Cantonese jin4. 'Yan' is unsupported in Mandarin. Single-field default."
+  },
+  {
+    "codepoint": "U+6E97",
+    "verdict": "confirm_error",
+    "suggested": "Cheng",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 食陵 give chéng. 'Sheng' is a wrong initial."
+  },
+  {
+    "codepoint": "U+6EB9",
+    "verdict": "confirm_error",
+    "suggested": "Suo",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 give suǒ (suò, sè alternates). 'Su' drops the final -o."
+  },
+  {
+    "codepoint": "U+6EEB",
+    "verdict": "confirm_error",
+    "suggested": "Xiu",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give xiǔ. 'Sou' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+6F26",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kTGHZ2013 give chí. kSMSZD2003 also lists lí, so 'Li' is a valid secondary reading. Prefer Chi as the default."
+  },
+  {
+    "codepoint": "U+6F60",
+    "verdict": "confirm_error",
+    "suggested": "Xun",
+    "reason": "kMandarin and kXHC1983 give xùn (kHanyuPinyin sùn). 'Xuan' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+6F71",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "Typo: 'Yie' is not a Pinyin syllable. kMandarin and kHanyuPinyin give yē."
+  },
+  {
+    "codepoint": "U+6FEA",
+    "verdict": "prefer_default",
+    "suggested": "Qing",
+    "reason": "kMandarin qìng, supported by Cantonese cing3. 'Jing' is a wrong initial. Single-field default."
+  },
+  {
+    "codepoint": "U+701C",
+    "verdict": "confirm_error",
+    "suggested": "Rong",
+    "reason": "kMandarin and kHanyuPinyin give róng. 'Yong' is a wrong initial."
+  },
+  {
+    "codepoint": "U+706C",
+    "verdict": "confirm_error",
+    "suggested": "Biao",
+    "reason": "kMandarin and kHanyuPinyin give biāo (huǒ alternate, as the fire radical). 'Si' is unsupported."
+  },
+  {
+    "codepoint": "U+70A7",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "kMandarin and kXHC1983 give xiè. 'Duo' follows the Japanese タ/ダ reading and is not the Mandarin reading."
+  },
+  {
+    "codepoint": "U+70C3",
+    "verdict": "confirm_error",
+    "suggested": "Ting",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give tīng. 'Jing' is a wrong initial."
+  },
+  {
+    "codepoint": "U+70E2",
+    "verdict": "confirm_error",
+    "suggested": "Che",
+    "reason": "kMandarin and kHanyuPinyin give chè. 'Zhe' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7118",
+    "verdict": "confirm_error",
+    "suggested": "Tao",
+    "reason": "kMandarin tāo, with kXHC1983 and kTGHZ2013 corroborating (dào alternate). 'Chou' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+7170",
+    "verdict": "prefer_default",
+    "suggested": "Zao",
+    "reason": "kMandarin zào, with Cantonese cou3 agreeing. 'Gao' follows Japanese コウ. Single-field default."
+  },
+  {
+    "codepoint": "U+7193",
+    "verdict": "confirm_error",
+    "suggested": "Wu",
+    "reason": "kMandarin and kHanyuPinyin give wǔ. 'Wen' adds a spurious -n."
+  },
+  {
+    "codepoint": "U+71C7",
+    "verdict": "confirm_error",
+    "suggested": "Jun",
+    "reason": "kMandarin and kHanyuPinyin give jùn. 'Zun' is a wrong initial."
+  },
+  {
+    "codepoint": "U+71FA",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin hè is uncorroborated. 'Kao' matches fanqie 苦浩, Japanese コウ and the 'roast' sense (cf. 烤), so it is plausible. The evidence conflicts."
+  },
+  {
+    "codepoint": "U+724F",
+    "verdict": "prefer_default",
+    "suggested": "Yu",
+    "reason": "kMandarin and kHanyuPinyin give yú (Cantonese jyu4). 'Tou' matches fanqie 度侯 and Japanese TOU, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+72A6",
+    "verdict": "confirm_error",
+    "suggested": "Bo",
+    "reason": "kMandarin and kHanyuPinyin give bó (Cantonese bok6). 'Bao' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+72B3",
+    "verdict": "confirm_error",
+    "suggested": "Zhuo",
+    "reason": "kMandarin and kHanyuPinyin give zhuó. 'Chuo' is a wrong initial."
+  },
+  {
+    "codepoint": "U+72CB",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yí (quán, chí alternates). 'Ni' is not an attested Mandarin reading."
+  },
+  {
+    "codepoint": "U+72DB",
+    "verdict": "confirm_error",
+    "suggested": "Bo",
+    "reason": "kMandarin and kHanyuPinyin give bó. 'Po' is a wrong consonant. (The Japanese kokuji koma sense is unaffected.)"
+  },
+  {
+    "codepoint": "U+7308",
+    "verdict": "confirm_error",
+    "suggested": "Bai",
+    "reason": "kMandarin and kHanyuPinyin give bài (pí alternate). 'Ba' drops the final -i."
+  },
+  {
+    "codepoint": "U+7339",
+    "verdict": "confirm_error",
+    "suggested": "Cha",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give chá. 'Zha' is a wrong initial, though Cantonese zaa1 is close."
+  },
+  {
+    "codepoint": "U+7371",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin biān is uncorroborated. 'Pin' matches fanqie 符眞 and Japanese HIN, so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+739C",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin hóng is uncorroborated, while Cantonese gung1 supports 'Gong'. The evidence conflicts."
+  },
+  {
+    "codepoint": "U+73FF",
+    "verdict": "confirm_error",
+    "suggested": "Chu",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 初六 give chù. 'Chuo' adds a spurious -o."
+  },
+  {
+    "codepoint": "U+741D",
+    "verdict": "prefer_default",
+    "suggested": "Min",
+    "reason": "kMandarin mín (Hangul 민, Japanese MIN, Cantonese man4). 'Wen' is not attested in Mandarin. Single-field default."
+  },
+  {
+    "codepoint": "U+744E",
+    "verdict": "confirm_error",
+    "suggested": "Xie",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 戶皆 give xié. 'Jie' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7484",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin jǐng is supported by Cantonese ging2 and Hangul 경. 'Ying' matches fanqie 於丙 and Japanese エイ. The evidence conflicts."
+  },
+  {
+    "codepoint": "U+74B9",
+    "verdict": "prefer_default",
+    "suggested": "Shu",
+    "reason": "kMandarin and kHanyuPinyin give shú. 'Shou' matches fanqie 殖酉, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+74D7",
+    "verdict": "confirm_error",
+    "suggested": "Qiong",
+    "reason": "kMandarin and kHanyuPinyin give qióng (wěi, wèi alternates). 'Xi' is unsupported."
+  },
+  {
+    "codepoint": "U+74EA",
+    "verdict": "confirm_error",
+    "suggested": "Ban",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 博管 give bǎn. 'Fan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7527",
+    "verdict": "confirm_error",
+    "suggested": "Shen",
+    "reason": "kMandarin and kHanyuPinyin give shēn. 'Sen' is a wrong initial (sh- vs s-)."
+  },
+  {
+    "codepoint": "U+7577",
+    "verdict": "confirm_error",
+    "suggested": "Zhui",
+    "reason": "kMandarin and kHanyuPinyin give zhuì. 'Chuo' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+758C",
+    "verdict": "confirm_error",
+    "suggested": "Jie",
+    "reason": "kMandarin, kHanyuPinyin and kXHC1983 give jié (qiè alternate). 'Nie' is a wrong initial."
+  },
+  {
+    "codepoint": "U+75B6",
+    "verdict": "prefer_default",
+    "suggested": "Xue",
+    "reason": "kMandarin and kHanyuPinyin give xuē (fanqie 私列, cf. 薛). 'Xie' matches Cantonese sit3 and Japanese セツ, so it is an alternative."
+  },
+  {
+    "codepoint": "U+75C1",
+    "verdict": "confirm_error",
+    "suggested": "Shan",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give shān. 'Dian' matches fanqie 都念 and Cantonese dim3, so it is an archaic alternative, not the Mandarin default."
+  },
+  {
+    "codepoint": "U+75D1",
+    "verdict": "prefer_default",
+    "suggested": "Tan",
+    "reason": "kMandarin tān and kHanyuPinyin tān/shǐ. kSMSZD2003 lists tuó/duò, so 'Duo' is attested as a secondary reading. Prefer Tan."
+  },
+  {
+    "codepoint": "U+760E",
+    "verdict": "prefer_default",
+    "suggested": "Chen",
+    "reason": "kMandarin and kHanyuPinyin give chén. 'Shen' matches fanqie 氏任 and Cantonese sam4, so it is an alternative."
+  },
+  {
+    "codepoint": "U+762A",
+    "verdict": "confirm_error",
+    "suggested": "Bie",
+    "reason": "kMandarin biě, with kHanyuPinlu, kXHC1983 and kTGHZ2013 corroborating (biē alternate). 'Pie' is a wrong consonant."
+  },
+  {
+    "codepoint": "U+7650",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin and kHanyuPinyin give guì (wēi alternate; Cantonese gui6). 'Guai' adds a spurious -a-."
+  },
+  {
+    "codepoint": "U+766C",
+    "verdict": "confirm_error",
+    "suggested": "Xuan",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give xuǎn. 'Xian' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+76F6",
+    "verdict": "confirm_error",
+    "suggested": "Yuan",
+    "reason": "kMandarin and kHanyuPinyin give yuǎn. 'Ruan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7724",
+    "verdict": "confirm_error",
+    "suggested": "Ni",
+    "reason": "kMandarin and kHanyuPinyin give nì. 'Yi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7732",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin and kHanyuPinyin give nè (fanqie 尼戹). 'Er' matches fanqie 仍吏 and Cantonese ji6. Both are attested, so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+7754",
+    "verdict": "prefer_default",
+    "suggested": "Gun",
+    "reason": "kMandarin and kHanyuPinyin give gùn (huán, lǔn alternates). 'Hun' matches fanqie 胡本, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+7773",
+    "verdict": "confirm_error",
+    "suggested": "Hui",
+    "reason": "kMandarin and kHanyuPinyin give huī (fanqie 呼攜). 'Xi' is wrong."
+  },
+  {
+    "codepoint": "U+7780",
+    "verdict": "confirm_error",
+    "suggested": "Mao",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give mào. 'Mou' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7793",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "瞓 is a Cantonese character (fan3, 'to sleep'). 'Shui' is a sense-based substitute (睡), while kMandarin fèn is uncorroborated. Decide by table policy for Cantonese-only characters."
+  },
+  {
+    "codepoint": "U+77C0",
+    "verdict": "confirm_error",
+    "suggested": "Mei",
+    "reason": "kMandarin and kHanyuPinyin give méi (Cantonese mei4). 'Wei' is a wrong initial."
+  },
+  {
+    "codepoint": "U+77E0",
+    "verdict": "prefer_default",
+    "suggested": "Ze",
+    "reason": "kMandarin and kHanyuPinyin give zé (zhuó alternate). 'Ce' matches fanqie 楚革, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+77FA",
+    "verdict": "prefer_default",
+    "suggested": "Zhe",
+    "reason": "kMandarin and kHanyuPinyin give zhé (dā alternate). 'Tuo' matches fanqie 他各 and Hangul 탁, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+7820",
+    "verdict": "confirm_error",
+    "suggested": "Ju",
+    "reason": "kMandarin, kHanyuPinyin and kTGHZ2013 give jū. 'Qu' reflects fanqie 七余, an archaic reading."
+  },
+  {
+    "codepoint": "U+7845",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013, kHanyuPinlu and kSMSZD2003 give guī. 'Huo' is wrong."
+  },
+  {
+    "codepoint": "U+7880",
+    "verdict": "confirm_error",
+    "suggested": "Cheng",
+    "reason": "kMandarin and kHanyuPinyin give chéng (Cantonese cang4). 'Ceng' is a wrong initial and is not a standard syllable."
+  },
+  {
+    "codepoint": "U+78D8",
+    "verdict": "prefer_default",
+    "suggested": "Yao",
+    "reason": "kMandarin yáo, with Cantonese jiu4 agreeing. 'Qing' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+790D",
+    "verdict": "prefer_default",
+    "suggested": "Jie",
+    "reason": "kMandarin jié. 'Ke' is not a Mandarin reading. Single-field default."
+  },
+  {
+    "codepoint": "U+7938",
+    "verdict": "prefer_default",
+    "suggested": "Ca",
+    "reason": "kMandarin cǎ, with Cantonese caat3 agreeing. 'Zan' is a wrong initial. Single-field default."
+  },
+  {
+    "codepoint": "U+7986",
+    "verdict": "prefer_default",
+    "suggested": "Bi",
+    "reason": "kMandarin bì. 'Bei' is a wrong vowel; Cantonese pei4 may suggest a pí variant. Single-field default."
+  },
+  {
+    "codepoint": "U+79D4",
+    "verdict": "prefer_default",
+    "suggested": "Jing",
+    "reason": "kMandarin, kHanyuPinyin and kXHC1983 give jīng. 'Geng' is an older gēng reading (fanqie 古行, Cantonese gang1), so it is a historical variant."
+  },
+  {
+    "codepoint": "U+7A09",
+    "verdict": "prefer_default",
+    "suggested": "Jing",
+    "reason": "kMandarin and kXHC1983 give jīng. 'Geng' is the older gēng reading (kTang gæng, fanqie 古行), so it is a historical variant."
+  },
+  {
+    "codepoint": "U+7A7C",
+    "verdict": "confirm_error",
+    "suggested": "Shen",
+    "reason": "kMandarin and kHanyuPinyin give shēn. 'Sen' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7ACE",
+    "verdict": "confirm_error",
+    "suggested": "Fu",
+    "reason": "kMandarin and kHanyuPinyin give fù. 'Fou' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7AD5",
+    "verdict": "prefer_default",
+    "suggested": "Fen",
+    "reason": "The deciliter unit character is kMandarin fēn (Cantonese fan1). 'Shi' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+7AF0",
+    "verdict": "prefer_default",
+    "suggested": "Li",
+    "reason": "The centiliter unit character is kMandarin lí (Cantonese lei4). 'Shao' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+7B05",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin jiǎo is uncorroborated (Cantonese gaau2). 'Xiao' matches fanqie 胡茅, so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+7B29",
+    "verdict": "prefer_default",
+    "suggested": "Fa",
+    "reason": "kMandarin fá, with Cantonese fat6 agreeing. 'Pei' follows the Japanese HAI reading. Single-field default."
+  },
+  {
+    "codepoint": "U+7B55",
+    "verdict": "confirm_error",
+    "suggested": "Hang",
+    "reason": "kMandarin and kHanyuPinyin give háng (Cantonese hang4, fanqie 胡郎). 'Xing' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7BC5",
+    "verdict": "confirm_error",
+    "suggested": "Chuan",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give chuán. 'Chui' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7C01",
+    "verdict": "confirm_error",
+    "suggested": "Shai",
+    "reason": "kMandarin and kHanyuPinyin give shāi (Cantonese si1). 'Xi' is wrong."
+  },
+  {
+    "codepoint": "U+7C2C",
+    "verdict": "confirm_error",
+    "suggested": "Lu",
+    "reason": "kMandarin and kHanyuPinyin give lù (fanqie 洛故). 'Du' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7C72",
+    "verdict": "prefer_default",
+    "suggested": "Yu",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give yù. 'Xu' reflects the simplified 吁 (xū), which is a different sense."
+  },
+  {
+    "codepoint": "U+7C8E",
+    "verdict": "prefer_default",
+    "suggested": "Mi",
+    "reason": "The meter unit character is kMandarin mǐ (Cantonese mai5). 'Chi' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+7CB3",
+    "verdict": "prefer_default",
+    "suggested": "Jing",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give jīng. 'Geng' is the older gēng reading, so it is historical."
+  },
+  {
+    "codepoint": "U+7D16",
+    "verdict": "confirm_error",
+    "suggested": "Zhen",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give zhèn. 'Yin' is wrong."
+  },
+  {
+    "codepoint": "U+7D40",
+    "verdict": "confirm_error",
+    "suggested": "Chu",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give chù. 'Zhuo' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+7D6D",
+    "verdict": "prefer_default",
+    "suggested": "Juan",
+    "reason": "kMandarin and kHanyuPinyin give juàn. 'Quan' matches fanqie 去願, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+7DBC",
+    "verdict": "confirm_error",
+    "suggested": "Bi",
+    "reason": "kMandarin and kHanyuPinyin give bì. 'Bei' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+7DD4",
+    "verdict": "confirm_error",
+    "suggested": "Shang",
+    "reason": "kMandarin and kHanyuPinyin give shàng. 'Zhang' is a wrong initial."
+  },
+  {
+    "codepoint": "U+7E4C",
+    "verdict": "prefer_default",
+    "suggested": "Sha",
+    "reason": "kMandarin sha (toneless, uncorroborated). 'Jung' is a Cantonese-style romanization of zung1, not Pinyin. Treat as a low-confidence default."
+  },
+  {
+    "codepoint": "U+7E74",
+    "verdict": "prefer_default",
+    "suggested": "Bi",
+    "reason": "kMandarin and kHanyuPinyin give bì. 'Bo' matches fanqie 蒲革, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+7ECC",
+    "verdict": "confirm_error",
+    "suggested": "Chu",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give chù. 'Zhuo' is wrong."
+  },
+  {
+    "codepoint": "U+7F1E",
+    "verdict": "confirm_error",
+    "suggested": "Cui",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give cuī. 'Shuai' is wrong."
+  },
+  {
+    "codepoint": "U+7F49",
+    "verdict": "prefer_default",
+    "suggested": "Cheng",
+    "reason": "kMandarin chēng ('a pot', cf. 鐺). 'Chang' is a wrong vowel. Single-field default."
+  },
+  {
+    "codepoint": "U+7F7F",
+    "verdict": "confirm_error",
+    "suggested": "Chong",
+    "reason": "kMandarin, kHanyuPinyin and kXHC1983 give chōng. 'Tong' is an archaic fanqie 徒紅 reading, not the modern Mandarin one."
+  },
+  {
+    "codepoint": "U+7FC9",
+    "verdict": "prefer_default",
+    "suggested": "Ben",
+    "reason": "kMandarin and kHanyuPinyin give běn. 'Pen' matches fanqie 普本 and Cantonese pun2, so it is an alternative."
+  },
+  {
+    "codepoint": "U+7FE2",
+    "verdict": "prefer_default",
+    "suggested": "Dao",
+    "reason": "kMandarin and kHanyuPinyin give dào (zhōu alternate). 'Tao' matches fanqie 土刀 (tāo), so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+8034",
+    "verdict": "prefer_default",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yì. 'Zhe' matches fanqie 陟葉, Cantonese zip3 and Japanese チョウ, so it is an alternative."
+  },
+  {
+    "codepoint": "U+8065",
+    "verdict": "prefer_default",
+    "suggested": "Ju",
+    "reason": "kMandarin and kHanyuPinyin give jǔ (fanqie 俱雨). 'Yu' matches fanqie 王矩 (yǔ), so it is an alternative."
+  },
+  {
+    "codepoint": "U+80B5",
+    "verdict": "confirm_error",
+    "suggested": "Qi",
+    "reason": "kMandarin and kHanyuPinyin give qí (Cantonese kei4, Hangul 기). 'Jin' follows the Japanese KIN reading only."
+  },
+  {
+    "codepoint": "U+80FB",
+    "verdict": "confirm_error",
+    "suggested": "Heng",
+    "reason": "kMandarin and kHanyuPinyin give héng (Cantonese hang4). 'Xing' is a wrong initial."
+  },
+  {
+    "codepoint": "U+811C",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin and kHanyuPinyin give yǒu. 'Rou' matches 柔 (Cantonese jau4, Japanese ジュウ/ニュ), so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+813D",
+    "verdict": "confirm_error",
+    "suggested": "Shui",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 視隹 give shuí. 'Zhou' is wrong."
+  },
+  {
+    "codepoint": "U+814C",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give yān (ā in 腌臜). 'An' is wrong."
+  },
+  {
+    "codepoint": "U+8161",
+    "verdict": "confirm_error",
+    "suggested": "Luo",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give luó. 'Gua' matches fanqie 古娃, an archaic reading."
+  },
+  {
+    "codepoint": "U+81A5",
+    "verdict": "prefer_default",
+    "suggested": "Cun",
+    "reason": "kMandarin cūn (Cant. 'eggs, testicles'). 'Chun' mirrors the Cantonese ceon1 romanization. Single-field default."
+  },
+  {
+    "codepoint": "U+81E2",
+    "verdict": "confirm_error",
+    "suggested": "Za",
+    "reason": "kMandarin zā, with kHanyuPinyin and kSMSZD2003 corroborating (zān alternate). 'Zang' is wrong."
+  },
+  {
+    "codepoint": "U+8221",
+    "verdict": "confirm_error",
+    "suggested": "Chuan",
+    "reason": "kMandarin chuán, with kHanyuPinyin and kXHC1983 corroborating (xiāng alternate). 'Gang' follows the Korean KANG/Cantonese side and is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+8252",
+    "verdict": "confirm_error",
+    "suggested": "Mu",
+    "reason": "kMandarin and kHanyuPinyin give mù (mò alternate). 'Mao' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8265",
+    "verdict": "confirm_error",
+    "suggested": "Ji",
+    "reason": "kMandarin and kHanyuPinyin give jí (cf. 楫). 'Jie' is a wrong vowel and follows Cantonese zip3."
+  },
+  {
+    "codepoint": "U+828F",
+    "verdict": "confirm_error",
+    "suggested": "Du",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give dù (茳芏). 'Tu' follows an archaic fanqie 他魯 reading."
+  },
+  {
+    "codepoint": "U+82D8",
+    "verdict": "confirm_error",
+    "suggested": "Qing",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give qǐng. 'Qiong' is wrong."
+  },
+  {
+    "codepoint": "U+8325",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin and kHanyuPinyin give guī (guì alternate). 'Kui' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8348",
+    "verdict": "confirm_error",
+    "suggested": "Chuan",
+    "reason": "kMandarin and kHanyuPinyin give chuǎn. 'Quan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8372",
+    "verdict": "prefer_default",
+    "suggested": "Li",
+    "reason": "kMandarin and kHanyuPinyin give lí. 'Chu' matches fanqie 丑六, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+8420",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "萠 is a variant of 萌 (definition 'bud, sprout'), and 'Meng' matches that and the Japanese moeru/mebae sense. kMandarin pān is uncorroborated. Do not blanket-replace."
+  },
+  {
+    "codepoint": "U+8440",
+    "verdict": "prefer_default",
+    "suggested": "Kuo",
+    "reason": "kMandarin and kHanyuPinyin give kuò. 'Gua' matches the guā reading of the 括 variant (栝楼), so it is an alternative."
+  },
+  {
+    "codepoint": "U+845C",
+    "verdict": "confirm_error",
+    "suggested": "Qia",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give qiā. 'Jie' is wrong."
+  },
+  {
+    "codepoint": "U+849A",
+    "verdict": "prefer_default",
+    "suggested": "Li",
+    "reason": "kMandarin and kHanyuPinyin give lì. 'He' matches fanqie 下革, so it is an alternative."
+  },
+  {
+    "codepoint": "U+84DA",
+    "verdict": "confirm_error",
+    "suggested": "Tiao",
+    "reason": "kMandarin and kXHC1983 give tiáo. 'Xiu' follows the Korean 수/Japanese reading and is not a Mandarin reading."
+  },
+  {
+    "codepoint": "U+8518",
+    "verdict": "confirm_error",
+    "suggested": "Shen",
+    "reason": "kMandarin and kHanyuPinyin give shēn (sān, sǎn alternates). 'Sen' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8589",
+    "verdict": "confirm_error",
+    "suggested": "Hui",
+    "reason": "kMandarin and kHanyuPinyin give huì (cf. 穢, fanqie 於廢 also yields huì in Mandarin). 'Wei' is not the Mandarin reading."
+  },
+  {
+    "codepoint": "U+85B4",
+    "verdict": "confirm_error",
+    "suggested": "Ning",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give níng. 'Neng' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+85FD",
+    "verdict": "confirm_error",
+    "suggested": "Qin",
+    "reason": "kMandarin and kHanyuPinyin give qìn. 'Chen' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8624",
+    "verdict": "prefer_default",
+    "suggested": "Hua",
+    "reason": "kMandarin huā (variant of 花). 'Wei' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+8673",
+    "verdict": "confirm_error",
+    "suggested": "Jue",
+    "reason": "kMandarin and kHanyuPinyin give jué. 'Di' is wrong."
+  },
+  {
+    "codepoint": "U+86AB",
+    "verdict": "confirm_error",
+    "suggested": "Bao",
+    "reason": "kMandarin and kHanyuPinyin give bào (páo alternate). 'Piao' is wrong."
+  },
+  {
+    "codepoint": "U+86E3",
+    "verdict": "confirm_error",
+    "suggested": "Qi",
+    "reason": "kMandarin and kXHC1983 give qī (kHanyuPinyin lists jié, qiè). 'Ji' is not supported."
+  },
+  {
+    "codepoint": "U+86F2",
+    "verdict": "confirm_error",
+    "suggested": "Nao",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give náo. 'Rao' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8715",
+    "verdict": "confirm_error",
+    "suggested": "Tui",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give tuì. 'Shui' is wrong."
+  },
+  {
+    "codepoint": "U+8736",
+    "verdict": "confirm_error",
+    "suggested": "Suo",
+    "reason": "kMandarin and kHanyuPinyin give suò. 'Su' drops the final -o."
+  },
+  {
+    "codepoint": "U+8778",
+    "verdict": "confirm_error",
+    "suggested": "Wo",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kHanyuPinlu and kSMSZD2003 give wō. 'Gua' is wrong."
+  },
+  {
+    "codepoint": "U+8791",
+    "verdict": "prefer_default",
+    "suggested": "Xiu",
+    "reason": "kMandarin and kHanyuPinyin give xiù. 'Qiu' follows the Japanese キュウ reading, so it is a wrong initial for Mandarin."
+  },
+  {
+    "codepoint": "U+87C4",
+    "verdict": "confirm_error",
+    "suggested": "Zhe",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give zhé. 'Zhi' follows the Japanese CHITSU/kTang reading."
+  },
+  {
+    "codepoint": "U+8820",
+    "verdict": "confirm_error",
+    "suggested": "Min",
+    "reason": "kMandarin and kHanyuPinyin give mǐn (mián alternate). 'Mi' drops the final -n."
+  },
+  {
+    "codepoint": "U+8842",
+    "verdict": "prefer_default",
+    "suggested": "Nu",
+    "reason": "kMandarin nǜ, folded to ASCII as Nu (the ü is lost, so the table must treat it as a folding convention). 'Niu' follows the Japanese NIKU and is not Mandarin."
+  },
+  {
+    "codepoint": "U+8875",
+    "verdict": "prefer_default",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yì (kSMSZD2003 nì). 'Ri' matches fanqie 人質 and Japanese, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+88A7",
+    "verdict": "confirm_error",
+    "suggested": "Gou",
+    "reason": "kMandarin and kHanyuPinyin give gōu (gòu alternate). 'Kou' is a wrong initial."
+  },
+  {
+    "codepoint": "U+88B2",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "kMandarin and kHanyuPinyin give chǐ (nuǒ alternate). 'Yi' matches fanqie 弋支 and Cantonese ji4, so it is an alternative."
+  },
+  {
+    "codepoint": "U+8900",
+    "verdict": "prefer_default",
+    "suggested": "Qi",
+    "reason": "kMandarin qí (cf. 祺). 'Ji' is a wrong initial. Single-field default."
+  },
+  {
+    "codepoint": "U+8934",
+    "verdict": "confirm_error",
+    "suggested": "Lan",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give lán. 'Bao' is wrong."
+  },
+  {
+    "codepoint": "U+8965",
+    "verdict": "prefer_default",
+    "suggested": "Fu",
+    "reason": "kMandarin fú, with Cantonese fuk6 agreeing. 'Pu' is a wrong initial and follows the Japanese ボク reading. Single-field default."
+  },
+  {
+    "codepoint": "U+89C7",
+    "verdict": "confirm_error",
+    "suggested": "Chan",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give chān. 'Zhan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8A2E",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin yán (Cantonese ngaan4) conflicts with fanqie 呼煙 (xiān), which 'Xian' matches. Not resolvable from the given evidence."
+  },
+  {
+    "codepoint": "U+8A43",
+    "verdict": "confirm_error",
+    "suggested": "Jian",
+    "reason": "kMandarin and kHanyuPinyin give jiǎn. 'Quan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8A81",
+    "verdict": "confirm_error",
+    "suggested": "Bing",
+    "reason": "kMandarin and kHanyuPinyin give bìng. 'Beng' is a wrong vowel (Cantonese bang2 may explain it)."
+  },
+  {
+    "codepoint": "U+8A99",
+    "verdict": "confirm_error",
+    "suggested": "Keng",
+    "reason": "kMandarin and kHanyuPinyin give kēng. 'Heng' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8AC1",
+    "verdict": "confirm_error",
+    "suggested": "Zhuo",
+    "reason": "kMandarin and kHanyuPinyin give zhuó. 'Chuo' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8AD9",
+    "verdict": "prefer_default",
+    "suggested": "Hua",
+    "reason": "kMandarin huà (variant of 話). 'Huai' is likely from Japanese カイ. Single-field default."
+  },
+  {
+    "codepoint": "U+8B05",
+    "verdict": "confirm_error",
+    "suggested": "Zhou",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kSMSZD2003 give zhōu (chōu, chǎo alternates). 'Zou' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8B14",
+    "verdict": "confirm_error",
+    "suggested": "Xue",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give xuè. 'Nue' is wrong and would only fit 虐."
+  },
+  {
+    "codepoint": "U+8B47",
+    "verdict": "confirm_error",
+    "suggested": "Zha",
+    "reason": "kMandarin and kHanyuPinyin give zhā. 'She' is wrong."
+  },
+  {
+    "codepoint": "U+8B75",
+    "verdict": "prefer_default",
+    "suggested": "Dui",
+    "reason": "kMandarin duì, with Cantonese deoi6 agreeing. 'Zhui' follows the Japanese ツイ reading. Single-field default."
+  },
+  {
+    "codepoint": "U+8B98",
+    "verdict": "prefer_default",
+    "suggested": "Nie",
+    "reason": "kMandarin and kHanyuPinyin give niè. 'Zhe' matches Cantonese zip3, so it is a Cantonese-side alternative."
+  },
+  {
+    "codepoint": "U+8C11",
+    "verdict": "confirm_error",
+    "suggested": "Xue",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give xuè. 'Nue' is wrong."
+  },
+  {
+    "codepoint": "U+8C66",
+    "verdict": "prefer_default",
+    "suggested": "Ju",
+    "reason": "kMandarin and kHanyuPinyin give jù. 'Qu' matches fanqie 強魚, so it is an alternative."
+  },
+  {
+    "codepoint": "U+8C96",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin yì is uncorroborated, with Cantonese jik1 agreeing. 'E' matches fanqie 於革, so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+8D00",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yì (Cantonese ji3). 'Wei' is wrong."
+  },
+  {
+    "codepoint": "U+8D50",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give cì. 'Si' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8D87",
+    "verdict": "confirm_error",
+    "suggested": "Xi",
+    "reason": "kMandarin and kHanyuPinyin give xì. 'Se' is wrong."
+  },
+  {
+    "codepoint": "U+8DE7",
+    "verdict": "prefer_default",
+    "suggested": "Quan",
+    "reason": "kMandarin and kHanyuPinyin give quán (zūn alternate). 'Zhuan' matches fanqie 莊緣, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+8E19",
+    "verdict": "prefer_default",
+    "suggested": "Nie",
+    "reason": "kMandarin niè, with Cantonese nip6 agreeing. 'Ju' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+8E54",
+    "verdict": "confirm_error",
+    "suggested": "Zan",
+    "reason": "kMandarin and kHanyuPinyin give zàn (cán alternate). 'Zhan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8E80",
+    "verdict": "prefer_default",
+    "suggested": "Guan",
+    "reason": "kMandarin guàn, with Cantonese gwaan3 agreeing. 'Kuang' is a wrong initial and vowel. Single-field default."
+  },
+  {
+    "codepoint": "U+8ED1",
+    "verdict": "confirm_error",
+    "suggested": "Dai",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give dài. 'Di' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8EE1",
+    "verdict": "confirm_error",
+    "suggested": "Qian",
+    "reason": "kMandarin and kHanyuPinyin give qián. 'Fan' is wrong."
+  },
+  {
+    "codepoint": "U+8EF2",
+    "verdict": "confirm_error",
+    "suggested": "Gu",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give gū. 'Ku' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8F11",
+    "verdict": "prefer_default",
+    "suggested": "Yin",
+    "reason": "kMandarin and kHanyuPinyin give yǐn (qūn alternate). 'Yun' is consistent with Cantonese wan5, so it is an alternative."
+  },
+  {
+    "codepoint": "U+8F47",
+    "verdict": "confirm_error",
+    "suggested": "Jiao",
+    "reason": "kMandarin and kHanyuPinyin give jiāo (xiǎo alternate). 'Jiu' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+8F5B",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "kMandarin and kHanyuPinyin give zhuì. 'Dui' matches fanqie 都隊 and Cantonese deoi3, so it is a legitimate alternative reading."
+  },
+  {
+    "codepoint": "U+8F71",
+    "verdict": "confirm_error",
+    "suggested": "Gu",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give gū. 'Ku' is a wrong initial."
+  },
+  {
+    "codepoint": "U+8FCF",
+    "verdict": "prefer_default",
+    "suggested": "Da",
+    "reason": "kMandarin dá, with Cantonese dai3 only loosely matching. 'Ti' is a wrong initial and vowel. Single-field default."
+  },
+  {
+    "codepoint": "U+905A",
+    "verdict": "confirm_error",
+    "suggested": "Chou",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 初救 give chòu. 'Chu' drops the final -u."
+  },
+  {
+    "codepoint": "U+90C3",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give hé (xiá alternate). 'Ge' is wrong."
+  },
+  {
+    "codepoint": "U+9124",
+    "verdict": "confirm_error",
+    "suggested": "Man",
+    "reason": "kMandarin and kHanyuPinyin give màn (wàn alternate). 'Fan' is wrong."
+  },
+  {
+    "codepoint": "U+917E",
+    "verdict": "confirm_error",
+    "suggested": "Shi",
+    "reason": "kMandarin shī, with kXHC1983 and kTGHZ2013 corroborating (shāi also exists). 'Xi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9194",
+    "verdict": "confirm_error",
+    "suggested": "Qiu",
+    "reason": "kMandarin and kHanyuPinyin give qiú (chōu alternate). 'Jiu' is wrong."
+  },
+  {
+    "codepoint": "U+91B6",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "kMandarin and kHanyuPinyin give yàn (liǎn, xiān, jiǎn alternates). 'Jiao' matches none of them."
+  },
+  {
+    "codepoint": "U+91DB",
+    "verdict": "confirm_error",
+    "suggested": "Ba",
+    "reason": "kMandarin and kHanyuPinyin give bā. 'He' is wrong."
+  },
+  {
+    "codepoint": "U+9218",
+    "verdict": "prefer_default",
+    "suggested": "Yi",
+    "reason": "kMandarin yǐ (Cantonese ngai5). 'Ji' follows the Japanese GI/KI reading. Single-field default."
+  },
+  {
+    "codepoint": "U+922A",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "kMandarin and kSMSZD2003 give è. 'Ngaak' is a Cantonese romanization (aak3) mixed into a Pinyin table, which is a scheme inconsistency, not an ASCII fold. This is a Cantonese-flavored character, but the table scheme is Pinyin."
+  },
+  {
+    "codepoint": "U+9238",
+    "verdict": "confirm_error",
+    "suggested": "Bo",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give bó. 'Ba' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9284",
+    "verdict": "confirm_error",
+    "suggested": "Xiang",
+    "reason": "kMandarin and kHanyuPinyin give xiǎng (jiōng alternate). 'Shang' is a wrong initial."
+  },
+  {
+    "codepoint": "U+92E3",
+    "verdict": "confirm_error",
+    "suggested": "Ye",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give yé (as in 鏌鋣). 'Xie' is wrong."
+  },
+  {
+    "codepoint": "U+931E",
+    "verdict": "confirm_error",
+    "suggested": "Chun",
+    "reason": "kMandarin chún, with kHanyuPinyin corroborating (duì, duò alternates). 'Qun' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+9350",
+    "verdict": "confirm_error",
+    "suggested": "Zong",
+    "reason": "kMandarin and kHanyuPinyin give zōng (Cantonese zung1). 'Cong' is a wrong initial."
+  },
+  {
+    "codepoint": "U+935F",
+    "verdict": "prefer_default",
+    "suggested": "Sheng",
+    "reason": "kMandarin shēng ('(Cant.) rust'), with Cantonese seng3 agreeing. 'Xing' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+93F3",
+    "verdict": "confirm_error",
+    "suggested": "Cheng",
+    "reason": "kMandarin and kHanyuPinyin give chēng. 'Zheng' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9411",
+    "verdict": "confirm_error",
+    "suggested": "Qie",
+    "reason": "kMandarin and kHanyuPinyin give qiè. 'Jie' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9483",
+    "verdict": "prefer_default",
+    "suggested": "Zhu",
+    "reason": "kMandarin zhú, with fanqie 陟玉 agreeing. 'Shu' follows Cantonese suk6. Single-field default."
+  },
+  {
+    "codepoint": "U+9491",
+    "verdict": "prefer_default",
+    "suggested": "Sa",
+    "reason": "kMandarin sà, with Korean SAP agreeing. 'Ji' follows Cantonese zaap6. Single-field default."
+  },
+  {
+    "codepoint": "U+94B9",
+    "verdict": "confirm_error",
+    "suggested": "Bo",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give bó. 'Ba' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+94CA",
+    "verdict": "confirm_error",
+    "suggested": "Ta",
+    "reason": "kMandarin tā (thallium), with kXHC1983 and kTGHZ2013 corroborating (tuó alternate). 'She' is wrong."
+  },
+  {
+    "codepoint": "U+9507",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give é (osmium). 'Tie' is wrong."
+  },
+  {
+    "codepoint": "U+9518",
+    "verdict": "confirm_error",
+    "suggested": "Nuo",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give nuò (nobelium). 'Tian' is wrong."
+  },
+  {
+    "codepoint": "U+9536",
+    "verdict": "confirm_error",
+    "suggested": "Si",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give sī (strontium). 'Song' is a wrong final."
+  },
+  {
+    "codepoint": "U+9616",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give hé. 'Ge' is a wrong initial."
+  },
+  {
+    "codepoint": "U+96B2",
+    "verdict": "prefer_default",
+    "suggested": "Zhi",
+    "reason": "kMandarin zhì (variant of 騭), with Japanese SHITSU agreeing. 'E' is unsupported. Single-field default."
+  },
+  {
+    "codepoint": "U+96C3",
+    "verdict": "prefer_default",
+    "suggested": "Qian",
+    "reason": "kMandarin and kHanyuPinyin give qiān (jiè alternate), with Cantonese hin1 agreeing. 'Ya' is unsupported."
+  },
+  {
+    "codepoint": "U+96FD",
+    "verdict": "confirm_error",
+    "suggested": "Hu",
+    "reason": "kMandarin and kHanyuPinyin give hù (hū alternate). 'Xing' is wrong."
+  },
+  {
+    "codepoint": "U+9710",
+    "verdict": "confirm_error",
+    "suggested": "Hong",
+    "reason": "kMandarin and kHanyuPinyin give hóng. 'Weng' is a wrong initial, apparently from Cantonese wang4."
+  },
+  {
+    "codepoint": "U+9729",
+    "verdict": "prefer_default",
+    "suggested": "Kuo",
+    "reason": "kMandarin and kHanyuPinyin give kuò. 'Huo' matches fanqie 虚郭, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+9781",
+    "verdict": "confirm_error",
+    "suggested": "Bei",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give bèi (bài, bì alternates). 'Tuo' is wrong."
+  },
+  {
+    "codepoint": "U+9794",
+    "verdict": "confirm_error",
+    "suggested": "Man",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983 and kTGHZ2013 give mán (mèn alternate). 'Wan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+97C4",
+    "verdict": "confirm_error",
+    "suggested": "Hu",
+    "reason": "kMandarin and kHanyuPinyin give hù (fanqie 胡誤). 'Huo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+97F9",
+    "verdict": "confirm_error",
+    "suggested": "Huang",
+    "reason": "kMandarin and kHanyuPinyin give huáng (yīng alternate; fanqie 胡光). 'Heng' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9819",
+    "verdict": "confirm_error",
+    "suggested": "Che",
+    "reason": "kMandarin and kHanyuPinyin give chè. 'Ce' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9828",
+    "verdict": "confirm_error",
+    "suggested": "Yu",
+    "reason": "kMandarin and kHanyuPinyin give yǔ (biàn alternate). 'Pian' is wrong."
+  },
+  {
+    "codepoint": "U+9835",
+    "verdict": "prefer_default",
+    "suggested": "Yun",
+    "reason": "kMandarin and kHanyuPinyin give yūn. 'Jun' matches fanqie 居筠, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+985D",
+    "verdict": "confirm_error",
+    "suggested": "Kui",
+    "reason": "kMandarin and kHanyuPinyin give kuī (kuǎ alternate). 'Ku' drops the final -i."
+  },
+  {
+    "codepoint": "U+9863",
+    "verdict": "confirm_error",
+    "suggested": "Cu",
+    "reason": "kMandarin and kHanyuPinyin give cù. 'Qi' is wrong."
+  },
+  {
+    "codepoint": "U+988B",
+    "verdict": "confirm_error",
+    "suggested": "Ting",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give tǐng. 'Tian' is wrong."
+  },
+  {
+    "codepoint": "U+98B7",
+    "verdict": "confirm_error",
+    "suggested": "Biao",
+    "reason": "kMandarin and kHanyuPinyin give biāo. 'Bi' is a truncation."
+  },
+  {
+    "codepoint": "U+98F9",
+    "verdict": "prefer_default",
+    "suggested": "Bao",
+    "reason": "kMandarin bǎo, with Cantonese baau2 agreeing. 'Liu' follows the Japanese リュウ reading, which suggests a 餾 association. Single-field default."
+  },
+  {
+    "codepoint": "U+9942",
+    "verdict": "prefer_default",
+    "suggested": "Wen",
+    "reason": "kMandarin wēn, with Cantonese wan1 agreeing. 'Yun' follows the Japanese ウン and Korean 온 reading, and is plausible via the 昷 phonetic. Single-field default."
+  },
+  {
+    "codepoint": "U+9978",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give hé. 'Jia' is wrong."
+  },
+  {
+    "codepoint": "U+99A7",
+    "verdict": "confirm_error",
+    "suggested": "Yun",
+    "reason": "kMandarin and kHanyuPinyin give yūn (kTGHZ2013 agrees; wò alternate). 'Wen' is a wrong vowel, apparently from Cantonese wan1."
+  },
+  {
+    "codepoint": "U+99BB",
+    "verdict": "confirm_error",
+    "suggested": "Yun",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 余準 give yǔn. 'Yin' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9A02",
+    "verdict": "confirm_error",
+    "suggested": "Xing",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give xīng. 'Xin' drops the final -g."
+  },
+  {
+    "codepoint": "U+9A29",
+    "verdict": "confirm_error",
+    "suggested": "Gui",
+    "reason": "kMandarin and kHanyuPinyin give guī (tuí alternate). 'Kui' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9A4F",
+    "verdict": "confirm_error",
+    "suggested": "Zhan",
+    "reason": "kMandarin and kHanyuPinyin give zhàn (kSMSZD2003 zhǎn). 'Chan' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9A5F",
+    "verdict": "confirm_error",
+    "suggested": "Zhou",
+    "reason": "kMandarin, kHanyuPinyin, kHanyuPinlu and kSMSZD2003 give zhòu. 'Zou' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9AA4",
+    "verdict": "confirm_error",
+    "suggested": "Zhou",
+    "reason": "kMandarin, kXHC1983, kTGHZ2013 and kHanyuPinlu give zhòu. 'Zou' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9ABA",
+    "verdict": "confirm_error",
+    "suggested": "Hou",
+    "reason": "kMandarin, kHanyuPinyin, kXHC1983, kTGHZ2013 and kSMSZD2003 give hóu. 'Gou' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9AE2",
+    "verdict": "confirm_error",
+    "suggested": "Di",
+    "reason": "kMandarin dí (dì also attested), with kXHC1983, kTGHZ2013 and kSMSZD2003 corroborating. 'Ti' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9AF2",
+    "verdict": "confirm_error",
+    "suggested": "Bi",
+    "reason": "kMandarin and kHanyuPinyin give bì. 'Pi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9B33",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "kMandarin and kHanyuPinyin give yàn. 'Juan' is wrong."
+  },
+  {
+    "codepoint": "U+9B50",
+    "verdict": "confirm_error",
+    "suggested": "Gan",
+    "reason": "kMandarin and kHanyuPinyin give gān. 'Jian' is wrong."
+  },
+  {
+    "codepoint": "U+9BB9",
+    "verdict": "prefer_default",
+    "suggested": "Shao",
+    "reason": "kMandarin and kHanyuPinyin give shāo (Cantonese saau1). 'Xiao' matches fanqie 相邀 and Vietnamese tiêu, so it is a valid secondary reading."
+  },
+  {
+    "codepoint": "U+9BC7",
+    "verdict": "confirm_error",
+    "suggested": "Huan",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give huàn. 'Wan' follows Cantonese waan5 and is not Mandarin."
+  },
+  {
+    "codepoint": "U+9BF6",
+    "verdict": "prefer_default",
+    "suggested": "Huan",
+    "reason": "kMandarin huàn, with Cantonese waan5 agreeing. 'Hun' matches fanqie 胡本, so it is an archaic alternative. Single-field default."
+  },
+  {
+    "codepoint": "U+9C25",
+    "verdict": "confirm_error",
+    "suggested": "Guan",
+    "reason": "kMandarin, kHanyuPinyin and kSMSZD2003 give guān (guàn, kūn, gǔn alternates). 'Yin' is wrong."
+  },
+  {
+    "codepoint": "U+9C4A",
+    "verdict": "confirm_error",
+    "suggested": "Yu",
+    "reason": "kMandarin and kHanyuPinyin give yù. 'Jue' is wrong."
+  },
+  {
+    "codepoint": "U+9C9D",
+    "verdict": "confirm_error",
+    "suggested": "Zha",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give zhǎ. 'Za' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9CCF",
+    "verdict": "confirm_error",
+    "suggested": "Guan",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give guān. 'Yin' is wrong."
+  },
+  {
+    "codepoint": "U+9CE0",
+    "verdict": "confirm_error",
+    "suggested": "Hu",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give hù. 'Huo' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9D10",
+    "verdict": "unresolved",
+    "suggested": null,
+    "reason": "kMandarin and kHanyuPinyin give gē. 'Jia' is consistent with 駕 (Cantonese gaa1, kTang ga), so the evidence conflicts."
+  },
+  {
+    "codepoint": "U+9D22",
+    "verdict": "confirm_error",
+    "suggested": "Yao",
+    "reason": "kMandarin and kHanyuPinyin give yǎo (āo alternate). 'You' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9D35",
+    "verdict": "prefer_default",
+    "suggested": "Xiao",
+    "reason": "kMandarin and kHanyuPinyin give xiāo. 'Jiao' matches Cantonese giu1 and Japanese キョウ, so it is a possible alternative."
+  },
+  {
+    "codepoint": "U+9D44",
+    "verdict": "prefer_default",
+    "suggested": "Chi",
+    "reason": "Variant of 鴟, kMandarin chī (Cantonese ci1). 'Zhi' is a wrong initial. Single-field default."
+  },
+  {
+    "codepoint": "U+9D55",
+    "verdict": "prefer_default",
+    "suggested": "Jun",
+    "reason": "kMandarin jùn (Cantonese zeon3). 'Xun' matches fanqie 私閏, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+9D7D",
+    "verdict": "confirm_error",
+    "suggested": "Duo",
+    "reason": "kMandarin and kHanyuPinyin give duò (fanqie 丁括 also supports d-). 'Zhui' is wrong."
+  },
+  {
+    "codepoint": "U+9DAE",
+    "verdict": "confirm_error",
+    "suggested": "He",
+    "reason": "kMandarin and kHanyuPinyin give hè (hú alternate). 'Gu' is wrong."
+  },
+  {
+    "codepoint": "U+9DBF",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 疾之 give cí. 'Zi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9DCA",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "kMandarin and kHanyuPinyin give yì. 'Ni' is wrong."
+  },
+  {
+    "codepoint": "U+9DD2",
+    "verdict": "prefer_default",
+    "suggested": "Tuan",
+    "reason": "kMandarin and kHanyuPinyin give tuán. 'Zhuan' matches fanqie 職緣, so it is an archaic alternative."
+  },
+  {
+    "codepoint": "U+9DDC",
+    "verdict": "prefer_default",
+    "suggested": "Lu",
+    "reason": "kMandarin lǘ (lǚ alternate), folded to Lu. 'Lou' matches fanqie 落侯 (lóu), so it is an alternative. The ü fold collides with lù, which is a table-convention issue."
+  },
+  {
+    "codepoint": "U+9E05",
+    "verdict": "confirm_error",
+    "suggested": "Ze",
+    "reason": "kMandarin and kHanyuPinyin give zé. 'Zhe' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9E31",
+    "verdict": "confirm_error",
+    "suggested": "Chi",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give chī. 'Zhi' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9E5D",
+    "verdict": "confirm_error",
+    "suggested": "Yi",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give yì. 'Ni' is wrong."
+  },
+  {
+    "codepoint": "U+9E6E",
+    "verdict": "confirm_error",
+    "suggested": "Huan",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give huán. 'Xuan' is a wrong initial and vowel."
+  },
+  {
+    "codepoint": "U+9EA1",
+    "verdict": "confirm_error",
+    "suggested": "Qi",
+    "reason": "kMandarin and kHanyuPinyin give qí. 'Ji' is a wrong initial."
+  },
+  {
+    "codepoint": "U+9EC9",
+    "verdict": "confirm_error",
+    "suggested": "Hong",
+    "reason": "kMandarin, kXHC1983 and kTGHZ2013 give hóng. 'Heng' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9ED7",
+    "verdict": "confirm_error",
+    "suggested": "Tun",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 他昆 give tūn. 'Tuan' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9EEB",
+    "verdict": "confirm_error",
+    "suggested": "Yan",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 烏閑 give yān. 'Yin' is a wrong vowel."
+  },
+  {
+    "codepoint": "U+9F30",
+    "verdict": "prefer_default",
+    "suggested": "Ju",
+    "reason": "kMandarin jú (Cantonese gwik1). 'Nian' follows the Japanese ネン reading. Single-field default."
+  },
+  {
+    "codepoint": "U+9F43",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "kMandarin and kHanyuPinyin give è (hè alternate). 'Ge' is wrong; Cantonese aat3 supports e."
+  },
+  {
+    "codepoint": "U+9F5A",
+    "verdict": "confirm_error",
+    "suggested": "Ze",
+    "reason": "kMandarin, kHanyuPinyin and kXHC1983 give zé. 'Cuo' is wrong."
+  },
+  {
+    "codepoint": "U+9F70",
+    "verdict": "confirm_error",
+    "suggested": "Ze",
+    "reason": "kMandarin and kHanyuPinyin give zé (cè, zhà alternates). 'Cuo' is not among them."
+  },
+  {
+    "codepoint": "U+9F79",
+    "verdict": "confirm_error",
+    "suggested": "Ci",
+    "reason": "kMandarin and kHanyuPinyin give cī (cuó alternate). 'Chuo' is wrong; if a cuó reading is wanted it would be Cuo, not Chuo."
+  },
+  {
+    "codepoint": "U+9F96",
+    "verdict": "confirm_error",
+    "suggested": "Da",
+    "reason": "kMandarin, kHanyuPinyin and fanqie 徒合 give dá. 'Ta' is a wrong initial."
+  }
+]

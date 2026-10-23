@@ -1,16 +1,33 @@
 {
-  "$schema": "https://biomejs.dev/schemas/2.3.9/schema.json",
-  "extends": ["ultracite/core"],
+  "$schema": "https://biomejs.dev/schemas/2.6.2/schema.json",
   "vcs": {
     "enabled": true,
     "clientKind": "git",
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["!**/node_modules", "!**/dist", "!**/data", "!**/coverage"]
+    "includes": [
+      "src/**",
+      "scripts/**",
+      "test/**",
+      "benchmark/**",
+      "*.json",
+      "*.ts",
+      "!**/node_modules",
+      "!**/dist",
+      "!**/data",
+      "!**/coverage",
+      "!benchmark/results",
+      "!benchmark/RESULTS.md",
+      "!benchmark/result-summary.json"
+    ]
   },
   "linter": {
     "rules": {
+      "preset": "recommended",
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "error"
+      },
       "suspicious": {
         "noConsole": "off",
         "noBitwiseOperators": "off"
@@ -26,7 +43,8 @@
   },
   "javascript": {
     "formatter": {
-      "quoteStyle": "single"
+      "quoteStyle": "single",
+      "trailingCommas": "es5"
     }
   }
 }

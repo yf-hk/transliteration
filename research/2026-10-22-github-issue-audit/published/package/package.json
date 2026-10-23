@@ -1,0 +1,83 @@
+{
+  "name": "transliteration",
+  "version": "2.6.2",
+  "description": "Unicode to ASCII transliteration / slugify module for node.js, browser, Web Worker, ReactNative and CLI.",
+  "main": "dist/node/src/node/index.js",
+  "module": "dist/browser/bundle.esm.min.js",
+  "jsnext": "dist/browser/bundle.esm.min.js",
+  "browser": "dist/browser/bundle.umd.min.js",
+  "types": "dist/node/src/node/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/node/src/node/index.d.ts",
+      "browser": "./dist/browser/bundle.esm.min.js",
+      "require": "./dist/node/src/node/index.js",
+      "import": "./dist/node/src/node/index.js",
+      "default": "./dist/node/src/node/index.js"
+    },
+    "./latin": {
+      "types": "./dist/node/src/node/latin.d.ts",
+      "browser": "./dist/browser/latin.esm.min.js",
+      "require": "./dist/node/src/node/latin.js",
+      "import": "./dist/node/src/node/latin.js",
+      "default": "./dist/node/src/node/latin.js"
+    },
+    "./package.json": "./package.json",
+    "./dist/*": "./dist/*"
+  },
+  "bin": {
+    "transliterate": "dist/bin/transliterate",
+    "slugify": "dist/bin/slugify"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate:data": "bun scripts/generate-data.ts",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "test": "vitest run && bun run test:package",
+    "test:package": "bun run build && node --test test/package.test.mjs",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage && bun run test:package",
+    "prebuild": "del-cli dist && bun run generate:data",
+    "build": "tsup && bun scripts/postbuild.ts",
+    "prepublishOnly": "bun run lint && bun run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yf-hk/transliteration.git"
+  },
+  "keywords": [
+    "transliterate",
+    "transliteration",
+    "utf8",
+    "slug",
+    "slugify",
+    "romanization",
+    "unicode",
+    "unidecode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yf-hk/transliteration/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@biomejs/biome": "2.3.9",
+    "@types/bun": "^1.3.4",
+    "@vitest/coverage-v8": "^4.0.15",
+    "del-cli": "^7.0.0",
+    "happy-dom": "^20.0.11",
+    "json5": "^2.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "ultracite": "^6.4.1",
+    "vitest": "^4.0.15"
+  },
+  "packageManager": "bun@1.3.4"
+}

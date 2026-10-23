@@ -1,0 +1,1934 @@
+{
+  "startedAt": "2026-10-22T21:05:47.242Z",
+  "runtime": "v26.5.0",
+  "platform": "darwin/x64",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+  "logicalCpus": 64,
+  "loadBefore": [
+    21.37255859375,
+    22.041015625,
+    22.47021484375
+  ],
+  "protocol": {
+    "rounds": 5,
+    "warmupMs": 150,
+    "calibrationMs": 25,
+    "targetMs": 350
+  },
+  "adapters": [
+    {
+      "id": "default-before",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Default options",
+      "entry": "research/2026-10-23-slugify-minimal/before-dist/node/src/node/index.js",
+      "entrySha256": "cfa341f9a1714dc4ec94e103d790c0df129387c09cf0cf8b05a728c00b4e5224"
+    },
+    {
+      "id": "default-after",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Default options",
+      "entry": "research/2026-10-23-slugify-minimal/candidate-final-dist/node/src/node/index.js",
+      "entrySha256": "8bbaa9a1085a4e2cdadc78cd69fdd4f0b4937d7199c4b1f7a4b867b7fe836637"
+    },
+    {
+      "id": "custom-before",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Custom separator, ignore, literal-$ regex replacement",
+      "entry": "research/2026-10-23-slugify-minimal/before-dist/node/src/node/index.js",
+      "entrySha256": "cfa341f9a1714dc4ec94e103d790c0df129387c09cf0cf8b05a728c00b4e5224"
+    },
+    {
+      "id": "custom-after",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Custom separator, ignore, literal-$ regex replacement",
+      "entry": "research/2026-10-23-slugify-minimal/candidate-final-dist/node/src/node/index.js",
+      "entrySha256": "8bbaa9a1085a4e2cdadc78cd69fdd4f0b4937d7199c4b1f7a4b867b7fe836637"
+    }
+  ],
+  "audits": [
+    {
+      "adapter": "default-before",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "long",
+          "outputs": [
+            {
+              "input": "Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا ",
+              "output": "cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb",
+              "flags": []
+            },
+            {
+              "input": "こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் ",
+              "output": "konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm",
+              "flags": []
+            },
+            {
+              "input": "Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 ",
+              "output": "rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo",
+              "flags": []
+            },
+            {
+              "input": "مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם ",
+              "output": "mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm",
+              "flags": []
+            },
+            {
+              "input": "கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ ",
+              "output": "knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm",
+              "flags": []
+            },
+            {
+              "input": "2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ ",
+              "output": "2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss",
+              "flags": []
+            },
+            {
+              "input": "Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text ",
+              "output": "emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text",
+              "flags": []
+            },
+            {
+              "input": "Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย ",
+              "output": "mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "cyrillic",
+              "input": "Привет мир",
+              "output": "privet-mir",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "chinese",
+              "input": "你好世界",
+              "output": "ni-hao-shi-jie",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "japanese",
+              "input": "東京へ行く",
+              "output": "dong-jing-hexing-ku",
+              "flags": [
+                "reading-mismatch"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": true
+            },
+            {
+              "id": "korean",
+              "input": "안녕하세요",
+              "output": "annyeonghaseyo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "arabic",
+              "input": "مرحبا بالعالم",
+              "output": "mrhb-blaalm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "thai",
+              "input": "เชียงใหม่",
+              "output": "echiiyngaihm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "tamil",
+              "input": "கன்னியாகுமரி",
+              "output": "knnnnnniyaakumri",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "supplementary",
+              "input": "𠮷𠬠",
+              "output": "",
+              "flags": [
+                "dropped"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": false
+            }
+          ],
+          "flags": [
+            "reading-mismatch",
+            "dropped"
+          ],
+          "assessment": "not-valid-reading",
+          "cjkReadingEligible": false
+        }
+      ]
+    },
+    {
+      "adapter": "default-after",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "long",
+          "outputs": [
+            {
+              "input": "Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا ",
+              "output": "cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb-cafe-bei-jing-tokyo-seoul-moskva-mrhb",
+              "flags": []
+            },
+            {
+              "input": "こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் ",
+              "output": "konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm-konnitihashi-jie-echiiyngaihm-vnnkkm",
+              "flags": []
+            },
+            {
+              "input": "Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 ",
+              "output": "rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo-rust-python-javascript-zhong-wen-hangugeo",
+              "flags": []
+            },
+            {
+              "input": "مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם ",
+              "output": "mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm-mrhb-blaalm-shlvm-vlm",
+              "flags": []
+            },
+            {
+              "input": "கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ ",
+              "output": "knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm-knnnnnniyaakumri-swasdiiechiiyngaihm",
+              "flags": []
+            },
+            {
+              "input": "2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ ",
+              "output": "2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss-2026-nian-nouvelles-uberstrasse-1-ss",
+              "flags": []
+            },
+            {
+              "input": "Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text ",
+              "output": "emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text-emoji-and-supplementary-text",
+              "flags": []
+            },
+            {
+              "input": "Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย ",
+              "output": "mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy-mixed-scripts-ellinika-laarby-aithy",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "cyrillic",
+              "input": "Привет мир",
+              "output": "privet-mir",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "chinese",
+              "input": "你好世界",
+              "output": "ni-hao-shi-jie",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "japanese",
+              "input": "東京へ行く",
+              "output": "dong-jing-hexing-ku",
+              "flags": [
+                "reading-mismatch"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": true
+            },
+            {
+              "id": "korean",
+              "input": "안녕하세요",
+              "output": "annyeonghaseyo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "arabic",
+              "input": "مرحبا بالعالم",
+              "output": "mrhb-blaalm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "thai",
+              "input": "เชียงใหม่",
+              "output": "echiiyngaihm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "tamil",
+              "input": "கன்னியாகுமரி",
+              "output": "knnnnnniyaakumri",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "supplementary",
+              "input": "𠮷𠬠",
+              "output": "",
+              "flags": [
+                "dropped"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": false
+            }
+          ],
+          "flags": [
+            "reading-mismatch",
+            "dropped"
+          ],
+          "assessment": "not-valid-reading",
+          "cjkReadingEligible": false
+        }
+      ]
+    },
+    {
+      "adapter": "custom-before",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme__brulee__et__cafe__a__montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao__paulo__e__coracao__brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole__francaise__a__quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana__malaga__y__cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak__cesky__krumlov__a__pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a__bientot__tres__chere__amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel__elegant__pres__du__marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord__strasse__goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme__brulee__sao__paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "long",
+          "outputs": [
+            {
+              "input": "Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا ",
+              "output": "coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb",
+              "flags": []
+            },
+            {
+              "input": "こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் ",
+              "output": "konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm",
+              "flags": []
+            },
+            {
+              "input": "Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 ",
+              "output": "rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo",
+              "flags": []
+            },
+            {
+              "input": "مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם ",
+              "output": "mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm",
+              "flags": []
+            },
+            {
+              "input": "கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ ",
+              "output": "knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm",
+              "flags": []
+            },
+            {
+              "input": "2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ ",
+              "output": "2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss",
+              "flags": []
+            },
+            {
+              "input": "Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text ",
+              "output": "emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text",
+              "flags": []
+            },
+            {
+              "input": "Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย ",
+              "output": "mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme__brulee__sao__paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "cyrillic",
+              "input": "Привет мир",
+              "output": "privet__mir",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "chinese",
+              "input": "你好世界",
+              "output": "ni__hao__shi__jie",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "japanese",
+              "input": "東京へ行く",
+              "output": "dong__jing__hexing__ku",
+              "flags": [
+                "reading-mismatch"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": true
+            },
+            {
+              "id": "korean",
+              "input": "안녕하세요",
+              "output": "annyeonghaseyo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "arabic",
+              "input": "مرحبا بالعالم",
+              "output": "mrhb__blaalm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "thai",
+              "input": "เชียงใหม่",
+              "output": "echiiyngaihm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "tamil",
+              "input": "கன்னியாகுமரி",
+              "output": "knnnnnniyaakumri",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "supplementary",
+              "input": "𠮷𠬠",
+              "output": "",
+              "flags": [
+                "dropped"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": false
+            }
+          ],
+          "flags": [
+            "reading-mismatch",
+            "dropped"
+          ],
+          "assessment": "not-valid-reading",
+          "cjkReadingEligible": false
+        }
+      ]
+    },
+    {
+      "adapter": "custom-after",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme__brulee__et__cafe__a__montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao__paulo__e__coracao__brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole__francaise__a__quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana__malaga__y__cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak__cesky__krumlov__a__pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a__bientot__tres__chere__amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel__elegant__pres__du__marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord__strasse__goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme__brulee__sao__paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "long",
+          "outputs": [
+            {
+              "input": "Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا Café 北京 Tokyo 서울 Москва مرحبا ",
+              "output": "coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb__coffee__bei__jing__tokyo__seoul__moskva__mrhb",
+              "flags": []
+            },
+            {
+              "input": "こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் こんにちは世界 เชียงใหม่ வணக்கம் ",
+              "output": "konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm__konnitihashi__jie__echiiyngaihm__vnnkkm",
+              "flags": []
+            },
+            {
+              "input": "Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 Rust Python JavaScript 中文 한국어 ",
+              "output": "rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo__rust__python__javascript__zhong__wen__hangugeo",
+              "flags": []
+            },
+            {
+              "input": "مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם مرحبا بالعالم שלום עולם ",
+              "output": "mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm__mrhb__blaalm__shlvm__vlm",
+              "flags": []
+            },
+            {
+              "input": "கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ கன்னியாகுமரி สวัสดีเชียงใหม่ ",
+              "output": "knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm__knnnnnniyaakumri__swasdiiechiiyngaihm",
+              "flags": []
+            },
+            {
+              "input": "2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ 2026年 nouvelles Überstraße ① ẞ ",
+              "output": "2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss__2026__nian__nouvelles__uberstrasse__1__ss",
+              "flags": []
+            },
+            {
+              "input": "Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text Emoji 🚀 and supplementary 𠮷 text ",
+              "output": "emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text__emoji__and__supplementary__text",
+              "flags": []
+            },
+            {
+              "input": "Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย Mixed scripts Ελληνικά العربية ไทย ",
+              "output": "mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy__mixed__scripts__ellinika__laarby__aithy",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme__brulee__sao__paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "cyrillic",
+              "input": "Привет мир",
+              "output": "privet__mir",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            },
+            {
+              "id": "chinese",
+              "input": "你好世界",
+              "output": "ni__hao__shi__jie",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "japanese",
+              "input": "東京へ行く",
+              "output": "dong__jing__hexing__ku",
+              "flags": [
+                "reading-mismatch"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": true
+            },
+            {
+              "id": "korean",
+              "input": "안녕하세요",
+              "output": "annyeonghaseyo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": true
+            },
+            {
+              "id": "arabic",
+              "input": "مرحبا بالعالم",
+              "output": "mrhb__blaalm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "thai",
+              "input": "เชียงใหม่",
+              "output": "echiiyngaihm",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "tamil",
+              "input": "கன்னியாகுமரி",
+              "output": "knnnnnniyaakumri",
+              "flags": [],
+              "assessment": "reading-unverified",
+              "cjk": false
+            },
+            {
+              "id": "supplementary",
+              "input": "𠮷𠬠",
+              "output": "",
+              "flags": [
+                "dropped"
+              ],
+              "assessment": "not-valid-reading",
+              "cjk": false
+            }
+          ],
+          "flags": [
+            "reading-mismatch",
+            "dropped"
+          ],
+          "assessment": "not-valid-reading",
+          "cjkReadingEligible": false
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "adapter": "default-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 28344,
+      "elapsedMs": 325.7488949999997,
+      "operationsPerSecond": 87011.80705463336,
+      "inputBytes": 896379,
+      "inputCodePoints": 768831,
+      "inputMiBPerSecond": 2.6242717724826625,
+      "nanosecondsPerCodePoint": 423.69375714558817,
+      "cpuMs": 346.079,
+      "cpuToWallRatio": 1.0624103575240074,
+      "checksum": 6639582,
+      "outputCodeUnits": 772374,
+      "completedCalls": 28344,
+      "expectedChecksum": 6639582,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 9848,
+      "warmupElapsedMs": 150.05160400000022,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 25.29221000000007
+    },
+    {
+      "adapter": "default-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 77848,
+      "elapsedMs": 334.3632769999999,
+      "operationsPerSecond": 232824.61129844715,
+      "inputBytes": 2461943,
+      "inputCodePoints": 2111627,
+      "inputMiBPerSecond": 7.021978695214645,
+      "nanosecondsPerCodePoint": 158.3439106433096,
+      "cpuMs": 336.772,
+      "cpuToWallRatio": 1.0072039101351433,
+      "checksum": 18235894,
+      "outputCodeUnits": 2121358,
+      "completedCalls": 77848,
+      "expectedChecksum": 18235894,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 26352,
+      "warmupElapsedMs": 150.033596,
+      "calibrationIterations": 8192,
+      "calibrationElapsedMs": 36.83388699999978
+    },
+    {
+      "adapter": "custom-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 19320,
+      "elapsedMs": 295.905444,
+      "operationsPerSecond": 65291.1272561785,
+      "inputBytes": 610995,
+      "inputCodePoints": 524055,
+      "inputMiBPerSecond": 1.9691771502272082,
+      "nanosecondsPerCodePoint": 564.64577954604,
+      "cpuMs": 306.202,
+      "cpuToWallRatio": 1.034796777851779,
+      "checksum": 4595745,
+      "outputCodeUnits": 596505,
+      "completedCalls": 19320,
+      "expectedChecksum": 4595745,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 7528,
+      "warmupElapsedMs": 150.01886000000013,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 37.111255000000256
+    },
+    {
+      "adapter": "custom-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 23184,
+      "elapsedMs": 366.014322,
+      "operationsPerSecond": 63341.78365840013,
+      "inputBytes": 733194,
+      "inputCodePoints": 628866,
+      "inputMiBPerSecond": 1.9103850442856827,
+      "nanosecondsPerCodePoint": 582.0227552451556,
+      "cpuMs": 384.033,
+      "cpuToWallRatio": 1.0492294342514827,
+      "checksum": 5514894,
+      "outputCodeUnits": 715806,
+      "completedCalls": 23184,
+      "expectedChecksum": 5514894,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 7704,
+      "warmupElapsedMs": 150.11301099999991,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 30.92660700000033
+    },
+    {
+      "adapter": "default-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 376,
+      "elapsedMs": 308.0215469999998,
+      "operationsPerSecond": 1220.6938237343513,
+      "inputBytes": 1272384,
+      "inputCodePoints": 715904,
+      "inputMiBPerSecond": 3.9394644732637834,
+      "nanosecondsPerCodePoint": 430.25537921285513,
+      "cpuMs": 315.055,
+      "cpuToWallRatio": 1.022834288927197,
+      "checksum": 914996,
+      "outputCodeUnits": 835848,
+      "completedCalls": 376,
+      "expectedChecksum": 914996,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 168,
+      "warmupElapsedMs": 155.5355709999999,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 29.802518999999847
+    },
+    {
+      "adapter": "custom-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 424,
+      "elapsedMs": 322.0463940000004,
+      "operationsPerSecond": 1316.5804924367494,
+      "inputBytes": 1434816,
+      "inputCodePoints": 807296,
+      "inputMiBPerSecond": 4.248913179784736,
+      "nanosecondsPerCodePoint": 398.91984352703395,
+      "cpuMs": 328.382,
+      "cpuToWallRatio": 1.0196729605362373,
+      "checksum": 1167060,
+      "outputCodeUnits": 1077808,
+      "completedCalls": 424,
+      "expectedChecksum": 1167060,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 176,
+      "warmupElapsedMs": 154.845143,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 26.893887000000177
+    },
+    {
+      "adapter": "custom-after",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 360,
+      "elapsedMs": 325.8470940000002,
+      "operationsPerSecond": 1104.8126763407618,
+      "inputBytes": 1218240,
+      "inputCodePoints": 685440,
+      "inputMiBPerSecond": 3.565488907563341,
+      "nanosecondsPerCodePoint": 475.38383228291343,
+      "cpuMs": 332.522,
+      "cpuToWallRatio": 1.0204847798949521,
+      "checksum": 990900,
+      "outputCodeUnits": 915120,
+      "completedCalls": 360,
+      "expectedChecksum": 990900,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 152,
+      "warmupElapsedMs": 156.62371500000017,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 31.640133000000333
+    },
+    {
+      "adapter": "default-before",
+      "round": 0,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 512,
+      "elapsedMs": 337.02608000000055,
+      "operationsPerSecond": 1519.1702671793207,
+      "inputBytes": 1732608,
+      "inputCodePoints": 974848,
+      "inputMiBPerSecond": 4.902717765936681,
+      "nanosecondsPerCodePoint": 345.721671481093,
+      "cpuMs": 343.589,
+      "cpuToWallRatio": 1.0194730330661634,
+      "checksum": 1245952,
+      "outputCodeUnits": 1138176,
+      "completedCalls": 512,
+      "expectedChecksum": 1245952,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 216,
+      "warmupElapsedMs": 152.45440700000017,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 43.789490000000114
+    },
+    {
+      "adapter": "default-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 82600,
+      "elapsedMs": 391.73277099999996,
+      "operationsPerSecond": 210858.02903122446,
+      "inputBytes": 2612225,
+      "inputCodePoints": 2240525,
+      "inputMiBPerSecond": 6.359467666733241,
+      "nanosecondsPerCodePoint": 174.83972327914213,
+      "cpuMs": 394.615,
+      "cpuToWallRatio": 1.0073576407525018,
+      "checksum": 19349050,
+      "outputCodeUnits": 2250850,
+      "completedCalls": 82600,
+      "expectedChecksum": 19349050,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 29232,
+      "warmupElapsedMs": 150.00371300000006,
+      "calibrationIterations": 8192,
+      "calibrationElapsedMs": 34.714092000000164
+    },
+    {
+      "adapter": "custom-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 17072,
+      "elapsedMs": 337.15950000000066,
+      "operationsPerSecond": 50634.78857929249,
+      "inputBytes": 539902,
+      "inputCodePoints": 463078,
+      "inputMiBPerSecond": 1.527142704792142,
+      "nanosecondsPerCodePoint": 728.0836057856358,
+      "cpuMs": 338.947,
+      "cpuToWallRatio": 1.0053016450670953,
+      "checksum": 4061002,
+      "outputCodeUnits": 527098,
+      "completedCalls": 17072,
+      "expectedChecksum": 4061002,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 6176,
+      "warmupElapsedMs": 150.06689600000027,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 42.003075000000536
+    },
+    {
+      "adapter": "custom-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 21600,
+      "elapsedMs": 292.5988889999999,
+      "operationsPerSecond": 73821.19622470613,
+      "inputBytes": 683100,
+      "inputCodePoints": 585900,
+      "inputMiBPerSecond": 2.2264436060012165,
+      "nanosecondsPerCodePoint": 499.40073220686105,
+      "cpuMs": 294.208,
+      "cpuToWallRatio": 1.0054993749480714,
+      "checksum": 5138100,
+      "outputCodeUnits": 666900,
+      "completedCalls": 21600,
+      "expectedChecksum": 5138100,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 9752,
+      "warmupElapsedMs": 150.04560899999979,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 33.194235000000845
+    },
+    {
+      "adapter": "default-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 28952,
+      "elapsedMs": 342.7043880000001,
+      "operationsPerSecond": 84480.97256344436,
+      "inputBytes": 915607,
+      "inputCodePoints": 785323,
+      "inputMiBPerSecond": 2.547941930121353,
+      "nanosecondsPerCodePoint": 436.3865415886204,
+      "cpuMs": 344.268,
+      "cpuToWallRatio": 1.0045625677836372,
+      "checksum": 6782006,
+      "outputCodeUnits": 788942,
+      "completedCalls": 28952,
+      "expectedChecksum": 6782006,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11072,
+      "warmupElapsedMs": 150.01657199999954,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 49.5262189999994
+    },
+    {
+      "adapter": "custom-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 208,
+      "elapsedMs": 298.8600269999997,
+      "operationsPerSecond": 695.9779870460902,
+      "inputBytes": 703872,
+      "inputCodePoints": 396032,
+      "inputMiBPerSecond": 2.2460837442054458,
+      "nanosecondsPerCodePoint": 754.6360571872973,
+      "cpuMs": 303.78,
+      "cpuToWallRatio": 1.0164624658887562,
+      "checksum": 572520,
+      "outputCodeUnits": 528736,
+      "completedCalls": 208,
+      "expectedChecksum": 572520,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 144,
+      "warmupElapsedMs": 160.89188300000023,
+      "calibrationIterations": 16,
+      "calibrationElapsedMs": 27.97562199999993
+    },
+    {
+      "adapter": "custom-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 296,
+      "elapsedMs": 307.5613519999997,
+      "operationsPerSecond": 962.4096073033268,
+      "inputBytes": 1001664,
+      "inputCodePoints": 563584,
+      "inputMiBPerSecond": 3.105920897592981,
+      "nanosecondsPerCodePoint": 545.7240659777419,
+      "cpuMs": 314.222,
+      "cpuToWallRatio": 1.0216563230610336,
+      "checksum": 814740,
+      "outputCodeUnits": 752432,
+      "completedCalls": 296,
+      "expectedChecksum": 814740,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 152,
+      "warmupElapsedMs": 151.44619899999998,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 37.88019600000007
+    },
+    {
+      "adapter": "default-before",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 560,
+      "elapsedMs": 357.76126900000054,
+      "operationsPerSecond": 1565.2896177534499,
+      "inputBytes": 1895040,
+      "inputCodePoints": 1066240,
+      "inputMiBPerSecond": 5.051555696942972,
+      "nanosecondsPerCodePoint": 335.5354038490401,
+      "cpuMs": 364.85,
+      "cpuToWallRatio": 1.0198141375666896,
+      "checksum": 1362760,
+      "outputCodeUnits": 1244880,
+      "completedCalls": 560,
+      "expectedChecksum": 1362760,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 224,
+      "warmupElapsedMs": 154.0816880000002,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 40.077156999999715
+    },
+    {
+      "adapter": "default-after",
+      "round": 1,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 576,
+      "elapsedMs": 405.0141729999996,
+      "operationsPerSecond": 1422.1724532094354,
+      "inputBytes": 1949184,
+      "inputCodePoints": 1096704,
+      "inputMiBPerSecond": 4.589683133755425,
+      "nanosecondsPerCodePoint": 369.3012636043997,
+      "cpuMs": 414.466,
+      "cpuToWallRatio": 1.0233370277637184,
+      "checksum": 1401696,
+      "outputCodeUnits": 1280448,
+      "completedCalls": 576,
+      "expectedChecksum": 1401696,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 224,
+      "warmupElapsedMs": 153.73893700000008,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 39.164286000001084
+    },
+    {
+      "adapter": "custom-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 26320,
+      "elapsedMs": 467.3487060000007,
+      "operationsPerSecond": 56317.69097056184,
+      "inputBytes": 832370,
+      "inputCodePoints": 713930,
+      "inputMiBPerSecond": 1.6985387582245048,
+      "nanosecondsPerCodePoint": 654.6141862647607,
+      "cpuMs": 471.048,
+      "cpuToWallRatio": 1.0079154899810492,
+      "checksum": 6260870,
+      "outputCodeUnits": 812630,
+      "completedCalls": 26320,
+      "expectedChecksum": 6260870,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 9952,
+      "warmupElapsedMs": 150.03613899999982,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 27.240912999999637
+    },
+    {
+      "adapter": "custom-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 28576,
+      "elapsedMs": 332.246548000001,
+      "operationsPerSecond": 86008.4180618783,
+      "inputBytes": 903716,
+      "inputCodePoints": 775124,
+      "inputMiBPerSecond": 2.5940096103734027,
+      "nanosecondsPerCodePoint": 428.63664136318965,
+      "cpuMs": 334.701,
+      "cpuToWallRatio": 1.0073874416898352,
+      "checksum": 6797516,
+      "outputCodeUnits": 882284,
+      "completedCalls": 28576,
+      "expectedChecksum": 6797516,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11336,
+      "warmupElapsedMs": 150.0669710000002,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 50.17371899999853
+    },
+    {
+      "adapter": "default-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 38856,
+      "elapsedMs": 346.8788509999995,
+      "operationsPerSecond": 112016.05369708763,
+      "inputBytes": 1228821,
+      "inputCodePoints": 1053969,
+      "inputMiBPerSecond": 3.3783986074165306,
+      "nanosecondsPerCodePoint": 329.11674916434873,
+      "cpuMs": 348.938,
+      "cpuToWallRatio": 1.0059362195016048,
+      "checksum": 9102018,
+      "outputCodeUnits": 1058826,
+      "completedCalls": 38856,
+      "expectedChecksum": 9102018,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 15728,
+      "warmupElapsedMs": 150.04480200000035,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 36.90056999999979
+    },
+    {
+      "adapter": "default-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 105000,
+      "elapsedMs": 375.22124599999916,
+      "operationsPerSecond": 279834.900393674,
+      "inputBytes": 3320625,
+      "inputCodePoints": 2848125,
+      "inputMiBPerSecond": 8.439806675863208,
+      "nanosecondsPerCodePoint": 131.74325073513248,
+      "cpuMs": 378.383,
+      "cpuToWallRatio": 1.0084263725300908,
+      "checksum": 24596250,
+      "outputCodeUnits": 2861250,
+      "completedCalls": 105000,
+      "expectedChecksum": 24596250,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 37832,
+      "warmupElapsedMs": 150.01010900000074,
+      "calibrationIterations": 8192,
+      "calibrationElapsedMs": 27.307483000000502
+    },
+    {
+      "adapter": "custom-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 504,
+      "elapsedMs": 417.48403300000064,
+      "operationsPerSecond": 1207.2317984913193,
+      "inputBytes": 1705536,
+      "inputCodePoints": 959616,
+      "inputMiBPerSecond": 3.8960193692156064,
+      "nanosecondsPerCodePoint": 435.05322233059957,
+      "cpuMs": 428.624,
+      "cpuToWallRatio": 1.0266835761836175,
+      "checksum": 1387260,
+      "outputCodeUnits": 1281168,
+      "completedCalls": 504,
+      "expectedChecksum": 1387260,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 208,
+      "warmupElapsedMs": 150.8422530000007,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 44.80511699999988
+    },
+    {
+      "adapter": "default-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 592,
+      "elapsedMs": 431.93098199999986,
+      "operationsPerSecond": 1370.5893410535673,
+      "inputBytes": 2003328,
+      "inputCodePoints": 1127168,
+      "inputMiBPerSecond": 4.423212366223594,
+      "nanosecondsPerCodePoint": 383.20018133942756,
+      "cpuMs": 437.898,
+      "cpuToWallRatio": 1.0138147487646538,
+      "checksum": 1440632,
+      "outputCodeUnits": 1316016,
+      "completedCalls": 592,
+      "expectedChecksum": 1440632,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 240,
+      "warmupElapsedMs": 153.59791899999982,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 37.98096799999985
+    },
+    {
+      "adapter": "default-after",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 512,
+      "elapsedMs": 365.9871209999983,
+      "operationsPerSecond": 1398.9563310343983,
+      "inputBytes": 1732608,
+      "inputCodePoints": 974848,
+      "inputMiBPerSecond": 4.514759277553943,
+      "nanosecondsPerCodePoint": 375.42993471802606,
+      "cpuMs": 374.789,
+      "cpuToWallRatio": 1.0240496960000998,
+      "checksum": 1245952,
+      "outputCodeUnits": 1138176,
+      "completedCalls": 512,
+      "expectedChecksum": 1245952,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 192,
+      "warmupElapsedMs": 153.36137700000108,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 43.84406200000012
+    },
+    {
+      "adapter": "custom-before",
+      "round": 2,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 424,
+      "elapsedMs": 325.4869920000001,
+      "operationsPerSecond": 1302.6634256400632,
+      "inputBytes": 1434816,
+      "inputCodePoints": 807296,
+      "inputMiBPerSecond": 4.203999550214743,
+      "nanosecondsPerCodePoint": 403.1817226890758,
+      "cpuMs": 333.251,
+      "cpuToWallRatio": 1.0238535124008885,
+      "checksum": 1167060,
+      "outputCodeUnits": 1077808,
+      "completedCalls": 424,
+      "expectedChecksum": 1167060,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 192,
+      "warmupElapsedMs": 150.65097199999946,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 26.497182999999495
+    },
+    {
+      "adapter": "custom-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 32216,
+      "elapsedMs": 383.37861200000043,
+      "operationsPerSecond": 84031.81343877358,
+      "inputBytes": 1018831,
+      "inputCodePoints": 873859,
+      "inputMiBPerSecond": 2.5343953132640977,
+      "nanosecondsPerCodePoint": 438.71907481641824,
+      "cpuMs": 386.249,
+      "cpuToWallRatio": 1.0074870843342705,
+      "checksum": 7663381,
+      "outputCodeUnits": 994669,
+      "completedCalls": 32216,
+      "expectedChecksum": 7663381,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 12416,
+      "warmupElapsedMs": 150.05832100000043,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 44.50163999999859
+    },
+    {
+      "adapter": "default-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 43584,
+      "elapsedMs": 376.74011600000085,
+      "operationsPerSecond": 115687.17571876498,
+      "inputBytes": 1378344,
+      "inputCodePoints": 1182216,
+      "inputMiBPerSecond": 3.4891194649753023,
+      "nanosecondsPerCodePoint": 318.6728279772908,
+      "cpuMs": 378.172,
+      "cpuToWallRatio": 1.0038007208130688,
+      "checksum": 10209552,
+      "outputCodeUnits": 1187664,
+      "completedCalls": 43584,
+      "expectedChecksum": 10209552,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 16560,
+      "warmupElapsedMs": 150.05085599999802,
+      "calibrationIterations": 4096,
+      "calibrationElapsedMs": 32.89345699999831
+    },
+    {
+      "adapter": "default-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 106800,
+      "elapsedMs": 320.8367160000016,
+      "operationsPerSecond": 332879.6072080462,
+      "inputBytes": 3377550,
+      "inputCodePoints": 2896950,
+      "inputMiBPerSecond": 10.039632394747219,
+      "nanosecondsPerCodePoint": 110.749828612852,
+      "cpuMs": 323.561,
+      "cpuToWallRatio": 1.0084911852794254,
+      "checksum": 25017900,
+      "outputCodeUnits": 2910300,
+      "completedCalls": 106800,
+      "expectedChecksum": 25017900,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 47240,
+      "warmupElapsedMs": 150.0175100000015,
+      "calibrationIterations": 16384,
+      "calibrationElapsedMs": 53.692922000002
+    },
+    {
+      "adapter": "custom-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 16376,
+      "elapsedMs": 309.70206099999996,
+      "operationsPerSecond": 52876.62583556395,
+      "inputBytes": 517891,
+      "inputCodePoints": 444199,
+      "inputMiBPerSecond": 1.594756404924116,
+      "nanosecondsPerCodePoint": 697.2146740537461,
+      "cpuMs": 311.137,
+      "cpuToWallRatio": 1.0046332885075635,
+      "checksum": 3895441,
+      "outputCodeUnits": 505609,
+      "completedCalls": 16376,
+      "expectedChecksum": 3895441,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 8096,
+      "warmupElapsedMs": 150.06327000000238,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 43.772019
+    },
+    {
+      "adapter": "default-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 600,
+      "elapsedMs": 342.0529810000007,
+      "operationsPerSecond": 1754.114225947935,
+      "inputBytes": 2030400,
+      "inputCodePoints": 1142400,
+      "inputMiBPerSecond": 5.660936871154606,
+      "nanosecondsPerCodePoint": 299.4161248249306,
+      "cpuMs": 345.429,
+      "cpuToWallRatio": 1.0098698715916152,
+      "checksum": 1460100,
+      "outputCodeUnits": 1333800,
+      "completedCalls": 600,
+      "expectedChecksum": 1460100,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 224,
+      "warmupElapsedMs": 154.91964599999847,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 37.43252699999721
+    },
+    {
+      "adapter": "default-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 632,
+      "elapsedMs": 356.68537300000025,
+      "operationsPerSecond": 1771.8696863972596,
+      "inputBytes": 2138688,
+      "inputCodePoints": 1203328,
+      "inputMiBPerSecond": 5.71823789479096,
+      "nanosecondsPerCodePoint": 296.4157511501438,
+      "cpuMs": 366.539,
+      "cpuToWallRatio": 1.0276255426936156,
+      "checksum": 1537972,
+      "outputCodeUnits": 1404936,
+      "completedCalls": 632,
+      "expectedChecksum": 1537972,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 280,
+      "warmupElapsedMs": 151.3562810000003,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 35.566375999998854
+    },
+    {
+      "adapter": "custom-before",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 336,
+      "elapsedMs": 391.96778300000005,
+      "operationsPerSecond": 857.213308268246,
+      "inputBytes": 1137024,
+      "inputCodePoints": 639744,
+      "inputMiBPerSecond": 2.7664278365895694,
+      "nanosecondsPerCodePoint": 612.6947388330333,
+      "cpuMs": 395.196,
+      "cpuToWallRatio": 1.0082359243285053,
+      "checksum": 924840,
+      "outputCodeUnits": 854112,
+      "completedCalls": 336,
+      "expectedChecksum": 924840,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 104,
+      "warmupElapsedMs": 152.07966499999748,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 34.118907000000036
+    },
+    {
+      "adapter": "custom-after",
+      "round": 3,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 480,
+      "elapsedMs": 360.6021890000011,
+      "operationsPerSecond": 1331.106728251166,
+      "inputBytes": 1624320,
+      "inputCodePoints": 913920,
+      "inputMiBPerSecond": 4.295792740251489,
+      "nanosecondsPerCodePoint": 394.566470807074,
+      "cpuMs": 366.017,
+      "cpuToWallRatio": 1.0150160236548063,
+      "checksum": 1321200,
+      "outputCodeUnits": 1220160,
+      "completedCalls": 480,
+      "expectedChecksum": 1321200,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 184,
+      "warmupElapsedMs": 150.999197000001,
+      "calibrationIterations": 64,
+      "calibrationElapsedMs": 47.422671000000264
+    },
+    {
+      "adapter": "default-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 22944,
+      "elapsedMs": 299.927585999998,
+      "operationsPerSecond": 76498.46519953039,
+      "inputBytes": 725604,
+      "inputCodePoints": 622356,
+      "inputMiBPerSecond": 2.307189905104779,
+      "nanosecondsPerCodePoint": 481.92286408421865,
+      "cpuMs": 300.881,
+      "cpuToWallRatio": 1.0031788139687892,
+      "checksum": 5374632,
+      "outputCodeUnits": 625224,
+      "completedCalls": 22944,
+      "expectedChecksum": 5374632,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 11696,
+      "warmupElapsedMs": 150.06620699999985,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 31.24783799999932
+    },
+    {
+      "adapter": "default-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 69504,
+      "elapsedMs": 302.6350649999986,
+      "operationsPerSecond": 229662.74578922414,
+      "inputBytes": 2198064,
+      "inputCodePoints": 1885296,
+      "inputMiBPerSecond": 6.926616988739217,
+      "nanosecondsPerCodePoint": 160.52389916490492,
+      "cpuMs": 307.784,
+      "cpuToWallRatio": 1.0170136761911626,
+      "checksum": 16281312,
+      "outputCodeUnits": 1893984,
+      "completedCalls": 69504,
+      "expectedChecksum": 16281312,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 35504,
+      "warmupElapsedMs": 150.03088099999877,
+      "calibrationIterations": 8192,
+      "calibrationElapsedMs": 41.252464000001055
+    },
+    {
+      "adapter": "custom-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 15728,
+      "elapsedMs": 366.57318400000077,
+      "operationsPerSecond": 42905.48432478893,
+      "inputBytes": 497398,
+      "inputCodePoints": 426622,
+      "inputMiBPerSecond": 1.294027272960138,
+      "nanosecondsPerCodePoint": 859.2458523001645,
+      "cpuMs": 367.974,
+      "cpuToWallRatio": 1.0038213815443717,
+      "checksum": 3741298,
+      "outputCodeUnits": 485602,
+      "completedCalls": 15728,
+      "expectedChecksum": 3741298,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 6216,
+      "warmupElapsedMs": 150.26802899999893,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 45.58303900000101
+    },
+    {
+      "adapter": "custom-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "latin",
+      "iterations": 23672,
+      "elapsedMs": 342.38426600000093,
+      "operationsPerSecond": 69138.69108693194,
+      "inputBytes": 748627,
+      "inputCodePoints": 642103,
+      "inputMiBPerSecond": 2.0852194839708544,
+      "nanosecondsPerCodePoint": 533.2232772623721,
+      "cpuMs": 343.424,
+      "cpuToWallRatio": 1.003036745853266,
+      "checksum": 5630977,
+      "outputCodeUnits": 730873,
+      "completedCalls": 23672,
+      "expectedChecksum": 5630977,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 9192,
+      "warmupElapsedMs": 150.090530999998,
+      "calibrationIterations": 2048,
+      "calibrationElapsedMs": 30.289263999999093
+    },
+    {
+      "adapter": "default-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 448,
+      "elapsedMs": 428.1665380000013,
+      "operationsPerSecond": 1046.3218403115814,
+      "inputBytes": 1516032,
+      "inputCodePoints": 852992,
+      "inputMiBPerSecond": 3.37672529946746,
+      "nanosecondsPerCodePoint": 501.95844509679023,
+      "cpuMs": 447.02,
+      "cpuToWallRatio": 1.0440330112858998,
+      "checksum": 1090208,
+      "outputCodeUnits": 995904,
+      "completedCalls": 448,
+      "expectedChecksum": 1090208,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 176,
+      "warmupElapsedMs": 155.8411300000007,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 25.37966199999937
+    },
+    {
+      "adapter": "custom-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 144,
+      "elapsedMs": 221.23710399999982,
+      "operationsPerSecond": 650.8853957878607,
+      "inputBytes": 487296,
+      "inputCodePoints": 274176,
+      "inputMiBPerSecond": 2.10055940565693,
+      "nanosecondsPerCodePoint": 806.916374883286,
+      "cpuMs": 222.699,
+      "cpuToWallRatio": 1.006607824698339,
+      "checksum": 396360,
+      "outputCodeUnits": 366048,
+      "completedCalls": 144,
+      "expectedChecksum": 396360,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 80,
+      "warmupElapsedMs": 157.9393280000004,
+      "calibrationIterations": 16,
+      "calibrationElapsedMs": 39.74448900000061
+    },
+    {
+      "adapter": "custom-after",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 344,
+      "elapsedMs": 429.4238550000009,
+      "operationsPerSecond": 801.0733358071112,
+      "inputBytes": 1164096,
+      "inputCodePoints": 654976,
+      "inputMiBPerSecond": 2.5852510150635384,
+      "nanosecondsPerCodePoint": 655.6329621238044,
+      "cpuMs": 433.066,
+      "cpuToWallRatio": 1.0084814687344257,
+      "checksum": 946860,
+      "outputCodeUnits": 874448,
+      "completedCalls": 344,
+      "expectedChecksum": 946860,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 120,
+      "warmupElapsedMs": 157.37952500000029,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 32.73525299999892
+    },
+    {
+      "adapter": "default-before",
+      "round": 4,
+      "mode": "slugify",
+      "fixture": "long",
+      "iterations": 408,
+      "elapsedMs": 414.5174220000008,
+      "operationsPerSecond": 984.2770854634891,
+      "inputBytes": 1380672,
+      "inputCodePoints": 776832,
+      "inputMiBPerSecond": 3.1764923641285394,
+      "nanosecondsPerCodePoint": 533.599828534356,
+      "cpuMs": 417.883,
+      "cpuToWallRatio": 1.0081192679037727,
+      "checksum": 992868,
+      "outputCodeUnits": 906984,
+      "completedCalls": 408,
+      "expectedChecksum": 992868,
+      "errors": 0,
+      "stable": true,
+      "warmupCalls": 192,
+      "warmupElapsedMs": 151.3483269999997,
+      "calibrationIterations": 32,
+      "calibrationElapsedMs": 27.464748999998847
+    }
+  ],
+  "failures": [],
+  "exactOutputEquality": true,
+  "finishedAt": "2026-10-22T21:06:16.055Z",
+  "loadAfter": [
+    20.126953125,
+    21.7236328125,
+    22.34423828125
+  ],
+  "summary": [
+    {
+      "fixture": "latin",
+      "adapter": "default-before",
+      "samples": 5,
+      "median": 87011.80705463336,
+      "min": 76498.46519953039,
+      "max": 115687.17571876498,
+      "completedCalls": 162680,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "default-after",
+      "samples": 5,
+      "median": 232824.61129844715,
+      "min": 210858.02903122446,
+      "max": 332879.6072080462,
+      "completedCalls": 441752,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "custom-before",
+      "samples": 5,
+      "median": 52876.62583556395,
+      "min": 42905.48432478893,
+      "max": 65291.1272561785,
+      "completedCalls": 94816,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "custom-after",
+      "samples": 5,
+      "median": 73821.19622470613,
+      "min": 63341.78365840013,
+      "max": 86008.4180618783,
+      "completedCalls": 129248,
+      "errors": 0
+    },
+    {
+      "fixture": "long",
+      "adapter": "default-before",
+      "samples": 5,
+      "median": 1519.1702671793207,
+      "min": 984.2770854634891,
+      "max": 1754.114225947935,
+      "completedCalls": 2672,
+      "errors": 0
+    },
+    {
+      "fixture": "long",
+      "adapter": "default-after",
+      "samples": 5,
+      "median": 1398.9563310343983,
+      "min": 1046.3218403115814,
+      "max": 1771.8696863972596,
+      "completedCalls": 2544,
+      "errors": 0
+    },
+    {
+      "fixture": "long",
+      "adapter": "custom-before",
+      "samples": 5,
+      "median": 857.213308268246,
+      "min": 650.8853957878607,
+      "max": 1316.5804924367494,
+      "completedCalls": 1536,
+      "errors": 0
+    },
+    {
+      "fixture": "long",
+      "adapter": "custom-after",
+      "samples": 5,
+      "median": 1104.8126763407618,
+      "min": 801.0733358071112,
+      "max": 1331.106728251166,
+      "completedCalls": 1984,
+      "errors": 0
+    }
+  ]
+}

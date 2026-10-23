@@ -1,0 +1,1055 @@
+{
+  "owner": "GPT-6 Astra, max effort",
+  "runtime": "v22.23.2",
+  "measuredAt": "2026-10-22T17:30:11.379Z",
+  "scope": "Observed fixtures and exact-output ASCII controls, not a language-wide accuracy score.",
+  "results": [
+    {
+      "id": "current-full",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRASSE fur Ol",
+            "czech": "yY",
+            "compat": "A a 1",
+            "greek": "Athina",
+            "russian": "Privet mir",
+            "bulgarian": "Blgariya",
+            "chinese": "Ni Hao Shi Jie",
+            "chineseMixed": "2022 Nian Zhong Wen 01 Ying Wen nihao 02",
+            "korean": "annyeonghaseyo",
+            "japanese": "konnitihaShi Jie",
+            "thai": "echiiyngaihm",
+            "arabic": "mrHb blaalm",
+            "tamil": "knnnnnniyaakumri",
+            "supplementary": "",
+            "emoji": "Hello  World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        },
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fur-ol",
+            "czech": "yy",
+            "compat": "a-a-1",
+            "greek": "athina",
+            "russian": "privet-mir",
+            "bulgarian": "blgariya",
+            "chinese": "ni-hao-shi-jie",
+            "chineseMixed": "2022-nian-zhong-wen-01-ying-wen-nihao-02",
+            "korean": "annyeonghaseyo",
+            "japanese": "konnitihashi-jie",
+            "thai": "echiiyngaihm",
+            "arabic": "mrhb-blaalm",
+            "tamil": "knnnnnniyaakumri",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "current-latin",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRASSE fur Ol",
+            "czech": "yY",
+            "compat": "A a 1",
+            "greek": "",
+            "russian": " ",
+            "bulgarian": "",
+            "chinese": "",
+            "chineseMixed": "202201 nihao 02",
+            "korean": "",
+            "japanese": "",
+            "thai": "",
+            "arabic": " ",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "Hello  World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "greek",
+            "bulgarian",
+            "chinese",
+            "korean",
+            "japanese",
+            "thai",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        },
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fur-ol",
+            "czech": "yy",
+            "compat": "a-a-1",
+            "greek": "",
+            "russian": "",
+            "bulgarian": "",
+            "chinese": "",
+            "chineseMixed": "202201-nihao-02",
+            "korean": "",
+            "japanese": "",
+            "thai": "",
+            "arabic": "",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "greek",
+            "russian",
+            "bulgarian",
+            "chinese",
+            "korean",
+            "japanese",
+            "thai",
+            "arabic",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "published-full",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRAE fur Ol",
+            "czech": "yU",
+            "compat": "  ",
+            "greek": "Athina",
+            "russian": "Privet mir",
+            "bulgarian": "Blgariya",
+            "chinese": "Ni Hao Shi Jie",
+            "chineseMixed": "2022Nian Zhong Wen 01Ying Wen nihao02",
+            "korean": "annyeonghaseyo",
+            "japanese": "konnitihaShi Jie",
+            "thai": "echiiyngaihm",
+            "arabic": "mrHb blaalm",
+            "tamil": "knnnnnniyaakumri",
+            "supplementary": "",
+            "emoji": "Hello  World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        },
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strae-fur-ol",
+            "czech": "yu",
+            "compat": "",
+            "greek": "athina",
+            "russian": "privet-mir",
+            "bulgarian": "blgariya",
+            "chinese": "ni-hao-shi-jie",
+            "chineseMixed": "2022nian-zhong-wen-01ying-wen-nihao02",
+            "korean": "annyeonghaseyo",
+            "japanese": "konnitihashi-jie",
+            "thai": "echiiyngaihm",
+            "arabic": "mrhb-blaalm",
+            "tamil": "knnnnnniyaakumri",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "compat",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "any-ascii",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRASsE fur Ol",
+            "czech": "yY",
+            "compat": "a a 1",
+            "greek": "Athina",
+            "russian": "Privet mir",
+            "bulgarian": "B'lgariya",
+            "chinese": "NiHaoShiJie",
+            "chineseMixed": "2022NianZhongWen01YingWennihao02",
+            "korean": "AnNyeongHaSeYo",
+            "japanese": "konnichihaShiJie",
+            "thai": "echiyngaihm",
+            "arabic": "mrhb bl`lm",
+            "tamil": "knniyakumri",
+            "supplementary": "KichiMot",
+            "emoji": "Hello :rocket: World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "sindre-transliterate",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRASsE fuer Oel",
+            "czech": "yY",
+            "compat": "ᴀ ₐ 1",
+            "greek": "Athina",
+            "russian": "Privet mir",
+            "bulgarian": "Blgariya",
+            "chinese": "你好世界",
+            "chineseMixed": "2022年中文01英文nihao02",
+            "korean": "안녕하세요",
+            "japanese": "こんにちは世界",
+            "thai": "เชียงใหม",
+            "arabic": "mrhba balealm",
+            "tamil": "கனனியாகுமரி",
+            "supplementary": "𠮷𠬠",
+            "emoji": "Hello 🚀 World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [],
+          "nonAsciiSampleKeys": [
+            "compat",
+            "chinese",
+            "chineseMixed",
+            "korean",
+            "japanese",
+            "thai",
+            "tamil",
+            "supplementary",
+            "emoji"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unidecode",
+      "modes": {
+        "transliterate": {
+          "samples": {
+            "ascii": "Hello World 123",
+            "latin": "Creme brulee Sao Paulo",
+            "german": "STRASsE fur Ol",
+            "czech": "yY",
+            "compat": " [?] ",
+            "greek": "Athena",
+            "russian": "Privet mir",
+            "bulgarian": "Blgariia",
+            "chinese": "Ni Hao Shi Jie ",
+            "chineseMixed": "2022Nian Zhong Wen 01Ying Wen nihao02",
+            "korean": "annyeonghaseyo",
+            "japanese": "konnitihaShi Jie ",
+            "thai": "echiiyngaihm",
+            "arabic": "mrHb bl`lm",
+            "tamil": "knnnnnniyaakumri",
+            "supplementary": "",
+            "emoji": "Hello  World"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "A practical guide to building reliable software",
+              "current": "A practical guide to building reliable software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "Release notes for the next production deployment",
+              "current": "Release notes for the next production deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "Customers orders invoices and payments",
+              "current": "Customers orders invoices and payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "What happens when the application restarts",
+              "current": "What happens when the application restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "Simple text with numbers 12345 and punctuation!",
+              "current": "Simple text with numbers 12345 and punctuation!"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "How to make small packages load quickly",
+              "current": "How to make small packages load quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "A product title for a modern online store",
+              "current": "A product title for a modern online store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "Search indexing and URL generation for websites",
+              "current": "Search indexing and URL generation for websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "simov-slugify",
+      "modes": {
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fur-ol",
+            "czech": "yy",
+            "compat": "",
+            "greek": "a8hna",
+            "russian": "privet-mir",
+            "bulgarian": "bulgariya",
+            "chinese": "",
+            "chineseMixed": "202201nihao02",
+            "korean": "",
+            "japanese": "",
+            "thai": "",
+            "arabic": "mrhba-balaalm",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "compat",
+            "chinese",
+            "korean",
+            "japanese",
+            "thai",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "slug",
+      "modes": {
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fur-ol",
+            "czech": "yy",
+            "compat": "4bsaiokckcdikaa",
+            "greek": "athhna",
+            "russian": "privet-mir",
+            "bulgarian": "bulgariya",
+            "chinese": "5l2g5aw95liw55wm",
+            "chineseMixed": "202201nihao02",
+            "korean": "7jwi64wv7zwy7is47jqu",
+            "japanese": "44gt44kt44gr44gh44gv5liw55wm",
+            "thai": "4lma4lik4li14lii4lih4lmd4lir4lih4lmi",
+            "arabic": "mrhba-balaaalm",
+            "tamil": "4k6v4k6p4kn4k6p4k64k6v4k64k6v4kb4k6u4k6w4k6",
+            "supplementary": "8kcutcgrka",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "speakingurl",
+      "modes": {
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fuer-oel",
+            "czech": "yy",
+            "compat": "1",
+            "greek": "athina",
+            "russian": "privet-mir",
+            "bulgarian": "blgariya",
+            "chinese": "",
+            "chineseMixed": "2022-01-nihao02",
+            "korean": "",
+            "japanese": "",
+            "thai": "",
+            "arabic": "mrhba-balaalm",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "chinese",
+            "korean",
+            "japanese",
+            "thai",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "limax",
+      "modes": {
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strasse-fuer-oel",
+            "czech": "yy",
+            "compat": "a-1",
+            "greek": "athina",
+            "russian": "privet-mir",
+            "bulgarian": "blgariya",
+            "chinese": "ni3-hao3-shi4-jie4",
+            "chineseMixed": "2022-nian2-zhong1-wen2-01-ying1-wen2-nihao02",
+            "korean": "",
+            "japanese": "konnichiha",
+            "thai": "",
+            "arabic": "mrhba-balaalm",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "korean",
+            "thai",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    },
+    {
+      "id": "sindre-slugify",
+      "modes": {
+        "slugify": {
+          "samples": {
+            "ascii": "hello-world-123",
+            "latin": "creme-brulee-sao-paulo",
+            "german": "strass-e-fuer-oel",
+            "czech": "y-y",
+            "compat": "1",
+            "greek": "athina",
+            "russian": "privet-mir",
+            "bulgarian": "blgariya",
+            "chinese": "",
+            "chineseMixed": "2022-01-nihao02",
+            "korean": "",
+            "japanese": "",
+            "thai": "",
+            "arabic": "mrhba-balealm",
+            "tamil": "",
+            "supplementary": "",
+            "emoji": "hello-world"
+          },
+          "asciiControls": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "current": "a-practical-guide-to-building-reliable-software"
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "current": "release-notes-for-the-next-production-deployment"
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "current": "customers-orders-invoices-and-payments"
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "current": "what-happens-when-the-application-restarts"
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "current": "simple-text-with-numbers-12345-and-punctuation"
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "current": "how-to-make-small-packages-load-quickly"
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "current": "a-product-title-for-a-modern-online-store"
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "current": "search-indexing-and-url-generation-for-websites"
+            }
+          ],
+          "asciiEqualToCurrent": true,
+          "emptySampleKeys": [
+            "chinese",
+            "korean",
+            "japanese",
+            "thai",
+            "tamil",
+            "supplementary"
+          ],
+          "nonAsciiSampleKeys": []
+        }
+      }
+    }
+  ]
+}

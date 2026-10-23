@@ -1,0 +1,572 @@
+{
+  "summary": {
+    "asOf": "2026-10-22",
+    "node": "v26.5.0",
+    "version": "2.6.2",
+    "cases": 52,
+    "bugAssertionsFailing": 24,
+    "unexpectedControlFailures": 0,
+    "confirmedBugReferences": [
+      "#107",
+      "#256",
+      "#246",
+      "PR #252"
+    ]
+  },
+  "results": [
+    {
+      "variant": "published-node-full",
+      "issue": "#107",
+      "label": "transliterate('ýÝ')",
+      "category": "confirmed-bug",
+      "expected": "yY",
+      "actual": "yU",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#256",
+      "label": "transliterate('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "STRASSE",
+      "actual": "STRAE",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#256",
+      "label": "slugify('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "strasse",
+      "actual": "strae",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#246",
+      "label": "transliterate('ъ', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "",
+      "actual": "?",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#246",
+      "label": "setData({x:''}); transliterate('axb', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "ab",
+      "actual": "a?b",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:undefined})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:null})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "ll-l",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "PR #252",
+      "label": "default config with allowedChars:undefined",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#239 / closed #2",
+      "label": "slugify('hello世界')",
+      "category": "spacing-inconsistency",
+      "expected": "hello-shi-jie",
+      "actual": "helloshi-jie",
+      "matches": false
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#239",
+      "label": "slugify('你好world')",
+      "category": "working-control",
+      "expected": "ni-hao-world",
+      "actual": "ni-hao-world",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#239",
+      "label": "explicit source-space workaround",
+      "category": "working-control",
+      "expected": "hello-shi-jie",
+      "actual": "hello-shi-jie",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#101",
+      "label": "custom supplementary mapping proves runtime supports a surrogate pair",
+      "category": "working-control",
+      "expected": "Ji",
+      "actual": "Ji",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#233",
+      "label": "empty separator",
+      "category": "working-control",
+      "expected": "helloworld",
+      "actual": "helloworld",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#229",
+      "label": "historically fixed Chinese surname mapping",
+      "category": "working-control",
+      "expected": "Ye Hai Lin",
+      "actual": "Ye Hai Lin",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#26",
+      "label": "ignored O-slash preserves preceding space",
+      "category": "working-control",
+      "expected": "Twenty Øne Pilots",
+      "actual": "Twenty Øne Pilots",
+      "matches": true
+    },
+    {
+      "variant": "published-node-full",
+      "issue": "#228",
+      "label": "micro sign and Greek mu are different code points",
+      "category": "working-control",
+      "expected": [
+        "ug",
+        "mg"
+      ],
+      "actual": [
+        "ug",
+        "mg"
+      ],
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#107",
+      "label": "transliterate('ýÝ')",
+      "category": "confirmed-bug",
+      "expected": "yY",
+      "actual": "yU",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#256",
+      "label": "transliterate('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "STRASSE",
+      "actual": "STRAE",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#256",
+      "label": "slugify('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "strasse",
+      "actual": "strae",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#246",
+      "label": "transliterate('ъ', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "",
+      "actual": "?",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#246",
+      "label": "setData({x:''}); transliterate('axb', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "ab",
+      "actual": "a?b",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:undefined})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:null})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "ll-l",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "PR #252",
+      "label": "default config with allowedChars:undefined",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#239 / closed #2",
+      "label": "slugify('hello世界')",
+      "category": "spacing-inconsistency",
+      "expected": "hello-shi-jie",
+      "actual": "helloshi-jie",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#239",
+      "label": "slugify('你好world')",
+      "category": "working-control",
+      "expected": "ni-hao-world",
+      "actual": "ni-hao-world",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#239",
+      "label": "explicit source-space workaround",
+      "category": "working-control",
+      "expected": "hello-shi-jie",
+      "actual": "hello-shi-jie",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#101",
+      "label": "custom supplementary mapping proves runtime supports a surrogate pair",
+      "category": "working-control",
+      "expected": "Ji",
+      "actual": "Ji",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#233",
+      "label": "empty separator",
+      "category": "working-control",
+      "expected": "helloworld",
+      "actual": "helloworld",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#229",
+      "label": "historically fixed Chinese surname mapping",
+      "category": "working-control",
+      "expected": "Ye Hai Lin",
+      "actual": "Ye Hai Lin",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#26",
+      "label": "ignored O-slash preserves preceding space",
+      "category": "working-control",
+      "expected": "Twenty Øne Pilots",
+      "actual": "Twenty Øne Pilots",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-umd-full",
+      "issue": "#228",
+      "label": "micro sign and Greek mu are different code points",
+      "category": "working-control",
+      "expected": [
+        "ug",
+        "mg"
+      ],
+      "actual": [
+        "ug",
+        "mg"
+      ],
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#107",
+      "label": "transliterate('ýÝ')",
+      "category": "confirmed-bug",
+      "expected": "yY",
+      "actual": "yU",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#256",
+      "label": "transliterate('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "STRASSE",
+      "actual": "STRAE",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#256",
+      "label": "slugify('STRAẞE')",
+      "category": "confirmed-bug",
+      "expected": "strasse",
+      "actual": "strae",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#246",
+      "label": "transliterate('ъ', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "",
+      "actual": "?",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#246",
+      "label": "setData({x:''}); transliterate('axb', {unknown:'?'})",
+      "category": "confirmed-bug",
+      "expected": "ab",
+      "actual": "a?b",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:undefined})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "PR #252",
+      "label": "slugify('Hello World', {allowedChars:null})",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "ll-l",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "PR #252",
+      "label": "default config with allowedChars:undefined",
+      "category": "confirmed-bug",
+      "expected": "hello-world",
+      "actual": "e-d",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#239 / closed #2",
+      "label": "slugify('hello世界')",
+      "category": "spacing-inconsistency",
+      "expected": "hello-shi-jie",
+      "actual": "helloshi-jie",
+      "matches": false
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#239",
+      "label": "slugify('你好world')",
+      "category": "working-control",
+      "expected": "ni-hao-world",
+      "actual": "ni-hao-world",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#239",
+      "label": "explicit source-space workaround",
+      "category": "working-control",
+      "expected": "hello-shi-jie",
+      "actual": "hello-shi-jie",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#101",
+      "label": "custom supplementary mapping proves runtime supports a surrogate pair",
+      "category": "working-control",
+      "expected": "Ji",
+      "actual": "Ji",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#233",
+      "label": "empty separator",
+      "category": "working-control",
+      "expected": "helloworld",
+      "actual": "helloworld",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#229",
+      "label": "historically fixed Chinese surname mapping",
+      "category": "working-control",
+      "expected": "Ye Hai Lin",
+      "actual": "Ye Hai Lin",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#26",
+      "label": "ignored O-slash preserves preceding space",
+      "category": "working-control",
+      "expected": "Twenty Øne Pilots",
+      "actual": "Twenty Øne Pilots",
+      "matches": true
+    },
+    {
+      "variant": "published-browser-esm-full",
+      "issue": "#228",
+      "label": "micro sign and Greek mu are different code points",
+      "category": "working-control",
+      "expected": [
+        "ug",
+        "mg"
+      ],
+      "actual": [
+        "ug",
+        "mg"
+      ],
+      "matches": true
+    },
+    {
+      "variant": "published-node-latin",
+      "issue": "#253",
+      "label": "Latin Node artifact remains below 20 KB",
+      "category": "working-control",
+      "expected": true,
+      "actual": true,
+      "matches": true
+    },
+    {
+      "variant": "published-node-latin",
+      "issue": "#249",
+      "label": "CommonJS self-reference resolves latin export",
+      "category": "working-control",
+      "expected": "Sao",
+      "actual": "Sao",
+      "matches": true
+    },
+    {
+      "variant": "published-node-latin",
+      "issue": "#249",
+      "label": "ESM named latin import resolves",
+      "category": "working-control",
+      "expected": {
+        "status": 0,
+        "output": "Sao\n"
+      },
+      "actual": {
+        "status": 0,
+        "output": "Sao\n"
+      },
+      "matches": true
+    },
+    {
+      "variant": "published-cli",
+      "issue": "#97",
+      "label": "CLI unknown placeholder",
+      "category": "working-control",
+      "expected": {
+        "status": 0,
+        "output": "foo_bar\n"
+      },
+      "actual": {
+        "status": 0,
+        "output": "foo_bar\n"
+      },
+      "matches": true
+    }
+  ],
+  "observations": {
+    "tamil": {
+      "input": "கன்னியாகுமரி",
+      "actual": "knnnnnniyaakumri"
+    },
+    "arabic": {
+      "input": "ب ا ب",
+      "actual": "b  b"
+    },
+    "thai": {
+      "input": "เชียงใหม่",
+      "actual": "echiiyngaihm"
+    },
+    "supplementaryCjk": {
+      "input": "𠮷𠬠𡬶𫗭𣛙𢎐",
+      "actual": ""
+    },
+    "numberBoundaries": {
+      "input": "2022年中文01英文nihao02",
+      "actual": "2022nian-zhong-wen-01ying-wen-nihao02"
+    }
+  },
+  "sizes": {
+    "dist/node/src/node/index.js": 190610,
+    "dist/node/src/node/latin.js": 10251,
+    "dist/browser/bundle.umd.min.js": 190836,
+    "dist/browser/latin.umd.min.js": 10477,
+    "dist/browser/bundle.esm.min.js": 190123,
+    "dist/browser/latin.esm.min.js": 9778
+  },
+  "artifactMatches": {
+    "dist/node/src/node/index.js": true,
+    "dist/node/src/node/latin.js": true,
+    "dist/browser/bundle.umd.min.js": true,
+    "dist/browser/latin.umd.min.js": true,
+    "dist/browser/bundle.esm.min.js": true,
+    "dist/browser/latin.esm.min.js": true
+  },
+  "silentSource": {
+    "ъ": {
+      "sourceValue": "",
+      "runtimeMapHasKey": false
+    },
+    "ь": {
+      "sourceValue": "",
+      "runtimeMapHasKey": false
+    },
+    "ا": {
+      "sourceValue": "",
+      "runtimeMapHasKey": false
+    },
+    "①": {
+      "sourceValue": "",
+      "runtimeMapHasKey": false
+    }
+  }
+}

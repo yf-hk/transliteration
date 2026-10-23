@@ -1,0 +1,35 @@
+import { Session } from 'node:inspector';
+import { fileURLToPath } from 'node:url';
+import { createRequire, SourceMap } from 'node:module';
+import { readFileSync, writeFileSync } from 'node:fs';
+import { fixtures } from '../../benchmark/fixtures.mjs';
+const side = process.argv[2];
+if (!['before', 'after'].includes(side)) throw new Error('Expected before or after');
+const entry = new URL(`./${side === 'before' ? 'before-dist' : 'candidate-final-dist'}/node/src/node/index.js`, import.meta.url);
+const api = createRequire(import.meta.url)(fileURLToPath(entry));
+const texts = fixtures.find(fixture => fixture.id === 'ascii').texts;
+let checksum = 0;
+for (let index = 0; index < 10000; index++) checksum += api.slugify(texts[index % texts.length]).length;
+const session = new Session();
+session.connect();
+const post = (method, parameters = {}) => new Promise((resolve, reject) => session.post(method, parameters, (error, result) => error ? reject(error) : resolve(result)));
+await post('Profiler.enable');
+await post('Profiler.start');
+for (let index = 0; index < 150000; index++) checksum += api.slugify(texts[index % texts.length]).length;
+const { profile } = await post('Profiler.stop');
+session.disconnect();
+writeFileSync(new URL(`./profile-${side}.cpuprofile`, import.meta.url), JSON.stringify(profile));
+const map = new SourceMap(JSON.parse(readFileSync(`${fileURLToPath(entry)}.map`, 'utf8')));
+const totals = new Map();
+for (const node of profile.nodes) {
+  const frame = node.callFrame;
+  const original = frame.url.endsWith(entry.pathname) ? map.findEntry(frame.lineNumber, frame.columnNumber) : {};
+  const name = original.name || frame.functionName || '(anonymous)';
+  const location = original.originalSource ? `${original.originalSource}:${original.originalLine + 1}` : frame.url;
+  const key = `${name} (${location})`;
+  totals.set(key, (totals.get(key) ?? 0) + (node.hitCount ?? 0));
+}
+const totalSamples = profile.samples.length;
+const result = {side,runtime:process.version,profiledCalls:150000,warmupCalls:10000,checksum,totalSamples,top:[...totals].map(([name,samples]) => ({name,samples,share:samples / totalSamples})).sort((a,b) => b.samples - a.samples).slice(0,20)};
+writeFileSync(new URL(`./profile-${side}.json`, import.meta.url), JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result,null,2));

@@ -1,0 +1,158 @@
+$ bun test --coverage
+bun test v1.4.4-canary.1 (ea6a2c7b7)
+
+src/cli/cli.test.ts:
+(pass) CLI transliterate > Basic string tests > should handle basic strings [1755.12ms]
+(pass) CLI transliterate > Complex tests > should transliterate Æneid [240.65ms]
+(pass) CLI transliterate > Complex tests > should transliterate étude [277.32ms]
+(pass) CLI transliterate > Complex tests > should transliterate 北亰 [232.38ms]
+(pass) CLI transliterate > Complex tests > should transliterate ᔕᓇᓇ [211.54ms]
+(pass) CLI transliterate > Complex tests > should transliterate ᏔᎵᏆ [202.36ms]
+(pass) CLI transliterate > Complex tests > should transliterate ܦܛܽܐܺ [224.09ms]
+(pass) CLI transliterate > Complex tests > should transliterate अभिजीत [257.26ms]
+(pass) CLI transliterate > Complex tests > should transliterate অভিজীত [253.52ms]
+(pass) CLI transliterate > Complex tests > should transliterate അഭിജീത [283.36ms]
+(pass) CLI transliterate > Complex tests > should transliterate മലയാലമ് [254.89ms]
+(pass) CLI transliterate > Complex tests > should transliterate げんまい茶 [244.93ms]
+(pass) CLI transliterate > With ignore option > should ignore specified characters [730.47ms]
+(pass) CLI transliterate > With replace option > should replace specified strings [268.07ms]
+(pass) CLI transliterate > should pass shell metacharacters in input and options literally [1083.76ms]
+(pass) CLI transliterate > should retain CLI failure diagnostics [339.78ms]
+(pass) CLI transliterate > Stream input > should handle stream input [245.31ms]
+(pass) CLI slugify > Generate slugs > should generate slugs correctly [1878.95ms]
+(pass) CLI slugify > should pass shell metacharacters in input and options literally [1198.78ms]
+(pass) CLI slugify > Stream input > should handle stream input [218.79ms]
+
+src/browser/index.test.ts:
+(pass) browser/transliterate() > should transliterate through the browser entry [1.14ms]
+(pass) browser/transliterate() > should handle options [0.51ms]
+(pass) browser/slugify() > should slugify through the browser entry [0.44ms]
+(pass) browser/slugify() > should handle options [0.79ms]
+
+src/common/utils.test.ts:
+(pass) escapeRegex() > should escape values [0.10ms]
+(pass) escapeRegex() > should handle strings with nothing to escape [0.03ms]
+(pass) escapeRegex() > should return an empty string for empty values [1.68ms]
+(pass) findStrOccurrences() > should find string occurrences [0.79ms]
+(pass) inRange() > should check if number is in range [0.28ms]
+(pass) regexpReplaceCustom > keeps replacement strings literal when nothing is ignored [0.12ms]
+(pass) regexpReplaceCustom > advances zero-width Unicode matches and preserves caller regex state [0.73ms]
+(pass) regexpReplaceCustom > should replace with custom regexp [0.37ms]
+(pass) deepClone > clones own __proto__ properties as data without changing prototypes [1.03ms]
+(pass) deepClone > should deep clone objects [0.79ms]
+(pass) deepClone > should only clone own properties [0.06ms]
+
+src/common/transliterate.test.ts:
+(pass) transliterate() > Purity tests > should return ASCII characters unchanged [1.21ms]
+(pass) transliterate() > Basic string tests > should handle basic strings [0.75ms]
+(pass) transliterate() > Complex tests > should transliterate various scripts correctly [0.37ms]
+(pass) transliterate() > With ignore option > walks ignored ranges once while preserving Chinese spacing [5.07ms]
+(pass) transliterate() > With ignore option > preserves merged tokens and either half of supplementary characters [0.44ms]
+(pass) transliterate() > With ignore option > should ignore specified characters [0.29ms]
+(pass) transliterate() > With replace option > preserves own __proto__ replacement entries [0.70ms]
+(pass) transliterate() > With replace option > should replace specified strings [0.35ms]
+(pass) transliterate() > With replace option > should handle replace with ignore [0.10ms]
+(pass) transliterate() > With replaceAfter option > should replace after transliteration [0.17ms]
+(pass) transliterate() > With replace / replaceAfter and ignore options > should handle combined options [0.15ms]
+(pass) transliterate() > With trim option > should trim whitespace when enabled [0.16ms]
+(pass) transliterate() > With unknown option > should use placeholder for unknown characters [0.08ms]
+(pass) transliterate() > With unknown option > should preserve known silent mappings with an unknown placeholder [0.74ms]
+(pass) transliterate() > With unknown option > should preserve explicit empty custom mappings and restore them on reset [51.31ms]
+(pass) transliterate() > Edge cases > should handle empty strings [0.15ms]
+(pass) transliterate() > Edge cases > should handle strings with only whitespace [0.06ms]
+(pass) transliterate() > Edge cases > should handle mixed scripts in single string [0.14ms]
+(pass) transliterate() > Edge cases > should handle surrogate pairs (UTF-32 characters) [0.08ms]
+(pass) transliterate() > Edge cases > should handle very long strings [0.46ms]
+(pass) transliterate() > Edge cases > should handle strings with numbers [0.08ms]
+(pass) transliterate() > Edge cases > should handle strings with special ASCII characters [0.13ms]
+(pass) transliterate() > Edge cases > should handle consecutive non-ASCII characters [0.09ms]
+(pass) transliterate() > Edge cases > should handle Korean characters [0.07ms]
+(pass) transliterate() > Edge cases > should handle Arabic characters [0.05ms]
+(pass) transliterate() > Edge cases > should handle Russian/Cyrillic characters [0.11ms]
+(pass) transliterate() > Edge cases > should handle Greek characters [0.03ms]
+(pass) transliterate() > Edge cases > should handle Thai characters [0.03ms]
+(pass) transliterate() > Edge cases > should handle Hebrew characters [0.06ms]
+(pass) transliterate() > Chinese spacing behavior > should separate Chinese, Latin and number runs symmetrically [0.14ms]
+(pass) transliterate() > Chinese spacing behavior > should not add spaces for empty mappings or inside ignored strings [0.22ms]
+(pass) transliterate() > Chinese spacing behavior > should add spaces between Chinese characters by default [0.14ms]
+(pass) transliterate() > Chinese spacing behavior > should not add extra spaces around punctuation [0.06ms]
+(pass) transliterate() > Chinese spacing behavior > should respect trailing spaces and punctuation in custom mappings [59.63ms]
+(pass) transliterate() > Chinese spacing behavior > should handle fixChineseSpacing option [2.85ms]
+(pass) transliterate() > Reported Latin and compatibility mappings > should preserve acute Y and capital sharp S [0.21ms]
+(pass) transliterate() > Reported Latin and compatibility mappings > should map the compatibility characters reported with capital sharp S [0.08ms]
+(pass) transliterate() > Replace with regex > should handle regex patterns in replace option [1.06ms]
+(pass) transliterate() > Replace with regex > should handle global regex patterns [0.27ms]
+(pass) transliterate() > Replace with regex > should handle regex with flags [0.21ms]
+(pass) transliterate() > With non-string source > should convert non-string source to string [0.25ms]
+(pass) replaceStr() > should replace strings correctly [0.52ms]
+(pass) transliterate.config() > should read and reset config [0.24ms]
+(pass) transliterate.setData() > should set and reset custom codemap [157.23ms]
+(pass) transliterate.setData() > should only include own properties from data [68.23ms]
+(pass) formatReplaceOption > should format replace options correctly [0.77ms]
+(pass) formatReplaceOption > should only include own properties [0.15ms]
+
+src/common/slugify.test.ts:
+(pass) slugify() > normalizes adjacent default separators while preserving allowed punctuation [0.39ms]
+(pass) slugify() > preserves errors for non-iterable ignored values [2.36ms]
+(pass) slugify() > should generate slugs correctly [1.94ms]
+(pass) slugify.config() > should read current config [0.53ms]
+(pass) slugify.config() > should generate slugs with config [0.15ms]
+(pass) slugify() edge cases > should use default allowedChars for undefined and null options [0.58ms]
+(pass) slugify() edge cases > should separate mixed Chinese, Latin and number runs [0.51ms]
+(pass) slugify() edge cases > should retain corrected Latin characters in slugs [0.14ms]
+(pass) slugify() edge cases > should handle empty strings [0.08ms]
+(pass) slugify() edge cases > should handle strings with only special characters [0.14ms]
+(pass) slugify() edge cases > should handle strings with leading/trailing special characters [0.12ms]
+(pass) slugify() edge cases > should handle consecutive separators [0.08ms]
+(pass) slugify() edge cases > should handle mixed case with uppercase option [0.09ms]
+(pass) slugify() edge cases > should handle very long strings [0.53ms]
+(pass) slugify() edge cases > should handle strings with numbers [0.13ms]
+(pass) slugify() edge cases > should handle URL-safe characters in allowedChars [0.21ms]
+(pass) slugify() edge cases > should handle custom separator with special regex characters [0.26ms]
+(pass) slugify() with different scripts > should slugify Japanese text [0.19ms]
+(pass) slugify() with different scripts > should slugify Korean text [0.25ms]
+(pass) slugify() with different scripts > should slugify Russian text [0.11ms]
+(pass) slugify() with different scripts > should slugify Arabic text [0.11ms]
+(pass) slugify() with different scripts > should slugify Greek text [0.08ms]
+(pass) slugify() with different scripts > should slugify mixed language text [0.10ms]
+(pass) slugify() with different scripts > should slugify accented European characters [0.13ms]
+(pass) slugify() real-world use cases > should create URL-friendly slugs for blog titles [0.09ms]
+(pass) slugify() real-world use cases > should create slugs for product names [0.11ms]
+(pass) slugify() real-world use cases > should create slugs for file names [0.13ms]
+(pass) slugify() real-world use cases > should create slugs for internationalized content [0.15ms]
+(pass) slugify() real-world use cases > should handle edge cases in user-generated content [0.20ms]
+
+src/common/options.test.ts:
+(pass) transliterate snapshots per-call options before coercing the input [0.90ms]
+(pass) transliterate snapshots live configuration for each call [0.49ms]
+(pass) transliterate leaves caller replacement rules unchanged [0.42ms]
+(pass) transliterate snapshots nested rules while using a map changed during coercion [55.44ms]
+(pass) slugify snapshots per-call options before coercing the input [0.34ms]
+(pass) slugify snapshots live configuration for each call [0.20ms]
+(pass) slugify leaves caller replacement rules unchanged [0.20ms]
+(pass) slugify snapshots nested rules while using a map changed during coercion [53.96ms]
+
+src/node/latin.test.ts:
+(pass) latin build > transliterates Latin characters [0.14ms]
+(pass) latin build > retains corrected Latin and compatibility mappings in both Latin exports [0.38ms]
+(pass) latin build > omits non-Latin characters [0.09ms]
+(pass) latin build > slugifies Latin-only strings [0.09ms]
+(pass) browser latin exports > exposes transl alias [0.06ms]
+(pass) browser latin exports > slugifies via browser build [0.06ms]
+-----------------------------|---------|---------|-------------------
+File                         | % Funcs | % Lines | Uncovered Line #s
+-----------------------------|---------|---------|-------------------
+All files                    |  100.00 |   99.76 |
+ src/browser/index.ts        |  100.00 |  100.00 | 
+ src/browser/latin.ts        |  100.00 |  100.00 | 
+ src/common/slugify.ts       |  100.00 |  100.00 | 
+ src/common/transliterate.ts |  100.00 |  100.00 | 
+ src/common/utils.ts         |  100.00 |   98.31 | 91,140
+ src/node/index.ts           |  100.00 |  100.00 | 
+ src/node/latin.ts           |  100.00 |  100.00 | 
+-----------------------------|---------|---------|-------------------
+
+ 125 pass
+ 0 fail
+ 451 expect() calls
+Ran 125 tests across 7 files. [11.03s]

@@ -4,40 +4,211 @@ import {
   closeSync,
   mkdtempSync,
   openSync,
+  readdirSync,
   readFileSync,
-  rmSync,
   statSync,
   writeFileSync,
 } from 'node:fs';
-import { createRequire } from 'node:module';
-import { tmpdir } from 'node:os';
-import { join } from 'node:path';
-import { test } from 'node:test';
-import { fileURLToPath, pathToFileURL } from 'node:url';
+import { delimiter, dirname, join, resolve, sep } from 'node:path';
+import { after, test } from 'node:test';
+import { fileURLToPath } from 'node:url';
 import { createContext, runInContext } from 'node:vm';
+import { installPackedPackage } from './package-helpers.mjs';
 
-const root = fileURLToPath(new URL('../', import.meta.url));
-const require = createRequire(import.meta.url);
-const { version } = require('../package.json');
-const { transliterate, slugify } = require('../dist/node/src/node/index.js');
+const repositoryRoot = fileURLToPath(new URL('../', import.meta.url));
+const { directory, consumer, root, manifest, require, cleanup } =
+  installPackedPackage(repositoryRoot);
+after(cleanup);
+
+const { version } = manifest;
+const { transliterate, slugify } = require('transliteration');
 const cli = (name, args = [], options = {}) =>
   spawnSync(process.execPath, [join(root, 'dist/bin', name), ...args], {
-    cwd: root,
+    cwd: consumer,
     encoding: 'utf8',
     timeout: 5000,
     maxBuffer: 1024 * 1024,
     ...options,
   });
 
-test('built Node executables run and report the package version', () => {
-  for (const name of ['transliterate', 'slugify']) {
-    const result = cli(name, ['--version']);
-    assert.equal(result.status, 0, result.stderr);
-    assert.equal(result.stdout, `${version}\n`);
+const assertBrowserApi = (api, name) => {
+  assert.deepEqual(Object.keys(api).sort(), [
+    'slugify',
+    'transl',
+    'transliterate',
+  ]);
+  assert.equal(api.transl, api.transliterate);
+  for (const method of [api.transliterate, api.slugify]) {
+    assert.equal(typeof method.config, 'function');
+    assert.equal(typeof method.setData, 'function');
+  }
+  assert.equal(api.transliterate('São'), 'Sao');
+  assert.equal(api.slugify('São'), 'sao');
+  assert.equal(api.transliterate('你好'), name === 'latin' ? '' : 'Ni Hao');
+  assert.equal(
+    api.transliterate('__proto__', {
+      replace: JSON.parse('{"__proto__":"safe"}'),
+    }),
+    'safe'
+  );
+};
+
+test('packed installation has no runtime dependencies', () => {
+  for (const field of [
+    'dependencies',
+    'optionalDependencies',
+    'peerDependencies',
+  ]) {
+    assert.deepEqual(Object.keys(manifest[field] ?? {}), [], field);
+  }
+  const installed = readdirSync(join(consumer, 'node_modules')).filter(
+    (name) => name !== '.bin' && name !== '.package-lock.json'
+  );
+  assert.deepEqual(installed, ['transliteration']);
+});
+
+test('packed metadata preserves Node, browser, CDN, and legacy entry points', () => {
+  const expectedPaths = {
+    main: 'dist/node/src/node/index.js',
+    module: 'dist/browser/bundle.esm.min.js',
+    jsnext: 'dist/browser/bundle.esm.min.js',
+    browser: 'dist/browser/bundle.umd.min.js',
+    jsdelivr: 'dist/browser/bundle.umd.min.js',
+    types: 'dist/node/src/node/index.d.ts',
+  };
+  for (const [field, path] of Object.entries(expectedPaths)) {
+    assert.equal(manifest[field], path, field);
+    assert.ok(statSync(join(root, path)).isFile(), path);
+  }
+  assert.equal(manifest.unpkg, undefined);
+  assert.deepEqual(manifest.bin, {
+    transliterate: 'dist/bin/transliterate',
+    slugify: 'dist/bin/slugify',
+  });
+  for (const [subpath, name] of [
+    ['.', 'index'],
+    ['./latin', 'latin'],
+  ]) {
+    const browser = name === 'index' ? 'bundle' : 'latin';
+    const node = `./dist/node/src/node/${name}`;
+    assert.deepEqual(manifest.exports[subpath], {
+      types: `${node}.d.ts`,
+      browser: `./dist/browser/${browser}.esm.min.js`,
+      require: `${node}.js`,
+      import: `${node}.js`,
+      default: `${node}.js`,
+    });
+    const declaration = join(root, `${node}.d.ts`);
+    assert.ok(statSync(declaration).isFile());
+    const source = readFileSync(declaration, 'utf8');
+    for (const reference of source.matchAll(
+      /^\s*\/\/[#@]\s*sourceMappingURL=(\S+)/gm
+    )) {
+      const map = resolve(dirname(declaration), reference[1]);
+      assert.ok(map.startsWith(`${root}${sep}`), map);
+      assert.ok(statSync(map).isFile(), map);
+    }
+    assert.ok(statSync(join(root, `${node}.js.map`)).isFile());
+  }
+  assert.equal(manifest.exports['./dist/*'], './dist/*');
+  assert.equal(manifest.exports['./package.json'], './package.json');
+  assert.equal(require('transliteration/package.json').version, version);
+
+  for (const [specifier, name] of [
+    ['transliteration', 'index'],
+    ['transliteration/latin', 'latin'],
+  ]) {
+    const legacy = `transliteration/dist/node/src/node/${name}.js`;
+    assert.equal(
+      require.resolve(specifier),
+      join(root, `dist/node/src/node/${name}.js`)
+    );
+    assert.equal(require(specifier), require(legacy));
+    assert.equal(require(specifier).transliterate('São'), 'Sao');
+  }
+  for (const name of ['bundle', 'latin']) {
+    for (const format of ['umd', 'esm']) {
+      const path = `dist/browser/${name}.${format}.min.js`;
+      assert.equal(
+        require.resolve(`transliteration/${path}`),
+        join(root, path)
+      );
+    }
   }
 });
 
-test('built APIs terminate for empty regex matches and empty ignore entries', () => {
+test('browser export conditions resolve to the standalone ES modules', () => {
+  const result = spawnSync(
+    process.execPath,
+    [
+      '--conditions=browser',
+      '-e',
+      `console.log(JSON.stringify(
+        ['transliteration', 'transliteration/latin'].map((name) => require.resolve(name))
+      ));`,
+    ],
+    { cwd: consumer, encoding: 'utf8', timeout: 5000 }
+  );
+  assert.equal(result.error, undefined);
+  assert.equal(result.status, 0, result.stderr);
+  assert.deepEqual(JSON.parse(result.stdout), [
+    join(root, 'dist/browser/bundle.esm.min.js'),
+    join(root, 'dist/browser/latin.esm.min.js'),
+  ]);
+});
+
+test('packed root and Latin entries support Node ES module imports', () => {
+  const result = spawnSync(
+    process.execPath,
+    [
+      '--input-type=module',
+      '-e',
+      `
+      import assert from 'node:assert/strict';
+      import { transliterate, slugify } from 'transliteration';
+      import { transliterate as latin } from 'transliteration/latin';
+      import { transliterate as legacy } from 'transliteration/dist/node/src/node/index.js';
+      assert.equal(transliterate, legacy);
+      assert.equal(transliterate('你好'), 'Ni Hao');
+      assert.equal(slugify('São'), 'sao');
+      assert.equal(latin('你好'), '');
+      assert.equal(latin('São'), 'Sao');
+      `,
+    ],
+    { cwd: consumer, encoding: 'utf8', timeout: 5000 }
+  );
+  assert.equal(result.error, undefined);
+  assert.equal(result.status, 0, result.stderr);
+});
+
+test('packed Node executables run and report the package version', () => {
+  for (const name of ['transliterate', 'slugify']) {
+    assert.ok(statSync(join(root, manifest.bin[name])).isFile());
+    const result = cli(name, ['--version']);
+    assert.equal(result.error, undefined);
+    assert.equal(result.status, 0, result.stderr);
+    assert.equal(result.stdout, `${version}\n`);
+
+    const installed = spawnSync(
+      join(consumer, 'node_modules', '.bin', name),
+      ['--version'],
+      {
+        cwd: consumer,
+        encoding: 'utf8',
+        timeout: 5000,
+        env: {
+          ...process.env,
+          PATH: `${dirname(process.execPath)}${delimiter}${process.env.PATH ?? ''}`,
+        },
+      }
+    );
+    assert.equal(installed.error, undefined);
+    assert.equal(installed.status, 0, installed.stderr);
+    assert.equal(installed.stdout, `${version}\n`);
+  }
+});
+
+test('packed APIs terminate for empty regex matches and empty ignore entries', () => {
   const result = spawnSync(
     process.execPath,
     [
@@ -45,7 +216,7 @@ test('built APIs terminate for empty regex matches and empty ignore entries', ()
       '-e',
       `
     import assert from 'node:assert/strict';
-    import { transliterate, slugify } from './dist/node/src/node/index.js';
+    import { transliterate, slugify } from 'transliteration';
     assert.equal(transliterate('abc', { replace: [[/^/, 'x']] }), 'xabc');
     assert.equal(transliterate('abc', { replaceAfter: [[/$/, 'x']] }), 'abcx');
     assert.equal(transliterate('ab', { replace: [[/(?:)/g, '-']] }), '-a-b-');
@@ -55,7 +226,7 @@ test('built APIs terminate for empty regex matches and empty ignore entries', ()
     assert.equal(transliterate('abc', { replace: [['b', 'x']], ignore: [''] }), 'axc');
   `,
     ],
-    { cwd: root, encoding: 'utf8', timeout: 5000 }
+    { cwd: consumer, encoding: 'utf8', timeout: 5000 }
   );
   assert.equal(result.error, undefined);
   assert.equal(result.status, 0, result.stderr);
@@ -66,8 +237,13 @@ test('browser script builds expose the documented globals', () => {
     const context = createContext({});
     runInContext(
       readFileSync(join(root, `dist/browser/${name}.umd.min.js`), 'utf8'),
-      context
+      context,
+      { timeout: 5000 }
     );
+    assertBrowserApi(context.transliteration, name);
+    for (const key of ['transliterate', 'slugify', 'transl']) {
+      assert.equal(context[key], context.transliteration[key]);
+    }
     assert.equal(context.transliterate('São Paulo'), 'Sao Paulo');
     assert.equal(context.slugify('São Paulo'), 'sao-paulo');
     assert.equal(context.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
@@ -98,44 +274,71 @@ test('browser script builds support CommonJS and AMD loaders', () => {
       'utf8'
     );
     const commonjs = createContext({ module: { exports: {} } });
-    runInContext(source, commonjs);
-    assert.equal(commonjs.module.exports.transliterate('São'), 'Sao');
+    runInContext(source, commonjs, { timeout: 5000 });
+    assertBrowserApi(commonjs.module.exports, name);
+    assert.equal(commonjs.transliterate, undefined);
     let amd;
     const define = (factory) => {
       amd = factory();
     };
     define.amd = {};
-    runInContext(source, createContext({ define }));
-    assert.equal(amd.slugify('São'), 'sao');
+    const amdContext = createContext({ define });
+    runInContext(source, amdContext, { timeout: 5000 });
+    assertBrowserApi(amd, name);
+    assert.equal(amdContext.transliterate, undefined);
+
+    const unexpectedAmd = () =>
+      assert.fail('CommonJS must take priority over AMD');
+    unexpectedAmd.amd = {};
+    const both = createContext({
+      module: { exports: {} },
+      define: unexpectedAmd,
+    });
+    runInContext(source, both, { timeout: 5000 });
+    assertBrowserApi(both.module.exports, name);
   }
 });
 
-test('browser ES modules load without sibling assets', async () => {
-  const dir = mkdtempSync(join(tmpdir(), 'transliteration-esm-test-'));
-  try {
-    for (const name of ['bundle', 'latin']) {
-      const file = join(dir, `${name}.mjs`);
-      writeFileSync(
-        file,
-        readFileSync(join(root, `dist/browser/${name}.esm.min.js`))
+test('browser ES modules load without sibling assets or installed packages', async () => {
+  for (const name of ['bundle', 'latin']) {
+    const source = readFileSync(join(root, `dist/browser/${name}.esm.min.js`));
+    const api = await import(
+      `data:text/javascript;base64,${source.toString('base64')}`
+    );
+    assertBrowserApi(api, name);
+    assert.equal(api.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
+    assert.equal(
+      api.slugify('Hello World', { allowedChars: undefined }),
+      'hello-world'
+    );
+  }
+});
+
+test('browser bundles include their referenced source maps', () => {
+  for (const name of ['bundle', 'latin']) {
+    for (const format of ['umd', 'esm']) {
+      const filename = `${name}.${format}.min.js`;
+      const source = readFileSync(join(root, 'dist/browser', filename), 'utf8');
+      const reference = /sourceMappingURL=(\S+)/.exec(source)?.[1];
+      assert.equal(reference, `${filename}.map`);
+      const map = JSON.parse(
+        readFileSync(join(root, 'dist/browser', reference), 'utf8')
       );
-      const api = await import(pathToFileURL(file).href);
-      assert.equal(api.transliterate('São'), 'Sao');
-      assert.equal(api.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
-      assert.equal(
-        api.slugify('Hello World', { allowedChars: undefined }),
-        'hello-world'
+      assert.equal(map.version, 3);
+      assert.ok(map.sources.length > 0);
+      assert.equal(map.sourcesContent.length, map.sources.length);
+      assert.ok(
+        map.sourcesContent.every((content) => typeof content === 'string')
       );
-      assert.equal(api.transliterate('你好'), name === 'latin' ? '' : 'Ni Hao');
+      assert.equal(typeof map.mappings, 'string');
+      assert.ok(map.mappings.length > 0);
     }
-  } finally {
-    rmSync(dir, { recursive: true, force: true });
   }
 });
 
-test('built Node exports retain the issue fixes after data reset', () => {
+test('packed Node exports retain the issue fixes after data reset', () => {
   for (const name of ['index', 'latin']) {
-    const api = require(`../dist/node/src/node/${name}.js`);
+    const api = require(`transliteration/dist/node/src/node/${name}.js`);
     assert.equal(api.transliterate('ýÝ ẞ ᴀ ₐ ①'), 'yY SS A a 1');
     assert.equal(api.slugify('STRAẞE'), 'strasse');
     assert.equal(
@@ -188,30 +391,26 @@ test('invalid CLI boolean values produce a concise error', () => {
 });
 
 test('stdin file results match whole-input API calls across read boundaries', () => {
-  const dir = mkdtempSync(join(tmpdir(), 'transliteration-package-test-'));
-  try {
-    for (const [name, api, input] of [
-      ['slugify', slugify, `${'a '.repeat(60_000)}b`],
-      ['transliterate', transliterate, '你好'.repeat(24_000)],
-    ]) {
-      const file = join(dir, 'input.txt');
-      writeFileSync(file, input);
-      const fd = openSync(file, 'r');
-      let result;
-      try {
-        result = cli(name, ['-S'], { stdio: [fd, 'pipe', 'pipe'] });
-      } finally {
-        closeSync(fd);
-      }
-      assert.equal(result.status, 0, result.stderr);
-      const expected = `${api(input)}\n`;
-      assert.ok(
-        result.stdout === expected,
-        `${name}: stdin differs from the whole-input result`
-      );
+  const dir = mkdtempSync(join(directory, 'stdin-'));
+  for (const [name, api, input] of [
+    ['slugify', slugify, `${'a '.repeat(60_000)}b`],
+    ['transliterate', transliterate, '你好'.repeat(24_000)],
+  ]) {
+    const file = join(dir, 'input.txt');
+    writeFileSync(file, input);
+    const fd = openSync(file, 'r');
+    let result;
+    try {
+      result = cli(name, ['-S'], { stdio: [fd, 'pipe', 'pipe'] });
+    } finally {
+      closeSync(fd);
     }
-  } finally {
-    rmSync(dir, { recursive: true, force: true });
+    assert.equal(result.status, 0, result.stderr);
+    const expected = `${api(input)}\n`;
+    assert.ok(
+      result.stdout === expected,
+      `${name}: stdin differs from the whole-input result`
+    );
   }
 });
 
@@ -243,6 +442,33 @@ test('ignored whole tokens survive slug sanitization', () => {
     transliterate('你好', { ignore: ['你好'], replace: { 好: 'Good' } }),
     '你好'
   );
+  assert.equal(
+    transliterate('你é '.repeat(2048), { ignore: ['你'] }),
+    '你 e '.repeat(2048)
+  );
+  assert.equal(transliterate('你🚀é', { ignore: ['\ude80'] }), 'Ni🚀e');
+});
+
+test('packed option cloning preserves __proto__ data and ordinary prototypes', () => {
+  for (const name of ['index', 'latin']) {
+    const api = require(`transliteration/dist/node/src/node/${name}.js`);
+    for (const convert of [api.transliterate, api.slugify]) {
+      try {
+        const config = convert.config(
+          JSON.parse(
+            '{"__proto__":{"polluted":true},"replace":{"__proto__":"safe"}}'
+          )
+        );
+        assert.equal(Object.getPrototypeOf(config), Object.prototype);
+        assert.equal(Object.hasOwn(config, '__proto__'), true);
+        assert.equal(config.polluted, undefined);
+        assert.equal(convert('__proto__'), 'safe');
+        assert.equal(Object.hasOwn(Object.prototype, 'polluted'), false);
+      } finally {
+        convert.config(undefined, true);
+      }
+    }
+  }
 });
 
 test('multi-character separators collapse and trim as whole strings', () => {
@@ -267,7 +493,7 @@ test('Latin builds are small and retain Latin data on reset', () => {
       `${file} includes too much data`
     );
   }
-  const latin = require('../dist/node/src/node/latin.js');
+  const latin = require('transliteration/latin');
   for (const api of [latin.transliterate, latin.slugify]) {
     api.setData({ 你: 'CUSTOM' });
     api.setData(undefined, true);

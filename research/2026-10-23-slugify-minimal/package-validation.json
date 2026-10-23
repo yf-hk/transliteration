@@ -1,0 +1,27 @@
+{
+  "tarball": "/Users/administrator/Projects/Open Source/transliteration/repo/research/2026-10-23-slugify-minimal/after.tgz",
+  "sha256": "02362148a43ebc7acbf5a5f8e4f9c9beeed678a5a8dc95135812e776adff32a2",
+  "tests": 19,
+  "runtimeRuns": [
+    {
+      "runtime": "v20.0.0",
+      "binary": "/Users/administrator/.npm/_npx/a3dea26673f30de8/node_modules/node/bin/node",
+      "passed": 19,
+      "failed": 0,
+      "log": "node20-final.stdout.txt"
+    },
+    {
+      "runtime": "v26.5.0",
+      "binary": "/usr/local/Cellar/node/26.5.0/bin/node",
+      "passed": 19,
+      "failed": 0,
+      "log": "node26-final.stdout.txt",
+      "priorRun": {
+        "passed": 18,
+        "failed": 1,
+        "log": "node26-first.stdout.txt",
+        "detail": "Null subprocess status in large-stdin check at the existing five-second deadline. The same archive passed the full retry with that deadline unchanged."
+      }
+    }
+  ]
+}

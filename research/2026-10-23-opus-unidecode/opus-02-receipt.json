@@ -1,0 +1,12 @@
+{
+  "requestedModel": "claude-opus-5-5",
+  "respondingModels": [
+    "<synthetic>"
+  ],
+  "exitCode": 1,
+  "elapsedSeconds": 2.4448509216308594,
+  "subtype": "success",
+  "isError": true,
+  "modelUsage": {},
+  "promptSha256": "3306efe837645d4223ab483e76e10bf52676a41fd89d86e6d66707c5e23c35e7"
+}

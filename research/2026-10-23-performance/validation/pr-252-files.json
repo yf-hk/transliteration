@@ -1,0 +1,26 @@
+[
+  {
+    "sha": "20b9b396b389aedcce2a9892fd99bddc5147c9a8",
+    "filename": "src/common/slugify.test.ts",
+    "status": "modified",
+    "additions": 14,
+    "deletions": 0,
+    "changes": 14,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/f61631a3c197116cdbf91c8efa319c755c16e9fb/src%2Fcommon%2Fslugify.test.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/f61631a3c197116cdbf91c8efa319c755c16e9fb/src%2Fcommon%2Fslugify.test.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Fslugify.test.ts?ref=f61631a3c197116cdbf91c8efa319c755c16e9fb",
+    "patch": "@@ -140,6 +140,20 @@ describe('slugify() edge cases', () => {\n     );\n   });\n \n+  it('should fall back to the default allowedChars when it is undefined or null', () => {\n+    // Passing `allowedChars: undefined` (e.g. from a spread of optional config)\n+    // must use the default, not coerce `undefined` into the character class.\n+    expect(slugify('Hello World', { allowedChars: undefined })).toBe(\n+      'hello-world'\n+    );\n+    expect(\n+      slugify('Hello World', { allowedChars: null as unknown as string })\n+    ).toBe('hello-world');\n+    expect(\n+      slugify('Hello World', { uppercase: true, allowedChars: undefined })\n+    ).toBe('HELLO-WORLD');\n+  });\n+\n   it('should handle custom separator with special regex characters', () => {\n     expect(slugify('hello world', { separator: '.' })).toBe('hello.world');\n     expect(slugify('hello world', { separator: '+' })).toBe('hello+world');"
+  },
+  {
+    "sha": "2fec9453894c95e615d32f1ef788c4942aede841",
+    "filename": "src/common/slugify.ts",
+    "status": "modified",
+    "additions": 1,
+    "deletions": 1,
+    "changes": 2,
+    "blob_url": "https://github.com/yf-hk/transliteration/blob/f61631a3c197116cdbf91c8efa319c755c16e9fb/src%2Fcommon%2Fslugify.ts",
+    "raw_url": "https://github.com/yf-hk/transliteration/raw/f61631a3c197116cdbf91c8efa319c755c16e9fb/src%2Fcommon%2Fslugify.ts",
+    "contents_url": "https://api.github.com/repos/yf-hk/transliteration/contents/src%2Fcommon%2Fslugify.ts?ref=f61631a3c197116cdbf91c8efa319c755c16e9fb",
+    "patch": "@@ -50,7 +50,7 @@ export class Slugify extends Transliterate {\n \n     slug = regexpReplaceCustom(\n       slug,\n-      new RegExp(`[^${opt.allowedChars}]+`, 'g'),\n+      new RegExp(`[^${opt.allowedChars ?? defaultOptions.allowedChars}]+`, 'g'),\n       opt.separator ?? '-',\n       opt.ignore ?? []\n     );"
+  }
+]

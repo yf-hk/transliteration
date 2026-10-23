@@ -1,0 +1,302 @@
+[
+  {
+    "codepoint": "U+00DD",
+    "verdict": "confirm_error",
+    "suggested": "Y",
+    "reason": "Wrong letter. Ý is canonically Y + combining acute, so ASCII folding gives Y. U is a different consonant-or-vowel letter, with no language where Ý is U."
+  },
+  {
+    "codepoint": "U+01F2",
+    "verdict": "confirm_error",
+    "suggested": "Dz",
+    "reason": "Dropped letter. Titlecase Dz digraph has a compatibility decomposition to D + z, so the current D loses the z. This is ASCII folding, not a pronunciation scheme."
+  },
+  {
+    "codepoint": "U+02B0",
+    "verdict": "confirm_error",
+    "suggested": "h",
+    "reason": "Wrong letter. Modifier small h has compatibility decomposition to h, and k has no basis. Lowercase h is correct because the character is a small modifier letter."
+  },
+  {
+    "codepoint": "U+03F2",
+    "verdict": "confirm_error",
+    "suggested": "s",
+    "reason": "Wrong letter in a Greek or Pinyin-agnostic ASCII table: lunate sigma is a sigma variant, so a sigma romanization is s. Current c is a visual lookalike fold. I cannot confirm the cited ALA-LC statement myself, but the sigma identity alone supports s."
+  },
+  {
+    "codepoint": "U+0400",
+    "verdict": "confirm_error",
+    "suggested": "E",
+    "reason": "Wrong vowel. Ѐ is Cyrillic Е + grave, not Ё, and Jo substitutes an unrelated o. Default is E. Je is only a defensible alternative if the table deliberately maps ѐ to je, and I cannot verify that row."
+  },
+  {
+    "codepoint": "U+098C",
+    "verdict": "confirm_error",
+    "suggested": "L",
+    "reason": "Wrong vowel. Bengali vocalic L is the L-series vowel, and RR belongs to U+09E0. L matches the table's apparent vocalic-L convention (ḷ folded to L). Scheme caveat: ISO 15919 would write l̥, so this is ASCII folding."
+  },
+  {
+    "codepoint": "U+09F1",
+    "verdict": "confirm_error",
+    "suggested": "w",
+    "reason": "Wrong consonant. This is Assamese wa, despite the misleading formal name containing RA, and r` reflects that name. w is the usual Assamese romanization, and v is an acceptable scheme variant. Distinct from U+09F0, the Assamese ra."
+  },
+  {
+    "codepoint": "U+0A2D",
+    "verdict": "confirm_error",
+    "suggested": "bh",
+    "reason": "Wrong letter. Gurmukhi BHA is the aspirated bilabial, written bh in standard romanizations. bb would be gemination, which in Gurmukhi is written with addak."
+  },
+  {
+    "codepoint": "U+0E0B",
+    "verdict": "confirm_error",
+    "suggested": "s",
+    "reason": "Wrong consonant. Thai SO SO is s as an initial. ch belongs to CHO CHAN and its relatives. Final-position t is a scheme or context matter that a fixed ASCII mapping does not need to carry."
+  },
+  {
+    "codepoint": "U+0E45",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Lakkhangyao is a vowel length sign that lengthens ฤ or ฦ, so ao is wrong because it introduces an unrelated o. Correct output depends on the preceding character. If a fixed fallback is unavoidable, an empty string is safer than ao, and the proposed aa is also unrelated."
+  },
+  {
+    "codepoint": "U+0E95",
+    "verdict": "confirm_error",
+    "suggested": "t",
+    "reason": "Wrong consonant. Lao TO is t, and h is unrelated. It is distinct from the Lao ho letters."
+  },
+  {
+    "codepoint": "U+0EAE",
+    "verdict": "confirm_error",
+    "suggested": "h",
+    "reason": "Dropped consonant. Lao HO TAM is a consonant letter read h, and an empty string erases it. This is consistent with the other Lao ho letter reading h."
+  },
+  {
+    "codepoint": "U+0698",
+    "verdict": "prefer_default",
+    "suggested": "zh",
+    "reason": "Persian, Pashto and Urdu JEH is the voiced postalveolar fricative, with zh as the common ASCII rendering. Current j is used in some loose schemes but collides with JEEM. Not universally wrong, so j is a valid alternative in French-influenced or ad hoc schemes."
+  },
+  {
+    "codepoint": "U+06A9",
+    "verdict": "confirm_error",
+    "suggested": "k",
+    "reason": "Wrong consonant. Keheh is the Persian and Urdu form of kaf, so k. kh belongs to KHAH (U+062E)."
+  },
+  {
+    "codepoint": "U+06D0",
+    "verdict": "confirm_error",
+    "suggested": "e",
+    "reason": "Dropped vowel. Arabic letter E (Pashto, also Uyghur and Sindhi) is a written vowel e, and an empty string deletes it."
+  },
+  {
+    "codepoint": "U+0685",
+    "verdict": "confirm_error",
+    "suggested": "ts",
+    "reason": "Wrong consonant. Pashto څ is the affricate ts, with s in some dialects, so ts is the narrow default and s a dialect alternative. H matches nothing here. I cannot verify the cited diacritic form, and ASCII folding of it would be ts or s."
+  },
+  {
+    "codepoint": "U+06AB",
+    "verdict": "confirm_error",
+    "suggested": "g",
+    "reason": "Wrong letter. Kaf with ring is Pashto g, and K is a kaf-family guess that also differs in case from the ASCII convention. If the table is not Pashto, g is still the reading for ring-kaf in Pashto, so mark language-narrow."
+  },
+  {
+    "codepoint": "U+05F2",
+    "verdict": "confirm_error",
+    "suggested": "ey",
+    "reason": "Wrong vowel. Yiddish tsvey yudn is a diphthong, with ey as the unpointed default (YIVO) and ay for the patah form U+05F2 plus U+05B7. Current i is wrong for any Yiddish reading."
+  },
+  {
+    "codepoint": "U+0390",
+    "verdict": "confirm_error",
+    "suggested": "i",
+    "reason": "Case error. This is a lowercase Greek letter with dialytika and tonos, so the ASCII fold is i, not I. Matches the other lowercase iotas per the audit, which I cannot see."
+  },
+  {
+    "codepoint": "U+0478",
+    "verdict": "confirm_error",
+    "suggested": "U",
+    "reason": "Case error. Capital Cyrillic UK should map to uppercase U, with lowercase U+0479 mapping to u. Valid only if the table preserves case, as neighboring rows suggest."
+  },
+  {
+    "codepoint": "U+04D0",
+    "verdict": "confirm_error",
+    "suggested": "A",
+    "reason": "Case error. Capital Cyrillic A with breve should map to A, with lowercase U+04D1 to a. Valid only if the table preserves case."
+  },
+  {
+    "codepoint": "U+038E",
+    "verdict": "prefer_default",
+    "suggested": "Y",
+    "reason": "Modern and common Greek romanization of upsilon is y. U appears only in some classical schemes and in the digraph ου. Given that Υ and ύ map Y/y, Y fixes the inconsistency. U is a valid alternative, not impossible."
+  },
+  {
+    "codepoint": "U+01B1",
+    "verdict": "unresolved",
+    "suggested": "U",
+    "reason": "Latin capital upsilon is an IPA and orthographic Latin letter, not Greek, so Y looks like a Greek-lookalike fold. The audit says lowercase ʊ maps to uppercase U, which is itself odd and I cannot verify. U is the tentative fix, but case and policy for the pair need review."
+  },
+  {
+    "codepoint": "U+0AAF",
+    "verdict": "unresolved",
+    "suggested": "y",
+    "reason": "If neighboring Gujarati consonants are bare (no inherent a) and vowel signs append, then ya is inconsistent and y is right. I cannot see the neighbors, and isolated ya is a valid romanization. Verify the table convention before changing."
+  },
+  {
+    "codepoint": "U+0A71",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Addak marks gemination of the following consonant, so a fixed H inserts an unrelated h. Correct output is doubling the next consonant, which needs context. An empty-string fallback is safer than H."
+  },
+  {
+    "codepoint": "U+0651",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Shadda marks gemination of the preceding consonant, so a fixed W inserts an unrelated w. Correct output is doubling the preceding letter, which needs context. An empty-string fallback is safer than W. Some ASCII schemes use ~ for shadda, so a symbol could be a valid alternative."
+  },
+  {
+    "codepoint": "U+0B35",
+    "verdict": "confirm_error",
+    "suggested": "v",
+    "reason": "Dropped consonant. Odia VA is a consonant letter, and the empty string erases it. v is the narrow default, with w a valid alternative, since the Odia wa letter is separate (U+0B71)."
+  },
+  {
+    "codepoint": "U+095C",
+    "verdict": "confirm_error",
+    "suggested": "r",
+    "reason": "dddh is a leak of the Unicode name, with no pronunciation basis. The letter is the Hindi flap (ṛ, ड़). ASCII r is the common fold, and rr would collide with the existing RRA mapping. Exact scheme (r, R, rh-series) is a policy choice, so the suggestion is tentative."
+  },
+  {
+    "codepoint": "U+A771",
+    "verdict": "confirm_error",
+    "suggested": "dum",
+    "reason": "Typo by shift. The character name is LATIN SMALL LETTER DUM, and us belongs to the preceding U+A770 modifier. Check the rest of the block for the same shift, e.g. U+A774 to U+A776."
+  },
+  {
+    "codepoint": "U+A772",
+    "verdict": "confirm_error",
+    "suggested": "lum",
+    "reason": "Typo by shift. The character name is LATIN SMALL LETTER LUM, and dum belongs to U+A771."
+  },
+  {
+    "codepoint": "U+A773",
+    "verdict": "confirm_error",
+    "suggested": "mum",
+    "reason": "Typo by shift. The character name is LATIN SMALL LETTER MUM, and lum belongs to U+A772."
+  },
+  {
+    "codepoint": "U+FB27",
+    "verdict": "confirm_error",
+    "suggested": "r",
+    "reason": "Wrong consonant. Wide resh is a presentation form of resh (compatibility decomposition to ר), so r, not m."
+  },
+  {
+    "codepoint": "U+FB3E",
+    "verdict": "confirm_error",
+    "suggested": "m",
+    "reason": "Wrong consonant. Mem with dagesh decomposes to mem + dagesh, so m. Current l is the lamed-with-dagesh reading, likely a shift from the neighboring row."
+  },
+  {
+    "codepoint": "U+FB41",
+    "verdict": "confirm_error",
+    "suggested": "s",
+    "reason": "Wrong consonant. Samekh with dagesh decomposes to samekh, so s. Current n is the nun-with-dagesh reading, likely a shift."
+  },
+  {
+    "codepoint": "U+FB47",
+    "verdict": "confirm_error",
+    "suggested": "q",
+    "reason": "Wrong consonant. ts is tsadi, but this is qof with dagesh. Output should match the base U+05E7 mapping, which I cannot see, so q if that is q and k if the table uses modern k. I cannot confirm the claim about an LC dotted-k convention."
+  },
+  {
+    "codepoint": "U+A015",
+    "verdict": "context_required",
+    "suggested": null,
+    "reason": "Unicode treats this as a Yi syllable iteration mark despite the misnomer WU, so correct output repeats the preceding syllable. wu is a name-based fallback that could be kept as a documented placeholder if context handling is not possible."
+  },
+  {
+    "codepoint": "U+FB35",
+    "verdict": "prefer_default",
+    "suggested": "u",
+    "reason": "Vav with a dot is the standard pointed way to write shuruk (u), and consonantal v with dagesh is a context-dependent alternate. This is a linguistic convention, not frequency evidence. Current v is consistent with a base-letter fold policy that drops points, so decide policy for all Hebrew points together."
+  },
+  {
+    "codepoint": "U+FB4B",
+    "verdict": "prefer_default",
+    "suggested": "o",
+    "reason": "Vav with holam is the standard plene writing of o, while consonantal vo is a context-dependent alternate. Current vo is valid under a base-letter plus mark fold, so it is not universally wrong. Policy should be set together with FB35."
+  },
+  {
+    "codepoint": "U+FB4C",
+    "verdict": "prefer_default",
+    "suggested": "v",
+    "reason": "Rafe marks the fricative reading, so bet with rafe is v. Current b drops the rafe's function, though it is valid under a base-letter fold policy. Yiddish and Hebrew both support v."
+  },
+  {
+    "codepoint": "U+FB4D",
+    "verdict": "prefer_default",
+    "suggested": "kh",
+    "reason": "Rafe marks the fricative reading, so kaf with rafe is kh. Current k is valid only under a base-letter fold policy that ignores rafe."
+  },
+  {
+    "codepoint": "U+FB4E",
+    "verdict": "prefer_default",
+    "suggested": "f",
+    "reason": "Pe with rafe is the fricative f, standard in Yiddish and Hebrew. Current p is valid only under a base-letter fold policy that ignores rafe."
+  },
+  {
+    "codepoint": "U+A7FF",
+    "verdict": "unresolved",
+    "suggested": "M",
+    "reason": "Archaic M is an epigraphic M variant, so plain M is the likely fold. M1 might be a deliberate disambiguator against another M-like letter in the table. Not provably wrong without the table's policy, so keep M1 until that is checked."
+  },
+  {
+    "codepoint": "U+A768",
+    "verdict": "unresolved",
+    "suggested": "V",
+    "reason": "Vend is a medieval Latin letter whose usual reading is v-like, and Y is at most a visual lookalike fold. Y is doubtful but I cannot verify a primary-source reading, so a V/W suggestion needs policy confirmation. Keep case paired with U+A769."
+  },
+  {
+    "codepoint": "U+A769",
+    "verdict": "unresolved",
+    "suggested": "v",
+    "reason": "Vend is a medieval Latin letter whose usual reading is v-like, and y is at most a visual lookalike fold. A v/w suggestion needs policy confirmation and must pair with U+A768."
+  },
+  {
+    "codepoint": "U+A4A2",
+    "verdict": "missing_mapping",
+    "suggested": "Zup",
+    "reason": "Null mapping for a named Yi radical. A name-derived fallback (Zup) matches the audit's neighbor convention, which I cannot see. Radicals are symbols, so this is naming, not pronunciation."
+  },
+  {
+    "codepoint": "U+A4A3",
+    "verdict": "missing_mapping",
+    "suggested": "Cyt",
+    "reason": "Null mapping for a named Yi radical. A name-derived fallback (Cyt) matches the audit's neighbor convention, which I cannot see. Radicals are symbols, so this is naming, not pronunciation."
+  },
+  {
+    "codepoint": "U+A4B4",
+    "verdict": "missing_mapping",
+    "suggested": "Nzup",
+    "reason": "Null mapping for a named Yi radical. A name-derived fallback (Nzup) matches the audit's neighbor convention, which I cannot see. Radicals are symbols, so this is naming, not pronunciation."
+  },
+  {
+    "codepoint": "U+A4C1",
+    "verdict": "missing_mapping",
+    "suggested": "Zur",
+    "reason": "Null mapping for a named Yi radical. A name-derived fallback (Zur) matches the audit's neighbor convention, which I cannot see. Radicals are symbols, so this is naming, not pronunciation."
+  },
+  {
+    "codepoint": "U+A4C5",
+    "verdict": "missing_mapping",
+    "suggested": "Nbie",
+    "reason": "Null mapping for a named Yi radical. A name-derived fallback (Nbie) matches the audit's neighbor convention, which I cannot see. Radicals are symbols, so this is naming, not pronunciation."
+  },
+  {
+    "codepoint": "KOREAN-RANGE",
+    "verdict": "valid_alternative",
+    "suggested": null,
+    "reason": "Unicode Hangul syllable names are a letter-by-letter jamo transliteration (gg, dd, bb, c, weo, yi), a legitimate scheme distinct from Revised Romanization, which is pronunciation-based (kk, tt, pp, ch, wo, ui, with assimilation). Reject blanket replacement as a data error. Switching to RR would be a separate, documented scheme change, and I have not verified the 11,172 and 3,192 counts."
+  }
+]

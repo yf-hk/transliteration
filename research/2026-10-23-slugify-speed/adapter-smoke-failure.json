@@ -1,0 +1,329 @@
+{
+  "startedAt": "2026-10-22T18:56:34.930Z",
+  "runtime": "v22.23.2",
+  "platform": "darwin/x64",
+  "cpu": "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz",
+  "logicalCpus": 64,
+  "loadBefore": [
+    21.92578125,
+    22.80859375,
+    24.15771484375
+  ],
+  "protocol": {
+    "rounds": 5,
+    "warmupMs": 150,
+    "calibrationMs": 25,
+    "targetMs": 350
+  },
+  "adapters": [
+    {
+      "id": "ours-current",
+      "package": "transliteration",
+      "version": "2.6.2",
+      "engines": {
+        "node": ">=20.0.0"
+      },
+      "options": "Defaults; full map",
+      "entry": "dist/node/src/node/index.js",
+      "entrySha256": "cfa341f9a1714dc4ec94e103d790c0df129387c09cf0cf8b05a728c00b4e5224"
+    },
+    {
+      "id": "slugify",
+      "package": "slugify",
+      "version": "1.6.9",
+      "engines": {
+        "node": ">=8.0.0"
+      },
+      "options": "{lower:true, strict:true}",
+      "entry": "benchmark/node_modules/slugify/slugify.js",
+      "entrySha256": "3b47b6f184ae98e958de5bd95a2cf6c8f82c84c6484188a54e204c63d2540696"
+    }
+  ],
+  "audits": [
+    {
+      "adapter": "ours-current",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "ascii",
+          "outputs": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "flags": []
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "flags": []
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "flags": []
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "flags": []
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "flags": []
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "flags": []
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "flags": []
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "flags": []
+            }
+          ],
+          "probes": [],
+          "flags": [],
+          "assessment": "ascii-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        }
+      ]
+    },
+    {
+      "adapter": "slugify",
+      "fixtures": [
+        {
+          "mode": "slugify",
+          "fixture": "ascii",
+          "outputs": [
+            {
+              "input": "A practical guide to building reliable software",
+              "output": "a-practical-guide-to-building-reliable-software",
+              "flags": []
+            },
+            {
+              "input": "Release notes for the next production deployment",
+              "output": "release-notes-for-the-next-production-deployment",
+              "flags": []
+            },
+            {
+              "input": "Customers orders invoices and payments",
+              "output": "customers-orders-invoices-and-payments",
+              "flags": []
+            },
+            {
+              "input": "What happens when the application restarts",
+              "output": "what-happens-when-the-application-restarts",
+              "flags": []
+            },
+            {
+              "input": "Simple text with numbers 12345 and punctuation!",
+              "output": "simple-text-with-numbers-12345-and-punctuation",
+              "flags": []
+            },
+            {
+              "input": "How to make small packages load quickly",
+              "output": "how-to-make-small-packages-load-quickly",
+              "flags": []
+            },
+            {
+              "input": "A product title for a modern online store",
+              "output": "a-product-title-for-a-modern-online-store",
+              "flags": []
+            },
+            {
+              "input": "Search indexing and URL generation for websites",
+              "output": "search-indexing-and-url-generation-for-websites",
+              "flags": []
+            }
+          ],
+          "probes": [],
+          "flags": [],
+          "assessment": "ascii-only",
+          "cjkReadingEligible": null
+        },
+        {
+          "mode": "slugify",
+          "fixture": "latin",
+          "outputs": [
+            {
+              "input": "Crème brûlée et café à Montréal",
+              "output": "creme-brulee-et-cafe-a-montreal",
+              "flags": []
+            },
+            {
+              "input": "São Paulo e coração brasileiro",
+              "output": "sao-paulo-e-coracao-brasileiro",
+              "flags": []
+            },
+            {
+              "input": "École française à Québec",
+              "output": "ecole-francaise-a-quebec",
+              "flags": []
+            },
+            {
+              "input": "España Málaga y Córdoba",
+              "output": "espana-malaga-y-cordoba",
+              "flags": []
+            },
+            {
+              "input": "Dvořák Český Krumlov a příběh",
+              "output": "dvorak-cesky-krumlov-a-pribeh",
+              "flags": []
+            },
+            {
+              "input": "À bientôt très chère amie",
+              "output": "a-bientot-tres-chere-amie",
+              "flags": []
+            },
+            {
+              "input": "Hôtel élégant près du marché",
+              "output": "hotel-elegant-pres-du-marche",
+              "flags": []
+            },
+            {
+              "input": "Smörgåsbord Straße Göteborg",
+              "output": "smorgasbord-strasse-goteborg",
+              "flags": []
+            }
+          ],
+          "probes": [
+            {
+              "id": "latin",
+              "input": "Crème brûlée São Paulo",
+              "output": "creme-brulee-sao-paulo",
+              "flags": [],
+              "assessment": "probe-matched-only",
+              "cjk": false
+            }
+          ],
+          "flags": [],
+          "assessment": "probe-matched-only",
+          "cjkReadingEligible": null
+        }
+      ]
+    }
+  ],
+  "samples": [],
+  "failures": [
+    {
+      "message": "api.methods[adapter.modes[0]] is not a function",
+      "stack": "Error: api.methods[adapter.modes[0]] is not a function\n    at ChildProcess.<anonymous> (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-speed/process.mjs:62:12)\n    at ChildProcess.emit (node:events:519:28)\n    at emit (node:internal/child_process:949:14)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)"
+    }
+  ],
+  "finishedAt": "2026-10-22T18:56:36.071Z",
+  "loadAfter": [
+    21.451171875,
+    22.6953125,
+    24.10986328125
+  ],
+  "summary": [
+    {
+      "fixture": "ascii",
+      "adapter": "ours-current",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    },
+    {
+      "fixture": "ascii",
+      "adapter": "slugify",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    },
+    {
+      "fixture": "ascii",
+      "adapter": "ours-prototype",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "ours-current",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "slugify",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    },
+    {
+      "fixture": "latin",
+      "adapter": "ours-prototype",
+      "samples": 0,
+      "completedCalls": 0,
+      "errors": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "codepoint": "U+32D3",
+    "char": "㋓",
+    "current": "u",
+    "suggested": "e",
+    "assessment": "confirmed_kana_letter_typo",
+    "evidence": "CIRCLED KATAKANA E; compatibility decomposition U+30A8 エ. Matches ordinary エ → e and conflicts with previous ㋒ U+32D2 U.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.unicode.org/charts/PDF/U3200.pdf"
+    ]
+  },
+  {
+    "codepoint": "U+33A3",
+    "char": "㎣",
+    "current": "mm^4",
+    "suggested": "mm^3",
+    "assessment": "confirmed_unit_exponent_typo",
+    "evidence": "SQUARE MM CUBED; compatibility decomposition 006D 006D 00B3. CUBED is exponent 3. Neighboring cm³/m³/km³ correctly use ^3.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.unicode.org/charts/PDF/U3300.pdf"
+    ]
+  },
+  {
+    "codepoint": "U+3371",
+    "char": "㍱",
+    "current": "HPA",
+    "suggested": "hPa",
+    "assessment": "confirmed_unit_symbol_case_error",
+    "evidence": "SQUARE HPA has exact compatibility decomposition U+0068 U+0050 U+0061 (hPa). SI prefix and unit case are significant.",
+    "sources": [
+      "https://www.unicode.org/Public/17.0.0/ucd/UnicodeData.txt",
+      "https://www.unicode.org/charts/PDF/U3300.pdf"
+    ]
+  }
+]

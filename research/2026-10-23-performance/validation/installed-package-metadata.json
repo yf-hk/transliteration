@@ -1,0 +1,96 @@
+[
+  {
+    "name": "transliteration",
+    "version": "2.6.2",
+    "license": "MIT",
+    "dependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yf-hk/transliteration.git"
+    }
+  },
+  {
+    "name": "any-ascii",
+    "version": "0.3.3",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anyascii/anyascii.git"
+    }
+  },
+  {
+    "name": "@sindresorhus/transliterate",
+    "version": "2.3.1",
+    "license": "MIT",
+    "repository": "sindresorhus/transliterate"
+  },
+  {
+    "name": "@sindresorhus/slugify",
+    "version": "3.0.1",
+    "license": "MIT",
+    "dependencies": {
+      "@sindresorhus/transliterate": "^2.0.0",
+      "escape-string-regexp": "^5.0.0"
+    },
+    "repository": "sindresorhus/slugify"
+  },
+  {
+    "name": "slugify",
+    "version": "1.6.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simov/slugify.git"
+    }
+  },
+  {
+    "name": "slug",
+    "version": "12.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Trott/slug.git"
+    }
+  },
+  {
+    "name": "speakingurl",
+    "version": "14.0.1",
+    "license": "BSD-3-Clause",
+    "licenses": [
+      {
+        "type": "BSD",
+        "url": "https://raw.github.com/pid/speakingurl/master/LICENSE"
+      }
+    ],
+    "dependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pid/speakingurl.git"
+    }
+  },
+  {
+    "name": "limax",
+    "version": "4.2.3",
+    "license": "Apache-2.0",
+    "dependencies": {
+      "hepburn": "^1.2.2",
+      "pinyin-pro": "^3.27.0",
+      "speakingurl": "^14.0.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/lovell/limax.git"
+    }
+  },
+  {
+    "name": "unidecode",
+    "version": "1.1.0",
+    "licenses": [
+      {
+        "type": "BSD",
+        "url": "https://github.com/FGRibreau/node-unidecode/blob/master/LICENSE"
+      }
+    ],
+    "repository": "git@github.com:FGRibreau/node-unidecode.git"
+  }
+]

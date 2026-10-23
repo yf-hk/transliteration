@@ -1,0 +1,100 @@
+{
+  "side": "before",
+  "runtime": "v26.5.0",
+  "profiledCalls": 150000,
+  "warmupCalls": 10000,
+  "checksum": 6960000,
+  "totalSamples": 1825,
+  "top": [
+    {
+      "name": "slugify (../../../../src/common/slugify.ts:42)",
+      "samples": 458,
+      "share": 0.25095890410958904
+    },
+    {
+      "name": "deepClone (../../../../src/common/utils.ts:44)",
+      "samples": 380,
+      "share": 0.20821917808219179
+    },
+    {
+      "name": "regexpReplaceCustom (../../../../src/common/utils.ts:160)",
+      "samples": 294,
+      "share": 0.1610958904109589
+    },
+    {
+      "name": "codeMapReplace (../../../../src/common/transliterate.ts:71)",
+      "samples": 258,
+      "share": 0.14136986301369864
+    },
+    {
+      "name": "transliterate (../../../../src/common/transliterate.ts:216)",
+      "samples": 151,
+      "share": 0.08273972602739726
+    },
+    {
+      "name": "escapeRegExp (../../../../src/common/utils.ts:21)",
+      "samples": 112,
+      "share": 0.06136986301369863
+    },
+    {
+      "name": "(garbage collector) ()",
+      "samples": 88,
+      "share": 0.04821917808219178
+    },
+    {
+      "name": "(program) ()",
+      "samples": 49,
+      "share": 0.02684931506849315
+    },
+    {
+      "name": "(anonymous) (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-minimal/profile-worker.mjs)",
+      "samples": 29,
+      "share": 0.01589041095890411
+    },
+    {
+      "name": "inRange (../../../../src/common/utils.ts:128)",
+      "samples": 13,
+      "share": 0.007123287671232876
+    },
+    {
+      "name": "get options (../../../../src/common/slugify.ts:19)",
+      "samples": 13,
+      "share": 0.007123287671232876
+    },
+    {
+      "name": "(anonymous) (../../../../src/common/slugify.ts:60)",
+      "samples": 6,
+      "share": 0.0032876712328767125
+    },
+    {
+      "name": "hasChinese (../../../../src/common/utils.ts:28)",
+      "samples": 4,
+      "share": 0.002191780821917808
+    },
+    {
+      "name": "findStrOccurrences (../../../../src/common/utils.ts:74)",
+      "samples": 3,
+      "share": 0.0016438356164383563
+    },
+    {
+      "name": "formatReplaceOption (../../../../src/common/transliterate.ts:142)",
+      "samples": 1,
+      "share": 0.000547945205479452
+    },
+    {
+      "name": "(root) ()",
+      "samples": 0,
+      "share": 0
+    },
+    {
+      "name": "post (file:///Users/administrator/Projects/Open%20Source/transliteration/repo/research/2026-10-23-slugify-minimal/profile-worker.mjs)",
+      "samples": 0,
+      "share": 0
+    },
+    {
+      "name": "post (node:inspector)",
+      "samples": 0,
+      "share": 0
+    }
+  ]
+}

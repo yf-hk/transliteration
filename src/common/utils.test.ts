@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'bun:test';
 import {
   deepClone,
   escapeRegExp,
@@ -145,6 +145,24 @@ describe('inRange()', () => {
 });
 
 describe('regexpReplaceCustom', () => {
+  it('keeps replacement strings literal when nothing is ignored', () => {
+    expect(regexpReplaceCustom('aba', /a/g, '$&$$$1')).toBe('$&$$$1b$&$$$1');
+    expect(regexpReplaceCustom('aba', /a/g, '$&', ['missing'])).toBe('$&b$&');
+  });
+
+  it('advances zero-width Unicode matches and preserves caller regex state', () => {
+    const pattern = /(?:)/gu;
+    pattern.lastIndex = 2;
+    expect(regexpReplaceCustom('🚀a', pattern, '|')).toBe('|🚀|a|');
+    expect(pattern.lastIndex).toBe(2);
+    expect(regexpReplaceCustom('a😀b', /(?:)/, '-')).toBe(
+      '-a-\ud83d-\ude00-b-'
+    );
+    expect(regexpReplaceCustom('aa', /(?<=a)/, '-')).toBe('a-a-');
+    expect(regexpReplaceCustom('aab', /a/y, '-')).toBe('--b');
+    expect(regexpReplaceCustom('baab', /a/y, '-')).toBe('baab');
+  });
+
   it('should replace with custom regexp', () => {
     expect(
       regexpReplaceCustom('abc!(!!$!#!##!def', /[^a-zA-Z0-9-_.~]+/g, '-', [
@@ -195,6 +213,39 @@ describe('regexpReplaceCustom', () => {
 });
 
 describe('deepClone', () => {
+  it('clones own __proto__ properties as data without changing prototypes', () => {
+    const source = JSON.parse(
+      '{"__proto__":{"polluted":true},"constructor":{"prototype":{"polluted":true}},"nested":{"__proto__":"literal"}}'
+    );
+    const cloned = deepClone(source);
+    expect(Object.getPrototypeOf(cloned)).toBe(Object.prototype);
+    expect(Object.getPrototypeOf(cloned.nested)).toBe(Object.prototype);
+    expect(Object.getOwnPropertyDescriptor(cloned, '__proto__')).toEqual({
+      value: { polluted: true },
+      writable: true,
+      enumerable: true,
+      configurable: true,
+    });
+    expect(
+      Object.getOwnPropertyDescriptor(cloned.nested, '__proto__')?.value
+    ).toBe('literal');
+    expect(cloned).toEqual(source);
+    expect(cloned.polluted).toBeUndefined();
+    expect(Object.hasOwn(Object.prototype, 'polluted')).toBe(false);
+    const original = Object.getOwnPropertyDescriptor(
+      source,
+      '__proto__'
+    )?.value;
+    original.polluted = false;
+    source.constructor.prototype.polluted = false;
+    expect(Object.getOwnPropertyDescriptor(cloned, '__proto__')?.value).toEqual(
+      {
+        polluted: true,
+      }
+    );
+    expect(cloned.constructor.prototype.polluted).toBe(true);
+  });
+
   it('should deep clone objects', () => {
     const o = { a: 'b' };
     const a = ['a'];

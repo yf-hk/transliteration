@@ -1,0 +1,111 @@
+{
+  "transliteration": {
+    "id": "transliteration@2.6.2",
+    "name": "transliteration",
+    "version": "2.6.2",
+    "size": 552890,
+    "unpackedSize": 2490157,
+    "shasum": "fcb607cb0bdbe7876d5a1a6f486954e2e73cbb23",
+    "integrity": "sha512-ntrWQ/AoJQ2gxWY028TAUkS+TUhoaFRUCAqsx6WEyS4mWPX948WK5VE2i8ToKkSOHakGSYMXG26Ej19NDS2Z8A==",
+    "filename": "transliteration-2.6.2.tgz",
+    "files": [
+      {
+        "path": "LICENSE.txt",
+        "size": 1068,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 12853,
+        "mode": 420
+      },
+      {
+        "path": "dist/bin/slugify",
+        "size": 188810,
+        "mode": 493
+      },
+      {
+        "path": "dist/bin/transliterate",
+        "size": 188583,
+        "mode": 493
+      },
+      {
+        "path": "dist/browser/bundle.esm.min.js",
+        "size": 185897,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.esm.min.js.map",
+        "size": 439215,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.umd.min.js",
+        "size": 186177,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/bundle.umd.min.js.map",
+        "size": 439230,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.esm.min.js",
+        "size": 16992,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.esm.min.js.map",
+        "size": 54134,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.umd.min.js",
+        "size": 17304,
+        "mode": 420
+      },
+      {
+        "path": "dist/browser/latin.umd.min.js.map",
+        "size": 54147,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.d.ts",
+        "size": 3040,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.js",
+        "size": 185939,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/index.js.map",
+        "size": 439972,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.d.ts",
+        "size": 3040,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.js",
+        "size": 17031,
+        "mode": 420
+      },
+      {
+        "path": "dist/node/src/node/latin.js.map",
+        "size": 54107,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2618,
+        "mode": 420
+      }
+    ],
+    "entryCount": 19,
+    "bundled": []
+  }
+}

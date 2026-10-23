@@ -1,0 +1,105 @@
+TAP version 13
+# Subtest: packed installation has no runtime dependencies
+ok 1 - packed installation has no runtime dependencies
+  ---
+  duration_ms: 4.709703
+  ...
+# Subtest: packed metadata preserves Node, browser, CDN, and legacy entry points
+ok 2 - packed metadata preserves Node, browser, CDN, and legacy entry points
+  ---
+  duration_ms: 20.794016
+  ...
+# Subtest: browser export conditions resolve to the standalone ES modules
+ok 3 - browser export conditions resolve to the standalone ES modules
+  ---
+  duration_ms: 246.174104
+  ...
+# Subtest: packed root and Latin entries support Node ES module imports
+ok 4 - packed root and Latin entries support Node ES module imports
+  ---
+  duration_ms: 441.62972
+  ...
+# Subtest: packed Node executables run and report the package version
+ok 5 - packed Node executables run and report the package version
+  ---
+  duration_ms: 1658.582953
+  ...
+# Subtest: packed APIs terminate for empty regex matches and empty ignore entries
+ok 6 - packed APIs terminate for empty regex matches and empty ignore entries
+  ---
+  duration_ms: 336.711542
+  ...
+# Subtest: browser script builds expose the documented globals
+ok 7 - browser script builds expose the documented globals
+  ---
+  duration_ms: 336.244541
+  ...
+# Subtest: browser script builds support CommonJS and AMD loaders
+ok 8 - browser script builds support CommonJS and AMD loaders
+  ---
+  duration_ms: 322.642318
+  ...
+# Subtest: browser ES modules load without sibling assets or installed packages
+ok 9 - browser ES modules load without sibling assets or installed packages
+  ---
+  duration_ms: 83.138523
+  ...
+# Subtest: browser bundles include their referenced source maps
+ok 10 - browser bundles include their referenced source maps
+  ---
+  duration_ms: 33.830777
+  ...
+# Subtest: packed Node exports retain the issue fixes after data reset
+ok 11 - packed Node exports retain the issue fixes after data reset
+  ---
+  duration_ms: 69.37252
+  ...
+# Subtest: CLI booleans accept positional text and explicit false
+ok 12 - CLI booleans accept positional text and explicit false
+  ---
+  duration_ms: 2966.170346
+  ...
+# Subtest: invalid CLI boolean values produce a concise error
+ok 13 - invalid CLI boolean values produce a concise error
+  ---
+  duration_ms: 391.543749
+  ...
+# Subtest: stdin file results match whole-input API calls across read boundaries
+ok 14 - stdin file results match whole-input API calls across read boundaries
+  ---
+  duration_ms: 7883.683532
+  ...
+# Subtest: custom maps accept upper-BMP and supplementary characters and reset
+ok 15 - custom maps accept upper-BMP and supplementary characters and reset
+  ---
+  duration_ms: 133.154431
+  ...
+# Subtest: ignored whole tokens survive slug sanitization
+ok 16 - ignored whole tokens survive slug sanitization
+  ---
+  duration_ms: 4.92119
+  ...
+# Subtest: multi-character separators collapse and trim as whole strings
+ok 17 - multi-character separators collapse and trim as whole strings
+  ---
+  duration_ms: 0.577197
+  ...
+# Subtest: slug cleanup protects ignored text produced by transliteration
+ok 18 - slug cleanup protects ignored text produced by transliteration
+  ---
+  duration_ms: 0.628694
+  ...
+# Subtest: Latin builds are small and retain Latin data on reset
+ok 19 - Latin builds are small and retain Latin data on reset
+  ---
+  duration_ms: 4.675137
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 17136.705062

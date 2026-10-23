@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "d1be1f35e48911b00377dcf5efd299aa74d50000",
+  "dataSha256": "5f73d742afe15b135b27a9c537d302d1eaa124fe4e393c8d239b77fbcf7373bd",
+  "method": "Exhaustive BMP lookup and exact materialized-object comparison against the current generated data/charmap.ts bundled in memory with esbuild.",
+  "scope": "Mapper representation parity only. End-to-end config, ignore, replacements, custom mappings and spacing require root integration verification.",
+  "results": [
+    {
+      "variant": "pooled-offsets-memo",
+      "bmpLookupsCompared": 65536,
+      "materializedMappings": 42006,
+      "supplementaryMissCases": 4,
+      "passed": true
+    },
+    {
+      "variant": "packed12-hangul-prefix",
+      "bmpLookupsCompared": 65536,
+      "materializedMappings": 42006,
+      "supplementaryMissCases": 4,
+      "passed": true
+    },
+    {
+      "variant": "packed12-codepoints",
+      "bmpLookupsCompared": 65536,
+      "materializedMappings": 42006,
+      "supplementaryMissCases": 4,
+      "passed": true
+    },
+    {
+      "variant": "packed12-codepoints-target",
+      "bmpLookupsCompared": 65536,
+      "materializedMappings": 42006,
+      "supplementaryMissCases": 4,
+      "passed": true
+    }
+  ]
+}

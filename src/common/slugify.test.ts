@@ -1,9 +1,24 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'bun:test';
 import { slugify } from '../node';
 import type { OptionsSlugify } from '../types';
 import { defaultOptions } from './slugify';
 
 describe('slugify()', () => {
+  it('normalizes adjacent default separators while preserving allowed punctuation', () => {
+    expect(slugify('--foo--- ! --bar-._~--')).toBe('foo-bar-._~');
+    expect(slugify('---')).toBe('');
+    expect(slugify('._~')).toBe('._~');
+    expect(slugify(' hello ', { separator: undefined })).toBe('-hello-');
+  });
+
+  it('preserves errors for non-iterable ignored values', () => {
+    for (const ignore of [{}, 0, { length: 0 }]) {
+      expect(() =>
+        Reflect.apply(slugify, undefined, ['a ! b', { ignore }])
+      ).toThrow(TypeError);
+    }
+  });
+
   it('should generate slugs correctly', () => {
     const tests: [string, OptionsSlugify | undefined, string][] = [
       ['你好, 世界!', {}, 'ni-hao-shi-jie'],

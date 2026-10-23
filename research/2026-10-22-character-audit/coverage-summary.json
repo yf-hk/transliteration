@@ -1,0 +1,39 @@
+{
+  "source": "data/data.json",
+  "sha256": "ed678e3d8e46f7976e32187e9c0d2231ce19a128e4807d2d700380129a11588d",
+  "naming_library_unicode_version": "16.0.0",
+  "pages": 176,
+  "slots": 45056,
+  "states": {
+    "nonempty": 40258,
+    "empty": 1745,
+    "null": 3053
+  },
+  "partitions": {
+    "alphabetic": {
+      "nonempty": 4814,
+      "empty": 312,
+      "null": 1530
+    },
+    "cjk": {
+      "nonempty": 21766,
+      "empty": 35,
+      "null": 727
+    },
+    "fullwidth": {
+      "null": 17,
+      "nonempty": 221,
+      "empty": 2
+    },
+    "korean": {
+      "nonempty": 11172
+    },
+    "symbols": {
+      "nonempty": 2285,
+      "empty": 1396,
+      "null": 779
+    }
+  },
+  "hangul_unicode_name_mismatches": 0,
+  "hangul_conditional_rr_onset_vowel_differences": 3192
+}

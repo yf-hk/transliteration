@@ -1,0 +1,30 @@
+{
+  "assertions": 669040,
+  "report": [
+    {
+      "id": "prototype-pooled-offsets-memo",
+      "assertions": 133808,
+      "passed": true
+    },
+    {
+      "id": "prototype-packed12-hangul-prefix",
+      "assertions": 133808,
+      "passed": true
+    },
+    {
+      "id": "prototype-packed12-codepoints",
+      "assertions": 133808,
+      "passed": true
+    },
+    {
+      "id": "prototype-packed12-optimized",
+      "assertions": 133808,
+      "passed": true
+    },
+    {
+      "id": "prototype-packed12-linear-spacing",
+      "assertions": 133808,
+      "passed": true
+    }
+  ]
+}

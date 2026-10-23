@@ -1,0 +1,128 @@
+name,original_codes,normalized_entry_id,status,capability_details
+Afrikaans,af,af,official,{}
+Albanian,sq,sq,official,{}
+Amharic,am,am,experimental,{}
+Arabic (Saudi Arabia),ar-SA,ar-SA,official,{}
+Arabic,ar,ar,official,{}
+Armenian,hy,hy,experimental,{}
+Azerbaijani,az,az,official,{}
+Basque,eu,eu,experimental,{}
+Belarusian,be,be,official,{}
+Bengali (India),bn-IN,bn-IN,official,{}
+Bengali,bn,bn,official,{}
+Bosnian (Cyrillic),bs-Cyrl,bs-Cyrl,official,{}
+Bosnian,bs,bs,official,{}
+Bulgarian,bg,bg,official,{}
+Burmese,my,my,official,{}
+Catalan,ca,ca,official,{}
+Chinese (China),zh-CN,zh-CN,official,{}
+Chinese (Hong Kong),zh-HK,zh-HK,official,{}
+Chinese (Simplified),zh-Hans,zh-Hans,official,{}
+Chinese (Taiwan),zh-TW,zh-TW,official,{}
+Chinese (Traditional),zh-Hant,zh-Hant,official,{}
+Chinese,zh,zh,official,{}
+Croatian,hr,hr,official,{}
+Czech,cs,cs,official,{}
+Danish,da,da,official,{}
+Dutch (Belgium),nl-BE,nl-BE,official,{}
+Dutch,nl,nl,official,{}
+English (Australia),en-AU,en-AU,official,{}
+English (Canada),en-CA,en-CA,official,{}
+English (New Zealand),en-NZ,en-NZ,official,{}
+English (Philippines),en-PH,en-PH,official,{}
+English (South Africa),en-ZA,en-ZA,official,{}
+English (United Kingdom),en-GB,en-GB,official,{}
+English (United States),en-US,en-US,official,{}
+English,en,en,official,{}
+Estonian,et,et,official,{}
+Filipino,fil,fil,official,{}
+Finnish,fi,fi,official,{}
+French (Canada),fr-CA,fr-CA,official,{}
+French (Switzerland),fr-CH,fr-CH,official,{}
+French,fr,fr,official,{}
+Frisian,fy,fy,official,{}
+Galician,gl,gl,official,{}
+Georgian,ka,ka,official,{}
+German,de,de,official,{}
+Greek,el,el,official,{}
+Guarani,gn,gn,official,{}
+Gujarati,gu,gu,official,{}
+Hausa,ha,ha,experimental,{}
+Hebrew,he,he,official,{}
+Hebrew,iw,he,official,{}
+Hindi,hi,hi,official,{}
+Hungarian,hu,hu,official,{}
+Icelandic,is,is,official,{}
+Igbo,ig,ig,experimental,{}
+Indonesian,id,id,official,{}
+Irish,ga,ga,experimental,{}
+Italian,it,it,official,{}
+Japanese,ja,ja,official,{}
+Kannada,kn,kn,official,{}
+Khmer,km,km,official,{}
+Korean,ko,ko,official,{}
+Kyrgyz,ky,ky,official,{}
+Lao,lo,lo,official,{}
+Latvian,lv,lv,official,{}
+Lingala,ln,ln,official,{}
+Lithuanian,lt,lt,official,{}
+Luxembourgish,lb,lb,experimental,{}
+Macedonian,mk,mk,official,{}
+Malay,ms,ms,official,{}
+Malayalam,ml,ml,official,{}
+Maltese,mt,mt,experimental,{}
+Marathi,mr,mr,official,{}
+Mongolian,mn,mn,experimental,{}
+Nepali,ne,ne,official,{}
+Norwegian Bokmal,nb,nb,official,{}
+Norwegian,no,no,official,{}
+Odia,or,or,experimental,{}
+Persian,fa,fa,official,{}
+Polish,pl,pl,official,{}
+Portuguese (Brazil),pt-BR,pt-BR,official,{}
+Portuguese (Portugal),pt-PT,pt-PT,official,{}
+Portuguese,pt,pt,official,{}
+Punjabi (Pakistan),pa-PK,pa-PK,official,{}
+Punjabi,pa,pa,official,{}
+Romanian,ro,ro,official,{}
+Russian,ru,ru,official,{}
+Scots Gaelic,gd,gd,experimental,{}
+Serbian,sr,sr,experimental,{}
+Slovak,sk,sk,official,{}
+Slovenian,sl,sl,official,{}
+Somali,so,so,experimental,{}
+Spanish (Argentina),es-AR,es-AR,official,{}
+Spanish (Chile),es-CL,es-CL,official,{}
+Spanish (Colombia),es-CO,es-CO,official,{}
+Spanish (Costa Rica),es-CR,es-CR,official,{}
+Spanish (Ecuador),es-EC,es-EC,official,{}
+Spanish (El Salvador),es-SV,es-SV,official,{}
+Spanish (Guatemala),es-GT,es-GT,official,{}
+Spanish (Haiti),es-HT,es-HT,official,{}
+Spanish (Honduras),es-HN,es-HN,official,{}
+Spanish (Latin America),es-419,es-419,official,{}
+Spanish (Mexico),es-MX,es-MX,official,{}
+Spanish (Nicaragua),es-NI,es-NI,official,{}
+Spanish (Panama),es-PA,es-PA,official,{}
+Spanish (Paraguay),es-PY,es-PY,official,{}
+Spanish (Peru),es-PE,es-PE,official,{}
+Spanish (Puerto Rico),es-PR,es-PR,official,{}
+Spanish (Spain),es-ES,es-ES,official,{}
+Spanish (United States),es-US,es-US,official,{}
+Spanish (Uruguay),es-UY,es-UY,official,{}
+Spanish (Venezuela),es-VE,es-VE,official,{}
+Spanish,es,es,official,{}
+Swahili,sw,sw,official,{}
+Swedish,sv,sv,official,{}
+Tagalog,tl,fil,official,{}
+Tajik,tg,tg,experimental,{}
+Tamil,ta,ta,official,{}
+Telugu,te,te,official,{}
+Thai,th,th,official,{}
+Turkish,tr,tr,official,{}
+Ukrainian,uk,uk,official,{}
+Urdu,ur,ur,official,{}
+Uzbek,uz,uz,official,{}
+Vietnamese,vi,vi,official,{}
+Welsh,cy,cy,official,{}
+Zulu,zu,zu,official,{}

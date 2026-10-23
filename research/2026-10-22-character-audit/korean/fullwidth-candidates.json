@@ -1,0 +1,112 @@
+[
+  {
+    "codepoint": "U+FF61",
+    "char": "｡",
+    "name": "HALFWIDTH IDEOGRAPHIC FULL STOP",
+    "current": ".",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "。",
+    "normalized_mapping": ". ",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FF63",
+    "char": "｣",
+    "name": "HALFWIDTH RIGHT CORNER BRACKET",
+    "current": "]",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "」",
+    "normalized_mapping": "] ",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FF65",
+    "char": "･",
+    "name": "HALFWIDTH KATAKANA MIDDLE DOT",
+    "current": "*",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "・",
+    "normalized_mapping": "",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FF70",
+    "char": "ｰ",
+    "name": "HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+    "current": "+",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "ー",
+    "normalized_mapping": "",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FF9E",
+    "char": "ﾞ",
+    "name": "HALFWIDTH KATAKANA VOICED SOUND MARK",
+    "current": ":",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "゙",
+    "normalized_mapping": "",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FF9F",
+    "char": "ﾟ",
+    "name": "HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK",
+    "current": ";",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "゚",
+    "normalized_mapping": "",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FFE0",
+    "char": "￠",
+    "name": "FULLWIDTH CENT SIGN",
+    "current": "/C",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "¢",
+    "normalized_mapping": "C/",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FFE3",
+    "char": "￣",
+    "name": "FULLWIDTH MACRON",
+    "current": "-",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": " ̄",
+    "normalized_mapping": " ",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FFE6",
+    "char": "￦",
+    "name": "FULLWIDTH WON SIGN",
+    "current": "W=",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "₩",
+    "normalized_mapping": "W",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  },
+  {
+    "codepoint": "U+FFEE",
+    "char": "￮",
+    "name": "HALFWIDTH WHITE CIRCLE",
+    "current": "O",
+    "partition": "fullwidth",
+    "state": "nonempty",
+    "normalized": "○",
+    "normalized_mapping": "*",
+    "classification": "normalization inconsistency; requires scheme/context judgment"
+  }
+]
