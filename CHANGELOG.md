@@ -1,8 +1,6 @@
 # Changelog
 
-## Unreleased
-
-## 2.7.0 - 2026-10-23
+## 2.7.0
 
 - Improve transliteration and slugify performance, especially for ASCII and Latin input.
 - Add repeatable cross-library benchmarks and expand build and release workflow checks.
