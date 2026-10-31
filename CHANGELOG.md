@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+## 2.7.0 - 2026-10-23
+
+- Improve transliteration and slugify performance, especially for ASCII and Latin input.
+- Add repeatable cross-library benchmarks and expand build and release workflow checks.
 - Fix `Ý` mapping to `Y` instead of `U` (#107).
 - Preserve explicit empty mappings in generated data and `setData()`, including when `unknown` is set (#246).
 - Add mappings for `ẞ`, `ᴀ`, `ₐ` and `①` in full and Latin builds (#256).
